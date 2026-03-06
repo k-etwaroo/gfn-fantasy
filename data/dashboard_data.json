@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T09:59:49.748957",
+  "generated_at": "2026-03-06T13:37:31.198627",
   "seasons_count": 15,
   "champions": [
     {
@@ -124,103 +124,22 @@
     }
   ],
   "owner_stats": {
-    "Tony": {
-      "wins": 47,
-      "losses": 36,
-      "pts_for": 9708.36,
-      "pts_against": 9386.15,
-      "titles": 1,
-      "seasons": 6,
-      "playoff_appearances": 3
-    },
-    "Chris D": {
-      "wins": 94,
-      "losses": 106,
-      "pts_for": 22303.36,
-      "pts_against": 23057.390000000007,
-      "titles": 0,
-      "seasons": 15,
-      "playoff_appearances": 4
-    },
-    "Lee": {
-      "wins": 112,
-      "losses": 88,
-      "pts_for": 24127.74,
-      "pts_against": 22777.229999999996,
-      "titles": 3,
-      "seasons": 15,
-      "playoff_appearances": 9
-    },
-    "Hidden": {
-      "wins": 7,
-      "losses": 6,
-      "pts_for": 1562.3,
-      "pts_against": 1500.1000000000001,
-      "titles": 0,
-      "seasons": 1,
-      "playoff_appearances": 1
-    },
-    "Tom": {
-      "wins": 14,
-      "losses": 25,
-      "pts_for": 4303.5,
-      "pts_against": 4586.32,
-      "titles": 0,
-      "seasons": 3,
-      "playoff_appearances": 0
-    },
-    "Edward": {
-      "wins": 99,
-      "losses": 101,
-      "pts_for": 23247.95,
-      "pts_against": 23271.789999999997,
+    "Kenneth": {
+      "wins": 96,
+      "losses": 104,
+      "pts_for": 22579.14,
+      "pts_against": 23025.640000000003,
       "titles": 1,
       "seasons": 15,
       "playoff_appearances": 5
     },
-    "Peter": {
-      "wins": 106,
-      "losses": 81,
-      "pts_for": 22524.8,
-      "pts_against": 21507.239999999998,
-      "titles": 4,
-      "seasons": 14,
-      "playoff_appearances": 5
-    },
-    "Chris M": {
-      "wins": 5,
-      "losses": 8,
-      "pts_for": 1513.87,
-      "pts_against": 1572.78,
+    "Chris": {
+      "wins": 8,
+      "losses": 5,
+      "pts_for": 1476.68,
+      "pts_against": 1430.2200000000003,
       "titles": 0,
       "seasons": 1,
-      "playoff_appearances": 0
-    },
-    "Chad": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Scott": {
-      "wins": 54,
-      "losses": 63,
-      "pts_for": 13547.82,
-      "pts_against": 13966.41,
-      "titles": 0,
-      "seasons": 9,
-      "playoff_appearances": 0
-    },
-    "Tim": {
-      "wins": 13,
-      "losses": 13,
-      "pts_for": 3147.7200000000003,
-      "pts_against": 3192.09,
-      "titles": 0,
-      "seasons": 2,
       "playoff_appearances": 1
     },
     "Kevin2": {
@@ -232,23 +151,23 @@
       "seasons": 9,
       "playoff_appearances": 3
     },
-    "Hidden2": {
-      "wins": 19,
-      "losses": 20,
-      "pts_for": 4871.92,
-      "pts_against": 4663.22,
+    "Steve M": {
+      "wins": 11,
+      "losses": 15,
+      "pts_for": 2981.23,
+      "pts_against": 3197.1800000000003,
       "titles": 0,
-      "seasons": 3,
+      "seasons": 2,
       "playoff_appearances": 0
     },
-    "Joshua": {
-      "wins": 34,
-      "losses": 36,
-      "pts_for": 7925.920000000001,
-      "pts_against": 7968.079999999999,
-      "titles": 1,
-      "seasons": 5,
-      "playoff_appearances": 3
+    "Chris M": {
+      "wins": 5,
+      "losses": 8,
+      "pts_for": 1513.87,
+      "pts_against": 1572.78,
+      "titles": 0,
+      "seasons": 1,
+      "playoff_appearances": 0
     },
     "Steph": {
       "wins": 72,
@@ -259,7 +178,115 @@
       "seasons": 11,
       "playoff_appearances": 4
     },
-    "Christian": {
+    "Jeff": {
+      "wins": 95,
+      "losses": 92,
+      "pts_for": 21555.28,
+      "pts_against": 21308.730000000003,
+      "titles": 0,
+      "seasons": 14,
+      "playoff_appearances": 5
+    },
+    "Scott": {
+      "wins": 54,
+      "losses": 63,
+      "pts_for": 13547.82,
+      "pts_against": 13966.41,
+      "titles": 0,
+      "seasons": 9,
+      "playoff_appearances": 0
+    },
+    "Peter": {
+      "wins": 106,
+      "losses": 81,
+      "pts_for": 22524.8,
+      "pts_against": 21507.239999999998,
+      "titles": 4,
+      "seasons": 14,
+      "playoff_appearances": 5
+    },
+    "Kevin": {
+      "wins": 90,
+      "losses": 110,
+      "pts_for": 22061.4,
+      "pts_against": 23057.499999999996,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 4
+    },
+    "Tony": {
+      "wins": 47,
+      "losses": 36,
+      "pts_for": 9708.36,
+      "pts_against": 9386.15,
+      "titles": 1,
+      "seasons": 6,
+      "playoff_appearances": 3
+    },
+    "Mike": {
+      "wins": 74,
+      "losses": 74,
+      "pts_for": 16943.829999999998,
+      "pts_against": 16572.87,
+      "titles": 0,
+      "seasons": 11,
+      "playoff_appearances": 3
+    },
+    "Joshua": {
+      "wins": 34,
+      "losses": 36,
+      "pts_for": 7925.920000000001,
+      "pts_against": 7968.079999999999,
+      "titles": 1,
+      "seasons": 5,
+      "playoff_appearances": 3
+    },
+    "Tim": {
+      "wins": 13,
+      "losses": 13,
+      "pts_for": 3147.7200000000003,
+      "pts_against": 3192.09,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 1
+    },
+    "Christopher": {
+      "wins": 13,
+      "losses": 15,
+      "pts_for": 3182.6000000000004,
+      "pts_against": 3301.63,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 0
+    },
+    "Tom": {
+      "wins": 14,
+      "losses": 25,
+      "pts_for": 4303.5,
+      "pts_against": 4586.32,
+      "titles": 0,
+      "seasons": 3,
+      "playoff_appearances": 0
+    },
+    "Lee": {
+      "wins": 112,
+      "losses": 88,
+      "pts_for": 24127.74,
+      "pts_against": 22777.229999999996,
+      "titles": 3,
+      "seasons": 15,
+      "playoff_appearances": 9
+    },
+    "Steve L": {
+      "wins": 11,
+      "losses": 15,
+      "pts_for": 2855.65,
+      "pts_against": 3139.1800000000003,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 0
+    },
+    "Chad": {
       "wins": 0,
       "losses": 0,
       "pts_for": 0.0,
@@ -268,11 +295,11 @@
       "seasons": 0,
       "playoff_appearances": 0
     },
-    "Kenneth": {
-      "wins": 96,
-      "losses": 104,
-      "pts_for": 22579.14,
-      "pts_against": 23025.640000000003,
+    "Edward": {
+      "wins": 99,
+      "losses": 101,
+      "pts_for": 23247.95,
+      "pts_against": 23271.789999999997,
       "titles": 1,
       "seasons": 15,
       "playoff_appearances": 5
@@ -286,67 +313,40 @@
       "seasons": 9,
       "playoff_appearances": 4
     },
-    "Mike": {
-      "wins": 74,
-      "losses": 74,
-      "pts_for": 16943.829999999998,
-      "pts_against": 16572.87,
-      "titles": 0,
-      "seasons": 11,
-      "playoff_appearances": 3
-    },
-    "Jeff": {
-      "wins": 95,
-      "losses": 92,
-      "pts_for": 21555.28,
-      "pts_against": 21308.730000000003,
-      "titles": 0,
-      "seasons": 14,
-      "playoff_appearances": 5
-    },
-    "Kevin": {
-      "wins": 90,
-      "losses": 110,
-      "pts_for": 22061.4,
-      "pts_against": 23057.499999999996,
-      "titles": 1,
-      "seasons": 15,
-      "playoff_appearances": 4
-    },
-    "Steve L": {
-      "wins": 11,
-      "losses": 15,
-      "pts_for": 2855.65,
-      "pts_against": 3139.1800000000003,
-      "titles": 0,
-      "seasons": 2,
-      "playoff_appearances": 0
-    },
-    "Chris": {
-      "wins": 8,
-      "losses": 5,
-      "pts_for": 1476.68,
-      "pts_against": 1430.2200000000003,
+    "Hidden": {
+      "wins": 7,
+      "losses": 6,
+      "pts_for": 1562.3,
+      "pts_against": 1500.1000000000001,
       "titles": 0,
       "seasons": 1,
       "playoff_appearances": 1
     },
-    "Steve M": {
-      "wins": 11,
-      "losses": 15,
-      "pts_for": 2981.23,
-      "pts_against": 3197.1800000000003,
+    "Hidden2": {
+      "wins": 19,
+      "losses": 20,
+      "pts_for": 4871.92,
+      "pts_against": 4663.22,
       "titles": 0,
-      "seasons": 2,
+      "seasons": 3,
       "playoff_appearances": 0
     },
-    "Christopher": {
-      "wins": 13,
-      "losses": 15,
-      "pts_for": 3182.6000000000004,
-      "pts_against": 3301.63,
+    "Chris D": {
+      "wins": 94,
+      "losses": 106,
+      "pts_for": 22303.36,
+      "pts_against": 23057.390000000007,
       "titles": 0,
-      "seasons": 2,
+      "seasons": 15,
+      "playoff_appearances": 4
+    },
+    "Christian": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
       "playoff_appearances": 0
     }
   },
@@ -1476,16 +1476,16 @@
       "seasons": 15
     },
     {
-      "owner": "Jeff",
-      "avg": 0.14,
-      "total": 2.0,
-      "seasons": 14
-    },
-    {
       "owner": "Chris",
       "avg": 2.0,
       "total": 2.0,
       "seasons": 1
+    },
+    {
+      "owner": "Jeff",
+      "avg": 0.14,
+      "total": 2.0,
+      "seasons": 14
     },
     {
       "owner": "Joshua",
@@ -1663,5 +1663,1657 @@
       "pr_score": 31.5,
       "rank": 12
     }
-  ]
+  ],
+  "season_standings": {
+    "2011": [
+      {
+        "rank": 1,
+        "owner": "Lee",
+        "team": "FLIGHT BOYZ",
+        "wins": 10,
+        "losses": 3,
+        "pts_for": 1978.18,
+        "pts_against": 1633.49
+      },
+      {
+        "rank": 2,
+        "owner": "Steve M",
+        "team": "Titsburgh Feelers",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1489.52,
+        "pts_against": 1514.8200000000002
+      },
+      {
+        "rank": 3,
+        "owner": "Kevin",
+        "team": "ManningHAM n' Cheese",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1619.57,
+        "pts_against": 1464.2300000000002
+      },
+      {
+        "rank": 4,
+        "owner": "Kevin2",
+        "team": "GMEN",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1491.46,
+        "pts_against": 1527.3399999999997
+      },
+      {
+        "rank": 5,
+        "owner": "Hidden",
+        "team": "B ABES",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1562.3,
+        "pts_against": 1500.1000000000001
+      },
+      {
+        "rank": 6,
+        "owner": "Kenneth",
+        "team": "CremeOfSomeYoungGuy",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1562.32,
+        "pts_against": 1554.77
+      },
+      {
+        "rank": 7,
+        "owner": "Steve L",
+        "team": "#sanchizeSWAG",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1311.99,
+        "pts_against": 1569.5500000000002
+      },
+      {
+        "rank": 8,
+        "owner": "Jeff",
+        "team": "Team Bush",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1643.21,
+        "pts_against": 1630.05
+      },
+      {
+        "rank": 9,
+        "owner": "Scott",
+        "team": "Team Kellz",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1605.45,
+        "pts_against": 1607.25
+      },
+      {
+        "rank": 10,
+        "owner": "Chris D",
+        "team": "Swearing at Fans",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1388.99,
+        "pts_against": 1579.8999999999999
+      },
+      {
+        "rank": 11,
+        "owner": "Chris M",
+        "team": "Child Please",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1513.87,
+        "pts_against": 1572.78
+      },
+      {
+        "rank": 12,
+        "owner": "Edward",
+        "team": "Hail the Skins",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1659.42,
+        "pts_against": 1672.0
+      }
+    ],
+    "2012": [
+      {
+        "rank": 1,
+        "owner": "Lee",
+        "team": "TE-BOWNED",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1715.96,
+        "pts_against": 1504.3899999999999
+      },
+      {
+        "rank": 2,
+        "owner": "Tim",
+        "team": "Stop Drop N Rolle",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1628.23,
+        "pts_against": 1682.6699999999998
+      },
+      {
+        "rank": 3,
+        "owner": "Kenneth",
+        "team": "HappyTissues",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1637.93,
+        "pts_against": 1686.4199999999998
+      },
+      {
+        "rank": 4,
+        "owner": "Peter",
+        "team": "Rolle Tide",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1686.79,
+        "pts_against": 1434.7600000000002
+      },
+      {
+        "rank": 5,
+        "owner": "Scott",
+        "team": "Team Kellz",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1587.91,
+        "pts_against": 1414.2199999999998
+      },
+      {
+        "rank": 6,
+        "owner": "Edward",
+        "team": "MyJimShwartzAreDirty",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1525.39,
+        "pts_against": 1559.15
+      },
+      {
+        "rank": 7,
+        "owner": "Kevin",
+        "team": "ManningHAM n' Cheese",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1558.47,
+        "pts_against": 1630.38
+      },
+      {
+        "rank": 8,
+        "owner": "Chris D",
+        "team": "Gang Green",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1565.64,
+        "pts_against": 1543.8999999999999
+      },
+      {
+        "rank": 9,
+        "owner": "Steve L",
+        "team": "#sanchizeSWAG",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1543.66,
+        "pts_against": 1569.6299999999999
+      },
+      {
+        "rank": 10,
+        "owner": "Hidden2",
+        "team": "GMEN",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1487.47,
+        "pts_against": 1574.3400000000004
+      },
+      {
+        "rank": 11,
+        "owner": "Steve M",
+        "team": "Titsburgh Feelers",
+        "wins": 4,
+        "losses": 9,
+        "pts_for": 1491.71,
+        "pts_against": 1682.3600000000001
+      },
+      {
+        "rank": 12,
+        "owner": "Jeff",
+        "team": "Gangnam Style",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1494.94,
+        "pts_against": 1641.8799999999997
+      }
+    ],
+    "2013": [
+      {
+        "rank": 1,
+        "owner": "Peter",
+        "team": "Kaep N Krunch",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1539.6,
+        "pts_against": 1535.23
+      },
+      {
+        "rank": 2,
+        "owner": "Steph",
+        "team": "Titsburgh Feelers",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1867.87,
+        "pts_against": 1676.0600000000002
+      },
+      {
+        "rank": 3,
+        "owner": "Chris D",
+        "team": "Gang Green",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1618.93,
+        "pts_against": 1472.02
+      },
+      {
+        "rank": 4,
+        "owner": "Edward",
+        "team": "No LUCK Needed 4 RG3",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1721.2,
+        "pts_against": 1530.59
+      },
+      {
+        "rank": 5,
+        "owner": "Hidden2",
+        "team": "Jacob's Team",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1716.99,
+        "pts_against": 1460.0399999999997
+      },
+      {
+        "rank": 6,
+        "owner": "Kevin2",
+        "team": "THE TAMPA 2",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1577.27,
+        "pts_against": 1561.41
+      },
+      {
+        "rank": 7,
+        "owner": "Tim",
+        "team": "Stop Drop N Rolle",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1519.49,
+        "pts_against": 1509.42
+      },
+      {
+        "rank": 8,
+        "owner": "Tom",
+        "team": "Brown",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1425.81,
+        "pts_against": 1531.6299999999997
+      },
+      {
+        "rank": 9,
+        "owner": "Scott",
+        "team": "BroSwithZsameHoe",
+        "wins": 4,
+        "losses": 9,
+        "pts_for": 1437.81,
+        "pts_against": 1659.03
+      },
+      {
+        "rank": 10,
+        "owner": "Lee",
+        "team": "Buttfumblers",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1500.34,
+        "pts_against": 1582.8700000000003
+      },
+      {
+        "rank": 11,
+        "owner": "Kevin",
+        "team": "StartedFromDAbottom",
+        "wins": 4,
+        "losses": 9,
+        "pts_for": 1593.64,
+        "pts_against": 1731.3300000000002
+      },
+      {
+        "rank": 12,
+        "owner": "Kenneth",
+        "team": "BlameObama",
+        "wins": 3,
+        "losses": 10,
+        "pts_for": 1485.25,
+        "pts_against": 1754.57
+      }
+    ],
+    "2014": [
+      {
+        "rank": 1,
+        "owner": "Peter",
+        "team": "DaMaryius Targaryen",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1848.32,
+        "pts_against": 1603.1800000000003
+      },
+      {
+        "rank": 2,
+        "owner": "Jeff",
+        "team": "Jeffrey Football",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1681.95,
+        "pts_against": 1529.59
+      },
+      {
+        "rank": 3,
+        "owner": "Hidden2",
+        "team": "Jacob's Team",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1667.46,
+        "pts_against": 1628.84
+      },
+      {
+        "rank": 4,
+        "owner": "Kevin2",
+        "team": "THE TAMPA 2",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1718.49,
+        "pts_against": 1538.21
+      },
+      {
+        "rank": 5,
+        "owner": "Kevin",
+        "team": "ManningHam N' Cheese",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1583.75,
+        "pts_against": 1563.03
+      },
+      {
+        "rank": 6,
+        "owner": "Kenneth",
+        "team": "Tears of Boston",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1515.45,
+        "pts_against": 1442.8899999999999
+      },
+      {
+        "rank": 7,
+        "owner": "Tom",
+        "team": "Brown",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1528.42,
+        "pts_against": 1483.3200000000002
+      },
+      {
+        "rank": 8,
+        "owner": "Steph",
+        "team": "Titsburgh Feelers",
+        "wins": 2,
+        "losses": 11,
+        "pts_for": 1313.05,
+        "pts_against": 1605.26
+      },
+      {
+        "rank": 9,
+        "owner": "Lee",
+        "team": "Genocologist",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1525.48,
+        "pts_against": 1576.31
+      },
+      {
+        "rank": 10,
+        "owner": "Chris D",
+        "team": "Noodle Knee III",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1341.51,
+        "pts_against": 1560.6200000000001
+      },
+      {
+        "rank": 11,
+        "owner": "Scott",
+        "team": "BroSwithZsameHoe",
+        "wins": 4,
+        "losses": 9,
+        "pts_for": 1506.86,
+        "pts_against": 1589.06
+      },
+      {
+        "rank": 12,
+        "owner": "Edward",
+        "team": "Ya-Ya Smalls",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1505.11,
+        "pts_against": 1615.5400000000002
+      }
+    ],
+    "2015": [
+      {
+        "rank": 1,
+        "owner": "Kevin",
+        "team": "ManningHam N' Cheese",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1585.38,
+        "pts_against": 1465.84
+      },
+      {
+        "rank": 2,
+        "owner": "Kevin2",
+        "team": "THE TAMPA 2",
+        "wins": 10,
+        "losses": 3,
+        "pts_for": 1666.57,
+        "pts_against": 1416.05
+      },
+      {
+        "rank": 3,
+        "owner": "Steph",
+        "team": "Titsburgh Feelers",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1655.2,
+        "pts_against": 1501.5100000000002
+      },
+      {
+        "rank": 4,
+        "owner": "Chris D",
+        "team": "D'Brick House",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1612.96,
+        "pts_against": 1429.18
+      },
+      {
+        "rank": 5,
+        "owner": "Jeff",
+        "team": "Upset City",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1544.72,
+        "pts_against": 1395.03
+      },
+      {
+        "rank": 6,
+        "owner": "Scott",
+        "team": "SingleBroFucknHoes",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1566.03,
+        "pts_against": 1619.01
+      },
+      {
+        "rank": 7,
+        "owner": "Kenneth",
+        "team": "Tears of Boston",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1467.29,
+        "pts_against": 1544.52
+      },
+      {
+        "rank": 8,
+        "owner": "Edward",
+        "team": "Who?..Matt Jones",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1512.4,
+        "pts_against": 1436.96
+      },
+      {
+        "rank": 9,
+        "owner": "Peter",
+        "team": "Abdullah Oblongata",
+        "wins": 3,
+        "losses": 10,
+        "pts_for": 1392.53,
+        "pts_against": 1727.8400000000001
+      },
+      {
+        "rank": 10,
+        "owner": "Tom",
+        "team": "Brown",
+        "wins": 2,
+        "losses": 11,
+        "pts_for": 1349.27,
+        "pts_against": 1571.3699999999997
+      },
+      {
+        "rank": 11,
+        "owner": "Mike",
+        "team": "AnnexationPuertoRico",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1380.89,
+        "pts_against": 1476.85
+      },
+      {
+        "rank": 12,
+        "owner": "Lee",
+        "team": "Finding Geno",
+        "wins": 4,
+        "losses": 9,
+        "pts_for": 1445.07,
+        "pts_against": 1594.1499999999996
+      }
+    ],
+    "2016": [
+      {
+        "rank": 1,
+        "owner": "Edward",
+        "team": "My Cousin Kirk",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1558.75,
+        "pts_against": 1439.3100000000002
+      },
+      {
+        "rank": 2,
+        "owner": "Steph",
+        "team": "Titsburgh Feelers",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1515.38,
+        "pts_against": 1527.5600000000004
+      },
+      {
+        "rank": 3,
+        "owner": "Jeff",
+        "team": "Boom Squad",
+        "wins": 10,
+        "losses": 3,
+        "pts_for": 1658.87,
+        "pts_against": 1376.7399999999998
+      },
+      {
+        "rank": 4,
+        "owner": "Chris",
+        "team": "Team Romo",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1476.68,
+        "pts_against": 1430.2200000000003
+      },
+      {
+        "rank": 5,
+        "owner": "Chris D",
+        "team": "Zeke-a Virus",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1544.7,
+        "pts_against": 1480.42
+      },
+      {
+        "rank": 6,
+        "owner": "Peter",
+        "team": "Ya down with O.T.T",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1533.07,
+        "pts_against": 1435.6399999999999
+      },
+      {
+        "rank": 7,
+        "owner": "Mike",
+        "team": "AnnexationPuertoRico",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1502.92,
+        "pts_against": 1534.43
+      },
+      {
+        "rank": 8,
+        "owner": "Lee",
+        "team": "Fitzmagic",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1498.11,
+        "pts_against": 1390.24
+      },
+      {
+        "rank": 9,
+        "owner": "Kevin2",
+        "team": "THE TAMPA 2",
+        "wins": 2,
+        "losses": 11,
+        "pts_for": 1288.37,
+        "pts_against": 1572.9599999999998
+      },
+      {
+        "rank": 10,
+        "owner": "Kenneth",
+        "team": "Watch the Throne \ud83d\udc40",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1370.78,
+        "pts_against": 1415.0099999999998
+      },
+      {
+        "rank": 11,
+        "owner": "Scott",
+        "team": "SingleBroFucknHoes",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1464.36,
+        "pts_against": 1463.23
+      },
+      {
+        "rank": 12,
+        "owner": "Kevin",
+        "team": "ManningHam N' Cheese",
+        "wins": 3,
+        "losses": 10,
+        "pts_for": 1206.8,
+        "pts_against": 1553.0300000000002
+      }
+    ],
+    "2017": [
+      {
+        "rank": 1,
+        "owner": "Kenneth",
+        "team": "FIGJAM",
+        "wins": 11,
+        "losses": 2,
+        "pts_for": 1647.95,
+        "pts_against": 1263.35
+      },
+      {
+        "rank": 2,
+        "owner": "Brian",
+        "team": "Flutie n da Blowfish",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1507.71,
+        "pts_against": 1393.53
+      },
+      {
+        "rank": 3,
+        "owner": "Peter",
+        "team": "Ottoman Empire",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1393.26,
+        "pts_against": 1421.82
+      },
+      {
+        "rank": 4,
+        "owner": "Jeff",
+        "team": "Boom Squad",
+        "wins": 10,
+        "losses": 3,
+        "pts_for": 1549.19,
+        "pts_against": 1296.3700000000001
+      },
+      {
+        "rank": 5,
+        "owner": "Scott",
+        "team": "SingleBroFucknHoes",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1423.5,
+        "pts_against": 1501.3
+      },
+      {
+        "rank": 6,
+        "owner": "Lee",
+        "team": "mCLOWN n HACKnberg",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1457.82,
+        "pts_against": 1259.0499999999997
+      },
+      {
+        "rank": 7,
+        "owner": "Mike",
+        "team": "Just-End-The-Season",
+        "wins": 4,
+        "losses": 9,
+        "pts_for": 1130.03,
+        "pts_against": 1357.75
+      },
+      {
+        "rank": 8,
+        "owner": "Edward",
+        "team": "NE Clam Crowder",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1208.31,
+        "pts_against": 1357.6499999999999
+      },
+      {
+        "rank": 9,
+        "owner": "Chris D",
+        "team": "Petes nOTT Good",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1260.05,
+        "pts_against": 1405.38
+      },
+      {
+        "rank": 10,
+        "owner": "Kevin",
+        "team": "ManningHam N' Cheese",
+        "wins": 4,
+        "losses": 9,
+        "pts_for": 1232.46,
+        "pts_against": 1350.66
+      },
+      {
+        "rank": 11,
+        "owner": "Steph",
+        "team": "Titsburgh Feelers",
+        "wins": 4,
+        "losses": 9,
+        "pts_for": 1371.71,
+        "pts_against": 1485.7199999999998
+      },
+      {
+        "rank": 12,
+        "owner": "Kevin2",
+        "team": "THE TAMPA 2",
+        "wins": 4,
+        "losses": 9,
+        "pts_for": 1397.41,
+        "pts_against": 1486.8200000000002
+      }
+    ],
+    "2018": [
+      {
+        "rank": 1,
+        "owner": "Steph",
+        "team": "Titsburgh Feelers",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1783.04,
+        "pts_against": 1438.6600000000003
+      },
+      {
+        "rank": 2,
+        "owner": "Edward",
+        "team": "NE Clam Crowder",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1692.83,
+        "pts_against": 1552.02
+      },
+      {
+        "rank": 3,
+        "owner": "Mike",
+        "team": "Just-End-The-Season",
+        "wins": 10,
+        "losses": 3,
+        "pts_for": 1972.34,
+        "pts_against": 1585.07
+      },
+      {
+        "rank": 4,
+        "owner": "Scott",
+        "team": "Who?ScottyKellz",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1385.11,
+        "pts_against": 1540.2100000000003
+      },
+      {
+        "rank": 5,
+        "owner": "Lee",
+        "team": "Hey dArnold!",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1573.3,
+        "pts_against": 1462.14
+      },
+      {
+        "rank": 6,
+        "owner": "Peter",
+        "team": "Ottoman Empire",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1709.77,
+        "pts_against": 1493.17
+      },
+      {
+        "rank": 7,
+        "owner": "Jeff",
+        "team": "Boom Squad",
+        "wins": 1,
+        "losses": 12,
+        "pts_for": 1290.45,
+        "pts_against": 1649.2399999999998
+      },
+      {
+        "rank": 8,
+        "owner": "Kevin",
+        "team": "ManningHam N' Cheese",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1311.99,
+        "pts_against": 1445.8799999999997
+      },
+      {
+        "rank": 9,
+        "owner": "Kevin2",
+        "team": "THE TAMPA 2",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1614.0,
+        "pts_against": 1606.5700000000002
+      },
+      {
+        "rank": 10,
+        "owner": "Chris D",
+        "team": "New Jack City",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1519.46,
+        "pts_against": 1432.2499999999998
+      },
+      {
+        "rank": 11,
+        "owner": "Kenneth",
+        "team": "FIGJAM",
+        "wins": 2,
+        "losses": 11,
+        "pts_for": 1125.77,
+        "pts_against": 1589.48
+      },
+      {
+        "rank": 12,
+        "owner": "Brian",
+        "team": "Flutie n da Blowfish",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1413.44,
+        "pts_against": 1596.8100000000002
+      }
+    ],
+    "2019": [
+      {
+        "rank": 1,
+        "owner": "Peter",
+        "team": "Ottoman Empire",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1423.23,
+        "pts_against": 1514.44
+      },
+      {
+        "rank": 2,
+        "owner": "Mike",
+        "team": "Just-End-The-Season",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1573.93,
+        "pts_against": 1345.0
+      },
+      {
+        "rank": 3,
+        "owner": "Kenneth",
+        "team": "FIGJAM",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1523.77,
+        "pts_against": 1445.6100000000001
+      },
+      {
+        "rank": 4,
+        "owner": "Jeff",
+        "team": "Boom Squad",
+        "wins": 10,
+        "losses": 3,
+        "pts_for": 1551.63,
+        "pts_against": 1315.78
+      },
+      {
+        "rank": 5,
+        "owner": "Lee",
+        "team": "Darn'old Jets",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1599.49,
+        "pts_against": 1440.4599999999998
+      },
+      {
+        "rank": 6,
+        "owner": "Steph",
+        "team": "Titsburgh Feelers",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1549.64,
+        "pts_against": 1301.47
+      },
+      {
+        "rank": 7,
+        "owner": "Kevin2",
+        "team": "THE TAMPA 2",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1354.76,
+        "pts_against": 1516.98
+      },
+      {
+        "rank": 8,
+        "owner": "Chris D",
+        "team": "Got a Chubb-ie",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1493.56,
+        "pts_against": 1601.6599999999999
+      },
+      {
+        "rank": 9,
+        "owner": "Scott",
+        "team": "Who?ScottyKellz",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1570.79,
+        "pts_against": 1573.1000000000001
+      },
+      {
+        "rank": 10,
+        "owner": "Brian",
+        "team": "Flutie n da Blowfish",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1418.41,
+        "pts_against": 1518.12
+      },
+      {
+        "rank": 11,
+        "owner": "Kevin",
+        "team": "ManningHam N' Cheese",
+        "wins": 2,
+        "losses": 11,
+        "pts_for": 1299.04,
+        "pts_against": 1511.99
+      },
+      {
+        "rank": 12,
+        "owner": "Edward",
+        "team": "DC Janitah",
+        "wins": 3,
+        "losses": 10,
+        "pts_for": 1287.6,
+        "pts_against": 1561.24
+      }
+    ],
+    "2020": [
+      {
+        "rank": 1,
+        "owner": "Brian",
+        "team": "Flutie n da Blowfish",
+        "wins": 10,
+        "losses": 3,
+        "pts_for": 1631.94,
+        "pts_against": 1481.43
+      },
+      {
+        "rank": 2,
+        "owner": "Edward",
+        "team": "Haskins N Robbins",
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1562.71,
+        "pts_against": 1432.85
+      },
+      {
+        "rank": 3,
+        "owner": "Lee",
+        "team": "Green Jets & Sam",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1551.0,
+        "pts_against": 1513.7499999999998
+      },
+      {
+        "rank": 4,
+        "owner": "Mike",
+        "team": "Just-End-The-Season",
+        "wins": 7,
+        "losses": 6,
+        "pts_for": 1532.5,
+        "pts_against": 1503.26
+      },
+      {
+        "rank": 5,
+        "owner": "Kevin",
+        "team": "ManningHam N' Cheese",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1435.84,
+        "pts_against": 1511.7999999999997
+      },
+      {
+        "rank": 6,
+        "owner": "Chris D",
+        "team": "Got a Chubb-ie",
+        "wins": 8,
+        "losses": 5,
+        "pts_for": 1546.02,
+        "pts_against": 1361.69
+      },
+      {
+        "rank": 7,
+        "owner": "Jeff",
+        "team": "Boom Squad",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1457.68,
+        "pts_against": 1475.7399999999998
+      },
+      {
+        "rank": 8,
+        "owner": "Tony",
+        "team": "Dow Jones iA 33",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1579.24,
+        "pts_against": 1639.8200000000002
+      },
+      {
+        "rank": 9,
+        "owner": "Peter",
+        "team": "Ottoman Empire",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1535.7,
+        "pts_against": 1496.87
+      },
+      {
+        "rank": 10,
+        "owner": "Steph",
+        "team": "TRUMPDOZER",
+        "wins": 6,
+        "losses": 7,
+        "pts_for": 1539.25,
+        "pts_against": 1529.0
+      },
+      {
+        "rank": 11,
+        "owner": "Kevin2",
+        "team": "THE TAMPA 2",
+        "wins": 5,
+        "losses": 8,
+        "pts_for": 1434.25,
+        "pts_against": 1669.4099999999999
+      },
+      {
+        "rank": 12,
+        "owner": "Kenneth",
+        "team": "Brolo&Cholo",
+        "wins": 2,
+        "losses": 11,
+        "pts_for": 1331.66,
+        "pts_against": 1522.17
+      }
+    ],
+    "2021": [
+      {
+        "rank": 1,
+        "owner": "Lee",
+        "team": "Stairway to Tevin",
+        "wins": 9,
+        "losses": 5,
+        "pts_for": 1649.28,
+        "pts_against": 1611.4499999999998
+      },
+      {
+        "rank": 2,
+        "owner": "Kenneth",
+        "team": "NoCholoImSolo",
+        "wins": 8,
+        "losses": 6,
+        "pts_for": 1572.76,
+        "pts_against": 1466.8999999999996
+      },
+      {
+        "rank": 3,
+        "owner": "Peter",
+        "team": "Ottoman Empire",
+        "wins": 11,
+        "losses": 3,
+        "pts_for": 1875.1,
+        "pts_against": 1517.52
+      },
+      {
+        "rank": 4,
+        "owner": "Edward",
+        "team": "Fitz n Chips",
+        "wins": 8,
+        "losses": 6,
+        "pts_for": 1683.53,
+        "pts_against": 1617.31
+      },
+      {
+        "rank": 5,
+        "owner": "Mike",
+        "team": "Just-End-The-Season",
+        "wins": 8,
+        "losses": 6,
+        "pts_for": 1602.98,
+        "pts_against": 1552.75
+      },
+      {
+        "rank": 6,
+        "owner": "Tony",
+        "team": "Twas da nite Alvin ruined Xmas",
+        "wins": 9,
+        "losses": 5,
+        "pts_for": 1618.59,
+        "pts_against": 1510.1000000000001
+      },
+      {
+        "rank": 7,
+        "owner": "Jeff",
+        "team": "Boom Squad",
+        "wins": 5,
+        "losses": 9,
+        "pts_for": 1479.95,
+        "pts_against": 1582.5399999999997
+      },
+      {
+        "rank": 8,
+        "owner": "Chris D",
+        "team": "Got a Chubb-ie",
+        "wins": 6,
+        "losses": 8,
+        "pts_for": 1617.21,
+        "pts_against": 1678.96
+      },
+      {
+        "rank": 9,
+        "owner": "Kevin",
+        "team": "ManningHam N' Cheese",
+        "wins": 6,
+        "losses": 8,
+        "pts_for": 1595.9,
+        "pts_against": 1658.8500000000001
+      },
+      {
+        "rank": 10,
+        "owner": "Joshua",
+        "team": "I have Staff",
+        "wins": 4,
+        "losses": 10,
+        "pts_for": 1473.2,
+        "pts_against": 1684.56
+      },
+      {
+        "rank": 11,
+        "owner": "Steph",
+        "team": "HurtInaCarr CallWilliamMattar",
+        "wins": 5,
+        "losses": 9,
+        "pts_for": 1521.61,
+        "pts_against": 1662.8999999999999
+      },
+      {
+        "rank": 12,
+        "owner": "Brian",
+        "team": "PSquared*",
+        "wins": 5,
+        "losses": 9,
+        "pts_for": 1567.43,
+        "pts_against": 1713.7
+      }
+    ],
+    "2022": [
+      {
+        "rank": 1,
+        "owner": "Brian",
+        "team": "Flutie and the Blowfish",
+        "wins": 10,
+        "losses": 4,
+        "pts_for": 1681.42,
+        "pts_against": 1480.7400000000002
+      },
+      {
+        "rank": 2,
+        "owner": "Lee",
+        "team": "Sauce'n on you",
+        "wins": 8,
+        "losses": 6,
+        "pts_for": 1634.79,
+        "pts_against": 1503.6399999999999
+      },
+      {
+        "rank": 3,
+        "owner": "Edward",
+        "team": "The Hurts Locker",
+        "wins": 7,
+        "losses": 7,
+        "pts_for": 1644.63,
+        "pts_against": 1605.1299999999999
+      },
+      {
+        "rank": 4,
+        "owner": "Steph",
+        "team": "Ex Sucks but my Younghoe Koo",
+        "wins": 8,
+        "losses": 6,
+        "pts_for": 1407.9,
+        "pts_against": 1423.08
+      },
+      {
+        "rank": 5,
+        "owner": "Peter",
+        "team": "Ottoman Empire",
+        "wins": 7,
+        "losses": 7,
+        "pts_for": 1698.96,
+        "pts_against": 1724.71
+      },
+      {
+        "rank": 6,
+        "owner": "Joshua",
+        "team": "Jeff Driskel isn\u2019t a Tight End",
+        "wins": 8,
+        "losses": 6,
+        "pts_for": 1493.14,
+        "pts_against": 1507.36
+      },
+      {
+        "rank": 7,
+        "owner": "Mike",
+        "team": "Just-End-The-Season",
+        "wins": 6,
+        "losses": 8,
+        "pts_for": 1623.12,
+        "pts_against": 1597.6299999999999
+      },
+      {
+        "rank": 8,
+        "owner": "Tony",
+        "team": "Dow Jones I A 33",
+        "wins": 6,
+        "losses": 8,
+        "pts_for": 1443.99,
+        "pts_against": 1480.9999999999998
+      },
+      {
+        "rank": 9,
+        "owner": "Jeff",
+        "team": "Boom Squad",
+        "wins": 7,
+        "losses": 7,
+        "pts_for": 1571.98,
+        "pts_against": 1657.24
+      },
+      {
+        "rank": 10,
+        "owner": "Chris D",
+        "team": "Got a Chubb-ie",
+        "wins": 7,
+        "losses": 7,
+        "pts_for": 1483.34,
+        "pts_against": 1529.83
+      },
+      {
+        "rank": 11,
+        "owner": "Kenneth",
+        "team": "Ed Money May Be Right",
+        "wins": 4,
+        "losses": 10,
+        "pts_for": 1576.0,
+        "pts_against": 1634.04
+      },
+      {
+        "rank": 12,
+        "owner": "Kevin",
+        "team": "ManningHam N' Cheese",
+        "wins": 6,
+        "losses": 8,
+        "pts_for": 1458.71,
+        "pts_against": 1573.5800000000004
+      }
+    ],
+    "2023": [
+      {
+        "rank": 1,
+        "owner": "Peter",
+        "team": "Ottoman Empire",
+        "wins": 11,
+        "losses": 3,
+        "pts_for": 1815.66,
+        "pts_against": 1478.1399999999999
+      },
+      {
+        "rank": 2,
+        "owner": "Mike",
+        "team": "Just-End-The-Season",
+        "wins": 10,
+        "losses": 4,
+        "pts_for": 1770.87,
+        "pts_against": 1403.61
+      },
+      {
+        "rank": 3,
+        "owner": "Kenneth",
+        "team": "James Conner Who?",
+        "wins": 10,
+        "losses": 4,
+        "pts_for": 1675.25,
+        "pts_against": 1517.6699999999998
+      },
+      {
+        "rank": 4,
+        "owner": "Tony",
+        "team": "Just-in Fields is HIM",
+        "wins": 7,
+        "losses": 7,
+        "pts_for": 1537.89,
+        "pts_against": 1566.22
+      },
+      {
+        "rank": 5,
+        "owner": "Lee",
+        "team": "A Kill Lee\u2019s Tendon",
+        "wins": 8,
+        "losses": 6,
+        "pts_for": 1572.89,
+        "pts_against": 1496.8700000000001
+      },
+      {
+        "rank": 6,
+        "owner": "Steph",
+        "team": "Hee Hee Rhamondra!",
+        "wins": 7,
+        "losses": 7,
+        "pts_for": 1492.47,
+        "pts_against": 1430.7
+      },
+      {
+        "rank": 7,
+        "owner": "Edward",
+        "team": "HOWELLitzer TANK",
+        "wins": 4,
+        "losses": 10,
+        "pts_for": 1497.91,
+        "pts_against": 1649.4899999999998
+      },
+      {
+        "rank": 8,
+        "owner": "Brian",
+        "team": "Flutie and the Blowfish",
+        "wins": 6,
+        "losses": 8,
+        "pts_for": 1478.03,
+        "pts_against": 1734.41
+      },
+      {
+        "rank": 9,
+        "owner": "Jeff",
+        "team": "Boom Squad",
+        "wins": 6,
+        "losses": 8,
+        "pts_for": 1503.58,
+        "pts_against": 1597.68
+      },
+      {
+        "rank": 10,
+        "owner": "Chris D",
+        "team": "Rodgers Hurts",
+        "wins": 6,
+        "losses": 8,
+        "pts_for": 1522.87,
+        "pts_against": 1659.9399999999998
+      },
+      {
+        "rank": 11,
+        "owner": "Kevin",
+        "team": "ManningHam N' Cheese",
+        "wins": 5,
+        "losses": 9,
+        "pts_for": 1487.55,
+        "pts_against": 1687.2099999999998
+      },
+      {
+        "rank": 12,
+        "owner": "Joshua",
+        "team": "JD",
+        "wins": 4,
+        "losses": 10,
+        "pts_for": 1469.47,
+        "pts_against": 1602.4999999999998
+      }
+    ],
+    "2024": [
+      {
+        "rank": 1,
+        "owner": "Tony",
+        "team": "FDIC Crew",
+        "wins": 11,
+        "losses": 3,
+        "pts_for": 1726.13,
+        "pts_against": 1647.58
+      },
+      {
+        "rank": 2,
+        "owner": "Kevin",
+        "team": "ManningHam N' Cheese",
+        "wins": 9,
+        "losses": 5,
+        "pts_for": 1510.38,
+        "pts_against": 1473.87
+      },
+      {
+        "rank": 3,
+        "owner": "Lee",
+        "team": "Armed Rodgery",
+        "wins": 9,
+        "losses": 5,
+        "pts_for": 1697.29,
+        "pts_against": 1538.11
+      },
+      {
+        "rank": 4,
+        "owner": "Joshua",
+        "team": "Cooper Kupp my Balls",
+        "wins": 8,
+        "losses": 6,
+        "pts_for": 1712.15,
+        "pts_against": 1534.3799999999997
+      },
+      {
+        "rank": 5,
+        "owner": "Brian",
+        "team": "Flutie and the Blowfish",
+        "wins": 8,
+        "losses": 6,
+        "pts_for": 1624.17,
+        "pts_against": 1470.63
+      },
+      {
+        "rank": 6,
+        "owner": "Kenneth",
+        "team": "Deep Dish Flavor",
+        "wins": 7,
+        "losses": 7,
+        "pts_for": 1545.8,
+        "pts_against": 1561.2600000000002
+      },
+      {
+        "rank": 7,
+        "owner": "Edward",
+        "team": "The Hibernators",
+        "wins": 7,
+        "losses": 7,
+        "pts_for": 1511.95,
+        "pts_against": 1600.7499999999998
+      },
+      {
+        "rank": 8,
+        "owner": "Peter",
+        "team": "Ottoman Empire",
+        "wins": 7,
+        "losses": 7,
+        "pts_for": 1544.3,
+        "pts_against": 1472.14
+      },
+      {
+        "rank": 9,
+        "owner": "Christopher",
+        "team": "Hayes Brigade",
+        "wins": 5,
+        "losses": 9,
+        "pts_for": 1560.92,
+        "pts_against": 1636.26
+      },
+      {
+        "rank": 10,
+        "owner": "Jeff",
+        "team": "Boom Squad",
+        "wins": 5,
+        "losses": 9,
+        "pts_for": 1581.87,
+        "pts_against": 1639.9499999999998
+      },
+      {
+        "rank": 11,
+        "owner": "Chris D",
+        "team": "LaPorta Potty",
+        "wins": 4,
+        "losses": 10,
+        "pts_for": 1450.44,
+        "pts_against": 1677.6700000000003
+      },
+      {
+        "rank": 12,
+        "owner": "Mike",
+        "team": "Just-End-The-Season",
+        "wins": 4,
+        "losses": 10,
+        "pts_for": 1416.18,
+        "pts_against": 1628.98
+      }
+    ],
+    "2025": [
+      {
+        "rank": 1,
+        "owner": "Joshua",
+        "team": "Nacua Matata",
+        "wins": 10,
+        "losses": 4,
+        "pts_for": 1777.96,
+        "pts_against": 1639.28
+      },
+      {
+        "rank": 2,
+        "owner": "Brian",
+        "team": "Flutie and the Blowfish",
+        "wins": 10,
+        "losses": 4,
+        "pts_for": 1733.63,
+        "pts_against": 1688.16
+      },
+      {
+        "rank": 3,
+        "owner": "Christopher",
+        "team": "Hayes Brigade",
+        "wins": 8,
+        "losses": 6,
+        "pts_for": 1621.68,
+        "pts_against": 1665.37
+      },
+      {
+        "rank": 4,
+        "owner": "Tony",
+        "team": "FDIC Crew",
+        "wins": 9,
+        "losses": 5,
+        "pts_for": 1802.52,
+        "pts_against": 1541.4299999999998
+      },
+      {
+        "rank": 5,
+        "owner": "Edward",
+        "team": "The Warren Brothers",
+        "wins": 8,
+        "losses": 6,
+        "pts_for": 1676.21,
+        "pts_against": 1641.8000000000002
+      },
+      {
+        "rank": 6,
+        "owner": "Kevin",
+        "team": "ManningHam N' Cheese",
+        "wins": 7,
+        "losses": 7,
+        "pts_for": 1581.92,
+        "pts_against": 1435.8200000000002
+      },
+      {
+        "rank": 7,
+        "owner": "Jeff",
+        "team": "Boom Squad",
+        "wins": 7,
+        "losses": 7,
+        "pts_for": 1545.26,
+        "pts_against": 1520.8999999999996
+      },
+      {
+        "rank": 8,
+        "owner": "Mike",
+        "team": "Just-End-The-Season",
+        "wins": 4,
+        "losses": 10,
+        "pts_for": 1438.07,
+        "pts_against": 1587.54
+      },
+      {
+        "rank": 9,
+        "owner": "Lee",
+        "team": "Dr. Fields Good",
+        "wins": 6,
+        "losses": 8,
+        "pts_for": 1728.74,
+        "pts_against": 1670.3100000000002
+      },
+      {
+        "rank": 10,
+        "owner": "Chris D",
+        "team": "Shambles",
+        "wins": 3,
+        "losses": 11,
+        "pts_for": 1337.68,
+        "pts_against": 1643.9700000000003
+      },
+      {
+        "rank": 11,
+        "owner": "Kenneth",
+        "team": "Koo and the Gang",
+        "wins": 6,
+        "losses": 8,
+        "pts_for": 1541.16,
+        "pts_against": 1626.98
+      },
+      {
+        "rank": 12,
+        "owner": "Peter",
+        "team": "Ottoman Empire",
+        "wins": 6,
+        "losses": 8,
+        "pts_for": 1528.51,
+        "pts_against": 1651.7799999999997
+      }
+    ]
+  }
 }

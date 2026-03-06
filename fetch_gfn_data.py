@@ -448,14 +448,32 @@ def build_dashboard_data():
     # Power rankings from latest season
     power_rankings = compute_power_rankings(all_seasons[-1])
 
+    # Full standings per season
+    season_standings = {}
+    for s in all_seasons:
+        year_str = str(s["year"])
+        season_standings[year_str] = [
+            {
+                "rank":         t.get("rank"),
+                "owner":        t.get("owner"),
+                "team":         t.get("name"),
+                "wins":         t.get("wins"),
+                "losses":       t.get("losses"),
+                "pts_for":      t.get("points_for"),
+                "pts_against":  t.get("points_against"),
+            }
+            for t in s.get("standings", [])
+        ]
+
     dashboard = {
-        "generated_at":   datetime.now().isoformat(),
-        "seasons_count":  len(all_seasons),
-        "champions":      champions,
-        "owner_stats":    owner_stats,
-        "luck_by_season": luck_by_season,
-        "luck_summary":   luck_summary,
-        "power_rankings": power_rankings,
+        "generated_at":      datetime.now().isoformat(),
+        "seasons_count":     len(all_seasons),
+        "champions":         champions,
+        "owner_stats":       owner_stats,
+        "luck_by_season":    luck_by_season,
+        "luck_summary":      luck_summary,
+        "power_rankings":    power_rankings,
+        "season_standings":  season_standings,
     }
 
     out = OUTPUT_DIR / "dashboard_data.json"
