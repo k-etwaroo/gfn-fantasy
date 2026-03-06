@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GFN Fantasy League</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,400;0,600;0,700;1,400&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #D4AF37;
+    --gold-light: #F0D060;
+    --green: #1a4a2e;
+    --green-mid: #2d6e47;
+    --green-light: #3d8c5a;
+    --dark: #0a0f0d;
+    --dark2: #111a14;
+    --dark3: #1a2a1e;
+    --text: #e8eed0;
+    --text-dim: #8a9e80;
+    --red: #c0392b;
+    --blue: #2980b9;
+    --white: #f5f5f0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--dark);
+    color: var(--text);
+    font-family: 'Barlow', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* GRID TEXTURE */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(212,175,55,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(212,175,55,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* HEADER */
+  header {
+    position: relative;
+    z-index: 10;
+    background: linear-gradient(180deg, #0a1a0e 0%, var(--dark) 100%);
+    border-bottom: 2px solid var(--gold);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  .logo-gfn {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    color: var(--gold);
+    letter-spacing: 4px;
+    line-height: 1;
+    text-shadow: 0 0 30px rgba(212,175,55,0.4);
+  }
+
+  .logo-sub {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .season-badge {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--dark);
+    background: var(--gold);
+    padding: 4px 12px;
+    clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+  }
+
+  /* NAV */
+  nav {
+    position: relative;
+    z-index: 10;
+    background: var(--dark2);
+    border-bottom: 1px solid rgba(212,175,55,0.2);
+    display: flex;
+    gap: 0;
+    padding: 0 2rem;
+    overflow-x: auto;
+  }
+
+  nav button {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    background: none;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  nav button:hover { color: var(--text); }
+  nav button.active {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+
+  /* MAIN */
+  main {
+    position: relative;
+    z-index: 1;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  /* SECTIONS */
+  .section { display: none; }
+  .section.active { display: block; }
+
+  /* SECTION HEADER */
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    color: var(--white);
+    letter-spacing: 3px;
+    margin-bottom: 0.25rem;
+  }
+
+  .section-title span { color: var(--gold); }
+
+  .section-sub {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(212,175,55,0.15);
+  }
+
+  /* CARDS */
+  .card {
+    background: var(--dark2);
+    border: 1px solid rgba(212,175,55,0.15);
+    border-radius: 2px;
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px; height: 100%;
+    background: var(--gold);
+  }
+
+  .card-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 0.5rem;
+  }
+
+  .card-value {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.2rem;
+    color: var(--white);
+    line-height: 1;
+  }
+
+  .card-detail {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-top: 0.4rem;
+  }
+
+  /* GRIDS */
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2rem; }
+  .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-bottom: 2rem; }
+  .grid-2-1 { display: grid; grid-template-columns: 2fr 1fr; gap: 1rem; margin-bottom: 2rem; }
+
+  @media (max-width: 900px) {
+    .grid-4, .grid-3, .grid-2, .grid-2-1 { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 600px) {
+    .grid-4, .grid-3, .grid-2, .grid-2-1 { grid-template-columns: 1fr; }
+  }
+
+  /* TABLE */
+  .table-wrap { overflow-x: auto; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+
+  thead tr {
+    background: var(--dark3);
+    border-bottom: 2px solid var(--gold);
+  }
+
+  thead th {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    padding: 12px 14px;
+    text-align: left;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    transition: background 0.15s;
+  }
+
+  tbody tr:hover { background: rgba(212,175,55,0.05); }
+
+  tbody td {
+    padding: 11px 14px;
+    color: var(--text);
+  }
+
+  .rank-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    color: var(--text-dim);
+  }
+
+  .rank-1 { color: var(--gold); }
+  .rank-2 { color: #C0C0C0; }
+  .rank-3 { color: #CD7F32; }
+
+  .tag {
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 1px;
+  }
+
+  .tag-champ { background: rgba(212,175,55,0.2); color: var(--gold); border: 1px solid var(--gold); }
+  .tag-runner { background: rgba(192,192,192,0.1); color: #C0C0C0; border: 1px solid #C0C0C0; }
+  .tag-lucky { background: rgba(41,128,185,0.2); color: #5dade2; border: 1px solid #5dade2; }
+  .tag-unlucky { background: rgba(192,57,43,0.2); color: #e74c3c; border: 1px solid #e74c3c; }
+  .tag-rip { background: rgba(192,57,43,0.15); color: #e74c3c; }
+
+  /* WIN % BAR */
+  .bar-wrap {
+    background: rgba(255,255,255,0.06);
+    height: 6px;
+    border-radius: 0;
+    width: 100%;
+    margin-top: 4px;
+  }
+
+  .bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--green-mid), var(--gold));
+    border-radius: 0;
+  }
+
+  /* LUCK METER */
+  .luck-meter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  .luck-bar-wrap {
+    flex: 1;
+    height: 8px;
+    background: rgba(255,255,255,0.08);
+    position: relative;
+  }
+
+  .luck-bar-center {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: rgba(255,255,255,0.3);
+  }
+
+  .luck-bar-fill {
+    position: absolute;
+    top: 0;
+    height: 100%;
+  }
+
+  .luck-pos { left: 50%; background: #5dade2; }
+  .luck-neg { right: 50%; background: #e74c3c; }
+
+  /* CHART BAR */
+  .chart-bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    height: 120px;
+    padding-top: 10px;
+  }
+
+  .chart-bar-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+    gap: 4px;
+  }
+
+  .chart-bar {
+    width: 100%;
+    background: linear-gradient(180deg, var(--gold-light), var(--gold));
+    border-radius: 1px 1px 0 0;
+    min-height: 4px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+  }
+
+  .chart-bar:hover { opacity: 1; }
+  .chart-bar.dim { background: var(--dark3); opacity: 0.6; }
+
+  .chart-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.6rem;
+    color: var(--text-dim);
+    letter-spacing: 0.5px;
+  }
+
+  /* CHAMPION CARD */
+  .champ-card {
+    background: linear-gradient(135deg, #1a2a1e 0%, #0f1f14 100%);
+    border: 1px solid var(--gold);
+    border-radius: 2px;
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .champ-card::after {
+    content: '🏆';
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 5rem;
+    opacity: 0.08;
+  }
+
+  .champ-year {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    color: var(--gold);
+    line-height: 1;
+    min-width: 60px;
+  }
+
+  .champ-divider {
+    width: 2px;
+    height: 40px;
+    background: rgba(212,175,55,0.3);
+  }
+
+  .champ-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: 1px;
+  }
+
+  .champ-team {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-top: 2px;
+  }
+
+  .champ-record {
+    margin-left: auto;
+    text-align: right;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+  }
+
+  .champ-pts {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--gold-light);
+  }
+
+  /* POWER RANK */
+  .pr-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .pr-rank {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    min-width: 32px;
+    text-align: center;
+  }
+
+  .pr-name {
+    flex: 1;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .pr-score {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .pr-trend {
+    font-size: 0.8rem;
+    min-width: 50px;
+    text-align: right;
+  }
+
+  .trend-up { color: #2ecc71; }
+  .trend-down { color: #e74c3c; }
+  .trend-flat { color: var(--text-dim); }
+
+  /* COST SHEET */
+  .cost-total {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;
+    color: var(--gold);
+    line-height: 1;
+  }
+
+  .payout-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    font-size: 0.9rem;
+  }
+
+  .payout-row .pos {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+  }
+
+  .payout-row .amt {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #2ecc71;
+  }
+
+  /* SEASON FILTER */
+  .season-filter {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+  }
+
+  .season-btn {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px 12px;
+    border: 1px solid rgba(212,175,55,0.25);
+    background: transparent;
+    color: var(--text-dim);
+    cursor: pointer;
+    transition: all 0.15s;
+    border-radius: 1px;
+  }
+
+  .season-btn:hover { border-color: var(--gold); color: var(--gold); }
+  .season-btn.active { background: var(--gold); color: var(--dark); border-color: var(--gold); }
+
+  /* STAT PILL */
+  .stat-pill {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: var(--dark3);
+    padding: 10px 14px;
+    border-radius: 1px;
+    margin-bottom: 8px;
+  }
+
+  .stat-pill .label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    flex: 1;
+  }
+
+  .stat-pill .val {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
+  }
+
+  /* INTRO BANNER */
+  .hero-band {
+    background: linear-gradient(90deg, var(--green) 0%, var(--dark2) 100%);
+    border: 1px solid rgba(212,175,55,0.2);
+    border-left: 4px solid var(--gold);
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    color: var(--white);
+    letter-spacing: 3px;
+  }
+
+  .hero-headline span { color: var(--gold); }
+
+  .hero-stats {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .hero-stat {
+    text-align: center;
+  }
+
+  .hero-stat .n {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    color: var(--gold);
+    line-height: 1;
+  }
+
+  .hero-stat .l {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  /* ANIMATIONS */
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .section.active > * {
+    animation: fadeInUp 0.4s ease both;
+  }
+
+  .section.active > *:nth-child(2) { animation-delay: 0.05s; }
+  .section.active > *:nth-child(3) { animation-delay: 0.1s; }
+  .section.active > *:nth-child(4) { animation-delay: 0.15s; }
+  .section.active > *:nth-child(5) { animation-delay: 0.2s; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-gfn">GFN</div>
+    <div class="logo-sub">Fantasy League · Est. 2011</div>
+  </div>
+  <div class="season-badge">2025 SEASON ACTIVE</div>
+</header>
+
+<nav>
+  <button class="active" onclick="showSection('dashboard', this)">Dashboard</button>
+  <button onclick="showSection('records', this)">Historical Records</button>
+  <button onclick="showSection('luck', this)">Luck Index</button>
+  <button onclick="showSection('power', this)">Power Rankings</button>
+  <button onclick="showSection('cost', this)">Cost Sheet</button>
+</nav>
+
+<main>
+
+  <!-- DASHBOARD -->
+  <div class="section active" id="dashboard">
+    <div class="section-title"><span>GFN</span> Command Center</div>
+    <div class="section-sub">15 Seasons · 2011–2026 · All-Time Overview</div>
+
+    <div class="hero-band">
+      <div class="hero-headline">Reigning Champ: <span>DIGGS THESE HANDS</span></div>
+      <div class="hero-stats">
+        <div class="hero-stat"><div class="n">15</div><div class="l">Seasons</div></div>
+        <div class="hero-stat"><div class="n">10</div><div class="l">Managers</div></div>
+        <div class="hero-stat"><div class="n">$1,800</div><div class="l">All-Time Paid</div></div>
+        <div class="hero-stat"><div class="n">2,340</div><div class="l">Games Played</div></div>
+      </div>
+    </div>
+
+    <div class="grid-4">
+      <div class="card">
+        <div class="card-title">Most Championships</div>
+        <div class="card-value">3</div>
+        <div class="card-detail">Mike D. · 2013, 2017, 2021</div>
+      </div>
+      <div class="card">
+        <div class="card-title">All-Time Win %</div>
+        <div class="card-value">64.2%</div>
+        <div class="card-detail">Tom R. · 89–49 record</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Highest Single Season PF</div>
+        <div class="card-value">1,847</div>
+        <div class="card-detail">Jake S. · 2019 Season</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Most Last Place Finishes</div>
+        <div class="card-value">4×</div>
+        <div class="card-detail">Dave K. · The Toilet Bowl King 🚽</div>
+      </div>
+    </div>
+
+    <div class="grid-2-1">
+      <div class="card">
+        <div class="card-title">Championships Per Season</div>
+        <div class="chart-bars" id="champChart"></div>
+        <div style="display:flex; gap:6px; margin-top:12px; flex-wrap:wrap;">
+          <span style="font-size:0.7rem; color:var(--text-dim);">▪ Gold = Championship Season</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">All-Time Standings</div>
+        <div style="margin-top:0.5rem;">
+          <div class="stat-pill"><span class="label">🥇 Mike D.</span><span class="val">3 titles</span></div>
+          <div class="stat-pill"><span class="label">🥈 Tom R.</span><span class="val">2 titles</span></div>
+          <div class="stat-pill"><span class="label">🥉 Jake S.</span><span class="val">2 titles</span></div>
+          <div class="stat-pill"><span class="label">Chris B.</span><span class="val">1 title</span></div>
+          <div class="stat-pill"><span class="label">Ryan M.</span><span class="val">1 title</span></div>
+          <div class="stat-pill"><span class="label">Others</span><span class="val">6 titles</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HISTORICAL RECORDS -->
+  <div class="section" id="records">
+    <div class="section-title">Historical <span>Records</span></div>
+    <div class="section-sub">Season-by-Season Champions · 2011–2025</div>
+
+    <div class="season-filter" id="yearFilter">
+      <button class="season-btn active">All</button>
+    </div>
+
+    <div class="card" style="margin-bottom:1.5rem;">
+      <div class="card-title">Championship Roll</div>
+      <div style="margin-top:1rem; display:grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap:10px;" id="champRoll"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">All-Time Manager Records</div>
+      <div class="table-wrap" style="margin-top:1rem;">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Manager</th>
+              <th>W</th>
+              <th>L</th>
+              <th>Win %</th>
+              <th>PF/Game</th>
+              <th>Championships</th>
+              <th>Playoffs</th>
+            </tr>
+          </thead>
+          <tbody id="recordsTable"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- LUCK INDEX -->
+  <div class="section" id="luck">
+    <div class="section-title">Luck <span>Index</span></div>
+    <div class="section-sub">Expected Wins vs Actual Wins · Higher = Luckier</div>
+
+    <div class="grid-3" style="margin-bottom:1.5rem;">
+      <div class="card">
+        <div class="card-title">Luckiest Season Ever</div>
+        <div class="card-value">+4.8</div>
+        <div class="card-detail">Dave K. · 2016 — Won 9, Expected 4.2</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Most Unlucky Season</div>
+        <div class="card-value" style="color:#e74c3c;">−4.1</div>
+        <div class="card-detail">Jake S. · 2019 — Lost despite highest PF</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Luckiest Manager (All-Time)</div>
+        <div class="card-value">+12.3</div>
+        <div class="card-detail">Dave K. · Accumulated Luck Score</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">2025 Season · Luck Index</div>
+      <div style="margin-top:1.2rem;" id="luckTable"></div>
+    </div>
+
+    <div class="card" style="margin-top:1rem;">
+      <div class="card-title">All-Time Accumulated Luck Score</div>
+      <div class="table-wrap" style="margin-top:1rem;">
+        <table>
+          <thead>
+            <tr>
+              <th>Manager</th>
+              <th>Avg Luck/Season</th>
+              <th>Total Luck</th>
+              <th>Luckiest Year</th>
+              <th>Most Unlucky Year</th>
+              <th>Verdict</th>
+            </tr>
+          </thead>
+          <tbody id="luckAllTime"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- POWER RANKINGS -->
+  <div class="section" id="power">
+    <div class="section-title">Power <span>Rankings</span></div>
+    <div class="section-sub">Week 14 · 2025 Season · Updated Weekly</div>
+
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">Current Power Rankings</div>
+        <div id="powerList" style="margin-top:0.5rem;"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Historical Best Weeks</div>
+        <div class="table-wrap" style="margin-top:0.5rem;">
+          <table>
+            <thead>
+              <tr>
+                <th>Manager</th>
+                <th>Peak Rank</th>
+                <th>Season</th>
+                <th>Streak</th>
+              </tr>
+            </thead>
+            <tbody id="peakRanks"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">All-Time Power Ranking Leaders</div>
+      <div class="table-wrap" style="margin-top:0.5rem;">
+        <table>
+          <thead>
+            <tr>
+              <th>Manager</th>
+              <th>Avg Weekly PR Score</th>
+              <th>Weeks at #1</th>
+              <th>Best Season Avg</th>
+              <th>Current</th>
+            </tr>
+          </thead>
+          <tbody id="powerAllTime"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- COST SHEET -->
+  <div class="section" id="cost">
+    <div class="section-title">Cost <span>Sheet</span></div>
+    <div class="section-sub">League Finances · 2011–2025 · All Seasons</div>
+
+    <div class="grid-3" style="margin-bottom:1.5rem;">
+      <div class="card">
+        <div class="card-title">Total Pot Collected (All-Time)</div>
+        <div class="cost-total">$1,800</div>
+        <div class="card-detail">15 seasons × $120/season</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Total Paid Out</div>
+        <div class="cost-total" style="color:#2ecc71;">$1,800</div>
+        <div class="card-detail">100% payout · No rake</div>
+      </div>
+      <div class="card">
+        <div class="card-title">All-Time Top Earner</div>
+        <div class="cost-total" style="font-size:2.5rem;">Mike D.</div>
+        <div class="card-detail">$640 total winnings</div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">2025 Season Payouts</div>
+        <div style="margin-top:1rem;" id="payouts2025"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">2025 Entry Fees</div>
+        <div class="table-wrap" style="margin-top:0.5rem;">
+          <table>
+            <thead>
+              <tr>
+                <th>Manager</th>
+                <th>Paid</th>
+                <th>Status</th>
+                <th>Net</th>
+              </tr>
+            </thead>
+            <tbody id="feeTable"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">All-Time Earnings Leaderboard</div>
+      <div class="table-wrap" style="margin-top:0.5rem;">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Manager</th>
+              <th>Total Paid In</th>
+              <th>Total Won</th>
+              <th>Net P&L</th>
+              <th>ROI</th>
+            </tr>
+          </thead>
+          <tbody id="earningsTable"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<script>
+// ====== DATA ======
+const champions = [
+  { year: 2011, manager: 'Chris B.', team: 'Grid Iron Giants', record: '9-4', pts: 1420 },
+  { year: 2012, manager: 'Ryan M.', team: 'The Blitz', record: '10-3', pts: 1503 },
+  { year: 2013, manager: 'Mike D.', team: 'Mike Force One', record: '11-2', pts: 1612 },
+  { year: 2014, manager: 'Tom R.', team: 'Touchdown Terrors', record: '9-4', pts: 1489 },
+  { year: 2015, manager: 'Jake S.', team: 'Jake Attacks', record: '10-3', pts: 1557 },
+  { year: 2016, manager: 'Dave K.', team: 'Lucky Charms', record: '9-4', pts: 1398 },
+  { year: 2017, manager: 'Mike D.', team: 'Mike Force One', record: '12-1', pts: 1701 },
+  { year: 2018, manager: 'Tom R.', team: 'Red Zone Raiders', record: '10-3', pts: 1634 },
+  { year: 2019, manager: 'Jake S.', team: 'Jake Attacks', record: '11-2', pts: 1847 },
+  { year: 2020, manager: 'Pat W.', team: 'Quarantine Kings', record: '9-4', pts: 1521 },
+  { year: 2021, manager: 'Mike D.', team: 'Dynasty Mode', record: '11-2', pts: 1729 },
+  { year: 2022, manager: 'Luis G.', team: 'Galactic FCs', record: '10-3', pts: 1602 },
+  { year: 2023, manager: 'Sam T.', team: 'Sam I Am', record: '9-4', pts: 1488 },
+  { year: 2024, manager: 'Tom R.', team: 'Red Zone Raiders', record: '11-2', pts: 1715 },
+  { year: 2025, manager: 'Chris B.', team: 'Diggs These Hands', record: '10-3', pts: 1649 },
+];
+
+const managers = [
+  { name: 'Tom R.', w: 89, l: 49, ppg: 118.4, titles: 3, playoffs: 10 },
+  { name: 'Mike D.', w: 86, l: 52, ppg: 121.2, titles: 3, playoffs: 11 },
+  { name: 'Jake S.', w: 83, l: 55, ppg: 119.7, titles: 2, playoffs: 9 },
+  { name: 'Chris B.', w: 78, l: 60, ppg: 115.3, titles: 2, playoffs: 8 },
+  { name: 'Ryan M.', w: 74, l: 64, ppg: 114.8, titles: 1, playoffs: 7 },
+  { name: 'Luis G.', w: 71, l: 67, ppg: 113.2, titles: 1, playoffs: 6 },
+  { name: 'Sam T.', w: 68, l: 70, ppg: 112.9, titles: 1, playoffs: 6 },
+  { name: 'Pat W.', w: 65, l: 73, ppg: 111.5, titles: 1, playoffs: 5 },
+  { name: 'Kevin H.', w: 55, l: 83, ppg: 108.4, titles: 0, playoffs: 3 },
+  { name: 'Dave K.', w: 46, l: 92, ppg: 105.2, titles: 0, playoffs: 2 },
+];
+
+const luckData2025 = [
+  { name: 'Tom R.', actual: 10, expected: 7.8, luck: 2.2 },
+  { name: 'Chris B.', actual: 10, expected: 8.1, luck: 1.9 },
+  { name: 'Mike D.', actual: 9, expected: 9.4, luck: -0.4 },
+  { name: 'Jake S.', actual: 8, expected: 10.2, luck: -2.2 },
+  { name: 'Luis G.', actual: 8, expected: 7.6, luck: 0.4 },
+  { name: 'Sam T.', actual: 7, expected: 6.8, luck: 0.2 },
+  { name: 'Ryan M.', actual: 6, expected: 7.1, luck: -1.1 },
+  { name: 'Pat W.', actual: 5, expected: 5.9, luck: -0.9 },
+  { name: 'Kevin H.', actual: 4, expected: 4.4, luck: -0.4 },
+  { name: 'Dave K.', actual: 3, expected: 3.5, luck: -0.5 },
+];
+
+const luckAllTime = [
+  { name: 'Dave K.', avg: '+0.81', total: '+12.3', best: '2016', worst: '2014', verdict: 'lucky' },
+  { name: 'Tom R.', avg: '+0.51', total: '+7.7', best: '2025', worst: '2020', verdict: 'lucky' },
+  { name: 'Chris B.', avg: '+0.27', total: '+4.1', best: '2025', worst: '2022', verdict: 'lucky' },
+  { name: 'Ryan M.', avg: '-0.12', total: '-1.8', best: '2018', worst: '2023', verdict: 'neutral' },
+  { name: 'Sam T.', avg: '-0.18', total: '-2.7', best: '2024', worst: '2021', verdict: 'neutral' },
+  { name: 'Luis G.', avg: '-0.30', total: '-4.5', best: '2023', worst: '2022', verdict: 'unlucky' },
+  { name: 'Jake S.', avg: '-0.47', total: '-7.1', best: '2015', worst: '2019', verdict: 'unlucky' },
+  { name: 'Mike D.', avg: '-0.20', total: '-3.0', best: '2017', worst: '2025', verdict: 'neutral' },
+  { name: 'Pat W.', avg: '-0.38', total: '-5.7', best: '2020', worst: '2023', verdict: 'unlucky' },
+  { name: 'Kevin H.', avg: '-0.22', total: '-3.3', best: '2022', worst: '2019', verdict: 'unlucky' },
+];
+
+const powerRankings = [
+  { rank: 1, name: 'Chris B.', score: 94.2, prev: 2, streak: 'W3' },
+  { rank: 2, name: 'Mike D.', score: 91.8, prev: 1, streak: 'W1' },
+  { rank: 3, name: 'Tom R.', score: 89.4, prev: 4, streak: 'W2' },
+  { rank: 4, name: 'Jake S.', score: 86.1, prev: 3, streak: 'L1' },
+  { rank: 5, name: 'Luis G.', score: 82.7, prev: 5, streak: 'W1' },
+  { rank: 6, name: 'Ryan M.', score: 79.3, prev: 7, streak: 'W2' },
+  { rank: 7, name: 'Sam T.', score: 74.8, prev: 6, streak: 'L2' },
+  { rank: 8, name: 'Pat W.', score: 70.1, prev: 8, streak: 'L1' },
+  { rank: 9, name: 'Kevin H.', score: 64.4, prev: 9, streak: 'L3' },
+  { rank: 10, name: 'Dave K.', score: 58.9, prev: 10, streak: 'L4' },
+];
+
+const payouts2025 = [
+  { pos: '1st Place Champion', amt: '$50', manager: 'Chris B.' },
+  { pos: '2nd Place Runner-Up', amt: '$25', manager: 'Mike D.' },
+  { pos: '3rd Place', amt: '$15', manager: 'Tom R.' },
+  { pos: 'Regular Season Champ', amt: '$15', manager: 'Jake S.' },
+  { pos: 'Most Points For', amt: '$10', manager: 'Chris B.' },
+  { pos: 'Toilet Bowl Loser 🚽', amt: '-$5', manager: 'Dave K.' },
+];
+
+const earnings = [
+  { name: 'Mike D.', paid: 180, won: 640, net: 460, roi: 256 },
+  { name: 'Tom R.', paid: 180, won: 580, net: 400, roi: 222 },
+  { name: 'Jake S.', paid: 180, won: 410, net: 230, roi: 128 },
+  { name: 'Chris B.', paid: 180, won: 390, net: 210, roi: 117 },
+  { name: 'Ryan M.', paid: 180, won: 280, net: 100, roi: 56 },
+  { name: 'Luis G.', paid: 180, won: 210, net: 30, roi: 17 },
+  { name: 'Sam T.', paid: 180, won: 160, net: -20, roi: -11 },
+  { name: 'Pat W.', paid: 180, won: 130, net: -50, roi: -28 },
+  { name: 'Kevin H.', paid: 180, won: 70, net: -110, roi: -61 },
+  { name: 'Dave K.', paid: 180, won: -70, net: -250, roi: -139 },
+];
+
+// ====== RENDER FUNCTIONS ======
+
+function buildChampChart() {
+  const el = document.getElementById('champChart');
+  const owners = ['Mike D.', 'Tom R.', 'Jake S.', 'Chris B.', 'Ryan M.', 'Luis G.', 'Sam T.', 'Pat W.'];
+  champions.forEach(c => {
+    const col = document.createElement('div');
+    col.className = 'chart-bar-col';
+    const isOwner = owners.includes(c.manager);
+    const h = Math.round((c.pts / 1847) * 100);
+    col.innerHTML = `
+      <div class="chart-bar${isOwner ? '' : ' dim'}" style="height:${h}px" title="${c.year}: ${c.manager} · ${c.pts}pts"></div>
+      <div class="chart-label">${String(c.year).slice(2)}</div>
+    `;
+    el.appendChild(col);
+  });
+}
+
+function buildChampRoll() {
+  const el = document.getElementById('champRoll');
+  [...champions].reverse().forEach(c => {
+    el.innerHTML += `
+      <div class="champ-card">
+        <div class="champ-year">${c.year}</div>
+        <div class="champ-divider"></div>
+        <div>
+          <div class="champ-name">${c.manager}</div>
+          <div class="champ-team">${c.team}</div>
+        </div>
+        <div class="champ-record">
+          <div class="champ-pts">${c.pts} PTS</div>
+          <div>${c.record}</div>
+        </div>
+      </div>
+    `;
+  });
+}
+
+function buildRecordsTable() {
+  const tb = document.getElementById('recordsTable');
+  managers.sort((a,b) => (b.w/(b.w+b.l)) - (a.w/(a.w+a.l)));
+  managers.forEach((m, i) => {
+    const pct = (m.w / (m.w + m.l) * 100).toFixed(1);
+    tb.innerHTML += `
+      <tr>
+        <td><span class="rank-num rank-${i+1}">${i+1}</span></td>
+        <td><strong>${m.name}</strong></td>
+        <td>${m.w}</td>
+        <td>${m.l}</td>
+        <td>
+          ${pct}%
+          <div class="bar-wrap"><div class="bar-fill" style="width:${pct}%"></div></div>
+        </td>
+        <td>${m.ppg}</td>
+        <td>${m.titles > 0 ? `<span class="tag tag-champ">${m.titles}× 🏆</span>` : '—'}</td>
+        <td>${m.playoffs}</td>
+      </tr>
+    `;
+  });
+}
+
+function buildLuckTable() {
+  const el = document.getElementById('luckTable');
+  luckData2025.sort((a,b) => b.luck - a.luck).forEach(p => {
+    const isPos = p.luck >= 0;
+    const pct = Math.min(Math.abs(p.luck) / 4 * 50, 50);
+    el.innerHTML += `
+      <div style="padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <div style="display:flex; justify-content:space-between; margin-bottom:6px;">
+          <span style="font-weight:600;">${p.name}</span>
+          <span class="luck-meter">
+            <span style="font-size:0.75rem; color:var(--text-dim)">EXP: ${p.expected}</span>
+            <span style="font-size:0.75rem; color:var(--text-dim)">ACT: ${p.actual}</span>
+            <span style="font-weight:700; color:${isPos?'#5dade2':'#e74c3c'}">${isPos?'+':''}${p.luck.toFixed(1)}</span>
+            <span class="tag ${isPos ? 'tag-lucky' : 'tag-unlucky'}">${isPos ? 'LUCKY' : 'UNLUCKY'}</span>
+          </span>
+        </div>
+        <div class="luck-bar-wrap">
+          <div class="luck-bar-center"></div>
+          <div class="luck-bar-fill ${isPos ? 'luck-pos' : 'luck-neg'}" style="width:${pct}%"></div>
+        </div>
+      </div>
+    `;
+  });
+}
+
+function buildLuckAllTime() {
+  const tb = document.getElementById('luckAllTime');
+  luckAllTime.forEach(m => {
+    const vTag = m.verdict === 'lucky' ? 'tag-lucky' : m.verdict === 'unlucky' ? 'tag-unlucky' : '';
+    const vLabel = m.verdict === 'lucky' ? 'Lucky' : m.verdict === 'unlucky' ? 'Unlucky' : 'Neutral';
+    tb.innerHTML += `
+      <tr>
+        <td>${m.name}</td>
+        <td style="color:${parseFloat(m.avg)>=0?'#5dade2':'#e74c3c'}">${m.avg}</td>
+        <td style="color:${parseFloat(m.total)>=0?'#5dade2':'#e74c3c'}; font-weight:700">${m.total}</td>
+        <td>${m.best}</td>
+        <td>${m.worst}</td>
+        <td><span class="tag ${vTag}">${vLabel}</span></td>
+      </tr>
+    `;
+  });
+}
+
+function buildPowerRankings() {
+  const el = document.getElementById('powerList');
+  powerRankings.forEach(p => {
+    const diff = p.prev - p.rank;
+    const trendClass = diff > 0 ? 'trend-up' : diff < 0 ? 'trend-down' : 'trend-flat';
+    const trendSymbol = diff > 0 ? `▲${diff}` : diff < 0 ? `▼${Math.abs(diff)}` : '—';
+    const rankColor = p.rank === 1 ? 'var(--gold)' : p.rank === 2 ? '#C0C0C0' : p.rank === 3 ? '#CD7F32' : 'var(--text-dim)';
+    el.innerHTML += `
+      <div class="pr-row">
+        <span class="pr-rank" style="color:${rankColor}">${p.rank}</span>
+        <span class="pr-name">${p.name}</span>
+        <span style="font-size:0.75rem; font-family:'Barlow Condensed'; color:${p.streak.startsWith('W')?'#2ecc71':'#e74c3c'}">${p.streak}</span>
+        <span class="pr-score" style="color:${rankColor}">${p.score}</span>
+        <span class="pr-trend ${trendClass}">${trendSymbol}</span>
+      </div>
+    `;
+  });
+}
+
+function buildPowerAllTime() {
+  const tb = document.getElementById('powerAllTime');
+  const data = [
+    ['Mike D.', '88.4', 34, '91.2 (2021)', '#2 this wk'],
+    ['Tom R.', '86.1', 29, '89.7 (2018)', '#3 this wk'],
+    ['Jake S.', '84.9', 22, '93.1 (2019)', '#4 this wk'],
+    ['Chris B.', '83.2', 18, '94.2 (2025)', '#1 this wk'],
+    ['Ryan M.', '80.4', 14, '84.4 (2012)', '#6 this wk'],
+  ];
+  data.forEach(r => {
+    tb.innerHTML += `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td><td style="color:var(--text-dim)">${r[4]}</td></tr>`;
+  });
+}
+
+function buildPeakRanks() {
+  const tb = document.getElementById('peakRanks');
+  const data = [
+    ['Jake S.', '#1', 2019, '7 weeks'],
+    ['Mike D.', '#1', 2021, '9 weeks'],
+    ['Chris B.', '#1', 2025, '5 weeks'],
+    ['Tom R.', '#1', 2024, '6 weeks'],
+    ['Ryan M.', '#1', 2012, '3 weeks'],
+  ];
+  data.forEach(r => {
+    tb.innerHTML += `<tr><td>${r[0]}</td><td style="color:var(--gold);font-weight:700">${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td></tr>`;
+  });
+}
+
+function buildCostSheet() {
+  const po = document.getElementById('payouts2025');
+  payouts2025.forEach(p => {
+    const isNeg = p.amt.startsWith('-');
+    po.innerHTML += `
+      <div class="payout-row">
+        <span class="pos">${p.pos}</span>
+        <span>${p.manager}</span>
+        <span class="amt" style="color:${isNeg?'#e74c3c':'#2ecc71'}">${p.amt}</span>
+      </div>
+    `;
+  });
+
+  const ft = document.getElementById('feeTable');
+  managers.forEach(m => {
+    ft.innerHTML += `
+      <tr>
+        <td>${m.name}</td>
+        <td>$120</td>
+        <td><span class="tag" style="background:rgba(46,204,113,0.15);color:#2ecc71;border:1px solid #2ecc71">PAID</span></td>
+        <td style="color:var(--text-dim)">-$120</td>
+      </tr>
+    `;
+  });
+
+  const et = document.getElementById('earningsTable');
+  earnings.sort((a,b) => b.net - a.net).forEach((e, i) => {
+    const netColor = e.net >= 0 ? '#2ecc71' : '#e74c3c';
+    et.innerHTML += `
+      <tr>
+        <td><span class="rank-num rank-${i+1}">${i+1}</span></td>
+        <td><strong>${e.name}</strong></td>
+        <td>$${e.paid}</td>
+        <td style="color:#2ecc71">$${e.won > 0 ? e.won : 0}</td>
+        <td style="color:${netColor}; font-weight:700">${e.net >= 0 ? '+' : ''}$${e.net}</td>
+        <td style="color:${netColor}">${e.roi >= 0 ? '+' : ''}${e.roi}%</td>
+      </tr>
+    `;
+  });
+}
+
+function buildYearFilter() {
+  const el = document.getElementById('yearFilter');
+  for (let y = 2025; y >= 2011; y--) {
+    const btn = document.createElement('button');
+    btn.className = 'season-btn';
+    btn.textContent = y;
+    btn.onclick = () => {
+      document.querySelectorAll('#yearFilter .season-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    };
+    el.appendChild(btn);
+  }
+}
+
+// ====== NAV ======
+function showSection(id, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+
+// ====== INIT ======
+buildChampChart();
+buildChampRoll();
+buildRecordsTable();
+buildLuckTable();
+buildLuckAllTime();
+buildPowerRankings();
+buildPowerAllTime();
+buildPeakRanks();
+buildCostSheet();
+buildYearFilter();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+# ── Secrets (NEVER commit these) ──
+.env
+*.env
+
+# ── Python ──
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Raw season cache (large, regeneratable) ──
+data/seasons/
+
+# ── OS junk ──
+.DS_Store
+Thumbs.db
+
+# ── VS Code ──
+.vscode/settings.json
+.vscode/launch.json
