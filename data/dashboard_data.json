@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T14:04:44.343594",
+  "generated_at": "2026-03-06T14:05:16.714808",
   "seasons_count": 15,
   "champions": [
     {
@@ -124,14 +124,23 @@
     }
   ],
   "owner_stats": {
-    "Lee": {
-      "wins": 112,
-      "losses": 88,
-      "pts_for": 24127.74,
-      "pts_against": 22777.229999999996,
-      "titles": 3,
-      "seasons": 15,
-      "playoff_appearances": 9
+    "Scott": {
+      "wins": 54,
+      "losses": 63,
+      "pts_for": 13547.82,
+      "pts_against": 13966.41,
+      "titles": 0,
+      "seasons": 9,
+      "playoff_appearances": 0
+    },
+    "Jeff": {
+      "wins": 95,
+      "losses": 92,
+      "pts_for": 21555.28,
+      "pts_against": 21308.730000000003,
+      "titles": 0,
+      "seasons": 14,
+      "playoff_appearances": 5
     },
     "Chris D": {
       "wins": 94,
@@ -142,34 +151,106 @@
       "seasons": 15,
       "playoff_appearances": 4
     },
-    "Tony": {
-      "wins": 47,
-      "losses": 36,
-      "pts_for": 9708.36,
-      "pts_against": 9386.15,
+    "Kenneth": {
+      "wins": 96,
+      "losses": 104,
+      "pts_for": 22579.14,
+      "pts_against": 23025.640000000003,
       "titles": 1,
-      "seasons": 6,
-      "playoff_appearances": 3
-    },
-    "Peter": {
-      "wins": 106,
-      "losses": 81,
-      "pts_for": 22524.8,
-      "pts_against": 21507.239999999998,
-      "titles": 4,
-      "seasons": 14,
+      "seasons": 15,
       "playoff_appearances": 5
     },
-    "Mike": {
-      "wins": 74,
-      "losses": 74,
-      "pts_for": 16943.829999999998,
-      "pts_against": 16572.87,
-      "titles": 0,
-      "seasons": 11,
+    "Kevin": {
+      "wins": 90,
+      "losses": 110,
+      "pts_for": 22061.4,
+      "pts_against": 23057.499999999996,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 4
+    },
+    "Joshua": {
+      "wins": 34,
+      "losses": 36,
+      "pts_for": 7925.920000000001,
+      "pts_against": 7968.079999999999,
+      "titles": 1,
+      "seasons": 5,
       "playoff_appearances": 3
     },
-    "Steph Minardi": {
+    "Chad": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Hidden": {
+      "wins": 7,
+      "losses": 6,
+      "pts_for": 1562.3,
+      "pts_against": 1500.1000000000001,
+      "titles": 0,
+      "seasons": 1,
+      "playoff_appearances": 1
+    },
+    "Tom": {
+      "wins": 14,
+      "losses": 25,
+      "pts_for": 4303.5,
+      "pts_against": 4586.32,
+      "titles": 0,
+      "seasons": 3,
+      "playoff_appearances": 0
+    },
+    "Kevin2": {
+      "wins": 58,
+      "losses": 59,
+      "pts_for": 13542.58,
+      "pts_against": 13895.75,
+      "titles": 0,
+      "seasons": 9,
+      "playoff_appearances": 3
+    },
+    "Brian": {
+      "wins": 68,
+      "losses": 54,
+      "pts_for": 14056.18,
+      "pts_against": 14077.529999999999,
+      "titles": 2,
+      "seasons": 9,
+      "playoff_appearances": 4
+    },
+    "Edward": {
+      "wins": 99,
+      "losses": 101,
+      "pts_for": 23247.95,
+      "pts_against": 23271.789999999997,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 5
+    },
+    "Lee": {
+      "wins": 112,
+      "losses": 88,
+      "pts_for": 24127.74,
+      "pts_against": 22777.229999999996,
+      "titles": 3,
+      "seasons": 15,
+      "playoff_appearances": 9
+    },
+    "Christian": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Steve Minardi": {
       "wins": 0,
       "losses": 0,
       "pts_for": 0.0,
@@ -187,113 +268,23 @@
       "seasons": 1,
       "playoff_appearances": 0
     },
-    "Brian": {
-      "wins": 68,
-      "losses": 54,
-      "pts_for": 14056.18,
-      "pts_against": 14077.529999999999,
-      "titles": 2,
-      "seasons": 9,
-      "playoff_appearances": 4
-    },
-    "Hidden2": {
-      "wins": 19,
-      "losses": 20,
-      "pts_for": 4871.92,
-      "pts_against": 4663.22,
-      "titles": 0,
-      "seasons": 3,
-      "playoff_appearances": 0
-    },
-    "Joshua": {
-      "wins": 34,
+    "Tony": {
+      "wins": 47,
       "losses": 36,
-      "pts_for": 7925.920000000001,
-      "pts_against": 7968.079999999999,
+      "pts_for": 9708.36,
+      "pts_against": 9386.15,
       "titles": 1,
-      "seasons": 5,
+      "seasons": 6,
       "playoff_appearances": 3
     },
-    "Kevin2": {
-      "wins": 58,
-      "losses": 59,
-      "pts_for": 13542.58,
-      "pts_against": 13895.75,
+    "Mike": {
+      "wins": 74,
+      "losses": 74,
+      "pts_for": 16943.829999999998,
+      "pts_against": 16572.87,
       "titles": 0,
-      "seasons": 9,
+      "seasons": 11,
       "playoff_appearances": 3
-    },
-    "Tom": {
-      "wins": 14,
-      "losses": 25,
-      "pts_for": 4303.5,
-      "pts_against": 4586.32,
-      "titles": 0,
-      "seasons": 3,
-      "playoff_appearances": 0
-    },
-    "Kenneth": {
-      "wins": 96,
-      "losses": 104,
-      "pts_for": 22579.14,
-      "pts_against": 23025.640000000003,
-      "titles": 1,
-      "seasons": 15,
-      "playoff_appearances": 5
-    },
-    "Edward": {
-      "wins": 99,
-      "losses": 101,
-      "pts_for": 23247.95,
-      "pts_against": 23271.789999999997,
-      "titles": 1,
-      "seasons": 15,
-      "playoff_appearances": 5
-    },
-    "Kevin": {
-      "wins": 90,
-      "losses": 110,
-      "pts_for": 22061.4,
-      "pts_against": 23057.499999999996,
-      "titles": 1,
-      "seasons": 15,
-      "playoff_appearances": 4
-    },
-    "Hidden": {
-      "wins": 7,
-      "losses": 6,
-      "pts_for": 1562.3,
-      "pts_against": 1500.1000000000001,
-      "titles": 0,
-      "seasons": 1,
-      "playoff_appearances": 1
-    },
-    "Scott": {
-      "wins": 54,
-      "losses": 63,
-      "pts_for": 13547.82,
-      "pts_against": 13966.41,
-      "titles": 0,
-      "seasons": 9,
-      "playoff_appearances": 0
-    },
-    "Chad": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Jeff": {
-      "wins": 95,
-      "losses": 92,
-      "pts_for": 21555.28,
-      "pts_against": 21308.730000000003,
-      "titles": 0,
-      "seasons": 14,
-      "playoff_appearances": 5
     },
     "Steve L": {
       "wins": 11,
@@ -304,31 +295,22 @@
       "seasons": 2,
       "playoff_appearances": 0
     },
-    "Chris": {
-      "wins": 8,
-      "losses": 5,
-      "pts_for": 1476.68,
-      "pts_against": 1430.2200000000003,
-      "titles": 0,
-      "seasons": 1,
-      "playoff_appearances": 1
+    "Peter": {
+      "wins": 106,
+      "losses": 81,
+      "pts_for": 22524.8,
+      "pts_against": 21507.239999999998,
+      "titles": 4,
+      "seasons": 14,
+      "playoff_appearances": 5
     },
-    "Christian": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
+    "Hidden2": {
+      "wins": 19,
+      "losses": 20,
+      "pts_for": 4871.92,
+      "pts_against": 4663.22,
       "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Christopher": {
-      "wins": 13,
-      "losses": 15,
-      "pts_for": 3182.6000000000004,
-      "pts_against": 3301.63,
-      "titles": 0,
-      "seasons": 2,
+      "seasons": 3,
       "playoff_appearances": 0
     },
     "Tim": {
@@ -339,6 +321,24 @@
       "titles": 0,
       "seasons": 2,
       "playoff_appearances": 1
+    },
+    "Chris": {
+      "wins": 8,
+      "losses": 5,
+      "pts_for": 1476.68,
+      "pts_against": 1430.2200000000003,
+      "titles": 0,
+      "seasons": 1,
+      "playoff_appearances": 1
+    },
+    "Christopher": {
+      "wins": 13,
+      "losses": 15,
+      "pts_for": 3182.6000000000004,
+      "pts_against": 3301.63,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 0
     }
   },
   "luck_by_season": {

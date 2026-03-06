@@ -11,7 +11,7 @@ GUID_TO_OWNER = {
     "M45RSWGHYMA7MNU7DISCAOIEBE": "Hidden",         # 2011 only
     "GA2A2CNRUWQHL4CROE6XYLBW5A": "Kevin",
     "RXICUQGFSZDLSOLDXZPBGWMO5U": "Kenneth",
-    "X7JNYHBHM5RFSN7G3UBGBNINQA": "Steph Minardi",   # early account
+    "X7JNYHBHM5RFSN7G3UBGBNINQA": "Steve Minardi",   # early account
     "6UGHYQ44WGFQM7IMMFU3BPP3ZU": "Kevin2",         # second Kevin, left 2020
     "--":                           "Hidden2",       # hidden account
     "M6GO4RD7WXBMO227RA6QPG7SXI": "Scott",          # left after 2019
@@ -22,7 +22,7 @@ GUID_TO_OWNER = {
     "BFY67B6XCNFKOAE4ZPJ2PI6NUM": "Tim",            # left after 2013
     "3B7LCASSQJCVRTTSMJMRIHFORI": "Chad",
     "WVV244VHQOZLXAW3V7XTH7IVXA": "Tom",            # left after 2015
-    "YN7YQQNWNDV25OIZS5FVWPNELE": "Steph Minardi",   # left after 2023
+    "YN7YQQNWNDV25OIZS5FVWPNELE": "Steve Minardi",   # left after 2023
     "IAAOSELPIEFJXKB3UILBKNSFYA": "Mike",
     "OG6GL5AOKECVCEIF7L5CTEOEQA": "Chris",          # 2016 only
     "MPYLO3KABC6M4EZHTVOD5S4VOI": "Brian",
@@ -98,7 +98,7 @@ TEAM_TO_GUID = {
     "Deep Dish Flavor":              "RXICUQGFSZDLSOLDXZPBGWMO5U",
     "Koo and the Gang":              "RXICUQGFSZDLSOLDXZPBGWMO5U",
 
-    # Steph Minardi
+    # Steve Minardi
     "Titsburgh Feelers":             "YN7YQQNWNDV25OIZS5FVWPNELE",
 
     # Kevin2 / Chad (both used "THE TAMPA 2" — keyed by GUID in fetch)
