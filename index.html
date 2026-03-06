@@ -620,6 +620,15 @@
   .section.active > *:nth-child(4) { animation-delay: 0.15s; }
   .section.active > *:nth-child(5) { animation-delay: 0.2s; }
 
+  /* SEASON VIEW */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .pts-bar-wrap { background: rgba(255,255,255,0.06); height: 4px; margin-top: 4px; width: 100%; }
+  .pts-bar-fill { height: 100%; background: linear-gradient(90deg, var(--green-mid), var(--gold)); }
+
   /* ====== MOBILE (≤768px) ====== */
   @media (max-width: 768px) {
 
@@ -828,9 +837,26 @@
       <button class="season-btn active">All</button>
     </div>
 
-    <div class="card" style="margin-bottom:1.5rem;">
+    <div class="card" id="champRollCard" style="margin-bottom:1.5rem;">
       <div class="card-title">Championship Roll</div>
       <div style="margin-top:1rem; display:grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap:10px;" id="champRoll"></div>
+    </div>
+
+    <div id="seasonView" style="display:none; animation: fadeIn 0.3s ease both; margin-bottom:1.5rem;">
+      <div class="card" style="margin-bottom:1rem;" id="seasonChampCard"></div>
+      <div class="card">
+        <div class="card-title" id="seasonStandingsTitle">Season Standings</div>
+        <div class="table-wrap" style="margin-top:1rem;">
+          <table id="seasonStandingsTable">
+            <thead><tr>
+              <th>Rank</th><th>Team</th><th>Manager</th>
+              <th>W</th><th>L</th><th>Win%</th>
+              <th>Points For</th><th>Points Against</th>
+            </tr></thead>
+            <tbody id="seasonStandingsTbody"></tbody>
+          </table>
+        </div>
+      </div>
     </div>
 
     <div class="card">
@@ -1053,6 +1079,7 @@ function buildAllTimeStandings(managers) {
 }
 
 let _allChampions = [];
+let _seasonStandings = {};
 
 function renderChampRoll(champs) {
   const el = document.getElementById('champRoll');
@@ -1078,6 +1105,63 @@ function renderChampRoll(champs) {
 function buildChampRoll(champions) {
   _allChampions = [...champions].sort((a, b) => b.year - a.year);
   renderChampRoll(_allChampions);
+}
+
+function renderSeasonView(year) {
+  const rollCard = document.getElementById('champRollCard');
+  const view    = document.getElementById('seasonView');
+  rollCard.style.display = 'none';
+  view.style.display     = 'block';
+  view.style.animation   = 'none';
+  void view.offsetWidth; // reflow to restart animation
+  view.style.animation   = '';
+
+  // Champion card
+  const champ = _allChampions.find(c => c.year === year);
+  const champEl = document.getElementById('seasonChampCard');
+  champEl.innerHTML = champ
+    ? `<div class="card-title">🏆 ${year} Champion</div>
+       <div style="margin-top:0.75rem; display:flex; align-items:center; gap:1rem; flex-wrap:wrap;">
+         <div style="font-size:2.2rem; font-weight:800; color:var(--gold);">${champ.team || champ.owner}</div>
+         <div style="font-size:1rem; color:var(--text-dim);">
+           ${champ.team && champ.team !== champ.owner ? '<span style="color:var(--text-dim);">(' + champ.owner + ')</span>' : ''}
+           &nbsp;·&nbsp; ${champ.wins}–${champ.losses} &nbsp;·&nbsp; ${champ.pts_for ? champ.pts_for.toFixed(1) + ' pts' : ''}
+         </div>
+       </div>`
+    : `<div class="card-title">🏆 ${year} Season</div>`;
+
+  document.getElementById('seasonStandingsTitle').textContent = `${year} Season Standings`;
+
+  // Standings
+  const entries = (_seasonStandings[String(year)] || []).slice().sort((a, b) => a.rank - b.rank);
+  const maxPts  = Math.max(...entries.map(e => e.pts_for || 0));
+  const lastRank = entries.length ? entries[entries.length - 1].rank : null;
+  const tbody = document.getElementById('seasonStandingsTbody');
+  const rankColors = { 1: 'var(--gold)', 2: '#C0C0C0', 3: '#CD7F32' };
+
+  tbody.innerHTML = entries.map(e => {
+    const games   = (e.wins || 0) + (e.losses || 0);
+    const winpct  = games ? ((e.wins / games) * 100).toFixed(1) + '%' : '—';
+    const barPct  = maxPts > 0 ? ((e.pts_for / maxPts) * 100).toFixed(1) : 0;
+    const color   = rankColors[e.rank] || '';
+    const trophy  = e.rank === 1 ? ' 🏆' : '';
+    const toilet  = e.rank === lastRank && e.rank !== 1 ? ' 🚽' : '';
+    const rankStyle = color ? `style="color:${color}; font-weight:700;"` : '';
+
+    return `<tr>
+      <td ${rankStyle}>${e.rank}${trophy}${toilet}</td>
+      <td>${e.team || '—'}</td>
+      <td>${e.owner || '—'}</td>
+      <td>${e.wins ?? '—'}</td>
+      <td>${e.losses ?? '—'}</td>
+      <td>${winpct}</td>
+      <td>
+        ${e.pts_for != null ? e.pts_for.toFixed(1) : '—'}
+        <div class="pts-bar-wrap"><div class="pts-bar-fill" style="width:${barPct}%"></div></div>
+      </td>
+      <td>${e.pts_against != null ? e.pts_against.toFixed(1) : '—'}</td>
+    </tr>`;
+  }).join('');
 }
 
 let _recordsManagers = [];
@@ -1310,7 +1394,8 @@ function buildYearFilter(champions) {
   allBtn.onclick = () => {
     el.querySelectorAll('.season-btn').forEach(b => b.classList.remove('active'));
     allBtn.classList.add('active');
-    renderChampRoll(_allChampions);
+    document.getElementById('seasonView').style.display    = 'none';
+    document.getElementById('champRollCard').style.display = '';
   };
 
   const years = [...new Set(champions.map(c => c.year))].sort((a, b) => b - a);
@@ -1321,7 +1406,7 @@ function buildYearFilter(champions) {
     btn.onclick = () => {
       el.querySelectorAll('.season-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      renderChampRoll(_allChampions.filter(c => c.year === y));
+      renderSeasonView(y);
     };
     el.appendChild(btn);
   });
@@ -1426,6 +1511,7 @@ fetch('data/dashboard_data.json')
       cards[3].querySelector('.card-detail').textContent = `${mostLastPlace[0]} · The Toilet Bowl King 🚽`;
     }
 
+    _seasonStandings = data.season_standings || {};
     buildYearFilter(champions);
     buildAllTimeStandings(managers);
     buildChampRoll(champions);
