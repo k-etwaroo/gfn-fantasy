@@ -1,0 +1,9 @@
+exclude:
+  - venv/
+  - fetch_gfn_data.py
+  - owner_map.py
+  - requirements.txt
+  - __pycache__/
+  - "*.py"
+  - .env
+  - .env.template
