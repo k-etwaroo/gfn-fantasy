@@ -34,9 +34,9 @@ GUID_TO_OWNER = {
 
 # Current active owners (2025 roster)
 ACTIVE_OWNERS = [
-    "Lee", "Edward", "Kevin", "Kenneth", "Jeff",
-    "Chris D", "Peter", "Mike", "Brian", "Tony",
-    "Joshua", "Christopher",
+    "Lee Bertram", "Ed Shively", "Kevin Etwaroo", "Kenny Smith", "Jeff Lobdell",
+    "Chris Dupay", "Peter Ott", "Malcolm Lapone", "Brian Marois", "Tony Bevilaqua",
+    "Joshua", "Christopher Hayes",
 ]
 
 # Team name → GUID lookup (built from Yahoo data)

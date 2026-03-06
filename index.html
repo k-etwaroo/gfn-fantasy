@@ -996,7 +996,7 @@
       </div>
       <div class="card">
         <div class="card-title">All-Time Top Earner</div>
-        <div class="cost-total" style="font-size:2.5rem;">Mike D.</div>
+        <div class="cost-total" style="font-size:2.5rem;">Malcolm Lapone</div>
         <div class="card-detail">$640 total winnings</div>
       </div>
     </div>
@@ -1326,11 +1326,11 @@ function buildPowerRankings(powerRankings) {
 function buildPowerAllTime() {
   const tb = document.getElementById('powerAllTime');
   const data = [
-    ['Lee', '89.7', '—', '—', '#2 this wk'],
-    ['Peter', '88.1', '—', '—', '#9 this wk'],
-    ['Brian', '88.0', '—', '—', '#3 this wk'],
+    ['Lee Bertram', '89.7', '—', '—', '#2 this wk'],
+    ['Peter Ott', '88.1', '—', '—', '#9 this wk'],
+    ['Brian Marois', '88.0', '—', '—', '#3 this wk'],
     ['Joshua', '94.6', '—', '—', '#1 this wk'],
-    ['Kenneth', '70.6', '—', '—', '#5 this wk'],
+    ['Kenny Smith', '70.6', '—', '—', '#5 this wk'],
   ];
   data.forEach(r => {
     tb.innerHTML += `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td><td style="color:var(--text-dim)">${r[4]}</td></tr>`;
@@ -1340,11 +1340,11 @@ function buildPowerAllTime() {
 function buildPeakRanks() {
   const tb = document.getElementById('peakRanks');
   const data = [
-    ['Lee', '#1', 2011, '—'],
-    ['Peter', '#1', 2023, '—'],
+    ['Lee Bertram', '#1', 2011, '—'],
+    ['Peter Ott', '#1', 2023, '—'],
     ['Joshua', '#1', 2025, '—'],
-    ['Brian', '#1', 2022, '—'],
-    ['Tony', '#1', 2024, '—'],
+    ['Brian Marois', '#1', 2022, '—'],
+    ['Tony Bevilaqua', '#1', 2024, '—'],
   ];
   data.forEach(r => {
     tb.innerHTML += `<tr><td>${r[0]}</td><td style="color:var(--gold);font-weight:700">${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td></tr>`;
