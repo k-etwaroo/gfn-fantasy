@@ -627,15 +627,15 @@
     .logo-sub { display: none; }
     .season-badge { font-size: 0.6rem; letter-spacing: 1px; padding: 3px 8px; }
 
-    /* NAV — horizontal scroll, hidden scrollbar, 44px touch targets */
-    nav { padding: 0 0.25rem; scrollbar-width: none; }
-    nav::-webkit-scrollbar { display: none; }
+    /* NAV — wrap into 2 rows so all 5 tabs are always visible */
+    nav { padding: 0; overflow: visible; flex-wrap: wrap; }
     nav button {
+      flex: 1 1 33%;
       height: 44px;
-      padding: 0 16px;
-      font-size: 0.8rem;
-      letter-spacing: 1px;
-      flex-shrink: 0;
+      padding: 0 4px;
+      font-size: 0.72rem;
+      letter-spacing: 0.5px;
+      text-align: center;
     }
 
     /* MAIN */
@@ -645,17 +645,21 @@
     .section-title { font-size: 1.8rem; letter-spacing: 2px; }
     .section-sub { font-size: 0.7rem; letter-spacing: 1px; margin-bottom: 1.25rem; }
 
-    /* GRIDS — single column on mobile (overrides 900px 2-col rule) */
-    .grid-4, .grid-3, .grid-2, .grid-2-1 {
-      grid-template-columns: 1fr;
-      gap: 0.75rem;
-      margin-bottom: 1.25rem;
-    }
+    /* GRIDS */
+    /* Stat cards stay 2×2 so all 4 fit without excessive scrolling */
+    .grid-4 { grid-template-columns: 1fr 1fr; gap: 0.6rem; margin-bottom: 1rem; }
+    /* All other grids go single column */
+    .grid-3, .grid-2, .grid-2-1 { grid-template-columns: 1fr; gap: 0.75rem; margin-bottom: 1.25rem; }
 
     /* CARDS */
     .card { padding: 1rem 1rem 1rem 1.25rem; }
     .card-value { font-size: 1.8rem; }
     .card-detail { font-size: 0.78rem; }
+
+    /* Compact stat cards in the 2×2 grid */
+    .grid-4 .card { padding: 0.75rem 0.75rem 0.75rem 1rem; }
+    .grid-4 .card-value { font-size: 1.5rem; }
+    .grid-4 .card-detail { font-size: 0.7rem; }
 
     /* HERO BAND */
     .hero-band {
@@ -764,7 +768,7 @@
       <div class="hero-headline">Reigning Champ: <span>DIGGS THESE HANDS</span></div>
       <div class="hero-stats">
         <div class="hero-stat"><div class="n">15</div><div class="l">Seasons</div></div>
-        <div class="hero-stat"><div class="n">10</div><div class="l">Managers</div></div>
+        <div class="hero-stat"><div class="n" id="heroManagers">10</div><div class="l">Managers</div></div>
         <div class="hero-stat"><div class="n">$1,800</div><div class="l">All-Time Paid</div></div>
         <div class="hero-stat"><div class="n">2,340</div><div class="l">Games Played</div></div>
       </div>
@@ -1359,6 +1363,7 @@ fetch('data/dashboard_data.json')
     // Update hero band
     const latestChamp = [...champions].sort((a, b) => b.year - a.year)[0];
     document.querySelector('.hero-headline').innerHTML = `Reigning Champ: <span>${latestChamp.team.toUpperCase()}</span>`;
+    document.getElementById('heroManagers').textContent = Object.values(data.owner_stats).filter(s => s.seasons > 0).length;
 
     // Update dashboard stat cards
     const topTitles = [...managers].sort((a, b) => b.titles - a.titles)[0];
