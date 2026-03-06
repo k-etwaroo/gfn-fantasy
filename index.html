@@ -246,6 +246,8 @@
   }
 
   tbody tr:hover { background: rgba(212,175,55,0.05); }
+  tbody tr.row-titled { background: rgba(212,175,55,0.04); }
+  tbody tr.row-titled td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
 
   tbody td {
     padding: 11px 14px;
@@ -839,10 +841,12 @@
             <tr>
               <th>#</th>
               <th>Manager</th>
+              <th>Seasons</th>
               <th>W</th>
               <th>L</th>
               <th>Win %</th>
               <th>PF/Game</th>
+              <th>Avg PF/Season</th>
               <th>Championships</th>
               <th>Playoffs</th>
             </tr>
@@ -1048,9 +1052,12 @@ function buildAllTimeStandings(managers) {
   });
 }
 
-function buildChampRoll(champions) {
+let _allChampions = [];
+
+function renderChampRoll(champs) {
   const el = document.getElementById('champRoll');
-  [...champions].reverse().forEach(c => {
+  el.innerHTML = '';
+  champs.forEach(c => {
     el.innerHTML += `
       <div class="champ-card">
         <div class="champ-year">${c.year}</div>
@@ -1068,14 +1075,19 @@ function buildChampRoll(champions) {
   });
 }
 
+function buildChampRoll(champions) {
+  _allChampions = [...champions].sort((a, b) => b.year - a.year);
+  renderChampRoll(_allChampions);
+}
+
 let _recordsManagers = [];
-let _recordsSortKey = 'titles';
+let _recordsSortKey = 'winpct';
 let _recordsSortDir = -1;
 
-const _recordsKeyMap = [null, 'name', 'w', 'l', 'winpct', 'ppg', 'titles', 'playoffs'];
+const _recordsKeyMap = [null, 'name', 'seasons', 'w', 'l', 'winpct', 'ppg', 'pfPerSeason', 'titles', 'playoffs'];
 
 function buildRecordsTable(managers) {
-  _recordsManagers = managers;
+  _recordsManagers = managers.filter(m => m.seasons >= 3);
 
   const ths = document.querySelectorAll('#records table thead th');
   _recordsKeyMap.forEach((key, i) => {
@@ -1123,10 +1135,12 @@ function renderRecordsTable() {
 
   sorted.forEach((m, i) => {
     const pct = (m.w / (m.w + m.l) * 100).toFixed(1);
+    const titled = m.titles > 0;
     tb.innerHTML += `
-      <tr>
+      <tr class="${titled ? 'row-titled' : ''}">
         <td><span class="rank-num rank-${i+1}">${i+1}</span></td>
         <td><strong>${m.name}</strong></td>
+        <td>${m.seasons}</td>
         <td>${m.w}</td>
         <td>${m.l}</td>
         <td>
@@ -1134,7 +1148,8 @@ function renderRecordsTable() {
           <div class="bar-wrap"><div class="bar-fill" style="width:${pct}%"></div></div>
         </td>
         <td>${m.ppg}</td>
-        <td>${m.titles > 0 ? `<span class="tag tag-champ">${m.titles}× 🏆</span>` : '—'}</td>
+        <td>${m.pfPerSeason.toLocaleString()}</td>
+        <td>${titled ? `<span class="tag tag-champ">${m.titles}× 🏆</span>` : '—'}</td>
         <td>${m.playoffs}</td>
       </tr>
     `;
@@ -1289,14 +1304,24 @@ function buildCostSheet(managers) {
 
 function buildYearFilter(champions) {
   const el = document.getElementById('yearFilter');
+
+  // Wire the static "All" button
+  const allBtn = el.querySelector('.season-btn');
+  allBtn.onclick = () => {
+    el.querySelectorAll('.season-btn').forEach(b => b.classList.remove('active'));
+    allBtn.classList.add('active');
+    renderChampRoll(_allChampions);
+  };
+
   const years = [...new Set(champions.map(c => c.year))].sort((a, b) => b - a);
   years.forEach(y => {
     const btn = document.createElement('button');
     btn.className = 'season-btn';
     btn.textContent = y;
     btn.onclick = () => {
-      document.querySelectorAll('#yearFilter .season-btn').forEach(b => b.classList.remove('active'));
+      el.querySelectorAll('.season-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+      renderChampRoll(_allChampions.filter(c => c.year === y));
     };
     el.appendChild(btn);
   });
@@ -1323,6 +1348,7 @@ fetch('data/dashboard_data.json')
         w: s.wins,
         l: s.losses,
         ppg: (s.pts_for / (s.wins + s.losses)).toFixed(1),
+        pfPerSeason: Math.round(s.pts_for / s.seasons),
         titles: s.titles,
         playoffs: s.playoff_appearances,
         seasons: s.seasons,
