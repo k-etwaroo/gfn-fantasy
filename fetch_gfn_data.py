@@ -208,7 +208,48 @@ def fetch_standings(year):
     return standings
 
 
-def fetch_matchups(year):
+def fetch_team_players(team_key, week):
+    """Fetch individual player stats for one team for a specific week."""
+    data = yahoo_get(f"/team/{team_key}/players/stats;type=week;week={week}")
+    if not data:
+        return []
+
+    try:
+        players_raw = data["fantasy_content"]["team"][1]["players"]
+    except (KeyError, IndexError, TypeError):
+        return []
+
+    players = []
+    count = int(players_raw.get("count", 0))
+    for i in range(count):
+        try:
+            player_block = players_raw[str(i)]["player"]
+            info         = flatten(player_block[0]) if isinstance(player_block[0], list) else {}
+            stats_block  = player_block[1] if len(player_block) > 1 else {}
+
+            name_info = info.get("name", {})
+            full_name = name_info.get("full", "") if isinstance(name_info, dict) else str(name_info)
+            position  = info.get("primary_position", "—")
+
+            pts_raw = stats_block.get("player_stats", {}).get("total", 0)
+            try:
+                points = float(pts_raw) if pts_raw not in (None, "", "-") else 0.0
+            except (TypeError, ValueError):
+                points = 0.0
+
+            if full_name:
+                players.append({
+                    "name":     full_name,
+                    "position": position,
+                    "points":   points,
+                })
+        except (KeyError, IndexError, TypeError):
+            continue
+
+    return players
+
+
+def fetch_matchups(year, with_players=False):
     key  = get_league_key(year)
     meta = fetch_league_meta(year)
     if not meta:
@@ -244,12 +285,20 @@ def fetch_matchups(year):
                 mgr_block = next((d.get("managers") for d in t[0] if isinstance(d, dict) and "managers" in d), [])
                 guid      = mgr_block[0]["manager"].get("guid") if mgr_block else None
                 _, owner  = get_owner(team_name=team_name, guid=guid)
-                week_matchup["teams"].append({
-                    "team_key": info.get("team_key", ""),
+                team_key  = info.get("team_key", "")
+
+                team_entry = {
+                    "team_key": team_key,
                     "name":     team_name,
                     "owner":    owner,
                     "points":   float(score.get("total", 0)),
-                })
+                }
+
+                if with_players and team_key:
+                    team_entry["players"] = fetch_team_players(team_key, week)
+                    time.sleep(0.3)
+
+                week_matchup["teams"].append(team_entry)
             all_matchups.append(week_matchup)
 
         time.sleep(0.3)
@@ -257,9 +306,9 @@ def fetch_matchups(year):
     return all_matchups
 
 
-def fetch_season(year):
+def fetch_season(year, with_players=False):
     print(f"\n{'─'*50}")
-    print(f"  Fetching {year} season...")
+    print(f"  Fetching {year} season..." + (" (+ player stats)" if with_players else ""))
     print(f"{'─'*50}")
 
     season_data = {"year": year}
@@ -274,8 +323,10 @@ def fetch_season(year):
     print("  → Standings...")
     season_data["standings"] = fetch_standings(year)
 
-    print("  → Weekly matchups (this may take a moment)...")
-    season_data["matchups"] = fetch_matchups(year)
+    msg = "  → Weekly matchups + player stats (this will take a while)..." if with_players \
+          else "  → Weekly matchups (this may take a moment)..."
+    print(msg)
+    season_data["matchups"] = fetch_matchups(year, with_players=with_players)
 
     path = OUTPUT_DIR / "seasons" / f"{year}.json"
     safe_save(path, season_data)
@@ -511,6 +562,91 @@ def build_dashboard_data():
 
 
 # ─────────────────────────────────────────────
+# PLAYER HIGHS
+# ─────────────────────────────────────────────
+def compute_player_highs():
+    """
+    Read all cached season JSON files and build data/player_highs.json with:
+      - weekly_highs:          best single player score each week, every season
+      - season_highs:          best single player score per season
+      - all_time_single_game:  highest individual player score ever
+      - season_total_highs:    top 20 single-player season point totals
+    Only processes seasons that have player-level data in their matchup entries.
+    """
+    print("\n📈 Computing player highs...")
+
+    all_player_weeks = []  # flat list of {year, week, owner, player, position, points}
+
+    for year in range(SEASON_START, SEASON_END + 1):
+        path = OUTPUT_DIR / "seasons" / f"{year}.json"
+        if not path.exists():
+            continue
+        with open(path) as f:
+            s = json.load(f)
+
+        for matchup in s.get("matchups", []):
+            week = matchup["week"]
+            for team in matchup.get("teams", []):
+                owner = team.get("owner", "—")
+                for player in team.get("players", []):
+                    pts = player.get("points", 0) or 0
+                    all_player_weeks.append({
+                        "year":     year,
+                        "week":     week,
+                        "owner":    owner,
+                        "player":   player.get("name", "—"),
+                        "position": player.get("position", "—"),
+                        "points":   pts,
+                    })
+
+    if not all_player_weeks:
+        print("  ⚠ No player-level data found. Run with --players first.")
+        return None
+
+    # Weekly high: best player score each (year, week)
+    weekly_best = {}
+    for e in all_player_weeks:
+        k = (e["year"], e["week"])
+        if k not in weekly_best or e["points"] > weekly_best[k]["points"]:
+            weekly_best[k] = e
+    weekly_highs = sorted(weekly_best.values(), key=lambda x: (x["year"], x["week"]))
+
+    # Season high: best single player score each year
+    season_best = {}
+    for e in all_player_weeks:
+        y = e["year"]
+        if y not in season_best or e["points"] > season_best[y]["points"]:
+            season_best[y] = e
+    season_highs = {str(y): e for y, e in sorted(season_best.items())}
+
+    # All-time single game high
+    all_time = max(all_player_weeks, key=lambda x: x["points"])
+
+    # Season total high: aggregate each player's points across all weeks in a season
+    totals = {}
+    for e in all_player_weeks:
+        k = (e["year"], e["player"])
+        if k not in totals:
+            totals[k] = {**e, "points": 0.0}
+        totals[k]["points"] = round(totals[k]["points"] + e["points"], 2)
+    season_total_highs = sorted(totals.values(), key=lambda x: x["points"], reverse=True)[:20]
+
+    highs = {
+        "generated_at":        datetime.now().isoformat(),
+        "weekly_highs":        weekly_highs,
+        "season_highs":        season_highs,
+        "all_time_single_game": all_time,
+        "season_total_highs":  season_total_highs,
+    }
+
+    out = OUTPUT_DIR / "player_highs.json"
+    with open(out, "w") as f:
+        json.dump(highs, f, indent=2)
+    print(f"  ✓ Saved → {out}")
+    return highs
+
+
+# ─────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────
 def main():
@@ -519,6 +655,8 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Test auth only")
     parser.add_argument("--build",   action="store_true", help="Rebuild dashboard_data.json only")
     parser.add_argument("--refetch", action="store_true", help="Re-fetch all seasons even if cached")
+    parser.add_argument("--players", action="store_true",
+                        help="Fetch individual player stats per week (requires --year; recomputes player_highs.json)")
     args = parser.parse_args()
 
     missing = [k for k, v in {
@@ -545,12 +683,19 @@ def main():
         build_dashboard_data()
         return
 
+    if args.players and not args.year:
+        # Recompute player highs from already-cached season files
+        compute_player_highs()
+        return
+
     if args.year:
         # Always re-fetch when a specific year is requested
         path = OUTPUT_DIR / "seasons" / f"{args.year}.json"
         if path.exists():
             path.unlink()
-        fetch_season(args.year)
+        fetch_season(args.year, with_players=args.players)
+        if args.players:
+            compute_player_highs()
         build_dashboard_data()
     else:
         print(f"🏈 GFN Data Pipeline — Fetching {SEASON_START}–{SEASON_END}")
