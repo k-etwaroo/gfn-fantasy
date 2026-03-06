@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T14:13:47.557110",
+  "generated_at": "2026-03-06T14:38:06.633436",
   "seasons_count": 15,
   "champions": [
     {
@@ -124,138 +124,12 @@
     }
   ],
   "owner_stats": {
-    "Peter Ott": {
-      "wins": 106,
-      "losses": 81,
-      "pts_for": 22524.8,
-      "pts_against": 21507.239999999998,
-      "titles": 4,
-      "seasons": 14,
-      "playoff_appearances": 5
-    },
-    "Christian": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Joshua": {
-      "wins": 34,
-      "losses": 36,
-      "pts_for": 7925.920000000001,
-      "pts_against": 7968.079999999999,
-      "titles": 1,
-      "seasons": 5,
-      "playoff_appearances": 3
-    },
-    "Steve Loesch": {
-      "wins": 11,
-      "losses": 15,
-      "pts_for": 2855.65,
-      "pts_against": 3139.1800000000003,
-      "titles": 0,
-      "seasons": 2,
-      "playoff_appearances": 0
-    },
     "Chris Dupay": {
       "wins": 94,
       "losses": 106,
       "pts_for": 22303.36,
       "pts_against": 23057.390000000007,
       "titles": 0,
-      "seasons": 15,
-      "playoff_appearances": 4
-    },
-    "Chad": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Tony Bevilaqua": {
-      "wins": 47,
-      "losses": 36,
-      "pts_for": 9708.36,
-      "pts_against": 9386.15,
-      "titles": 1,
-      "seasons": 6,
-      "playoff_appearances": 3
-    },
-    "Jake Barker": {
-      "wins": 19,
-      "losses": 20,
-      "pts_for": 4871.92,
-      "pts_against": 4663.22,
-      "titles": 0,
-      "seasons": 3,
-      "playoff_appearances": 0
-    },
-    "Lee Bertram": {
-      "wins": 112,
-      "losses": 88,
-      "pts_for": 24127.74,
-      "pts_against": 22777.229999999996,
-      "titles": 3,
-      "seasons": 15,
-      "playoff_appearances": 9
-    },
-    "Ed Shively": {
-      "wins": 99,
-      "losses": 101,
-      "pts_for": 23247.95,
-      "pts_against": 23271.789999999997,
-      "titles": 1,
-      "seasons": 15,
-      "playoff_appearances": 5
-    },
-    "Malcolm Lapone": {
-      "wins": 74,
-      "losses": 74,
-      "pts_for": 16943.829999999998,
-      "pts_against": 16572.87,
-      "titles": 0,
-      "seasons": 11,
-      "playoff_appearances": 3
-    },
-    "Steve Minardi": {
-      "wins": 83,
-      "losses": 89,
-      "pts_for": 19998.350000000002,
-      "pts_against": 19779.100000000002,
-      "titles": 1,
-      "seasons": 13,
-      "playoff_appearances": 4
-    },
-    "Brian Abrahamson": {
-      "wins": 7,
-      "losses": 6,
-      "pts_for": 1562.3,
-      "pts_against": 1500.1000000000001,
-      "titles": 0,
-      "seasons": 1,
-      "playoff_appearances": 1
-    },
-    "Chris Maher": {
-      "wins": 5,
-      "losses": 8,
-      "pts_for": 1513.87,
-      "pts_against": 1572.78,
-      "titles": 0,
-      "seasons": 1,
-      "playoff_appearances": 0
-    },
-    "Kevin Etwaroo": {
-      "wins": 90,
-      "losses": 110,
-      "pts_for": 22061.4,
-      "pts_against": 23057.499999999996,
-      "titles": 1,
       "seasons": 15,
       "playoff_appearances": 4
     },
@@ -268,58 +142,31 @@
       "seasons": 9,
       "playoff_appearances": 3
     },
-    "Scott Kellman": {
-      "wins": 54,
-      "losses": 63,
-      "pts_for": 13547.82,
-      "pts_against": 13966.41,
+    "Malcolm Lapone": {
+      "wins": 74,
+      "losses": 74,
+      "pts_for": 16943.829999999998,
+      "pts_against": 16572.87,
       "titles": 0,
-      "seasons": 9,
+      "seasons": 11,
+      "playoff_appearances": 3
+    },
+    "Chad": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
       "playoff_appearances": 0
     },
-    "Tim Flaherty": {
-      "wins": 13,
-      "losses": 13,
-      "pts_for": 3147.7200000000003,
-      "pts_against": 3192.09,
-      "titles": 0,
-      "seasons": 2,
-      "playoff_appearances": 1
-    },
-    "Jeff Lobdell": {
-      "wins": 95,
-      "losses": 92,
-      "pts_for": 21555.28,
-      "pts_against": 21308.730000000003,
-      "titles": 0,
-      "seasons": 14,
-      "playoff_appearances": 5
-    },
-    "Kenny Smith": {
-      "wins": 96,
-      "losses": 104,
-      "pts_for": 22579.14,
-      "pts_against": 23025.640000000003,
+    "Kevin Etwaroo": {
+      "wins": 90,
+      "losses": 110,
+      "pts_for": 22061.4,
+      "pts_against": 23057.499999999996,
       "titles": 1,
       "seasons": 15,
-      "playoff_appearances": 5
-    },
-    "Tom Brown": {
-      "wins": 14,
-      "losses": 25,
-      "pts_for": 4303.5,
-      "pts_against": 4586.32,
-      "titles": 0,
-      "seasons": 3,
-      "playoff_appearances": 0
-    },
-    "Brian Marois": {
-      "wins": 68,
-      "losses": 54,
-      "pts_for": 14056.18,
-      "pts_against": 14077.529999999999,
-      "titles": 2,
-      "seasons": 9,
       "playoff_appearances": 4
     },
     "Chris Harjung": {
@@ -331,6 +178,60 @@
       "seasons": 1,
       "playoff_appearances": 1
     },
+    "Peter Ott": {
+      "wins": 106,
+      "losses": 81,
+      "pts_for": 22524.8,
+      "pts_against": 21507.239999999998,
+      "titles": 4,
+      "seasons": 14,
+      "playoff_appearances": 5
+    },
+    "Chris Maher": {
+      "wins": 5,
+      "losses": 8,
+      "pts_for": 1513.87,
+      "pts_against": 1572.78,
+      "titles": 0,
+      "seasons": 1,
+      "playoff_appearances": 0
+    },
+    "Tim Flaherty": {
+      "wins": 13,
+      "losses": 13,
+      "pts_for": 3147.7200000000003,
+      "pts_against": 3192.09,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 1
+    },
+    "Brian Abrahamson": {
+      "wins": 7,
+      "losses": 6,
+      "pts_for": 1562.3,
+      "pts_against": 1500.1000000000001,
+      "titles": 0,
+      "seasons": 1,
+      "playoff_appearances": 1
+    },
+    "Steve Minardi": {
+      "wins": 83,
+      "losses": 89,
+      "pts_for": 19998.350000000002,
+      "pts_against": 19779.100000000002,
+      "titles": 1,
+      "seasons": 13,
+      "playoff_appearances": 4
+    },
+    "Kenny Smith": {
+      "wins": 96,
+      "losses": 104,
+      "pts_for": 22579.14,
+      "pts_against": 23025.640000000003,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 5
+    },
     "Christopher Hayes": {
       "wins": 13,
       "losses": 15,
@@ -339,6 +240,105 @@
       "titles": 0,
       "seasons": 2,
       "playoff_appearances": 0
+    },
+    "Jake Barker": {
+      "wins": 19,
+      "losses": 20,
+      "pts_for": 4871.92,
+      "pts_against": 4663.22,
+      "titles": 0,
+      "seasons": 3,
+      "playoff_appearances": 0
+    },
+    "Christian": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Ed Shively": {
+      "wins": 99,
+      "losses": 101,
+      "pts_for": 23247.95,
+      "pts_against": 23271.789999999997,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 5
+    },
+    "Steve Loesch": {
+      "wins": 11,
+      "losses": 15,
+      "pts_for": 2855.65,
+      "pts_against": 3139.1800000000003,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 0
+    },
+    "Tony Bevilaqua": {
+      "wins": 47,
+      "losses": 36,
+      "pts_for": 9708.36,
+      "pts_against": 9386.15,
+      "titles": 1,
+      "seasons": 6,
+      "playoff_appearances": 3
+    },
+    "Scott Kellman": {
+      "wins": 54,
+      "losses": 63,
+      "pts_for": 13547.82,
+      "pts_against": 13966.41,
+      "titles": 0,
+      "seasons": 9,
+      "playoff_appearances": 0
+    },
+    "Jeff Lobdell": {
+      "wins": 95,
+      "losses": 92,
+      "pts_for": 21555.28,
+      "pts_against": 21308.730000000003,
+      "titles": 0,
+      "seasons": 14,
+      "playoff_appearances": 5
+    },
+    "Brian Marois": {
+      "wins": 68,
+      "losses": 54,
+      "pts_for": 14056.18,
+      "pts_against": 14077.529999999999,
+      "titles": 2,
+      "seasons": 9,
+      "playoff_appearances": 4
+    },
+    "Lee Bertram": {
+      "wins": 112,
+      "losses": 88,
+      "pts_for": 24127.74,
+      "pts_against": 22777.229999999996,
+      "titles": 3,
+      "seasons": 15,
+      "playoff_appearances": 9
+    },
+    "Tom Brown": {
+      "wins": 14,
+      "losses": 25,
+      "pts_for": 4303.5,
+      "pts_against": 4586.32,
+      "titles": 0,
+      "seasons": 3,
+      "playoff_appearances": 0
+    },
+    "Joshua": {
+      "wins": 34,
+      "losses": 36,
+      "pts_for": 7925.920000000001,
+      "pts_against": 7968.079999999999,
+      "titles": 1,
+      "seasons": 5,
+      "playoff_appearances": 3
     }
   },
   "luck_by_season": {
@@ -1467,16 +1467,16 @@
       "seasons": 15
     },
     {
-      "owner": "Jeff Lobdell",
-      "avg": 0.14,
-      "total": 2.0,
-      "seasons": 14
-    },
-    {
       "owner": "Chris Harjung",
       "avg": 2.0,
       "total": 2.0,
       "seasons": 1
+    },
+    {
+      "owner": "Jeff Lobdell",
+      "avg": 0.14,
+      "total": 2.0,
+      "seasons": 14
     },
     {
       "owner": "Joshua",
@@ -1647,6 +1647,1094 @@
       "owner": "Christopher Hayes",
       "pr_score": 31.5,
       "rank": 12
+    }
+  ],
+  "season_power_rankings": {
+    "2011": [
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 96.9,
+        "rank": 1
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 91.1,
+        "rank": 2
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 83.3,
+        "rank": 3
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 82.4,
+        "rank": 4
+      },
+      {
+        "owner": "Kevin Coppins",
+        "pr_score": 82.1,
+        "rank": 5
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 75.3,
+        "rank": 6
+      },
+      {
+        "owner": "Steve Loesch",
+        "pr_score": 69.7,
+        "rank": 7
+      },
+      {
+        "owner": "Scott Kellman",
+        "pr_score": 68.5,
+        "rank": 8
+      },
+      {
+        "owner": "Brian Abrahamson",
+        "pr_score": 52.9,
+        "rank": 9
+      },
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 48.9,
+        "rank": 10
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 46.8,
+        "rank": 11
+      },
+      {
+        "owner": "Chris Maher",
+        "pr_score": 34.2,
+        "rank": 12
+      }
+    ],
+    "2012": [
+      {
+        "owner": "Peter Ott",
+        "pr_score": 91.0,
+        "rank": 1
+      },
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 90.2,
+        "rank": 2
+      },
+      {
+        "owner": "Scott Kellman",
+        "pr_score": 89.5,
+        "rank": 3
+      },
+      {
+        "owner": "Tim Flaherty",
+        "pr_score": 72.6,
+        "rank": 4
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 71.5,
+        "rank": 5
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 70.5,
+        "rank": 6
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 68.4,
+        "rank": 7
+      },
+      {
+        "owner": "Steve Loesch",
+        "pr_score": 67.2,
+        "rank": 8
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 66.9,
+        "rank": 9
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 66.5,
+        "rank": 10
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 50.0,
+        "rank": 11
+      },
+      {
+        "owner": "Jake Barker",
+        "pr_score": 35.9,
+        "rank": 12
+      }
+    ],
+    "2013": [
+      {
+        "owner": "Jake Barker",
+        "pr_score": 105.3,
+        "rank": 1
+      },
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 90.0,
+        "rank": 2
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 84.7,
+        "rank": 3
+      },
+      {
+        "owner": "Kevin Coppins",
+        "pr_score": 82.3,
+        "rank": 4
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 70.1,
+        "rank": 5
+      },
+      {
+        "owner": "Tim Flaherty",
+        "pr_score": 67.0,
+        "rank": 6
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 66.6,
+        "rank": 7
+      },
+      {
+        "owner": "Tom Brown",
+        "pr_score": 63.5,
+        "rank": 8
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 58.7,
+        "rank": 9
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 58.2,
+        "rank": 10
+      },
+      {
+        "owner": "Peter Ott",
+        "pr_score": 51.5,
+        "rank": 11
+      },
+      {
+        "owner": "Scott Kellman",
+        "pr_score": 35.5,
+        "rank": 12
+      }
+    ],
+    "2014": [
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 104.4,
+        "rank": 1
+      },
+      {
+        "owner": "Peter Ott",
+        "pr_score": 92.4,
+        "rank": 2
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 90.2,
+        "rank": 3
+      },
+      {
+        "owner": "Kevin Coppins",
+        "pr_score": 76.4,
+        "rank": 4
+      },
+      {
+        "owner": "Jake Barker",
+        "pr_score": 73.6,
+        "rank": 5
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 72.2,
+        "rank": 6
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 66.3,
+        "rank": 7
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 64.4,
+        "rank": 8
+      },
+      {
+        "owner": "Tom Brown",
+        "pr_score": 57.4,
+        "rank": 9
+      },
+      {
+        "owner": "Scott Kellman",
+        "pr_score": 54.4,
+        "rank": 10
+      },
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 51.0,
+        "rank": 11
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 47.8,
+        "rank": 12
+      }
+    ],
+    "2015": [
+      {
+        "owner": "Kevin Coppins",
+        "pr_score": 102.9,
+        "rank": 1
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 101.5,
+        "rank": 2
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 82.0,
+        "rank": 3
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 71.3,
+        "rank": 4
+      },
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 70.1,
+        "rank": 5
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "pr_score": 66.6,
+        "rank": 6
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 62.8,
+        "rank": 7
+      },
+      {
+        "owner": "Peter Ott",
+        "pr_score": 54.8,
+        "rank": 8
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 53.4,
+        "rank": 9
+      },
+      {
+        "owner": "Scott Kellman",
+        "pr_score": 52.7,
+        "rank": 10
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 51.2,
+        "rank": 11
+      },
+      {
+        "owner": "Tom Brown",
+        "pr_score": 51.1,
+        "rank": 12
+      }
+    ],
+    "2016": [
+      {
+        "owner": "Chris Harjung",
+        "pr_score": 104.4,
+        "rank": 1
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 103.5,
+        "rank": 2
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 91.9,
+        "rank": 3
+      },
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 86.6,
+        "rank": 4
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 75.0,
+        "rank": 5
+      },
+      {
+        "owner": "Scott Kellman",
+        "pr_score": 69.7,
+        "rank": 6
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 63.7,
+        "rank": 7
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 57.2,
+        "rank": 8
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "pr_score": 55.6,
+        "rank": 9
+      },
+      {
+        "owner": "Peter Ott",
+        "pr_score": 54.1,
+        "rank": 10
+      },
+      {
+        "owner": "Kevin Coppins",
+        "pr_score": 44.2,
+        "rank": 11
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 28.6,
+        "rank": 12
+      }
+    ],
+    "2017": [
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 113.1,
+        "rank": 1
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 93.2,
+        "rank": 2
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "pr_score": 80.2,
+        "rank": 3
+      },
+      {
+        "owner": "Kevin Coppins",
+        "pr_score": 71.6,
+        "rank": 4
+      },
+      {
+        "owner": "Brian Marois",
+        "pr_score": 71.3,
+        "rank": 5
+      },
+      {
+        "owner": "Scott Kellman",
+        "pr_score": 70.6,
+        "rank": 6
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 70.0,
+        "rank": 7
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 68.9,
+        "rank": 8
+      },
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 52.9,
+        "rank": 9
+      },
+      {
+        "owner": "Peter Ott",
+        "pr_score": 52.8,
+        "rank": 10
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 52.4,
+        "rank": 11
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 51.3,
+        "rank": 12
+      }
+    ],
+    "2018": [
+      {
+        "owner": "Kevin Coppins",
+        "pr_score": 107.7,
+        "rank": 1
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "pr_score": 97.5,
+        "rank": 2
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 89.7,
+        "rank": 3
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 87.6,
+        "rank": 4
+      },
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 84.8,
+        "rank": 5
+      },
+      {
+        "owner": "Scott Kellman",
+        "pr_score": 82.0,
+        "rank": 6
+      },
+      {
+        "owner": "Peter Ott",
+        "pr_score": 78.4,
+        "rank": 7
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 77.1,
+        "rank": 8
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 42.9,
+        "rank": 9
+      },
+      {
+        "owner": "Brian Marois",
+        "pr_score": 34.7,
+        "rank": 10
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 32.7,
+        "rank": 11
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 26.9,
+        "rank": 12
+      }
+    ],
+    "2019": [
+      {
+        "owner": "Malcolm Lapone",
+        "pr_score": 94.9,
+        "rank": 1
+      },
+      {
+        "owner": "Peter Ott",
+        "pr_score": 84.7,
+        "rank": 2
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 81.6,
+        "rank": 3
+      },
+      {
+        "owner": "Scott Kellman",
+        "pr_score": 76.0,
+        "rank": 4
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 74.8,
+        "rank": 5
+      },
+      {
+        "owner": "Brian Marois",
+        "pr_score": 72.3,
+        "rank": 6
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 69.8,
+        "rank": 7
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 67.5,
+        "rank": 8
+      },
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 64.0,
+        "rank": 9
+      },
+      {
+        "owner": "Kevin Coppins",
+        "pr_score": 48.2,
+        "rank": 10
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 46.4,
+        "rank": 11
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 44.3,
+        "rank": 12
+      }
+    ],
+    "2020": [
+      {
+        "owner": "Brian Marois",
+        "pr_score": 107.5,
+        "rank": 1
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 90.4,
+        "rank": 2
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "pr_score": 86.9,
+        "rank": 3
+      },
+      {
+        "owner": "Peter Ott",
+        "pr_score": 85.0,
+        "rank": 4
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 83.9,
+        "rank": 5
+      },
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 70.3,
+        "rank": 6
+      },
+      {
+        "owner": "Tony Bevilaqua",
+        "pr_score": 68.0,
+        "rank": 7
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 67.4,
+        "rank": 8
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 52.5,
+        "rank": 9
+      },
+      {
+        "owner": "Kevin Coppins",
+        "pr_score": 49.1,
+        "rank": 10
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 37.2,
+        "rank": 11
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 27.8,
+        "rank": 12
+      }
+    ],
+    "2021": [
+      {
+        "owner": "Peter Ott",
+        "pr_score": 111.1,
+        "rank": 1
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 88.1,
+        "rank": 2
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 87.5,
+        "rank": 3
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "pr_score": 85.9,
+        "rank": 4
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 75.3,
+        "rank": 5
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 70.3,
+        "rank": 6
+      },
+      {
+        "owner": "Tony Bevilaqua",
+        "pr_score": 66.7,
+        "rank": 7
+      },
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 65.4,
+        "rank": 8
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 54.2,
+        "rank": 9
+      },
+      {
+        "owner": "Joshua",
+        "pr_score": 50.7,
+        "rank": 10
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 48.7,
+        "rank": 11
+      },
+      {
+        "owner": "Brian Marois",
+        "pr_score": 35.1,
+        "rank": 12
+      }
+    ],
+    "2022": [
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 83.3,
+        "rank": 1
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 81.5,
+        "rank": 2
+      },
+      {
+        "owner": "Joshua",
+        "pr_score": 78.0,
+        "rank": 3
+      },
+      {
+        "owner": "Peter Ott",
+        "pr_score": 74.8,
+        "rank": 4
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 73.6,
+        "rank": 5
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 71.7,
+        "rank": 6
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 71.5,
+        "rank": 7
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 69.7,
+        "rank": 8
+      },
+      {
+        "owner": "Tony Bevilaqua",
+        "pr_score": 67.6,
+        "rank": 9
+      },
+      {
+        "owner": "Brian Marois",
+        "pr_score": 57.8,
+        "rank": 10
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "pr_score": 57.6,
+        "rank": 11
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 54.8,
+        "rank": 12
+      }
+    ],
+    "2023": [
+      {
+        "owner": "Peter Ott",
+        "pr_score": 111.0,
+        "rank": 1
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "pr_score": 91.3,
+        "rank": 2
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 86.7,
+        "rank": 3
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 86.4,
+        "rank": 4
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 77.8,
+        "rank": 5
+      },
+      {
+        "owner": "Tony Bevilaqua",
+        "pr_score": 70.9,
+        "rank": 6
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 63.8,
+        "rank": 7
+      },
+      {
+        "owner": "Joshua",
+        "pr_score": 56.3,
+        "rank": 8
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 55.8,
+        "rank": 9
+      },
+      {
+        "owner": "Brian Marois",
+        "pr_score": 52.2,
+        "rank": 10
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 51.3,
+        "rank": 11
+      },
+      {
+        "owner": "Steve Minardi",
+        "pr_score": 50.9,
+        "rank": 12
+      }
+    ],
+    "2024": [
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 111.2,
+        "rank": 1
+      },
+      {
+        "owner": "Tony Bevilaqua",
+        "pr_score": 90.7,
+        "rank": 2
+      },
+      {
+        "owner": "Brian Marois",
+        "pr_score": 90.0,
+        "rank": 3
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 72.5,
+        "rank": 4
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "pr_score": 71.6,
+        "rank": 5
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 69.1,
+        "rank": 6
+      },
+      {
+        "owner": "Peter Ott",
+        "pr_score": 69.0,
+        "rank": 7
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 68.2,
+        "rank": 8
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 66.0,
+        "rank": 9
+      },
+      {
+        "owner": "Joshua",
+        "pr_score": 58.4,
+        "rank": 10
+      },
+      {
+        "owner": "Christopher Hayes",
+        "pr_score": 53.4,
+        "rank": 11
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 37.1,
+        "rank": 12
+      }
+    ],
+    "2025": [
+      {
+        "owner": "Joshua",
+        "pr_score": 94.6,
+        "rank": 1
+      },
+      {
+        "owner": "Lee Bertram",
+        "pr_score": 89.7,
+        "rank": 2
+      },
+      {
+        "owner": "Brian Marois",
+        "pr_score": 88.0,
+        "rank": 3
+      },
+      {
+        "owner": "Tony Bevilaqua",
+        "pr_score": 73.0,
+        "rank": 4
+      },
+      {
+        "owner": "Kenny Smith",
+        "pr_score": 70.6,
+        "rank": 5
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "pr_score": 69.4,
+        "rank": 6
+      },
+      {
+        "owner": "Ed Shively",
+        "pr_score": 68.8,
+        "rank": 7
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "pr_score": 65.6,
+        "rank": 8
+      },
+      {
+        "owner": "Peter Ott",
+        "pr_score": 65.2,
+        "rank": 9
+      },
+      {
+        "owner": "Kevin Etwaroo",
+        "pr_score": 63.8,
+        "rank": 10
+      },
+      {
+        "owner": "Chris Dupay",
+        "pr_score": 44.5,
+        "rank": 11
+      },
+      {
+        "owner": "Christopher Hayes",
+        "pr_score": 31.5,
+        "rank": 12
+      }
+    ]
+  },
+  "power_rankings_alltime": [
+    {
+      "owner": "Chris Harjung",
+      "avg_score": 104.4,
+      "best_score": 104.4,
+      "best_year": 2016,
+      "seasons": 1
+    },
+    {
+      "owner": "Malcolm Lapone",
+      "avg_score": 77.6,
+      "best_score": 97.5,
+      "best_year": 2018,
+      "seasons": 11
+    },
+    {
+      "owner": "Peter Ott",
+      "avg_score": 76.8,
+      "best_score": 111.1,
+      "best_year": 2021,
+      "seasons": 14
+    },
+    {
+      "owner": "Lee Bertram",
+      "avg_score": 74.7,
+      "best_score": 111.2,
+      "best_year": 2024,
+      "seasons": 15
+    },
+    {
+      "owner": "Kevin Coppins",
+      "avg_score": 73.8,
+      "best_score": 107.7,
+      "best_year": 2018,
+      "seasons": 9
+    },
+    {
+      "owner": "Tony Bevilaqua",
+      "avg_score": 72.8,
+      "best_score": 90.7,
+      "best_year": 2024,
+      "seasons": 6
+    },
+    {
+      "owner": "Jake Barker",
+      "avg_score": 71.6,
+      "best_score": 105.3,
+      "best_year": 2013,
+      "seasons": 3
+    },
+    {
+      "owner": "Chris Dupay",
+      "avg_score": 71.4,
+      "best_score": 101.5,
+      "best_year": 2015,
+      "seasons": 15
+    },
+    {
+      "owner": "Ed Shively",
+      "avg_score": 70.4,
+      "best_score": 91.9,
+      "best_year": 2016,
+      "seasons": 15
+    },
+    {
+      "owner": "Jeff Lobdell",
+      "avg_score": 70.3,
+      "best_score": 113.1,
+      "best_year": 2017,
+      "seasons": 14
+    },
+    {
+      "owner": "Steve Minardi",
+      "avg_score": 69.9,
+      "best_score": 90.2,
+      "best_year": 2012,
+      "seasons": 13
+    },
+    {
+      "owner": "Tim Flaherty",
+      "avg_score": 69.8,
+      "best_score": 72.6,
+      "best_year": 2012,
+      "seasons": 2
+    },
+    {
+      "owner": "Steve Loesch",
+      "avg_score": 68.5,
+      "best_score": 69.7,
+      "best_year": 2011,
+      "seasons": 2
+    },
+    {
+      "owner": "Brian Marois",
+      "avg_score": 67.7,
+      "best_score": 107.5,
+      "best_year": 2020,
+      "seasons": 9
+    },
+    {
+      "owner": "Joshua",
+      "avg_score": 67.6,
+      "best_score": 94.6,
+      "best_year": 2025,
+      "seasons": 5
+    },
+    {
+      "owner": "Kenny Smith",
+      "avg_score": 67.1,
+      "best_score": 93.2,
+      "best_year": 2017,
+      "seasons": 15
+    },
+    {
+      "owner": "Scott Kellman",
+      "avg_score": 66.5,
+      "best_score": 89.5,
+      "best_year": 2012,
+      "seasons": 9
+    },
+    {
+      "owner": "Kevin Etwaroo",
+      "avg_score": 60.4,
+      "best_score": 104.4,
+      "best_year": 2014,
+      "seasons": 15
+    },
+    {
+      "owner": "Tom Brown",
+      "avg_score": 57.3,
+      "best_score": 63.5,
+      "best_year": 2013,
+      "seasons": 3
+    },
+    {
+      "owner": "Brian Abrahamson",
+      "avg_score": 52.9,
+      "best_score": 52.9,
+      "best_year": 2011,
+      "seasons": 1
+    },
+    {
+      "owner": "Christopher Hayes",
+      "avg_score": 42.5,
+      "best_score": 53.4,
+      "best_year": 2024,
+      "seasons": 2
+    },
+    {
+      "owner": "Chris Maher",
+      "avg_score": 34.2,
+      "best_score": 34.2,
+      "best_year": 2011,
+      "seasons": 1
     }
   ],
   "season_standings": {

@@ -448,6 +448,32 @@ def build_dashboard_data():
     # Power rankings from latest season
     power_rankings = compute_power_rankings(all_seasons[-1])
 
+    # Power rankings per season + all-time summary
+    season_power_rankings = {}
+    pr_history = {}  # owner -> list of {year, score}
+
+    for s in all_seasons:
+        pr = compute_power_rankings(s)
+        season_power_rankings[str(s["year"])] = pr
+        for r in pr:
+            pr_history.setdefault(r["owner"], []).append({
+                "year":  s["year"],
+                "score": r["pr_score"],
+            })
+
+    power_rankings_alltime = []
+    for owner, seasons in pr_history.items():
+        scores = [x["score"] for x in seasons]
+        best   = max(seasons, key=lambda x: x["score"])
+        power_rankings_alltime.append({
+            "owner":      owner,
+            "avg_score":  round(sum(scores) / len(scores), 1),
+            "best_score": best["score"],
+            "best_year":  best["year"],
+            "seasons":    len(seasons),
+        })
+    power_rankings_alltime.sort(key=lambda x: x["avg_score"], reverse=True)
+
     # Full standings per season
     season_standings = {}
     for s in all_seasons:
@@ -472,8 +498,10 @@ def build_dashboard_data():
         "owner_stats":       owner_stats,
         "luck_by_season":    luck_by_season,
         "luck_summary":      luck_summary,
-        "power_rankings":    power_rankings,
-        "season_standings":  season_standings,
+        "power_rankings":          power_rankings,
+        "season_power_rankings":   season_power_rankings,
+        "power_rankings_alltime":  power_rankings_alltime,
+        "season_standings":        season_standings,
     }
 
     out = OUTPUT_DIR / "dashboard_data.json"

@@ -938,29 +938,13 @@
   <!-- POWER RANKINGS -->
   <div class="section" id="power">
     <div class="section-title">Power <span>Rankings</span></div>
-    <div class="section-sub">Week 14 · 2025 Season · Updated Weekly</div>
+    <div class="section-sub">Season-by-Season Performance Ratings</div>
 
-    <div class="grid-2">
-      <div class="card">
-        <div class="card-title">Current Power Rankings</div>
-        <div id="powerList" style="margin-top:0.5rem;"></div>
-      </div>
-      <div class="card">
-        <div class="card-title">Historical Best Weeks</div>
-        <div class="table-wrap" style="margin-top:0.5rem;">
-          <table>
-            <thead>
-              <tr>
-                <th>Manager</th>
-                <th>Peak Rank</th>
-                <th>Season</th>
-                <th>Streak</th>
-              </tr>
-            </thead>
-            <tbody id="peakRanks"></tbody>
-          </table>
-        </div>
-      </div>
+    <div class="season-filter" id="prSeasonFilter"></div>
+
+    <div class="card" style="margin-bottom:1rem;">
+      <div class="card-title" id="prSeasonTitle">2025 Season · Power Rankings</div>
+      <div id="powerList" style="margin-top:0.75rem;"></div>
     </div>
 
     <div class="card">
@@ -969,11 +953,12 @@
         <table>
           <thead>
             <tr>
+              <th>#</th>
               <th>Manager</th>
-              <th>Avg Weekly PR Score</th>
-              <th>Weeks at #1</th>
-              <th>Best Season Avg</th>
-              <th>Current</th>
+              <th>Avg PR Score</th>
+              <th>Best Season Score</th>
+              <th>Best Year</th>
+              <th>Seasons</th>
             </tr>
           </thead>
           <tbody id="powerAllTime"></tbody>
@@ -1345,46 +1330,68 @@ function buildLuckAllTime(luckAllTime) {
   });
 }
 
-function buildPowerRankings(powerRankings) {
+let _seasonPowerRankings = {};
+
+function buildPowerRankings(rankings) {
   const el = document.getElementById('powerList');
-  powerRankings.forEach(p => {
+  el.innerHTML = '';
+  const maxScore = rankings.length ? rankings[0].score : 1;
+  rankings.forEach(p => {
     const rankColor = p.rank === 1 ? 'var(--gold)' : p.rank === 2 ? '#C0C0C0' : p.rank === 3 ? '#CD7F32' : 'var(--text-dim)';
+    const barPct = maxScore > 0 ? ((p.score / maxScore) * 100).toFixed(1) : 0;
     el.innerHTML += `
-      <div class="pr-row">
-        <span class="pr-rank" style="color:${rankColor}">${p.rank}</span>
-        <span class="pr-name">${p.name}</span>
-        <span class="pr-score" style="color:${rankColor}">${p.score}</span>
+      <div style="padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.05);">
+        <div class="pr-row" style="margin-bottom:4px;">
+          <span class="pr-rank" style="color:${rankColor}">${p.rank}</span>
+          <span class="pr-name">${p.name}</span>
+          <span class="pr-score" style="color:${rankColor}">${p.score}</span>
+        </div>
+        <div class="pts-bar-wrap"><div class="pts-bar-fill" style="width:${barPct}%"></div></div>
       </div>
     `;
   });
 }
 
-function buildPowerAllTime() {
-  const tb = document.getElementById('powerAllTime');
-  const data = [
-    ['Lee Bertram', '89.7', '—', '—', '#2 this wk'],
-    ['Peter Ott', '88.1', '—', '—', '#9 this wk'],
-    ['Brian Marois', '88.0', '—', '—', '#3 this wk'],
-    ['Joshua', '94.6', '—', '—', '#1 this wk'],
-    ['Kenny Smith', '70.6', '—', '—', '#5 this wk'],
-  ];
-  data.forEach(r => {
-    tb.innerHTML += `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td><td style="color:var(--text-dim)">${r[4]}</td></tr>`;
+function renderPowerRankingsSeason(year) {
+  document.getElementById('prSeasonTitle').textContent = `${year} Season · Power Rankings`;
+  const raw = _seasonPowerRankings[String(year)] || [];
+  buildPowerRankings(raw.map(p => ({ rank: p.rank, name: p.owner, score: p.pr_score })));
+}
+
+function buildPRSeasonSelect(seasonPRData) {
+  const el = document.getElementById('prSeasonFilter');
+  const years = Object.keys(seasonPRData).map(Number).sort((a, b) => b - a);
+  years.forEach((y, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'season-btn' + (i === 0 ? ' active' : '');
+    btn.textContent = y;
+    btn.onclick = () => {
+      el.querySelectorAll('.season-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderPowerRankingsSeason(y);
+    };
+    el.appendChild(btn);
   });
 }
 
-function buildPeakRanks() {
-  const tb = document.getElementById('peakRanks');
-  const data = [
-    ['Lee Bertram', '#1', 2011, '—'],
-    ['Peter Ott', '#1', 2023, '—'],
-    ['Joshua', '#1', 2025, '—'],
-    ['Brian Marois', '#1', 2022, '—'],
-    ['Tony Bevilaqua', '#1', 2024, '—'],
-  ];
-  data.forEach(r => {
-    tb.innerHTML += `<tr><td>${r[0]}</td><td style="color:var(--gold);font-weight:700">${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td></tr>`;
-  });
+function buildPRAllTime(allTimeData) {
+  const tb = document.getElementById('powerAllTime');
+  allTimeData
+    .filter(m => m.seasons >= 3)
+    .forEach((m, i) => {
+      const rankColor = i === 0 ? 'var(--gold)' : i === 1 ? '#C0C0C0' : i === 2 ? '#CD7F32' : '';
+      const rankStyle = rankColor ? `color:${rankColor}; font-weight:700` : 'color:var(--text-dim)';
+      tb.innerHTML += `
+        <tr>
+          <td style="${rankStyle}">${i + 1}</td>
+          <td>${m.owner}</td>
+          <td style="color:var(--gold); font-weight:700;">${m.avg_score}</td>
+          <td>${m.best_score}</td>
+          <td>${m.best_year}</td>
+          <td>${m.seasons}</td>
+        </tr>
+      `;
+    });
 }
 
 function buildCostSheet(managers) {
@@ -1494,7 +1501,7 @@ fetch('data/dashboard_data.json')
       worst: ownerYears[m.owner]?.worst || '—',
     }));
 
-    const powerRankings = data.power_rankings.map(p => ({
+    const powerRankings = (data.power_rankings || []).map(p => ({
       rank: p.rank,
       name: p.owner,
       score: p.pr_score,
@@ -1550,9 +1557,10 @@ fetch('data/dashboard_data.json')
     buildLuckSeasonSelect(data.luck_by_season);
     renderLuckSeason(2025);
     buildLuckAllTime(luckAllTime);
-    buildPowerRankings(powerRankings);
-    buildPowerAllTime();
-    buildPeakRanks();
+    _seasonPowerRankings = data.season_power_rankings || {};
+    buildPRSeasonSelect(_seasonPowerRankings);
+    renderPowerRankingsSeason(2025);
+    buildPRAllTime(data.power_rankings_alltime || []);
     buildCostSheet(managers);
     showApp();
   })
