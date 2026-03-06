@@ -279,6 +279,7 @@
   .tag-runner { background: rgba(192,192,192,0.1); color: #C0C0C0; border: 1px solid #C0C0C0; }
   .tag-lucky { background: rgba(41,128,185,0.2); color: #5dade2; border: 1px solid #5dade2; }
   .tag-unlucky { background: rgba(192,57,43,0.2); color: #e74c3c; border: 1px solid #e74c3c; }
+  .tag-neutral { background: rgba(255,255,255,0.06); color: var(--text-dim); border: 1px solid rgba(255,255,255,0.15); }
   .tag-rip { background: rgba(192,57,43,0.15); color: #e74c3c; }
 
   /* WIN % BAR */
@@ -702,6 +703,7 @@
     /* LUCK INDEX — allow meter items to wrap on very small screens */
     .luck-meter { gap: 5px; font-size: 0.8rem; flex-wrap: wrap; justify-content: flex-end; }
     .luck-bar-wrap { height: 10px; }
+    #luck .grid-3 .card-title { letter-spacing: 1px; white-space: normal; }
 
     /* POWER RANKINGS */
     .pr-row { gap: 0.75rem; }
@@ -907,11 +909,9 @@
     </div>
 
     <div class="card">
-      <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.25rem;">
-        <div class="card-title" id="luckSeasonTitle" style="margin-bottom:0;">Season Luck Index</div>
-        <select id="luckSeasonSelect" style="background:rgba(255,255,255,0.07); color:var(--text); border:1px solid rgba(255,255,255,0.12); border-radius:6px; padding:4px 10px; font-size:0.85rem; cursor:pointer;"></select>
-      </div>
-      <div style="margin-top:1.2rem;" id="luckTable"></div>
+      <div class="card-title" id="luckSeasonTitle">Season Luck Index</div>
+      <div class="season-filter" id="luckSeasonFilter" style="margin-bottom:0.75rem;"></div>
+      <div id="luckTable"></div>
     </div>
 
     <div class="card" style="margin-top:1rem;">
@@ -1257,11 +1257,11 @@ function buildLuckStats(luckBySeasonAll, luckSummary) {
   const cards = document.querySelectorAll('#luck .grid-3 .card');
   if (cards[0] && bestSeason) {
     cards[0].querySelector('.card-value').textContent = `+${bestSeason.luck_score.toFixed(1)}`;
-    cards[0].querySelector('.card-detail').textContent = `${bestSeason.owner} · ${bestSeason.year} — Won ${bestSeason.actual_wins}, Expected ${bestSeason.expected_wins}`;
+    cards[0].querySelector('.card-detail').textContent = `${bestSeason.owner} · ${bestSeason.year} · +${bestSeason.luck_score.toFixed(1)}`;
   }
   if (cards[1] && worstSeason) {
     cards[1].querySelector('.card-value').textContent = worstSeason.luck_score.toFixed(1);
-    cards[1].querySelector('.card-detail').textContent = `${worstSeason.owner} · ${worstSeason.year} — Won ${worstSeason.actual_wins}, Expected ${worstSeason.expected_wins}`;
+    cards[1].querySelector('.card-detail').textContent = `${worstSeason.owner} · ${worstSeason.year} · ${worstSeason.luck_score.toFixed(1)}`;
   }
   if (cards[2] && luckiestAllTime) {
     const sign = luckiestAllTime.total >= 0 ? '+' : '';
@@ -1306,16 +1306,19 @@ function renderLuckSeason(year) {
 }
 
 function buildLuckSeasonSelect(luckBySeasonAll) {
-  const sel = document.getElementById('luckSeasonSelect');
+  const el = document.getElementById('luckSeasonFilter');
   const years = Object.keys(luckBySeasonAll).map(Number).sort((a, b) => b - a);
-  years.forEach(y => {
-    const opt = document.createElement('option');
-    opt.value = y;
-    opt.textContent = y;
-    sel.appendChild(opt);
+  years.forEach((y, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'season-btn' + (i === 0 ? ' active' : '');
+    btn.textContent = y;
+    btn.onclick = () => {
+      el.querySelectorAll('.season-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderLuckSeason(y);
+    };
+    el.appendChild(btn);
   });
-  sel.value = years[0]; // default to most recent
-  sel.onchange = () => renderLuckSeason(Number(sel.value));
 }
 
 function buildLuckAllTime(luckAllTime) {
@@ -1326,7 +1329,7 @@ function buildLuckAllTime(luckAllTime) {
   filtered.forEach(m => {
     const totalVal = parseFloat(m.total);
     const verdict = totalVal > 2 ? 'lucky' : totalVal < -2 ? 'unlucky' : 'neutral';
-    const vTag   = verdict === 'lucky' ? 'tag-lucky' : verdict === 'unlucky' ? 'tag-unlucky' : '';
+    const vTag   = verdict === 'lucky' ? 'tag-lucky' : verdict === 'unlucky' ? 'tag-unlucky' : 'tag-neutral';
     const vLabel = verdict === 'lucky' ? 'LUCKY'     : verdict === 'unlucky' ? 'UNLUCKY'     : 'NEUTRAL';
     tb.innerHTML += `
       <tr>
