@@ -907,7 +907,10 @@
     </div>
 
     <div class="card">
-      <div class="card-title">2025 Season · Luck Index</div>
+      <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.25rem;">
+        <div class="card-title" id="luckSeasonTitle" style="margin-bottom:0;">Season Luck Index</div>
+        <select id="luckSeasonSelect" style="background:rgba(255,255,255,0.07); color:var(--text); border:1px solid rgba(255,255,255,0.12); border-radius:6px; padding:4px 10px; font-size:0.85rem; cursor:pointer;"></select>
+      </div>
       <div style="margin-top:1.2rem;" id="luckTable"></div>
     </div>
 
@@ -918,6 +921,7 @@
           <thead>
             <tr>
               <th>Manager</th>
+              <th>Seasons</th>
               <th>Avg Luck/Season</th>
               <th>Total Luck</th>
               <th>Luckiest Year</th>
@@ -1266,9 +1270,19 @@ function buildLuckStats(luckBySeasonAll, luckSummary) {
   }
 }
 
-function buildLuckTable(luckData2025) {
+let _luckBySeasonAll = {};
+
+function renderLuckSeason(year) {
+  const entries = (_luckBySeasonAll[String(year)] || []).map(p => ({
+    name: p.owner,
+    actual: p.actual_wins,
+    expected: p.expected_wins,
+    luck: p.luck_score,
+  }));
+  document.getElementById('luckSeasonTitle').textContent = `${year} Season · Luck Index`;
   const el = document.getElementById('luckTable');
-  [...luckData2025].sort((a,b) => b.luck - a.luck).forEach(p => {
+  el.innerHTML = '';
+  [...entries].sort((a, b) => b.luck - a.luck).forEach(p => {
     const isPos = p.luck >= 0;
     const pct = Math.min(Math.abs(p.luck) / 4 * 50, 50);
     el.innerHTML += `
@@ -1291,16 +1305,35 @@ function buildLuckTable(luckData2025) {
   });
 }
 
+function buildLuckSeasonSelect(luckBySeasonAll) {
+  const sel = document.getElementById('luckSeasonSelect');
+  const years = Object.keys(luckBySeasonAll).map(Number).sort((a, b) => b - a);
+  years.forEach(y => {
+    const opt = document.createElement('option');
+    opt.value = y;
+    opt.textContent = y;
+    sel.appendChild(opt);
+  });
+  sel.value = years[0]; // default to most recent
+  sel.onchange = () => renderLuckSeason(Number(sel.value));
+}
+
 function buildLuckAllTime(luckAllTime) {
   const tb = document.getElementById('luckAllTime');
-  luckAllTime.forEach(m => {
-    const vTag = m.verdict === 'lucky' ? 'tag-lucky' : m.verdict === 'unlucky' ? 'tag-unlucky' : '';
-    const vLabel = m.verdict === 'lucky' ? 'Lucky' : m.verdict === 'unlucky' ? 'Unlucky' : 'Neutral';
+  const filtered = [...luckAllTime]
+    .filter(m => m.seasons >= 3)
+    .sort((a, b) => parseFloat(b.total) - parseFloat(a.total));
+  filtered.forEach(m => {
+    const totalVal = parseFloat(m.total);
+    const verdict = totalVal > 2 ? 'lucky' : totalVal < -2 ? 'unlucky' : 'neutral';
+    const vTag   = verdict === 'lucky' ? 'tag-lucky' : verdict === 'unlucky' ? 'tag-unlucky' : '';
+    const vLabel = verdict === 'lucky' ? 'LUCKY'     : verdict === 'unlucky' ? 'UNLUCKY'     : 'NEUTRAL';
     tb.innerHTML += `
       <tr>
         <td>${m.name}</td>
+        <td>${m.seasons}</td>
         <td style="color:${parseFloat(m.avg)>=0?'#5dade2':'#e74c3c'}">${m.avg}</td>
-        <td style="color:${parseFloat(m.total)>=0?'#5dade2':'#e74c3c'}; font-weight:700">${m.total}</td>
+        <td style="color:${totalVal>=0?'#5dade2':'#e74c3c'}; font-weight:700">${m.total}</td>
         <td>${m.best}</td>
         <td>${m.worst}</td>
         <td><span class="tag ${vTag}">${vLabel}</span></td>
@@ -1439,13 +1472,6 @@ fetch('data/dashboard_data.json')
         seasons: s.seasons,
       }));
 
-    const luckData2025 = (data.luck_by_season['2025'] || []).map(p => ({
-      name: p.owner,
-      actual: p.actual_wins,
-      expected: p.expected_wins,
-      luck: p.luck_score,
-    }));
-
     // Compute per-owner best/worst luck year from all seasons
     const ownerYears = {};
     for (const [year, entries] of Object.entries(data.luck_by_season)) {
@@ -1458,11 +1484,11 @@ fetch('data/dashboard_data.json')
 
     const luckAllTime = data.luck_summary.map(m => ({
       name: m.owner,
+      seasons: m.seasons,
       avg: (m.avg >= 0 ? '+' : '') + m.avg.toFixed(2),
       total: (m.total >= 0 ? '+' : '') + m.total.toFixed(2),
       best: ownerYears[m.owner]?.best || '—',
       worst: ownerYears[m.owner]?.worst || '—',
-      verdict: m.avg > 0.15 ? 'lucky' : m.avg < -0.15 ? 'unlucky' : 'neutral',
     }));
 
     const powerRankings = data.power_rankings.map(p => ({
@@ -1516,8 +1542,10 @@ fetch('data/dashboard_data.json')
     buildAllTimeStandings(managers);
     buildChampRoll(champions);
     buildRecordsTable(managers);
+    _luckBySeasonAll = data.luck_by_season;
     buildLuckStats(data.luck_by_season, data.luck_summary);
-    buildLuckTable(luckData2025);
+    buildLuckSeasonSelect(data.luck_by_season);
+    renderLuckSeason(2025);
     buildLuckAllTime(luckAllTime);
     buildPowerRankings(powerRankings);
     buildPowerAllTime();
