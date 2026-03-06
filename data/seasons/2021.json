@@ -14,7 +14,7 @@
     {
       "team_key": "406.l.185056.t.1",
       "name": "Stairway to Tevin",
-      "owner": "Lee",
+      "owner": "Lee Bertram",
       "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
       "rank": 1,
       "wins": 9,
@@ -27,7 +27,7 @@
     {
       "team_key": "406.l.185056.t.3",
       "name": "NoCholoImSolo",
-      "owner": "Kenneth",
+      "owner": "Kenny Smith",
       "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
       "rank": 2,
       "wins": 8,
@@ -40,7 +40,7 @@
     {
       "team_key": "406.l.185056.t.10",
       "name": "Ottoman Empire",
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
       "rank": 3,
       "wins": 11,
@@ -53,7 +53,7 @@
     {
       "team_key": "406.l.185056.t.7",
       "name": "Fitz n Chips",
-      "owner": "Edward",
+      "owner": "Ed Shively",
       "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
       "rank": 4,
       "wins": 8,
@@ -66,7 +66,7 @@
     {
       "team_key": "406.l.185056.t.8",
       "name": "Just-End-The-Season",
-      "owner": "Mike",
+      "owner": "Malcolm Lapone",
       "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
       "rank": 5,
       "wins": 8,
@@ -79,7 +79,7 @@
     {
       "team_key": "406.l.185056.t.4",
       "name": "Twas da nite Alvin ruined Xmas",
-      "owner": "Tony",
+      "owner": "Tony Bevilaqua",
       "guid": "ETCIM4DSHDIAJAKTR5AT6BFIWY",
       "rank": 6,
       "wins": 9,
@@ -92,7 +92,7 @@
     {
       "team_key": "406.l.185056.t.2",
       "name": "Boom Squad",
-      "owner": "Jeff",
+      "owner": "Jeff Lobdell",
       "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
       "rank": 7,
       "wins": 5,
@@ -105,7 +105,7 @@
     {
       "team_key": "406.l.185056.t.6",
       "name": "Got a Chubb-ie",
-      "owner": "Chris D",
+      "owner": "Chris Dupay",
       "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
       "rank": 8,
       "wins": 6,
@@ -118,7 +118,7 @@
     {
       "team_key": "406.l.185056.t.9",
       "name": "ManningHam N' Cheese",
-      "owner": "Kevin",
+      "owner": "Kevin Etwaroo",
       "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
       "rank": 9,
       "wins": 6,
@@ -144,7 +144,7 @@
     {
       "team_key": "406.l.185056.t.12",
       "name": "HurtInaCarr CallWilliamMattar",
-      "owner": "Steph",
+      "owner": "Steve Minardi",
       "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
       "rank": 11,
       "wins": 5,
@@ -157,7 +157,7 @@
     {
       "team_key": "406.l.185056.t.5",
       "name": "PSquared*",
-      "owner": "Brian",
+      "owner": "Brian Marois",
       "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
       "rank": 12,
       "wins": 5,
@@ -176,13 +176,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 136.71
         },
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 102.92
         }
       ]
@@ -194,7 +194,7 @@
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 116.28
         },
         {
@@ -212,13 +212,13 @@
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 113.53
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 108.59
         }
       ]
@@ -230,13 +230,13 @@
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 138.55
         },
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 116.73
         }
       ]
@@ -248,13 +248,13 @@
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 126.46
         },
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 78.3
         }
       ]
@@ -266,13 +266,13 @@
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 129.41
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 130.2
         }
       ]
@@ -284,13 +284,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 96.22
         },
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 95.92
         }
       ]
@@ -302,13 +302,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 75.9
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 123.94
         }
       ]
@@ -320,7 +320,7 @@
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 145.96
         },
         {
@@ -338,13 +338,13 @@
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 107.83
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 146.81
         }
       ]
@@ -356,13 +356,13 @@
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 142.38
         },
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 137.62
         }
       ]
@@ -374,13 +374,13 @@
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 94.44
         },
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 144.37
         }
       ]
@@ -392,13 +392,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 136.64
         },
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 155.55
         }
       ]
@@ -410,13 +410,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 78.77
         },
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 101.75
         }
       ]
@@ -428,7 +428,7 @@
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 113.21
         },
         {
@@ -446,13 +446,13 @@
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 97.75
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 171.4
         }
       ]
@@ -464,13 +464,13 @@
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 112.91
         },
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 122.52
         }
       ]
@@ -482,13 +482,13 @@
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 111.69
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 101.94
         }
       ]
@@ -500,13 +500,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 133.2
         },
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 145.07
         }
       ]
@@ -518,13 +518,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 121.35
         },
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 109.62
         }
       ]
@@ -536,13 +536,13 @@
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 123.66
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 81.76
         }
       ]
@@ -554,7 +554,7 @@
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 111.99
         },
         {
@@ -572,13 +572,13 @@
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 122.46
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 107.89
         }
       ]
@@ -590,13 +590,13 @@
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 124.19
         },
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 140.39
         }
       ]
@@ -608,13 +608,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 118.26
         },
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 114.05
         }
       ]
@@ -626,13 +626,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 136.95
         },
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 145.73
         }
       ]
@@ -644,13 +644,13 @@
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 86.83
         },
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 131.0
         }
       ]
@@ -662,7 +662,7 @@
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 138.2
         },
         {
@@ -680,13 +680,13 @@
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 158.58
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 158.67
         }
       ]
@@ -698,13 +698,13 @@
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 130.13
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 117.64
         }
       ]
@@ -716,13 +716,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 129.26
         },
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 121.37
         }
       ]
@@ -734,13 +734,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 125.33
         },
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 103.62
         }
       ]
@@ -752,13 +752,13 @@
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 98.64
         },
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 108.53
         }
       ]
@@ -770,13 +770,13 @@
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 172.74
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 123.88
         }
       ]
@@ -788,7 +788,7 @@
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 134.75
         },
         {
@@ -806,13 +806,13 @@
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 105.45
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 123.58
         }
       ]
@@ -824,13 +824,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 122.61
         },
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 119.53
         }
       ]
@@ -842,13 +842,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 72.92
         },
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 102.13
         }
       ]
@@ -860,13 +860,13 @@
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 102.4
         },
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 97.64
         }
       ]
@@ -878,13 +878,13 @@
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 108.28
         },
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 99.71
         }
       ]
@@ -896,7 +896,7 @@
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 133.44
         },
         {
@@ -914,13 +914,13 @@
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 135.97
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 116.79
         }
       ]
@@ -932,13 +932,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 88.66
         },
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 111.13
         }
       ]
@@ -950,13 +950,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 80.54
         },
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 100.56
         }
       ]
@@ -968,13 +968,13 @@
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 143.16
         },
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 139.15
         }
       ]
@@ -986,13 +986,13 @@
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 102.84
         },
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 95.74
         }
       ]
@@ -1004,13 +1004,13 @@
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 111.14
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 103.18
         }
       ]
@@ -1022,7 +1022,7 @@
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 119.83
         },
         {
@@ -1040,13 +1040,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 93.21
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 113.95
         }
       ]
@@ -1058,13 +1058,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 126.63
         },
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 90.59
         }
       ]
@@ -1076,13 +1076,13 @@
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 139.78
         },
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 69.72
         }
       ]
@@ -1094,13 +1094,13 @@
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 90.97
         },
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 122.29
         }
       ]
@@ -1112,13 +1112,13 @@
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 95.62
         },
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 98.88
         }
       ]
@@ -1136,7 +1136,7 @@
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 89.16
         }
       ]
@@ -1148,7 +1148,7 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 107.65
         },
         {
@@ -1166,13 +1166,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 109.34
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 102.12
         }
       ]
@@ -1184,13 +1184,13 @@
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 101.97
         },
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 121.32
         }
       ]
@@ -1202,13 +1202,13 @@
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 67.24
         },
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 92.4
         }
       ]
@@ -1220,13 +1220,13 @@
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 99.37
         },
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 106.75
         }
       ]
@@ -1238,13 +1238,13 @@
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 109.9
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 126.89
         }
       ]
@@ -1256,13 +1256,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 97.59
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 104.95
         }
       ]
@@ -1274,7 +1274,7 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 134.94
         },
         {
@@ -1292,13 +1292,13 @@
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 106.5
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 126.61
         }
       ]
@@ -1310,13 +1310,13 @@
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 100.8
         },
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 74.45
         }
       ]
@@ -1328,13 +1328,13 @@
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 111.32
         },
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 122.65
         }
       ]
@@ -1346,13 +1346,13 @@
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 165.34
         },
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 121.45
         }
       ]
@@ -1364,13 +1364,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 117.88
         },
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 112.6
         }
       ]
@@ -1382,7 +1382,7 @@
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 121.09
         },
         {
@@ -1400,13 +1400,13 @@
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 80.92
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 107.99
         }
       ]
@@ -1418,13 +1418,13 @@
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 99.37
         },
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 124.81
         }
       ]
@@ -1436,13 +1436,13 @@
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 106.69
         },
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 119.05
         }
       ]
@@ -1454,13 +1454,13 @@
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 125.09
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 115.72
         }
       ]
@@ -1472,13 +1472,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 130.8
         },
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 109.02
         }
       ]
@@ -1490,13 +1490,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 108.95
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 114.29
         }
       ]
@@ -1508,7 +1508,7 @@
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 125.6
         },
         {
@@ -1526,13 +1526,13 @@
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 99.52
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 177.05
         }
       ]
@@ -1544,13 +1544,13 @@
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 117.78
         },
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 101.63
         }
       ]
@@ -1562,13 +1562,13 @@
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 131.73
         },
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 87.67
         }
       ]
@@ -1580,13 +1580,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 140.59
         },
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 113.54
         }
       ]
@@ -1598,13 +1598,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 92.81
         },
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 125.76
         }
       ]
@@ -1616,7 +1616,7 @@
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 92.46
         },
         {
@@ -1634,13 +1634,13 @@
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 128.99
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 174.64
         }
       ]
@@ -1652,13 +1652,13 @@
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 116.15
         },
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 85.69
         }
       ]
@@ -1670,13 +1670,13 @@
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 139.52
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 71.27
         }
       ]
@@ -1688,13 +1688,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 89.78
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 75.49
         }
       ]
@@ -1706,13 +1706,13 @@
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 88.79
         },
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 83.19
         }
       ]
@@ -1724,7 +1724,7 @@
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 84.05
         },
         {
@@ -1742,13 +1742,13 @@
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 115.81
         },
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 89.24
         }
       ]
@@ -1760,13 +1760,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 121.62
         },
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 106.36
         }
       ]
@@ -1778,13 +1778,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 131.07
         },
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 130.94
         }
       ]
@@ -1796,13 +1796,13 @@
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 152.78
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 145.15
         }
       ]
@@ -1814,13 +1814,13 @@
         {
           "team_key": "406.l.185056.t.4",
           "name": "Twas da nite Alvin ruined Xmas",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 90.35
         },
         {
           "team_key": "406.l.185056.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 93.08
         }
       ]
@@ -1832,13 +1832,13 @@
         {
           "team_key": "406.l.185056.t.5",
           "name": "PSquared*",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 36.8
         },
         {
           "team_key": "406.l.185056.t.12",
           "name": "HurtInaCarr CallWilliamMattar",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 50.37
         }
       ]
@@ -1850,7 +1850,7 @@
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 138.83
         },
         {
@@ -1868,13 +1868,13 @@
         {
           "team_key": "406.l.185056.t.1",
           "name": "Stairway to Tevin",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 220.81
         },
         {
           "team_key": "406.l.185056.t.3",
           "name": "NoCholoImSolo",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 92.51
         }
       ]
@@ -1886,13 +1886,13 @@
         {
           "team_key": "406.l.185056.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 117.41
         },
         {
           "team_key": "406.l.185056.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 80.03
         }
       ]
@@ -1904,13 +1904,13 @@
         {
           "team_key": "406.l.185056.t.7",
           "name": "Fitz n Chips",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 91.85
         },
         {
           "team_key": "406.l.185056.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 144.07
         }
       ]
@@ -1922,7 +1922,7 @@
         {
           "team_key": "406.l.185056.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 124.73
         },
         {

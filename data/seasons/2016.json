@@ -14,7 +14,7 @@
     {
       "team_key": "359.l.285789.t.11",
       "name": "My Cousin Kirk",
-      "owner": "Edward",
+      "owner": "Ed Shively",
       "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
       "rank": 1,
       "wins": 8,
@@ -27,7 +27,7 @@
     {
       "team_key": "359.l.285789.t.9",
       "name": "Titsburgh Feelers",
-      "owner": "Steph",
+      "owner": "Steve Minardi",
       "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
       "rank": 2,
       "wins": 7,
@@ -40,7 +40,7 @@
     {
       "team_key": "359.l.285789.t.10",
       "name": "Boom Squad",
-      "owner": "Jeff",
+      "owner": "Jeff Lobdell",
       "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
       "rank": 3,
       "wins": 10,
@@ -53,7 +53,7 @@
     {
       "team_key": "359.l.285789.t.12",
       "name": "Team Romo",
-      "owner": "Chris",
+      "owner": "Chris Harjung",
       "guid": "OG6GL5AOKECVCEIF7L5CTEOEQA",
       "rank": 4,
       "wins": 8,
@@ -66,7 +66,7 @@
     {
       "team_key": "359.l.285789.t.4",
       "name": "Zeke-a Virus",
-      "owner": "Chris D",
+      "owner": "Chris Dupay",
       "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
       "rank": 5,
       "wins": 8,
@@ -79,7 +79,7 @@
     {
       "team_key": "359.l.285789.t.2",
       "name": "Ya down with O.T.T",
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
       "rank": 6,
       "wins": 7,
@@ -92,7 +92,7 @@
     {
       "team_key": "359.l.285789.t.3",
       "name": "AnnexationPuertoRico",
-      "owner": "Mike",
+      "owner": "Malcolm Lapone",
       "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
       "rank": 7,
       "wins": 6,
@@ -105,7 +105,7 @@
     {
       "team_key": "359.l.285789.t.1",
       "name": "Fitzmagic",
-      "owner": "Lee",
+      "owner": "Lee Bertram",
       "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
       "rank": 8,
       "wins": 7,
@@ -118,7 +118,7 @@
     {
       "team_key": "359.l.285789.t.8",
       "name": "THE TAMPA 2",
-      "owner": "Kevin2",
+      "owner": "Kevin Coppins",
       "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
       "rank": 9,
       "wins": 2,
@@ -131,7 +131,7 @@
     {
       "team_key": "359.l.285789.t.7",
       "name": "Watch the Throne \ud83d\udc40",
-      "owner": "Kenneth",
+      "owner": "Kenny Smith",
       "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
       "rank": 10,
       "wins": 6,
@@ -144,7 +144,7 @@
     {
       "team_key": "359.l.285789.t.6",
       "name": "SingleBroFucknHoes",
-      "owner": "Scott",
+      "owner": "Scott Kellman",
       "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
       "rank": 11,
       "wins": 6,
@@ -157,7 +157,7 @@
     {
       "team_key": "359.l.285789.t.5",
       "name": "ManningHam N' Cheese",
-      "owner": "Kevin",
+      "owner": "Kevin Etwaroo",
       "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
       "rank": 12,
       "wins": 3,
@@ -176,13 +176,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 112.93
         },
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 87.31
         }
       ]
@@ -194,13 +194,13 @@
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 107.99
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 139.03
         }
       ]
@@ -212,13 +212,13 @@
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 103.97
         },
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 153.08
         }
       ]
@@ -230,13 +230,13 @@
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 116.57
         },
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 106.22
         }
       ]
@@ -248,13 +248,13 @@
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 141.0
         },
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 128.19
         }
       ]
@@ -266,13 +266,13 @@
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 113.23
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 89.23
         }
       ]
@@ -284,13 +284,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 154.15
         },
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 122.69
         }
       ]
@@ -302,13 +302,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 109.28
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 125.09
         }
       ]
@@ -320,13 +320,13 @@
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 98.53
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 96.76
         }
       ]
@@ -338,13 +338,13 @@
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 99.18
         },
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 91.2
         }
       ]
@@ -356,13 +356,13 @@
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 122.82
         },
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 127.41
         }
       ]
@@ -374,13 +374,13 @@
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 118.11
         },
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 112.72
         }
       ]
@@ -392,13 +392,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 110.6
         },
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 134.54
         }
       ]
@@ -410,13 +410,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 132.65
         },
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 115.17
         }
       ]
@@ -428,13 +428,13 @@
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 64.07
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 116.27
         }
       ]
@@ -446,13 +446,13 @@
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 99.83
         },
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 136.51
         }
       ]
@@ -464,13 +464,13 @@
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 105.56
         },
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 110.58
         }
       ]
@@ -482,13 +482,13 @@
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 111.06
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 101.78
         }
       ]
@@ -500,13 +500,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 104.97
         },
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 111.97
         }
       ]
@@ -518,13 +518,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 100.74
         },
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 101.27
         }
       ]
@@ -536,13 +536,13 @@
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 102.73
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 84.73
         }
       ]
@@ -554,13 +554,13 @@
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 92.32
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 114.44
         }
       ]
@@ -572,13 +572,13 @@
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 146.96
         },
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 103.64
         }
       ]
@@ -590,13 +590,13 @@
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 124.37
         },
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 132.63
         }
       ]
@@ -608,13 +608,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 100.75
         },
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 125.13
         }
       ]
@@ -626,13 +626,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 138.82
         },
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 104.38
         }
       ]
@@ -644,13 +644,13 @@
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 142.1
         },
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 109.1
         }
       ]
@@ -662,13 +662,13 @@
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 113.83
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 107.72
         }
       ]
@@ -680,13 +680,13 @@
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 114.81
         },
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 154.58
         }
       ]
@@ -698,13 +698,13 @@
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 125.1
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 100.84
         }
       ]
@@ -716,13 +716,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 112.53
         },
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 34.91
         }
       ]
@@ -734,13 +734,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 128.17
         },
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 76.95
         }
       ]
@@ -752,13 +752,13 @@
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 98.85
         },
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 92.22
         }
       ]
@@ -770,13 +770,13 @@
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 83.52
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 109.28
         }
       ]
@@ -788,13 +788,13 @@
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 96.84
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 128.06
         }
       ]
@@ -806,13 +806,13 @@
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 131.38
         },
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 147.21
         }
       ]
@@ -824,13 +824,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 114.31
         },
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 112.47
         }
       ]
@@ -842,13 +842,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 115.73
         },
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 97.1
         }
       ]
@@ -860,13 +860,13 @@
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 92.46
         },
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 114.62
         }
       ]
@@ -878,13 +878,13 @@
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 126.73
         },
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 121.26
         }
       ]
@@ -896,13 +896,13 @@
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 98.94
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 147.06
         }
       ]
@@ -914,13 +914,13 @@
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 156.37
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 108.69
         }
       ]
@@ -932,13 +932,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 96.21
         },
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 66.9
         }
       ]
@@ -950,13 +950,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 130.25
         },
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 88.54
         }
       ]
@@ -968,13 +968,13 @@
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 146.5
         },
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 146.02
         }
       ]
@@ -986,13 +986,13 @@
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 136.65
         },
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 110.12
         }
       ]
@@ -1004,13 +1004,13 @@
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 88.71
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 130.49
         }
       ]
@@ -1022,13 +1022,13 @@
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 130.4
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 92.57
         }
       ]
@@ -1040,13 +1040,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 115.37
         },
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 95.02
         }
       ]
@@ -1058,13 +1058,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 148.44
         },
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 146.91
         }
       ]
@@ -1076,13 +1076,13 @@
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 116.05
         },
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 69.54
         }
       ]
@@ -1094,13 +1094,13 @@
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 141.65
         },
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 114.18
         }
       ]
@@ -1112,13 +1112,13 @@
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 85.73
         },
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 133.44
         }
       ]
@@ -1130,13 +1130,13 @@
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 86.79
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 124.56
         }
       ]
@@ -1148,13 +1148,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 142.36
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 113.3
         }
       ]
@@ -1166,13 +1166,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 96.59
         },
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 97.86
         }
       ]
@@ -1184,13 +1184,13 @@
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 107.89
         },
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 115.82
         }
       ]
@@ -1202,13 +1202,13 @@
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 151.54
         },
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 83.99
         }
       ]
@@ -1220,13 +1220,13 @@
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 84.59
         },
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 119.72
         }
       ]
@@ -1238,13 +1238,13 @@
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 136.61
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 148.94
         }
       ]
@@ -1256,13 +1256,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 124.76
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 128.37
         }
       ]
@@ -1274,13 +1274,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 115.27
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 129.3
         }
       ]
@@ -1292,13 +1292,13 @@
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 98.85
         },
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 127.6
         }
       ]
@@ -1310,13 +1310,13 @@
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 129.13
         },
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 89.1
         }
       ]
@@ -1328,13 +1328,13 @@
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 88.99
         },
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 102.91
         }
       ]
@@ -1346,13 +1346,13 @@
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 113.36
         },
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 68.43
         }
       ]
@@ -1364,13 +1364,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 114.71
         },
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 134.41
         }
       ]
@@ -1382,13 +1382,13 @@
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 128.42
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 154.49
         }
       ]
@@ -1400,13 +1400,13 @@
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 102.29
         },
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 116.25
         }
       ]
@@ -1418,13 +1418,13 @@
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 82.88
         },
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 134.26
         }
       ]
@@ -1436,13 +1436,13 @@
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 99.58
         },
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 65.42
         }
       ]
@@ -1454,13 +1454,13 @@
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 96.65
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 99.25
         }
       ]
@@ -1472,13 +1472,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 94.46
         },
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 123.22
         }
       ]
@@ -1490,13 +1490,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 95.41
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 125.43
         }
       ]
@@ -1508,13 +1508,13 @@
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 125.78
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 132.96
         }
       ]
@@ -1526,13 +1526,13 @@
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 66.25
         },
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 149.15
         }
       ]
@@ -1544,13 +1544,13 @@
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 98.58
         },
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 130.13
         }
       ]
@@ -1562,13 +1562,13 @@
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 96.08
         },
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 77.51
         }
       ]
@@ -1580,13 +1580,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 108.02
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 114.64
         }
       ]
@@ -1598,13 +1598,13 @@
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 61.03
         },
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 90.35
         }
       ]
@@ -1616,13 +1616,13 @@
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 82.39
         },
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 113.08
         }
       ]
@@ -1634,13 +1634,13 @@
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 93.08
         },
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 119.37
         }
       ]
@@ -1652,13 +1652,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 145.2
         },
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 80.5
         }
       ]
@@ -1670,13 +1670,13 @@
         {
           "team_key": "359.l.285789.t.2",
           "name": "Ya down with O.T.T",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 76.8
         },
         {
           "team_key": "359.l.285789.t.4",
           "name": "Zeke-a Virus",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 137.74
         }
       ]
@@ -1688,13 +1688,13 @@
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 126.31
         },
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 70.94
         }
       ]
@@ -1706,13 +1706,13 @@
         {
           "team_key": "359.l.285789.t.5",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 82.77
         },
         {
           "team_key": "359.l.285789.t.6",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 82.92
         }
       ]
@@ -1724,13 +1724,13 @@
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 122.11
         },
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 103.18
         }
       ]
@@ -1742,13 +1742,13 @@
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 142.5
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 120.83
         }
       ]
@@ -1760,13 +1760,13 @@
         {
           "team_key": "359.l.285789.t.1",
           "name": "Fitzmagic",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 110.32
         },
         {
           "team_key": "359.l.285789.t.3",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 163.24
         }
       ]
@@ -1778,13 +1778,13 @@
         {
           "team_key": "359.l.285789.t.7",
           "name": "Watch the Throne \ud83d\udc40",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 89.7
         },
         {
           "team_key": "359.l.285789.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 125.92
         }
       ]
@@ -1796,13 +1796,13 @@
         {
           "team_key": "359.l.285789.t.9",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 120.19
         },
         {
           "team_key": "359.l.285789.t.11",
           "name": "My Cousin Kirk",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 154.32
         }
       ]
@@ -1814,13 +1814,13 @@
         {
           "team_key": "359.l.285789.t.10",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 108.5
         },
         {
           "team_key": "359.l.285789.t.12",
           "name": "Team Romo",
-          "owner": "Chris",
+          "owner": "Chris Harjung",
           "points": 79.66
         }
       ]

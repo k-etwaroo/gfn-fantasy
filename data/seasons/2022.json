@@ -14,7 +14,7 @@
     {
       "team_key": "414.l.321722.t.5",
       "name": "Flutie and the Blowfish",
-      "owner": "Brian",
+      "owner": "Brian Marois",
       "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
       "rank": 1,
       "wins": 10,
@@ -27,7 +27,7 @@
     {
       "team_key": "414.l.321722.t.1",
       "name": "Sauce'n on you",
-      "owner": "Lee",
+      "owner": "Lee Bertram",
       "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
       "rank": 2,
       "wins": 8,
@@ -40,7 +40,7 @@
     {
       "team_key": "414.l.321722.t.7",
       "name": "The Hurts Locker",
-      "owner": "Edward",
+      "owner": "Ed Shively",
       "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
       "rank": 3,
       "wins": 7,
@@ -53,7 +53,7 @@
     {
       "team_key": "414.l.321722.t.11",
       "name": "Ex Sucks but my Younghoe Koo",
-      "owner": "Steph",
+      "owner": "Steve Minardi",
       "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
       "rank": 4,
       "wins": 8,
@@ -66,7 +66,7 @@
     {
       "team_key": "414.l.321722.t.10",
       "name": "Ottoman Empire",
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
       "rank": 5,
       "wins": 7,
@@ -92,7 +92,7 @@
     {
       "team_key": "414.l.321722.t.8",
       "name": "Just-End-The-Season",
-      "owner": "Mike",
+      "owner": "Malcolm Lapone",
       "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
       "rank": 7,
       "wins": 6,
@@ -105,7 +105,7 @@
     {
       "team_key": "414.l.321722.t.4",
       "name": "Dow Jones I A 33",
-      "owner": "Tony",
+      "owner": "Tony Bevilaqua",
       "guid": "ETCIM4DSHDIAJAKTR5AT6BFIWY",
       "rank": 8,
       "wins": 6,
@@ -118,7 +118,7 @@
     {
       "team_key": "414.l.321722.t.2",
       "name": "Boom Squad",
-      "owner": "Jeff",
+      "owner": "Jeff Lobdell",
       "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
       "rank": 9,
       "wins": 7,
@@ -131,7 +131,7 @@
     {
       "team_key": "414.l.321722.t.6",
       "name": "Got a Chubb-ie",
-      "owner": "Chris D",
+      "owner": "Chris Dupay",
       "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
       "rank": 10,
       "wins": 7,
@@ -144,7 +144,7 @@
     {
       "team_key": "414.l.321722.t.3",
       "name": "Ed Money May Be Right",
-      "owner": "Kenneth",
+      "owner": "Kenny Smith",
       "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
       "rank": 11,
       "wins": 4,
@@ -157,7 +157,7 @@
     {
       "team_key": "414.l.321722.t.9",
       "name": "ManningHam N' Cheese",
-      "owner": "Kevin",
+      "owner": "Kevin Etwaroo",
       "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
       "rank": 12,
       "wins": 6,
@@ -176,13 +176,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 127.03
         },
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 101.74
         }
       ]
@@ -194,13 +194,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 83.94
         },
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 142.35
         }
       ]
@@ -212,13 +212,13 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 109.44
         },
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 137.39
         }
       ]
@@ -230,13 +230,13 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 102.36
         },
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 119.45
         }
       ]
@@ -248,7 +248,7 @@
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 101.83
         },
         {
@@ -266,13 +266,13 @@
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 95.26
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 87.0
         }
       ]
@@ -284,13 +284,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 94.55
         },
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 121.53
         }
       ]
@@ -302,13 +302,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 104.3
         },
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 116.46
         }
       ]
@@ -320,13 +320,13 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 137.34
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 105.45
         }
       ]
@@ -338,13 +338,13 @@
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 132.94
         },
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 100.15
         }
       ]
@@ -356,13 +356,13 @@
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 135.39
         },
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 120.02
         }
       ]
@@ -374,7 +374,7 @@
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 122.64
         },
         {
@@ -392,13 +392,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 114.47
         },
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 123.77
         }
       ]
@@ -410,13 +410,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 112.75
         },
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 108.56
         }
       ]
@@ -428,7 +428,7 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 108.28
         },
         {
@@ -446,13 +446,13 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 87.07
         },
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 103.47
         }
       ]
@@ -464,13 +464,13 @@
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 85.03
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 91.91
         }
       ]
@@ -482,13 +482,13 @@
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 118.56
         },
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 143.45
         }
       ]
@@ -500,13 +500,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 95.54
         },
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 85.22
         }
       ]
@@ -518,13 +518,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 88.43
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 61.08
         }
       ]
@@ -536,13 +536,13 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 124.05
         },
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 158.28
         }
       ]
@@ -554,13 +554,13 @@
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 134.26
         },
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 102.83
         }
       ]
@@ -572,13 +572,13 @@
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 108.75
         },
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 141.86
         }
       ]
@@ -590,7 +590,7 @@
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 126.47
         },
         {
@@ -608,13 +608,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 152.93
         },
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 74.61
         }
       ]
@@ -626,13 +626,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 143.29
         },
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 93.21
         }
       ]
@@ -644,13 +644,13 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 114.31
         },
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 120.76
         }
       ]
@@ -662,7 +662,7 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 94.35
         },
         {
@@ -680,13 +680,13 @@
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 121.69
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 89.16
         }
       ]
@@ -698,13 +698,13 @@
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 136.29
         },
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 107.33
         }
       ]
@@ -716,13 +716,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 103.43
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 109.08
         }
       ]
@@ -734,13 +734,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 98.1
         },
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 92.25
         }
       ]
@@ -752,13 +752,13 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 119.2
         },
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 141.32
         }
       ]
@@ -770,13 +770,13 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 106.04
         },
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 87.9
         }
       ]
@@ -788,13 +788,13 @@
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 127.61
         },
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 69.34
         }
       ]
@@ -806,7 +806,7 @@
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 87.67
         },
         {
@@ -824,13 +824,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 120.94
         },
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 116.7
         }
       ]
@@ -842,13 +842,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 93.76
         },
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 161.27
         }
       ]
@@ -860,13 +860,13 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 97.34
         },
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 106.91
         }
       ]
@@ -878,13 +878,13 @@
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 85.36
         },
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 94.87
         }
       ]
@@ -896,13 +896,13 @@
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 95.37
         },
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 125.87
         }
       ]
@@ -914,7 +914,7 @@
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 115.63
         },
         {
@@ -932,13 +932,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 140.65
         },
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 100.09
         }
       ]
@@ -950,13 +950,13 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 114.16
         },
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 115.55
         }
       ]
@@ -968,13 +968,13 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 120.19
         },
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 91.39
         }
       ]
@@ -986,13 +986,13 @@
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 153.0
         },
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 121.36
         }
       ]
@@ -1004,7 +1004,7 @@
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 147.03
         },
         {
@@ -1022,13 +1022,13 @@
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 82.33
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 146.54
         }
       ]
@@ -1040,7 +1040,7 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 122.24
         },
         {
@@ -1058,13 +1058,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 176.17
         },
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 149.26
         }
       ]
@@ -1076,13 +1076,13 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 84.91
         },
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 97.37
         }
       ]
@@ -1094,13 +1094,13 @@
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 109.06
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 82.73
         }
       ]
@@ -1112,13 +1112,13 @@
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 81.4
         },
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 74.37
         }
       ]
@@ -1130,13 +1130,13 @@
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 91.47
         },
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 126.03
         }
       ]
@@ -1148,13 +1148,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 120.65
         },
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 101.24
         }
       ]
@@ -1166,7 +1166,7 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 128.25
         },
         {
@@ -1184,13 +1184,13 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 56.03
         },
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 117.37
         }
       ]
@@ -1202,13 +1202,13 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 97.96
         },
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 166.57
         }
       ]
@@ -1220,13 +1220,13 @@
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 109.19
         },
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 93.12
         }
       ]
@@ -1238,13 +1238,13 @@
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 86.0
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 92.15
         }
       ]
@@ -1256,13 +1256,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 126.71
         },
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 100.61
         }
       ]
@@ -1274,13 +1274,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 89.45
         },
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 111.28
         }
       ]
@@ -1292,13 +1292,13 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 141.3
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 105.88
         }
       ]
@@ -1310,13 +1310,13 @@
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 137.46
         },
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 147.34
         }
       ]
@@ -1328,13 +1328,13 @@
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 127.57
         },
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 107.53
         }
       ]
@@ -1346,7 +1346,7 @@
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 81.45
         },
         {
@@ -1364,13 +1364,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 91.62
         },
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 100.33
         }
       ]
@@ -1382,13 +1382,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 107.56
         },
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 161.76
         }
       ]
@@ -1400,13 +1400,13 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 118.67
         },
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 125.97
         }
       ]
@@ -1418,13 +1418,13 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 123.31
         },
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 149.46
         }
       ]
@@ -1436,7 +1436,7 @@
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 88.9
         },
         {
@@ -1454,13 +1454,13 @@
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 113.55
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 116.69
         }
       ]
@@ -1472,13 +1472,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 107.42
         },
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 111.02
         }
       ]
@@ -1490,13 +1490,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 105.43
         },
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 110.93
         }
       ]
@@ -1508,13 +1508,13 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 82.3
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 95.38
         }
       ]
@@ -1526,13 +1526,13 @@
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 155.81
         },
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 128.51
         }
       ]
@@ -1544,13 +1544,13 @@
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 133.17
         },
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 149.55
         }
       ]
@@ -1562,7 +1562,7 @@
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 90.79
         },
         {
@@ -1580,13 +1580,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 116.61
         },
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 89.08
         }
       ]
@@ -1598,13 +1598,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 140.46
         },
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 131.98
         }
       ]
@@ -1616,7 +1616,7 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 91.83
         },
         {
@@ -1634,13 +1634,13 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 101.86
         },
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 77.55
         }
       ]
@@ -1652,13 +1652,13 @@
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 88.03
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 109.22
         }
       ]
@@ -1670,13 +1670,13 @@
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 103.4
         },
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 107.74
         }
       ]
@@ -1688,13 +1688,13 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 137.15
         },
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 152.4
         }
       ]
@@ -1706,13 +1706,13 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 109.85
         },
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 78.78
         }
       ]
@@ -1724,7 +1724,7 @@
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 131.07
         },
         {
@@ -1742,13 +1742,13 @@
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 119.31
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 120.94
         }
       ]
@@ -1760,13 +1760,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 130.66
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 90.36
         }
       ]
@@ -1778,13 +1778,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 95.93
         },
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 100.63
         }
       ]
@@ -1796,13 +1796,13 @@
         {
           "team_key": "414.l.321722.t.3",
           "name": "Ed Money May Be Right",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 122.57
         },
         {
           "team_key": "414.l.321722.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 117.9
         }
       ]
@@ -1814,13 +1814,13 @@
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 126.88
         },
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 86.69
         }
       ]
@@ -1832,13 +1832,13 @@
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 80.23
         },
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 122.98
         }
       ]
@@ -1850,7 +1850,7 @@
         {
           "team_key": "414.l.321722.t.10",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 98.83
         },
         {
@@ -1868,13 +1868,13 @@
         {
           "team_key": "414.l.321722.t.1",
           "name": "Sauce'n on you",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 110.88
         },
         {
           "team_key": "414.l.321722.t.5",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 120.68
         }
       ]
@@ -1886,13 +1886,13 @@
         {
           "team_key": "414.l.321722.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 84.58
         },
         {
           "team_key": "414.l.321722.t.6",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 82.93
         }
       ]
@@ -1904,13 +1904,13 @@
         {
           "team_key": "414.l.321722.t.4",
           "name": "Dow Jones I A 33",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 89.4
         },
         {
           "team_key": "414.l.321722.t.8",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 102.3
         }
       ]
@@ -1922,13 +1922,13 @@
         {
           "team_key": "414.l.321722.t.7",
           "name": "The Hurts Locker",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 126.61
         },
         {
           "team_key": "414.l.321722.t.11",
           "name": "Ex Sucks but my Younghoe Koo",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 55.8
         }
       ]

@@ -14,7 +14,7 @@
     {
       "team_key": "423.l.132892.t.3",
       "name": "Ottoman Empire",
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
       "rank": 1,
       "wins": 11,
@@ -27,7 +27,7 @@
     {
       "team_key": "423.l.132892.t.7",
       "name": "Just-End-The-Season",
-      "owner": "Mike",
+      "owner": "Malcolm Lapone",
       "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
       "rank": 2,
       "wins": 10,
@@ -40,7 +40,7 @@
     {
       "team_key": "423.l.132892.t.4",
       "name": "James Conner Who?",
-      "owner": "Kenneth",
+      "owner": "Kenny Smith",
       "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
       "rank": 3,
       "wins": 10,
@@ -53,7 +53,7 @@
     {
       "team_key": "423.l.132892.t.5",
       "name": "Just-in Fields is HIM",
-      "owner": "Tony",
+      "owner": "Tony Bevilaqua",
       "guid": "ETCIM4DSHDIAJAKTR5AT6BFIWY",
       "rank": 4,
       "wins": 7,
@@ -66,7 +66,7 @@
     {
       "team_key": "423.l.132892.t.1",
       "name": "A Kill Lee\u2019s Tendon",
-      "owner": "Lee",
+      "owner": "Lee Bertram",
       "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
       "rank": 5,
       "wins": 8,
@@ -79,7 +79,7 @@
     {
       "team_key": "423.l.132892.t.8",
       "name": "Hee Hee Rhamondra!",
-      "owner": "Steph",
+      "owner": "Steve Minardi",
       "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
       "rank": 6,
       "wins": 7,
@@ -92,7 +92,7 @@
     {
       "team_key": "423.l.132892.t.6",
       "name": "HOWELLitzer TANK",
-      "owner": "Edward",
+      "owner": "Ed Shively",
       "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
       "rank": 7,
       "wins": 4,
@@ -105,7 +105,7 @@
     {
       "team_key": "423.l.132892.t.12",
       "name": "Flutie and the Blowfish",
-      "owner": "Brian",
+      "owner": "Brian Marois",
       "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
       "rank": 8,
       "wins": 6,
@@ -118,7 +118,7 @@
     {
       "team_key": "423.l.132892.t.9",
       "name": "Boom Squad",
-      "owner": "Jeff",
+      "owner": "Jeff Lobdell",
       "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
       "rank": 9,
       "wins": 6,
@@ -131,7 +131,7 @@
     {
       "team_key": "423.l.132892.t.2",
       "name": "Rodgers Hurts",
-      "owner": "Chris D",
+      "owner": "Chris Dupay",
       "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
       "rank": 10,
       "wins": 6,
@@ -144,7 +144,7 @@
     {
       "team_key": "423.l.132892.t.10",
       "name": "ManningHam N' Cheese",
-      "owner": "Kevin",
+      "owner": "Kevin Etwaroo",
       "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
       "rank": 11,
       "wins": 5,
@@ -176,13 +176,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 87.66
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 120.13
         }
       ]
@@ -194,13 +194,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 85.25
         },
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 93.97
         }
       ]
@@ -212,13 +212,13 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 93.12
         },
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 115.44
         }
       ]
@@ -230,13 +230,13 @@
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 103.34
         },
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 118.91
         }
       ]
@@ -248,13 +248,13 @@
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 125.01
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 69.57
         }
       ]
@@ -266,7 +266,7 @@
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 97.98
         },
         {
@@ -284,13 +284,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 120.75
         },
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 138.98
         }
       ]
@@ -302,7 +302,7 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 101.89
         },
         {
@@ -320,13 +320,13 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 136.71
         },
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 85.84
         }
       ]
@@ -338,13 +338,13 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 88.24
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 86.78
         }
       ]
@@ -356,13 +356,13 @@
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 108.51
         },
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 85.04
         }
       ]
@@ -374,13 +374,13 @@
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 105.58
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 123.4
         }
       ]
@@ -392,13 +392,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 105.65
         },
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 96.31
         }
       ]
@@ -410,13 +410,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 104.43
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 117.32
         }
       ]
@@ -428,7 +428,7 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 115.14
         },
         {
@@ -446,13 +446,13 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 163.14
         },
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 130.93
         }
       ]
@@ -464,13 +464,13 @@
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 103.71
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 109.28
         }
       ]
@@ -482,13 +482,13 @@
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 114.15
         },
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 137.28
         }
       ]
@@ -500,13 +500,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 90.52
         },
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 103.39
         }
       ]
@@ -518,13 +518,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 109.51
         },
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 152.76
         }
       ]
@@ -536,13 +536,13 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 198.35
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 78.63
         }
       ]
@@ -554,13 +554,13 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 75.23
         },
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 132.16
         }
       ]
@@ -572,13 +572,13 @@
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 105.23
         },
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 102.43
         }
       ]
@@ -590,7 +590,7 @@
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 88.08
         },
         {
@@ -608,13 +608,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 140.22
         },
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 122.45
         }
       ]
@@ -626,13 +626,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 71.74
         },
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 147.94
         }
       ]
@@ -644,13 +644,13 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 93.51
         },
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 90.97
         }
       ]
@@ -662,13 +662,13 @@
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 135.96
         },
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 106.55
         }
       ]
@@ -680,7 +680,7 @@
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 81.34
         },
         {
@@ -698,13 +698,13 @@
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 103.83
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 111.38
         }
       ]
@@ -716,13 +716,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 102.47
         },
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 92.02
         }
       ]
@@ -734,13 +734,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 91.03
         },
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 90.48
         }
       ]
@@ -752,13 +752,13 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 115.0
         },
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 112.79
         }
       ]
@@ -770,13 +770,13 @@
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 108.11
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 108.87
         }
       ]
@@ -788,13 +788,13 @@
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 130.94
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 110.04
         }
       ]
@@ -806,7 +806,7 @@
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 117.24
         },
         {
@@ -824,7 +824,7 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 146.36
         },
         {
@@ -842,13 +842,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 120.51
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 124.36
         }
       ]
@@ -860,13 +860,13 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 118.72
         },
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 115.47
         }
       ]
@@ -878,13 +878,13 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 98.26
         },
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 97.76
         }
       ]
@@ -896,13 +896,13 @@
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 85.94
         },
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 129.5
         }
       ]
@@ -914,13 +914,13 @@
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 119.96
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 93.3
         }
       ]
@@ -932,13 +932,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 100.13
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 134.19
         }
       ]
@@ -950,13 +950,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 120.51
         },
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 117.67
         }
       ]
@@ -968,13 +968,13 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 159.02
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 131.16
         }
       ]
@@ -986,7 +986,7 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 131.66
         },
         {
@@ -1004,13 +1004,13 @@
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 111.52
         },
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 141.54
         }
       ]
@@ -1022,13 +1022,13 @@
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 83.08
         },
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 105.28
         }
       ]
@@ -1040,13 +1040,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 73.67
         },
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 93.43
         }
       ]
@@ -1058,13 +1058,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 135.33
         },
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 79.13
         }
       ]
@@ -1076,13 +1076,13 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 111.52
         },
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 85.66
         }
       ]
@@ -1094,13 +1094,13 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 124.9
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 115.1
         }
       ]
@@ -1112,7 +1112,7 @@
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 118.46
         },
         {
@@ -1130,13 +1130,13 @@
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 147.91
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 101.94
         }
       ]
@@ -1148,13 +1148,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 141.84
         },
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 115.74
         }
       ]
@@ -1166,13 +1166,13 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 127.33
         },
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 86.32
         }
       ]
@@ -1184,13 +1184,13 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 105.22
         },
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 68.24
         }
       ]
@@ -1202,13 +1202,13 @@
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 134.58
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 109.23
         }
       ]
@@ -1220,13 +1220,13 @@
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 164.77
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 105.29
         }
       ]
@@ -1238,7 +1238,7 @@
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 135.46
         },
         {
@@ -1256,13 +1256,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 105.31
         },
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 120.03
         }
       ]
@@ -1274,13 +1274,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 103.3
         },
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 101.07
         }
       ]
@@ -1292,13 +1292,13 @@
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 118.56
         },
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 94.29
         }
       ]
@@ -1310,13 +1310,13 @@
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 120.1
         },
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 107.81
         }
       ]
@@ -1328,13 +1328,13 @@
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 110.48
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 96.79
         }
       ]
@@ -1352,7 +1352,7 @@
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 110.59
         }
       ]
@@ -1364,13 +1364,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 120.6
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 93.93
         }
       ]
@@ -1382,13 +1382,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 106.57
         },
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 127.36
         }
       ]
@@ -1400,13 +1400,13 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 162.01
         },
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 151.56
         }
       ]
@@ -1418,13 +1418,13 @@
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 120.4
         },
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 108.78
         }
       ]
@@ -1436,13 +1436,13 @@
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 153.64
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 92.71
         }
       ]
@@ -1454,7 +1454,7 @@
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 113.25
         },
         {
@@ -1472,13 +1472,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 108.42
         },
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 70.75
         }
       ]
@@ -1490,7 +1490,7 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 119.55
         },
         {
@@ -1508,13 +1508,13 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 164.22
         },
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 107.18
         }
       ]
@@ -1526,13 +1526,13 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 149.23
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 82.21
         }
       ]
@@ -1544,13 +1544,13 @@
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 167.78
         },
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 119.22
         }
       ]
@@ -1562,13 +1562,13 @@
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 108.06
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 94.44
         }
       ]
@@ -1580,13 +1580,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 129.29
         },
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 118.2
         }
       ]
@@ -1598,13 +1598,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 137.51
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 119.3
         }
       ]
@@ -1616,7 +1616,7 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 125.5
         },
         {
@@ -1634,13 +1634,13 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 133.85
         },
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 67.49
         }
       ]
@@ -1652,13 +1652,13 @@
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 105.74
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 133.73
         }
       ]
@@ -1670,13 +1670,13 @@
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 89.47
         },
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 87.11
         }
       ]
@@ -1688,13 +1688,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 89.52
         },
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 125.66
         }
       ]
@@ -1706,13 +1706,13 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 140.68
         },
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 121.21
         }
       ]
@@ -1724,13 +1724,13 @@
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 114.31
         },
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 80.16
         }
       ]
@@ -1748,7 +1748,7 @@
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 146.25
         }
       ]
@@ -1760,13 +1760,13 @@
         {
           "team_key": "423.l.132892.t.1",
           "name": "A Kill Lee\u2019s Tendon",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 134.25
         },
         {
           "team_key": "423.l.132892.t.8",
           "name": "Hee Hee Rhamondra!",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 101.43
         }
       ]
@@ -1778,13 +1778,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 119.61
         },
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 129.88
         }
       ]
@@ -1796,13 +1796,13 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 138.23
         },
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 92.25
         }
       ]
@@ -1814,13 +1814,13 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 101.15
         },
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 125.98
         }
       ]
@@ -1832,13 +1832,13 @@
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 87.2
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 108.1
         }
       ]
@@ -1850,7 +1850,7 @@
         {
           "team_key": "423.l.132892.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 90.77
         },
         {
@@ -1868,13 +1868,13 @@
         {
           "team_key": "423.l.132892.t.2",
           "name": "Rodgers Hurts",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 94.95
         },
         {
           "team_key": "423.l.132892.t.9",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 118.63
         }
       ]
@@ -1886,13 +1886,13 @@
         {
           "team_key": "423.l.132892.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 185.21
         },
         {
           "team_key": "423.l.132892.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 115.3
         }
       ]
@@ -1904,13 +1904,13 @@
         {
           "team_key": "423.l.132892.t.4",
           "name": "James Conner Who?",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 123.62
         },
         {
           "team_key": "423.l.132892.t.5",
           "name": "Just-in Fields is HIM",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 121.85
         }
       ]
@@ -1922,13 +1922,13 @@
         {
           "team_key": "423.l.132892.t.6",
           "name": "HOWELLitzer TANK",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 113.68
         },
         {
           "team_key": "423.l.132892.t.12",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 86.77
         }
       ]

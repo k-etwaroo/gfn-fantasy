@@ -14,7 +14,7 @@
     {
       "team_key": "390.l.650144.t.8",
       "name": "Ottoman Empire",
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
       "rank": 1,
       "wins": 7,
@@ -27,7 +27,7 @@
     {
       "team_key": "390.l.650144.t.5",
       "name": "Just-End-The-Season",
-      "owner": "Mike",
+      "owner": "Malcolm Lapone",
       "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
       "rank": 2,
       "wins": 9,
@@ -40,7 +40,7 @@
     {
       "team_key": "390.l.650144.t.3",
       "name": "FIGJAM",
-      "owner": "Kenneth",
+      "owner": "Kenny Smith",
       "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
       "rank": 3,
       "wins": 8,
@@ -53,7 +53,7 @@
     {
       "team_key": "390.l.650144.t.2",
       "name": "Boom Squad",
-      "owner": "Jeff",
+      "owner": "Jeff Lobdell",
       "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
       "rank": 4,
       "wins": 10,
@@ -66,7 +66,7 @@
     {
       "team_key": "390.l.650144.t.1",
       "name": "Darn'old Jets",
-      "owner": "Lee",
+      "owner": "Lee Bertram",
       "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
       "rank": 5,
       "wins": 8,
@@ -79,7 +79,7 @@
     {
       "team_key": "390.l.650144.t.12",
       "name": "Titsburgh Feelers",
-      "owner": "Steph",
+      "owner": "Steve Minardi",
       "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
       "rank": 6,
       "wins": 8,
@@ -92,7 +92,7 @@
     {
       "team_key": "390.l.650144.t.11",
       "name": "THE TAMPA 2",
-      "owner": "Kevin2",
+      "owner": "Kevin Coppins",
       "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
       "rank": 7,
       "wins": 6,
@@ -105,7 +105,7 @@
     {
       "team_key": "390.l.650144.t.9",
       "name": "Got a Chubb-ie",
-      "owner": "Chris D",
+      "owner": "Chris Dupay",
       "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
       "rank": 8,
       "wins": 6,
@@ -118,7 +118,7 @@
     {
       "team_key": "390.l.650144.t.10",
       "name": "Who?ScottyKellz",
-      "owner": "Scott",
+      "owner": "Scott Kellman",
       "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
       "rank": 9,
       "wins": 5,
@@ -131,7 +131,7 @@
     {
       "team_key": "390.l.650144.t.4",
       "name": "Flutie n da Blowfish",
-      "owner": "Brian",
+      "owner": "Brian Marois",
       "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
       "rank": 10,
       "wins": 6,
@@ -144,7 +144,7 @@
     {
       "team_key": "390.l.650144.t.6",
       "name": "ManningHam N' Cheese",
-      "owner": "Kevin",
+      "owner": "Kevin Etwaroo",
       "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
       "rank": 11,
       "wins": 2,
@@ -157,7 +157,7 @@
     {
       "team_key": "390.l.650144.t.7",
       "name": "DC Janitah",
-      "owner": "Edward",
+      "owner": "Ed Shively",
       "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
       "rank": 12,
       "wins": 3,
@@ -176,13 +176,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 116.24
         },
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 110.42
         }
       ]
@@ -194,13 +194,13 @@
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 149.0
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 105.09
         }
       ]
@@ -212,13 +212,13 @@
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 114.93
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 113.34
         }
       ]
@@ -230,13 +230,13 @@
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 150.57
         },
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 93.86
         }
       ]
@@ -248,13 +248,13 @@
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 113.95
         },
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 126.97
         }
       ]
@@ -266,13 +266,13 @@
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 79.25
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 137.25
         }
       ]
@@ -284,13 +284,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 117.27
         },
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 97.7
         }
       ]
@@ -302,13 +302,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 116.83
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 113.59
         }
       ]
@@ -320,13 +320,13 @@
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 85.77
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 116.23
         }
       ]
@@ -338,13 +338,13 @@
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 150.19
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 99.75
         }
       ]
@@ -356,13 +356,13 @@
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 105.68
         },
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 138.1
         }
       ]
@@ -374,13 +374,13 @@
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 90.13
         },
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 99.18
         }
       ]
@@ -392,13 +392,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 108.33
         },
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 111.77
         }
       ]
@@ -410,13 +410,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 161.32
         },
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 91.56
         }
       ]
@@ -428,13 +428,13 @@
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 124.98
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 80.8
         }
       ]
@@ -446,13 +446,13 @@
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 136.43
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 124.92
         }
       ]
@@ -464,13 +464,13 @@
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 147.54
         },
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 138.6
         }
       ]
@@ -482,13 +482,13 @@
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 83.1
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 144.38
         }
       ]
@@ -500,13 +500,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 115.63
         },
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 89.22
         }
       ]
@@ -518,13 +518,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 103.75
         },
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 85.95
         }
       ]
@@ -536,13 +536,13 @@
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 129.28
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 118.67
         }
       ]
@@ -554,13 +554,13 @@
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 104.8
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 121.02
         }
       ]
@@ -572,13 +572,13 @@
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 88.7
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 72.64
         }
       ]
@@ -590,13 +590,13 @@
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 145.11
         },
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 118.96
         }
       ]
@@ -608,13 +608,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 152.93
         },
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 114.54
         }
       ]
@@ -626,13 +626,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 142.86
         },
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 77.71
         }
       ]
@@ -644,13 +644,13 @@
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 130.43
         },
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 117.71
         }
       ]
@@ -662,13 +662,13 @@
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 113.78
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 119.25
         }
       ]
@@ -680,13 +680,13 @@
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 101.36
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 174.63
         }
       ]
@@ -698,13 +698,13 @@
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 106.47
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 106.42
         }
       ]
@@ -716,13 +716,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 163.37
         },
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 114.38
         }
       ]
@@ -734,13 +734,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 98.77
         },
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 83.5
         }
       ]
@@ -752,13 +752,13 @@
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 109.72
         },
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 110.87
         }
       ]
@@ -770,13 +770,13 @@
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 88.02
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 134.92
         }
       ]
@@ -788,13 +788,13 @@
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 94.21
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 114.4
         }
       ]
@@ -806,13 +806,13 @@
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 106.49
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 125.51
         }
       ]
@@ -824,13 +824,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 78.29
         },
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 103.82
         }
       ]
@@ -842,13 +842,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 131.17
         },
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 103.54
         }
       ]
@@ -860,13 +860,13 @@
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 104.98
         },
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 82.36
         }
       ]
@@ -878,13 +878,13 @@
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 85.31
         },
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 108.14
         }
       ]
@@ -896,13 +896,13 @@
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 95.89
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 119.61
         }
       ]
@@ -914,13 +914,13 @@
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 112.91
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 144.76
         }
       ]
@@ -932,13 +932,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 112.7
         },
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 131.48
         }
       ]
@@ -950,13 +950,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 173.58
         },
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 124.54
         }
       ]
@@ -968,13 +968,13 @@
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 136.52
         },
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 100.68
         }
       ]
@@ -986,13 +986,13 @@
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 119.3
         },
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 111.09
         }
       ]
@@ -1004,13 +1004,13 @@
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 90.94
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 125.02
         }
       ]
@@ -1022,13 +1022,13 @@
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 122.5
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 96.73
         }
       ]
@@ -1040,13 +1040,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 128.33
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 103.78
         }
       ]
@@ -1058,13 +1058,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 98.57
         },
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 139.98
         }
       ]
@@ -1076,13 +1076,13 @@
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 124.74
         },
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 95.59
         }
       ]
@@ -1094,13 +1094,13 @@
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 130.64
         },
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 118.69
         }
       ]
@@ -1112,13 +1112,13 @@
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 107.25
         },
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 90.98
         }
       ]
@@ -1130,13 +1130,13 @@
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 106.48
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 140.54
         }
       ]
@@ -1148,13 +1148,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 168.85
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 105.65
         }
       ]
@@ -1166,13 +1166,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 74.69
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 142.55
         }
       ]
@@ -1184,13 +1184,13 @@
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 147.75
         },
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 106.44
         }
       ]
@@ -1202,13 +1202,13 @@
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 121.61
         },
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 110.39
         }
       ]
@@ -1220,13 +1220,13 @@
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 145.81
         },
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 82.07
         }
       ]
@@ -1238,13 +1238,13 @@
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 76.4
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 111.45
         }
       ]
@@ -1256,13 +1256,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 130.46
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 136.77
         }
       ]
@@ -1274,13 +1274,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 111.43
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 59.48
         }
       ]
@@ -1292,13 +1292,13 @@
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 112.79
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 154.93
         }
       ]
@@ -1310,13 +1310,13 @@
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 105.86
         },
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 111.98
         }
       ]
@@ -1328,13 +1328,13 @@
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 106.2
         },
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 118.53
         }
       ]
@@ -1346,13 +1346,13 @@
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 116.69
         },
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 77.49
         }
       ]
@@ -1364,13 +1364,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 109.19
         },
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 128.1
         }
       ]
@@ -1382,13 +1382,13 @@
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 96.47
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 76.78
         }
       ]
@@ -1400,13 +1400,13 @@
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 142.78
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 117.59
         }
       ]
@@ -1418,13 +1418,13 @@
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 137.13
         },
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 94.73
         }
       ]
@@ -1436,13 +1436,13 @@
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 63.41
         },
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 118.23
         }
       ]
@@ -1454,13 +1454,13 @@
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 81.19
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 67.92
         }
       ]
@@ -1472,13 +1472,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 97.9
         },
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 92.83
         }
       ]
@@ -1490,13 +1490,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 100.14
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 67.95
         }
       ]
@@ -1508,13 +1508,13 @@
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 108.76
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 133.24
         }
       ]
@@ -1526,13 +1526,13 @@
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 174.92
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 105.74
         }
       ]
@@ -1544,13 +1544,13 @@
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 99.21
         },
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 110.58
         }
       ]
@@ -1562,13 +1562,13 @@
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 90.16
         },
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 102.2
         }
       ]
@@ -1580,13 +1580,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 84.1
         },
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 97.47
         }
       ]
@@ -1598,13 +1598,13 @@
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 121.12
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 93.13
         }
       ]
@@ -1616,13 +1616,13 @@
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 67.43
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 143.19
         }
       ]
@@ -1634,13 +1634,13 @@
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 96.7
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 131.51
         }
       ]
@@ -1652,13 +1652,13 @@
         {
           "team_key": "390.l.650144.t.1",
           "name": "Darn'old Jets",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 127.27
         },
         {
           "team_key": "390.l.650144.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 85.27
         }
       ]
@@ -1670,13 +1670,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 131.92
         },
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 132.08
         }
       ]
@@ -1688,13 +1688,13 @@
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 110.93
         },
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 116.42
         }
       ]
@@ -1706,13 +1706,13 @@
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 80.21
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 85.2
         }
       ]
@@ -1724,13 +1724,13 @@
         {
           "team_key": "390.l.650144.t.6",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 122.71
         },
         {
           "team_key": "390.l.650144.t.7",
           "name": "DC Janitah",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 98.72
         }
       ]
@@ -1742,13 +1742,13 @@
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 112.84
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 90.7
         }
       ]
@@ -1760,13 +1760,13 @@
         {
           "team_key": "390.l.650144.t.2",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 109.54
         },
         {
           "team_key": "390.l.650144.t.3",
           "name": "FIGJAM",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 121.51
         }
       ]
@@ -1778,13 +1778,13 @@
         {
           "team_key": "390.l.650144.t.4",
           "name": "Flutie n da Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 67.04
         },
         {
           "team_key": "390.l.650144.t.10",
           "name": "Who?ScottyKellz",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 138.92
         }
       ]
@@ -1796,13 +1796,13 @@
         {
           "team_key": "390.l.650144.t.5",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 93.89
         },
         {
           "team_key": "390.l.650144.t.8",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 103.22
         }
       ]
@@ -1814,13 +1814,13 @@
         {
           "team_key": "390.l.650144.t.9",
           "name": "Got a Chubb-ie",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 70.77
         },
         {
           "team_key": "390.l.650144.t.11",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 90.3
         }
       ]

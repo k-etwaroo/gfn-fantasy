@@ -14,7 +14,7 @@
     {
       "team_key": "348.l.225929.t.10",
       "name": "ManningHam N' Cheese",
-      "owner": "Kevin",
+      "owner": "Kevin Etwaroo",
       "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
       "rank": 1,
       "wins": 9,
@@ -27,7 +27,7 @@
     {
       "team_key": "348.l.225929.t.8",
       "name": "THE TAMPA 2",
-      "owner": "Kevin2",
+      "owner": "Kevin Coppins",
       "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
       "rank": 2,
       "wins": 10,
@@ -40,7 +40,7 @@
     {
       "team_key": "348.l.225929.t.7",
       "name": "Titsburgh Feelers",
-      "owner": "Steph",
+      "owner": "Steve Minardi",
       "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
       "rank": 3,
       "wins": 7,
@@ -53,7 +53,7 @@
     {
       "team_key": "348.l.225929.t.2",
       "name": "D'Brick House",
-      "owner": "Chris D",
+      "owner": "Chris Dupay",
       "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
       "rank": 4,
       "wins": 9,
@@ -66,7 +66,7 @@
     {
       "team_key": "348.l.225929.t.4",
       "name": "Upset City",
-      "owner": "Jeff",
+      "owner": "Jeff Lobdell",
       "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
       "rank": 5,
       "wins": 8,
@@ -79,7 +79,7 @@
     {
       "team_key": "348.l.225929.t.11",
       "name": "SingleBroFucknHoes",
-      "owner": "Scott",
+      "owner": "Scott Kellman",
       "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
       "rank": 6,
       "wins": 7,
@@ -92,7 +92,7 @@
     {
       "team_key": "348.l.225929.t.12",
       "name": "Tears of Boston",
-      "owner": "Kenneth",
+      "owner": "Kenny Smith",
       "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
       "rank": 7,
       "wins": 6,
@@ -105,7 +105,7 @@
     {
       "team_key": "348.l.225929.t.9",
       "name": "Who?..Matt Jones",
-      "owner": "Edward",
+      "owner": "Ed Shively",
       "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
       "rank": 8,
       "wins": 7,
@@ -118,7 +118,7 @@
     {
       "team_key": "348.l.225929.t.3",
       "name": "Abdullah Oblongata",
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
       "rank": 9,
       "wins": 3,
@@ -131,7 +131,7 @@
     {
       "team_key": "348.l.225929.t.5",
       "name": "Brown",
-      "owner": "Tom",
+      "owner": "Tom Brown",
       "guid": "WVV244VHQOZLXAW3V7XTH7IVXA",
       "rank": 10,
       "wins": 2,
@@ -144,7 +144,7 @@
     {
       "team_key": "348.l.225929.t.6",
       "name": "AnnexationPuertoRico",
-      "owner": "Mike",
+      "owner": "Malcolm Lapone",
       "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
       "rank": 11,
       "wins": 6,
@@ -157,7 +157,7 @@
     {
       "team_key": "348.l.225929.t.1",
       "name": "Finding Geno",
-      "owner": "Lee",
+      "owner": "Lee Bertram",
       "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
       "rank": 12,
       "wins": 4,
@@ -176,13 +176,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 86.75
         },
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 140.81
         }
       ]
@@ -194,13 +194,13 @@
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 112.92
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 129.01
         }
       ]
@@ -212,13 +212,13 @@
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 108.51
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 130.43
         }
       ]
@@ -230,13 +230,13 @@
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 130.83
         },
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 162.24
         }
       ]
@@ -248,13 +248,13 @@
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 76.94
         },
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 115.27
         }
       ]
@@ -266,13 +266,13 @@
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 135.84
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 76.3
         }
       ]
@@ -284,13 +284,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 122.7
         },
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 107.78
         }
       ]
@@ -302,13 +302,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 103.86
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 110.42
         }
       ]
@@ -320,13 +320,13 @@
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 110.39
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 133.89
         }
       ]
@@ -338,13 +338,13 @@
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 92.51
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 109.63
         }
       ]
@@ -356,13 +356,13 @@
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 89.08
         },
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 95.16
         }
       ]
@@ -374,13 +374,13 @@
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 112.62
         },
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 120.61
         }
       ]
@@ -392,13 +392,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 101.41
         },
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 130.21
         }
       ]
@@ -410,13 +410,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 151.58
         },
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 121.0
         }
       ]
@@ -428,13 +428,13 @@
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 166.51
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 92.75
         }
       ]
@@ -446,13 +446,13 @@
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 159.0
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 137.79
         }
       ]
@@ -464,13 +464,13 @@
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 124.56
         },
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 125.21
         }
       ]
@@ -482,13 +482,13 @@
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 133.64
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 150.77
         }
       ]
@@ -500,13 +500,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 111.41
         },
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 74.25
         }
       ]
@@ -518,13 +518,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 132.91
         },
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 89.73
         }
       ]
@@ -536,13 +536,13 @@
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 115.71
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 87.19
         }
       ]
@@ -554,13 +554,13 @@
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 76.03
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 108.66
         }
       ]
@@ -572,13 +572,13 @@
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 124.8
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 116.01
         }
       ]
@@ -590,13 +590,13 @@
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 104.18
         },
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 123.64
         }
       ]
@@ -608,13 +608,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 129.32
         },
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 70.31
         }
       ]
@@ -626,13 +626,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 142.94
         },
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 85.81
         }
       ]
@@ -644,13 +644,13 @@
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 83.46
         },
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 171.6
         }
       ]
@@ -662,13 +662,13 @@
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 125.58
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 156.51
         }
       ]
@@ -680,13 +680,13 @@
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 123.5
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 134.03
         }
       ]
@@ -698,13 +698,13 @@
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 85.51
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 88.16
         }
       ]
@@ -716,13 +716,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 101.99
         },
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 161.45
         }
       ]
@@ -734,13 +734,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 160.62
         },
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 123.3
         }
       ]
@@ -752,13 +752,13 @@
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 101.93
         },
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 101.11
         }
       ]
@@ -770,13 +770,13 @@
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 124.24
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 94.77
         }
       ]
@@ -788,13 +788,13 @@
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 137.03
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 130.92
         }
       ]
@@ -806,13 +806,13 @@
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 108.72
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 118.28
         }
       ]
@@ -824,13 +824,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 119.05
         },
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 124.3
         }
       ]
@@ -842,13 +842,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 108.98
         },
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 122.37
         }
       ]
@@ -860,13 +860,13 @@
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 83.76
         },
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 126.2
         }
       ]
@@ -878,13 +878,13 @@
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 136.66
         },
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 97.02
         }
       ]
@@ -896,13 +896,13 @@
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 121.87
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 153.36
         }
       ]
@@ -914,13 +914,13 @@
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 144.73
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 126.58
         }
       ]
@@ -932,13 +932,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 81.02
         },
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 137.98
         }
       ]
@@ -950,13 +950,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 84.8
         },
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 158.82
         }
       ]
@@ -968,13 +968,13 @@
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 102.08
         },
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 165.87
         }
       ]
@@ -986,13 +986,13 @@
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 104.71
         },
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 114.16
         }
       ]
@@ -1004,13 +1004,13 @@
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 104.18
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 127.8
         }
       ]
@@ -1022,13 +1022,13 @@
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 156.65
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 91.79
         }
       ]
@@ -1040,13 +1040,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 143.9
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 155.95
         }
       ]
@@ -1058,13 +1058,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 103.32
         },
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 130.61
         }
       ]
@@ -1076,13 +1076,13 @@
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 99.59
         },
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 149.67
         }
       ]
@@ -1094,13 +1094,13 @@
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 137.53
         },
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 114.53
         }
       ]
@@ -1112,13 +1112,13 @@
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 75.99
         },
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 119.23
         }
       ]
@@ -1130,13 +1130,13 @@
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 130.24
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 124.42
         }
       ]
@@ -1148,13 +1148,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 116.63
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 100.11
         }
       ]
@@ -1166,13 +1166,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 105.99
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 74.88
         }
       ]
@@ -1184,13 +1184,13 @@
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 97.45
         },
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 142.25
         }
       ]
@@ -1202,13 +1202,13 @@
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 108.47
         },
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 132.93
         }
       ]
@@ -1220,13 +1220,13 @@
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 112.01
         },
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 130.51
         }
       ]
@@ -1238,13 +1238,13 @@
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 133.16
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 120.9
         }
       ]
@@ -1256,13 +1256,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 78.32
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 98.73
         }
       ]
@@ -1274,13 +1274,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 122.28
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 115.23
         }
       ]
@@ -1292,13 +1292,13 @@
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 93.6
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 105.42
         }
       ]
@@ -1310,13 +1310,13 @@
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 92.19
         },
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 74.05
         }
       ]
@@ -1328,13 +1328,13 @@
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 88.71
         },
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 97.61
         }
       ]
@@ -1346,13 +1346,13 @@
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 66.41
         },
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 119.04
         }
       ]
@@ -1364,13 +1364,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 96.22
         },
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 130.13
         }
       ]
@@ -1382,13 +1382,13 @@
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 111.11
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 118.89
         }
       ]
@@ -1400,13 +1400,13 @@
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 92.89
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 80.8
         }
       ]
@@ -1418,13 +1418,13 @@
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 126.29
         },
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 117.88
         }
       ]
@@ -1436,13 +1436,13 @@
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 98.83
         },
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 138.35
         }
       ]
@@ -1454,13 +1454,13 @@
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 130.35
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 147.21
         }
       ]
@@ -1472,13 +1472,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 156.35
         },
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 162.14
         }
       ]
@@ -1490,13 +1490,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 124.74
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 114.04
         }
       ]
@@ -1508,13 +1508,13 @@
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 137.59
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 104.67
         }
       ]
@@ -1526,13 +1526,13 @@
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 94.05
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 120.78
         }
       ]
@@ -1544,13 +1544,13 @@
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 128.24
         },
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 87.28
         }
       ]
@@ -1562,13 +1562,13 @@
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 87.68
         },
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 130.66
         }
       ]
@@ -1580,13 +1580,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 110.48
         },
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 115.39
         }
       ]
@@ -1598,13 +1598,13 @@
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 125.51
         },
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 133.7
         }
       ]
@@ -1616,13 +1616,13 @@
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 117.03
         },
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 100.85
         }
       ]
@@ -1634,13 +1634,13 @@
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 92.6
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 91.08
         }
       ]
@@ -1652,13 +1652,13 @@
         {
           "team_key": "348.l.225929.t.1",
           "name": "Finding Geno",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 112.05
         },
         {
           "team_key": "348.l.225929.t.6",
           "name": "AnnexationPuertoRico",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 146.24
         }
       ]
@@ -1670,13 +1670,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 127.81
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 155.04
         }
       ]
@@ -1688,13 +1688,13 @@
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 120.51
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 160.53
         }
       ]
@@ -1706,13 +1706,13 @@
         {
           "team_key": "348.l.225929.t.4",
           "name": "Upset City",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 155.8
         },
         {
           "team_key": "348.l.225929.t.11",
           "name": "SingleBroFucknHoes",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 120.21
         }
       ]
@@ -1724,13 +1724,13 @@
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 91.85
         },
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 127.79
         }
       ]
@@ -1742,13 +1742,13 @@
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 100.22
         },
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 131.78
         }
       ]
@@ -1760,13 +1760,13 @@
         {
           "team_key": "348.l.225929.t.2",
           "name": "D'Brick House",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 99.46
         },
         {
           "team_key": "348.l.225929.t.7",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 120.05
         }
       ]
@@ -1778,13 +1778,13 @@
         {
           "team_key": "348.l.225929.t.3",
           "name": "Abdullah Oblongata",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 111.99
         },
         {
           "team_key": "348.l.225929.t.5",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 47.21
         }
       ]
@@ -1796,13 +1796,13 @@
         {
           "team_key": "348.l.225929.t.8",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 120.94
         },
         {
           "team_key": "348.l.225929.t.10",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 128.16
         }
       ]
@@ -1814,13 +1814,13 @@
         {
           "team_key": "348.l.225929.t.9",
           "name": "Who?..Matt Jones",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 121.87
         },
         {
           "team_key": "348.l.225929.t.12",
           "name": "Tears of Boston",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 130.1
         }
       ]

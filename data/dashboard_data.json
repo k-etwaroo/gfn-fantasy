@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-06T14:07:18.533535",
+  "generated_at": "2026-03-06T14:13:47.557110",
   "seasons_count": 15,
   "champions": [
     {
       "year": 2011,
       "team": "FLIGHT BOYZ",
-      "owner": "Lee",
+      "owner": "Lee Bertram",
       "wins": 10,
       "losses": 3,
       "pts_for": 1978.18
@@ -13,7 +13,7 @@
     {
       "year": 2012,
       "team": "TE-BOWNED",
-      "owner": "Lee",
+      "owner": "Lee Bertram",
       "wins": 8,
       "losses": 5,
       "pts_for": 1715.96
@@ -21,7 +21,7 @@
     {
       "year": 2013,
       "team": "Kaep N Krunch",
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "wins": 7,
       "losses": 6,
       "pts_for": 1539.6
@@ -29,7 +29,7 @@
     {
       "year": 2014,
       "team": "DaMaryius Targaryen",
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "wins": 9,
       "losses": 4,
       "pts_for": 1848.32
@@ -37,7 +37,7 @@
     {
       "year": 2015,
       "team": "ManningHam N' Cheese",
-      "owner": "Kevin",
+      "owner": "Kevin Etwaroo",
       "wins": 9,
       "losses": 4,
       "pts_for": 1585.38
@@ -45,7 +45,7 @@
     {
       "year": 2016,
       "team": "My Cousin Kirk",
-      "owner": "Edward",
+      "owner": "Ed Shively",
       "wins": 8,
       "losses": 5,
       "pts_for": 1558.75
@@ -53,7 +53,7 @@
     {
       "year": 2017,
       "team": "FIGJAM",
-      "owner": "Kenneth",
+      "owner": "Kenny Smith",
       "wins": 11,
       "losses": 2,
       "pts_for": 1647.95
@@ -61,7 +61,7 @@
     {
       "year": 2018,
       "team": "Titsburgh Feelers",
-      "owner": "Steph",
+      "owner": "Steve Minardi",
       "wins": 9,
       "losses": 4,
       "pts_for": 1783.04
@@ -69,7 +69,7 @@
     {
       "year": 2019,
       "team": "Ottoman Empire",
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "wins": 7,
       "losses": 6,
       "pts_for": 1423.23
@@ -77,7 +77,7 @@
     {
       "year": 2020,
       "team": "Flutie n da Blowfish",
-      "owner": "Brian",
+      "owner": "Brian Marois",
       "wins": 10,
       "losses": 3,
       "pts_for": 1631.94
@@ -85,7 +85,7 @@
     {
       "year": 2021,
       "team": "Stairway to Tevin",
-      "owner": "Lee",
+      "owner": "Lee Bertram",
       "wins": 9,
       "losses": 5,
       "pts_for": 1649.28
@@ -93,7 +93,7 @@
     {
       "year": 2022,
       "team": "Flutie and the Blowfish",
-      "owner": "Brian",
+      "owner": "Brian Marois",
       "wins": 10,
       "losses": 4,
       "pts_for": 1681.42
@@ -101,7 +101,7 @@
     {
       "year": 2023,
       "team": "Ottoman Empire",
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "wins": 11,
       "losses": 3,
       "pts_for": 1815.66
@@ -109,7 +109,7 @@
     {
       "year": 2024,
       "team": "FDIC Crew",
-      "owner": "Tony",
+      "owner": "Tony Bevilaqua",
       "wins": 11,
       "losses": 3,
       "pts_for": 1726.13
@@ -124,7 +124,16 @@
     }
   ],
   "owner_stats": {
-    "Chris Dupay": {
+    "Peter Ott": {
+      "wins": 106,
+      "losses": 81,
+      "pts_for": 22524.8,
+      "pts_against": 21507.239999999998,
+      "titles": 4,
+      "seasons": 14,
+      "playoff_appearances": 5
+    },
+    "Christian": {
       "wins": 0,
       "losses": 0,
       "pts_for": 0.0,
@@ -142,158 +151,23 @@
       "seasons": 5,
       "playoff_appearances": 3
     },
-    "Tim Flaherty": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Kevin Coppins": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Lee Bertram": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Tom Brown": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Jake Barker": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Brian Marois": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Peter Ott": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Kenny Smith": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Malcolm Lapone": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Tony Bevilaqua": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Christopher Hayes": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Kevin Etwaroo": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Steve Minardi": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
     "Steve Loesch": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
+      "wins": 11,
+      "losses": 15,
+      "pts_for": 2855.65,
+      "pts_against": 3139.1800000000003,
       "titles": 0,
-      "seasons": 0,
+      "seasons": 2,
       "playoff_appearances": 0
     },
-    "Christian": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
+    "Chris Dupay": {
+      "wins": 94,
+      "losses": 106,
+      "pts_for": 22303.36,
+      "pts_against": 23057.390000000007,
       "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Chris Maher": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Scott Kellman": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
+      "seasons": 15,
+      "playoff_appearances": 4
     },
     "Chad": {
       "wins": 0,
@@ -304,113 +178,239 @@
       "seasons": 0,
       "playoff_appearances": 0
     },
-    "Chris Harjung": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
+    "Tony Bevilaqua": {
+      "wins": 47,
+      "losses": 36,
+      "pts_for": 9708.36,
+      "pts_against": 9386.15,
+      "titles": 1,
+      "seasons": 6,
+      "playoff_appearances": 3
+    },
+    "Jake Barker": {
+      "wins": 19,
+      "losses": 20,
+      "pts_for": 4871.92,
+      "pts_against": 4663.22,
       "titles": 0,
-      "seasons": 0,
+      "seasons": 3,
       "playoff_appearances": 0
     },
-    "Jeff Lobdell": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
+    "Lee Bertram": {
+      "wins": 112,
+      "losses": 88,
+      "pts_for": 24127.74,
+      "pts_against": 22777.229999999996,
+      "titles": 3,
+      "seasons": 15,
+      "playoff_appearances": 9
     },
     "Ed Shively": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
+      "wins": 99,
+      "losses": 101,
+      "pts_for": 23247.95,
+      "pts_against": 23271.789999999997,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 5
+    },
+    "Malcolm Lapone": {
+      "wins": 74,
+      "losses": 74,
+      "pts_for": 16943.829999999998,
+      "pts_against": 16572.87,
       "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
+      "seasons": 11,
+      "playoff_appearances": 3
+    },
+    "Steve Minardi": {
+      "wins": 83,
+      "losses": 89,
+      "pts_for": 19998.350000000002,
+      "pts_against": 19779.100000000002,
+      "titles": 1,
+      "seasons": 13,
+      "playoff_appearances": 4
     },
     "Brian Abrahamson": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
+      "wins": 7,
+      "losses": 6,
+      "pts_for": 1562.3,
+      "pts_against": 1500.1000000000001,
       "titles": 0,
-      "seasons": 0,
+      "seasons": 1,
+      "playoff_appearances": 1
+    },
+    "Chris Maher": {
+      "wins": 5,
+      "losses": 8,
+      "pts_for": 1513.87,
+      "pts_against": 1572.78,
+      "titles": 0,
+      "seasons": 1,
+      "playoff_appearances": 0
+    },
+    "Kevin Etwaroo": {
+      "wins": 90,
+      "losses": 110,
+      "pts_for": 22061.4,
+      "pts_against": 23057.499999999996,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 4
+    },
+    "Kevin Coppins": {
+      "wins": 58,
+      "losses": 59,
+      "pts_for": 13542.58,
+      "pts_against": 13895.75,
+      "titles": 0,
+      "seasons": 9,
+      "playoff_appearances": 3
+    },
+    "Scott Kellman": {
+      "wins": 54,
+      "losses": 63,
+      "pts_for": 13547.82,
+      "pts_against": 13966.41,
+      "titles": 0,
+      "seasons": 9,
+      "playoff_appearances": 0
+    },
+    "Tim Flaherty": {
+      "wins": 13,
+      "losses": 13,
+      "pts_for": 3147.7200000000003,
+      "pts_against": 3192.09,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 1
+    },
+    "Jeff Lobdell": {
+      "wins": 95,
+      "losses": 92,
+      "pts_for": 21555.28,
+      "pts_against": 21308.730000000003,
+      "titles": 0,
+      "seasons": 14,
+      "playoff_appearances": 5
+    },
+    "Kenny Smith": {
+      "wins": 96,
+      "losses": 104,
+      "pts_for": 22579.14,
+      "pts_against": 23025.640000000003,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 5
+    },
+    "Tom Brown": {
+      "wins": 14,
+      "losses": 25,
+      "pts_for": 4303.5,
+      "pts_against": 4586.32,
+      "titles": 0,
+      "seasons": 3,
+      "playoff_appearances": 0
+    },
+    "Brian Marois": {
+      "wins": 68,
+      "losses": 54,
+      "pts_for": 14056.18,
+      "pts_against": 14077.529999999999,
+      "titles": 2,
+      "seasons": 9,
+      "playoff_appearances": 4
+    },
+    "Chris Harjung": {
+      "wins": 8,
+      "losses": 5,
+      "pts_for": 1476.68,
+      "pts_against": 1430.2200000000003,
+      "titles": 0,
+      "seasons": 1,
+      "playoff_appearances": 1
+    },
+    "Christopher Hayes": {
+      "wins": 13,
+      "losses": 15,
+      "pts_for": 3182.6000000000004,
+      "pts_against": 3301.63,
+      "titles": 0,
+      "seasons": 2,
       "playoff_appearances": 0
     }
   },
   "luck_by_season": {
     "2011": [
       {
-        "owner": "Steve M",
+        "owner": "Steve Minardi",
         "actual_wins": 7,
         "expected_wins": 4.91,
         "luck_score": 2.09
       },
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 8,
         "expected_wins": 6.73,
         "luck_score": 1.27
       },
       {
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "actual_wins": 7,
         "expected_wins": 5.82,
         "luck_score": 1.18
       },
       {
-        "owner": "Steve L",
+        "owner": "Steve Loesch",
         "actual_wins": 5,
         "expected_wins": 3.91,
         "luck_score": 1.09
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 5,
         "expected_wins": 4.27,
         "luck_score": 0.73
       },
       {
-        "owner": "Hidden",
+        "owner": "Brian Abrahamson",
         "actual_wins": 7,
         "expected_wins": 6.45,
         "luck_score": 0.55
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 7,
         "expected_wins": 6.73,
         "luck_score": 0.27
       },
       {
-        "owner": "Chris M",
+        "owner": "Chris Maher",
         "actual_wins": 5,
         "expected_wins": 5.73,
         "luck_score": -0.73
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 10,
         "expected_wins": 11.18,
         "luck_score": -1.18
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 6,
         "expected_wins": 7.18,
         "luck_score": -1.18
       },
       {
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "actual_wins": 6,
         "expected_wins": 7.45,
         "luck_score": -1.45
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 5,
         "expected_wins": 7.64,
         "luck_score": -2.64
@@ -418,73 +418,73 @@
     ],
     "2012": [
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 7,
         "expected_wins": 5.36,
         "luck_score": 1.64
       },
       {
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "actual_wins": 7,
         "expected_wins": 6.18,
         "luck_score": 0.82
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 9,
         "expected_wins": 8.27,
         "luck_score": 0.73
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 6,
         "expected_wins": 5.45,
         "luck_score": 0.55
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 6,
         "expected_wins": 5.64,
         "luck_score": 0.36
       },
       {
-        "owner": "Steve L",
+        "owner": "Steve Loesch",
         "actual_wins": 6,
         "expected_wins": 5.82,
         "luck_score": 0.18
       },
       {
-        "owner": "Hidden2",
+        "owner": "Jake Barker",
         "actual_wins": 5,
         "expected_wins": 5.0,
         "luck_score": 0.0
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 8,
         "expected_wins": 8.64,
         "luck_score": -0.64
       },
       {
-        "owner": "Tim",
+        "owner": "Tim Flaherty",
         "actual_wins": 7,
         "expected_wins": 7.64,
         "luck_score": -0.64
       },
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 6,
         "expected_wins": 6.64,
         "luck_score": -0.64
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 7,
         "expected_wins": 7.91,
         "luck_score": -0.91
       },
       {
-        "owner": "Steve M",
+        "owner": "Steve Minardi",
         "actual_wins": 4,
         "expected_wins": 5.45,
         "luck_score": -1.45
@@ -492,73 +492,73 @@
     ],
     "2013": [
       {
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "actual_wins": 9,
         "expected_wins": 7.0,
         "luck_score": 2.0
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 9,
         "expected_wins": 7.55,
         "luck_score": 1.45
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 7,
         "expected_wins": 6.0,
         "luck_score": 1.0
       },
       {
-        "owner": "Tom",
+        "owner": "Tom Brown",
         "actual_wins": 6,
         "expected_wins": 5.0,
         "luck_score": 1.0
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 8,
         "expected_wins": 7.27,
         "luck_score": 0.73
       },
       {
-        "owner": "Tim",
+        "owner": "Tim Flaherty",
         "actual_wins": 6,
         "expected_wins": 5.64,
         "luck_score": 0.36
       },
       {
-        "owner": "Hidden2",
+        "owner": "Jake Barker",
         "actual_wins": 8,
         "expected_wins": 7.73,
         "luck_score": 0.27
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 5,
         "expected_wins": 5.55,
         "luck_score": -0.55
       },
       {
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "actual_wins": 4,
         "expected_wins": 5.09,
         "luck_score": -1.09
       },
       {
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "actual_wins": 9,
         "expected_wins": 10.09,
         "luck_score": -1.09
       },
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 4,
         "expected_wins": 5.82,
         "luck_score": -1.82
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 3,
         "expected_wins": 5.18,
         "luck_score": -2.18
@@ -566,73 +566,73 @@
     ],
     "2014": [
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 9,
         "expected_wins": 6.09,
         "luck_score": 2.91
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 5,
         "expected_wins": 3.82,
         "luck_score": 1.18
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 9,
         "expected_wins": 7.91,
         "luck_score": 1.09
       },
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 8,
         "expected_wins": 7.09,
         "luck_score": 0.91
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 6,
         "expected_wins": 5.45,
         "luck_score": 0.55
       },
       {
-        "owner": "Tom",
+        "owner": "Tom Brown",
         "actual_wins": 6,
         "expected_wins": 5.64,
         "luck_score": 0.36
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 6,
         "expected_wins": 5.82,
         "luck_score": 0.18
       },
       {
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "actual_wins": 8,
         "expected_wins": 8.27,
         "luck_score": -0.27
       },
       {
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "actual_wins": 2,
         "expected_wins": 3.0,
         "luck_score": -1.0
       },
       {
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "actual_wins": 4,
         "expected_wins": 5.55,
         "luck_score": -1.55
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 9,
         "expected_wins": 10.73,
         "luck_score": -1.73
       },
       {
-        "owner": "Hidden2",
+        "owner": "Jake Barker",
         "actual_wins": 6,
         "expected_wins": 8.64,
         "luck_score": -2.64
@@ -640,73 +640,73 @@
     ],
     "2015": [
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 9,
         "expected_wins": 7.55,
         "luck_score": 1.45
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 9,
         "expected_wins": 7.73,
         "luck_score": 1.27
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 8,
         "expected_wins": 6.82,
         "luck_score": 1.18
       },
       {
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "actual_wins": 10,
         "expected_wins": 8.82,
         "luck_score": 1.18
       },
       {
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "actual_wins": 6,
         "expected_wins": 5.0,
         "luck_score": 1.0
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 7,
         "expected_wins": 6.18,
         "luck_score": 0.82
       },
       {
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "actual_wins": 7,
         "expected_wins": 7.18,
         "luck_score": -0.18
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 6,
         "expected_wins": 6.36,
         "luck_score": -0.36
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 3,
         "expected_wins": 4.09,
         "luck_score": -1.09
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 4,
         "expected_wins": 5.55,
         "luck_score": -1.55
       },
       {
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "actual_wins": 7,
         "expected_wins": 8.55,
         "luck_score": -1.55
       },
       {
-        "owner": "Tom",
+        "owner": "Tom Brown",
         "actual_wins": 2,
         "expected_wins": 4.18,
         "luck_score": -2.18
@@ -714,73 +714,73 @@
     ],
     "2016": [
       {
-        "owner": "Chris",
+        "owner": "Chris Harjung",
         "actual_wins": 8,
         "expected_wins": 6.0,
         "luck_score": 2.0
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 10,
         "expected_wins": 9.0,
         "luck_score": 1.0
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 6,
         "expected_wins": 5.36,
         "luck_score": 0.64
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 7,
         "expected_wins": 6.55,
         "luck_score": 0.45
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 8,
         "expected_wins": 7.64,
         "luck_score": 0.36
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 7,
         "expected_wins": 7.09,
         "luck_score": -0.09
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 8,
         "expected_wins": 8.09,
         "luck_score": -0.09
       },
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 3,
         "expected_wins": 3.27,
         "luck_score": -0.27
       },
       {
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "actual_wins": 6,
         "expected_wins": 6.36,
         "luck_score": -0.36
       },
       {
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "actual_wins": 7,
         "expected_wins": 7.45,
         "luck_score": -0.45
       },
       {
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "actual_wins": 6,
         "expected_wins": 6.82,
         "luck_score": -0.82
       },
       {
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "actual_wins": 2,
         "expected_wins": 4.36,
         "luck_score": -2.36
@@ -788,73 +788,73 @@
     ],
     "2017": [
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 9,
         "expected_wins": 7.45,
         "luck_score": 1.55
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 10,
         "expected_wins": 8.91,
         "luck_score": 1.09
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 11,
         "expected_wins": 10.09,
         "luck_score": 0.91
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 5,
         "expected_wins": 4.27,
         "luck_score": 0.73
       },
       {
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "actual_wins": 4,
         "expected_wins": 3.36,
         "luck_score": 0.64
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 5,
         "expected_wins": 4.36,
         "luck_score": 0.64
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 7,
         "expected_wins": 7.09,
         "luck_score": -0.09
       },
       {
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "actual_wins": 8,
         "expected_wins": 8.27,
         "luck_score": -0.27
       },
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 4,
         "expected_wins": 4.36,
         "luck_score": -0.36
       },
       {
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "actual_wins": 7,
         "expected_wins": 7.45,
         "luck_score": -0.45
       },
       {
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "actual_wins": 4,
         "expected_wins": 6.18,
         "luck_score": -2.18
       },
       {
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "actual_wins": 4,
         "expected_wins": 6.18,
         "luck_score": -2.18
@@ -862,73 +862,73 @@
     ],
     "2018": [
       {
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "actual_wins": 8,
         "expected_wins": 5.55,
         "luck_score": 2.45
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 8,
         "expected_wins": 6.64,
         "luck_score": 1.36
       },
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 5,
         "expected_wins": 4.18,
         "luck_score": 0.82
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 7,
         "expected_wins": 6.27,
         "luck_score": 0.73
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 9,
         "expected_wins": 8.64,
         "luck_score": 0.36
       },
       {
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "actual_wins": 9,
         "expected_wins": 9.09,
         "luck_score": -0.09
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 2,
         "expected_wins": 2.18,
         "luck_score": -0.18
       },
       {
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "actual_wins": 7,
         "expected_wins": 7.18,
         "luck_score": -0.18
       },
       {
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "actual_wins": 5,
         "expected_wins": 5.64,
         "luck_score": -0.64
       },
       {
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "actual_wins": 10,
         "expected_wins": 11.18,
         "luck_score": -1.18
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 7,
         "expected_wins": 8.27,
         "luck_score": -1.27
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 1,
         "expected_wins": 3.18,
         "luck_score": -2.18
@@ -936,73 +936,73 @@
     ],
     "2019": [
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 10,
         "expected_wins": 7.18,
         "luck_score": 2.82
       },
       {
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "actual_wins": 9,
         "expected_wins": 7.45,
         "luck_score": 1.55
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 7,
         "expected_wins": 6.0,
         "luck_score": 1.0
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 8,
         "expected_wins": 7.55,
         "luck_score": 0.45
       },
       {
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "actual_wins": 6,
         "expected_wins": 5.64,
         "luck_score": 0.36
       },
       {
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "actual_wins": 6,
         "expected_wins": 5.64,
         "luck_score": 0.36
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 8,
         "expected_wins": 7.91,
         "luck_score": 0.09
       },
       {
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "actual_wins": 8,
         "expected_wins": 8.18,
         "luck_score": -0.18
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 3,
         "expected_wins": 3.91,
         "luck_score": -0.91
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 6,
         "expected_wins": 7.09,
         "luck_score": -1.09
       },
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 2,
         "expected_wins": 3.91,
         "luck_score": -1.91
       },
       {
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "actual_wins": 5,
         "expected_wins": 7.55,
         "luck_score": -2.55
@@ -1010,73 +1010,73 @@
     ],
     "2020": [
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 8,
         "expected_wins": 5.73,
         "luck_score": 2.27
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 9,
         "expected_wins": 6.91,
         "luck_score": 2.09
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 8,
         "expected_wins": 6.18,
         "luck_score": 1.82
       },
       {
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "actual_wins": 10,
         "expected_wins": 8.82,
         "luck_score": 1.18
       },
       {
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "actual_wins": 6,
         "expected_wins": 6.09,
         "luck_score": -0.09
       },
       {
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "actual_wins": 7,
         "expected_wins": 7.27,
         "luck_score": -0.27
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 7,
         "expected_wins": 7.36,
         "luck_score": -0.36
       },
       {
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "actual_wins": 5,
         "expected_wins": 5.73,
         "luck_score": -0.73
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 5,
         "expected_wins": 5.91,
         "luck_score": -0.91
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 6,
         "expected_wins": 6.91,
         "luck_score": -0.91
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 2,
         "expected_wins": 3.64,
         "luck_score": -1.64
       },
       {
-        "owner": "Tony",
+        "owner": "Tony Bevilaqua",
         "actual_wins": 5,
         "expected_wins": 7.45,
         "luck_score": -2.45
@@ -1084,31 +1084,31 @@
     ],
     "2021": [
       {
-        "owner": "Tony",
+        "owner": "Tony Bevilaqua",
         "actual_wins": 9,
         "expected_wins": 6.45,
         "luck_score": 2.55
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 8,
         "expected_wins": 6.45,
         "luck_score": 1.55
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 11,
         "expected_wins": 10.09,
         "luck_score": 0.91
       },
       {
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "actual_wins": 8,
         "expected_wins": 7.18,
         "luck_score": 0.82
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 9,
         "expected_wins": 8.36,
         "luck_score": 0.64
@@ -1120,37 +1120,37 @@
         "luck_score": -0.55
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 6,
         "expected_wins": 6.55,
         "luck_score": -0.55
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 5,
         "expected_wins": 5.64,
         "luck_score": -0.64
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 8,
         "expected_wins": 8.64,
         "luck_score": -0.64
       },
       {
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "actual_wins": 5,
         "expected_wins": 6.0,
         "luck_score": -1.0
       },
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 6,
         "expected_wins": 7.18,
         "luck_score": -1.18
       },
       {
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "actual_wins": 5,
         "expected_wins": 6.91,
         "luck_score": -1.91
@@ -1158,7 +1158,7 @@
     ],
     "2022": [
       {
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "actual_wins": 8,
         "expected_wins": 5.09,
         "luck_score": 2.91
@@ -1170,61 +1170,61 @@
         "luck_score": 2.45
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 7,
         "expected_wins": 5.55,
         "luck_score": 1.45
       },
       {
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "actual_wins": 10,
         "expected_wins": 8.82,
         "luck_score": 1.18
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 7,
         "expected_wins": 6.55,
         "luck_score": 0.45
       },
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 6,
         "expected_wins": 5.73,
         "luck_score": 0.27
       },
       {
-        "owner": "Tony",
+        "owner": "Tony Bevilaqua",
         "actual_wins": 6,
         "expected_wins": 6.18,
         "luck_score": -0.18
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 8,
         "expected_wins": 8.27,
         "luck_score": -0.27
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 7,
         "expected_wins": 8.27,
         "luck_score": -1.27
       },
       {
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "actual_wins": 6,
         "expected_wins": 7.73,
         "luck_score": -1.73
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 7,
         "expected_wins": 8.73,
         "luck_score": -1.73
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 4,
         "expected_wins": 7.55,
         "luck_score": -3.55
@@ -1232,61 +1232,61 @@
     ],
     "2023": [
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 11,
         "expected_wins": 9.27,
         "luck_score": 1.73
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 10,
         "expected_wins": 8.36,
         "luck_score": 1.64
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 8,
         "expected_wins": 6.82,
         "luck_score": 1.18
       },
       {
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "actual_wins": 7,
         "expected_wins": 6.09,
         "luck_score": 0.91
       },
       {
-        "owner": "Tony",
+        "owner": "Tony Bevilaqua",
         "actual_wins": 7,
         "expected_wins": 6.36,
         "luck_score": 0.64
       },
       {
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "actual_wins": 10,
         "expected_wins": 9.91,
         "luck_score": 0.09
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 6,
         "expected_wins": 6.18,
         "luck_score": -0.18
       },
       {
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "actual_wins": 6,
         "expected_wins": 6.18,
         "luck_score": -0.18
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 6,
         "expected_wins": 6.27,
         "luck_score": -0.27
       },
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 5,
         "expected_wins": 6.0,
         "luck_score": -1.0
@@ -1298,7 +1298,7 @@
         "luck_score": -1.91
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 4,
         "expected_wins": 6.64,
         "luck_score": -2.64
@@ -1306,43 +1306,43 @@
     ],
     "2024": [
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 9,
         "expected_wins": 6.64,
         "luck_score": 2.36
       },
       {
-        "owner": "Tony",
+        "owner": "Tony Bevilaqua",
         "actual_wins": 11,
         "expected_wins": 9.55,
         "luck_score": 1.45
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 7,
         "expected_wins": 6.27,
         "luck_score": 0.73
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 7,
         "expected_wins": 6.55,
         "luck_score": 0.45
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 7,
         "expected_wins": 6.73,
         "luck_score": 0.27
       },
       {
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "actual_wins": 8,
         "expected_wins": 7.82,
         "luck_score": 0.18
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 9,
         "expected_wins": 8.91,
         "luck_score": 0.09
@@ -1354,25 +1354,25 @@
         "luck_score": -0.27
       },
       {
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "actual_wins": 4,
         "expected_wins": 4.45,
         "luck_score": -0.45
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 4,
         "expected_wins": 5.27,
         "luck_score": -1.27
       },
       {
-        "owner": "Christopher",
+        "owner": "Christopher Hayes",
         "actual_wins": 5,
         "expected_wins": 6.64,
         "luck_score": -1.64
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 5,
         "expected_wins": 6.91,
         "luck_score": -1.91
@@ -1386,67 +1386,67 @@
         "luck_score": 1.91
       },
       {
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "actual_wins": 7,
         "expected_wins": 6.18,
         "luck_score": 0.82
       },
       {
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "actual_wins": 10,
         "expected_wins": 9.45,
         "luck_score": 0.55
       },
       {
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "actual_wins": 7,
         "expected_wins": 6.55,
         "luck_score": 0.45
       },
       {
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "actual_wins": 4,
         "expected_wins": 3.64,
         "luck_score": 0.36
       },
       {
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "actual_wins": 6,
         "expected_wins": 5.82,
         "luck_score": 0.18
       },
       {
-        "owner": "Christopher",
+        "owner": "Christopher Hayes",
         "actual_wins": 8,
         "expected_wins": 7.82,
         "luck_score": 0.18
       },
       {
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "actual_wins": 6,
         "expected_wins": 6.09,
         "luck_score": -0.09
       },
       {
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "actual_wins": 8,
         "expected_wins": 8.09,
         "luck_score": -0.09
       },
       {
-        "owner": "Tony",
+        "owner": "Tony Bevilaqua",
         "actual_wins": 9,
         "expected_wins": 9.91,
         "luck_score": -0.91
       },
       {
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "actual_wins": 3,
         "expected_wins": 4.09,
         "luck_score": -1.09
       },
       {
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "actual_wins": 6,
         "expected_wins": 8.27,
         "luck_score": -2.27
@@ -1455,10 +1455,136 @@
   },
   "luck_summary": [
     {
+      "owner": "Chris Dupay",
+      "avg": 0.38,
+      "total": 5.72,
+      "seasons": 15
+    },
+    {
+      "owner": "Kevin Etwaroo",
+      "avg": 0.17,
+      "total": 2.62,
+      "seasons": 15
+    },
+    {
+      "owner": "Jeff Lobdell",
+      "avg": 0.14,
+      "total": 2.0,
+      "seasons": 14
+    },
+    {
+      "owner": "Chris Harjung",
+      "avg": 2.0,
+      "total": 2.0,
+      "seasons": 1
+    },
+    {
       "owner": "Joshua",
       "avg": 0.33,
       "total": 1.63,
       "seasons": 5
+    },
+    {
+      "owner": "Steve Loesch",
+      "avg": 0.64,
+      "total": 1.27,
+      "seasons": 2
+    },
+    {
+      "owner": "Tony Bevilaqua",
+      "avg": 0.18,
+      "total": 1.1,
+      "seasons": 6
+    },
+    {
+      "owner": "Peter Ott",
+      "avg": 0.07,
+      "total": 1.0,
+      "seasons": 14
+    },
+    {
+      "owner": "Brian Abrahamson",
+      "avg": 0.55,
+      "total": 0.55,
+      "seasons": 1
+    },
+    {
+      "owner": "Brian Marois",
+      "avg": 0.05,
+      "total": 0.45,
+      "seasons": 9
+    },
+    {
+      "owner": "Kenny Smith",
+      "avg": 0.01,
+      "total": 0.19,
+      "seasons": 15
+    },
+    {
+      "owner": "Malcolm Lapone",
+      "avg": 0.0,
+      "total": 0.01,
+      "seasons": 11
+    },
+    {
+      "owner": "Tim Flaherty",
+      "avg": -0.14,
+      "total": -0.28,
+      "seasons": 2
+    },
+    {
+      "owner": "Chris Maher",
+      "avg": -0.73,
+      "total": -0.73,
+      "seasons": 1
+    },
+    {
+      "owner": "Tom Brown",
+      "avg": -0.27,
+      "total": -0.82,
+      "seasons": 3
+    },
+    {
+      "owner": "Kevin Coppins",
+      "avg": -0.11,
+      "total": -1.0,
+      "seasons": 9
+    },
+    {
+      "owner": "Lee Bertram",
+      "avg": -0.09,
+      "total": -1.28,
+      "seasons": 15
+    },
+    {
+      "owner": "Christopher Hayes",
+      "avg": -0.73,
+      "total": -1.46,
+      "seasons": 2
+    },
+    {
+      "owner": "Jake Barker",
+      "avg": -0.79,
+      "total": -2.37,
+      "seasons": 3
+    },
+    {
+      "owner": "Ed Shively",
+      "avg": -0.2,
+      "total": -3.0,
+      "seasons": 15
+    },
+    {
+      "owner": "Steve Minardi",
+      "avg": -0.24,
+      "total": -3.17,
+      "seasons": 13
+    },
+    {
+      "owner": "Scott Kellman",
+      "avg": -0.48,
+      "total": -4.36,
+      "seasons": 9
     }
   ],
   "power_rankings": [
@@ -1468,57 +1594,57 @@
       "rank": 1
     },
     {
-      "owner": "Lee",
+      "owner": "Lee Bertram",
       "pr_score": 89.7,
       "rank": 2
     },
     {
-      "owner": "Brian",
+      "owner": "Brian Marois",
       "pr_score": 88.0,
       "rank": 3
     },
     {
-      "owner": "Tony",
+      "owner": "Tony Bevilaqua",
       "pr_score": 73.0,
       "rank": 4
     },
     {
-      "owner": "Kenneth",
+      "owner": "Kenny Smith",
       "pr_score": 70.6,
       "rank": 5
     },
     {
-      "owner": "Jeff",
+      "owner": "Jeff Lobdell",
       "pr_score": 69.4,
       "rank": 6
     },
     {
-      "owner": "Edward",
+      "owner": "Ed Shively",
       "pr_score": 68.8,
       "rank": 7
     },
     {
-      "owner": "Mike",
+      "owner": "Malcolm Lapone",
       "pr_score": 65.6,
       "rank": 8
     },
     {
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "pr_score": 65.2,
       "rank": 9
     },
     {
-      "owner": "Kevin",
+      "owner": "Kevin Etwaroo",
       "pr_score": 63.8,
       "rank": 10
     },
     {
-      "owner": "Chris D",
+      "owner": "Chris Dupay",
       "pr_score": 44.5,
       "rank": 11
     },
     {
-      "owner": "Christopher",
+      "owner": "Christopher Hayes",
       "pr_score": 31.5,
       "rank": 12
     }
@@ -1527,7 +1653,7 @@
     "2011": [
       {
         "rank": 1,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "FLIGHT BOYZ",
         "wins": 10,
         "losses": 3,
@@ -1536,7 +1662,7 @@
       },
       {
         "rank": 2,
-        "owner": "Steve M",
+        "owner": "Steve Minardi",
         "team": "Titsburgh Feelers",
         "wins": 7,
         "losses": 6,
@@ -1545,7 +1671,7 @@
       },
       {
         "rank": 3,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHAM n' Cheese",
         "wins": 8,
         "losses": 5,
@@ -1554,7 +1680,7 @@
       },
       {
         "rank": 4,
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "team": "GMEN",
         "wins": 7,
         "losses": 6,
@@ -1563,7 +1689,7 @@
       },
       {
         "rank": 5,
-        "owner": "Hidden",
+        "owner": "Brian Abrahamson",
         "team": "B ABES",
         "wins": 7,
         "losses": 6,
@@ -1572,7 +1698,7 @@
       },
       {
         "rank": 6,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "CremeOfSomeYoungGuy",
         "wins": 7,
         "losses": 6,
@@ -1581,7 +1707,7 @@
       },
       {
         "rank": 7,
-        "owner": "Steve L",
+        "owner": "Steve Loesch",
         "team": "#sanchizeSWAG",
         "wins": 5,
         "losses": 8,
@@ -1590,7 +1716,7 @@
       },
       {
         "rank": 8,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Team Bush",
         "wins": 6,
         "losses": 7,
@@ -1599,7 +1725,7 @@
       },
       {
         "rank": 9,
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "team": "Team Kellz",
         "wins": 6,
         "losses": 7,
@@ -1608,7 +1734,7 @@
       },
       {
         "rank": 10,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "Swearing at Fans",
         "wins": 5,
         "losses": 8,
@@ -1617,7 +1743,7 @@
       },
       {
         "rank": 11,
-        "owner": "Chris M",
+        "owner": "Chris Maher",
         "team": "Child Please",
         "wins": 5,
         "losses": 8,
@@ -1626,7 +1752,7 @@
       },
       {
         "rank": 12,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "Hail the Skins",
         "wins": 5,
         "losses": 8,
@@ -1637,7 +1763,7 @@
     "2012": [
       {
         "rank": 1,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "TE-BOWNED",
         "wins": 8,
         "losses": 5,
@@ -1646,7 +1772,7 @@
       },
       {
         "rank": 2,
-        "owner": "Tim",
+        "owner": "Tim Flaherty",
         "team": "Stop Drop N Rolle",
         "wins": 7,
         "losses": 6,
@@ -1655,7 +1781,7 @@
       },
       {
         "rank": 3,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "HappyTissues",
         "wins": 7,
         "losses": 6,
@@ -1664,7 +1790,7 @@
       },
       {
         "rank": 4,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Rolle Tide",
         "wins": 9,
         "losses": 4,
@@ -1673,7 +1799,7 @@
       },
       {
         "rank": 5,
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "team": "Team Kellz",
         "wins": 7,
         "losses": 6,
@@ -1682,7 +1808,7 @@
       },
       {
         "rank": 6,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "MyJimShwartzAreDirty",
         "wins": 7,
         "losses": 6,
@@ -1691,7 +1817,7 @@
       },
       {
         "rank": 7,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHAM n' Cheese",
         "wins": 6,
         "losses": 7,
@@ -1700,7 +1826,7 @@
       },
       {
         "rank": 8,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "Gang Green",
         "wins": 6,
         "losses": 7,
@@ -1709,7 +1835,7 @@
       },
       {
         "rank": 9,
-        "owner": "Steve L",
+        "owner": "Steve Loesch",
         "team": "#sanchizeSWAG",
         "wins": 6,
         "losses": 7,
@@ -1718,7 +1844,7 @@
       },
       {
         "rank": 10,
-        "owner": "Hidden2",
+        "owner": "Jake Barker",
         "team": "GMEN",
         "wins": 5,
         "losses": 8,
@@ -1727,7 +1853,7 @@
       },
       {
         "rank": 11,
-        "owner": "Steve M",
+        "owner": "Steve Minardi",
         "team": "Titsburgh Feelers",
         "wins": 4,
         "losses": 9,
@@ -1736,7 +1862,7 @@
       },
       {
         "rank": 12,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Gangnam Style",
         "wins": 6,
         "losses": 7,
@@ -1747,7 +1873,7 @@
     "2013": [
       {
         "rank": 1,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Kaep N Krunch",
         "wins": 7,
         "losses": 6,
@@ -1756,7 +1882,7 @@
       },
       {
         "rank": 2,
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "team": "Titsburgh Feelers",
         "wins": 9,
         "losses": 4,
@@ -1765,7 +1891,7 @@
       },
       {
         "rank": 3,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "Gang Green",
         "wins": 9,
         "losses": 4,
@@ -1774,7 +1900,7 @@
       },
       {
         "rank": 4,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "No LUCK Needed 4 RG3",
         "wins": 8,
         "losses": 5,
@@ -1783,7 +1909,7 @@
       },
       {
         "rank": 5,
-        "owner": "Hidden2",
+        "owner": "Jake Barker",
         "team": "Jacob's Team",
         "wins": 8,
         "losses": 5,
@@ -1792,7 +1918,7 @@
       },
       {
         "rank": 6,
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "team": "THE TAMPA 2",
         "wins": 9,
         "losses": 4,
@@ -1801,7 +1927,7 @@
       },
       {
         "rank": 7,
-        "owner": "Tim",
+        "owner": "Tim Flaherty",
         "team": "Stop Drop N Rolle",
         "wins": 6,
         "losses": 7,
@@ -1810,7 +1936,7 @@
       },
       {
         "rank": 8,
-        "owner": "Tom",
+        "owner": "Tom Brown",
         "team": "Brown",
         "wins": 6,
         "losses": 7,
@@ -1819,7 +1945,7 @@
       },
       {
         "rank": 9,
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "team": "BroSwithZsameHoe",
         "wins": 4,
         "losses": 9,
@@ -1828,7 +1954,7 @@
       },
       {
         "rank": 10,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "Buttfumblers",
         "wins": 5,
         "losses": 8,
@@ -1837,7 +1963,7 @@
       },
       {
         "rank": 11,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "StartedFromDAbottom",
         "wins": 4,
         "losses": 9,
@@ -1846,7 +1972,7 @@
       },
       {
         "rank": 12,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "BlameObama",
         "wins": 3,
         "losses": 10,
@@ -1857,7 +1983,7 @@
     "2014": [
       {
         "rank": 1,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "DaMaryius Targaryen",
         "wins": 9,
         "losses": 4,
@@ -1866,7 +1992,7 @@
       },
       {
         "rank": 2,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Jeffrey Football",
         "wins": 9,
         "losses": 4,
@@ -1875,7 +2001,7 @@
       },
       {
         "rank": 3,
-        "owner": "Hidden2",
+        "owner": "Jake Barker",
         "team": "Jacob's Team",
         "wins": 6,
         "losses": 7,
@@ -1884,7 +2010,7 @@
       },
       {
         "rank": 4,
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "team": "THE TAMPA 2",
         "wins": 8,
         "losses": 5,
@@ -1893,7 +2019,7 @@
       },
       {
         "rank": 5,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHam N' Cheese",
         "wins": 8,
         "losses": 5,
@@ -1902,7 +2028,7 @@
       },
       {
         "rank": 6,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "Tears of Boston",
         "wins": 9,
         "losses": 4,
@@ -1911,7 +2037,7 @@
       },
       {
         "rank": 7,
-        "owner": "Tom",
+        "owner": "Tom Brown",
         "team": "Brown",
         "wins": 6,
         "losses": 7,
@@ -1920,7 +2046,7 @@
       },
       {
         "rank": 8,
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "team": "Titsburgh Feelers",
         "wins": 2,
         "losses": 11,
@@ -1929,7 +2055,7 @@
       },
       {
         "rank": 9,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "Genocologist",
         "wins": 6,
         "losses": 7,
@@ -1938,7 +2064,7 @@
       },
       {
         "rank": 10,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "Noodle Knee III",
         "wins": 5,
         "losses": 8,
@@ -1947,7 +2073,7 @@
       },
       {
         "rank": 11,
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "team": "BroSwithZsameHoe",
         "wins": 4,
         "losses": 9,
@@ -1956,7 +2082,7 @@
       },
       {
         "rank": 12,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "Ya-Ya Smalls",
         "wins": 6,
         "losses": 7,
@@ -1967,7 +2093,7 @@
     "2015": [
       {
         "rank": 1,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHam N' Cheese",
         "wins": 9,
         "losses": 4,
@@ -1976,7 +2102,7 @@
       },
       {
         "rank": 2,
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "team": "THE TAMPA 2",
         "wins": 10,
         "losses": 3,
@@ -1985,7 +2111,7 @@
       },
       {
         "rank": 3,
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "team": "Titsburgh Feelers",
         "wins": 7,
         "losses": 6,
@@ -1994,7 +2120,7 @@
       },
       {
         "rank": 4,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "D'Brick House",
         "wins": 9,
         "losses": 4,
@@ -2003,7 +2129,7 @@
       },
       {
         "rank": 5,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Upset City",
         "wins": 8,
         "losses": 5,
@@ -2012,7 +2138,7 @@
       },
       {
         "rank": 6,
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "team": "SingleBroFucknHoes",
         "wins": 7,
         "losses": 6,
@@ -2021,7 +2147,7 @@
       },
       {
         "rank": 7,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "Tears of Boston",
         "wins": 6,
         "losses": 7,
@@ -2030,7 +2156,7 @@
       },
       {
         "rank": 8,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "Who?..Matt Jones",
         "wins": 7,
         "losses": 6,
@@ -2039,7 +2165,7 @@
       },
       {
         "rank": 9,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Abdullah Oblongata",
         "wins": 3,
         "losses": 10,
@@ -2048,7 +2174,7 @@
       },
       {
         "rank": 10,
-        "owner": "Tom",
+        "owner": "Tom Brown",
         "team": "Brown",
         "wins": 2,
         "losses": 11,
@@ -2057,7 +2183,7 @@
       },
       {
         "rank": 11,
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "team": "AnnexationPuertoRico",
         "wins": 6,
         "losses": 7,
@@ -2066,7 +2192,7 @@
       },
       {
         "rank": 12,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "Finding Geno",
         "wins": 4,
         "losses": 9,
@@ -2077,7 +2203,7 @@
     "2016": [
       {
         "rank": 1,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "My Cousin Kirk",
         "wins": 8,
         "losses": 5,
@@ -2086,7 +2212,7 @@
       },
       {
         "rank": 2,
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "team": "Titsburgh Feelers",
         "wins": 7,
         "losses": 6,
@@ -2095,7 +2221,7 @@
       },
       {
         "rank": 3,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Boom Squad",
         "wins": 10,
         "losses": 3,
@@ -2104,7 +2230,7 @@
       },
       {
         "rank": 4,
-        "owner": "Chris",
+        "owner": "Chris Harjung",
         "team": "Team Romo",
         "wins": 8,
         "losses": 5,
@@ -2113,7 +2239,7 @@
       },
       {
         "rank": 5,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "Zeke-a Virus",
         "wins": 8,
         "losses": 5,
@@ -2122,7 +2248,7 @@
       },
       {
         "rank": 6,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Ya down with O.T.T",
         "wins": 7,
         "losses": 6,
@@ -2131,7 +2257,7 @@
       },
       {
         "rank": 7,
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "team": "AnnexationPuertoRico",
         "wins": 6,
         "losses": 7,
@@ -2140,7 +2266,7 @@
       },
       {
         "rank": 8,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "Fitzmagic",
         "wins": 7,
         "losses": 6,
@@ -2149,7 +2275,7 @@
       },
       {
         "rank": 9,
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "team": "THE TAMPA 2",
         "wins": 2,
         "losses": 11,
@@ -2158,7 +2284,7 @@
       },
       {
         "rank": 10,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "Watch the Throne \ud83d\udc40",
         "wins": 6,
         "losses": 7,
@@ -2167,7 +2293,7 @@
       },
       {
         "rank": 11,
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "team": "SingleBroFucknHoes",
         "wins": 6,
         "losses": 7,
@@ -2176,7 +2302,7 @@
       },
       {
         "rank": 12,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHam N' Cheese",
         "wins": 3,
         "losses": 10,
@@ -2187,7 +2313,7 @@
     "2017": [
       {
         "rank": 1,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "FIGJAM",
         "wins": 11,
         "losses": 2,
@@ -2196,7 +2322,7 @@
       },
       {
         "rank": 2,
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "team": "Flutie n da Blowfish",
         "wins": 8,
         "losses": 5,
@@ -2205,7 +2331,7 @@
       },
       {
         "rank": 3,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Ottoman Empire",
         "wins": 7,
         "losses": 6,
@@ -2214,7 +2340,7 @@
       },
       {
         "rank": 4,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Boom Squad",
         "wins": 10,
         "losses": 3,
@@ -2223,7 +2349,7 @@
       },
       {
         "rank": 5,
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "team": "SingleBroFucknHoes",
         "wins": 7,
         "losses": 6,
@@ -2232,7 +2358,7 @@
       },
       {
         "rank": 6,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "mCLOWN n HACKnberg",
         "wins": 9,
         "losses": 4,
@@ -2241,7 +2367,7 @@
       },
       {
         "rank": 7,
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "team": "Just-End-The-Season",
         "wins": 4,
         "losses": 9,
@@ -2250,7 +2376,7 @@
       },
       {
         "rank": 8,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "NE Clam Crowder",
         "wins": 5,
         "losses": 8,
@@ -2259,7 +2385,7 @@
       },
       {
         "rank": 9,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "Petes nOTT Good",
         "wins": 5,
         "losses": 8,
@@ -2268,7 +2394,7 @@
       },
       {
         "rank": 10,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHam N' Cheese",
         "wins": 4,
         "losses": 9,
@@ -2277,7 +2403,7 @@
       },
       {
         "rank": 11,
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "team": "Titsburgh Feelers",
         "wins": 4,
         "losses": 9,
@@ -2286,7 +2412,7 @@
       },
       {
         "rank": 12,
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "team": "THE TAMPA 2",
         "wins": 4,
         "losses": 9,
@@ -2297,7 +2423,7 @@
     "2018": [
       {
         "rank": 1,
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "team": "Titsburgh Feelers",
         "wins": 9,
         "losses": 4,
@@ -2306,7 +2432,7 @@
       },
       {
         "rank": 2,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "NE Clam Crowder",
         "wins": 7,
         "losses": 6,
@@ -2315,7 +2441,7 @@
       },
       {
         "rank": 3,
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "team": "Just-End-The-Season",
         "wins": 10,
         "losses": 3,
@@ -2324,7 +2450,7 @@
       },
       {
         "rank": 4,
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "team": "Who?ScottyKellz",
         "wins": 8,
         "losses": 5,
@@ -2333,7 +2459,7 @@
       },
       {
         "rank": 5,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "Hey dArnold!",
         "wins": 8,
         "losses": 5,
@@ -2342,7 +2468,7 @@
       },
       {
         "rank": 6,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Ottoman Empire",
         "wins": 9,
         "losses": 4,
@@ -2351,7 +2477,7 @@
       },
       {
         "rank": 7,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Boom Squad",
         "wins": 1,
         "losses": 12,
@@ -2360,7 +2486,7 @@
       },
       {
         "rank": 8,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHam N' Cheese",
         "wins": 5,
         "losses": 8,
@@ -2369,7 +2495,7 @@
       },
       {
         "rank": 9,
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "team": "THE TAMPA 2",
         "wins": 7,
         "losses": 6,
@@ -2378,7 +2504,7 @@
       },
       {
         "rank": 10,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "New Jack City",
         "wins": 7,
         "losses": 6,
@@ -2387,7 +2513,7 @@
       },
       {
         "rank": 11,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "FIGJAM",
         "wins": 2,
         "losses": 11,
@@ -2396,7 +2522,7 @@
       },
       {
         "rank": 12,
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "team": "Flutie n da Blowfish",
         "wins": 5,
         "losses": 8,
@@ -2407,7 +2533,7 @@
     "2019": [
       {
         "rank": 1,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Ottoman Empire",
         "wins": 7,
         "losses": 6,
@@ -2416,7 +2542,7 @@
       },
       {
         "rank": 2,
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "team": "Just-End-The-Season",
         "wins": 9,
         "losses": 4,
@@ -2425,7 +2551,7 @@
       },
       {
         "rank": 3,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "FIGJAM",
         "wins": 8,
         "losses": 5,
@@ -2434,7 +2560,7 @@
       },
       {
         "rank": 4,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Boom Squad",
         "wins": 10,
         "losses": 3,
@@ -2443,7 +2569,7 @@
       },
       {
         "rank": 5,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "Darn'old Jets",
         "wins": 8,
         "losses": 5,
@@ -2452,7 +2578,7 @@
       },
       {
         "rank": 6,
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "team": "Titsburgh Feelers",
         "wins": 8,
         "losses": 5,
@@ -2461,7 +2587,7 @@
       },
       {
         "rank": 7,
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "team": "THE TAMPA 2",
         "wins": 6,
         "losses": 7,
@@ -2470,7 +2596,7 @@
       },
       {
         "rank": 8,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "Got a Chubb-ie",
         "wins": 6,
         "losses": 7,
@@ -2479,7 +2605,7 @@
       },
       {
         "rank": 9,
-        "owner": "Scott",
+        "owner": "Scott Kellman",
         "team": "Who?ScottyKellz",
         "wins": 5,
         "losses": 8,
@@ -2488,7 +2614,7 @@
       },
       {
         "rank": 10,
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "team": "Flutie n da Blowfish",
         "wins": 6,
         "losses": 7,
@@ -2497,7 +2623,7 @@
       },
       {
         "rank": 11,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHam N' Cheese",
         "wins": 2,
         "losses": 11,
@@ -2506,7 +2632,7 @@
       },
       {
         "rank": 12,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "DC Janitah",
         "wins": 3,
         "losses": 10,
@@ -2517,7 +2643,7 @@
     "2020": [
       {
         "rank": 1,
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "team": "Flutie n da Blowfish",
         "wins": 10,
         "losses": 3,
@@ -2526,7 +2652,7 @@
       },
       {
         "rank": 2,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "Haskins N Robbins",
         "wins": 9,
         "losses": 4,
@@ -2535,7 +2661,7 @@
       },
       {
         "rank": 3,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "Green Jets & Sam",
         "wins": 7,
         "losses": 6,
@@ -2544,7 +2670,7 @@
       },
       {
         "rank": 4,
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "team": "Just-End-The-Season",
         "wins": 7,
         "losses": 6,
@@ -2553,7 +2679,7 @@
       },
       {
         "rank": 5,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHam N' Cheese",
         "wins": 8,
         "losses": 5,
@@ -2562,7 +2688,7 @@
       },
       {
         "rank": 6,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "Got a Chubb-ie",
         "wins": 8,
         "losses": 5,
@@ -2571,7 +2697,7 @@
       },
       {
         "rank": 7,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Boom Squad",
         "wins": 5,
         "losses": 8,
@@ -2580,7 +2706,7 @@
       },
       {
         "rank": 8,
-        "owner": "Tony",
+        "owner": "Tony Bevilaqua",
         "team": "Dow Jones iA 33",
         "wins": 5,
         "losses": 8,
@@ -2589,7 +2715,7 @@
       },
       {
         "rank": 9,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Ottoman Empire",
         "wins": 6,
         "losses": 7,
@@ -2598,7 +2724,7 @@
       },
       {
         "rank": 10,
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "team": "TRUMPDOZER",
         "wins": 6,
         "losses": 7,
@@ -2607,7 +2733,7 @@
       },
       {
         "rank": 11,
-        "owner": "Kevin2",
+        "owner": "Kevin Coppins",
         "team": "THE TAMPA 2",
         "wins": 5,
         "losses": 8,
@@ -2616,7 +2742,7 @@
       },
       {
         "rank": 12,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "Brolo&Cholo",
         "wins": 2,
         "losses": 11,
@@ -2627,7 +2753,7 @@
     "2021": [
       {
         "rank": 1,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "Stairway to Tevin",
         "wins": 9,
         "losses": 5,
@@ -2636,7 +2762,7 @@
       },
       {
         "rank": 2,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "NoCholoImSolo",
         "wins": 8,
         "losses": 6,
@@ -2645,7 +2771,7 @@
       },
       {
         "rank": 3,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Ottoman Empire",
         "wins": 11,
         "losses": 3,
@@ -2654,7 +2780,7 @@
       },
       {
         "rank": 4,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "Fitz n Chips",
         "wins": 8,
         "losses": 6,
@@ -2663,7 +2789,7 @@
       },
       {
         "rank": 5,
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "team": "Just-End-The-Season",
         "wins": 8,
         "losses": 6,
@@ -2672,7 +2798,7 @@
       },
       {
         "rank": 6,
-        "owner": "Tony",
+        "owner": "Tony Bevilaqua",
         "team": "Twas da nite Alvin ruined Xmas",
         "wins": 9,
         "losses": 5,
@@ -2681,7 +2807,7 @@
       },
       {
         "rank": 7,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Boom Squad",
         "wins": 5,
         "losses": 9,
@@ -2690,7 +2816,7 @@
       },
       {
         "rank": 8,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "Got a Chubb-ie",
         "wins": 6,
         "losses": 8,
@@ -2699,7 +2825,7 @@
       },
       {
         "rank": 9,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHam N' Cheese",
         "wins": 6,
         "losses": 8,
@@ -2717,7 +2843,7 @@
       },
       {
         "rank": 11,
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "team": "HurtInaCarr CallWilliamMattar",
         "wins": 5,
         "losses": 9,
@@ -2726,7 +2852,7 @@
       },
       {
         "rank": 12,
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "team": "PSquared*",
         "wins": 5,
         "losses": 9,
@@ -2737,7 +2863,7 @@
     "2022": [
       {
         "rank": 1,
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "team": "Flutie and the Blowfish",
         "wins": 10,
         "losses": 4,
@@ -2746,7 +2872,7 @@
       },
       {
         "rank": 2,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "Sauce'n on you",
         "wins": 8,
         "losses": 6,
@@ -2755,7 +2881,7 @@
       },
       {
         "rank": 3,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "The Hurts Locker",
         "wins": 7,
         "losses": 7,
@@ -2764,7 +2890,7 @@
       },
       {
         "rank": 4,
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "team": "Ex Sucks but my Younghoe Koo",
         "wins": 8,
         "losses": 6,
@@ -2773,7 +2899,7 @@
       },
       {
         "rank": 5,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Ottoman Empire",
         "wins": 7,
         "losses": 7,
@@ -2791,7 +2917,7 @@
       },
       {
         "rank": 7,
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "team": "Just-End-The-Season",
         "wins": 6,
         "losses": 8,
@@ -2800,7 +2926,7 @@
       },
       {
         "rank": 8,
-        "owner": "Tony",
+        "owner": "Tony Bevilaqua",
         "team": "Dow Jones I A 33",
         "wins": 6,
         "losses": 8,
@@ -2809,7 +2935,7 @@
       },
       {
         "rank": 9,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Boom Squad",
         "wins": 7,
         "losses": 7,
@@ -2818,7 +2944,7 @@
       },
       {
         "rank": 10,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "Got a Chubb-ie",
         "wins": 7,
         "losses": 7,
@@ -2827,7 +2953,7 @@
       },
       {
         "rank": 11,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "Ed Money May Be Right",
         "wins": 4,
         "losses": 10,
@@ -2836,7 +2962,7 @@
       },
       {
         "rank": 12,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHam N' Cheese",
         "wins": 6,
         "losses": 8,
@@ -2847,7 +2973,7 @@
     "2023": [
       {
         "rank": 1,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Ottoman Empire",
         "wins": 11,
         "losses": 3,
@@ -2856,7 +2982,7 @@
       },
       {
         "rank": 2,
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "team": "Just-End-The-Season",
         "wins": 10,
         "losses": 4,
@@ -2865,7 +2991,7 @@
       },
       {
         "rank": 3,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "James Conner Who?",
         "wins": 10,
         "losses": 4,
@@ -2874,7 +3000,7 @@
       },
       {
         "rank": 4,
-        "owner": "Tony",
+        "owner": "Tony Bevilaqua",
         "team": "Just-in Fields is HIM",
         "wins": 7,
         "losses": 7,
@@ -2883,7 +3009,7 @@
       },
       {
         "rank": 5,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "A Kill Lee\u2019s Tendon",
         "wins": 8,
         "losses": 6,
@@ -2892,7 +3018,7 @@
       },
       {
         "rank": 6,
-        "owner": "Steph",
+        "owner": "Steve Minardi",
         "team": "Hee Hee Rhamondra!",
         "wins": 7,
         "losses": 7,
@@ -2901,7 +3027,7 @@
       },
       {
         "rank": 7,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "HOWELLitzer TANK",
         "wins": 4,
         "losses": 10,
@@ -2910,7 +3036,7 @@
       },
       {
         "rank": 8,
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "team": "Flutie and the Blowfish",
         "wins": 6,
         "losses": 8,
@@ -2919,7 +3045,7 @@
       },
       {
         "rank": 9,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Boom Squad",
         "wins": 6,
         "losses": 8,
@@ -2928,7 +3054,7 @@
       },
       {
         "rank": 10,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "Rodgers Hurts",
         "wins": 6,
         "losses": 8,
@@ -2937,7 +3063,7 @@
       },
       {
         "rank": 11,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHam N' Cheese",
         "wins": 5,
         "losses": 9,
@@ -2957,7 +3083,7 @@
     "2024": [
       {
         "rank": 1,
-        "owner": "Tony",
+        "owner": "Tony Bevilaqua",
         "team": "FDIC Crew",
         "wins": 11,
         "losses": 3,
@@ -2966,7 +3092,7 @@
       },
       {
         "rank": 2,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHam N' Cheese",
         "wins": 9,
         "losses": 5,
@@ -2975,7 +3101,7 @@
       },
       {
         "rank": 3,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "Armed Rodgery",
         "wins": 9,
         "losses": 5,
@@ -2993,7 +3119,7 @@
       },
       {
         "rank": 5,
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "team": "Flutie and the Blowfish",
         "wins": 8,
         "losses": 6,
@@ -3002,7 +3128,7 @@
       },
       {
         "rank": 6,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "Deep Dish Flavor",
         "wins": 7,
         "losses": 7,
@@ -3011,7 +3137,7 @@
       },
       {
         "rank": 7,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "The Hibernators",
         "wins": 7,
         "losses": 7,
@@ -3020,7 +3146,7 @@
       },
       {
         "rank": 8,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Ottoman Empire",
         "wins": 7,
         "losses": 7,
@@ -3029,7 +3155,7 @@
       },
       {
         "rank": 9,
-        "owner": "Christopher",
+        "owner": "Christopher Hayes",
         "team": "Hayes Brigade",
         "wins": 5,
         "losses": 9,
@@ -3038,7 +3164,7 @@
       },
       {
         "rank": 10,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Boom Squad",
         "wins": 5,
         "losses": 9,
@@ -3047,7 +3173,7 @@
       },
       {
         "rank": 11,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "LaPorta Potty",
         "wins": 4,
         "losses": 10,
@@ -3056,7 +3182,7 @@
       },
       {
         "rank": 12,
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "team": "Just-End-The-Season",
         "wins": 4,
         "losses": 10,
@@ -3076,7 +3202,7 @@
       },
       {
         "rank": 2,
-        "owner": "Brian",
+        "owner": "Brian Marois",
         "team": "Flutie and the Blowfish",
         "wins": 10,
         "losses": 4,
@@ -3085,7 +3211,7 @@
       },
       {
         "rank": 3,
-        "owner": "Christopher",
+        "owner": "Christopher Hayes",
         "team": "Hayes Brigade",
         "wins": 8,
         "losses": 6,
@@ -3094,7 +3220,7 @@
       },
       {
         "rank": 4,
-        "owner": "Tony",
+        "owner": "Tony Bevilaqua",
         "team": "FDIC Crew",
         "wins": 9,
         "losses": 5,
@@ -3103,7 +3229,7 @@
       },
       {
         "rank": 5,
-        "owner": "Edward",
+        "owner": "Ed Shively",
         "team": "The Warren Brothers",
         "wins": 8,
         "losses": 6,
@@ -3112,7 +3238,7 @@
       },
       {
         "rank": 6,
-        "owner": "Kevin",
+        "owner": "Kevin Etwaroo",
         "team": "ManningHam N' Cheese",
         "wins": 7,
         "losses": 7,
@@ -3121,7 +3247,7 @@
       },
       {
         "rank": 7,
-        "owner": "Jeff",
+        "owner": "Jeff Lobdell",
         "team": "Boom Squad",
         "wins": 7,
         "losses": 7,
@@ -3130,7 +3256,7 @@
       },
       {
         "rank": 8,
-        "owner": "Mike",
+        "owner": "Malcolm Lapone",
         "team": "Just-End-The-Season",
         "wins": 4,
         "losses": 10,
@@ -3139,7 +3265,7 @@
       },
       {
         "rank": 9,
-        "owner": "Lee",
+        "owner": "Lee Bertram",
         "team": "Dr. Fields Good",
         "wins": 6,
         "losses": 8,
@@ -3148,7 +3274,7 @@
       },
       {
         "rank": 10,
-        "owner": "Chris D",
+        "owner": "Chris Dupay",
         "team": "Shambles",
         "wins": 3,
         "losses": 11,
@@ -3157,7 +3283,7 @@
       },
       {
         "rank": 11,
-        "owner": "Kenneth",
+        "owner": "Kenny Smith",
         "team": "Koo and the Gang",
         "wins": 6,
         "losses": 8,
@@ -3166,7 +3292,7 @@
       },
       {
         "rank": 12,
-        "owner": "Peter",
+        "owner": "Peter Ott",
         "team": "Ottoman Empire",
         "wins": 6,
         "losses": 8,

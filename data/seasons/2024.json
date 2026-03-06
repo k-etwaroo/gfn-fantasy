@@ -14,7 +14,7 @@
     {
       "team_key": "449.l.62560.t.5",
       "name": "FDIC Crew",
-      "owner": "Tony",
+      "owner": "Tony Bevilaqua",
       "guid": "ETCIM4DSHDIAJAKTR5AT6BFIWY",
       "rank": 1,
       "wins": 11,
@@ -27,7 +27,7 @@
     {
       "team_key": "449.l.62560.t.9",
       "name": "ManningHam N' Cheese",
-      "owner": "Kevin",
+      "owner": "Kevin Etwaroo",
       "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
       "rank": 2,
       "wins": 9,
@@ -40,7 +40,7 @@
     {
       "team_key": "449.l.62560.t.1",
       "name": "Armed Rodgery",
-      "owner": "Lee",
+      "owner": "Lee Bertram",
       "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
       "rank": 3,
       "wins": 9,
@@ -66,7 +66,7 @@
     {
       "team_key": "449.l.62560.t.11",
       "name": "Flutie and the Blowfish",
-      "owner": "Brian",
+      "owner": "Brian Marois",
       "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
       "rank": 5,
       "wins": 8,
@@ -79,7 +79,7 @@
     {
       "team_key": "449.l.62560.t.4",
       "name": "Deep Dish Flavor",
-      "owner": "Kenneth",
+      "owner": "Kenny Smith",
       "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
       "rank": 6,
       "wins": 7,
@@ -92,7 +92,7 @@
     {
       "team_key": "449.l.62560.t.6",
       "name": "The Hibernators",
-      "owner": "Edward",
+      "owner": "Ed Shively",
       "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
       "rank": 7,
       "wins": 7,
@@ -105,7 +105,7 @@
     {
       "team_key": "449.l.62560.t.3",
       "name": "Ottoman Empire",
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
       "rank": 8,
       "wins": 7,
@@ -118,7 +118,7 @@
     {
       "team_key": "449.l.62560.t.12",
       "name": "Hayes Brigade",
-      "owner": "Christopher",
+      "owner": "Christopher Hayes",
       "guid": "NB2LPJVUM4XNNPYQZC42NZUYNE",
       "rank": 9,
       "wins": 5,
@@ -131,7 +131,7 @@
     {
       "team_key": "449.l.62560.t.8",
       "name": "Boom Squad",
-      "owner": "Jeff",
+      "owner": "Jeff Lobdell",
       "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
       "rank": 10,
       "wins": 5,
@@ -144,7 +144,7 @@
     {
       "team_key": "449.l.62560.t.2",
       "name": "LaPorta Potty",
-      "owner": "Chris D",
+      "owner": "Chris Dupay",
       "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
       "rank": 11,
       "wins": 4,
@@ -157,7 +157,7 @@
     {
       "team_key": "449.l.62560.t.7",
       "name": "Just-End-The-Season",
-      "owner": "Mike",
+      "owner": "Malcolm Lapone",
       "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
       "rank": 12,
       "wins": 4,
@@ -176,13 +176,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 105.48
         },
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 108.0
         }
       ]
@@ -194,13 +194,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 93.45
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 81.11
         }
       ]
@@ -212,13 +212,13 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 124.05
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 124.76
         }
       ]
@@ -230,13 +230,13 @@
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 91.32
         },
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 125.15
         }
       ]
@@ -248,7 +248,7 @@
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 77.35
         },
         {
@@ -266,13 +266,13 @@
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 89.19
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 121.78
         }
       ]
@@ -284,13 +284,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 87.41
         },
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 86.06
         }
       ]
@@ -302,13 +302,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 142.57
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 126.38
         }
       ]
@@ -320,13 +320,13 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 111.96
         },
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 130.17
         }
       ]
@@ -338,7 +338,7 @@
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 114.84
         },
         {
@@ -356,13 +356,13 @@
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 112.8
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 112.53
         }
       ]
@@ -374,13 +374,13 @@
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 86.27
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 126.24
         }
       ]
@@ -392,13 +392,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 138.97
         },
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 123.06
         }
       ]
@@ -410,13 +410,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 73.23
         },
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 84.35
         }
       ]
@@ -428,13 +428,13 @@
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 129.95
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 132.76
         }
       ]
@@ -446,13 +446,13 @@
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 76.89
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 112.31
         }
       ]
@@ -464,13 +464,13 @@
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 81.33
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 101.97
         }
       ]
@@ -482,7 +482,7 @@
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 108.81
         },
         {
@@ -500,13 +500,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 117.8
         },
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 125.17
         }
       ]
@@ -518,13 +518,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 91.76
         },
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 115.97
         }
       ]
@@ -536,7 +536,7 @@
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 88.33
         },
         {
@@ -554,13 +554,13 @@
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 114.49
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 101.08
         }
       ]
@@ -572,13 +572,13 @@
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 105.62
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 132.38
         }
       ]
@@ -590,13 +590,13 @@
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 95.09
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 105.91
         }
       ]
@@ -608,7 +608,7 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 90.51
         },
         {
@@ -626,13 +626,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 121.18
         },
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 128.55
         }
       ]
@@ -644,13 +644,13 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 98.28
         },
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 99.36
         }
       ]
@@ -662,13 +662,13 @@
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 132.73
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 90.5
         }
       ]
@@ -680,13 +680,13 @@
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 109.11
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 104.84
         }
       ]
@@ -698,13 +698,13 @@
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 130.59
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 138.18
         }
       ]
@@ -716,13 +716,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 114.15
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 136.72
         }
       ]
@@ -734,13 +734,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 103.42
         },
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 135.78
         }
       ]
@@ -752,7 +752,7 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 127.1
         },
         {
@@ -770,13 +770,13 @@
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 130.32
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 114.64
         }
       ]
@@ -788,13 +788,13 @@
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 135.06
         },
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 78.85
         }
       ]
@@ -806,13 +806,13 @@
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 107.32
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 86.48
         }
       ]
@@ -824,13 +824,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 89.6
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 86.12
         }
       ]
@@ -842,13 +842,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 91.27
         },
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 131.11
         }
       ]
@@ -860,13 +860,13 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 118.63
         },
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 88.27
         }
       ]
@@ -878,13 +878,13 @@
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 83.26
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 84.54
         }
       ]
@@ -896,13 +896,13 @@
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 120.49
         },
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 117.48
         }
       ]
@@ -920,7 +920,7 @@
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 110.72
         }
       ]
@@ -932,13 +932,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 110.99
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 133.15
         }
       ]
@@ -950,13 +950,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 99.57
         },
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 105.39
         }
       ]
@@ -968,13 +968,13 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 125.3
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 108.0
         }
       ]
@@ -986,13 +986,13 @@
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 150.54
         },
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 136.77
         }
       ]
@@ -1004,13 +1004,13 @@
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 96.99
         },
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 122.94
         }
       ]
@@ -1028,7 +1028,7 @@
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 98.43
         }
       ]
@@ -1040,13 +1040,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 130.58
         },
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 100.84
         }
       ]
@@ -1058,13 +1058,13 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 100.59
         },
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 122.73
         }
       ]
@@ -1076,13 +1076,13 @@
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 107.41
         },
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 89.36
         }
       ]
@@ -1094,13 +1094,13 @@
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 126.53
         },
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 103.47
         }
       ]
@@ -1112,7 +1112,7 @@
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 123.49
         },
         {
@@ -1130,13 +1130,13 @@
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 129.22
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 126.7
         }
       ]
@@ -1148,13 +1148,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 136.73
         },
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 93.62
         }
       ]
@@ -1166,7 +1166,7 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 103.49
         },
         {
@@ -1184,13 +1184,13 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 91.0
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 131.42
         }
       ]
@@ -1202,13 +1202,13 @@
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 76.33
         },
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 84.71
         }
       ]
@@ -1220,13 +1220,13 @@
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 107.01
         },
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 154.75
         }
       ]
@@ -1238,13 +1238,13 @@
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 88.23
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 83.85
         }
       ]
@@ -1256,13 +1256,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 128.08
         },
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 78.77
         }
       ]
@@ -1274,13 +1274,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 123.02
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 156.91
         }
       ]
@@ -1292,13 +1292,13 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 125.34
         },
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 79.08
         }
       ]
@@ -1310,13 +1310,13 @@
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 149.03
         },
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 154.61
         }
       ]
@@ -1328,7 +1328,7 @@
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 149.29
         },
         {
@@ -1346,13 +1346,13 @@
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 102.96
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 90.07
         }
       ]
@@ -1364,13 +1364,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 117.61
         },
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 114.24
         }
       ]
@@ -1382,13 +1382,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 75.47
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 125.45
         }
       ]
@@ -1400,13 +1400,13 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 128.28
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 97.28
         }
       ]
@@ -1418,13 +1418,13 @@
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 145.7
         },
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 114.68
         }
       ]
@@ -1436,7 +1436,7 @@
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 99.61
         },
         {
@@ -1454,13 +1454,13 @@
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 109.16
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 91.26
         }
       ]
@@ -1472,13 +1472,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 145.77
         },
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 113.2
         }
       ]
@@ -1490,13 +1490,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 118.96
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 82.88
         }
       ]
@@ -1508,13 +1508,13 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 76.68
         },
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 116.14
         }
       ]
@@ -1526,7 +1526,7 @@
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 132.79
         },
         {
@@ -1544,13 +1544,13 @@
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 143.37
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 85.95
         }
       ]
@@ -1562,13 +1562,13 @@
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 101.83
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 133.06
         }
       ]
@@ -1580,13 +1580,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 183.61
         },
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 66.61
         }
       ]
@@ -1598,13 +1598,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 112.21
         },
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 107.57
         }
       ]
@@ -1616,13 +1616,13 @@
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 111.55
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 97.33
         }
       ]
@@ -1634,13 +1634,13 @@
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 117.65
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 156.84
         }
       ]
@@ -1652,13 +1652,13 @@
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 107.48
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 121.04
         }
       ]
@@ -1670,7 +1670,7 @@
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 109.62
         },
         {
@@ -1688,13 +1688,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 134.33
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 156.13
         }
       ]
@@ -1706,13 +1706,13 @@
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 103.89
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 116.97
         }
       ]
@@ -1724,13 +1724,13 @@
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 93.15
         },
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 104.95
         }
       ]
@@ -1748,7 +1748,7 @@
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 95.84
         }
       ]
@@ -1760,13 +1760,13 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 95.18
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 134.74
         }
       ]
@@ -1778,13 +1778,13 @@
         {
           "team_key": "449.l.62560.t.2",
           "name": "LaPorta Potty",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 103.51
         },
         {
           "team_key": "449.l.62560.t.7",
           "name": "Just-End-The-Season",
-          "owner": "Mike",
+          "owner": "Malcolm Lapone",
           "points": 87.53
         }
       ]
@@ -1796,13 +1796,13 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 144.29
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 117.36
         }
       ]
@@ -1814,13 +1814,13 @@
         {
           "team_key": "449.l.62560.t.4",
           "name": "Deep Dish Flavor",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 122.07
         },
         {
           "team_key": "449.l.62560.t.11",
           "name": "Flutie and the Blowfish",
-          "owner": "Brian",
+          "owner": "Brian Marois",
           "points": 147.63
         }
       ]
@@ -1832,7 +1832,7 @@
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 147.14
         },
         {
@@ -1850,13 +1850,13 @@
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 143.59
         },
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 114.06
         }
       ]
@@ -1868,7 +1868,7 @@
         {
           "team_key": "449.l.62560.t.1",
           "name": "Armed Rodgery",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 149.05
         },
         {
@@ -1886,13 +1886,13 @@
         {
           "team_key": "449.l.62560.t.3",
           "name": "Ottoman Empire",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 98.93
         },
         {
           "team_key": "449.l.62560.t.6",
           "name": "The Hibernators",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 122.15
         }
       ]
@@ -1904,13 +1904,13 @@
         {
           "team_key": "449.l.62560.t.5",
           "name": "FDIC Crew",
-          "owner": "Tony",
+          "owner": "Tony Bevilaqua",
           "points": 157.16
         },
         {
           "team_key": "449.l.62560.t.9",
           "name": "ManningHam N' Cheese",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 113.65
         }
       ]
@@ -1922,13 +1922,13 @@
         {
           "team_key": "449.l.62560.t.8",
           "name": "Boom Squad",
-          "owner": "Jeff",
+          "owner": "Jeff Lobdell",
           "points": 109.95
         },
         {
           "team_key": "449.l.62560.t.12",
           "name": "Hayes Brigade",
-          "owner": "Christopher",
+          "owner": "Christopher Hayes",
           "points": 140.61
         }
       ]

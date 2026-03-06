@@ -14,7 +14,7 @@
     {
       "team_key": "314.l.214310.t.2",
       "name": "Kaep N Krunch",
-      "owner": "Peter",
+      "owner": "Peter Ott",
       "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
       "rank": 1,
       "wins": 7,
@@ -27,7 +27,7 @@
     {
       "team_key": "314.l.214310.t.12",
       "name": "Titsburgh Feelers",
-      "owner": "Steph",
+      "owner": "Steve Minardi",
       "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
       "rank": 2,
       "wins": 9,
@@ -40,7 +40,7 @@
     {
       "team_key": "314.l.214310.t.3",
       "name": "Gang Green",
-      "owner": "Chris D",
+      "owner": "Chris Dupay",
       "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
       "rank": 3,
       "wins": 9,
@@ -53,7 +53,7 @@
     {
       "team_key": "314.l.214310.t.4",
       "name": "No LUCK Needed 4 RG3",
-      "owner": "Edward",
+      "owner": "Ed Shively",
       "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
       "rank": 4,
       "wins": 8,
@@ -66,7 +66,7 @@
     {
       "team_key": "314.l.214310.t.9",
       "name": "Jacob's Team",
-      "owner": "Hidden2",
+      "owner": "Jake Barker",
       "guid": "--",
       "rank": 5,
       "wins": 8,
@@ -79,7 +79,7 @@
     {
       "team_key": "314.l.214310.t.7",
       "name": "THE TAMPA 2",
-      "owner": "Kevin2",
+      "owner": "Kevin Coppins",
       "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
       "rank": 6,
       "wins": 9,
@@ -92,7 +92,7 @@
     {
       "team_key": "314.l.214310.t.11",
       "name": "Stop Drop N Rolle",
-      "owner": "Tim",
+      "owner": "Tim Flaherty",
       "guid": "BFY67B6XCNFKOAE4ZPJ2PI6NUM",
       "rank": 7,
       "wins": 6,
@@ -105,7 +105,7 @@
     {
       "team_key": "314.l.214310.t.8",
       "name": "Brown",
-      "owner": "Tom",
+      "owner": "Tom Brown",
       "guid": "WVV244VHQOZLXAW3V7XTH7IVXA",
       "rank": 8,
       "wins": 6,
@@ -118,7 +118,7 @@
     {
       "team_key": "314.l.214310.t.6",
       "name": "BroSwithZsameHoe",
-      "owner": "Scott",
+      "owner": "Scott Kellman",
       "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
       "rank": 9,
       "wins": 4,
@@ -131,7 +131,7 @@
     {
       "team_key": "314.l.214310.t.1",
       "name": "Buttfumblers",
-      "owner": "Lee",
+      "owner": "Lee Bertram",
       "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
       "rank": 10,
       "wins": 5,
@@ -144,7 +144,7 @@
     {
       "team_key": "314.l.214310.t.5",
       "name": "StartedFromDAbottom",
-      "owner": "Kevin",
+      "owner": "Kevin Etwaroo",
       "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
       "rank": 11,
       "wins": 4,
@@ -157,7 +157,7 @@
     {
       "team_key": "314.l.214310.t.10",
       "name": "BlameObama",
-      "owner": "Kenneth",
+      "owner": "Kenny Smith",
       "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
       "rank": 12,
       "wins": 3,
@@ -176,13 +176,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 145.06
         },
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 114.38
         }
       ]
@@ -194,13 +194,13 @@
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 136.93
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 113.8
         }
       ]
@@ -212,13 +212,13 @@
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 160.18
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 131.27
         }
       ]
@@ -230,13 +230,13 @@
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 102.65
         },
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 173.82
         }
       ]
@@ -248,13 +248,13 @@
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 104.86
         },
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 162.97
         }
       ]
@@ -266,13 +266,13 @@
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 143.93
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 112.17
         }
       ]
@@ -284,13 +284,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 114.85
         },
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 134.83
         }
       ]
@@ -302,13 +302,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 153.78
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 131.62
         }
       ]
@@ -320,13 +320,13 @@
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 113.18
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 109.78
         }
       ]
@@ -338,13 +338,13 @@
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 115.46
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 130.9
         }
       ]
@@ -356,13 +356,13 @@
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 119.66
         },
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 116.1
         }
       ]
@@ -374,13 +374,13 @@
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 151.97
         },
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 130.92
         }
       ]
@@ -392,13 +392,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 112.69
         },
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 127.12
         }
       ]
@@ -410,13 +410,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 140.45
         },
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 103.46
         }
       ]
@@ -428,13 +428,13 @@
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 94.92
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 121.48
         }
       ]
@@ -446,13 +446,13 @@
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 104.54
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 98.56
         }
       ]
@@ -464,13 +464,13 @@
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 100.4
         },
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 97.05
         }
       ]
@@ -482,13 +482,13 @@
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 137.19
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 148.35
         }
       ]
@@ -500,13 +500,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 103.38
         },
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 136.85
         }
       ]
@@ -518,13 +518,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 126.28
         },
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 163.17
         }
       ]
@@ -536,13 +536,13 @@
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 155.48
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 135.39
         }
       ]
@@ -554,13 +554,13 @@
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 139.49
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 139.07
         }
       ]
@@ -572,13 +572,13 @@
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 152.63
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 135.39
         }
       ]
@@ -590,13 +590,13 @@
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 103.57
         },
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 116.04
         }
       ]
@@ -608,13 +608,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 160.31
         },
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 101.16
         }
       ]
@@ -626,13 +626,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 146.37
         },
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 114.77
         }
       ]
@@ -644,13 +644,13 @@
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 125.06
         },
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 93.62
         }
       ]
@@ -662,13 +662,13 @@
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 110.73
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 142.65
         }
       ]
@@ -680,13 +680,13 @@
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 115.75
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 88.41
         }
       ]
@@ -698,13 +698,13 @@
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 122.58
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 158.29
         }
       ]
@@ -716,13 +716,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 89.79
         },
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 146.77
         }
       ]
@@ -734,13 +734,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 75.83
         },
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 75.52
         }
       ]
@@ -752,13 +752,13 @@
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 110.7
         },
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 126.78
         }
       ]
@@ -770,13 +770,13 @@
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 121.49
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 123.25
         }
       ]
@@ -788,13 +788,13 @@
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 106.88
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 94.13
         }
       ]
@@ -806,13 +806,13 @@
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 167.66
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 110.85
         }
       ]
@@ -824,13 +824,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 120.12
         },
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 122.32
         }
       ]
@@ -842,13 +842,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 108.26
         },
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 126.33
         }
       ]
@@ -860,13 +860,13 @@
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 106.29
         },
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 138.97
         }
       ]
@@ -878,13 +878,13 @@
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 115.5
         },
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 100.06
         }
       ]
@@ -896,13 +896,13 @@
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 95.02
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 120.3
         }
       ]
@@ -914,13 +914,13 @@
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 115.85
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 157.73
         }
       ]
@@ -932,13 +932,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 90.73
         },
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 145.19
         }
       ]
@@ -950,13 +950,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 96.01
         },
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 57.9
         }
       ]
@@ -968,13 +968,13 @@
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 126.61
         },
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 95.22
         }
       ]
@@ -986,13 +986,13 @@
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 145.38
         },
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 102.99
         }
       ]
@@ -1004,13 +1004,13 @@
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 142.79
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 198.79
         }
       ]
@@ -1022,13 +1022,13 @@
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 93.75
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 116.96
         }
       ]
@@ -1040,13 +1040,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 117.59
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 92.18
         }
       ]
@@ -1058,13 +1058,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 134.1
         },
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 132.09
         }
       ]
@@ -1076,13 +1076,13 @@
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 135.82
         },
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 79.69
         }
       ]
@@ -1094,13 +1094,13 @@
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 148.98
         },
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 94.32
         }
       ]
@@ -1112,13 +1112,13 @@
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 133.66
         },
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 118.16
         }
       ]
@@ -1130,13 +1130,13 @@
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 109.98
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 154.68
         }
       ]
@@ -1148,13 +1148,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 117.14
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 104.03
         }
       ]
@@ -1166,13 +1166,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 103.3
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 111.99
         }
       ]
@@ -1184,13 +1184,13 @@
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 84.0
         },
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 108.47
         }
       ]
@@ -1202,13 +1202,13 @@
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 203.78
         },
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 100.32
         }
       ]
@@ -1220,13 +1220,13 @@
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 112.01
         },
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 117.01
         }
       ]
@@ -1238,13 +1238,13 @@
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 90.68
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 120.02
         }
       ]
@@ -1256,13 +1256,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 113.61
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 149.92
         }
       ]
@@ -1274,13 +1274,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 89.27
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 96.95
         }
       ]
@@ -1292,13 +1292,13 @@
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 132.13
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 104.31
         }
       ]
@@ -1310,13 +1310,13 @@
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 94.6
         },
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 152.62
         }
       ]
@@ -1328,13 +1328,13 @@
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 98.61
         },
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 118.68
         }
       ]
@@ -1346,13 +1346,13 @@
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 141.42
         },
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 147.48
         }
       ]
@@ -1364,13 +1364,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 128.62
         },
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 83.4
         }
       ]
@@ -1382,13 +1382,13 @@
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 142.9
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 134.02
         }
       ]
@@ -1400,13 +1400,13 @@
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 119.67
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 135.61
         }
       ]
@@ -1418,13 +1418,13 @@
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 124.11
         },
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 140.36
         }
       ]
@@ -1436,13 +1436,13 @@
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 83.58
         },
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 103.37
         }
       ]
@@ -1454,13 +1454,13 @@
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 100.53
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 129.91
         }
       ]
@@ -1472,13 +1472,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 86.45
         },
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 124.72
         }
       ]
@@ -1490,13 +1490,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 168.17
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 147.75
         }
       ]
@@ -1508,13 +1508,13 @@
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 114.53
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 116.34
         }
       ]
@@ -1526,13 +1526,13 @@
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 190.97
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 136.18
         }
       ]
@@ -1544,13 +1544,13 @@
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 116.78
         },
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 149.99
         }
       ]
@@ -1562,13 +1562,13 @@
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 89.95
         },
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 86.25
         }
       ]
@@ -1580,13 +1580,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 132.42
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 116.21
         }
       ]
@@ -1598,13 +1598,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 138.53
         },
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 99.69
         }
       ]
@@ -1616,13 +1616,13 @@
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 186.42
         },
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 134.07
         }
       ]
@@ -1634,13 +1634,13 @@
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 93.25
         },
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 124.66
         }
       ]
@@ -1652,13 +1652,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 114.75
         },
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 119.8
         }
       ]
@@ -1670,13 +1670,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 116.01
         },
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 115.05
         }
       ]
@@ -1688,13 +1688,13 @@
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 119.37
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 132.07
         }
       ]
@@ -1706,13 +1706,13 @@
         {
           "team_key": "314.l.214310.t.5",
           "name": "StartedFromDAbottom",
-          "owner": "Kevin",
+          "owner": "Kevin Etwaroo",
           "points": 142.22
         },
         {
           "team_key": "314.l.214310.t.10",
           "name": "BlameObama",
-          "owner": "Kenneth",
+          "owner": "Kenny Smith",
           "points": 114.19
         }
       ]
@@ -1724,13 +1724,13 @@
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 128.17
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 161.58
         }
       ]
@@ -1742,13 +1742,13 @@
         {
           "team_key": "314.l.214310.t.7",
           "name": "THE TAMPA 2",
-          "owner": "Kevin2",
+          "owner": "Kevin Coppins",
           "points": 96.8
         },
         {
           "team_key": "314.l.214310.t.9",
           "name": "Jacob's Team",
-          "owner": "Hidden2",
+          "owner": "Jake Barker",
           "points": 173.54
         }
       ]
@@ -1760,13 +1760,13 @@
         {
           "team_key": "314.l.214310.t.1",
           "name": "Buttfumblers",
-          "owner": "Lee",
+          "owner": "Lee Bertram",
           "points": 83.5
         },
         {
           "team_key": "314.l.214310.t.6",
           "name": "BroSwithZsameHoe",
-          "owner": "Scott",
+          "owner": "Scott Kellman",
           "points": 91.8
         }
       ]
@@ -1778,13 +1778,13 @@
         {
           "team_key": "314.l.214310.t.2",
           "name": "Kaep N Krunch",
-          "owner": "Peter",
+          "owner": "Peter Ott",
           "points": 145.15
         },
         {
           "team_key": "314.l.214310.t.12",
           "name": "Titsburgh Feelers",
-          "owner": "Steph",
+          "owner": "Steve Minardi",
           "points": 100.14
         }
       ]
@@ -1796,13 +1796,13 @@
         {
           "team_key": "314.l.214310.t.3",
           "name": "Gang Green",
-          "owner": "Chris D",
+          "owner": "Chris Dupay",
           "points": 136.28
         },
         {
           "team_key": "314.l.214310.t.4",
           "name": "No LUCK Needed 4 RG3",
-          "owner": "Edward",
+          "owner": "Ed Shively",
           "points": 125.89
         }
       ]
@@ -1814,13 +1814,13 @@
         {
           "team_key": "314.l.214310.t.8",
           "name": "Brown",
-          "owner": "Tom",
+          "owner": "Tom Brown",
           "points": 92.39
         },
         {
           "team_key": "314.l.214310.t.11",
           "name": "Stop Drop N Rolle",
-          "owner": "Tim",
+          "owner": "Tim Flaherty",
           "points": 111.4
         }
       ]
