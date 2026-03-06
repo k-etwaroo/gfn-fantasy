@@ -637,7 +637,37 @@
   <button onclick="showSection('cost', this)">Cost Sheet</button>
 </nav>
 
-<main>
+<div id="loadingOverlay" style="
+  position:fixed; inset:0; z-index:100;
+  background:var(--dark);
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:1rem;
+">
+  <div style="
+    font-family:'Bebas Neue',sans-serif; font-size:3rem;
+    color:var(--gold); letter-spacing:4px;
+    text-shadow:0 0 30px rgba(212,175,55,0.4);
+  ">GFN</div>
+  <div style="
+    width:120px; height:3px; background:rgba(212,175,55,0.15); border-radius:0; overflow:hidden;
+  ">
+    <div id="loadingBar" style="
+      height:100%; width:0%; background:var(--gold);
+      animation:loadSlide 1.2s ease-in-out infinite;
+    "></div>
+  </div>
+  <div style="font-family:'Barlow Condensed',sans-serif; font-size:0.75rem; letter-spacing:3px; color:var(--text-dim);">LOADING DATA</div>
+</div>
+
+<style>
+@keyframes loadSlide {
+  0%   { width:0%;   margin-left:0%; }
+  50%  { width:60%;  margin-left:20%; }
+  100% { width:0%;   margin-left:100%; }
+}
+</style>
+
+<main style="display:none;" id="mainContent">
 
   <!-- DASHBOARD -->
   <div class="section active" id="dashboard">
@@ -899,6 +929,10 @@
 </main>
 
 <script>
+function showApp() {
+  document.getElementById('loadingOverlay').style.display = 'none';
+  document.getElementById('mainContent').style.display = 'block';
+}
 // ====== RENDER FUNCTIONS ======
 
 function buildChampChart(champions) {
@@ -936,9 +970,60 @@ function buildChampRoll(champions) {
   });
 }
 
+let _recordsManagers = [];
+let _recordsSortKey = 'titles';
+let _recordsSortDir = -1;
+
+const _recordsKeyMap = [null, 'name', 'w', 'l', 'winpct', 'ppg', 'titles', 'playoffs'];
+
 function buildRecordsTable(managers) {
+  _recordsManagers = managers;
+
+  const ths = document.querySelectorAll('#records table thead th');
+  _recordsKeyMap.forEach((key, i) => {
+    if (!key) return;
+    ths[i].style.cursor = 'pointer';
+    ths[i].style.userSelect = 'none';
+    ths[i].onclick = () => {
+      if (_recordsSortKey === key) {
+        _recordsSortDir *= -1;
+      } else {
+        _recordsSortKey = key;
+        _recordsSortDir = -1;
+      }
+      renderRecordsTable();
+    };
+  });
+
+  renderRecordsTable();
+}
+
+function renderRecordsTable() {
   const tb = document.getElementById('recordsTable');
-  [...managers].sort((a,b) => (b.w/(b.w+b.l)) - (a.w/(a.w+a.l))).forEach((m, i) => {
+  tb.innerHTML = '';
+
+  const ths = document.querySelectorAll('#records table thead th');
+  _recordsKeyMap.forEach((key, i) => {
+    if (!key) return;
+    const base = ths[i].textContent.replace(/\s[▲▼]$/, '');
+    ths[i].textContent = key === _recordsSortKey ? base + (_recordsSortDir === -1 ? ' ▼' : ' ▲') : base;
+  });
+
+  const val = (m, key) => {
+    if (key === 'winpct') return m.w / (m.w + m.l);
+    if (key === 'ppg') return parseFloat(m.ppg);
+    return m[key];
+  };
+
+  const sorted = [..._recordsManagers].sort((a, b) => {
+    const av = val(a, _recordsSortKey), bv = val(b, _recordsSortKey);
+    if (av !== bv) return av < bv ? _recordsSortDir : -_recordsSortDir;
+    // tiebreaker: titles desc, then win %
+    if (_recordsSortKey !== 'titles' && a.titles !== b.titles) return b.titles - a.titles;
+    return (b.w / (b.w + b.l)) - (a.w / (a.w + a.l));
+  });
+
+  sorted.forEach((m, i) => {
     const pct = (m.w / (m.w + m.l) * 100).toFixed(1);
     tb.innerHTML += `
       <tr>
@@ -1224,9 +1309,14 @@ fetch('data/dashboard_data.json')
     buildPowerAllTime();
     buildPeakRanks();
     buildCostSheet(managers);
+    showApp();
   })
   .catch(err => {
     console.error('Failed to load dashboard data:', err);
+    document.getElementById('loadingOverlay').innerHTML = `
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:#e74c3c;letter-spacing:3px;">LOAD ERROR</div>
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;letter-spacing:2px;color:var(--text-dim);">Could not load dashboard_data.json</div>
+    `;
   });
 </script>
 </body>
