@@ -1,0 +1,1829 @@
+{
+  "year": 2020,
+  "meta": {
+    "year": 2020,
+    "league_key": "399.l.596553",
+    "name": "GFN - The DECENNIAL Szn",
+    "num_teams": 12,
+    "current_week": "16",
+    "start_week": "1",
+    "end_week": "16",
+    "playoff_start": null
+  },
+  "standings": [
+    {
+      "team_key": "399.l.596553.t.4",
+      "name": "Flutie n da Blowfish",
+      "owner": "Brian",
+      "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
+      "rank": 1,
+      "wins": 10,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 1631.94,
+      "points_against": 1481.43,
+      "playoff_seed": "1"
+    },
+    {
+      "team_key": "399.l.596553.t.7",
+      "name": "Haskins N Robbins",
+      "owner": "Edward",
+      "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+      "rank": 2,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1562.71,
+      "points_against": 1432.85,
+      "playoff_seed": "2"
+    },
+    {
+      "team_key": "399.l.596553.t.1",
+      "name": "Green Jets & Sam",
+      "owner": "Lee",
+      "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+      "rank": 3,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1551.0,
+      "points_against": 1513.7499999999998,
+      "playoff_seed": "5"
+    },
+    {
+      "team_key": "399.l.596553.t.5",
+      "name": "Just-End-The-Season",
+      "owner": "Mike",
+      "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+      "rank": 4,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1532.5,
+      "points_against": 1503.26,
+      "playoff_seed": "6"
+    },
+    {
+      "team_key": "399.l.596553.t.6",
+      "name": "ManningHam N' Cheese",
+      "owner": "Kevin",
+      "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+      "rank": 5,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1435.84,
+      "points_against": 1511.7999999999997,
+      "playoff_seed": "4"
+    },
+    {
+      "team_key": "399.l.596553.t.9",
+      "name": "Got a Chubb-ie",
+      "owner": "Chris D",
+      "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+      "rank": 6,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1546.02,
+      "points_against": 1361.69,
+      "playoff_seed": "3"
+    },
+    {
+      "team_key": "399.l.596553.t.2",
+      "name": "Boom Squad",
+      "owner": "Jeff",
+      "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+      "rank": 7,
+      "wins": 5,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1457.68,
+      "points_against": 1475.7399999999998,
+      "playoff_seed": "10"
+    },
+    {
+      "team_key": "399.l.596553.t.10",
+      "name": "Dow Jones iA 33",
+      "owner": "Tony",
+      "guid": "ETCIM4DSHDIAJAKTR5AT6BFIWY",
+      "rank": 8,
+      "wins": 5,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1579.24,
+      "points_against": 1639.8200000000002,
+      "playoff_seed": "9"
+    },
+    {
+      "team_key": "399.l.596553.t.8",
+      "name": "Ottoman Empire",
+      "owner": "Peter",
+      "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+      "rank": 9,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1535.7,
+      "points_against": 1496.87,
+      "playoff_seed": "8"
+    },
+    {
+      "team_key": "399.l.596553.t.12",
+      "name": "TRUMPDOZER",
+      "owner": "Steph",
+      "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+      "rank": 10,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1539.25,
+      "points_against": 1529.0,
+      "playoff_seed": "7"
+    },
+    {
+      "team_key": "399.l.596553.t.11",
+      "name": "THE TAMPA 2",
+      "owner": "Kevin2",
+      "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
+      "rank": 11,
+      "wins": 5,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1434.25,
+      "points_against": 1669.4099999999999,
+      "playoff_seed": "11"
+    },
+    {
+      "team_key": "399.l.596553.t.3",
+      "name": "Brolo&Cholo",
+      "owner": "Kenneth",
+      "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+      "rank": 12,
+      "wins": 2,
+      "losses": 11,
+      "ties": 0,
+      "points_for": 1331.66,
+      "points_against": 1522.17,
+      "playoff_seed": "12"
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 125.26
+        },
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 113.91
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 101.34
+        },
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 120.72
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 87.23
+        },
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 102.8
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 133.61
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 132.2
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 122.82
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 108.31
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 123.4
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 127.52
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 152.01
+        },
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 128.13
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 148.32
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 175.31
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 115.18
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 138.27
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 78.0
+        },
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 117.35
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 134.63
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 140.57
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 122.1
+        },
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 115.58
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 126.15
+        },
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 117.9
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 148.06
+        },
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 102.07
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 129.16
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 127.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 133.92
+        },
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 131.63
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 98.41
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 139.02
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 154.1
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 110.14
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 109.52
+        },
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 129.33
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 137.73
+        },
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 101.52
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 132.5
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 104.41
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 86.92
+        },
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 99.86
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 102.03
+        },
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 115.47
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 134.57
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 201.69
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 100.42
+        },
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 99.26
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 77.54
+        },
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 112.5
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 133.8
+        },
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 138.55
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 155.64
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 131.67
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 127.58
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 103.34
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 123.82
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 111.63
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 103.67
+        },
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 122.32
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 84.24
+        },
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 107.26
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 96.47
+        },
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 118.54
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 108.45
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 153.02
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 138.7
+        },
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 97.56
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 79.52
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 96.75
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 142.27
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 104.48
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 120.9
+        },
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 109.12
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 149.24
+        },
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 124.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 116.11
+        },
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 98.74
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 154.6
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 135.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 132.9
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 50.3
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 137.12
+        },
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 106.47
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 116.69
+        },
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 53.35
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 114.02
+        },
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 115.96
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 115.16
+        },
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 101.27
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 103.57
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 104.84
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 101.09
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 103.09
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 121.78
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 92.67
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 116.72
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 100.18
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 106.87
+        },
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 115.65
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 102.83
+        },
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 108.14
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 132.44
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 139.18
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 126.32
+        },
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 85.51
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 80.77
+        },
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 113.93
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 92.03
+        },
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 117.14
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 76.23
+        },
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 124.27
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 124.07
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 118.69
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 142.07
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 76.34
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 112.68
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 87.55
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 112.22
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 120.27
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 87.77
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 126.06
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 92.42
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 134.02
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 133.44
+        },
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 106.52
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 127.02
+        },
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 85.94
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 123.08
+        },
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 109.53
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 136.49
+        },
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 140.83
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 112.42
+        },
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 121.8
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 60.34
+        },
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 124.2
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 184.78
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 107.5
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 119.29
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 97.01
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 118.84
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 95.01
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 103.32
+        },
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 124.25
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 144.08
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 104.63
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 93.96
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 120.66
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 110.46
+        },
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 93.7
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 77.44
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 119.23
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 105.42
+        },
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 179.56
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 148.5
+        },
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 102.58
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 102.1
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 91.47
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 88.95
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 125.19
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 98.25
+        },
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 96.37
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 75.42
+        },
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 126.39
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 161.97
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 112.53
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.3",
+          "name": "Brolo&Cholo",
+          "owner": "Kenneth",
+          "points": 67.19
+        },
+        {
+          "team_key": "399.l.596553.t.11",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 80.17
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 160.88
+        },
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 112.33
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.6",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 152.95
+        },
+        {
+          "team_key": "399.l.596553.t.9",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 111.84
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 96.07
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 117.57
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.1",
+          "name": "Green Jets & Sam",
+          "owner": "Lee",
+          "points": 152.69
+        },
+        {
+          "team_key": "399.l.596553.t.5",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 94.85
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 109.32
+        },
+        {
+          "team_key": "399.l.596553.t.10",
+          "name": "Dow Jones iA 33",
+          "owner": "Tony",
+          "points": 100.13
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.4",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 129.89
+        },
+        {
+          "team_key": "399.l.596553.t.7",
+          "name": "Haskins N Robbins",
+          "owner": "Edward",
+          "points": 121.6
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "399.l.596553.t.8",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 132.94
+        },
+        {
+          "team_key": "399.l.596553.t.12",
+          "name": "TRUMPDOZER",
+          "owner": "Steph",
+          "points": 104.98
+        }
+      ]
+    }
+  ]
+}

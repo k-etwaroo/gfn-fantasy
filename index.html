@@ -899,118 +899,24 @@
 </main>
 
 <script>
-// ====== DATA ======
-const champions = [
-  { year: 2011, manager: 'Chris B.', team: 'Grid Iron Giants', record: '9-4', pts: 1420 },
-  { year: 2012, manager: 'Ryan M.', team: 'The Blitz', record: '10-3', pts: 1503 },
-  { year: 2013, manager: 'Mike D.', team: 'Mike Force One', record: '11-2', pts: 1612 },
-  { year: 2014, manager: 'Tom R.', team: 'Touchdown Terrors', record: '9-4', pts: 1489 },
-  { year: 2015, manager: 'Jake S.', team: 'Jake Attacks', record: '10-3', pts: 1557 },
-  { year: 2016, manager: 'Dave K.', team: 'Lucky Charms', record: '9-4', pts: 1398 },
-  { year: 2017, manager: 'Mike D.', team: 'Mike Force One', record: '12-1', pts: 1701 },
-  { year: 2018, manager: 'Tom R.', team: 'Red Zone Raiders', record: '10-3', pts: 1634 },
-  { year: 2019, manager: 'Jake S.', team: 'Jake Attacks', record: '11-2', pts: 1847 },
-  { year: 2020, manager: 'Pat W.', team: 'Quarantine Kings', record: '9-4', pts: 1521 },
-  { year: 2021, manager: 'Mike D.', team: 'Dynasty Mode', record: '11-2', pts: 1729 },
-  { year: 2022, manager: 'Luis G.', team: 'Galactic FCs', record: '10-3', pts: 1602 },
-  { year: 2023, manager: 'Sam T.', team: 'Sam I Am', record: '9-4', pts: 1488 },
-  { year: 2024, manager: 'Tom R.', team: 'Red Zone Raiders', record: '11-2', pts: 1715 },
-  { year: 2025, manager: 'Chris B.', team: 'Diggs These Hands', record: '10-3', pts: 1649 },
-];
-
-const managers = [
-  { name: 'Tom R.', w: 89, l: 49, ppg: 118.4, titles: 3, playoffs: 10 },
-  { name: 'Mike D.', w: 86, l: 52, ppg: 121.2, titles: 3, playoffs: 11 },
-  { name: 'Jake S.', w: 83, l: 55, ppg: 119.7, titles: 2, playoffs: 9 },
-  { name: 'Chris B.', w: 78, l: 60, ppg: 115.3, titles: 2, playoffs: 8 },
-  { name: 'Ryan M.', w: 74, l: 64, ppg: 114.8, titles: 1, playoffs: 7 },
-  { name: 'Luis G.', w: 71, l: 67, ppg: 113.2, titles: 1, playoffs: 6 },
-  { name: 'Sam T.', w: 68, l: 70, ppg: 112.9, titles: 1, playoffs: 6 },
-  { name: 'Pat W.', w: 65, l: 73, ppg: 111.5, titles: 1, playoffs: 5 },
-  { name: 'Kevin H.', w: 55, l: 83, ppg: 108.4, titles: 0, playoffs: 3 },
-  { name: 'Dave K.', w: 46, l: 92, ppg: 105.2, titles: 0, playoffs: 2 },
-];
-
-const luckData2025 = [
-  { name: 'Tom R.', actual: 10, expected: 7.8, luck: 2.2 },
-  { name: 'Chris B.', actual: 10, expected: 8.1, luck: 1.9 },
-  { name: 'Mike D.', actual: 9, expected: 9.4, luck: -0.4 },
-  { name: 'Jake S.', actual: 8, expected: 10.2, luck: -2.2 },
-  { name: 'Luis G.', actual: 8, expected: 7.6, luck: 0.4 },
-  { name: 'Sam T.', actual: 7, expected: 6.8, luck: 0.2 },
-  { name: 'Ryan M.', actual: 6, expected: 7.1, luck: -1.1 },
-  { name: 'Pat W.', actual: 5, expected: 5.9, luck: -0.9 },
-  { name: 'Kevin H.', actual: 4, expected: 4.4, luck: -0.4 },
-  { name: 'Dave K.', actual: 3, expected: 3.5, luck: -0.5 },
-];
-
-const luckAllTime = [
-  { name: 'Dave K.', avg: '+0.81', total: '+12.3', best: '2016', worst: '2014', verdict: 'lucky' },
-  { name: 'Tom R.', avg: '+0.51', total: '+7.7', best: '2025', worst: '2020', verdict: 'lucky' },
-  { name: 'Chris B.', avg: '+0.27', total: '+4.1', best: '2025', worst: '2022', verdict: 'lucky' },
-  { name: 'Ryan M.', avg: '-0.12', total: '-1.8', best: '2018', worst: '2023', verdict: 'neutral' },
-  { name: 'Sam T.', avg: '-0.18', total: '-2.7', best: '2024', worst: '2021', verdict: 'neutral' },
-  { name: 'Luis G.', avg: '-0.30', total: '-4.5', best: '2023', worst: '2022', verdict: 'unlucky' },
-  { name: 'Jake S.', avg: '-0.47', total: '-7.1', best: '2015', worst: '2019', verdict: 'unlucky' },
-  { name: 'Mike D.', avg: '-0.20', total: '-3.0', best: '2017', worst: '2025', verdict: 'neutral' },
-  { name: 'Pat W.', avg: '-0.38', total: '-5.7', best: '2020', worst: '2023', verdict: 'unlucky' },
-  { name: 'Kevin H.', avg: '-0.22', total: '-3.3', best: '2022', worst: '2019', verdict: 'unlucky' },
-];
-
-const powerRankings = [
-  { rank: 1, name: 'Chris B.', score: 94.2, prev: 2, streak: 'W3' },
-  { rank: 2, name: 'Mike D.', score: 91.8, prev: 1, streak: 'W1' },
-  { rank: 3, name: 'Tom R.', score: 89.4, prev: 4, streak: 'W2' },
-  { rank: 4, name: 'Jake S.', score: 86.1, prev: 3, streak: 'L1' },
-  { rank: 5, name: 'Luis G.', score: 82.7, prev: 5, streak: 'W1' },
-  { rank: 6, name: 'Ryan M.', score: 79.3, prev: 7, streak: 'W2' },
-  { rank: 7, name: 'Sam T.', score: 74.8, prev: 6, streak: 'L2' },
-  { rank: 8, name: 'Pat W.', score: 70.1, prev: 8, streak: 'L1' },
-  { rank: 9, name: 'Kevin H.', score: 64.4, prev: 9, streak: 'L3' },
-  { rank: 10, name: 'Dave K.', score: 58.9, prev: 10, streak: 'L4' },
-];
-
-const payouts2025 = [
-  { pos: '1st Place Champion', amt: '$50', manager: 'Chris B.' },
-  { pos: '2nd Place Runner-Up', amt: '$25', manager: 'Mike D.' },
-  { pos: '3rd Place', amt: '$15', manager: 'Tom R.' },
-  { pos: 'Regular Season Champ', amt: '$15', manager: 'Jake S.' },
-  { pos: 'Most Points For', amt: '$10', manager: 'Chris B.' },
-  { pos: 'Toilet Bowl Loser 🚽', amt: '-$5', manager: 'Dave K.' },
-];
-
-const earnings = [
-  { name: 'Mike D.', paid: 180, won: 640, net: 460, roi: 256 },
-  { name: 'Tom R.', paid: 180, won: 580, net: 400, roi: 222 },
-  { name: 'Jake S.', paid: 180, won: 410, net: 230, roi: 128 },
-  { name: 'Chris B.', paid: 180, won: 390, net: 210, roi: 117 },
-  { name: 'Ryan M.', paid: 180, won: 280, net: 100, roi: 56 },
-  { name: 'Luis G.', paid: 180, won: 210, net: 30, roi: 17 },
-  { name: 'Sam T.', paid: 180, won: 160, net: -20, roi: -11 },
-  { name: 'Pat W.', paid: 180, won: 130, net: -50, roi: -28 },
-  { name: 'Kevin H.', paid: 180, won: 70, net: -110, roi: -61 },
-  { name: 'Dave K.', paid: 180, won: -70, net: -250, roi: -139 },
-];
-
 // ====== RENDER FUNCTIONS ======
 
-function buildChampChart() {
+function buildChampChart(champions) {
   const el = document.getElementById('champChart');
-  const owners = ['Mike D.', 'Tom R.', 'Jake S.', 'Chris B.', 'Ryan M.', 'Luis G.', 'Sam T.', 'Pat W.'];
+  const maxPts = Math.max(...champions.map(c => c.pts_for));
   champions.forEach(c => {
     const col = document.createElement('div');
     col.className = 'chart-bar-col';
-    const isOwner = owners.includes(c.manager);
-    const h = Math.round((c.pts / 1847) * 100);
+    const h = Math.round((c.pts_for / maxPts) * 100);
     col.innerHTML = `
-      <div class="chart-bar${isOwner ? '' : ' dim'}" style="height:${h}px" title="${c.year}: ${c.manager} · ${c.pts}pts"></div>
+      <div class="chart-bar" style="height:${h}px" title="${c.year}: ${c.owner} · ${c.pts_for.toFixed(0)}pts"></div>
       <div class="chart-label">${String(c.year).slice(2)}</div>
     `;
     el.appendChild(col);
   });
 }
 
-function buildChampRoll() {
+function buildChampRoll(champions) {
   const el = document.getElementById('champRoll');
   [...champions].reverse().forEach(c => {
     el.innerHTML += `
@@ -1018,22 +924,21 @@ function buildChampRoll() {
         <div class="champ-year">${c.year}</div>
         <div class="champ-divider"></div>
         <div>
-          <div class="champ-name">${c.manager}</div>
+          <div class="champ-name">${c.owner}</div>
           <div class="champ-team">${c.team}</div>
         </div>
         <div class="champ-record">
-          <div class="champ-pts">${c.pts} PTS</div>
-          <div>${c.record}</div>
+          <div class="champ-pts">${c.pts_for.toFixed(0)} PTS</div>
+          <div>${c.wins}-${c.losses}</div>
         </div>
       </div>
     `;
   });
 }
 
-function buildRecordsTable() {
+function buildRecordsTable(managers) {
   const tb = document.getElementById('recordsTable');
-  managers.sort((a,b) => (b.w/(b.w+b.l)) - (a.w/(a.w+a.l)));
-  managers.forEach((m, i) => {
+  [...managers].sort((a,b) => (b.w/(b.w+b.l)) - (a.w/(a.w+a.l))).forEach((m, i) => {
     const pct = (m.w / (m.w + m.l) * 100).toFixed(1);
     tb.innerHTML += `
       <tr>
@@ -1053,9 +958,35 @@ function buildRecordsTable() {
   });
 }
 
-function buildLuckTable() {
+function buildLuckStats(luckBySeasonAll, luckSummary) {
+  let bestSeason = null, worstSeason = null;
+  for (const [year, entries] of Object.entries(luckBySeasonAll)) {
+    for (const e of entries) {
+      if (!bestSeason || e.luck_score > bestSeason.luck_score) bestSeason = { ...e, year };
+      if (!worstSeason || e.luck_score < worstSeason.luck_score) worstSeason = { ...e, year };
+    }
+  }
+  const luckiestAllTime = [...luckSummary].sort((a, b) => b.total - a.total)[0];
+
+  const cards = document.querySelectorAll('#luck .grid-3 .card');
+  if (cards[0] && bestSeason) {
+    cards[0].querySelector('.card-value').textContent = `+${bestSeason.luck_score.toFixed(1)}`;
+    cards[0].querySelector('.card-detail').textContent = `${bestSeason.owner} · ${bestSeason.year} — Won ${bestSeason.actual_wins}, Expected ${bestSeason.expected_wins}`;
+  }
+  if (cards[1] && worstSeason) {
+    cards[1].querySelector('.card-value').textContent = worstSeason.luck_score.toFixed(1);
+    cards[1].querySelector('.card-detail').textContent = `${worstSeason.owner} · ${worstSeason.year} — Won ${worstSeason.actual_wins}, Expected ${worstSeason.expected_wins}`;
+  }
+  if (cards[2] && luckiestAllTime) {
+    const sign = luckiestAllTime.total >= 0 ? '+' : '';
+    cards[2].querySelector('.card-value').textContent = `${sign}${luckiestAllTime.total.toFixed(1)}`;
+    cards[2].querySelector('.card-detail').textContent = `${luckiestAllTime.owner} · Accumulated Luck Score`;
+  }
+}
+
+function buildLuckTable(luckData2025) {
   const el = document.getElementById('luckTable');
-  luckData2025.sort((a,b) => b.luck - a.luck).forEach(p => {
+  [...luckData2025].sort((a,b) => b.luck - a.luck).forEach(p => {
     const isPos = p.luck >= 0;
     const pct = Math.min(Math.abs(p.luck) / 4 * 50, 50);
     el.innerHTML += `
@@ -1078,7 +1009,7 @@ function buildLuckTable() {
   });
 }
 
-function buildLuckAllTime() {
+function buildLuckAllTime(luckAllTime) {
   const tb = document.getElementById('luckAllTime');
   luckAllTime.forEach(m => {
     const vTag = m.verdict === 'lucky' ? 'tag-lucky' : m.verdict === 'unlucky' ? 'tag-unlucky' : '';
@@ -1096,20 +1027,15 @@ function buildLuckAllTime() {
   });
 }
 
-function buildPowerRankings() {
+function buildPowerRankings(powerRankings) {
   const el = document.getElementById('powerList');
   powerRankings.forEach(p => {
-    const diff = p.prev - p.rank;
-    const trendClass = diff > 0 ? 'trend-up' : diff < 0 ? 'trend-down' : 'trend-flat';
-    const trendSymbol = diff > 0 ? `▲${diff}` : diff < 0 ? `▼${Math.abs(diff)}` : '—';
     const rankColor = p.rank === 1 ? 'var(--gold)' : p.rank === 2 ? '#C0C0C0' : p.rank === 3 ? '#CD7F32' : 'var(--text-dim)';
     el.innerHTML += `
       <div class="pr-row">
         <span class="pr-rank" style="color:${rankColor}">${p.rank}</span>
         <span class="pr-name">${p.name}</span>
-        <span style="font-size:0.75rem; font-family:'Barlow Condensed'; color:${p.streak.startsWith('W')?'#2ecc71':'#e74c3c'}">${p.streak}</span>
         <span class="pr-score" style="color:${rankColor}">${p.score}</span>
-        <span class="pr-trend ${trendClass}">${trendSymbol}</span>
       </div>
     `;
   });
@@ -1118,11 +1044,11 @@ function buildPowerRankings() {
 function buildPowerAllTime() {
   const tb = document.getElementById('powerAllTime');
   const data = [
-    ['Mike D.', '88.4', 34, '91.2 (2021)', '#2 this wk'],
-    ['Tom R.', '86.1', 29, '89.7 (2018)', '#3 this wk'],
-    ['Jake S.', '84.9', 22, '93.1 (2019)', '#4 this wk'],
-    ['Chris B.', '83.2', 18, '94.2 (2025)', '#1 this wk'],
-    ['Ryan M.', '80.4', 14, '84.4 (2012)', '#6 this wk'],
+    ['Lee', '89.7', '—', '—', '#2 this wk'],
+    ['Peter', '88.1', '—', '—', '#9 this wk'],
+    ['Brian', '88.0', '—', '—', '#3 this wk'],
+    ['Joshua', '94.6', '—', '—', '#1 this wk'],
+    ['Kenneth', '70.6', '—', '—', '#5 this wk'],
   ];
   data.forEach(r => {
     tb.innerHTML += `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td><td style="color:var(--text-dim)">${r[4]}</td></tr>`;
@@ -1132,18 +1058,27 @@ function buildPowerAllTime() {
 function buildPeakRanks() {
   const tb = document.getElementById('peakRanks');
   const data = [
-    ['Jake S.', '#1', 2019, '7 weeks'],
-    ['Mike D.', '#1', 2021, '9 weeks'],
-    ['Chris B.', '#1', 2025, '5 weeks'],
-    ['Tom R.', '#1', 2024, '6 weeks'],
-    ['Ryan M.', '#1', 2012, '3 weeks'],
+    ['Lee', '#1', 2011, '—'],
+    ['Peter', '#1', 2023, '—'],
+    ['Joshua', '#1', 2025, '—'],
+    ['Brian', '#1', 2022, '—'],
+    ['Tony', '#1', 2024, '—'],
   ];
   data.forEach(r => {
     tb.innerHTML += `<tr><td>${r[0]}</td><td style="color:var(--gold);font-weight:700">${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td></tr>`;
   });
 }
 
-function buildCostSheet() {
+function buildCostSheet(managers) {
+  const payouts2025 = [
+    { pos: '1st Place Champion', amt: '$50', manager: 'Joshua' },
+    { pos: '2nd Place Runner-Up', amt: '$25', manager: '—' },
+    { pos: '3rd Place', amt: '$15', manager: '—' },
+    { pos: 'Regular Season Champ', amt: '$15', manager: '—' },
+    { pos: 'Most Points For', amt: '$10', manager: '—' },
+    { pos: 'Toilet Bowl Loser 🚽', amt: '-$5', manager: '—' },
+  ];
+
   const po = document.getElementById('payouts2025');
   payouts2025.forEach(p => {
     const isNeg = p.amt.startsWith('-');
@@ -1167,26 +1102,12 @@ function buildCostSheet() {
       </tr>
     `;
   });
-
-  const et = document.getElementById('earningsTable');
-  earnings.sort((a,b) => b.net - a.net).forEach((e, i) => {
-    const netColor = e.net >= 0 ? '#2ecc71' : '#e74c3c';
-    et.innerHTML += `
-      <tr>
-        <td><span class="rank-num rank-${i+1}">${i+1}</span></td>
-        <td><strong>${e.name}</strong></td>
-        <td>$${e.paid}</td>
-        <td style="color:#2ecc71">$${e.won > 0 ? e.won : 0}</td>
-        <td style="color:${netColor}; font-weight:700">${e.net >= 0 ? '+' : ''}$${e.net}</td>
-        <td style="color:${netColor}">${e.roi >= 0 ? '+' : ''}${e.roi}%</td>
-      </tr>
-    `;
-  });
 }
 
-function buildYearFilter() {
+function buildYearFilter(champions) {
   const el = document.getElementById('yearFilter');
-  for (let y = 2025; y >= 2011; y--) {
+  const years = [...new Set(champions.map(c => c.year))].sort((a, b) => b - a);
+  years.forEach(y => {
     const btn = document.createElement('button');
     btn.className = 'season-btn';
     btn.textContent = y;
@@ -1195,7 +1116,7 @@ function buildYearFilter() {
       btn.classList.add('active');
     };
     el.appendChild(btn);
-  }
+  });
 }
 
 // ====== NAV ======
@@ -1207,16 +1128,106 @@ function showSection(id, btn) {
 }
 
 // ====== INIT ======
-buildChampChart();
-buildChampRoll();
-buildRecordsTable();
-buildLuckTable();
-buildLuckAllTime();
-buildPowerRankings();
-buildPowerAllTime();
-buildPeakRanks();
-buildCostSheet();
-buildYearFilter();
+fetch('data/dashboard_data.json')
+  .then(r => r.json())
+  .then(data => {
+    const champions = data.champions;
+
+    const managers = Object.entries(data.owner_stats)
+      .filter(([, s]) => s.seasons > 0 && (s.wins + s.losses) > 0)
+      .map(([name, s]) => ({
+        name,
+        w: s.wins,
+        l: s.losses,
+        ppg: (s.pts_for / (s.wins + s.losses)).toFixed(1),
+        titles: s.titles,
+        playoffs: s.playoff_appearances,
+      }));
+
+    const luckData2025 = (data.luck_by_season['2025'] || []).map(p => ({
+      name: p.owner,
+      actual: p.actual_wins,
+      expected: p.expected_wins,
+      luck: p.luck_score,
+    }));
+
+    // Compute per-owner best/worst luck year from all seasons
+    const ownerYears = {};
+    for (const [year, entries] of Object.entries(data.luck_by_season)) {
+      for (const e of entries) {
+        if (!ownerYears[e.owner]) ownerYears[e.owner] = { bestScore: -Infinity, best: '—', worstScore: Infinity, worst: '—' };
+        if (e.luck_score > ownerYears[e.owner].bestScore) { ownerYears[e.owner].bestScore = e.luck_score; ownerYears[e.owner].best = year; }
+        if (e.luck_score < ownerYears[e.owner].worstScore) { ownerYears[e.owner].worstScore = e.luck_score; ownerYears[e.owner].worst = year; }
+      }
+    }
+
+    const luckAllTime = data.luck_summary.map(m => ({
+      name: m.owner,
+      avg: (m.avg >= 0 ? '+' : '') + m.avg.toFixed(2),
+      total: (m.total >= 0 ? '+' : '') + m.total.toFixed(2),
+      best: ownerYears[m.owner]?.best || '—',
+      worst: ownerYears[m.owner]?.worst || '—',
+      verdict: m.avg > 0.15 ? 'lucky' : m.avg < -0.15 ? 'unlucky' : 'neutral',
+    }));
+
+    const powerRankings = data.power_rankings.map(p => ({
+      rank: p.rank,
+      name: p.owner,
+      score: p.pr_score,
+    }));
+
+    // Update hero band
+    const latestChamp = [...champions].sort((a, b) => b.year - a.year)[0];
+    document.querySelector('.hero-headline').innerHTML = `Reigning Champ: <span>${latestChamp.team.toUpperCase()}</span>`;
+
+    // Update dashboard stat cards
+    const topTitles = [...managers].sort((a, b) => b.titles - a.titles)[0];
+    const topWinPct = [...managers].filter(m => (m.w + m.l) >= 10).sort((a, b) => (b.w/(b.w+b.l)) - (a.w/(a.w+a.l)))[0];
+    const topPts = champions.reduce((best, c) => c.pts_for > best.pts_for ? c : best, champions[0]);
+
+    const cards = document.querySelectorAll('#dashboard .grid-4 .card');
+    if (cards[0] && topTitles) {
+      cards[0].querySelector('.card-value').textContent = topTitles.titles + '×';
+      cards[0].querySelector('.card-detail').textContent = topTitles.name;
+    }
+    if (cards[1] && topWinPct) {
+      const pct = (topWinPct.w / (topWinPct.w + topWinPct.l) * 100).toFixed(1);
+      cards[1].querySelector('.card-value').textContent = `${pct}%`;
+      cards[1].querySelector('.card-detail').textContent = `${topWinPct.name} · ${topWinPct.w}–${topWinPct.l} record`;
+    }
+    if (cards[2] && topPts) {
+      cards[2].querySelector('.card-value').textContent = topPts.pts_for.toFixed(0);
+      cards[2].querySelector('.card-detail').textContent = `${topPts.owner} · ${topPts.year} Season`;
+    }
+
+    // Update All-Time Standings pills
+    const standingsCard = document.querySelectorAll('#dashboard .grid-2-1 .card')[1];
+    if (standingsCard) {
+      const pillsContainer = standingsCard.querySelector('div[style]');
+      const titleLeaders = [...managers].filter(m => m.titles > 0).sort((a, b) => b.titles - a.titles);
+      const medals = ['🥇', '🥈', '🥉'];
+      if (pillsContainer) {
+        pillsContainer.innerHTML = titleLeaders.map((m, i) =>
+          `<div class="stat-pill"><span class="label">${medals[i] || ''} ${m.name}</span><span class="val">${m.titles} title${m.titles !== 1 ? 's' : ''}</span></div>`
+        ).join('');
+      }
+    }
+
+    buildYearFilter(champions);
+    buildChampChart(champions);
+    buildChampRoll(champions);
+    buildRecordsTable(managers);
+    buildLuckStats(data.luck_by_season, data.luck_summary);
+    buildLuckTable(luckData2025);
+    buildLuckAllTime(luckAllTime);
+    buildPowerRankings(powerRankings);
+    buildPowerAllTime();
+    buildPeakRanks();
+    buildCostSheet(managers);
+  })
+  .catch(err => {
+    console.error('Failed to load dashboard data:', err);
+  });
 </script>
 </body>
 </html>

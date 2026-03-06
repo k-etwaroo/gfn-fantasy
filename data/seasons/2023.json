@@ -1,0 +1,1937 @@
+{
+  "year": 2023,
+  "meta": {
+    "year": 2023,
+    "league_key": "423.l.132892",
+    "name": "GFN XIII",
+    "num_teams": 12,
+    "current_week": "17",
+    "start_week": "1",
+    "end_week": "17",
+    "playoff_start": null
+  },
+  "standings": [
+    {
+      "team_key": "423.l.132892.t.3",
+      "name": "Ottoman Empire",
+      "owner": "Peter",
+      "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+      "rank": 1,
+      "wins": 11,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 1815.66,
+      "points_against": 1478.1399999999999,
+      "playoff_seed": "1"
+    },
+    {
+      "team_key": "423.l.132892.t.7",
+      "name": "Just-End-The-Season",
+      "owner": "Mike",
+      "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+      "rank": 2,
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1770.87,
+      "points_against": 1403.61,
+      "playoff_seed": "2"
+    },
+    {
+      "team_key": "423.l.132892.t.4",
+      "name": "James Conner Who?",
+      "owner": "Kenneth",
+      "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+      "rank": 3,
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1675.25,
+      "points_against": 1517.6699999999998,
+      "playoff_seed": "3"
+    },
+    {
+      "team_key": "423.l.132892.t.5",
+      "name": "Just-in Fields is HIM",
+      "owner": "Tony",
+      "guid": "ETCIM4DSHDIAJAKTR5AT6BFIWY",
+      "rank": 4,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1537.89,
+      "points_against": 1566.22,
+      "playoff_seed": "5"
+    },
+    {
+      "team_key": "423.l.132892.t.1",
+      "name": "A Kill Lee\u2019s Tendon",
+      "owner": "Lee",
+      "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+      "rank": 5,
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1572.89,
+      "points_against": 1496.8700000000001,
+      "playoff_seed": "4"
+    },
+    {
+      "team_key": "423.l.132892.t.8",
+      "name": "Hee Hee Rhamondra!",
+      "owner": "Steph",
+      "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+      "rank": 6,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1492.47,
+      "points_against": 1430.7,
+      "playoff_seed": "6"
+    },
+    {
+      "team_key": "423.l.132892.t.6",
+      "name": "HOWELLitzer TANK",
+      "owner": "Edward",
+      "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+      "rank": 7,
+      "wins": 4,
+      "losses": 10,
+      "ties": 0,
+      "points_for": 1497.91,
+      "points_against": 1649.4899999999998,
+      "playoff_seed": "11"
+    },
+    {
+      "team_key": "423.l.132892.t.12",
+      "name": "Flutie and the Blowfish",
+      "owner": "Brian",
+      "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
+      "rank": 8,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1478.03,
+      "points_against": 1734.41,
+      "playoff_seed": "9"
+    },
+    {
+      "team_key": "423.l.132892.t.9",
+      "name": "Boom Squad",
+      "owner": "Jeff",
+      "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+      "rank": 9,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1503.58,
+      "points_against": 1597.68,
+      "playoff_seed": "8"
+    },
+    {
+      "team_key": "423.l.132892.t.2",
+      "name": "Rodgers Hurts",
+      "owner": "Chris D",
+      "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+      "rank": 10,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1522.87,
+      "points_against": 1659.9399999999998,
+      "playoff_seed": "7"
+    },
+    {
+      "team_key": "423.l.132892.t.10",
+      "name": "ManningHam N' Cheese",
+      "owner": "Kevin",
+      "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+      "rank": 11,
+      "wins": 5,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1487.55,
+      "points_against": 1687.2099999999998,
+      "playoff_seed": "10"
+    },
+    {
+      "team_key": "423.l.132892.t.11",
+      "name": "JD",
+      "owner": "Joshua",
+      "guid": "UTRAVJ74I3XSTYRO3UZUNFW3PA",
+      "rank": 12,
+      "wins": 4,
+      "losses": 10,
+      "ties": 0,
+      "points_for": 1469.47,
+      "points_against": 1602.4999999999998,
+      "playoff_seed": "12"
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 87.66
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 120.13
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 85.25
+        },
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 93.97
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 93.12
+        },
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 115.44
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 103.34
+        },
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 118.91
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 125.01
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 69.57
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 97.98
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 90.3
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 120.75
+        },
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 138.98
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 101.89
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 129.21
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 136.71
+        },
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 85.84
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 88.24
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 86.78
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 108.51
+        },
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 85.04
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 105.58
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 123.4
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 105.65
+        },
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 96.31
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 104.43
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 117.32
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 115.14
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 115.47
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 163.14
+        },
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 130.93
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 103.71
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 109.28
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 114.15
+        },
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 137.28
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 90.52
+        },
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 103.39
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 109.51
+        },
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 152.76
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 198.35
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 78.63
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 75.23
+        },
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 132.16
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 105.23
+        },
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 102.43
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 88.08
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 87.02
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 140.22
+        },
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 122.45
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 71.74
+        },
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 147.94
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 93.51
+        },
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 90.97
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 135.96
+        },
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 106.55
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 81.34
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 106.91
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 103.83
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 111.38
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 102.47
+        },
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 92.02
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 91.03
+        },
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 90.48
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 115.0
+        },
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 112.79
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 108.11
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 108.87
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 130.94
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 110.04
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 117.24
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 115.69
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 146.36
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 77.32
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 120.51
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 124.36
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 118.72
+        },
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 115.47
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 98.26
+        },
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 97.76
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 85.94
+        },
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 129.5
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 119.96
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 93.3
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 100.13
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 134.19
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 120.51
+        },
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 117.67
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 159.02
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 131.16
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 131.66
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 125.56
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 111.52
+        },
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 141.54
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 83.08
+        },
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 105.28
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 73.67
+        },
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 93.43
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 135.33
+        },
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 79.13
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 111.52
+        },
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 85.66
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 124.9
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 115.1
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 118.46
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 75.69
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 147.91
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 101.94
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 141.84
+        },
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 115.74
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 127.33
+        },
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 86.32
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 105.22
+        },
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 68.24
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 134.58
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 109.23
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 164.77
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 105.29
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 135.46
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 83.14
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 105.31
+        },
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 120.03
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 103.3
+        },
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 101.07
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 118.56
+        },
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 94.29
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 120.1
+        },
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 107.81
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 110.48
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 96.79
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 110.32
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 110.59
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 120.6
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 93.93
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 106.57
+        },
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 127.36
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 162.01
+        },
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 151.56
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 120.4
+        },
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 108.78
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 153.64
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 92.71
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 113.25
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 117.21
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 108.42
+        },
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 70.75
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 119.55
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 117.53
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 164.22
+        },
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 107.18
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 149.23
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 82.21
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 167.78
+        },
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 119.22
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 108.06
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 94.44
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 129.29
+        },
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 118.2
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 137.51
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 119.3
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 125.5
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 118.1
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 133.85
+        },
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 67.49
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 105.74
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 133.73
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 89.47
+        },
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 87.11
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 89.52
+        },
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 125.66
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 140.68
+        },
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 121.21
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 114.31
+        },
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 80.16
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 98.51
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 146.25
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.1",
+          "name": "A Kill Lee\u2019s Tendon",
+          "owner": "Lee",
+          "points": 134.25
+        },
+        {
+          "team_key": "423.l.132892.t.8",
+          "name": "Hee Hee Rhamondra!",
+          "owner": "Steph",
+          "points": 101.43
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 119.61
+        },
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 129.88
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 138.23
+        },
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 92.25
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 101.15
+        },
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 125.98
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 87.2
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 108.1
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 90.77
+        },
+        {
+          "team_key": "423.l.132892.t.11",
+          "name": "JD",
+          "owner": "Joshua",
+          "points": 70.34
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.2",
+          "name": "Rodgers Hurts",
+          "owner": "Chris D",
+          "points": 94.95
+        },
+        {
+          "team_key": "423.l.132892.t.9",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 118.63
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 185.21
+        },
+        {
+          "team_key": "423.l.132892.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 115.3
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.4",
+          "name": "James Conner Who?",
+          "owner": "Kenneth",
+          "points": 123.62
+        },
+        {
+          "team_key": "423.l.132892.t.5",
+          "name": "Just-in Fields is HIM",
+          "owner": "Tony",
+          "points": 121.85
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "423.l.132892.t.6",
+          "name": "HOWELLitzer TANK",
+          "owner": "Edward",
+          "points": 113.68
+        },
+        {
+          "team_key": "423.l.132892.t.12",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 86.77
+        }
+      ]
+    }
+  ]
+}

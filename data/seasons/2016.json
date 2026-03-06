@@ -1,0 +1,1829 @@
+{
+  "year": 2016,
+  "meta": {
+    "year": 2016,
+    "league_key": "359.l.285789",
+    "name": "GOODell FOR NOTHIN'",
+    "num_teams": 12,
+    "current_week": "16",
+    "start_week": "1",
+    "end_week": "16",
+    "playoff_start": null
+  },
+  "standings": [
+    {
+      "team_key": "359.l.285789.t.11",
+      "name": "My Cousin Kirk",
+      "owner": "Edward",
+      "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+      "rank": 1,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1558.75,
+      "points_against": 1439.3100000000002,
+      "playoff_seed": "2"
+    },
+    {
+      "team_key": "359.l.285789.t.9",
+      "name": "Titsburgh Feelers",
+      "owner": "Steph",
+      "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+      "rank": 2,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1515.38,
+      "points_against": 1527.5600000000004,
+      "playoff_seed": "6"
+    },
+    {
+      "team_key": "359.l.285789.t.10",
+      "name": "Boom Squad",
+      "owner": "Jeff",
+      "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+      "rank": 3,
+      "wins": 10,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 1658.87,
+      "points_against": 1376.7399999999998,
+      "playoff_seed": "1"
+    },
+    {
+      "team_key": "359.l.285789.t.12",
+      "name": "Team Romo",
+      "owner": "Chris",
+      "guid": "OG6GL5AOKECVCEIF7L5CTEOEQA",
+      "rank": 4,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1476.68,
+      "points_against": 1430.2200000000003,
+      "playoff_seed": "4"
+    },
+    {
+      "team_key": "359.l.285789.t.4",
+      "name": "Zeke-a Virus",
+      "owner": "Chris D",
+      "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+      "rank": 5,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1544.7,
+      "points_against": 1480.42,
+      "playoff_seed": "3"
+    },
+    {
+      "team_key": "359.l.285789.t.2",
+      "name": "Ya down with O.T.T",
+      "owner": "Peter",
+      "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+      "rank": 6,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1533.07,
+      "points_against": 1435.6399999999999,
+      "playoff_seed": "5"
+    },
+    {
+      "team_key": "359.l.285789.t.3",
+      "name": "AnnexationPuertoRico",
+      "owner": "Mike",
+      "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+      "rank": 7,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1502.92,
+      "points_against": 1534.43,
+      "playoff_seed": "8"
+    },
+    {
+      "team_key": "359.l.285789.t.1",
+      "name": "Fitzmagic",
+      "owner": "Lee",
+      "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+      "rank": 8,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1498.11,
+      "points_against": 1390.24,
+      "playoff_seed": "7"
+    },
+    {
+      "team_key": "359.l.285789.t.8",
+      "name": "THE TAMPA 2",
+      "owner": "Kevin2",
+      "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
+      "rank": 9,
+      "wins": 2,
+      "losses": 11,
+      "ties": 0,
+      "points_for": 1288.37,
+      "points_against": 1572.9599999999998,
+      "playoff_seed": "12"
+    },
+    {
+      "team_key": "359.l.285789.t.7",
+      "name": "Watch the Throne \ud83d\udc40",
+      "owner": "Kenneth",
+      "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+      "rank": 10,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1370.78,
+      "points_against": 1415.0099999999998,
+      "playoff_seed": "10"
+    },
+    {
+      "team_key": "359.l.285789.t.6",
+      "name": "SingleBroFucknHoes",
+      "owner": "Scott",
+      "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
+      "rank": 11,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1464.36,
+      "points_against": 1463.23,
+      "playoff_seed": "9"
+    },
+    {
+      "team_key": "359.l.285789.t.5",
+      "name": "ManningHam N' Cheese",
+      "owner": "Kevin",
+      "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+      "rank": 12,
+      "wins": 3,
+      "losses": 10,
+      "ties": 0,
+      "points_for": 1206.8,
+      "points_against": 1553.0300000000002,
+      "playoff_seed": "11"
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 112.93
+        },
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 87.31
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 107.99
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 139.03
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 103.97
+        },
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 153.08
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 116.57
+        },
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 106.22
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 141.0
+        },
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 128.19
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 113.23
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 89.23
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 154.15
+        },
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 122.69
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 109.28
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 125.09
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 98.53
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 96.76
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 99.18
+        },
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 91.2
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 122.82
+        },
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 127.41
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 118.11
+        },
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 112.72
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 110.6
+        },
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 134.54
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 132.65
+        },
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 115.17
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 64.07
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 116.27
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 99.83
+        },
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 136.51
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 105.56
+        },
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 110.58
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 111.06
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 101.78
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 104.97
+        },
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 111.97
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 100.74
+        },
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 101.27
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 102.73
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 84.73
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 92.32
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 114.44
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 146.96
+        },
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 103.64
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 124.37
+        },
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 132.63
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 100.75
+        },
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 125.13
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 138.82
+        },
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 104.38
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 142.1
+        },
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 109.1
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 113.83
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 107.72
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 114.81
+        },
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 154.58
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 125.1
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 100.84
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 112.53
+        },
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 34.91
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 128.17
+        },
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 76.95
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 98.85
+        },
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 92.22
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 83.52
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 109.28
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 96.84
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 128.06
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 131.38
+        },
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 147.21
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 114.31
+        },
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 112.47
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 115.73
+        },
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 97.1
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 92.46
+        },
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 114.62
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 126.73
+        },
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 121.26
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 98.94
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 147.06
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 156.37
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 108.69
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 96.21
+        },
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 66.9
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 130.25
+        },
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 88.54
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 146.5
+        },
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 146.02
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 136.65
+        },
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 110.12
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 88.71
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 130.49
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 130.4
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 92.57
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 115.37
+        },
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 95.02
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 148.44
+        },
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 146.91
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 116.05
+        },
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 69.54
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 141.65
+        },
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 114.18
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 85.73
+        },
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 133.44
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 86.79
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 124.56
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 142.36
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 113.3
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 96.59
+        },
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 97.86
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 107.89
+        },
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 115.82
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 151.54
+        },
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 83.99
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 84.59
+        },
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 119.72
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 136.61
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 148.94
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 124.76
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 128.37
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 115.27
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 129.3
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 98.85
+        },
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 127.6
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 129.13
+        },
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 89.1
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 88.99
+        },
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 102.91
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 113.36
+        },
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 68.43
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 114.71
+        },
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 134.41
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 128.42
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 154.49
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 102.29
+        },
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 116.25
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 82.88
+        },
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 134.26
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 99.58
+        },
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 65.42
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 96.65
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 99.25
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 94.46
+        },
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 123.22
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 95.41
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 125.43
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 125.78
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 132.96
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 66.25
+        },
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 149.15
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 98.58
+        },
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 130.13
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 96.08
+        },
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 77.51
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 108.02
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 114.64
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 61.03
+        },
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 90.35
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 82.39
+        },
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 113.08
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 93.08
+        },
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 119.37
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 145.2
+        },
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 80.5
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.2",
+          "name": "Ya down with O.T.T",
+          "owner": "Peter",
+          "points": 76.8
+        },
+        {
+          "team_key": "359.l.285789.t.4",
+          "name": "Zeke-a Virus",
+          "owner": "Chris D",
+          "points": 137.74
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 126.31
+        },
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 70.94
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.5",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 82.77
+        },
+        {
+          "team_key": "359.l.285789.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 82.92
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 122.11
+        },
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 103.18
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 142.5
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 120.83
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.1",
+          "name": "Fitzmagic",
+          "owner": "Lee",
+          "points": 110.32
+        },
+        {
+          "team_key": "359.l.285789.t.3",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 163.24
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.7",
+          "name": "Watch the Throne \ud83d\udc40",
+          "owner": "Kenneth",
+          "points": 89.7
+        },
+        {
+          "team_key": "359.l.285789.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 125.92
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 120.19
+        },
+        {
+          "team_key": "359.l.285789.t.11",
+          "name": "My Cousin Kirk",
+          "owner": "Edward",
+          "points": 154.32
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "359.l.285789.t.10",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 108.5
+        },
+        {
+          "team_key": "359.l.285789.t.12",
+          "name": "Team Romo",
+          "owner": "Chris",
+          "points": 79.66
+        }
+      ]
+    }
+  ]
+}

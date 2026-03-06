@@ -1,0 +1,1829 @@
+{
+  "year": 2013,
+  "meta": {
+    "year": 2013,
+    "league_key": "314.l.214310",
+    "name": "GOODell FOR NOTHIN'",
+    "num_teams": 12,
+    "current_week": "16",
+    "start_week": "1",
+    "end_week": "16",
+    "playoff_start": null
+  },
+  "standings": [
+    {
+      "team_key": "314.l.214310.t.2",
+      "name": "Kaep N Krunch",
+      "owner": "Peter",
+      "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+      "rank": 1,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1539.6,
+      "points_against": 1535.23,
+      "playoff_seed": "6"
+    },
+    {
+      "team_key": "314.l.214310.t.12",
+      "name": "Titsburgh Feelers",
+      "owner": "Steph",
+      "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+      "rank": 2,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1867.87,
+      "points_against": 1676.0600000000002,
+      "playoff_seed": "1"
+    },
+    {
+      "team_key": "314.l.214310.t.3",
+      "name": "Gang Green",
+      "owner": "Chris D",
+      "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+      "rank": 3,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1618.93,
+      "points_against": 1472.02,
+      "playoff_seed": "2"
+    },
+    {
+      "team_key": "314.l.214310.t.4",
+      "name": "No LUCK Needed 4 RG3",
+      "owner": "Edward",
+      "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+      "rank": 4,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1721.2,
+      "points_against": 1530.59,
+      "playoff_seed": "4"
+    },
+    {
+      "team_key": "314.l.214310.t.9",
+      "name": "Jacob's Team",
+      "owner": "Hidden2",
+      "guid": "--",
+      "rank": 5,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1716.99,
+      "points_against": 1460.0399999999997,
+      "playoff_seed": "5"
+    },
+    {
+      "team_key": "314.l.214310.t.7",
+      "name": "THE TAMPA 2",
+      "owner": "Kevin2",
+      "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
+      "rank": 6,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1577.27,
+      "points_against": 1561.41,
+      "playoff_seed": "3"
+    },
+    {
+      "team_key": "314.l.214310.t.11",
+      "name": "Stop Drop N Rolle",
+      "owner": "Tim",
+      "guid": "BFY67B6XCNFKOAE4ZPJ2PI6NUM",
+      "rank": 7,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1519.49,
+      "points_against": 1509.42,
+      "playoff_seed": "7"
+    },
+    {
+      "team_key": "314.l.214310.t.8",
+      "name": "Brown",
+      "owner": "Tom",
+      "guid": "WVV244VHQOZLXAW3V7XTH7IVXA",
+      "rank": 8,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1425.81,
+      "points_against": 1531.6299999999997,
+      "playoff_seed": "8"
+    },
+    {
+      "team_key": "314.l.214310.t.6",
+      "name": "BroSwithZsameHoe",
+      "owner": "Scott",
+      "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
+      "rank": 9,
+      "wins": 4,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1437.81,
+      "points_against": 1659.03,
+      "playoff_seed": "11"
+    },
+    {
+      "team_key": "314.l.214310.t.1",
+      "name": "Buttfumblers",
+      "owner": "Lee",
+      "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+      "rank": 10,
+      "wins": 5,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1500.34,
+      "points_against": 1582.8700000000003,
+      "playoff_seed": "9"
+    },
+    {
+      "team_key": "314.l.214310.t.5",
+      "name": "StartedFromDAbottom",
+      "owner": "Kevin",
+      "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+      "rank": 11,
+      "wins": 4,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1593.64,
+      "points_against": 1731.3300000000002,
+      "playoff_seed": "10"
+    },
+    {
+      "team_key": "314.l.214310.t.10",
+      "name": "BlameObama",
+      "owner": "Kenneth",
+      "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+      "rank": 12,
+      "wins": 3,
+      "losses": 10,
+      "ties": 0,
+      "points_for": 1485.25,
+      "points_against": 1754.57,
+      "playoff_seed": "12"
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 145.06
+        },
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 114.38
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 136.93
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 113.8
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 160.18
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 131.27
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 102.65
+        },
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 173.82
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 104.86
+        },
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 162.97
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 143.93
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 112.17
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 114.85
+        },
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 134.83
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 153.78
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 131.62
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 113.18
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 109.78
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 115.46
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 130.9
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 119.66
+        },
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 116.1
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 151.97
+        },
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 130.92
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 112.69
+        },
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 127.12
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 140.45
+        },
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 103.46
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 94.92
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 121.48
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 104.54
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 98.56
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 100.4
+        },
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 97.05
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 137.19
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 148.35
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 103.38
+        },
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 136.85
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 126.28
+        },
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 163.17
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 155.48
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 135.39
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 139.49
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 139.07
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 152.63
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 135.39
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 103.57
+        },
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 116.04
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 160.31
+        },
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 101.16
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 146.37
+        },
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 114.77
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 125.06
+        },
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 93.62
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 110.73
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 142.65
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 115.75
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 88.41
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 122.58
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 158.29
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 89.79
+        },
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 146.77
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 75.83
+        },
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 75.52
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 110.7
+        },
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 126.78
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 121.49
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 123.25
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 106.88
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 94.13
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 167.66
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 110.85
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 120.12
+        },
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 122.32
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 108.26
+        },
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 126.33
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 106.29
+        },
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 138.97
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 115.5
+        },
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 100.06
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 95.02
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 120.3
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 115.85
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 157.73
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 90.73
+        },
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 145.19
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 96.01
+        },
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 57.9
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 126.61
+        },
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 95.22
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 145.38
+        },
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 102.99
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 142.79
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 198.79
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 93.75
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 116.96
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 117.59
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 92.18
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 134.1
+        },
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 132.09
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 135.82
+        },
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 79.69
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 148.98
+        },
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 94.32
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 133.66
+        },
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 118.16
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 109.98
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 154.68
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 117.14
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 104.03
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 103.3
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 111.99
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 84.0
+        },
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 108.47
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 203.78
+        },
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 100.32
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 112.01
+        },
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 117.01
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 90.68
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 120.02
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 113.61
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 149.92
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 89.27
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 96.95
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 132.13
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 104.31
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 94.6
+        },
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 152.62
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 98.61
+        },
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 118.68
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 141.42
+        },
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 147.48
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 128.62
+        },
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 83.4
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 142.9
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 134.02
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 119.67
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 135.61
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 124.11
+        },
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 140.36
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 83.58
+        },
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 103.37
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 100.53
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 129.91
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 86.45
+        },
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 124.72
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 168.17
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 147.75
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 114.53
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 116.34
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 190.97
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 136.18
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 116.78
+        },
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 149.99
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 89.95
+        },
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 86.25
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 132.42
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 116.21
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 138.53
+        },
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 99.69
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 186.42
+        },
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 134.07
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 93.25
+        },
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 124.66
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 114.75
+        },
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 119.8
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 116.01
+        },
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 115.05
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 119.37
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 132.07
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.5",
+          "name": "StartedFromDAbottom",
+          "owner": "Kevin",
+          "points": 142.22
+        },
+        {
+          "team_key": "314.l.214310.t.10",
+          "name": "BlameObama",
+          "owner": "Kenneth",
+          "points": 114.19
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 128.17
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 161.58
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.7",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 96.8
+        },
+        {
+          "team_key": "314.l.214310.t.9",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 173.54
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.1",
+          "name": "Buttfumblers",
+          "owner": "Lee",
+          "points": 83.5
+        },
+        {
+          "team_key": "314.l.214310.t.6",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 91.8
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.2",
+          "name": "Kaep N Krunch",
+          "owner": "Peter",
+          "points": 145.15
+        },
+        {
+          "team_key": "314.l.214310.t.12",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 100.14
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.3",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 136.28
+        },
+        {
+          "team_key": "314.l.214310.t.4",
+          "name": "No LUCK Needed 4 RG3",
+          "owner": "Edward",
+          "points": 125.89
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "314.l.214310.t.8",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 92.39
+        },
+        {
+          "team_key": "314.l.214310.t.11",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 111.4
+        }
+      ]
+    }
+  ]
+}

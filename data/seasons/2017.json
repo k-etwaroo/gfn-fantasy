@@ -1,0 +1,1829 @@
+{
+  "year": 2017,
+  "meta": {
+    "year": 2017,
+    "league_key": "371.l.13839",
+    "name": "GOODell FOR NOTHIN'",
+    "num_teams": 12,
+    "current_week": "16",
+    "start_week": "1",
+    "end_week": "16",
+    "playoff_start": null
+  },
+  "standings": [
+    {
+      "team_key": "371.l.13839.t.10",
+      "name": "FIGJAM",
+      "owner": "Kenneth",
+      "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+      "rank": 1,
+      "wins": 11,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 1647.95,
+      "points_against": 1263.35,
+      "playoff_seed": "1"
+    },
+    {
+      "team_key": "371.l.13839.t.7",
+      "name": "Flutie n da Blowfish",
+      "owner": "Brian",
+      "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
+      "rank": 2,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1507.71,
+      "points_against": 1393.53,
+      "playoff_seed": "4"
+    },
+    {
+      "team_key": "371.l.13839.t.11",
+      "name": "Ottoman Empire",
+      "owner": "Peter",
+      "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+      "rank": 3,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1393.26,
+      "points_against": 1421.82,
+      "playoff_seed": "6"
+    },
+    {
+      "team_key": "371.l.13839.t.3",
+      "name": "Boom Squad",
+      "owner": "Jeff",
+      "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+      "rank": 4,
+      "wins": 10,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 1549.19,
+      "points_against": 1296.3700000000001,
+      "playoff_seed": "2"
+    },
+    {
+      "team_key": "371.l.13839.t.6",
+      "name": "SingleBroFucknHoes",
+      "owner": "Scott",
+      "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
+      "rank": 5,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1423.5,
+      "points_against": 1501.3,
+      "playoff_seed": "5"
+    },
+    {
+      "team_key": "371.l.13839.t.1",
+      "name": "mCLOWN n HACKnberg",
+      "owner": "Lee",
+      "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+      "rank": 6,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1457.82,
+      "points_against": 1259.0499999999997,
+      "playoff_seed": "3"
+    },
+    {
+      "team_key": "371.l.13839.t.2",
+      "name": "Just-End-The-Season",
+      "owner": "Mike",
+      "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+      "rank": 7,
+      "wins": 4,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1130.03,
+      "points_against": 1357.75,
+      "playoff_seed": "12"
+    },
+    {
+      "team_key": "371.l.13839.t.5",
+      "name": "NE Clam Crowder",
+      "owner": "Edward",
+      "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+      "rank": 8,
+      "wins": 5,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1208.31,
+      "points_against": 1357.6499999999999,
+      "playoff_seed": "8"
+    },
+    {
+      "team_key": "371.l.13839.t.12",
+      "name": "Petes nOTT Good",
+      "owner": "Chris D",
+      "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+      "rank": 9,
+      "wins": 5,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1260.05,
+      "points_against": 1405.38,
+      "playoff_seed": "7"
+    },
+    {
+      "team_key": "371.l.13839.t.4",
+      "name": "ManningHam N' Cheese",
+      "owner": "Kevin",
+      "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+      "rank": 10,
+      "wins": 4,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1232.46,
+      "points_against": 1350.66,
+      "playoff_seed": "11"
+    },
+    {
+      "team_key": "371.l.13839.t.9",
+      "name": "Titsburgh Feelers",
+      "owner": "Steph",
+      "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+      "rank": 11,
+      "wins": 4,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1371.71,
+      "points_against": 1485.7199999999998,
+      "playoff_seed": "10"
+    },
+    {
+      "team_key": "371.l.13839.t.8",
+      "name": "THE TAMPA 2",
+      "owner": "Kevin2",
+      "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
+      "rank": 12,
+      "wins": 4,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1397.41,
+      "points_against": 1486.8200000000002,
+      "playoff_seed": "9"
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 87.09
+        },
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 69.45
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 112.15
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 98.95
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 96.04
+        },
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 96.44
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 102.14
+        },
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 106.05
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 92.21
+        },
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 86.65
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 177.64
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 89.7
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 87.3
+        },
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 73.74
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 75.89
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 127.99
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 96.69
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 98.6
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 80.12
+        },
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 120.89
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 144.15
+        },
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 137.79
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 117.04
+        },
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 102.51
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 100.79
+        },
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 90.23
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 76.62
+        },
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 103.04
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 98.15
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 78.7
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 78.64
+        },
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 180.66
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 105.09
+        },
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 100.25
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 142.84
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 132.78
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 123.91
+        },
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 78.49
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 88.75
+        },
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 106.24
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 88.92
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 90.29
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 142.78
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 94.13
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 106.58
+        },
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 124.59
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 95.06
+        },
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 132.88
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 135.14
+        },
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 121.74
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 118.13
+        },
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 62.34
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 110.19
+        },
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 109.13
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 121.92
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 123.31
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 99.09
+        },
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 126.11
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 90.12
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 95.67
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 111.19
+        },
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 114.22
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 71.24
+        },
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 109.02
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 88.03
+        },
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 75.29
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 102.91
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 105.93
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 101.78
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 115.45
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 103.14
+        },
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 141.98
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 141.74
+        },
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 74.21
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 68.49
+        },
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 105.13
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 127.81
+        },
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 99.71
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 100.92
+        },
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 97.09
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 116.39
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 124.32
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 120.35
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 77.94
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 138.56
+        },
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 75.42
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 91.77
+        },
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 134.22
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 142.41
+        },
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 151.92
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 56.16
+        },
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 104.74
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 83.32
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 78.92
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 113.53
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 126.71
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 107.24
+        },
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 110.8
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 95.78
+        },
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 106.71
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 138.38
+        },
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 118.93
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 88.42
+        },
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 69.66
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 118.34
+        },
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 98.95
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 131.18
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 63.13
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 117.66
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 94.42
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 22.09
+        },
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 106.61
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 124.82
+        },
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 78.71
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 74.41
+        },
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 122.16
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 131.42
+        },
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 112.63
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 80.02
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 145.28
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 99.42
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 90.78
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 120.28
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 120.02
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 160.94
+        },
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 124.57
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 123.83
+        },
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 110.78
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 87.52
+        },
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 111.1
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 125.61
+        },
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 112.33
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 113.23
+        },
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 119.94
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 133.15
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 90.4
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 103.27
+        },
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 148.46
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 92.54
+        },
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 86.46
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 124.15
+        },
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 108.76
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 101.17
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 85.53
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 94.55
+        },
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 145.61
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 111.6
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 76.11
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 84.21
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 97.07
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 101.55
+        },
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 132.96
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 101.78
+        },
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 127.01
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 112.38
+        },
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 100.1
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 71.32
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 157.89
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 102.17
+        },
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 92.85
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 100.11
+        },
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 91.45
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 99.87
+        },
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 172.07
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.1",
+          "name": "mCLOWN n HACKnberg",
+          "owner": "Lee",
+          "points": 65.41
+        },
+        {
+          "team_key": "371.l.13839.t.6",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 107.66
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 98.97
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 97.97
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 127.6
+        },
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 151.87
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 78.91
+        },
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 89.5
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 60.07
+        },
+        {
+          "team_key": "371.l.13839.t.9",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 95.55
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 144.49
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 140.64
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.2",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 114.41
+        },
+        {
+          "team_key": "371.l.13839.t.5",
+          "name": "NE Clam Crowder",
+          "owner": "Edward",
+          "points": 113.32
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.3",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 95.1
+        },
+        {
+          "team_key": "371.l.13839.t.11",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 104.04
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.4",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 57.38
+        },
+        {
+          "team_key": "371.l.13839.t.12",
+          "name": "Petes nOTT Good",
+          "owner": "Chris D",
+          "points": 94.88
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "371.l.13839.t.7",
+          "name": "Flutie n da Blowfish",
+          "owner": "Brian",
+          "points": 95.93
+        },
+        {
+          "team_key": "371.l.13839.t.10",
+          "name": "FIGJAM",
+          "owner": "Kenneth",
+          "points": 142.28
+        }
+      ]
+    }
+  ]
+}

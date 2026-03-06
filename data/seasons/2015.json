@@ -1,0 +1,1829 @@
+{
+  "year": 2015,
+  "meta": {
+    "year": 2015,
+    "league_key": "348.l.225929",
+    "name": "GOODell FOR NOTHIN'",
+    "num_teams": 12,
+    "current_week": "16",
+    "start_week": "1",
+    "end_week": "16",
+    "playoff_start": null
+  },
+  "standings": [
+    {
+      "team_key": "348.l.225929.t.10",
+      "name": "ManningHam N' Cheese",
+      "owner": "Kevin",
+      "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+      "rank": 1,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1585.38,
+      "points_against": 1465.84,
+      "playoff_seed": "3"
+    },
+    {
+      "team_key": "348.l.225929.t.8",
+      "name": "THE TAMPA 2",
+      "owner": "Kevin2",
+      "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
+      "rank": 2,
+      "wins": 10,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 1666.57,
+      "points_against": 1416.05,
+      "playoff_seed": "1"
+    },
+    {
+      "team_key": "348.l.225929.t.7",
+      "name": "Titsburgh Feelers",
+      "owner": "Steph",
+      "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+      "rank": 3,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1655.2,
+      "points_against": 1501.5100000000002,
+      "playoff_seed": "5"
+    },
+    {
+      "team_key": "348.l.225929.t.2",
+      "name": "D'Brick House",
+      "owner": "Chris D",
+      "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+      "rank": 4,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1612.96,
+      "points_against": 1429.18,
+      "playoff_seed": "2"
+    },
+    {
+      "team_key": "348.l.225929.t.4",
+      "name": "Upset City",
+      "owner": "Jeff",
+      "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+      "rank": 5,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1544.72,
+      "points_against": 1395.03,
+      "playoff_seed": "4"
+    },
+    {
+      "team_key": "348.l.225929.t.11",
+      "name": "SingleBroFucknHoes",
+      "owner": "Scott",
+      "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
+      "rank": 6,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1566.03,
+      "points_against": 1619.01,
+      "playoff_seed": "6"
+    },
+    {
+      "team_key": "348.l.225929.t.12",
+      "name": "Tears of Boston",
+      "owner": "Kenneth",
+      "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+      "rank": 7,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1467.29,
+      "points_against": 1544.52,
+      "playoff_seed": "8"
+    },
+    {
+      "team_key": "348.l.225929.t.9",
+      "name": "Who?..Matt Jones",
+      "owner": "Edward",
+      "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+      "rank": 8,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1512.4,
+      "points_against": 1436.96,
+      "playoff_seed": "7"
+    },
+    {
+      "team_key": "348.l.225929.t.3",
+      "name": "Abdullah Oblongata",
+      "owner": "Peter",
+      "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+      "rank": 9,
+      "wins": 3,
+      "losses": 10,
+      "ties": 0,
+      "points_for": 1392.53,
+      "points_against": 1727.8400000000001,
+      "playoff_seed": "11"
+    },
+    {
+      "team_key": "348.l.225929.t.5",
+      "name": "Brown",
+      "owner": "Tom",
+      "guid": "WVV244VHQOZLXAW3V7XTH7IVXA",
+      "rank": 10,
+      "wins": 2,
+      "losses": 11,
+      "ties": 0,
+      "points_for": 1349.27,
+      "points_against": 1571.3699999999997,
+      "playoff_seed": "12"
+    },
+    {
+      "team_key": "348.l.225929.t.6",
+      "name": "AnnexationPuertoRico",
+      "owner": "Mike",
+      "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+      "rank": 11,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1380.89,
+      "points_against": 1476.85,
+      "playoff_seed": "9"
+    },
+    {
+      "team_key": "348.l.225929.t.1",
+      "name": "Finding Geno",
+      "owner": "Lee",
+      "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+      "rank": 12,
+      "wins": 4,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1445.07,
+      "points_against": 1594.1499999999996,
+      "playoff_seed": "10"
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 86.75
+        },
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 140.81
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 112.92
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 129.01
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 108.51
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 130.43
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 130.83
+        },
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 162.24
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 76.94
+        },
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 115.27
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 135.84
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 76.3
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 122.7
+        },
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 107.78
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 103.86
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 110.42
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 110.39
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 133.89
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 92.51
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 109.63
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 89.08
+        },
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 95.16
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 112.62
+        },
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 120.61
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 101.41
+        },
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 130.21
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 151.58
+        },
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 121.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 166.51
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 92.75
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 159.0
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 137.79
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 124.56
+        },
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 125.21
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 133.64
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 150.77
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 111.41
+        },
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 74.25
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 132.91
+        },
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 89.73
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 115.71
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 87.19
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 76.03
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 108.66
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 124.8
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 116.01
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 104.18
+        },
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 123.64
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 129.32
+        },
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 70.31
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 142.94
+        },
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 85.81
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 83.46
+        },
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 171.6
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 125.58
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 156.51
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 123.5
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 134.03
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 85.51
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 88.16
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 101.99
+        },
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 161.45
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 160.62
+        },
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 123.3
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 101.93
+        },
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 101.11
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 124.24
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 94.77
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 137.03
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 130.92
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 108.72
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 118.28
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 119.05
+        },
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 124.3
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 108.98
+        },
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 122.37
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 83.76
+        },
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 126.2
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 136.66
+        },
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 97.02
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 121.87
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 153.36
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 144.73
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 126.58
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 81.02
+        },
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 137.98
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 84.8
+        },
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 158.82
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 102.08
+        },
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 165.87
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 104.71
+        },
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 114.16
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 104.18
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 127.8
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 156.65
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 91.79
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 143.9
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 155.95
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 103.32
+        },
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 130.61
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 99.59
+        },
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 149.67
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 137.53
+        },
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 114.53
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 75.99
+        },
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 119.23
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 130.24
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 124.42
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 116.63
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 100.11
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 105.99
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 74.88
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 97.45
+        },
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 142.25
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 108.47
+        },
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 132.93
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 112.01
+        },
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 130.51
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 133.16
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 120.9
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 78.32
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 98.73
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 122.28
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 115.23
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 93.6
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 105.42
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 92.19
+        },
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 74.05
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 88.71
+        },
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 97.61
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 66.41
+        },
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 119.04
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 96.22
+        },
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 130.13
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 111.11
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 118.89
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 92.89
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 80.8
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 126.29
+        },
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 117.88
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 98.83
+        },
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 138.35
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 130.35
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 147.21
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 156.35
+        },
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 162.14
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 124.74
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 114.04
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 137.59
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 104.67
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 94.05
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 120.78
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 128.24
+        },
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 87.28
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 87.68
+        },
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 130.66
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 110.48
+        },
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 115.39
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 125.51
+        },
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 133.7
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 117.03
+        },
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 100.85
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 92.6
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 91.08
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.1",
+          "name": "Finding Geno",
+          "owner": "Lee",
+          "points": 112.05
+        },
+        {
+          "team_key": "348.l.225929.t.6",
+          "name": "AnnexationPuertoRico",
+          "owner": "Mike",
+          "points": 146.24
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 127.81
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 155.04
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 120.51
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 160.53
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.4",
+          "name": "Upset City",
+          "owner": "Jeff",
+          "points": 155.8
+        },
+        {
+          "team_key": "348.l.225929.t.11",
+          "name": "SingleBroFucknHoes",
+          "owner": "Scott",
+          "points": 120.21
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 91.85
+        },
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 127.79
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 100.22
+        },
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 131.78
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.2",
+          "name": "D'Brick House",
+          "owner": "Chris D",
+          "points": 99.46
+        },
+        {
+          "team_key": "348.l.225929.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 120.05
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.3",
+          "name": "Abdullah Oblongata",
+          "owner": "Peter",
+          "points": 111.99
+        },
+        {
+          "team_key": "348.l.225929.t.5",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 47.21
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.8",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 120.94
+        },
+        {
+          "team_key": "348.l.225929.t.10",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 128.16
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "348.l.225929.t.9",
+          "name": "Who?..Matt Jones",
+          "owner": "Edward",
+          "points": 121.87
+        },
+        {
+          "team_key": "348.l.225929.t.12",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 130.1
+        }
+      ]
+    }
+  ]
+}

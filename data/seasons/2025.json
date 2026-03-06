@@ -1,0 +1,1937 @@
+{
+  "year": 2025,
+  "meta": {
+    "year": 2025,
+    "league_key": "461.l.23054",
+    "name": "GFN XV",
+    "num_teams": 12,
+    "current_week": "17",
+    "start_week": "1",
+    "end_week": "17",
+    "playoff_start": null
+  },
+  "standings": [
+    {
+      "team_key": "461.l.23054.t.10",
+      "name": "Nacua Matata",
+      "owner": "Joshua",
+      "guid": "UTRAVJ74I3XSTYRO3UZUNFW3PA",
+      "rank": 1,
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1777.96,
+      "points_against": 1639.28,
+      "playoff_seed": "1"
+    },
+    {
+      "team_key": "461.l.23054.t.11",
+      "name": "Flutie and the Blowfish",
+      "owner": "Brian",
+      "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
+      "rank": 2,
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1733.63,
+      "points_against": 1688.16,
+      "playoff_seed": "2"
+    },
+    {
+      "team_key": "461.l.23054.t.12",
+      "name": "Hayes Brigade",
+      "owner": "Christopher",
+      "guid": "NB2LPJVUM4XNNPYQZC42NZUYNE",
+      "rank": 3,
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1621.68,
+      "points_against": 1665.37,
+      "playoff_seed": "5"
+    },
+    {
+      "team_key": "461.l.23054.t.5",
+      "name": "FDIC Crew",
+      "owner": "Tony",
+      "guid": "ETCIM4DSHDIAJAKTR5AT6BFIWY",
+      "rank": 4,
+      "wins": 9,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1802.52,
+      "points_against": 1541.4299999999998,
+      "playoff_seed": "3"
+    },
+    {
+      "team_key": "461.l.23054.t.6",
+      "name": "The Warren Brothers",
+      "owner": "Edward",
+      "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+      "rank": 5,
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1676.21,
+      "points_against": 1641.8000000000002,
+      "playoff_seed": "4"
+    },
+    {
+      "team_key": "461.l.23054.t.9",
+      "name": "ManningHam N' Cheese",
+      "owner": "Kevin",
+      "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+      "rank": 6,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1581.92,
+      "points_against": 1435.8200000000002,
+      "playoff_seed": "6"
+    },
+    {
+      "team_key": "461.l.23054.t.8",
+      "name": "Boom Squad",
+      "owner": "Jeff",
+      "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+      "rank": 7,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1545.26,
+      "points_against": 1520.8999999999996,
+      "playoff_seed": "7"
+    },
+    {
+      "team_key": "461.l.23054.t.7",
+      "name": "Just-End-The-Season",
+      "owner": "Mike",
+      "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+      "rank": 8,
+      "wins": 4,
+      "losses": 10,
+      "ties": 0,
+      "points_for": 1438.07,
+      "points_against": 1587.54,
+      "playoff_seed": "11"
+    },
+    {
+      "team_key": "461.l.23054.t.1",
+      "name": "Dr. Fields Good",
+      "owner": "Lee",
+      "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+      "rank": 9,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1728.74,
+      "points_against": 1670.3100000000002,
+      "playoff_seed": "8"
+    },
+    {
+      "team_key": "461.l.23054.t.2",
+      "name": "Shambles",
+      "owner": "Chris D",
+      "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+      "rank": 10,
+      "wins": 3,
+      "losses": 11,
+      "ties": 0,
+      "points_for": 1337.68,
+      "points_against": 1643.9700000000003,
+      "playoff_seed": "12"
+    },
+    {
+      "team_key": "461.l.23054.t.4",
+      "name": "Koo and the Gang",
+      "owner": "Kenneth",
+      "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+      "rank": 11,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1541.16,
+      "points_against": 1626.98,
+      "playoff_seed": "9"
+    },
+    {
+      "team_key": "461.l.23054.t.3",
+      "name": "Ottoman Empire",
+      "owner": "Peter",
+      "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+      "rank": 12,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1528.51,
+      "points_against": 1651.7799999999997,
+      "playoff_seed": "10"
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 148.53
+        },
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 112.45
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 122.07
+        },
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 81.65
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 101.25
+        },
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 113.11
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 92.52
+        },
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 82.6
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 114.2
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 115.86
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 90.23
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 120.17
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 91.45
+        },
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 122.07
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 72.22
+        },
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 102.5
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 130.33
+        },
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 134.34
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 119.62
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 139.25
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 91.57
+        },
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 92.87
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 99.03
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 121.12
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 122.74
+        },
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 123.77
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 74.09
+        },
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 145.06
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 106.33
+        },
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 99.45
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 133.43
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 111.53
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 86.21
+        },
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 82.55
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 163.56
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 131.84
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 163.59
+        },
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 163.72
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 105.58
+        },
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 113.71
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 73.45
+        },
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 109.68
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 116.94
+        },
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 127.4
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 93.67
+        },
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 169.88
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 116.22
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 111.11
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 120.16
+        },
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 108.25
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 107.66
+        },
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 118.38
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 123.95
+        },
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 146.58
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 106.35
+        },
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 110.25
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 118.19
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 140.35
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 115.27
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 129.08
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 100.35
+        },
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 139.59
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 101.62
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 123.68
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 96.38
+        },
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 114.17
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 116.86
+        },
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 92.49
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 115.11
+        },
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 91.04
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 114.37
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 138.31
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 105.36
+        },
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 123.06
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 58.21
+        },
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 155.31
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 137.41
+        },
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 115.44
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 122.26
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 135.38
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 147.83
+        },
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 145.22
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 123.01
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 129.54
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 100.15
+        },
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 108.32
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 88.05
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 112.78
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 131.12
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 129.76
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 108.05
+        },
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 152.48
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 120.3
+        },
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 98.22
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 134.57
+        },
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 92.64
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 140.6
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 120.12
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 100.97
+        },
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 104.21
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 120.25
+        },
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 139.85
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 96.91
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 123.3
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 137.94
+        },
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 124.05
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 94.44
+        },
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 99.28
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 122.07
+        },
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 153.7
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 118.68
+        },
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 142.4
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 91.27
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 135.09
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 122.66
+        },
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 113.12
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 108.45
+        },
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 116.35
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 112.97
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 114.35
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 140.3
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 100.29
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 100.85
+        },
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 105.29
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 97.02
+        },
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 86.43
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 91.44
+        },
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 78.73
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 123.49
+        },
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 139.14
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 112.38
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 131.25
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 78.27
+        },
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 109.66
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 79.8
+        },
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 143.13
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 115.28
+        },
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 121.13
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 127.6
+        },
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 135.83
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 129.44
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 79.77
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 172.34
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 116.66
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 138.0
+        },
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 62.39
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 103.06
+        },
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 123.61
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 157.89
+        },
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 102.82
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 107.48
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 117.97
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 93.67
+        },
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 111.58
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 115.43
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 82.06
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 157.17
+        },
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 122.92
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 95.64
+        },
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 68.92
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 61.0
+        },
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 93.44
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 117.73
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 128.21
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 119.54
+        },
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 89.18
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 155.39
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 100.26
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 97.6
+        },
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 85.83
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 100.33
+        },
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 168.47
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 159.6
+        },
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 116.33
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 108.57
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 120.55
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 77.33
+        },
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 127.76
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 90.83
+        },
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 126.45
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.3",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 78.57
+        },
+        {
+          "team_key": "461.l.23054.t.4",
+          "name": "Koo and the Gang",
+          "owner": "Kenneth",
+          "points": 112.12
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 141.65
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 143.66
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.6",
+          "name": "The Warren Brothers",
+          "owner": "Edward",
+          "points": 169.42
+        },
+        {
+          "team_key": "461.l.23054.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 98.37
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 164.51
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 114.56
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.1",
+          "name": "Dr. Fields Good",
+          "owner": "Lee",
+          "points": 89.46
+        },
+        {
+          "team_key": "461.l.23054.t.2",
+          "name": "Shambles",
+          "owner": "Chris D",
+          "points": 57.21
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.5",
+          "name": "FDIC Crew",
+          "owner": "Tony",
+          "points": 102.23
+        },
+        {
+          "team_key": "461.l.23054.t.12",
+          "name": "Hayes Brigade",
+          "owner": "Christopher",
+          "points": 128.02
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.7",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 94.35
+        },
+        {
+          "team_key": "461.l.23054.t.8",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 125.3
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "461.l.23054.t.10",
+          "name": "Nacua Matata",
+          "owner": "Joshua",
+          "points": 128.76
+        },
+        {
+          "team_key": "461.l.23054.t.11",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 118.35
+        }
+      ]
+    }
+  ]
+}

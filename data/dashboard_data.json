@@ -1,0 +1,1667 @@
+{
+  "generated_at": "2026-03-06T09:59:49.748957",
+  "seasons_count": 15,
+  "champions": [
+    {
+      "year": 2011,
+      "team": "FLIGHT BOYZ",
+      "owner": "Lee",
+      "wins": 10,
+      "losses": 3,
+      "pts_for": 1978.18
+    },
+    {
+      "year": 2012,
+      "team": "TE-BOWNED",
+      "owner": "Lee",
+      "wins": 8,
+      "losses": 5,
+      "pts_for": 1715.96
+    },
+    {
+      "year": 2013,
+      "team": "Kaep N Krunch",
+      "owner": "Peter",
+      "wins": 7,
+      "losses": 6,
+      "pts_for": 1539.6
+    },
+    {
+      "year": 2014,
+      "team": "DaMaryius Targaryen",
+      "owner": "Peter",
+      "wins": 9,
+      "losses": 4,
+      "pts_for": 1848.32
+    },
+    {
+      "year": 2015,
+      "team": "ManningHam N' Cheese",
+      "owner": "Kevin",
+      "wins": 9,
+      "losses": 4,
+      "pts_for": 1585.38
+    },
+    {
+      "year": 2016,
+      "team": "My Cousin Kirk",
+      "owner": "Edward",
+      "wins": 8,
+      "losses": 5,
+      "pts_for": 1558.75
+    },
+    {
+      "year": 2017,
+      "team": "FIGJAM",
+      "owner": "Kenneth",
+      "wins": 11,
+      "losses": 2,
+      "pts_for": 1647.95
+    },
+    {
+      "year": 2018,
+      "team": "Titsburgh Feelers",
+      "owner": "Steph",
+      "wins": 9,
+      "losses": 4,
+      "pts_for": 1783.04
+    },
+    {
+      "year": 2019,
+      "team": "Ottoman Empire",
+      "owner": "Peter",
+      "wins": 7,
+      "losses": 6,
+      "pts_for": 1423.23
+    },
+    {
+      "year": 2020,
+      "team": "Flutie n da Blowfish",
+      "owner": "Brian",
+      "wins": 10,
+      "losses": 3,
+      "pts_for": 1631.94
+    },
+    {
+      "year": 2021,
+      "team": "Stairway to Tevin",
+      "owner": "Lee",
+      "wins": 9,
+      "losses": 5,
+      "pts_for": 1649.28
+    },
+    {
+      "year": 2022,
+      "team": "Flutie and the Blowfish",
+      "owner": "Brian",
+      "wins": 10,
+      "losses": 4,
+      "pts_for": 1681.42
+    },
+    {
+      "year": 2023,
+      "team": "Ottoman Empire",
+      "owner": "Peter",
+      "wins": 11,
+      "losses": 3,
+      "pts_for": 1815.66
+    },
+    {
+      "year": 2024,
+      "team": "FDIC Crew",
+      "owner": "Tony",
+      "wins": 11,
+      "losses": 3,
+      "pts_for": 1726.13
+    },
+    {
+      "year": 2025,
+      "team": "Nacua Matata",
+      "owner": "Joshua",
+      "wins": 10,
+      "losses": 4,
+      "pts_for": 1777.96
+    }
+  ],
+  "owner_stats": {
+    "Tony": {
+      "wins": 47,
+      "losses": 36,
+      "pts_for": 9708.36,
+      "pts_against": 9386.15,
+      "titles": 1,
+      "seasons": 6,
+      "playoff_appearances": 3
+    },
+    "Chris D": {
+      "wins": 94,
+      "losses": 106,
+      "pts_for": 22303.36,
+      "pts_against": 23057.390000000007,
+      "titles": 0,
+      "seasons": 15,
+      "playoff_appearances": 4
+    },
+    "Lee": {
+      "wins": 112,
+      "losses": 88,
+      "pts_for": 24127.74,
+      "pts_against": 22777.229999999996,
+      "titles": 3,
+      "seasons": 15,
+      "playoff_appearances": 9
+    },
+    "Hidden": {
+      "wins": 7,
+      "losses": 6,
+      "pts_for": 1562.3,
+      "pts_against": 1500.1000000000001,
+      "titles": 0,
+      "seasons": 1,
+      "playoff_appearances": 1
+    },
+    "Tom": {
+      "wins": 14,
+      "losses": 25,
+      "pts_for": 4303.5,
+      "pts_against": 4586.32,
+      "titles": 0,
+      "seasons": 3,
+      "playoff_appearances": 0
+    },
+    "Edward": {
+      "wins": 99,
+      "losses": 101,
+      "pts_for": 23247.95,
+      "pts_against": 23271.789999999997,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 5
+    },
+    "Peter": {
+      "wins": 106,
+      "losses": 81,
+      "pts_for": 22524.8,
+      "pts_against": 21507.239999999998,
+      "titles": 4,
+      "seasons": 14,
+      "playoff_appearances": 5
+    },
+    "Chris M": {
+      "wins": 5,
+      "losses": 8,
+      "pts_for": 1513.87,
+      "pts_against": 1572.78,
+      "titles": 0,
+      "seasons": 1,
+      "playoff_appearances": 0
+    },
+    "Chad": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Scott": {
+      "wins": 54,
+      "losses": 63,
+      "pts_for": 13547.82,
+      "pts_against": 13966.41,
+      "titles": 0,
+      "seasons": 9,
+      "playoff_appearances": 0
+    },
+    "Tim": {
+      "wins": 13,
+      "losses": 13,
+      "pts_for": 3147.7200000000003,
+      "pts_against": 3192.09,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 1
+    },
+    "Kevin2": {
+      "wins": 58,
+      "losses": 59,
+      "pts_for": 13542.58,
+      "pts_against": 13895.75,
+      "titles": 0,
+      "seasons": 9,
+      "playoff_appearances": 3
+    },
+    "Hidden2": {
+      "wins": 19,
+      "losses": 20,
+      "pts_for": 4871.92,
+      "pts_against": 4663.22,
+      "titles": 0,
+      "seasons": 3,
+      "playoff_appearances": 0
+    },
+    "Joshua": {
+      "wins": 34,
+      "losses": 36,
+      "pts_for": 7925.920000000001,
+      "pts_against": 7968.079999999999,
+      "titles": 1,
+      "seasons": 5,
+      "playoff_appearances": 3
+    },
+    "Steph": {
+      "wins": 72,
+      "losses": 74,
+      "pts_for": 17017.12,
+      "pts_against": 16581.92,
+      "titles": 1,
+      "seasons": 11,
+      "playoff_appearances": 4
+    },
+    "Christian": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Kenneth": {
+      "wins": 96,
+      "losses": 104,
+      "pts_for": 22579.14,
+      "pts_against": 23025.640000000003,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 5
+    },
+    "Brian": {
+      "wins": 68,
+      "losses": 54,
+      "pts_for": 14056.18,
+      "pts_against": 14077.529999999999,
+      "titles": 2,
+      "seasons": 9,
+      "playoff_appearances": 4
+    },
+    "Mike": {
+      "wins": 74,
+      "losses": 74,
+      "pts_for": 16943.829999999998,
+      "pts_against": 16572.87,
+      "titles": 0,
+      "seasons": 11,
+      "playoff_appearances": 3
+    },
+    "Jeff": {
+      "wins": 95,
+      "losses": 92,
+      "pts_for": 21555.28,
+      "pts_against": 21308.730000000003,
+      "titles": 0,
+      "seasons": 14,
+      "playoff_appearances": 5
+    },
+    "Kevin": {
+      "wins": 90,
+      "losses": 110,
+      "pts_for": 22061.4,
+      "pts_against": 23057.499999999996,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 4
+    },
+    "Steve L": {
+      "wins": 11,
+      "losses": 15,
+      "pts_for": 2855.65,
+      "pts_against": 3139.1800000000003,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 0
+    },
+    "Chris": {
+      "wins": 8,
+      "losses": 5,
+      "pts_for": 1476.68,
+      "pts_against": 1430.2200000000003,
+      "titles": 0,
+      "seasons": 1,
+      "playoff_appearances": 1
+    },
+    "Steve M": {
+      "wins": 11,
+      "losses": 15,
+      "pts_for": 2981.23,
+      "pts_against": 3197.1800000000003,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 0
+    },
+    "Christopher": {
+      "wins": 13,
+      "losses": 15,
+      "pts_for": 3182.6000000000004,
+      "pts_against": 3301.63,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 0
+    }
+  },
+  "luck_by_season": {
+    "2011": [
+      {
+        "owner": "Steve M",
+        "actual_wins": 7,
+        "expected_wins": 4.91,
+        "luck_score": 2.09
+      },
+      {
+        "owner": "Kevin",
+        "actual_wins": 8,
+        "expected_wins": 6.73,
+        "luck_score": 1.27
+      },
+      {
+        "owner": "Kevin2",
+        "actual_wins": 7,
+        "expected_wins": 5.82,
+        "luck_score": 1.18
+      },
+      {
+        "owner": "Steve L",
+        "actual_wins": 5,
+        "expected_wins": 3.91,
+        "luck_score": 1.09
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 5,
+        "expected_wins": 4.27,
+        "luck_score": 0.73
+      },
+      {
+        "owner": "Hidden",
+        "actual_wins": 7,
+        "expected_wins": 6.45,
+        "luck_score": 0.55
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 7,
+        "expected_wins": 6.73,
+        "luck_score": 0.27
+      },
+      {
+        "owner": "Chris M",
+        "actual_wins": 5,
+        "expected_wins": 5.73,
+        "luck_score": -0.73
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 10,
+        "expected_wins": 11.18,
+        "luck_score": -1.18
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 6,
+        "expected_wins": 7.18,
+        "luck_score": -1.18
+      },
+      {
+        "owner": "Scott",
+        "actual_wins": 6,
+        "expected_wins": 7.45,
+        "luck_score": -1.45
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 5,
+        "expected_wins": 7.64,
+        "luck_score": -2.64
+      }
+    ],
+    "2012": [
+      {
+        "owner": "Edward",
+        "actual_wins": 7,
+        "expected_wins": 5.36,
+        "luck_score": 1.64
+      },
+      {
+        "owner": "Scott",
+        "actual_wins": 7,
+        "expected_wins": 6.18,
+        "luck_score": 0.82
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 9,
+        "expected_wins": 8.27,
+        "luck_score": 0.73
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 6,
+        "expected_wins": 5.45,
+        "luck_score": 0.55
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 6,
+        "expected_wins": 5.64,
+        "luck_score": 0.36
+      },
+      {
+        "owner": "Steve L",
+        "actual_wins": 6,
+        "expected_wins": 5.82,
+        "luck_score": 0.18
+      },
+      {
+        "owner": "Hidden2",
+        "actual_wins": 5,
+        "expected_wins": 5.0,
+        "luck_score": 0.0
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 8,
+        "expected_wins": 8.64,
+        "luck_score": -0.64
+      },
+      {
+        "owner": "Tim",
+        "actual_wins": 7,
+        "expected_wins": 7.64,
+        "luck_score": -0.64
+      },
+      {
+        "owner": "Kevin",
+        "actual_wins": 6,
+        "expected_wins": 6.64,
+        "luck_score": -0.64
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 7,
+        "expected_wins": 7.91,
+        "luck_score": -0.91
+      },
+      {
+        "owner": "Steve M",
+        "actual_wins": 4,
+        "expected_wins": 5.45,
+        "luck_score": -1.45
+      }
+    ],
+    "2013": [
+      {
+        "owner": "Kevin2",
+        "actual_wins": 9,
+        "expected_wins": 7.0,
+        "luck_score": 2.0
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 9,
+        "expected_wins": 7.55,
+        "luck_score": 1.45
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 7,
+        "expected_wins": 6.0,
+        "luck_score": 1.0
+      },
+      {
+        "owner": "Tom",
+        "actual_wins": 6,
+        "expected_wins": 5.0,
+        "luck_score": 1.0
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 8,
+        "expected_wins": 7.27,
+        "luck_score": 0.73
+      },
+      {
+        "owner": "Tim",
+        "actual_wins": 6,
+        "expected_wins": 5.64,
+        "luck_score": 0.36
+      },
+      {
+        "owner": "Hidden2",
+        "actual_wins": 8,
+        "expected_wins": 7.73,
+        "luck_score": 0.27
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 5,
+        "expected_wins": 5.55,
+        "luck_score": -0.55
+      },
+      {
+        "owner": "Scott",
+        "actual_wins": 4,
+        "expected_wins": 5.09,
+        "luck_score": -1.09
+      },
+      {
+        "owner": "Steph",
+        "actual_wins": 9,
+        "expected_wins": 10.09,
+        "luck_score": -1.09
+      },
+      {
+        "owner": "Kevin",
+        "actual_wins": 4,
+        "expected_wins": 5.82,
+        "luck_score": -1.82
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 3,
+        "expected_wins": 5.18,
+        "luck_score": -2.18
+      }
+    ],
+    "2014": [
+      {
+        "owner": "Kenneth",
+        "actual_wins": 9,
+        "expected_wins": 6.09,
+        "luck_score": 2.91
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 5,
+        "expected_wins": 3.82,
+        "luck_score": 1.18
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 9,
+        "expected_wins": 7.91,
+        "luck_score": 1.09
+      },
+      {
+        "owner": "Kevin",
+        "actual_wins": 8,
+        "expected_wins": 7.09,
+        "luck_score": 0.91
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 6,
+        "expected_wins": 5.45,
+        "luck_score": 0.55
+      },
+      {
+        "owner": "Tom",
+        "actual_wins": 6,
+        "expected_wins": 5.64,
+        "luck_score": 0.36
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 6,
+        "expected_wins": 5.82,
+        "luck_score": 0.18
+      },
+      {
+        "owner": "Kevin2",
+        "actual_wins": 8,
+        "expected_wins": 8.27,
+        "luck_score": -0.27
+      },
+      {
+        "owner": "Steph",
+        "actual_wins": 2,
+        "expected_wins": 3.0,
+        "luck_score": -1.0
+      },
+      {
+        "owner": "Scott",
+        "actual_wins": 4,
+        "expected_wins": 5.55,
+        "luck_score": -1.55
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 9,
+        "expected_wins": 10.73,
+        "luck_score": -1.73
+      },
+      {
+        "owner": "Hidden2",
+        "actual_wins": 6,
+        "expected_wins": 8.64,
+        "luck_score": -2.64
+      }
+    ],
+    "2015": [
+      {
+        "owner": "Kevin",
+        "actual_wins": 9,
+        "expected_wins": 7.55,
+        "luck_score": 1.45
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 9,
+        "expected_wins": 7.73,
+        "luck_score": 1.27
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 8,
+        "expected_wins": 6.82,
+        "luck_score": 1.18
+      },
+      {
+        "owner": "Kevin2",
+        "actual_wins": 10,
+        "expected_wins": 8.82,
+        "luck_score": 1.18
+      },
+      {
+        "owner": "Mike",
+        "actual_wins": 6,
+        "expected_wins": 5.0,
+        "luck_score": 1.0
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 7,
+        "expected_wins": 6.18,
+        "luck_score": 0.82
+      },
+      {
+        "owner": "Scott",
+        "actual_wins": 7,
+        "expected_wins": 7.18,
+        "luck_score": -0.18
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 6,
+        "expected_wins": 6.36,
+        "luck_score": -0.36
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 3,
+        "expected_wins": 4.09,
+        "luck_score": -1.09
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 4,
+        "expected_wins": 5.55,
+        "luck_score": -1.55
+      },
+      {
+        "owner": "Steph",
+        "actual_wins": 7,
+        "expected_wins": 8.55,
+        "luck_score": -1.55
+      },
+      {
+        "owner": "Tom",
+        "actual_wins": 2,
+        "expected_wins": 4.18,
+        "luck_score": -2.18
+      }
+    ],
+    "2016": [
+      {
+        "owner": "Chris",
+        "actual_wins": 8,
+        "expected_wins": 6.0,
+        "luck_score": 2.0
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 10,
+        "expected_wins": 9.0,
+        "luck_score": 1.0
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 6,
+        "expected_wins": 5.36,
+        "luck_score": 0.64
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 7,
+        "expected_wins": 6.55,
+        "luck_score": 0.45
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 8,
+        "expected_wins": 7.64,
+        "luck_score": 0.36
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 7,
+        "expected_wins": 7.09,
+        "luck_score": -0.09
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 8,
+        "expected_wins": 8.09,
+        "luck_score": -0.09
+      },
+      {
+        "owner": "Kevin",
+        "actual_wins": 3,
+        "expected_wins": 3.27,
+        "luck_score": -0.27
+      },
+      {
+        "owner": "Scott",
+        "actual_wins": 6,
+        "expected_wins": 6.36,
+        "luck_score": -0.36
+      },
+      {
+        "owner": "Steph",
+        "actual_wins": 7,
+        "expected_wins": 7.45,
+        "luck_score": -0.45
+      },
+      {
+        "owner": "Mike",
+        "actual_wins": 6,
+        "expected_wins": 6.82,
+        "luck_score": -0.82
+      },
+      {
+        "owner": "Kevin2",
+        "actual_wins": 2,
+        "expected_wins": 4.36,
+        "luck_score": -2.36
+      }
+    ],
+    "2017": [
+      {
+        "owner": "Lee",
+        "actual_wins": 9,
+        "expected_wins": 7.45,
+        "luck_score": 1.55
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 10,
+        "expected_wins": 8.91,
+        "luck_score": 1.09
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 11,
+        "expected_wins": 10.09,
+        "luck_score": 0.91
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 5,
+        "expected_wins": 4.27,
+        "luck_score": 0.73
+      },
+      {
+        "owner": "Mike",
+        "actual_wins": 4,
+        "expected_wins": 3.36,
+        "luck_score": 0.64
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 5,
+        "expected_wins": 4.36,
+        "luck_score": 0.64
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 7,
+        "expected_wins": 7.09,
+        "luck_score": -0.09
+      },
+      {
+        "owner": "Brian",
+        "actual_wins": 8,
+        "expected_wins": 8.27,
+        "luck_score": -0.27
+      },
+      {
+        "owner": "Kevin",
+        "actual_wins": 4,
+        "expected_wins": 4.36,
+        "luck_score": -0.36
+      },
+      {
+        "owner": "Scott",
+        "actual_wins": 7,
+        "expected_wins": 7.45,
+        "luck_score": -0.45
+      },
+      {
+        "owner": "Steph",
+        "actual_wins": 4,
+        "expected_wins": 6.18,
+        "luck_score": -2.18
+      },
+      {
+        "owner": "Kevin2",
+        "actual_wins": 4,
+        "expected_wins": 6.18,
+        "luck_score": -2.18
+      }
+    ],
+    "2018": [
+      {
+        "owner": "Scott",
+        "actual_wins": 8,
+        "expected_wins": 5.55,
+        "luck_score": 2.45
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 8,
+        "expected_wins": 6.64,
+        "luck_score": 1.36
+      },
+      {
+        "owner": "Kevin",
+        "actual_wins": 5,
+        "expected_wins": 4.18,
+        "luck_score": 0.82
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 7,
+        "expected_wins": 6.27,
+        "luck_score": 0.73
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 9,
+        "expected_wins": 8.64,
+        "luck_score": 0.36
+      },
+      {
+        "owner": "Steph",
+        "actual_wins": 9,
+        "expected_wins": 9.09,
+        "luck_score": -0.09
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 2,
+        "expected_wins": 2.18,
+        "luck_score": -0.18
+      },
+      {
+        "owner": "Kevin2",
+        "actual_wins": 7,
+        "expected_wins": 7.18,
+        "luck_score": -0.18
+      },
+      {
+        "owner": "Brian",
+        "actual_wins": 5,
+        "expected_wins": 5.64,
+        "luck_score": -0.64
+      },
+      {
+        "owner": "Mike",
+        "actual_wins": 10,
+        "expected_wins": 11.18,
+        "luck_score": -1.18
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 7,
+        "expected_wins": 8.27,
+        "luck_score": -1.27
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 1,
+        "expected_wins": 3.18,
+        "luck_score": -2.18
+      }
+    ],
+    "2019": [
+      {
+        "owner": "Jeff",
+        "actual_wins": 10,
+        "expected_wins": 7.18,
+        "luck_score": 2.82
+      },
+      {
+        "owner": "Mike",
+        "actual_wins": 9,
+        "expected_wins": 7.45,
+        "luck_score": 1.55
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 7,
+        "expected_wins": 6.0,
+        "luck_score": 1.0
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 8,
+        "expected_wins": 7.55,
+        "luck_score": 0.45
+      },
+      {
+        "owner": "Kevin2",
+        "actual_wins": 6,
+        "expected_wins": 5.64,
+        "luck_score": 0.36
+      },
+      {
+        "owner": "Brian",
+        "actual_wins": 6,
+        "expected_wins": 5.64,
+        "luck_score": 0.36
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 8,
+        "expected_wins": 7.91,
+        "luck_score": 0.09
+      },
+      {
+        "owner": "Steph",
+        "actual_wins": 8,
+        "expected_wins": 8.18,
+        "luck_score": -0.18
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 3,
+        "expected_wins": 3.91,
+        "luck_score": -0.91
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 6,
+        "expected_wins": 7.09,
+        "luck_score": -1.09
+      },
+      {
+        "owner": "Kevin",
+        "actual_wins": 2,
+        "expected_wins": 3.91,
+        "luck_score": -1.91
+      },
+      {
+        "owner": "Scott",
+        "actual_wins": 5,
+        "expected_wins": 7.55,
+        "luck_score": -2.55
+      }
+    ],
+    "2020": [
+      {
+        "owner": "Kevin",
+        "actual_wins": 8,
+        "expected_wins": 5.73,
+        "luck_score": 2.27
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 9,
+        "expected_wins": 6.91,
+        "luck_score": 2.09
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 8,
+        "expected_wins": 6.18,
+        "luck_score": 1.82
+      },
+      {
+        "owner": "Brian",
+        "actual_wins": 10,
+        "expected_wins": 8.82,
+        "luck_score": 1.18
+      },
+      {
+        "owner": "Steph",
+        "actual_wins": 6,
+        "expected_wins": 6.09,
+        "luck_score": -0.09
+      },
+      {
+        "owner": "Mike",
+        "actual_wins": 7,
+        "expected_wins": 7.27,
+        "luck_score": -0.27
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 7,
+        "expected_wins": 7.36,
+        "luck_score": -0.36
+      },
+      {
+        "owner": "Kevin2",
+        "actual_wins": 5,
+        "expected_wins": 5.73,
+        "luck_score": -0.73
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 5,
+        "expected_wins": 5.91,
+        "luck_score": -0.91
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 6,
+        "expected_wins": 6.91,
+        "luck_score": -0.91
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 2,
+        "expected_wins": 3.64,
+        "luck_score": -1.64
+      },
+      {
+        "owner": "Tony",
+        "actual_wins": 5,
+        "expected_wins": 7.45,
+        "luck_score": -2.45
+      }
+    ],
+    "2021": [
+      {
+        "owner": "Tony",
+        "actual_wins": 9,
+        "expected_wins": 6.45,
+        "luck_score": 2.55
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 8,
+        "expected_wins": 6.45,
+        "luck_score": 1.55
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 11,
+        "expected_wins": 10.09,
+        "luck_score": 0.91
+      },
+      {
+        "owner": "Mike",
+        "actual_wins": 8,
+        "expected_wins": 7.18,
+        "luck_score": 0.82
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 9,
+        "expected_wins": 8.36,
+        "luck_score": 0.64
+      },
+      {
+        "owner": "Joshua",
+        "actual_wins": 4,
+        "expected_wins": 4.55,
+        "luck_score": -0.55
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 6,
+        "expected_wins": 6.55,
+        "luck_score": -0.55
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 5,
+        "expected_wins": 5.64,
+        "luck_score": -0.64
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 8,
+        "expected_wins": 8.64,
+        "luck_score": -0.64
+      },
+      {
+        "owner": "Steph",
+        "actual_wins": 5,
+        "expected_wins": 6.0,
+        "luck_score": -1.0
+      },
+      {
+        "owner": "Kevin",
+        "actual_wins": 6,
+        "expected_wins": 7.18,
+        "luck_score": -1.18
+      },
+      {
+        "owner": "Brian",
+        "actual_wins": 5,
+        "expected_wins": 6.91,
+        "luck_score": -1.91
+      }
+    ],
+    "2022": [
+      {
+        "owner": "Steph",
+        "actual_wins": 8,
+        "expected_wins": 5.09,
+        "luck_score": 2.91
+      },
+      {
+        "owner": "Joshua",
+        "actual_wins": 8,
+        "expected_wins": 5.55,
+        "luck_score": 2.45
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 7,
+        "expected_wins": 5.55,
+        "luck_score": 1.45
+      },
+      {
+        "owner": "Brian",
+        "actual_wins": 10,
+        "expected_wins": 8.82,
+        "luck_score": 1.18
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 7,
+        "expected_wins": 6.55,
+        "luck_score": 0.45
+      },
+      {
+        "owner": "Kevin",
+        "actual_wins": 6,
+        "expected_wins": 5.73,
+        "luck_score": 0.27
+      },
+      {
+        "owner": "Tony",
+        "actual_wins": 6,
+        "expected_wins": 6.18,
+        "luck_score": -0.18
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 8,
+        "expected_wins": 8.27,
+        "luck_score": -0.27
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 7,
+        "expected_wins": 8.27,
+        "luck_score": -1.27
+      },
+      {
+        "owner": "Mike",
+        "actual_wins": 6,
+        "expected_wins": 7.73,
+        "luck_score": -1.73
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 7,
+        "expected_wins": 8.73,
+        "luck_score": -1.73
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 4,
+        "expected_wins": 7.55,
+        "luck_score": -3.55
+      }
+    ],
+    "2023": [
+      {
+        "owner": "Peter",
+        "actual_wins": 11,
+        "expected_wins": 9.27,
+        "luck_score": 1.73
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 10,
+        "expected_wins": 8.36,
+        "luck_score": 1.64
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 8,
+        "expected_wins": 6.82,
+        "luck_score": 1.18
+      },
+      {
+        "owner": "Steph",
+        "actual_wins": 7,
+        "expected_wins": 6.09,
+        "luck_score": 0.91
+      },
+      {
+        "owner": "Tony",
+        "actual_wins": 7,
+        "expected_wins": 6.36,
+        "luck_score": 0.64
+      },
+      {
+        "owner": "Mike",
+        "actual_wins": 10,
+        "expected_wins": 9.91,
+        "luck_score": 0.09
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 6,
+        "expected_wins": 6.18,
+        "luck_score": -0.18
+      },
+      {
+        "owner": "Brian",
+        "actual_wins": 6,
+        "expected_wins": 6.18,
+        "luck_score": -0.18
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 6,
+        "expected_wins": 6.27,
+        "luck_score": -0.27
+      },
+      {
+        "owner": "Kevin",
+        "actual_wins": 5,
+        "expected_wins": 6.0,
+        "luck_score": -1.0
+      },
+      {
+        "owner": "Joshua",
+        "actual_wins": 4,
+        "expected_wins": 5.91,
+        "luck_score": -1.91
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 4,
+        "expected_wins": 6.64,
+        "luck_score": -2.64
+      }
+    ],
+    "2024": [
+      {
+        "owner": "Kevin",
+        "actual_wins": 9,
+        "expected_wins": 6.64,
+        "luck_score": 2.36
+      },
+      {
+        "owner": "Tony",
+        "actual_wins": 11,
+        "expected_wins": 9.55,
+        "luck_score": 1.45
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 7,
+        "expected_wins": 6.27,
+        "luck_score": 0.73
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 7,
+        "expected_wins": 6.55,
+        "luck_score": 0.45
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 7,
+        "expected_wins": 6.73,
+        "luck_score": 0.27
+      },
+      {
+        "owner": "Brian",
+        "actual_wins": 8,
+        "expected_wins": 7.82,
+        "luck_score": 0.18
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 9,
+        "expected_wins": 8.91,
+        "luck_score": 0.09
+      },
+      {
+        "owner": "Joshua",
+        "actual_wins": 8,
+        "expected_wins": 8.27,
+        "luck_score": -0.27
+      },
+      {
+        "owner": "Mike",
+        "actual_wins": 4,
+        "expected_wins": 4.45,
+        "luck_score": -0.45
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 4,
+        "expected_wins": 5.27,
+        "luck_score": -1.27
+      },
+      {
+        "owner": "Christopher",
+        "actual_wins": 5,
+        "expected_wins": 6.64,
+        "luck_score": -1.64
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 5,
+        "expected_wins": 6.91,
+        "luck_score": -1.91
+      }
+    ],
+    "2025": [
+      {
+        "owner": "Joshua",
+        "actual_wins": 10,
+        "expected_wins": 8.09,
+        "luck_score": 1.91
+      },
+      {
+        "owner": "Jeff",
+        "actual_wins": 7,
+        "expected_wins": 6.18,
+        "luck_score": 0.82
+      },
+      {
+        "owner": "Brian",
+        "actual_wins": 10,
+        "expected_wins": 9.45,
+        "luck_score": 0.55
+      },
+      {
+        "owner": "Kevin",
+        "actual_wins": 7,
+        "expected_wins": 6.55,
+        "luck_score": 0.45
+      },
+      {
+        "owner": "Mike",
+        "actual_wins": 4,
+        "expected_wins": 3.64,
+        "luck_score": 0.36
+      },
+      {
+        "owner": "Peter",
+        "actual_wins": 6,
+        "expected_wins": 5.82,
+        "luck_score": 0.18
+      },
+      {
+        "owner": "Christopher",
+        "actual_wins": 8,
+        "expected_wins": 7.82,
+        "luck_score": 0.18
+      },
+      {
+        "owner": "Kenneth",
+        "actual_wins": 6,
+        "expected_wins": 6.09,
+        "luck_score": -0.09
+      },
+      {
+        "owner": "Edward",
+        "actual_wins": 8,
+        "expected_wins": 8.09,
+        "luck_score": -0.09
+      },
+      {
+        "owner": "Tony",
+        "actual_wins": 9,
+        "expected_wins": 9.91,
+        "luck_score": -0.91
+      },
+      {
+        "owner": "Chris D",
+        "actual_wins": 3,
+        "expected_wins": 4.09,
+        "luck_score": -1.09
+      },
+      {
+        "owner": "Lee",
+        "actual_wins": 6,
+        "expected_wins": 8.27,
+        "luck_score": -2.27
+      }
+    ]
+  },
+  "luck_summary": [
+    {
+      "owner": "Chris D",
+      "avg": 0.38,
+      "total": 5.72,
+      "seasons": 15
+    },
+    {
+      "owner": "Kevin",
+      "avg": 0.17,
+      "total": 2.62,
+      "seasons": 15
+    },
+    {
+      "owner": "Jeff",
+      "avg": 0.14,
+      "total": 2.0,
+      "seasons": 14
+    },
+    {
+      "owner": "Chris",
+      "avg": 2.0,
+      "total": 2.0,
+      "seasons": 1
+    },
+    {
+      "owner": "Joshua",
+      "avg": 0.33,
+      "total": 1.63,
+      "seasons": 5
+    },
+    {
+      "owner": "Steve L",
+      "avg": 0.64,
+      "total": 1.27,
+      "seasons": 2
+    },
+    {
+      "owner": "Tony",
+      "avg": 0.18,
+      "total": 1.1,
+      "seasons": 6
+    },
+    {
+      "owner": "Peter",
+      "avg": 0.07,
+      "total": 1.0,
+      "seasons": 14
+    },
+    {
+      "owner": "Steve M",
+      "avg": 0.32,
+      "total": 0.64,
+      "seasons": 2
+    },
+    {
+      "owner": "Hidden",
+      "avg": 0.55,
+      "total": 0.55,
+      "seasons": 1
+    },
+    {
+      "owner": "Brian",
+      "avg": 0.05,
+      "total": 0.45,
+      "seasons": 9
+    },
+    {
+      "owner": "Kenneth",
+      "avg": 0.01,
+      "total": 0.19,
+      "seasons": 15
+    },
+    {
+      "owner": "Mike",
+      "avg": 0.0,
+      "total": 0.01,
+      "seasons": 11
+    },
+    {
+      "owner": "Tim",
+      "avg": -0.14,
+      "total": -0.28,
+      "seasons": 2
+    },
+    {
+      "owner": "Chris M",
+      "avg": -0.73,
+      "total": -0.73,
+      "seasons": 1
+    },
+    {
+      "owner": "Tom",
+      "avg": -0.27,
+      "total": -0.82,
+      "seasons": 3
+    },
+    {
+      "owner": "Kevin2",
+      "avg": -0.11,
+      "total": -1.0,
+      "seasons": 9
+    },
+    {
+      "owner": "Lee",
+      "avg": -0.09,
+      "total": -1.28,
+      "seasons": 15
+    },
+    {
+      "owner": "Christopher",
+      "avg": -0.73,
+      "total": -1.46,
+      "seasons": 2
+    },
+    {
+      "owner": "Hidden2",
+      "avg": -0.79,
+      "total": -2.37,
+      "seasons": 3
+    },
+    {
+      "owner": "Edward",
+      "avg": -0.2,
+      "total": -3.0,
+      "seasons": 15
+    },
+    {
+      "owner": "Steph",
+      "avg": -0.35,
+      "total": -3.81,
+      "seasons": 11
+    },
+    {
+      "owner": "Scott",
+      "avg": -0.48,
+      "total": -4.36,
+      "seasons": 9
+    }
+  ],
+  "power_rankings": [
+    {
+      "owner": "Joshua",
+      "pr_score": 94.6,
+      "rank": 1
+    },
+    {
+      "owner": "Lee",
+      "pr_score": 89.7,
+      "rank": 2
+    },
+    {
+      "owner": "Brian",
+      "pr_score": 88.0,
+      "rank": 3
+    },
+    {
+      "owner": "Tony",
+      "pr_score": 73.0,
+      "rank": 4
+    },
+    {
+      "owner": "Kenneth",
+      "pr_score": 70.6,
+      "rank": 5
+    },
+    {
+      "owner": "Jeff",
+      "pr_score": 69.4,
+      "rank": 6
+    },
+    {
+      "owner": "Edward",
+      "pr_score": 68.8,
+      "rank": 7
+    },
+    {
+      "owner": "Mike",
+      "pr_score": 65.6,
+      "rank": 8
+    },
+    {
+      "owner": "Peter",
+      "pr_score": 65.2,
+      "rank": 9
+    },
+    {
+      "owner": "Kevin",
+      "pr_score": 63.8,
+      "rank": 10
+    },
+    {
+      "owner": "Chris D",
+      "pr_score": 44.5,
+      "rank": 11
+    },
+    {
+      "owner": "Christopher",
+      "pr_score": 31.5,
+      "rank": 12
+    }
+  ]
+}

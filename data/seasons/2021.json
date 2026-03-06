@@ -1,0 +1,1937 @@
+{
+  "year": 2021,
+  "meta": {
+    "year": 2021,
+    "league_key": "406.l.185056",
+    "name": "GFN XI",
+    "num_teams": 12,
+    "current_week": "17",
+    "start_week": "1",
+    "end_week": "17",
+    "playoff_start": null
+  },
+  "standings": [
+    {
+      "team_key": "406.l.185056.t.1",
+      "name": "Stairway to Tevin",
+      "owner": "Lee",
+      "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+      "rank": 1,
+      "wins": 9,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1649.28,
+      "points_against": 1611.4499999999998,
+      "playoff_seed": "2"
+    },
+    {
+      "team_key": "406.l.185056.t.3",
+      "name": "NoCholoImSolo",
+      "owner": "Kenneth",
+      "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+      "rank": 2,
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1572.76,
+      "points_against": 1466.8999999999996,
+      "playoff_seed": "6"
+    },
+    {
+      "team_key": "406.l.185056.t.10",
+      "name": "Ottoman Empire",
+      "owner": "Peter",
+      "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+      "rank": 3,
+      "wins": 11,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 1875.1,
+      "points_against": 1517.52,
+      "playoff_seed": "1"
+    },
+    {
+      "team_key": "406.l.185056.t.7",
+      "name": "Fitz n Chips",
+      "owner": "Edward",
+      "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+      "rank": 4,
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1683.53,
+      "points_against": 1617.31,
+      "playoff_seed": "4"
+    },
+    {
+      "team_key": "406.l.185056.t.8",
+      "name": "Just-End-The-Season",
+      "owner": "Mike",
+      "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+      "rank": 5,
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1602.98,
+      "points_against": 1552.75,
+      "playoff_seed": "5"
+    },
+    {
+      "team_key": "406.l.185056.t.4",
+      "name": "Twas da nite Alvin ruined Xmas",
+      "owner": "Tony",
+      "guid": "ETCIM4DSHDIAJAKTR5AT6BFIWY",
+      "rank": 6,
+      "wins": 9,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1618.59,
+      "points_against": 1510.1000000000001,
+      "playoff_seed": "3"
+    },
+    {
+      "team_key": "406.l.185056.t.2",
+      "name": "Boom Squad",
+      "owner": "Jeff",
+      "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+      "rank": 7,
+      "wins": 5,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1479.95,
+      "points_against": 1582.5399999999997,
+      "playoff_seed": "11"
+    },
+    {
+      "team_key": "406.l.185056.t.6",
+      "name": "Got a Chubb-ie",
+      "owner": "Chris D",
+      "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+      "rank": 8,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1617.21,
+      "points_against": 1678.96,
+      "playoff_seed": "7"
+    },
+    {
+      "team_key": "406.l.185056.t.9",
+      "name": "ManningHam N' Cheese",
+      "owner": "Kevin",
+      "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+      "rank": 9,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1595.9,
+      "points_against": 1658.8500000000001,
+      "playoff_seed": "8"
+    },
+    {
+      "team_key": "406.l.185056.t.11",
+      "name": "I have Staff",
+      "owner": "Joshua",
+      "guid": "UTRAVJ74I3XSTYRO3UZUNFW3PA",
+      "rank": 10,
+      "wins": 4,
+      "losses": 10,
+      "ties": 0,
+      "points_for": 1473.2,
+      "points_against": 1684.56,
+      "playoff_seed": "12"
+    },
+    {
+      "team_key": "406.l.185056.t.12",
+      "name": "HurtInaCarr CallWilliamMattar",
+      "owner": "Steph",
+      "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+      "rank": 11,
+      "wins": 5,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1521.61,
+      "points_against": 1662.8999999999999,
+      "playoff_seed": "10"
+    },
+    {
+      "team_key": "406.l.185056.t.5",
+      "name": "PSquared*",
+      "owner": "Brian",
+      "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
+      "rank": 12,
+      "wins": 5,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1567.43,
+      "points_against": 1713.7,
+      "playoff_seed": "9"
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 136.71
+        },
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 102.92
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 116.28
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 107.54
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 113.53
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 108.59
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 138.55
+        },
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 116.73
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 126.46
+        },
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 78.3
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 129.41
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 130.2
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 96.22
+        },
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 95.92
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 75.9
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 123.94
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 145.96
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 96.47
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 107.83
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 146.81
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 142.38
+        },
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 137.62
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 94.44
+        },
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 144.37
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 136.64
+        },
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 155.55
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 78.77
+        },
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 101.75
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 113.21
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 126.17
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 97.75
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 171.4
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 112.91
+        },
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 122.52
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 111.69
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 101.94
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 133.2
+        },
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 145.07
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 121.35
+        },
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 109.62
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 123.66
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 81.76
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 111.99
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 103.53
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 122.46
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 107.89
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 124.19
+        },
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 140.39
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 118.26
+        },
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 114.05
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 136.95
+        },
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 145.73
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 86.83
+        },
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 131.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 138.2
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 122.23
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 158.58
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 158.67
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 130.13
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 117.64
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 129.26
+        },
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 121.37
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 125.33
+        },
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 103.62
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 98.64
+        },
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 108.53
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 172.74
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 123.88
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 134.75
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 99.67
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 105.45
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 123.58
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 122.61
+        },
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 119.53
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 72.92
+        },
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 102.13
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 102.4
+        },
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 97.64
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 108.28
+        },
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 99.71
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 133.44
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 148.24
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 135.97
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 116.79
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 88.66
+        },
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 111.13
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 80.54
+        },
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 100.56
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 143.16
+        },
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 139.15
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 102.84
+        },
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 95.74
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 111.14
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 103.18
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 119.83
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 76.65
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 93.21
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 113.95
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 126.63
+        },
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 90.59
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 139.78
+        },
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 69.72
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 90.97
+        },
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 122.29
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 95.62
+        },
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 98.88
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 91.21
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 89.16
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 107.65
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 91.85
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 109.34
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 102.12
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 101.97
+        },
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 121.32
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 67.24
+        },
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 92.4
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 99.37
+        },
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 106.75
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 109.9
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 126.89
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 97.59
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 104.95
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 134.94
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 107.84
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 106.5
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 126.61
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 100.8
+        },
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 74.45
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 111.32
+        },
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 122.65
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 165.34
+        },
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 121.45
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 117.88
+        },
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 112.6
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 121.09
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 85.03
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 80.92
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 107.99
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 99.37
+        },
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 124.81
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 106.69
+        },
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 119.05
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 125.09
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 115.72
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 130.8
+        },
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 109.02
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 108.95
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 114.29
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 125.6
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 103.17
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 99.52
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 177.05
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 117.78
+        },
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 101.63
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 131.73
+        },
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 87.67
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 140.59
+        },
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 113.54
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 92.81
+        },
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 125.76
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 92.46
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 113.6
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 128.99
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 174.64
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 116.15
+        },
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 85.69
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 139.52
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 71.27
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 89.78
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 75.49
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 88.79
+        },
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 83.19
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 84.05
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 85.31
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 115.81
+        },
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 89.24
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 121.62
+        },
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 106.36
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 131.07
+        },
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 130.94
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 152.78
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 145.15
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.4",
+          "name": "Twas da nite Alvin ruined Xmas",
+          "owner": "Tony",
+          "points": 90.35
+        },
+        {
+          "team_key": "406.l.185056.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 93.08
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.5",
+          "name": "PSquared*",
+          "owner": "Brian",
+          "points": 36.8
+        },
+        {
+          "team_key": "406.l.185056.t.12",
+          "name": "HurtInaCarr CallWilliamMattar",
+          "owner": "Steph",
+          "points": 50.37
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 138.83
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 79.73
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.1",
+          "name": "Stairway to Tevin",
+          "owner": "Lee",
+          "points": 220.81
+        },
+        {
+          "team_key": "406.l.185056.t.3",
+          "name": "NoCholoImSolo",
+          "owner": "Kenneth",
+          "points": 92.51
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 117.41
+        },
+        {
+          "team_key": "406.l.185056.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 80.03
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.7",
+          "name": "Fitz n Chips",
+          "owner": "Edward",
+          "points": 91.85
+        },
+        {
+          "team_key": "406.l.185056.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 144.07
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "406.l.185056.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 124.73
+        },
+        {
+          "team_key": "406.l.185056.t.11",
+          "name": "I have Staff",
+          "owner": "Joshua",
+          "points": 98.26
+        }
+      ]
+    }
+  ]
+}

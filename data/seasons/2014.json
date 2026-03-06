@@ -1,0 +1,1829 @@
+{
+  "year": 2014,
+  "meta": {
+    "year": 2014,
+    "league_key": "331.l.145833",
+    "name": "GOODell FOR NOTHIN'",
+    "num_teams": 12,
+    "current_week": "16",
+    "start_week": "1",
+    "end_week": "16",
+    "playoff_start": null
+  },
+  "standings": [
+    {
+      "team_key": "331.l.145833.t.6",
+      "name": "DaMaryius Targaryen",
+      "owner": "Peter",
+      "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+      "rank": 1,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1848.32,
+      "points_against": 1603.1800000000003,
+      "playoff_seed": "1"
+    },
+    {
+      "team_key": "331.l.145833.t.2",
+      "name": "Jeffrey Football",
+      "owner": "Jeff",
+      "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+      "rank": 2,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1681.95,
+      "points_against": 1529.59,
+      "playoff_seed": "2"
+    },
+    {
+      "team_key": "331.l.145833.t.10",
+      "name": "Jacob's Team",
+      "owner": "Hidden2",
+      "guid": "--",
+      "rank": 3,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1667.46,
+      "points_against": 1628.84,
+      "playoff_seed": "6"
+    },
+    {
+      "team_key": "331.l.145833.t.12",
+      "name": "THE TAMPA 2",
+      "owner": "Kevin2",
+      "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
+      "rank": 4,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1718.49,
+      "points_against": 1538.21,
+      "playoff_seed": "4"
+    },
+    {
+      "team_key": "331.l.145833.t.9",
+      "name": "ManningHam N' Cheese",
+      "owner": "Kevin",
+      "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+      "rank": 5,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1583.75,
+      "points_against": 1563.03,
+      "playoff_seed": "5"
+    },
+    {
+      "team_key": "331.l.145833.t.11",
+      "name": "Tears of Boston",
+      "owner": "Kenneth",
+      "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+      "rank": 6,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1515.45,
+      "points_against": 1442.8899999999999,
+      "playoff_seed": "3"
+    },
+    {
+      "team_key": "331.l.145833.t.4",
+      "name": "Brown",
+      "owner": "Tom",
+      "guid": "WVV244VHQOZLXAW3V7XTH7IVXA",
+      "rank": 7,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1528.42,
+      "points_against": 1483.3200000000002,
+      "playoff_seed": "7"
+    },
+    {
+      "team_key": "331.l.145833.t.7",
+      "name": "Titsburgh Feelers",
+      "owner": "Steph",
+      "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+      "rank": 8,
+      "wins": 2,
+      "losses": 11,
+      "ties": 0,
+      "points_for": 1313.05,
+      "points_against": 1605.26,
+      "playoff_seed": "12"
+    },
+    {
+      "team_key": "331.l.145833.t.1",
+      "name": "Genocologist",
+      "owner": "Lee",
+      "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+      "rank": 9,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1525.48,
+      "points_against": 1576.31,
+      "playoff_seed": "8"
+    },
+    {
+      "team_key": "331.l.145833.t.3",
+      "name": "Noodle Knee III",
+      "owner": "Chris D",
+      "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+      "rank": 10,
+      "wins": 5,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1341.51,
+      "points_against": 1560.6200000000001,
+      "playoff_seed": "10"
+    },
+    {
+      "team_key": "331.l.145833.t.8",
+      "name": "BroSwithZsameHoe",
+      "owner": "Scott",
+      "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
+      "rank": 11,
+      "wins": 4,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1506.86,
+      "points_against": 1589.06,
+      "playoff_seed": "11"
+    },
+    {
+      "team_key": "331.l.145833.t.5",
+      "name": "Ya-Ya Smalls",
+      "owner": "Edward",
+      "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+      "rank": 12,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1505.11,
+      "points_against": 1615.5400000000002,
+      "playoff_seed": "9"
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 81.51
+        },
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 171.54
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 128.18
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 93.44
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 123.84
+        },
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 102.11
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 152.11
+        },
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 121.75
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 107.08
+        },
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 112.11
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 134.47
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 113.72
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 98.74
+        },
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 74.37
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 130.44
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 96.38
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 109.59
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 119.29
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 139.88
+        },
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 108.66
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 147.69
+        },
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 134.93
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 97.69
+        },
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 120.18
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 98.13
+        },
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 127.23
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 74.49
+        },
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 113.69
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 91.6
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 105.1
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 139.65
+        },
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 119.21
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 116.49
+        },
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 128.2
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 97.47
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 128.37
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 123.13
+        },
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 94.84
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 119.47
+        },
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 109.73
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 115.02
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 132.28
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 121.3
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 121.72
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 93.62
+        },
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 142.38
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 131.33
+        },
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 138.12
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 100.49
+        },
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 157.38
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 129.34
+        },
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 133.71
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 85.82
+        },
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 142.06
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 79.64
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 140.44
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 123.01
+        },
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 126.52
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 86.58
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 137.44
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 121.91
+        },
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 67.94
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 139.3
+        },
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 134.99
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 105.46
+        },
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 148.34
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 85.62
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 113.13
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 104.38
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 112.82
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 134.1
+        },
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 127.27
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 123.25
+        },
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 124.22
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 142.36
+        },
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 111.42
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 91.86
+        },
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 151.82
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 110.91
+        },
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 86.55
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 71.51
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 114.9
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 132.25
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 93.9
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 131.32
+        },
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 128.1
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 131.05
+        },
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 113.49
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 108.62
+        },
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 88.52
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 113.71
+        },
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 176.06
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 105.53
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 206.19
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 137.13
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 150.14
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 140.52
+        },
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 148.47
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 100.66
+        },
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 107.51
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 124.51
+        },
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 107.52
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 95.92
+        },
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 90.37
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 139.27
+        },
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 143.16
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 121.28
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 139.43
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 105.35
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 124.7
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 141.8
+        },
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 123.92
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 85.53
+        },
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 119.46
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 116.94
+        },
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 140.55
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 123.74
+        },
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 103.86
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 155.78
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 114.88
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 95.25
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 139.29
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 118.77
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 112.42
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 124.85
+        },
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 124.43
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 98.17
+        },
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 111.97
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 110.18
+        },
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 106.16
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 125.47
+        },
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 108.42
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 134.35
+        },
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 118.13
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 83.5
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 107.99
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 142.19
+        },
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 148.66
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 98.02
+        },
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 125.37
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 165.84
+        },
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 131.13
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 113.92
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 147.01
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 171.53
+        },
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 100.1
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 164.6
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 156.47
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 152.51
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 91.21
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 81.34
+        },
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 126.45
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 122.1
+        },
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 176.15
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 106.69
+        },
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 95.31
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 182.04
+        },
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 92.37
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 109.73
+        },
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 125.45
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 87.06
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 149.88
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 150.08
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 107.71
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 93.25
+        },
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 106.7
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 112.72
+        },
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 105.15
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 114.26
+        },
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 120.85
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.5",
+          "name": "Ya-Ya Smalls",
+          "owner": "Edward",
+          "points": 106.28
+        },
+        {
+          "team_key": "331.l.145833.t.8",
+          "name": "BroSwithZsameHoe",
+          "owner": "Scott",
+          "points": 129.22
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 106.52
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 98.05
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 97.93
+        },
+        {
+          "team_key": "331.l.145833.t.11",
+          "name": "Tears of Boston",
+          "owner": "Kenneth",
+          "points": 92.19
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.1",
+          "name": "Genocologist",
+          "owner": "Lee",
+          "points": 90.87
+        },
+        {
+          "team_key": "331.l.145833.t.3",
+          "name": "Noodle Knee III",
+          "owner": "Chris D",
+          "points": 69.1
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.2",
+          "name": "Jeffrey Football",
+          "owner": "Jeff",
+          "points": 113.47
+        },
+        {
+          "team_key": "331.l.145833.t.6",
+          "name": "DaMaryius Targaryen",
+          "owner": "Peter",
+          "points": 124.74
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.4",
+          "name": "Brown",
+          "owner": "Tom",
+          "points": 131.32
+        },
+        {
+          "team_key": "331.l.145833.t.7",
+          "name": "Titsburgh Feelers",
+          "owner": "Steph",
+          "points": 119.38
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "331.l.145833.t.10",
+          "name": "Jacob's Team",
+          "owner": "Hidden2",
+          "points": 123.83
+        },
+        {
+          "team_key": "331.l.145833.t.12",
+          "name": "THE TAMPA 2",
+          "owner": "Kevin2",
+          "points": 110.82
+        }
+      ]
+    }
+  ]
+}

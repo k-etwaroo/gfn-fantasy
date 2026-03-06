@@ -1,0 +1,1829 @@
+{
+  "year": 2012,
+  "meta": {
+    "year": 2012,
+    "league_key": "273.l.241229",
+    "name": "GOODell FOR NOTHIN'",
+    "num_teams": 12,
+    "current_week": "16",
+    "start_week": "1",
+    "end_week": "16",
+    "playoff_start": null
+  },
+  "standings": [
+    {
+      "team_key": "273.l.241229.t.1",
+      "name": "TE-BOWNED",
+      "owner": "Lee",
+      "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+      "rank": 1,
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 1715.96,
+      "points_against": 1504.3899999999999,
+      "playoff_seed": "2"
+    },
+    {
+      "team_key": "273.l.241229.t.9",
+      "name": "Stop Drop N Rolle",
+      "owner": "Tim",
+      "guid": "BFY67B6XCNFKOAE4ZPJ2PI6NUM",
+      "rank": 2,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1628.23,
+      "points_against": 1682.6699999999998,
+      "playoff_seed": "4"
+    },
+    {
+      "team_key": "273.l.241229.t.7",
+      "name": "HappyTissues",
+      "owner": "Kenneth",
+      "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+      "rank": 3,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1637.93,
+      "points_against": 1686.4199999999998,
+      "playoff_seed": "3"
+    },
+    {
+      "team_key": "273.l.241229.t.5",
+      "name": "Rolle Tide",
+      "owner": "Peter",
+      "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+      "rank": 4,
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1686.79,
+      "points_against": 1434.7600000000002,
+      "playoff_seed": "1"
+    },
+    {
+      "team_key": "273.l.241229.t.11",
+      "name": "Team Kellz",
+      "owner": "Scott",
+      "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
+      "rank": 5,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1587.91,
+      "points_against": 1414.2199999999998,
+      "playoff_seed": "5"
+    },
+    {
+      "team_key": "273.l.241229.t.4",
+      "name": "MyJimShwartzAreDirty",
+      "owner": "Edward",
+      "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+      "rank": 6,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1525.39,
+      "points_against": 1559.15,
+      "playoff_seed": "6"
+    },
+    {
+      "team_key": "273.l.241229.t.8",
+      "name": "ManningHAM n' Cheese",
+      "owner": "Kevin",
+      "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+      "rank": 7,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1558.47,
+      "points_against": 1630.38,
+      "playoff_seed": "8"
+    },
+    {
+      "team_key": "273.l.241229.t.2",
+      "name": "Gang Green",
+      "owner": "Chris D",
+      "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+      "rank": 8,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1565.64,
+      "points_against": 1543.8999999999999,
+      "playoff_seed": "7"
+    },
+    {
+      "team_key": "273.l.241229.t.12",
+      "name": "#sanchizeSWAG",
+      "owner": "Steve L",
+      "guid": "MSH745OA5MRJ6ODN7W4URFPIKE",
+      "rank": 9,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1543.66,
+      "points_against": 1569.6299999999999,
+      "playoff_seed": "9"
+    },
+    {
+      "team_key": "273.l.241229.t.3",
+      "name": "GMEN",
+      "owner": "Hidden2",
+      "guid": "--",
+      "rank": 10,
+      "wins": 5,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1487.47,
+      "points_against": 1574.3400000000004,
+      "playoff_seed": "11"
+    },
+    {
+      "team_key": "273.l.241229.t.6",
+      "name": "Titsburgh Feelers",
+      "owner": "Steve M",
+      "guid": "X7JNYHBHM5RFSN7G3UBGBNINQA",
+      "rank": 11,
+      "wins": 4,
+      "losses": 9,
+      "ties": 0,
+      "points_for": 1491.71,
+      "points_against": 1682.3600000000001,
+      "playoff_seed": "12"
+    },
+    {
+      "team_key": "273.l.241229.t.10",
+      "name": "Gangnam Style",
+      "owner": "Jeff",
+      "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+      "rank": 12,
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1494.94,
+      "points_against": 1641.8799999999997,
+      "playoff_seed": "10"
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 82.34
+        },
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 121.22
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 120.42
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 127.88
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 121.33
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 125.22
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 159.3
+        },
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 134.16
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 131.44
+        },
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 133.86
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 128.47
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 120.92
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 139.84
+        },
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 116.09
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 94.92
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 166.7
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 105.34
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 100.64
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 106.15
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 106.16
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 73.51
+        },
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 119.45
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 155.25
+        },
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 115.96
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 157.22
+        },
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 176.49
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 90.93
+        },
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 121.55
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 98.2
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 95.17
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 91.92
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 125.02
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 125.22
+        },
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 149.8
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 102.95
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 132.22
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 154.56
+        },
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 111.25
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 163.65
+        },
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 114.72
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 126.32
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 140.01
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 103.06
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 137.09
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 160.63
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 116.01
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 127.31
+        },
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 133.49
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 139.27
+        },
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 93.66
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 81.94
+        },
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 111.12
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 89.08
+        },
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 77.39
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 138.81
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 134.73
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 162.2
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 144.8
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 129.15
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 127.46
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 125.39
+        },
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 127.48
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 108.82
+        },
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 136.04
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 127.21
+        },
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 116.2
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 121.89
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 99.12
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 96.91
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 93.31
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 104.67
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 148.92
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 127.3
+        },
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 122.22
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 176.37
+        },
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 101.15
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 128.69
+        },
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 112.85
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 122.12
+        },
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 139.21
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 131.13
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 119.93
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 87.58
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 127.43
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 149.13
+        },
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 96.92
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 109.46
+        },
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 140.73
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 112.35
+        },
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 81.59
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 122.13
+        },
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 89.21
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 142.11
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 70.13
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 85.34
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 127.28
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 149.5
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 113.12
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 152.19
+        },
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 113.06
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 110.04
+        },
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 131.98
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 116.8
+        },
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 115.72
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 144.99
+        },
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 111.35
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 111.89
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 108.85
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 104.76
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 132.31
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 93.69
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 95.58
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 107.74
+        },
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 140.52
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 102.55
+        },
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 108.89
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 109.83
+        },
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 122.75
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 142.33
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 106.65
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 141.24
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 63.56
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 124.58
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 116.27
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 133.1
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 139.14
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 134.2
+        },
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 114.56
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 126.39
+        },
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 84.39
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 169.55
+        },
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 139.33
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 108.49
+        },
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 128.19
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 93.0
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 139.09
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 106.61
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 104.31
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 164.67
+        },
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 121.08
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 143.7
+        },
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 136.82
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 121.1
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 144.46
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 136.92
+        },
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 101.88
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 119.68
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 136.15
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 103.82
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 152.32
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 157.37
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 103.74
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 93.09
+        },
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 140.24
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 120.43
+        },
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 94.25
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 118.55
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 74.77
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 96.88
+        },
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 117.93
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 97.59
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 142.66
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 127.56
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 109.32
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 115.29
+        },
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 114.09
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 139.89
+        },
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 84.31
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.4",
+          "name": "MyJimShwartzAreDirty",
+          "owner": "Edward",
+          "points": 74.3
+        },
+        {
+          "team_key": "273.l.241229.t.11",
+          "name": "Team Kellz",
+          "owner": "Scott",
+          "points": 104.44
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 117.47
+        },
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 131.38
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.6",
+          "name": "Titsburgh Feelers",
+          "owner": "Steve M",
+          "points": 121.43
+        },
+        {
+          "team_key": "273.l.241229.t.10",
+          "name": "Gangnam Style",
+          "owner": "Jeff",
+          "points": 105.34
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 136.0
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 95.74
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.1",
+          "name": "TE-BOWNED",
+          "owner": "Lee",
+          "points": 141.42
+        },
+        {
+          "team_key": "273.l.241229.t.9",
+          "name": "Stop Drop N Rolle",
+          "owner": "Tim",
+          "points": 131.49
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.2",
+          "name": "Gang Green",
+          "owner": "Chris D",
+          "points": 109.3
+        },
+        {
+          "team_key": "273.l.241229.t.8",
+          "name": "ManningHAM n' Cheese",
+          "owner": "Kevin",
+          "points": 137.36
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.3",
+          "name": "GMEN",
+          "owner": "Hidden2",
+          "points": 115.16
+        },
+        {
+          "team_key": "273.l.241229.t.12",
+          "name": "#sanchizeSWAG",
+          "owner": "Steve L",
+          "points": 127.65
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "273.l.241229.t.5",
+          "name": "Rolle Tide",
+          "owner": "Peter",
+          "points": 114.13
+        },
+        {
+          "team_key": "273.l.241229.t.7",
+          "name": "HappyTissues",
+          "owner": "Kenneth",
+          "points": 146.42
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1937 @@
+{
+  "year": 2022,
+  "meta": {
+    "year": 2022,
+    "league_key": "414.l.321722",
+    "name": "GFN XII",
+    "num_teams": 12,
+    "current_week": "17",
+    "start_week": "1",
+    "end_week": "17",
+    "playoff_start": null
+  },
+  "standings": [
+    {
+      "team_key": "414.l.321722.t.5",
+      "name": "Flutie and the Blowfish",
+      "owner": "Brian",
+      "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
+      "rank": 1,
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 1681.42,
+      "points_against": 1480.7400000000002,
+      "playoff_seed": "1"
+    },
+    {
+      "team_key": "414.l.321722.t.1",
+      "name": "Sauce'n on you",
+      "owner": "Lee",
+      "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+      "rank": 2,
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1634.79,
+      "points_against": 1503.6399999999999,
+      "playoff_seed": "2"
+    },
+    {
+      "team_key": "414.l.321722.t.7",
+      "name": "The Hurts Locker",
+      "owner": "Edward",
+      "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+      "rank": 3,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1644.63,
+      "points_against": 1605.1299999999999,
+      "playoff_seed": "6"
+    },
+    {
+      "team_key": "414.l.321722.t.11",
+      "name": "Ex Sucks but my Younghoe Koo",
+      "owner": "Steph",
+      "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+      "rank": 4,
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1407.9,
+      "points_against": 1423.08,
+      "playoff_seed": "4"
+    },
+    {
+      "team_key": "414.l.321722.t.10",
+      "name": "Ottoman Empire",
+      "owner": "Peter",
+      "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+      "rank": 5,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1698.96,
+      "points_against": 1724.71,
+      "playoff_seed": "5"
+    },
+    {
+      "team_key": "414.l.321722.t.12",
+      "name": "Jeff Driskel isn\u2019t a Tight End",
+      "owner": "Joshua",
+      "guid": "UTRAVJ74I3XSTYRO3UZUNFW3PA",
+      "rank": 6,
+      "wins": 8,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 1493.14,
+      "points_against": 1507.36,
+      "playoff_seed": "3"
+    },
+    {
+      "team_key": "414.l.321722.t.8",
+      "name": "Just-End-The-Season",
+      "owner": "Mike",
+      "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+      "rank": 7,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1623.12,
+      "points_against": 1597.6299999999999,
+      "playoff_seed": "9"
+    },
+    {
+      "team_key": "414.l.321722.t.4",
+      "name": "Dow Jones I A 33",
+      "owner": "Tony",
+      "guid": "ETCIM4DSHDIAJAKTR5AT6BFIWY",
+      "rank": 8,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1443.99,
+      "points_against": 1480.9999999999998,
+      "playoff_seed": "11"
+    },
+    {
+      "team_key": "414.l.321722.t.2",
+      "name": "Boom Squad",
+      "owner": "Jeff",
+      "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+      "rank": 9,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1571.98,
+      "points_against": 1657.24,
+      "playoff_seed": "7"
+    },
+    {
+      "team_key": "414.l.321722.t.6",
+      "name": "Got a Chubb-ie",
+      "owner": "Chris D",
+      "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+      "rank": 10,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "points_for": 1483.34,
+      "points_against": 1529.83,
+      "playoff_seed": "8"
+    },
+    {
+      "team_key": "414.l.321722.t.3",
+      "name": "Ed Money May Be Right",
+      "owner": "Kenneth",
+      "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+      "rank": 11,
+      "wins": 4,
+      "losses": 10,
+      "ties": 0,
+      "points_for": 1576.0,
+      "points_against": 1634.04,
+      "playoff_seed": "12"
+    },
+    {
+      "team_key": "414.l.321722.t.9",
+      "name": "ManningHam N' Cheese",
+      "owner": "Kevin",
+      "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+      "rank": 12,
+      "wins": 6,
+      "losses": 8,
+      "ties": 0,
+      "points_for": 1458.71,
+      "points_against": 1573.5800000000004,
+      "playoff_seed": "10"
+    }
+  ],
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 127.03
+        },
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 101.74
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 83.94
+        },
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 142.35
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 109.44
+        },
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 137.39
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 102.36
+        },
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 119.45
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 101.83
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 96.69
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 95.26
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 87.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 94.55
+        },
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 121.53
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 104.3
+        },
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 116.46
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 137.34
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 105.45
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 132.94
+        },
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 100.15
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 135.39
+        },
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 120.02
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 122.64
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 109.5
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 114.47
+        },
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 123.77
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 112.75
+        },
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 108.56
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 108.28
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 109.24
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 87.07
+        },
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 103.47
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 85.03
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 91.91
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 118.56
+        },
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 143.45
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 95.54
+        },
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 85.22
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 88.43
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 61.08
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 124.05
+        },
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 158.28
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 134.26
+        },
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 102.83
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 108.75
+        },
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 141.86
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 126.47
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 136.36
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 152.93
+        },
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 74.61
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 143.29
+        },
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 93.21
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 114.31
+        },
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 120.76
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 94.35
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 107.57
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 121.69
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 89.16
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 136.29
+        },
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 107.33
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 103.43
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 109.08
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 98.1
+        },
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 92.25
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 119.2
+        },
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 141.32
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 106.04
+        },
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 87.9
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 127.61
+        },
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 69.34
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 87.67
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 72.9
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 120.94
+        },
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 116.7
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 93.76
+        },
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 161.27
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 97.34
+        },
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 106.91
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 85.36
+        },
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 94.87
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 95.37
+        },
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 125.87
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 115.63
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 89.33
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 140.65
+        },
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 100.09
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 114.16
+        },
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 115.55
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 120.19
+        },
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 91.39
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 153.0
+        },
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 121.36
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 147.03
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 158.82
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 82.33
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 146.54
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 122.24
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 168.62
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 176.17
+        },
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 149.26
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 84.91
+        },
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 97.37
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 109.06
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 82.73
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 81.4
+        },
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 74.37
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 91.47
+        },
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 126.03
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 120.65
+        },
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 101.24
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 128.25
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 76.2
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 56.03
+        },
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 117.37
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 97.96
+        },
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 166.57
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 109.19
+        },
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 93.12
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 86.0
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 92.15
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 126.71
+        },
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 100.61
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 89.45
+        },
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 111.28
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 141.3
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 105.88
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 137.46
+        },
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 147.34
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 127.57
+        },
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 107.53
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 81.45
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 84.75
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 91.62
+        },
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 100.33
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 107.56
+        },
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 161.76
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 118.67
+        },
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 125.97
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 123.31
+        },
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 149.46
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 88.9
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 94.44
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 113.55
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 116.69
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 107.42
+        },
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 111.02
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 105.43
+        },
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 110.93
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 82.3
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 95.38
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 155.81
+        },
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 128.51
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 133.17
+        },
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 149.55
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 90.79
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 79.54
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 116.61
+        },
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 89.08
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 140.46
+        },
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 131.98
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 91.83
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 109.18
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 101.86
+        },
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 77.55
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 88.03
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 109.22
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 103.4
+        },
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 107.74
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 137.15
+        },
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 152.4
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 109.85
+        },
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 78.78
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 131.07
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 81.56
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 119.31
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 120.94
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 130.66
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 90.36
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 95.93
+        },
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 100.63
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.3",
+          "name": "Ed Money May Be Right",
+          "owner": "Kenneth",
+          "points": 122.57
+        },
+        {
+          "team_key": "414.l.321722.t.9",
+          "name": "ManningHam N' Cheese",
+          "owner": "Kevin",
+          "points": 117.9
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 126.88
+        },
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 86.69
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 80.23
+        },
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 122.98
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.10",
+          "name": "Ottoman Empire",
+          "owner": "Peter",
+          "points": 98.83
+        },
+        {
+          "team_key": "414.l.321722.t.12",
+          "name": "Jeff Driskel isn\u2019t a Tight End",
+          "owner": "Joshua",
+          "points": 97.74
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.1",
+          "name": "Sauce'n on you",
+          "owner": "Lee",
+          "points": 110.88
+        },
+        {
+          "team_key": "414.l.321722.t.5",
+          "name": "Flutie and the Blowfish",
+          "owner": "Brian",
+          "points": 120.68
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.2",
+          "name": "Boom Squad",
+          "owner": "Jeff",
+          "points": 84.58
+        },
+        {
+          "team_key": "414.l.321722.t.6",
+          "name": "Got a Chubb-ie",
+          "owner": "Chris D",
+          "points": 82.93
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.4",
+          "name": "Dow Jones I A 33",
+          "owner": "Tony",
+          "points": 89.4
+        },
+        {
+          "team_key": "414.l.321722.t.8",
+          "name": "Just-End-The-Season",
+          "owner": "Mike",
+          "points": 102.3
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": true,
+      "teams": [
+        {
+          "team_key": "414.l.321722.t.7",
+          "name": "The Hurts Locker",
+          "owner": "Edward",
+          "points": 126.61
+        },
+        {
+          "team_key": "414.l.321722.t.11",
+          "name": "Ex Sucks but my Younghoe Koo",
+          "owner": "Steph",
+          "points": 55.8
+        }
+      ]
+    }
+  ]
+}
