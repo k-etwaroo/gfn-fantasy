@@ -621,6 +621,75 @@
   .section.active > *:nth-child(4) { animation-delay: 0.15s; }
   .section.active > *:nth-child(5) { animation-delay: 0.2s; }
 
+  /* INFO PANEL */
+  .info-panel { margin-bottom: 1.25rem; }
+
+  .info-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--gold);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .info-toggle:hover { opacity: 0.8; }
+
+  .info-toggle .info-arrow {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    font-style: normal;
+  }
+
+  .info-toggle.open .info-arrow { transform: rotate(90deg); }
+
+  .info-body {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+
+  .info-body.open {
+    max-height: 400px;
+    opacity: 1;
+  }
+
+  .info-body-inner {
+    margin-top: 0.75rem;
+    padding: 1rem 1.25rem;
+    background: rgba(0,0,0,0.25);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 4px 4px 0;
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    line-height: 1.7;
+  }
+
+  .info-body-inner strong {
+    color: var(--white);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.4rem;
+  }
+
+  .info-body-inner p { margin: 0 0 0.6rem; }
+  .info-body-inner .formula {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.9rem;
+    color: var(--gold);
+    margin: 0.75rem 0;
+  }
+
   /* SEASON VIEW */
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(8px); }
@@ -939,6 +1008,24 @@
   <div class="section" id="power">
     <div class="section-title">Power <span>Rankings</span></div>
     <div class="section-sub">Season-by-Season Performance Ratings</div>
+
+    <div class="info-panel">
+      <button class="info-toggle" onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('open');">
+        <i class="info-arrow">›</i> ℹ How is this calculated?
+      </button>
+      <div class="info-body">
+        <div class="info-body-inner">
+          <strong>Power Ranking Formula</strong>
+          <p>A weighted weekly performance score blending two factors:</p>
+          <p>🏆 <strong style="display:inline; font-size:0.82rem; letter-spacing:0; text-transform:none; color:var(--white);">Win % (60% weight)</strong><br>
+          Based on your win/loss record over the last 4 weeks. Winning recently matters more than early season results.</p>
+          <p>📊 <strong style="display:inline; font-size:0.82rem; letter-spacing:0; text-transform:none; color:var(--white);">Points Scored (40% weight)</strong><br>
+          Your average points over the last 4 weeks relative to the league average. Scoring big even in a loss improves your ranking.</p>
+          <p class="formula">FINAL SCORE = (Recent Win % × 0.6 + Relative Scoring × 0.4) × 100</p>
+          <p>A score of 100 means you won all 4 recent games AND scored at the league average or above.</p>
+        </div>
+      </div>
+    </div>
 
     <div class="season-filter" id="prSeasonFilter"></div>
 
