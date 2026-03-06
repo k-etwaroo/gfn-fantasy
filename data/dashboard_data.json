@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T14:05:16.714808",
+  "generated_at": "2026-03-06T14:07:18.533535",
   "seasons_count": 15,
   "champions": [
     {
@@ -124,50 +124,14 @@
     }
   ],
   "owner_stats": {
-    "Scott": {
-      "wins": 54,
-      "losses": 63,
-      "pts_for": 13547.82,
-      "pts_against": 13966.41,
+    "Chris Dupay": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
       "titles": 0,
-      "seasons": 9,
+      "seasons": 0,
       "playoff_appearances": 0
-    },
-    "Jeff": {
-      "wins": 95,
-      "losses": 92,
-      "pts_for": 21555.28,
-      "pts_against": 21308.730000000003,
-      "titles": 0,
-      "seasons": 14,
-      "playoff_appearances": 5
-    },
-    "Chris D": {
-      "wins": 94,
-      "losses": 106,
-      "pts_for": 22303.36,
-      "pts_against": 23057.390000000007,
-      "titles": 0,
-      "seasons": 15,
-      "playoff_appearances": 4
-    },
-    "Kenneth": {
-      "wins": 96,
-      "losses": 104,
-      "pts_for": 22579.14,
-      "pts_against": 23025.640000000003,
-      "titles": 1,
-      "seasons": 15,
-      "playoff_appearances": 5
-    },
-    "Kevin": {
-      "wins": 90,
-      "losses": 110,
-      "pts_for": 22061.4,
-      "pts_against": 23057.499999999996,
-      "titles": 1,
-      "seasons": 15,
-      "playoff_appearances": 4
     },
     "Joshua": {
       "wins": 34,
@@ -178,7 +142,7 @@
       "seasons": 5,
       "playoff_appearances": 3
     },
-    "Chad": {
+    "Tim Flaherty": {
       "wins": 0,
       "losses": 0,
       "pts_for": 0.0,
@@ -187,61 +151,97 @@
       "seasons": 0,
       "playoff_appearances": 0
     },
-    "Hidden": {
-      "wins": 7,
-      "losses": 6,
-      "pts_for": 1562.3,
-      "pts_against": 1500.1000000000001,
+    "Kevin Coppins": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
       "titles": 0,
-      "seasons": 1,
-      "playoff_appearances": 1
-    },
-    "Tom": {
-      "wins": 14,
-      "losses": 25,
-      "pts_for": 4303.5,
-      "pts_against": 4586.32,
-      "titles": 0,
-      "seasons": 3,
+      "seasons": 0,
       "playoff_appearances": 0
     },
-    "Kevin2": {
-      "wins": 58,
-      "losses": 59,
-      "pts_for": 13542.58,
-      "pts_against": 13895.75,
+    "Lee Bertram": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
       "titles": 0,
-      "seasons": 9,
-      "playoff_appearances": 3
+      "seasons": 0,
+      "playoff_appearances": 0
     },
-    "Brian": {
-      "wins": 68,
-      "losses": 54,
-      "pts_for": 14056.18,
-      "pts_against": 14077.529999999999,
-      "titles": 2,
-      "seasons": 9,
-      "playoff_appearances": 4
+    "Tom Brown": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
     },
-    "Edward": {
-      "wins": 99,
-      "losses": 101,
-      "pts_for": 23247.95,
-      "pts_against": 23271.789999999997,
-      "titles": 1,
-      "seasons": 15,
-      "playoff_appearances": 5
+    "Jake Barker": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
     },
-    "Lee": {
-      "wins": 112,
-      "losses": 88,
-      "pts_for": 24127.74,
-      "pts_against": 22777.229999999996,
-      "titles": 3,
-      "seasons": 15,
-      "playoff_appearances": 9
+    "Brian Marois": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
     },
-    "Christian": {
+    "Peter Ott": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Kenny Smith": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Malcolm Lapone": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Tony Bevilaqua": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Christopher Hayes": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Kevin Etwaroo": {
       "wins": 0,
       "losses": 0,
       "pts_for": 0.0,
@@ -259,85 +259,85 @@
       "seasons": 0,
       "playoff_appearances": 0
     },
-    "Chris M": {
-      "wins": 5,
-      "losses": 8,
-      "pts_for": 1513.87,
-      "pts_against": 1572.78,
+    "Steve Loesch": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
       "titles": 0,
-      "seasons": 1,
+      "seasons": 0,
       "playoff_appearances": 0
     },
-    "Tony": {
-      "wins": 47,
-      "losses": 36,
-      "pts_for": 9708.36,
-      "pts_against": 9386.15,
-      "titles": 1,
-      "seasons": 6,
-      "playoff_appearances": 3
-    },
-    "Mike": {
-      "wins": 74,
-      "losses": 74,
-      "pts_for": 16943.829999999998,
-      "pts_against": 16572.87,
+    "Christian": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
       "titles": 0,
-      "seasons": 11,
-      "playoff_appearances": 3
-    },
-    "Steve L": {
-      "wins": 11,
-      "losses": 15,
-      "pts_for": 2855.65,
-      "pts_against": 3139.1800000000003,
-      "titles": 0,
-      "seasons": 2,
+      "seasons": 0,
       "playoff_appearances": 0
     },
-    "Peter": {
-      "wins": 106,
-      "losses": 81,
-      "pts_for": 22524.8,
-      "pts_against": 21507.239999999998,
-      "titles": 4,
-      "seasons": 14,
-      "playoff_appearances": 5
-    },
-    "Hidden2": {
-      "wins": 19,
-      "losses": 20,
-      "pts_for": 4871.92,
-      "pts_against": 4663.22,
+    "Chris Maher": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
       "titles": 0,
-      "seasons": 3,
+      "seasons": 0,
       "playoff_appearances": 0
     },
-    "Tim": {
-      "wins": 13,
-      "losses": 13,
-      "pts_for": 3147.7200000000003,
-      "pts_against": 3192.09,
+    "Scott Kellman": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
       "titles": 0,
-      "seasons": 2,
-      "playoff_appearances": 1
+      "seasons": 0,
+      "playoff_appearances": 0
     },
-    "Chris": {
-      "wins": 8,
-      "losses": 5,
-      "pts_for": 1476.68,
-      "pts_against": 1430.2200000000003,
+    "Chad": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
       "titles": 0,
-      "seasons": 1,
-      "playoff_appearances": 1
+      "seasons": 0,
+      "playoff_appearances": 0
     },
-    "Christopher": {
-      "wins": 13,
-      "losses": 15,
-      "pts_for": 3182.6000000000004,
-      "pts_against": 3301.63,
+    "Chris Harjung": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
       "titles": 0,
-      "seasons": 2,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Jeff Lobdell": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Ed Shively": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Brian Abrahamson": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
       "playoff_appearances": 0
     }
   },
@@ -1455,130 +1455,10 @@
   },
   "luck_summary": [
     {
-      "owner": "Chris D",
-      "avg": 0.38,
-      "total": 5.72,
-      "seasons": 15
-    },
-    {
-      "owner": "Kevin",
-      "avg": 0.17,
-      "total": 2.62,
-      "seasons": 15
-    },
-    {
-      "owner": "Jeff",
-      "avg": 0.14,
-      "total": 2.0,
-      "seasons": 14
-    },
-    {
-      "owner": "Chris",
-      "avg": 2.0,
-      "total": 2.0,
-      "seasons": 1
-    },
-    {
       "owner": "Joshua",
       "avg": 0.33,
       "total": 1.63,
       "seasons": 5
-    },
-    {
-      "owner": "Steve L",
-      "avg": 0.64,
-      "total": 1.27,
-      "seasons": 2
-    },
-    {
-      "owner": "Tony",
-      "avg": 0.18,
-      "total": 1.1,
-      "seasons": 6
-    },
-    {
-      "owner": "Peter",
-      "avg": 0.07,
-      "total": 1.0,
-      "seasons": 14
-    },
-    {
-      "owner": "Hidden",
-      "avg": 0.55,
-      "total": 0.55,
-      "seasons": 1
-    },
-    {
-      "owner": "Brian",
-      "avg": 0.05,
-      "total": 0.45,
-      "seasons": 9
-    },
-    {
-      "owner": "Kenneth",
-      "avg": 0.01,
-      "total": 0.19,
-      "seasons": 15
-    },
-    {
-      "owner": "Mike",
-      "avg": 0.0,
-      "total": 0.01,
-      "seasons": 11
-    },
-    {
-      "owner": "Tim",
-      "avg": -0.14,
-      "total": -0.28,
-      "seasons": 2
-    },
-    {
-      "owner": "Chris M",
-      "avg": -0.73,
-      "total": -0.73,
-      "seasons": 1
-    },
-    {
-      "owner": "Tom",
-      "avg": -0.27,
-      "total": -0.82,
-      "seasons": 3
-    },
-    {
-      "owner": "Kevin2",
-      "avg": -0.11,
-      "total": -1.0,
-      "seasons": 9
-    },
-    {
-      "owner": "Lee",
-      "avg": -0.09,
-      "total": -1.28,
-      "seasons": 15
-    },
-    {
-      "owner": "Christopher",
-      "avg": -0.73,
-      "total": -1.46,
-      "seasons": 2
-    },
-    {
-      "owner": "Hidden2",
-      "avg": -0.79,
-      "total": -2.37,
-      "seasons": 3
-    },
-    {
-      "owner": "Edward",
-      "avg": -0.2,
-      "total": -3.0,
-      "seasons": 15
-    },
-    {
-      "owner": "Scott",
-      "avg": -0.48,
-      "total": -4.36,
-      "seasons": 9
     }
   ],
   "power_rankings": [

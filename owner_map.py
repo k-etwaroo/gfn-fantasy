@@ -5,31 +5,31 @@ Maps Yahoo manager GUIDs to consistent owner identities across all seasons.
 
 # GUID → Display Name
 GUID_TO_OWNER = {
-    "KPLDDOE75HRHOKHP7D4DLJ3YRE": "Lee",
-    "DDLJVOXLB3TBCFW2FBQI4KSYSQ": "Edward",
-    "MSH745OA5MRJ6ODN7W4URFPIKE": "Steve L",       # left after 2012
-    "M45RSWGHYMA7MNU7DISCAOIEBE": "Hidden",         # 2011 only
-    "GA2A2CNRUWQHL4CROE6XYLBW5A": "Kevin",
-    "RXICUQGFSZDLSOLDXZPBGWMO5U": "Kenneth",
-    "X7JNYHBHM5RFSN7G3UBGBNINQA": "Steve Minardi",   # early account
-    "6UGHYQ44WGFQM7IMMFU3BPP3ZU": "Kevin2",         # second Kevin, left 2020
-    "--":                           "Hidden2",       # hidden account
-    "M6GO4RD7WXBMO227RA6QPG7SXI": "Scott",          # left after 2019
-    "AUQPV6VO46IPNFKFDXFDHIZG3E": "Jeff",
-    "BOPP2W4BZXTGWKI2HFXSA4J7XQ": "Chris D",
-    "W62MGNWU6PEOVGSZXR73G6O5DU": "Chris M",        # 2011 only
-    "VGRITQ2V6WVUIQUROZCD5ZEX2U": "Peter",
-    "BFY67B6XCNFKOAE4ZPJ2PI6NUM": "Tim",            # left after 2013
+    "KPLDDOE75HRHOKHP7D4DLJ3YRE": "Lee Bertram",
+    "DDLJVOXLB3TBCFW2FBQI4KSYSQ": "Ed Shively",
+    "MSH745OA5MRJ6ODN7W4URFPIKE": "Steve Loesch",
+    "M45RSWGHYMA7MNU7DISCAOIEBE": "Brian Abrahamson",
+    "GA2A2CNRUWQHL4CROE6XYLBW5A": "Kevin Etwaroo",
+    "RXICUQGFSZDLSOLDXZPBGWMO5U": "Kenny Smith",
+    "X7JNYHBHM5RFSN7G3UBGBNINQA": "Steve Minardi",
+    "6UGHYQ44WGFQM7IMMFU3BPP3ZU": "Kevin Coppins",
+    "--":                           "Jake Barker",
+    "M6GO4RD7WXBMO227RA6QPG7SXI": "Scott Kellman",
+    "AUQPV6VO46IPNFKFDXFDHIZG3E": "Jeff Lobdell",
+    "BOPP2W4BZXTGWKI2HFXSA4J7XQ": "Chris Dupay",
+    "W62MGNWU6PEOVGSZXR73G6O5DU": "Chris Maher",
+    "VGRITQ2V6WVUIQUROZCD5ZEX2U": "Peter Ott",
+    "BFY67B6XCNFKOAE4ZPJ2PI6NUM": "Tim Flaherty",
     "3B7LCASSQJCVRTTSMJMRIHFORI": "Chad",
-    "WVV244VHQOZLXAW3V7XTH7IVXA": "Tom",            # left after 2015
-    "YN7YQQNWNDV25OIZS5FVWPNELE": "Steve Minardi",   # left after 2023
-    "IAAOSELPIEFJXKB3UILBKNSFYA": "Mike",
-    "OG6GL5AOKECVCEIF7L5CTEOEQA": "Chris",          # 2016 only
-    "MPYLO3KABC6M4EZHTVOD5S4VOI": "Brian",
-    "ETCIM4DSHDIAJAKTR5AT6BFIWY": "Tony",
-    "GTU3SQECGX3WTJIMVO5VUOOGNY": "Christian",      # 2019-2020 only
+    "WVV244VHQOZLXAW3V7XTH7IVXA": "Tom Brown",
+    "YN7YQQNWNDV25OIZS5FVWPNELE": "Steve Minardi",
+    "IAAOSELPIEFJXKB3UILBKNSFYA": "Malcolm Lapone",
+    "OG6GL5AOKECVCEIF7L5CTEOEQA": "Chris Harjung",
+    "MPYLO3KABC6M4EZHTVOD5S4VOI": "Brian Marois",
+    "ETCIM4DSHDIAJAKTR5AT6BFIWY": "Tony Bevilaqua",
+    "GTU3SQECGX3WTJIMVO5VUOOGNY": "Christian",
     "UTRAVJ74I3XSTYRO3UZUNFW3PA": "Joshua",
-    "NB2LPJVUM4XNNPYQZC42NZUYNE": "Christopher",
+    "NB2LPJVUM4XNNPYQZC42NZUYNE": "Christopher Hayes",
 }
 
 # Current active owners (2025 roster)
