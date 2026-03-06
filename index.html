@@ -617,6 +617,92 @@
   .section.active > *:nth-child(3) { animation-delay: 0.1s; }
   .section.active > *:nth-child(4) { animation-delay: 0.15s; }
   .section.active > *:nth-child(5) { animation-delay: 0.2s; }
+
+  /* ====== MOBILE (≤768px) ====== */
+  @media (max-width: 768px) {
+
+    /* HEADER */
+    header { height: 56px; padding: 0 1rem; }
+    .logo-gfn { font-size: 2rem; letter-spacing: 2px; }
+    .logo-sub { display: none; }
+    .season-badge { font-size: 0.6rem; letter-spacing: 1px; padding: 3px 8px; }
+
+    /* NAV — horizontal scroll, hidden scrollbar, 44px touch targets */
+    nav { padding: 0 0.25rem; scrollbar-width: none; }
+    nav::-webkit-scrollbar { display: none; }
+    nav button {
+      height: 44px;
+      padding: 0 16px;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+      flex-shrink: 0;
+    }
+
+    /* MAIN */
+    main { padding: 1rem; }
+
+    /* SECTION HEADERS */
+    .section-title { font-size: 1.8rem; letter-spacing: 2px; }
+    .section-sub { font-size: 0.7rem; letter-spacing: 1px; margin-bottom: 1.25rem; }
+
+    /* GRIDS — single column on mobile (overrides 900px 2-col rule) */
+    .grid-4, .grid-3, .grid-2, .grid-2-1 {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    /* CARDS */
+    .card { padding: 1rem 1rem 1rem 1.25rem; }
+    .card-value { font-size: 1.8rem; }
+    .card-detail { font-size: 0.78rem; }
+
+    /* HERO BAND */
+    .hero-band {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem 1rem 1rem 1.25rem;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    .hero-headline { font-size: 1.3rem; letter-spacing: 2px; }
+    .hero-stats { gap: 1.25rem; }
+    .hero-stat .n { font-size: 1.5rem; }
+
+    /* TABLES — horizontal scroll with a minimum width so columns don't crush */
+    .table-wrap { -webkit-overflow-scrolling: touch; }
+    table { font-size: 0.82rem; min-width: 460px; }
+    thead th { padding: 10px; font-size: 0.62rem; letter-spacing: 1px; }
+    tbody td { padding: 9px 10px; font-size: 0.875rem; }
+
+    /* SEASON FILTER BUTTONS — 44px touch target */
+    .season-btn { min-height: 44px; padding: 8px 14px; }
+
+    /* CHAMPION CARDS */
+    .champ-card { padding: 0.875rem 1rem; gap: 0.75rem; }
+    .champ-year { font-size: 1.5rem; min-width: 44px; }
+    .champ-name { font-size: 1rem; }
+    .champ-team { font-size: 0.78rem; }
+
+    /* LUCK INDEX — allow meter items to wrap on very small screens */
+    .luck-meter { gap: 5px; font-size: 0.8rem; flex-wrap: wrap; justify-content: flex-end; }
+    .luck-bar-wrap { height: 10px; }
+
+    /* POWER RANKINGS */
+    .pr-row { gap: 0.75rem; }
+    .pr-rank { font-size: 1.3rem; min-width: 26px; }
+    .pr-name { font-size: 0.9rem; }
+    .pr-score { font-size: 0.9rem; }
+
+    /* COST SHEET */
+    .cost-total { font-size: 2.5rem; }
+    .payout-row .pos { font-size: 0.62rem; }
+
+    /* STAT PILLS */
+    .stat-pill { padding: 8px 12px; }
+    .stat-pill .label { font-size: 0.65rem; }
+    .stat-pill .val { font-size: 0.9rem; }
+  }
 </style>
 </head>
 <body>
@@ -672,7 +758,7 @@
   <!-- DASHBOARD -->
   <div class="section active" id="dashboard">
     <div class="section-title"><span>GFN</span> Command Center</div>
-    <div class="section-sub">15 Seasons · 2011–2026 · All-Time Overview</div>
+    <div class="section-sub">15 Seasons · 2011–2025 · All-Time Overview</div>
 
     <div class="hero-band">
       <div class="hero-headline">Reigning Champ: <span>DIGGS THESE HANDS</span></div>
@@ -707,24 +793,22 @@
       </div>
     </div>
 
-    <div class="grid-2-1">
-      <div class="card">
-        <div class="card-title">Championships Per Season</div>
-        <div class="chart-bars" id="champChart"></div>
-        <div style="display:flex; gap:6px; margin-top:12px; flex-wrap:wrap;">
-          <span style="font-size:0.7rem; color:var(--text-dim);">▪ Gold = Championship Season</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-title">All-Time Standings</div>
-        <div style="margin-top:0.5rem;">
-          <div class="stat-pill"><span class="label">🥇 Mike D.</span><span class="val">3 titles</span></div>
-          <div class="stat-pill"><span class="label">🥈 Tom R.</span><span class="val">2 titles</span></div>
-          <div class="stat-pill"><span class="label">🥉 Jake S.</span><span class="val">2 titles</span></div>
-          <div class="stat-pill"><span class="label">Chris B.</span><span class="val">1 title</span></div>
-          <div class="stat-pill"><span class="label">Ryan M.</span><span class="val">1 title</span></div>
-          <div class="stat-pill"><span class="label">Others</span><span class="val">6 titles</span></div>
-        </div>
+    <div class="card" style="margin-bottom:2rem;">
+      <div class="card-title">All-Time Standings</div>
+      <div class="table-wrap" style="margin-top:1rem;">
+        <table id="allTimeStandingsTable">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Manager</th>
+              <th>Seasons</th>
+              <th>Championships</th>
+              <th>Win %</th>
+              <th>Playoffs</th>
+            </tr>
+          </thead>
+          <tbody id="allTimeStandingsBody"></tbody>
+        </table>
       </div>
     </div>
   </div>
@@ -935,18 +1019,28 @@ function showApp() {
 }
 // ====== RENDER FUNCTIONS ======
 
-function buildChampChart(champions) {
-  const el = document.getElementById('champChart');
-  const maxPts = Math.max(...champions.map(c => c.pts_for));
-  champions.forEach(c => {
-    const col = document.createElement('div');
-    col.className = 'chart-bar-col';
-    const h = Math.round((c.pts_for / maxPts) * 100);
-    col.innerHTML = `
-      <div class="chart-bar" style="height:${h}px" title="${c.year}: ${c.owner} · ${c.pts_for.toFixed(0)}pts"></div>
-      <div class="chart-label">${String(c.year).slice(2)}</div>
+function buildAllTimeStandings(managers) {
+  const tb = document.getElementById('allTimeStandingsBody');
+  const sorted = [...managers].sort((a, b) => {
+    if (b.titles !== a.titles) return b.titles - a.titles;
+    return (b.w / (b.w + b.l)) - (a.w / (a.w + a.l));
+  });
+  sorted.forEach((m, i) => {
+    const pct = (m.w / (m.w + m.l) * 100).toFixed(1);
+    const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : '';
+    tb.innerHTML += `
+      <tr>
+        <td><span class="rank-num rank-${i+1}">${i+1}</span></td>
+        <td><strong>${medal ? medal + ' ' : ''}${m.name}</strong></td>
+        <td>${m.seasons}</td>
+        <td>${m.titles > 0 ? `<span class="tag tag-champ">${m.titles}× 🏆</span>` : '—'}</td>
+        <td>
+          ${pct}%
+          <div class="bar-wrap"><div class="bar-fill" style="width:${pct}%"></div></div>
+        </td>
+        <td>${m.playoffs}</td>
+      </tr>
     `;
-    el.appendChild(col);
   });
 }
 
@@ -1227,6 +1321,7 @@ fetch('data/dashboard_data.json')
         ppg: (s.pts_for / (s.wins + s.losses)).toFixed(1),
         titles: s.titles,
         playoffs: s.playoff_appearances,
+        seasons: s.seasons,
       }));
 
     const luckData2025 = (data.luck_by_season['2025'] || []).map(p => ({
@@ -1267,8 +1362,19 @@ fetch('data/dashboard_data.json')
 
     // Update dashboard stat cards
     const topTitles = [...managers].sort((a, b) => b.titles - a.titles)[0];
-    const topWinPct = [...managers].filter(m => (m.w + m.l) >= 10).sort((a, b) => (b.w/(b.w+b.l)) - (a.w/(a.w+a.l)))[0];
+    const topWinPct = [...managers].filter(m => m.seasons >= 5).sort((a, b) => (b.w/(b.w+b.l)) - (a.w/(a.w+a.l)))[0];
     const topPts = champions.reduce((best, c) => c.pts_for > best.pts_for ? c : best, champions[0]);
+
+    // Compute last place finishes: fewest wins each season
+    const lastPlaceCounts = {};
+    for (const [, entries] of Object.entries(data.luck_by_season)) {
+      if (!entries.length) continue;
+      const minWins = Math.min(...entries.map(e => e.actual_wins));
+      entries.filter(e => e.actual_wins === minWins).forEach(e => {
+        lastPlaceCounts[e.owner] = (lastPlaceCounts[e.owner] || 0) + 1;
+      });
+    }
+    const mostLastPlace = Object.entries(lastPlaceCounts).sort((a, b) => b[1] - a[1])[0];
 
     const cards = document.querySelectorAll('#dashboard .grid-4 .card');
     if (cards[0] && topTitles) {
@@ -1284,22 +1390,13 @@ fetch('data/dashboard_data.json')
       cards[2].querySelector('.card-value').textContent = topPts.pts_for.toFixed(0);
       cards[2].querySelector('.card-detail').textContent = `${topPts.owner} · ${topPts.year} Season`;
     }
-
-    // Update All-Time Standings pills
-    const standingsCard = document.querySelectorAll('#dashboard .grid-2-1 .card')[1];
-    if (standingsCard) {
-      const pillsContainer = standingsCard.querySelector('div[style]');
-      const titleLeaders = [...managers].filter(m => m.titles > 0).sort((a, b) => b.titles - a.titles);
-      const medals = ['🥇', '🥈', '🥉'];
-      if (pillsContainer) {
-        pillsContainer.innerHTML = titleLeaders.map((m, i) =>
-          `<div class="stat-pill"><span class="label">${medals[i] || ''} ${m.name}</span><span class="val">${m.titles} title${m.titles !== 1 ? 's' : ''}</span></div>`
-        ).join('');
-      }
+    if (cards[3] && mostLastPlace) {
+      cards[3].querySelector('.card-value').textContent = mostLastPlace[1] + '×';
+      cards[3].querySelector('.card-detail').textContent = `${mostLastPlace[0]} · The Toilet Bowl King 🚽`;
     }
 
     buildYearFilter(champions);
-    buildChampChart(champions);
+    buildAllTimeStandings(managers);
     buildChampRoll(champions);
     buildRecordsTable(managers);
     buildLuckStats(data.luck_by_season, data.luck_summary);
