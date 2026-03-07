@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T14:38:06.633436",
+  "generated_at": "2026-03-06T19:07:13.425852",
   "seasons_count": 15,
   "champions": [
     {
@@ -124,68 +124,41 @@
     }
   ],
   "owner_stats": {
-    "Chris Dupay": {
-      "wins": 94,
-      "losses": 106,
-      "pts_for": 22303.36,
-      "pts_against": 23057.390000000007,
+    "Steve Loesch": {
+      "wins": 11,
+      "losses": 15,
+      "pts_for": 2855.65,
+      "pts_against": 3139.1800000000003,
       "titles": 0,
-      "seasons": 15,
-      "playoff_appearances": 4
-    },
-    "Kevin Coppins": {
-      "wins": 58,
-      "losses": 59,
-      "pts_for": 13542.58,
-      "pts_against": 13895.75,
-      "titles": 0,
-      "seasons": 9,
-      "playoff_appearances": 3
-    },
-    "Malcolm Lapone": {
-      "wins": 74,
-      "losses": 74,
-      "pts_for": 16943.829999999998,
-      "pts_against": 16572.87,
-      "titles": 0,
-      "seasons": 11,
-      "playoff_appearances": 3
-    },
-    "Chad": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
+      "seasons": 2,
       "playoff_appearances": 0
     },
-    "Kevin Etwaroo": {
-      "wins": 90,
-      "losses": 110,
-      "pts_for": 22061.4,
-      "pts_against": 23057.499999999996,
-      "titles": 1,
-      "seasons": 15,
+    "Brian Marois": {
+      "wins": 68,
+      "losses": 54,
+      "pts_for": 14056.18,
+      "pts_against": 14077.529999999999,
+      "titles": 2,
+      "seasons": 9,
       "playoff_appearances": 4
     },
-    "Chris Harjung": {
-      "wins": 8,
-      "losses": 5,
-      "pts_for": 1476.68,
-      "pts_against": 1430.2200000000003,
+    "Jake Barker": {
+      "wins": 19,
+      "losses": 20,
+      "pts_for": 4871.92,
+      "pts_against": 4663.22,
+      "titles": 0,
+      "seasons": 3,
+      "playoff_appearances": 0
+    },
+    "Brian Abrahamson": {
+      "wins": 7,
+      "losses": 6,
+      "pts_for": 1562.3,
+      "pts_against": 1500.1000000000001,
       "titles": 0,
       "seasons": 1,
       "playoff_appearances": 1
-    },
-    "Peter Ott": {
-      "wins": 106,
-      "losses": 81,
-      "pts_for": 22524.8,
-      "pts_against": 21507.239999999998,
-      "titles": 4,
-      "seasons": 14,
-      "playoff_appearances": 5
     },
     "Chris Maher": {
       "wins": 5,
@@ -205,15 +178,6 @@
       "seasons": 2,
       "playoff_appearances": 1
     },
-    "Brian Abrahamson": {
-      "wins": 7,
-      "losses": 6,
-      "pts_for": 1562.3,
-      "pts_against": 1500.1000000000001,
-      "titles": 0,
-      "seasons": 1,
-      "playoff_appearances": 1
-    },
     "Steve Minardi": {
       "wins": 83,
       "losses": 89,
@@ -222,33 +186,6 @@
       "titles": 1,
       "seasons": 13,
       "playoff_appearances": 4
-    },
-    "Kenny Smith": {
-      "wins": 96,
-      "losses": 104,
-      "pts_for": 22579.14,
-      "pts_against": 23025.640000000003,
-      "titles": 1,
-      "seasons": 15,
-      "playoff_appearances": 5
-    },
-    "Christopher Hayes": {
-      "wins": 13,
-      "losses": 15,
-      "pts_for": 3182.6000000000004,
-      "pts_against": 3301.63,
-      "titles": 0,
-      "seasons": 2,
-      "playoff_appearances": 0
-    },
-    "Jake Barker": {
-      "wins": 19,
-      "losses": 20,
-      "pts_for": 4871.92,
-      "pts_against": 4663.22,
-      "titles": 0,
-      "seasons": 3,
-      "playoff_appearances": 0
     },
     "Christian": {
       "wins": 0,
@@ -259,41 +196,41 @@
       "seasons": 0,
       "playoff_appearances": 0
     },
-    "Ed Shively": {
-      "wins": 99,
-      "losses": 101,
-      "pts_for": 23247.95,
-      "pts_against": 23271.789999999997,
+    "Kevin Coppins": {
+      "wins": 58,
+      "losses": 59,
+      "pts_for": 13542.58,
+      "pts_against": 13895.75,
+      "titles": 0,
+      "seasons": 9,
+      "playoff_appearances": 3
+    },
+    "Chad": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Joshua": {
+      "wins": 34,
+      "losses": 36,
+      "pts_for": 7925.920000000001,
+      "pts_against": 7968.079999999999,
+      "titles": 1,
+      "seasons": 5,
+      "playoff_appearances": 3
+    },
+    "Kenny Smith": {
+      "wins": 96,
+      "losses": 104,
+      "pts_for": 22579.14,
+      "pts_against": 23025.640000000003,
       "titles": 1,
       "seasons": 15,
       "playoff_appearances": 5
-    },
-    "Steve Loesch": {
-      "wins": 11,
-      "losses": 15,
-      "pts_for": 2855.65,
-      "pts_against": 3139.1800000000003,
-      "titles": 0,
-      "seasons": 2,
-      "playoff_appearances": 0
-    },
-    "Tony Bevilaqua": {
-      "wins": 47,
-      "losses": 36,
-      "pts_for": 9708.36,
-      "pts_against": 9386.15,
-      "titles": 1,
-      "seasons": 6,
-      "playoff_appearances": 3
-    },
-    "Scott Kellman": {
-      "wins": 54,
-      "losses": 63,
-      "pts_for": 13547.82,
-      "pts_against": 13966.41,
-      "titles": 0,
-      "seasons": 9,
-      "playoff_appearances": 0
     },
     "Jeff Lobdell": {
       "wins": 95,
@@ -304,14 +241,32 @@
       "seasons": 14,
       "playoff_appearances": 5
     },
-    "Brian Marois": {
-      "wins": 68,
-      "losses": 54,
-      "pts_for": 14056.18,
-      "pts_against": 14077.529999999999,
-      "titles": 2,
-      "seasons": 9,
+    "Kevin Etwaroo": {
+      "wins": 90,
+      "losses": 110,
+      "pts_for": 22061.4,
+      "pts_against": 23057.499999999996,
+      "titles": 1,
+      "seasons": 15,
       "playoff_appearances": 4
+    },
+    "Ed Shively": {
+      "wins": 99,
+      "losses": 101,
+      "pts_for": 23247.95,
+      "pts_against": 23271.789999999997,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 5
+    },
+    "Peter Ott": {
+      "wins": 106,
+      "losses": 81,
+      "pts_for": 22524.8,
+      "pts_against": 21507.239999999998,
+      "titles": 4,
+      "seasons": 14,
+      "playoff_appearances": 5
     },
     "Lee Bertram": {
       "wins": 112,
@@ -322,6 +277,33 @@
       "seasons": 15,
       "playoff_appearances": 9
     },
+    "Christopher Hayes": {
+      "wins": 13,
+      "losses": 15,
+      "pts_for": 3182.6000000000004,
+      "pts_against": 3301.63,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 0
+    },
+    "Chris Harjung": {
+      "wins": 8,
+      "losses": 5,
+      "pts_for": 1476.68,
+      "pts_against": 1430.2200000000003,
+      "titles": 0,
+      "seasons": 1,
+      "playoff_appearances": 1
+    },
+    "Tony Bevilaqua": {
+      "wins": 47,
+      "losses": 36,
+      "pts_for": 9708.36,
+      "pts_against": 9386.15,
+      "titles": 1,
+      "seasons": 6,
+      "playoff_appearances": 3
+    },
     "Tom Brown": {
       "wins": 14,
       "losses": 25,
@@ -331,13 +313,31 @@
       "seasons": 3,
       "playoff_appearances": 0
     },
-    "Joshua": {
-      "wins": 34,
-      "losses": 36,
-      "pts_for": 7925.920000000001,
-      "pts_against": 7968.079999999999,
-      "titles": 1,
-      "seasons": 5,
+    "Chris Dupay": {
+      "wins": 94,
+      "losses": 106,
+      "pts_for": 22303.36,
+      "pts_against": 23057.390000000007,
+      "titles": 0,
+      "seasons": 15,
+      "playoff_appearances": 4
+    },
+    "Scott Kellman": {
+      "wins": 54,
+      "losses": 63,
+      "pts_for": 13547.82,
+      "pts_against": 13966.41,
+      "titles": 0,
+      "seasons": 9,
+      "playoff_appearances": 0
+    },
+    "Malcolm Lapone": {
+      "wins": 74,
+      "losses": 74,
+      "pts_for": 16943.829999999998,
+      "pts_against": 16572.87,
+      "titles": 0,
+      "seasons": 11,
       "playoff_appearances": 3
     }
   },
@@ -1467,16 +1467,16 @@
       "seasons": 15
     },
     {
-      "owner": "Chris Harjung",
-      "avg": 2.0,
-      "total": 2.0,
-      "seasons": 1
-    },
-    {
       "owner": "Jeff Lobdell",
       "avg": 0.14,
       "total": 2.0,
       "seasons": 14
+    },
+    {
+      "owner": "Chris Harjung",
+      "avg": 2.0,
+      "total": 2.0,
+      "seasons": 1
     },
     {
       "owner": "Joshua",

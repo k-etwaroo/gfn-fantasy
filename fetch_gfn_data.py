@@ -208,30 +208,34 @@ def fetch_standings(year):
     return standings
 
 
-def fetch_team_players(team_key, week):
-    """Fetch individual player stats for one team for a specific week."""
-    data = yahoo_get(f"/team/{team_key}/players/stats;type=week;week={week}")
-    if not data:
-        return []
-
-    try:
-        players_raw = data["fantasy_content"]["team"][1]["players"]
-    except (KeyError, IndexError, TypeError):
-        return []
-
+def _parse_players_from_raw(players_raw, debug=False):
+    """Parse the players block from a Yahoo team roster response."""
     players = []
     count = int(players_raw.get("count", 0))
     for i in range(count):
         try:
             player_block = players_raw[str(i)]["player"]
             info         = flatten(player_block[0]) if isinstance(player_block[0], list) else {}
-            stats_block  = player_block[1] if len(player_block) > 1 else {}
 
             name_info = info.get("name", {})
             full_name = name_info.get("full", "") if isinstance(name_info, dict) else str(name_info)
             position  = info.get("primary_position", "—")
 
-            pts_raw = stats_block.get("player_stats", {}).get("total", 0)
+            if debug and i == 0:
+                print(f"    [debug] player_block length: {len(player_block)}")
+                for idx, blk in enumerate(player_block):
+                    print(f"    [debug] player_block[{idx}]: {json.dumps(blk, indent=2)[:300]}")
+
+            # Search all blocks after index 0 for player_points or player_stats
+            pts_raw = None
+            for blk in player_block[1:]:
+                if not isinstance(blk, dict):
+                    continue
+                pts_raw = blk.get("player_points", {}).get("total") \
+                       or blk.get("player_stats",  {}).get("total")
+                if pts_raw:
+                    break
+
             try:
                 points = float(pts_raw) if pts_raw not in (None, "", "-") else 0.0
             except (TypeError, ValueError):
@@ -245,8 +249,76 @@ def fetch_team_players(team_key, week):
                 })
         except (KeyError, IndexError, TypeError):
             continue
-
     return players
+
+
+def fetch_team_players(team_key, week, debug=False):
+    """
+    Fetch individual player fantasy points for one team for a specific week.
+    Tries the roster/points endpoint first (returns player_points.total),
+    falls back to roster/stats (returns player_stats.total).
+    """
+    # Primary: roster points endpoint — gives fantasy score totals directly
+    data = yahoo_get(f"/team/{team_key}/roster;week={week}/players/points")
+    if not data:
+        # Fallback: roster stats endpoint
+        data = yahoo_get(f"/team/{team_key}/roster/players/stats;type=week;week={week}")
+    if not data:
+        return []
+
+    if debug:
+        print(f"    [debug] top-level keys: {list(data.get('fantasy_content', {}).keys())}")
+
+    try:
+        team_block   = data["fantasy_content"]["team"]
+        # roster is at team[1]["roster"]["0"]["players"]
+        players_raw  = team_block[1].get("roster", {}).get("0", {}).get("players")
+        if players_raw is None:
+            # Some endpoints nest directly under team[1]["players"]
+            players_raw = team_block[1].get("players")
+        if players_raw is None:
+            if debug:
+                print(f"    [debug] team[1] keys: {list(team_block[1].keys())}")
+            return []
+    except (KeyError, IndexError, TypeError) as e:
+        if debug:
+            print(f"    [debug] parse error: {e}")
+        return []
+
+    return _parse_players_from_raw(players_raw, debug=debug)
+
+
+def test_players_week1(year=2024):
+    """Debug helper: fetch week 1 for the first team and print raw + parsed output."""
+    key      = get_league_key(year)
+    data     = yahoo_get(f"/league/{key}/scoreboard;week=1")
+    if not data:
+        print("  ✗ Could not fetch scoreboard")
+        return
+
+    matchups_raw = data["fantasy_content"]["league"][1]["scoreboard"]["0"]["matchups"]
+    first_match  = matchups_raw["0"]["matchup"]
+    first_team   = first_match["0"]["teams"]["0"]["team"]
+    info         = flatten(first_team[0])
+    team_key     = info.get("team_key", "")
+    team_name    = info.get("name", "")
+
+    print(f"\n  Testing team: {team_name} ({team_key}) — Week 1")
+
+    # Try primary endpoint
+    print(f"\n  → Trying: /team/{team_key}/roster;week=1/players/points")
+    r1 = yahoo_get(f"/team/{team_key}/roster;week=1/players/points")
+    if r1:
+        print(f"  ✓ Got response. Keys: {list(r1.get('fantasy_content', {}).keys())}")
+        print(f"  Raw (trimmed): {json.dumps(r1, indent=2)[:800]}")
+    else:
+        print("  ✗ No response")
+
+    # Parse with debug
+    players = fetch_team_players(team_key, 1, debug=True)
+    print(f"\n  Parsed {len(players)} players:")
+    for p in players[:6]:
+        print(f"    {p['position']:4s}  {p['name']:<30s}  {p['points']:.2f} pts")
 
 
 def fetch_matchups(year, with_players=False):
@@ -657,6 +729,8 @@ def main():
     parser.add_argument("--refetch", action="store_true", help="Re-fetch all seasons even if cached")
     parser.add_argument("--players", action="store_true",
                         help="Fetch individual player stats per week (requires --year; recomputes player_highs.json)")
+    parser.add_argument("--test-players", action="store_true",
+                        help="Debug: fetch week 1 of --year (default 2024) and print raw player data")
     args = parser.parse_args()
 
     missing = [k for k, v in {
@@ -681,6 +755,11 @@ def main():
 
     if args.build:
         build_dashboard_data()
+        return
+
+    if args.test_players:
+        print(f"🔬 Testing player fetch for {args.year or 2024} Week 1...")
+        test_players_week1(args.year or 2024)
         return
 
     if args.players and not args.year:
