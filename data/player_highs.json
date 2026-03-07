@@ -1,6 +1,926 @@
 {
-  "generated_at": "2026-03-06T19:09:22.169363",
+  "generated_at": "2026-03-06T19:34:13.313366",
   "weekly_highs": [
+    {
+      "year": 2011,
+      "week": 1,
+      "owner": "Ed Shively",
+      "player": "Tom Brady",
+      "position": "QB",
+      "points": 42.98
+    },
+    {
+      "year": 2011,
+      "week": 2,
+      "owner": "Scott Kellman",
+      "player": "Jeremy Maclin",
+      "position": "WR",
+      "points": 42.2
+    },
+    {
+      "year": 2011,
+      "week": 3,
+      "owner": "Lee Bertram",
+      "player": "Wes Welker",
+      "position": "WR",
+      "points": 51.6
+    },
+    {
+      "year": 2011,
+      "week": 4,
+      "owner": "Kevin Etwaroo",
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "points": 53.17
+    },
+    {
+      "year": 2011,
+      "week": 5,
+      "owner": "Kenny Smith",
+      "player": "Ben Roethlisberger",
+      "position": "QB",
+      "points": 33.12
+    },
+    {
+      "year": 2011,
+      "week": 6,
+      "owner": "Jeff Lobdell",
+      "player": "Ahmad Bradshaw",
+      "position": "RB",
+      "points": 33.0
+    },
+    {
+      "year": 2011,
+      "week": 7,
+      "owner": "Lee Bertram",
+      "player": "Arian Foster",
+      "position": "RB",
+      "points": 46.4
+    },
+    {
+      "year": 2011,
+      "week": 8,
+      "owner": "Chris Maher",
+      "player": "Bengals",
+      "position": "DEF",
+      "points": 41.45
+    },
+    {
+      "year": 2011,
+      "week": 9,
+      "owner": "Steve Minardi",
+      "player": "Vincent Jackson",
+      "position": "WR",
+      "points": 39.1
+    },
+    {
+      "year": 2011,
+      "week": 10,
+      "owner": "Jeff Lobdell",
+      "player": "Bears",
+      "position": "DEF",
+      "points": 48.2
+    },
+    {
+      "year": 2011,
+      "week": 11,
+      "owner": "Lee Bertram",
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "points": 36.6
+    },
+    {
+      "year": 2011,
+      "week": 12,
+      "owner": "Brian Abrahamson",
+      "player": "Drew Brees",
+      "position": "QB",
+      "points": 43.32
+    },
+    {
+      "year": 2011,
+      "week": 13,
+      "owner": "Steve Loesch",
+      "player": "Cam Newton",
+      "position": "QB",
+      "points": 42.26
+    },
+    {
+      "year": 2011,
+      "week": 14,
+      "owner": "Kenny Smith",
+      "player": "Jaguars",
+      "position": "DEF",
+      "points": 37.2
+    },
+    {
+      "year": 2011,
+      "week": 15,
+      "owner": "Brian Abrahamson",
+      "player": "Drew Brees",
+      "position": "QB",
+      "points": 42.88
+    },
+    {
+      "year": 2011,
+      "week": 16,
+      "owner": "Steve Minardi",
+      "player": "Bills",
+      "position": "DEF",
+      "points": 48.8
+    },
+    {
+      "year": 2018,
+      "week": 1,
+      "owner": "Kevin Coppins",
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "points": 43.55
+    },
+    {
+      "year": 2018,
+      "week": 2,
+      "owner": "Ed Shively",
+      "player": "Ben Roethlisberger",
+      "position": "QB",
+      "points": 48.73
+    },
+    {
+      "year": 2018,
+      "week": 3,
+      "owner": "Peter Ott",
+      "player": "Drew Brees",
+      "position": "QB",
+      "points": 50.29
+    },
+    {
+      "year": 2018,
+      "week": 4,
+      "owner": "Brian Marois",
+      "player": "Jared Goff",
+      "position": "QB",
+      "points": 45.8
+    },
+    {
+      "year": 2018,
+      "week": 5,
+      "owner": "Steve Minardi",
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "points": 36.68
+    },
+    {
+      "year": 2018,
+      "week": 6,
+      "owner": "Chris Dupay",
+      "player": "Jameis Winston",
+      "position": "QB",
+      "points": 38.2
+    },
+    {
+      "year": 2018,
+      "week": 7,
+      "owner": "Malcolm Lapone",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 39.82
+    },
+    {
+      "year": 2018,
+      "week": 8,
+      "owner": "Peter Ott",
+      "player": "James Conner",
+      "position": "RB",
+      "points": 35.7
+    },
+    {
+      "year": 2018,
+      "week": 9,
+      "owner": "Peter Ott",
+      "player": "Drew Brees",
+      "position": "QB",
+      "points": 37.69
+    },
+    {
+      "year": 2018,
+      "week": 10,
+      "owner": "Steve Minardi",
+      "player": "Mitchell Trubisky",
+      "position": "QB",
+      "points": 41.75
+    },
+    {
+      "year": 2018,
+      "week": 11,
+      "owner": "Malcolm Lapone",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 44.17
+    },
+    {
+      "year": 2018,
+      "week": 12,
+      "owner": "Lee Bertram",
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "points": 41.2
+    },
+    {
+      "year": 2018,
+      "week": 13,
+      "owner": "Malcolm Lapone",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 38.75
+    },
+    {
+      "year": 2018,
+      "week": 14,
+      "owner": "Jeff Lobdell",
+      "player": "Derrick Henry",
+      "position": "RB",
+      "points": 47.8
+    },
+    {
+      "year": 2018,
+      "week": 15,
+      "owner": "Steve Minardi",
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "points": 34.0
+    },
+    {
+      "year": 2018,
+      "week": 16,
+      "owner": "Steve Minardi",
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "points": 52.13
+    },
+    {
+      "year": 2019,
+      "week": 1,
+      "owner": "Peter Ott",
+      "player": "Sammy Watkins",
+      "position": "WR",
+      "points": 42.3
+    },
+    {
+      "year": 2019,
+      "week": 2,
+      "owner": "Steve Minardi",
+      "player": "Patriots",
+      "position": "DEF",
+      "points": 43.3
+    },
+    {
+      "year": 2019,
+      "week": 3,
+      "owner": "Ed Shively",
+      "player": "Russell Wilson",
+      "position": "QB",
+      "points": 49.34
+    },
+    {
+      "year": 2019,
+      "week": 4,
+      "owner": "Chris Dupay",
+      "player": "Nick Chubb",
+      "position": "RB",
+      "points": 37.8
+    },
+    {
+      "year": 2019,
+      "week": 5,
+      "owner": "Jeff Lobdell",
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "points": 48.74
+    },
+    {
+      "year": 2019,
+      "week": 6,
+      "owner": "Steve Minardi",
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "points": 40.0
+    },
+    {
+      "year": 2019,
+      "week": 7,
+      "owner": "Ed Shively",
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "points": 50.01
+    },
+    {
+      "year": 2019,
+      "week": 8,
+      "owner": "Scott Kellman",
+      "player": "Aaron Jones Sr.",
+      "position": "RB",
+      "points": 38.1
+    },
+    {
+      "year": 2019,
+      "week": 9,
+      "owner": "Steve Minardi",
+      "player": "Russell Wilson",
+      "position": "QB",
+      "points": 46.47
+    },
+    {
+      "year": 2019,
+      "week": 10,
+      "owner": "Malcolm Lapone",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 38.84
+    },
+    {
+      "year": 2019,
+      "week": 11,
+      "owner": "Brian Marois",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 39.09
+    },
+    {
+      "year": 2019,
+      "week": 12,
+      "owner": "Peter Ott",
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "points": 40.01
+    },
+    {
+      "year": 2019,
+      "week": 13,
+      "owner": "Kenny Smith",
+      "player": "James White",
+      "position": "RB",
+      "points": 33.7
+    },
+    {
+      "year": 2019,
+      "week": 14,
+      "owner": "Kenny Smith",
+      "player": "Drew Brees",
+      "position": "QB",
+      "points": 47.31
+    },
+    {
+      "year": 2019,
+      "week": 15,
+      "owner": "Peter Ott",
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "points": 40.83
+    },
+    {
+      "year": 2019,
+      "week": 16,
+      "owner": "Peter Ott",
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "points": 34.82
+    },
+    {
+      "year": 2020,
+      "week": 1,
+      "owner": "Tony Bevilaqua",
+      "player": "Russell Wilson",
+      "position": "QB",
+      "points": 39.53
+    },
+    {
+      "year": 2020,
+      "week": 2,
+      "owner": "Jeff Lobdell",
+      "player": "Dak Prescott",
+      "position": "QB",
+      "points": 48.3
+    },
+    {
+      "year": 2020,
+      "week": 3,
+      "owner": "Malcolm Lapone",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 47.75
+    },
+    {
+      "year": 2020,
+      "week": 4,
+      "owner": "Jeff Lobdell",
+      "player": "Dak Prescott",
+      "position": "QB",
+      "points": 47.53
+    },
+    {
+      "year": 2020,
+      "week": 5,
+      "owner": "Malcolm Lapone",
+      "player": "Chase Claypool",
+      "position": "WR",
+      "points": 39.1
+    },
+    {
+      "year": 2020,
+      "week": 6,
+      "owner": "Brian Marois",
+      "player": "Derrick Henry",
+      "position": "RB",
+      "points": 39.4
+    },
+    {
+      "year": 2020,
+      "week": 7,
+      "owner": "Malcolm Lapone",
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "points": 45.95
+    },
+    {
+      "year": 2020,
+      "week": 8,
+      "owner": "Jeff Lobdell",
+      "player": "Dalvin Cook",
+      "position": "RB",
+      "points": 47.6
+    },
+    {
+      "year": 2020,
+      "week": 9,
+      "owner": "Steve Minardi",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 43.75
+    },
+    {
+      "year": 2020,
+      "week": 10,
+      "owner": "Brian Marois",
+      "player": "Tom Brady",
+      "position": "QB",
+      "points": 38.84
+    },
+    {
+      "year": 2020,
+      "week": 11,
+      "owner": "Kevin Etwaroo",
+      "player": "Deshaun Watson",
+      "position": "QB",
+      "points": 38.36
+    },
+    {
+      "year": 2020,
+      "week": 12,
+      "owner": "Brian Marois",
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "points": 51.4
+    },
+    {
+      "year": 2020,
+      "week": 13,
+      "owner": "Chris Dupay",
+      "player": "Patriots",
+      "position": "DEF",
+      "points": 44.83
+    },
+    {
+      "year": 2020,
+      "week": 14,
+      "owner": "Lee Bertram",
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "points": 37.4
+    },
+    {
+      "year": 2020,
+      "week": 15,
+      "owner": "Steve Minardi",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 44.66
+    },
+    {
+      "year": 2020,
+      "week": 16,
+      "owner": "Steve Minardi",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 39.05
+    },
+    {
+      "year": 2021,
+      "week": 1,
+      "owner": "Kevin Etwaroo",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 40.03
+    },
+    {
+      "year": 2021,
+      "week": 2,
+      "owner": "Malcolm Lapone",
+      "player": "Derrick Henry",
+      "position": "RB",
+      "points": 44.7
+    },
+    {
+      "year": 2021,
+      "week": 3,
+      "owner": "Chris Dupay",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 45.22
+    },
+    {
+      "year": 2021,
+      "week": 4,
+      "owner": "Brian Marois",
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "points": 42.1
+    },
+    {
+      "year": 2021,
+      "week": 5,
+      "owner": "Brian Marois",
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "points": 51.13
+    },
+    {
+      "year": 2021,
+      "week": 6,
+      "owner": "Chris Dupay",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 37.47
+    },
+    {
+      "year": 2021,
+      "week": 7,
+      "owner": "Chris Dupay",
+      "player": "Tua Tagovailoa",
+      "position": "QB",
+      "points": 34.54
+    },
+    {
+      "year": 2021,
+      "week": 8,
+      "owner": "Chris Dupay",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 36.71
+    },
+    {
+      "year": 2021,
+      "week": 9,
+      "owner": "Ed Shively",
+      "player": "Justin Herbert",
+      "position": "QB",
+      "points": 39.64
+    },
+    {
+      "year": 2021,
+      "week": 10,
+      "owner": "Kevin Etwaroo",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 44.99
+    },
+    {
+      "year": 2021,
+      "week": 11,
+      "owner": "Jeff Lobdell",
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "points": 51.9
+    },
+    {
+      "year": 2021,
+      "week": 12,
+      "owner": "Kevin Etwaroo",
+      "player": "Leonard Fournette",
+      "position": "RB",
+      "points": 40.6
+    },
+    {
+      "year": 2021,
+      "week": 13,
+      "owner": "Peter Ott",
+      "player": "Tom Brady",
+      "position": "QB",
+      "points": 38.12
+    },
+    {
+      "year": 2021,
+      "week": 14,
+      "owner": "Chris Dupay",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 44.22
+    },
+    {
+      "year": 2021,
+      "week": 15,
+      "owner": "Kenny Smith",
+      "player": "Mark Andrews",
+      "position": "TE",
+      "points": 30.6
+    },
+    {
+      "year": 2021,
+      "week": 16,
+      "owner": "Lee Bertram",
+      "player": "Joe Burrow",
+      "position": "QB",
+      "points": 47.35
+    },
+    {
+      "year": 2021,
+      "week": 17,
+      "owner": "Lee Bertram",
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "points": 50.1
+    },
+    {
+      "year": 2022,
+      "week": 1,
+      "owner": "Lee Bertram",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 42.4
+    },
+    {
+      "year": 2022,
+      "week": 2,
+      "owner": "Kevin Etwaroo",
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "points": 47.87
+    },
+    {
+      "year": 2022,
+      "week": 3,
+      "owner": "Kevin Etwaroo",
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "points": 43.92
+    },
+    {
+      "year": 2022,
+      "week": 4,
+      "owner": "Brian Marois",
+      "player": "Jared Goff",
+      "position": "QB",
+      "points": 39.72
+    },
+    {
+      "year": 2022,
+      "week": 5,
+      "owner": "Lee Bertram",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 40.16
+    },
+    {
+      "year": 2022,
+      "week": 6,
+      "owner": "Kenny Smith",
+      "player": "Joe Burrow",
+      "position": "QB",
+      "points": 39.5
+    },
+    {
+      "year": 2022,
+      "week": 7,
+      "owner": "Kenny Smith",
+      "player": "Joe Burrow",
+      "position": "QB",
+      "points": 47.74
+    },
+    {
+      "year": 2022,
+      "week": 8,
+      "owner": "Steve Minardi",
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "points": 38.3
+    },
+    {
+      "year": 2022,
+      "week": 9,
+      "owner": "Joshua",
+      "player": "Joe Mixon",
+      "position": "RB",
+      "points": 53.1
+    },
+    {
+      "year": 2022,
+      "week": 10,
+      "owner": "Jeff Lobdell",
+      "player": "Justin Fields",
+      "position": "QB",
+      "points": 42.38
+    },
+    {
+      "year": 2022,
+      "week": 11,
+      "owner": "Lee Bertram",
+      "player": "Tony Pollard",
+      "position": "RB",
+      "points": 33.9
+    },
+    {
+      "year": 2022,
+      "week": 12,
+      "owner": "Malcolm Lapone",
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "points": 45.3
+    },
+    {
+      "year": 2022,
+      "week": 13,
+      "owner": "Ed Shively",
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "points": 41.65
+    },
+    {
+      "year": 2022,
+      "week": 14,
+      "owner": "Steve Minardi",
+      "player": "Trevor Lawrence",
+      "position": "QB",
+      "points": 40.92
+    },
+    {
+      "year": 2022,
+      "week": 15,
+      "owner": "Peter Ott",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 41.74
+    },
+    {
+      "year": 2022,
+      "week": 16,
+      "owner": "Peter Ott",
+      "player": "Dak Prescott",
+      "position": "QB",
+      "points": 34.73
+    },
+    {
+      "year": 2022,
+      "week": 17,
+      "owner": "Malcolm Lapone",
+      "player": "Tom Brady",
+      "position": "QB",
+      "points": 46.18
+    },
+    {
+      "year": 2023,
+      "week": 1,
+      "owner": "Jeff Lobdell",
+      "player": "Cowboys",
+      "position": "DEF",
+      "points": 44.57
+    },
+    {
+      "year": 2023,
+      "week": 2,
+      "owner": "Ed Shively",
+      "player": "Daniel Jones",
+      "position": "QB",
+      "points": 37.24
+    },
+    {
+      "year": 2023,
+      "week": 3,
+      "owner": "Malcolm Lapone",
+      "player": "De'Von Achane",
+      "position": "RB",
+      "points": 49.3
+    },
+    {
+      "year": 2023,
+      "week": 4,
+      "owner": "Peter Ott",
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "points": 45.2
+    },
+    {
+      "year": 2023,
+      "week": 5,
+      "owner": "Malcolm Lapone",
+      "player": "DJ Moore",
+      "position": "WR",
+      "points": 45.0
+    },
+    {
+      "year": 2023,
+      "week": 6,
+      "owner": "Kenny Smith",
+      "player": "Raheem Mostert",
+      "position": "RB",
+      "points": 32.7
+    },
+    {
+      "year": 2023,
+      "week": 7,
+      "owner": "Lee Bertram",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 41.86
+    },
+    {
+      "year": 2023,
+      "week": 8,
+      "owner": "Kevin Etwaroo",
+      "player": "Sam Howell",
+      "position": "QB",
+      "points": 40.73
+    },
+    {
+      "year": 2023,
+      "week": 9,
+      "owner": "Lee Bertram",
+      "player": "C.J. Stroud",
+      "position": "QB",
+      "points": 49.3
+    },
+    {
+      "year": 2023,
+      "week": 10,
+      "owner": "Malcolm Lapone",
+      "player": "Dak Prescott",
+      "position": "QB",
+      "points": 44.36
+    },
+    {
+      "year": 2023,
+      "week": 11,
+      "owner": "Jeff Lobdell",
+      "player": "Trevor Lawrence",
+      "position": "QB",
+      "points": 38.18
+    },
+    {
+      "year": 2023,
+      "week": 12,
+      "owner": "Peter Ott",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 46.91
+    },
+    {
+      "year": 2023,
+      "week": 13,
+      "owner": "Kenny Smith",
+      "player": "Deebo Samuel",
+      "position": "WR",
+      "points": 36.8
+    },
+    {
+      "year": 2023,
+      "week": 14,
+      "owner": "Steve Minardi",
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "points": 37.64
+    },
+    {
+      "year": 2023,
+      "week": 15,
+      "owner": "Brian Marois",
+      "player": "James Cook III",
+      "position": "RB",
+      "points": 35.1
+    },
+    {
+      "year": 2023,
+      "week": 16,
+      "owner": "Brian Marois",
+      "player": "Amari Cooper",
+      "position": "WR",
+      "points": 46.0
+    },
+    {
+      "year": 2023,
+      "week": 17,
+      "owner": "Peter Ott",
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "points": 33.7
+    },
     {
       "year": 2024,
       "week": 1,
@@ -136,9 +1056,201 @@
       "player": "Baker Mayfield",
       "position": "QB",
       "points": 41.31
+    },
+    {
+      "year": 2025,
+      "week": 1,
+      "owner": "Lee Bertram",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 47.01
+    },
+    {
+      "year": 2025,
+      "week": 2,
+      "owner": "Malcolm Lapone",
+      "player": "Amon-Ra St. Brown",
+      "position": "WR",
+      "points": 34.7
+    },
+    {
+      "year": 2025,
+      "week": 3,
+      "owner": "Joshua",
+      "player": "Vikings",
+      "position": "DEF",
+      "points": 37.07
+    },
+    {
+      "year": 2025,
+      "week": 4,
+      "owner": "Joshua",
+      "player": "Dak Prescott",
+      "position": "QB",
+      "points": 38.71
+    },
+    {
+      "year": 2025,
+      "week": 5,
+      "owner": "Peter Ott",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 33.97
+    },
+    {
+      "year": 2025,
+      "week": 6,
+      "owner": "Peter Ott",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 36.98
+    },
+    {
+      "year": 2025,
+      "week": 7,
+      "owner": "Tony Bevilaqua",
+      "player": "Bo Nix",
+      "position": "QB",
+      "points": 46.71
+    },
+    {
+      "year": 2025,
+      "week": 8,
+      "owner": "Christopher Hayes",
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "points": 36.4
+    },
+    {
+      "year": 2025,
+      "week": 9,
+      "owner": "Kenny Smith",
+      "player": "Caleb Williams",
+      "position": "QB",
+      "points": 42.7
+    },
+    {
+      "year": 2025,
+      "week": 10,
+      "owner": "Christopher Hayes",
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "points": 48.1
+    },
+    {
+      "year": 2025,
+      "week": 11,
+      "owner": "Lee Bertram",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 47.43
+    },
+    {
+      "year": 2025,
+      "week": 12,
+      "owner": "Joshua",
+      "player": "Jahmyr Gibbs",
+      "position": "RB",
+      "points": 49.9
+    },
+    {
+      "year": 2025,
+      "week": 13,
+      "owner": "Lee Bertram",
+      "player": "Seahawks",
+      "position": "DEF",
+      "points": 37.43
+    },
+    {
+      "year": 2025,
+      "week": 14,
+      "owner": "Lee Bertram",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 43.34
+    },
+    {
+      "year": 2025,
+      "week": 15,
+      "owner": "Malcolm Lapone",
+      "player": "Kyle Pitts Sr.",
+      "position": "TE",
+      "points": 40.1
+    },
+    {
+      "year": 2025,
+      "week": 16,
+      "owner": "Joshua",
+      "player": "Puka Nacua",
+      "position": "WR",
+      "points": 40.5
+    },
+    {
+      "year": 2025,
+      "week": 17,
+      "owner": "Christopher Hayes",
+      "player": "Bijan Robinson",
+      "position": "RB",
+      "points": 37.4
     }
   ],
   "season_highs": {
+    "2011": {
+      "year": 2011,
+      "week": 4,
+      "owner": "Kevin Etwaroo",
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "points": 53.17
+    },
+    "2018": {
+      "year": 2018,
+      "week": 16,
+      "owner": "Steve Minardi",
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "points": 52.13
+    },
+    "2019": {
+      "year": 2019,
+      "week": 7,
+      "owner": "Ed Shively",
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "points": 50.01
+    },
+    "2020": {
+      "year": 2020,
+      "week": 12,
+      "owner": "Brian Marois",
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "points": 51.4
+    },
+    "2021": {
+      "year": 2021,
+      "week": 11,
+      "owner": "Jeff Lobdell",
+      "player": "Jonathan Taylor",
+      "position": "RB",
+      "points": 51.9
+    },
+    "2022": {
+      "year": 2022,
+      "week": 9,
+      "owner": "Joshua",
+      "player": "Joe Mixon",
+      "position": "RB",
+      "points": 53.1
+    },
+    "2023": {
+      "year": 2023,
+      "week": 3,
+      "owner": "Malcolm Lapone",
+      "player": "De'Von Achane",
+      "position": "RB",
+      "points": 49.3
+    },
     "2024": {
       "year": 2024,
       "week": 14,
@@ -146,6 +1258,14 @@
       "player": "Josh Allen",
       "position": "QB",
       "points": 57.38
+    },
+    "2025": {
+      "year": 2025,
+      "week": 12,
+      "owner": "Joshua",
+      "player": "Jahmyr Gibbs",
+      "position": "RB",
+      "points": 49.9
     }
   },
   "all_time_single_game": {
@@ -166,6 +1286,142 @@
       "points": 482.4
     },
     {
+      "year": 2019,
+      "week": 1,
+      "owner": "Peter Ott",
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "points": 481.93
+    },
+    {
+      "year": 2022,
+      "week": 1,
+      "owner": "Lee Bertram",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 473.9
+    },
+    {
+      "year": 2020,
+      "week": 1,
+      "owner": "Malcolm Lapone",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 471.3
+    },
+    {
+      "year": 2018,
+      "week": 1,
+      "owner": "Malcolm Lapone",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 462.46
+    },
+    {
+      "year": 2011,
+      "week": 1,
+      "owner": "Kevin Etwaroo",
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "points": 461.68
+    },
+    {
+      "year": 2021,
+      "week": 1,
+      "owner": "Ed Shively",
+      "player": "Justin Herbert",
+      "position": "QB",
+      "points": 455.59
+    },
+    {
+      "year": 2021,
+      "week": 1,
+      "owner": "Peter Ott",
+      "player": "Tom Brady",
+      "position": "QB",
+      "points": 452.44
+    },
+    {
+      "year": 2021,
+      "week": 1,
+      "owner": "Chris Dupay",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 449.42
+    },
+    {
+      "year": 2020,
+      "week": 1,
+      "owner": "Steve Minardi",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 446.48
+    },
+    {
+      "year": 2020,
+      "week": 1,
+      "owner": "Lee Bertram",
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "points": 445.01
+    },
+    {
+      "year": 2020,
+      "week": 1,
+      "owner": "Lee Bertram",
+      "player": "Kyler Murray",
+      "position": "QB",
+      "points": 442.25
+    },
+    {
+      "year": 2022,
+      "week": 1,
+      "owner": "Ed Shively",
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "points": 441.08
+    },
+    {
+      "year": 2023,
+      "week": 1,
+      "owner": "Peter Ott",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 440.42
+    },
+    {
+      "year": 2011,
+      "week": 1,
+      "owner": "Brian Abrahamson",
+      "player": "Drew Brees",
+      "position": "QB",
+      "points": 436.65
+    },
+    {
+      "year": 2022,
+      "week": 1,
+      "owner": "Kenny Smith",
+      "player": "Joe Burrow",
+      "position": "QB",
+      "points": 436.35
+    },
+    {
+      "year": 2018,
+      "week": 1,
+      "owner": "Ed Shively",
+      "player": "Ben Roethlisberger",
+      "position": "QB",
+      "points": 432.83
+    },
+    {
+      "year": 2020,
+      "week": 1,
+      "owner": "Tony Bevilaqua",
+      "player": "Russell Wilson",
+      "position": "QB",
+      "points": 432.64
+    },
+    {
       "year": 2024,
       "week": 1,
       "owner": "Brian Marois",
@@ -174,148 +1430,12 @@
       "points": 418.86
     },
     {
-      "year": 2024,
+      "year": 2022,
       "week": 1,
       "owner": "Lee Bertram",
       "player": "Josh Allen",
       "position": "QB",
-      "points": 408.76
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Christopher Hayes",
-      "player": "Jared Goff",
-      "position": "QB",
-      "points": 405.47
-    },
-    {
-      "year": 2024,
-      "week": 2,
-      "owner": "Christopher Hayes",
-      "player": "Baker Mayfield",
-      "position": "QB",
-      "points": 405.0
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Ed Shively",
-      "player": "Jayden Daniels",
-      "position": "QB",
-      "points": 402.96
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Joshua",
-      "player": "Kyler Murray",
-      "position": "QB",
-      "points": 356.11
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Ed Shively",
-      "player": "Jalen Hurts",
-      "position": "QB",
-      "points": 342.77
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Peter Ott",
-      "player": "Brock Purdy",
-      "position": "QB",
-      "points": 334.38
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Lee Bertram",
-      "player": "Patrick Mahomes",
-      "position": "QB",
-      "points": 326.76
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Kenny Smith",
-      "player": "Saquon Barkley",
-      "position": "RB",
-      "points": 320.9
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Joshua",
-      "player": "Ja'Marr Chase",
-      "position": "WR",
-      "points": 318.9
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Kenny Smith",
-      "player": "Caleb Williams",
-      "position": "QB",
-      "points": 315.54
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Kenny Smith",
-      "player": "Aaron Rodgers",
-      "position": "QB",
-      "points": 314.39
-    },
-    {
-      "year": 2024,
-      "week": 4,
-      "owner": "Malcolm Lapone",
-      "player": "Sam Darnold",
-      "position": "QB",
-      "points": 297.8
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Kevin Etwaroo",
-      "player": "C.J. Stroud",
-      "position": "QB",
-      "points": 296.88
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Christopher Hayes",
-      "player": "Jahmyr Gibbs",
-      "position": "RB",
-      "points": 293.4
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Tony Bevilaqua",
-      "player": "Derrick Henry",
-      "position": "RB",
-      "points": 291.1
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Jeff Lobdell",
-      "player": "Bijan Robinson",
-      "position": "RB",
-      "points": 280.9
-    },
-    {
-      "year": 2024,
-      "week": 1,
-      "owner": "Chris Dupay",
-      "player": "Jordan Love",
-      "position": "QB",
-      "points": 277.6
+      "points": 416.65
     }
   ]
 }
