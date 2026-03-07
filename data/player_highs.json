@@ -1,0 +1,321 @@
+{
+  "generated_at": "2026-03-06T19:09:22.169363",
+  "weekly_highs": [
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Lee Bertram",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 35.68
+    },
+    {
+      "year": 2024,
+      "week": 2,
+      "owner": "Peter Ott",
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "points": 43.0
+    },
+    {
+      "year": 2024,
+      "week": 3,
+      "owner": "Christopher Hayes",
+      "player": "Jauan Jennings",
+      "position": "WR",
+      "points": 41.0
+    },
+    {
+      "year": 2024,
+      "week": 4,
+      "owner": "Christopher Hayes",
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "points": 36.38
+    },
+    {
+      "year": 2024,
+      "week": 5,
+      "owner": "Brian Marois",
+      "player": "Joe Burrow",
+      "position": "QB",
+      "points": 41.28
+    },
+    {
+      "year": 2024,
+      "week": 6,
+      "owner": "Kenny Smith",
+      "player": "Caleb Williams",
+      "position": "QB",
+      "points": 34.39
+    },
+    {
+      "year": 2024,
+      "week": 7,
+      "owner": "Jeff Lobdell",
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "points": 38.69
+    },
+    {
+      "year": 2024,
+      "week": 8,
+      "owner": "Ed Shively",
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "points": 39.14
+    },
+    {
+      "year": 2024,
+      "week": 9,
+      "owner": "Brian Marois",
+      "player": "Joe Burrow",
+      "position": "QB",
+      "points": 35.89
+    },
+    {
+      "year": 2024,
+      "week": 10,
+      "owner": "Joshua",
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "points": 49.9
+    },
+    {
+      "year": 2024,
+      "week": 11,
+      "owner": "Christopher Hayes",
+      "player": "Jared Goff",
+      "position": "QB",
+      "points": 40.58
+    },
+    {
+      "year": 2024,
+      "week": 12,
+      "owner": "Kenny Smith",
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "points": 44.2
+    },
+    {
+      "year": 2024,
+      "week": 13,
+      "owner": "Chris Dupay",
+      "player": "Jerry Jeudy",
+      "position": "WR",
+      "points": 36.0
+    },
+    {
+      "year": 2024,
+      "week": 14,
+      "owner": "Lee Bertram",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 57.38
+    },
+    {
+      "year": 2024,
+      "week": 15,
+      "owner": "Christopher Hayes",
+      "player": "Jared Goff",
+      "position": "QB",
+      "points": 50.56
+    },
+    {
+      "year": 2024,
+      "week": 16,
+      "owner": "Ed Shively",
+      "player": "Jayden Daniels",
+      "position": "QB",
+      "points": 40.42
+    },
+    {
+      "year": 2024,
+      "week": 17,
+      "owner": "Christopher Hayes",
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "points": 41.31
+    }
+  ],
+  "season_highs": {
+    "2024": {
+      "year": 2024,
+      "week": 14,
+      "owner": "Lee Bertram",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 57.38
+    }
+  },
+  "all_time_single_game": {
+    "year": 2024,
+    "week": 14,
+    "owner": "Lee Bertram",
+    "player": "Josh Allen",
+    "position": "QB",
+    "points": 57.38
+  },
+  "season_total_highs": [
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Jeff Lobdell",
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "points": 482.4
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Brian Marois",
+      "player": "Joe Burrow",
+      "position": "QB",
+      "points": 418.86
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Lee Bertram",
+      "player": "Josh Allen",
+      "position": "QB",
+      "points": 408.76
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Christopher Hayes",
+      "player": "Jared Goff",
+      "position": "QB",
+      "points": 405.47
+    },
+    {
+      "year": 2024,
+      "week": 2,
+      "owner": "Christopher Hayes",
+      "player": "Baker Mayfield",
+      "position": "QB",
+      "points": 405.0
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Ed Shively",
+      "player": "Jayden Daniels",
+      "position": "QB",
+      "points": 402.96
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Joshua",
+      "player": "Kyler Murray",
+      "position": "QB",
+      "points": 356.11
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Ed Shively",
+      "player": "Jalen Hurts",
+      "position": "QB",
+      "points": 342.77
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Peter Ott",
+      "player": "Brock Purdy",
+      "position": "QB",
+      "points": 334.38
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Lee Bertram",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "points": 326.76
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Kenny Smith",
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "points": 320.9
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Joshua",
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "points": 318.9
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Kenny Smith",
+      "player": "Caleb Williams",
+      "position": "QB",
+      "points": 315.54
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Kenny Smith",
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "points": 314.39
+    },
+    {
+      "year": 2024,
+      "week": 4,
+      "owner": "Malcolm Lapone",
+      "player": "Sam Darnold",
+      "position": "QB",
+      "points": 297.8
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Kevin Etwaroo",
+      "player": "C.J. Stroud",
+      "position": "QB",
+      "points": 296.88
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Christopher Hayes",
+      "player": "Jahmyr Gibbs",
+      "position": "RB",
+      "points": 293.4
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Tony Bevilaqua",
+      "player": "Derrick Henry",
+      "position": "RB",
+      "points": 291.1
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Jeff Lobdell",
+      "player": "Bijan Robinson",
+      "position": "RB",
+      "points": 280.9
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "owner": "Chris Dupay",
+      "player": "Jordan Love",
+      "position": "QB",
+      "points": 277.6
+    }
+  ]
+}

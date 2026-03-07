@@ -1,0 +1,922 @@
+{
+  "2011": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Lee Bertram",
+        "points": 181.55
+      },
+      "2": {
+        "owner": "Scott Kellman",
+        "points": 173.15
+      },
+      "3": {
+        "owner": "Lee Bertram",
+        "points": 201.52
+      },
+      "4": {
+        "owner": "Kevin Etwaroo",
+        "points": 211.37
+      },
+      "5": {
+        "owner": "Lee Bertram",
+        "points": 146.36
+      },
+      "6": {
+        "owner": "Lee Bertram",
+        "points": 147.62
+      },
+      "7": {
+        "owner": "Kevin Coppins",
+        "points": 145.44
+      },
+      "8": {
+        "owner": "Chris Maher",
+        "points": 166.21
+      },
+      "9": {
+        "owner": "Lee Bertram",
+        "points": 163.1
+      },
+      "10": {
+        "owner": "Jeff Lobdell",
+        "points": 171.55
+      },
+      "11": {
+        "owner": "Scott Kellman",
+        "points": 140.59
+      },
+      "12": {
+        "owner": "Ed Shively",
+        "points": 148.29
+      },
+      "13": {
+        "owner": "Lee Bertram",
+        "points": 191.17
+      }
+    },
+    "season_high": {
+      "owner": "Kevin Etwaroo",
+      "points": 211.37
+    }
+  },
+  "2012": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Peter Ott",
+        "points": 159.3
+      },
+      "2": {
+        "owner": "Steve Loesch",
+        "points": 166.7
+      },
+      "3": {
+        "owner": "Ed Shively",
+        "points": 176.49
+      },
+      "4": {
+        "owner": "Chris Dupay",
+        "points": 163.65
+      },
+      "5": {
+        "owner": "Kevin Etwaroo",
+        "points": 162.2
+      },
+      "6": {
+        "owner": "Jeff Lobdell",
+        "points": 148.92
+      },
+      "7": {
+        "owner": "Chris Dupay",
+        "points": 176.37
+      },
+      "8": {
+        "owner": "Lee Bertram",
+        "points": 149.13
+      },
+      "9": {
+        "owner": "Chris Dupay",
+        "points": 152.19
+      },
+      "10": {
+        "owner": "Steve Minardi",
+        "points": 142.33
+      },
+      "11": {
+        "owner": "Steve Minardi",
+        "points": 169.55
+      },
+      "12": {
+        "owner": "Peter Ott",
+        "points": 164.67
+      },
+      "13": {
+        "owner": "Peter Ott",
+        "points": 157.37
+      }
+    },
+    "season_high": {
+      "owner": "Ed Shively",
+      "points": 176.49
+    }
+  },
+  "2013": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Jake Barker",
+        "points": 173.82
+      },
+      "2": {
+        "owner": "Peter Ott",
+        "points": 153.78
+      },
+      "3": {
+        "owner": "Steve Minardi",
+        "points": 148.35
+      },
+      "4": {
+        "owner": "Ed Shively",
+        "points": 163.17
+      },
+      "5": {
+        "owner": "Lee Bertram",
+        "points": 160.31
+      },
+      "6": {
+        "owner": "Jake Barker",
+        "points": 167.66
+      },
+      "7": {
+        "owner": "Steve Minardi",
+        "points": 157.73
+      },
+      "8": {
+        "owner": "Steve Minardi",
+        "points": 198.79
+      },
+      "9": {
+        "owner": "Steve Minardi",
+        "points": 154.68
+      },
+      "10": {
+        "owner": "Ed Shively",
+        "points": 203.78
+      },
+      "11": {
+        "owner": "Jake Barker",
+        "points": 152.62
+      },
+      "12": {
+        "owner": "Chris Dupay",
+        "points": 142.9
+      },
+      "13": {
+        "owner": "Kevin Etwaroo",
+        "points": 190.97
+      }
+    },
+    "season_high": {
+      "owner": "Ed Shively",
+      "points": 203.78
+    }
+  },
+  "2014": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Jeff Lobdell",
+        "points": 171.54
+      },
+      "2": {
+        "owner": "Peter Ott",
+        "points": 147.69
+      },
+      "3": {
+        "owner": "Peter Ott",
+        "points": 139.65
+      },
+      "4": {
+        "owner": "Jake Barker",
+        "points": 142.38
+      },
+      "5": {
+        "owner": "Peter Ott",
+        "points": 157.38
+      },
+      "6": {
+        "owner": "Ed Shively",
+        "points": 148.34
+      },
+      "7": {
+        "owner": "Peter Ott",
+        "points": 151.82
+      },
+      "8": {
+        "owner": "Kevin Coppins",
+        "points": 206.19
+      },
+      "9": {
+        "owner": "Jake Barker",
+        "points": 148.47
+      },
+      "10": {
+        "owner": "Peter Ott",
+        "points": 155.78
+      },
+      "11": {
+        "owner": "Kevin Coppins",
+        "points": 139.29
+      },
+      "12": {
+        "owner": "Peter Ott",
+        "points": 165.84
+      },
+      "13": {
+        "owner": "Kevin Etwaroo",
+        "points": 176.15
+      }
+    },
+    "season_high": {
+      "owner": "Kevin Coppins",
+      "points": 206.19
+    }
+  },
+  "2015": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Ed Shively",
+        "points": 162.24
+      },
+      "2": {
+        "owner": "Scott Kellman",
+        "points": 133.89
+      },
+      "3": {
+        "owner": "Tom Brown",
+        "points": 166.51
+      },
+      "4": {
+        "owner": "Chris Dupay",
+        "points": 132.91
+      },
+      "5": {
+        "owner": "Jeff Lobdell",
+        "points": 171.6
+      },
+      "6": {
+        "owner": "Steve Minardi",
+        "points": 161.45
+      },
+      "7": {
+        "owner": "Scott Kellman",
+        "points": 153.36
+      },
+      "8": {
+        "owner": "Steve Minardi",
+        "points": 165.87
+      },
+      "9": {
+        "owner": "Kevin Etwaroo",
+        "points": 155.95
+      },
+      "10": {
+        "owner": "Ed Shively",
+        "points": 142.25
+      },
+      "11": {
+        "owner": "Chris Dupay",
+        "points": 122.28
+      },
+      "12": {
+        "owner": "Kenny Smith",
+        "points": 147.21
+      },
+      "13": {
+        "owner": "Peter Ott",
+        "points": 162.14
+      }
+    },
+    "season_high": {
+      "owner": "Jeff Lobdell",
+      "points": 171.6
+    }
+  },
+  "2016": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Jeff Lobdell",
+        "points": 153.08
+      },
+      "2": {
+        "owner": "Lee Bertram",
+        "points": 154.15
+      },
+      "3": {
+        "owner": "Jeff Lobdell",
+        "points": 136.51
+      },
+      "4": {
+        "owner": "Kenny Smith",
+        "points": 146.96
+      },
+      "5": {
+        "owner": "Jeff Lobdell",
+        "points": 154.58
+      },
+      "6": {
+        "owner": "Jeff Lobdell",
+        "points": 147.21
+      },
+      "7": {
+        "owner": "Jeff Lobdell",
+        "points": 156.37
+      },
+      "8": {
+        "owner": "Malcolm Lapone",
+        "points": 146.5
+      },
+      "9": {
+        "owner": "Peter Ott",
+        "points": 148.44
+      },
+      "10": {
+        "owner": "Chris Dupay",
+        "points": 151.54
+      },
+      "11": {
+        "owner": "Ed Shively",
+        "points": 129.3
+      },
+      "12": {
+        "owner": "Ed Shively",
+        "points": 154.49
+      },
+      "13": {
+        "owner": "Jeff Lobdell",
+        "points": 149.15
+      }
+    },
+    "season_high": {
+      "owner": "Jeff Lobdell",
+      "points": 156.37
+    }
+  },
+  "2017": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Brian Marois",
+        "points": 177.64
+      },
+      "2": {
+        "owner": "Scott Kellman",
+        "points": 144.15
+      },
+      "3": {
+        "owner": "Kenny Smith",
+        "points": 180.66
+      },
+      "4": {
+        "owner": "Scott Kellman",
+        "points": 142.78
+      },
+      "5": {
+        "owner": "Lee Bertram",
+        "points": 135.14
+      },
+      "6": {
+        "owner": "Kenny Smith",
+        "points": 141.98
+      },
+      "7": {
+        "owner": "Lee Bertram",
+        "points": 141.74
+      },
+      "8": {
+        "owner": "Brian Marois",
+        "points": 151.92
+      },
+      "9": {
+        "owner": "Jeff Lobdell",
+        "points": 138.38
+      },
+      "10": {
+        "owner": "Chris Dupay",
+        "points": 145.28
+      },
+      "11": {
+        "owner": "Jeff Lobdell",
+        "points": 160.94
+      },
+      "12": {
+        "owner": "Kenny Smith",
+        "points": 148.46
+      },
+      "13": {
+        "owner": "Jeff Lobdell",
+        "points": 145.61
+      }
+    },
+    "season_high": {
+      "owner": "Kenny Smith",
+      "points": 180.66
+    }
+  },
+  "2018": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Malcolm Lapone",
+        "points": 179.37
+      },
+      "2": {
+        "owner": "Malcolm Lapone",
+        "points": 156.46
+      },
+      "3": {
+        "owner": "Malcolm Lapone",
+        "points": 145.53
+      },
+      "4": {
+        "owner": "Brian Marois",
+        "points": 156.25
+      },
+      "5": {
+        "owner": "Steve Minardi",
+        "points": 163.73
+      },
+      "6": {
+        "owner": "Malcolm Lapone",
+        "points": 158.98
+      },
+      "7": {
+        "owner": "Steve Minardi",
+        "points": 161.42
+      },
+      "8": {
+        "owner": "Malcolm Lapone",
+        "points": 164.47
+      },
+      "9": {
+        "owner": "Steve Minardi",
+        "points": 191.26
+      },
+      "10": {
+        "owner": "Peter Ott",
+        "points": 165.17
+      },
+      "11": {
+        "owner": "Malcolm Lapone",
+        "points": 160.57
+      },
+      "12": {
+        "owner": "Lee Bertram",
+        "points": 172.59
+      },
+      "13": {
+        "owner": "Malcolm Lapone",
+        "points": 189.72
+      }
+    },
+    "season_high": {
+      "owner": "Steve Minardi",
+      "points": 191.26
+    }
+  },
+  "2019": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Malcolm Lapone",
+        "points": 150.57
+      },
+      "2": {
+        "owner": "Malcolm Lapone",
+        "points": 150.19
+      },
+      "3": {
+        "owner": "Jeff Lobdell",
+        "points": 161.32
+      },
+      "4": {
+        "owner": "Peter Ott",
+        "points": 145.11
+      },
+      "5": {
+        "owner": "Scott Kellman",
+        "points": 174.63
+      },
+      "6": {
+        "owner": "Lee Bertram",
+        "points": 163.37
+      },
+      "7": {
+        "owner": "Steve Minardi",
+        "points": 144.76
+      },
+      "8": {
+        "owner": "Jeff Lobdell",
+        "points": 173.58
+      },
+      "9": {
+        "owner": "Steve Minardi",
+        "points": 140.54
+      },
+      "10": {
+        "owner": "Lee Bertram",
+        "points": 168.85
+      },
+      "11": {
+        "owner": "Scott Kellman",
+        "points": 154.93
+      },
+      "12": {
+        "owner": "Brian Marois",
+        "points": 142.78
+      },
+      "13": {
+        "owner": "Malcolm Lapone",
+        "points": 174.92
+      }
+    },
+    "season_high": {
+      "owner": "Malcolm Lapone",
+      "points": 174.92
+    }
+  },
+  "2020": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Brian Marois",
+        "points": 133.61
+      },
+      "2": {
+        "owner": "Kevin Coppins",
+        "points": 175.31
+      },
+      "3": {
+        "owner": "Chris Dupay",
+        "points": 154.1
+      },
+      "4": {
+        "owner": "Steve Minardi",
+        "points": 201.69
+      },
+      "5": {
+        "owner": "Kevin Etwaroo",
+        "points": 155.64
+      },
+      "6": {
+        "owner": "Tony Bevilaqua",
+        "points": 153.02
+      },
+      "7": {
+        "owner": "Ed Shively",
+        "points": 154.6
+      },
+      "8": {
+        "owner": "Lee Bertram",
+        "points": 137.12
+      },
+      "9": {
+        "owner": "Kevin Coppins",
+        "points": 139.18
+      },
+      "10": {
+        "owner": "Malcolm Lapone",
+        "points": 142.07
+      },
+      "11": {
+        "owner": "Steve Minardi",
+        "points": 134.02
+      },
+      "12": {
+        "owner": "Brian Marois",
+        "points": 184.78
+      },
+      "13": {
+        "owner": "Chris Dupay",
+        "points": 179.56
+      }
+    },
+    "season_high": {
+      "owner": "Steve Minardi",
+      "points": 201.69
+    }
+  },
+  "2021": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Brian Marois",
+        "points": 138.55
+      },
+      "2": {
+        "owner": "Peter Ott",
+        "points": 146.81
+      },
+      "3": {
+        "owner": "Peter Ott",
+        "points": 171.4
+      },
+      "4": {
+        "owner": "Brian Marois",
+        "points": 145.07
+      },
+      "5": {
+        "owner": "Peter Ott",
+        "points": 158.67
+      },
+      "6": {
+        "owner": "Tony Bevilaqua",
+        "points": 172.74
+      },
+      "7": {
+        "owner": "Joshua",
+        "points": 148.24
+      },
+      "8": {
+        "owner": "Kenny Smith",
+        "points": 143.16
+      },
+      "9": {
+        "owner": "Kenny Smith",
+        "points": 139.78
+      },
+      "10": {
+        "owner": "Steve Minardi",
+        "points": 126.89
+      },
+      "11": {
+        "owner": "Chris Dupay",
+        "points": 165.34
+      },
+      "12": {
+        "owner": "Ed Shively",
+        "points": 125.09
+      },
+      "13": {
+        "owner": "Peter Ott",
+        "points": 177.05
+      },
+      "14": {
+        "owner": "Peter Ott",
+        "points": 174.64
+      }
+    },
+    "season_high": {
+      "owner": "Peter Ott",
+      "points": 177.05
+    }
+  },
+  "2022": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Malcolm Lapone",
+        "points": 142.35
+      },
+      "2": {
+        "owner": "Tony Bevilaqua",
+        "points": 137.34
+      },
+      "3": {
+        "owner": "Kevin Etwaroo",
+        "points": 143.45
+      },
+      "4": {
+        "owner": "Malcolm Lapone",
+        "points": 158.28
+      },
+      "5": {
+        "owner": "Lee Bertram",
+        "points": 152.93
+      },
+      "6": {
+        "owner": "Kevin Etwaroo",
+        "points": 141.32
+      },
+      "7": {
+        "owner": "Kenny Smith",
+        "points": 161.27
+      },
+      "8": {
+        "owner": "Joshua",
+        "points": 158.82
+      },
+      "9": {
+        "owner": "Jeff Lobdell",
+        "points": 176.17
+      },
+      "10": {
+        "owner": "Peter Ott",
+        "points": 166.57
+      },
+      "11": {
+        "owner": "Peter Ott",
+        "points": 147.34
+      },
+      "12": {
+        "owner": "Malcolm Lapone",
+        "points": 161.76
+      },
+      "13": {
+        "owner": "Brian Marois",
+        "points": 155.81
+      },
+      "14": {
+        "owner": "Jeff Lobdell",
+        "points": 140.46
+      }
+    },
+    "season_high": {
+      "owner": "Jeff Lobdell",
+      "points": 176.17
+    }
+  },
+  "2023": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Malcolm Lapone",
+        "points": 125.01
+      },
+      "2": {
+        "owner": "Ed Shively",
+        "points": 138.98
+      },
+      "3": {
+        "owner": "Kenny Smith",
+        "points": 163.14
+      },
+      "4": {
+        "owner": "Peter Ott",
+        "points": 198.35
+      },
+      "5": {
+        "owner": "Malcolm Lapone",
+        "points": 147.94
+      },
+      "6": {
+        "owner": "Steve Minardi",
+        "points": 130.94
+      },
+      "7": {
+        "owner": "Lee Bertram",
+        "points": 146.36
+      },
+      "8": {
+        "owner": "Peter Ott",
+        "points": 159.02
+      },
+      "9": {
+        "owner": "Malcolm Lapone",
+        "points": 147.91
+      },
+      "10": {
+        "owner": "Ed Shively",
+        "points": 164.77
+      },
+      "11": {
+        "owner": "Ed Shively",
+        "points": 120.1
+      },
+      "12": {
+        "owner": "Peter Ott",
+        "points": 162.01
+      },
+      "13": {
+        "owner": "Malcolm Lapone",
+        "points": 167.78
+      },
+      "14": {
+        "owner": "Chris Dupay",
+        "points": 137.51
+      }
+    },
+    "season_high": {
+      "owner": "Peter Ott",
+      "points": 198.35
+    }
+  },
+  "2024": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Joshua",
+        "points": 127.36
+      },
+      "2": {
+        "owner": "Chris Dupay",
+        "points": 142.57
+      },
+      "3": {
+        "owner": "Joshua",
+        "points": 145.23
+      },
+      "4": {
+        "owner": "Kevin Etwaroo",
+        "points": 132.38
+      },
+      "5": {
+        "owner": "Joshua",
+        "points": 172.55
+      },
+      "6": {
+        "owner": "Christopher Hayes",
+        "points": 136.72
+      },
+      "7": {
+        "owner": "Joshua",
+        "points": 132.5
+      },
+      "8": {
+        "owner": "Tony Bevilaqua",
+        "points": 150.54
+      },
+      "9": {
+        "owner": "Lee Bertram",
+        "points": 130.58
+      },
+      "10": {
+        "owner": "Joshua",
+        "points": 165.64
+      },
+      "11": {
+        "owner": "Christopher Hayes",
+        "points": 156.91
+      },
+      "12": {
+        "owner": "Kenny Smith",
+        "points": 145.7
+      },
+      "13": {
+        "owner": "Lee Bertram",
+        "points": 145.77
+      },
+      "14": {
+        "owner": "Lee Bertram",
+        "points": 183.61
+      }
+    },
+    "season_high": {
+      "owner": "Lee Bertram",
+      "points": 183.61
+    }
+  },
+  "2025": {
+    "weekly_highs": {
+      "1": {
+        "owner": "Lee Bertram",
+        "points": 148.53
+      },
+      "2": {
+        "owner": "Brian Marois",
+        "points": 139.25
+      },
+      "3": {
+        "owner": "Joshua",
+        "points": 163.56
+      },
+      "4": {
+        "owner": "Joshua",
+        "points": 169.88
+      },
+      "5": {
+        "owner": "Kevin Etwaroo",
+        "points": 146.58
+      },
+      "6": {
+        "owner": "Kevin Etwaroo",
+        "points": 139.59
+      },
+      "7": {
+        "owner": "Tony Bevilaqua",
+        "points": 155.31
+      },
+      "8": {
+        "owner": "Tony Bevilaqua",
+        "points": 152.48
+      },
+      "9": {
+        "owner": "Lee Bertram",
+        "points": 140.6
+      },
+      "10": {
+        "owner": "Tony Bevilaqua",
+        "points": 153.7
+      },
+      "11": {
+        "owner": "Lee Bertram",
+        "points": 140.3
+      },
+      "12": {
+        "owner": "Joshua",
+        "points": 172.34
+      },
+      "13": {
+        "owner": "Tony Bevilaqua",
+        "points": 157.89
+      },
+      "14": {
+        "owner": "Lee Bertram",
+        "points": 157.17
+      }
+    },
+    "season_high": {
+      "owner": "Joshua",
+      "points": 172.34
+    }
+  }
+}
