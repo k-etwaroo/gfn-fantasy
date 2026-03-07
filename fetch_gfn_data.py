@@ -8,6 +8,8 @@ Usage:
     python3 fetch_gfn_data.py --year 2024  # Pull a single season
     python3 fetch_gfn_data.py --dry-run    # Test auth only
     python3 fetch_gfn_data.py --build      # Rebuild dashboard_data.json only
+    python3 fetch_gfn_data.py --players            # Fetch player stats for ALL seasons
+    python3 fetch_gfn_data.py --players --year 2024  # Fetch player stats for one season
 """
 
 import os
@@ -728,7 +730,7 @@ def main():
     parser.add_argument("--build",   action="store_true", help="Rebuild dashboard_data.json only")
     parser.add_argument("--refetch", action="store_true", help="Re-fetch all seasons even if cached")
     parser.add_argument("--players", action="store_true",
-                        help="Fetch individual player stats per week (requires --year; recomputes player_highs.json)")
+                        help="Fetch individual player stats per week for --year (or all seasons if no --year); recomputes player_highs.json")
     parser.add_argument("--test-players", action="store_true",
                         help="Debug: fetch week 1 of --year (default 2024) and print raw player data")
     args = parser.parse_args()
@@ -763,8 +765,15 @@ def main():
         return
 
     if args.players and not args.year:
-        # Recompute player highs from already-cached season files
+        years = list(range(SEASON_START, SEASON_END + 1))
+        total = len(years)
+        print(f"🏈 GFN Player Stats — Fetching all {total} seasons ({SEASON_START}–{SEASON_END})\n")
+        for i, year in enumerate(years, 1):
+            print(f"  Fetching player stats: {year} ({i}/{total})...")
+            fetch_season(year, with_players=True)
+            time.sleep(1)
         compute_player_highs()
+        build_dashboard_data()
         return
 
     if args.year:
