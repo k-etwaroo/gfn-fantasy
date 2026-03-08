@@ -1360,7 +1360,7 @@ function buildAllTimeStandings(managers) {
     tb.innerHTML += `
       <tr>
         <td><span class="rank-num rank-${i+1}">${i+1}</span></td>
-        <td><strong>${medal ? medal + ' ' : ''}${m.name}</strong></td>
+        <td><strong>${medal ? medal + ' ' : ''}${ownerLink(m.name)}</strong></td>
         <td>${m.seasons}</td>
         <td>${m.titles > 0 ? `<span class="tag tag-champ">${m.titles}× 🏆</span>` : '—'}</td>
         <td>
@@ -1579,7 +1579,7 @@ function renderLuckSeason(year) {
     el.innerHTML += `
       <div style="padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05);">
         <div style="display:flex; justify-content:space-between; margin-bottom:6px;">
-          <span style="font-weight:600;">${p.name}</span>
+          <span style="font-weight:600;">${ownerLink(p.name)}</span>
           <span class="luck-meter">
             <span style="font-size:0.75rem; color:var(--text-dim)">EXP: ${p.expected}</span>
             <span style="font-size:0.75rem; color:var(--text-dim)">ACT: ${p.actual}</span>
@@ -1624,7 +1624,7 @@ function buildLuckAllTime(luckAllTime) {
     const vLabel = verdict === 'lucky' ? 'LUCKY'     : verdict === 'unlucky' ? 'UNLUCKY'     : 'NEUTRAL';
     tb.innerHTML += `
       <tr>
-        <td>${m.name}</td>
+        <td>${ownerLink(m.name)}</td>
         <td>${m.seasons}</td>
         <td style="color:${parseFloat(m.avg)>=0?'#5dade2':'#e74c3c'}">${m.avg}</td>
         <td style="color:${totalVal>=0?'#5dade2':'#e74c3c'}; font-weight:700">${m.total}</td>
@@ -1649,7 +1649,7 @@ function buildPowerRankings(rankings) {
       <div style="padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.05);">
         <div class="pr-row" style="margin-bottom:4px;">
           <span class="pr-rank" style="color:${rankColor}">${p.rank}</span>
-          <span class="pr-name">${p.name}</span>
+          <span class="pr-name">${ownerLink(p.name)}</span>
           <span class="pr-score" style="color:${rankColor}">${p.score}</span>
         </div>
         <div class="pts-bar-wrap"><div class="pts-bar-fill" style="width:${barPct}%"></div></div>
@@ -1690,7 +1690,7 @@ function buildPRAllTime(allTimeData) {
       tb.innerHTML += `
         <tr>
           <td style="${rankStyle}">${i + 1}</td>
-          <td>${m.owner}</td>
+          <td>${ownerLink(m.owner)}</td>
           <td style="color:var(--gold); font-weight:700;">${m.avg_score}</td>
           <td>${m.best_score}</td>
           <td>${m.best_year}</td>
@@ -1726,7 +1726,7 @@ function buildCostSheet(managers) {
   managers.forEach(m => {
     ft.innerHTML += `
       <tr>
-        <td>${m.name}</td>
+        <td>${ownerLink(m.name)}</td>
         <td>$120</td>
         <td><span class="tag" style="background:rgba(46,204,113,0.15);color:#2ecc71;border:1px solid #2ecc71">PAID</span></td>
         <td style="color:var(--text-dim)">-$120</td>
