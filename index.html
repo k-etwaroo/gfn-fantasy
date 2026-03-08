@@ -690,6 +690,180 @@
     margin: 0.75rem 0;
   }
 
+  /* OWNER LINK */
+  .owner-link {
+    cursor: pointer;
+    border-bottom: 1px solid rgba(212,175,55,0.3);
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .owner-link:hover { color: var(--gold); border-color: var(--gold); }
+
+  /* H2H SELECT */
+  .h2h-select {
+    background: var(--dark3);
+    border: 1px solid rgba(212,175,55,0.3);
+    color: var(--text);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 8px 12px;
+    cursor: pointer;
+    min-width: 180px;
+    outline: none;
+    border-radius: 1px;
+  }
+  .h2h-select:focus { border-color: var(--gold); }
+
+  .h2h-hero-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+  }
+
+  /* DOMINANCE BAR */
+  .dom-bar-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 0.5rem;
+  }
+  .dom-bar {
+    flex: 1;
+    height: 12px;
+    background: rgba(255,255,255,0.06);
+    display: flex;
+    overflow: hidden;
+  }
+  .dom-bar-a { background: var(--gold); height: 100%; transition: width 0.4s ease; }
+  .dom-bar-b { background: var(--green-mid); height: 100%; transition: width 0.4s ease; }
+  .dom-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--text-dim);
+    min-width: 70px;
+  }
+  .dom-label-a { text-align: right; }
+  .dom-label-b { text-align: left; }
+
+  /* CAREER PANEL */
+  .career-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+    z-index: 199;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  .career-overlay.open { opacity: 1; pointer-events: all; cursor: pointer; }
+
+  .career-panel {
+    position: fixed;
+    top: 0; right: 0;
+    width: min(720px, 100vw);
+    height: 100vh;
+    background: var(--dark2);
+    border-left: 2px solid var(--gold);
+    z-index: 200;
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow-y: auto;
+    padding: 2rem;
+  }
+  .career-panel.open { transform: translateX(0); }
+
+  .career-close {
+    position: absolute; top: 1.25rem; right: 1.5rem;
+    background: none; border: none; cursor: pointer;
+    color: var(--text-dim); font-size: 1.5rem; line-height: 1;
+    padding: 4px;
+  }
+  .career-close:hover { color: var(--white); }
+
+  .career-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    color: var(--gold);
+    letter-spacing: 3px;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+  .career-meta {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(212,175,55,0.15);
+  }
+  .career-section-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 0.75rem;
+  }
+  .rank-chart-wrap { width: 100%; overflow-x: auto; margin: 0.5rem 0 1.5rem; }
+
+  /* RIVALRY CARDS */
+  .rivalry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .rivalry-card {
+    background: var(--dark3);
+    border: 1px solid rgba(212,175,55,0.12);
+    border-radius: 2px;
+    padding: 1.25rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .rivalry-card::before {
+    content: '⚔';
+    position: absolute;
+    right: 10px; top: 8px;
+    font-size: 1.8rem;
+    opacity: 0.08;
+  }
+  .rivalry-owners {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--white);
+    margin-bottom: 0.25rem;
+  }
+  .rivalry-record {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4rem;
+    color: var(--gold);
+    letter-spacing: 2px;
+    margin-bottom: 0.6rem;
+  }
+  .rivalry-detail {
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    margin-bottom: 3px;
+  }
+  .rivalry-detail span { color: var(--text); }
+
+  @media (max-width: 768px) {
+    .career-panel { padding: 1.25rem 1rem; }
+    .career-name { font-size: 1.8rem; }
+    .rivalry-grid { grid-template-columns: 1fr; }
+    .h2h-select { min-width: 140px; font-size: 0.85rem; }
+  }
+
   /* SEASON VIEW */
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(8px); }
@@ -804,6 +978,7 @@
 <nav>
   <button class="active" onclick="showSection('dashboard', this)">Dashboard</button>
   <button onclick="showSection('records', this)">Historical Records</button>
+  <button onclick="showSection('h2h', this)">Head to Head</button>
   <button onclick="showSection('luck', this)">Luck Index</button>
   <button onclick="showSection('power', this)">Power Rankings</button>
   <button onclick="showSection('cost', this)">Cost Sheet</button>
@@ -930,7 +1105,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" style="margin-bottom:2rem;">
       <div class="card-title">All-Time Manager Records</div>
       <div class="table-wrap" style="margin-top:1rem;">
         <table>
@@ -949,6 +1124,43 @@
             </tr>
           </thead>
           <tbody id="recordsTable"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title" style="font-size:0.8rem; margin-bottom:0.25rem;">⚔ TOP RIVALRIES</div>
+      <div style="font-size:0.75rem; color:var(--text-dim); letter-spacing:1px; margin-bottom:1rem;">Most-played matchups among active managers · Regular season only</div>
+      <div class="rivalry-grid" id="rivalryGrid"></div>
+    </div>
+  </div>
+
+  <!-- HEAD TO HEAD -->
+  <div class="section" id="h2h">
+    <div class="section-title">Head to <span>Head</span></div>
+    <div class="section-sub">All-Time Matchup Records · Regular Season Only</div>
+
+    <div class="card" style="margin-bottom:1.5rem;">
+      <div style="display:flex; align-items:center; gap:1rem; flex-wrap:wrap; margin-bottom:1.5rem;">
+        <select class="h2h-select" id="h2hOwner1"></select>
+        <div style="font-family:'Bebas Neue',sans-serif; font-size:1.5rem; color:var(--text-dim);">VS</div>
+        <select class="h2h-select" id="h2hOwner2"></select>
+      </div>
+      <div id="h2hHero"></div>
+    </div>
+
+    <div class="grid-4" id="h2hStatCards" style="display:none;"></div>
+
+    <div class="card" id="h2hTableCard" style="display:none;">
+      <div class="card-title" id="h2hTableTitle">All Games Between These Managers</div>
+      <div class="table-wrap" style="margin-top:1rem;">
+        <table>
+          <thead>
+            <tr>
+              <th>Year</th><th>Week</th><th>Winner</th><th>Score</th><th>Margin</th>
+            </tr>
+          </thead>
+          <tbody id="h2hTableBody"></tbody>
         </table>
       </div>
     </div>
@@ -1122,6 +1334,13 @@
 
 </main>
 
+<!-- OWNER CAREER PANEL -->
+<div class="career-overlay" id="careerOverlay" onclick="closeCareerPanel()"></div>
+<div class="career-panel" id="careerPanel">
+  <button class="career-close" onclick="closeCareerPanel()">✕</button>
+  <div id="careerPanelContent"></div>
+</div>
+
 <script>
 function showApp() {
   document.getElementById('loadingOverlay').style.display = 'none';
@@ -1166,7 +1385,7 @@ function renderChampRoll(champs) {
         <div class="champ-year">${c.year}</div>
         <div class="champ-divider"></div>
         <div>
-          <div class="champ-name">${c.owner}</div>
+          <div class="champ-name">${ownerLink(c.owner)}</div>
           <div class="champ-team">${c.team}</div>
         </div>
         <div class="champ-record">
@@ -1227,7 +1446,7 @@ function renderSeasonView(year) {
     return `<tr>
       <td ${rankStyle}>${e.rank}${trophy}${toilet}</td>
       <td>${e.team || '—'}</td>
-      <td>${e.owner || '—'}</td>
+      <td>${e.owner ? ownerLink(e.owner) : '—'}</td>
       <td>${e.wins ?? '—'}</td>
       <td>${e.losses ?? '—'}</td>
       <td>${winpct}</td>
@@ -1299,7 +1518,7 @@ function renderRecordsTable() {
     tb.innerHTML += `
       <tr class="${titled ? 'row-titled' : ''}">
         <td><span class="rank-num rank-${i+1}">${i+1}</span></td>
-        <td><strong>${m.name}</strong></td>
+        <td><strong>${ownerLink(m.name)}</strong></td>
         <td>${m.seasons}</td>
         <td>${m.w}</td>
         <td>${m.l}</td>
@@ -1542,6 +1761,320 @@ function buildYearFilter(champions) {
   });
 }
 
+// ====== OWNER LINK HELPER ======
+function ownerLink(name) {
+  return `<span class="owner-link" onclick="openCareerPanel('${name}')">${name}</span>`;
+}
+
+// ====== H2H ======
+let _h2hData  = {};
+let _h2hGames = {};
+
+function buildH2H(h2hData, h2hGames, ownerNames) {
+  _h2hData  = h2hData;
+  _h2hGames = h2hGames;
+
+  const sel1 = document.getElementById('h2hOwner1');
+  const sel2 = document.getElementById('h2hOwner2');
+  const sorted = [...ownerNames].sort();
+  sorted.forEach(name => {
+    sel1.innerHTML += `<option value="${name}">${name}</option>`;
+    sel2.innerHTML += `<option value="${name}">${name}</option>`;
+  });
+
+  sel1.value = 'Peter Ott';
+  sel2.value = 'Lee Bertram';
+  sel1.onchange = sel2.onchange = () => renderH2H(sel1.value, sel2.value);
+  renderH2H('Peter Ott', 'Lee Bertram');
+}
+
+function renderH2H(o1, o2) {
+  const heroEl    = document.getElementById('h2hHero');
+  const cardsEl   = document.getElementById('h2hStatCards');
+  const tableCard = document.getElementById('h2hTableCard');
+
+  if (o1 === o2) {
+    heroEl.innerHTML = `<div style="color:var(--text-dim); font-family:'Barlow Condensed',sans-serif; letter-spacing:2px; font-size:0.9rem;">SELECT TWO DIFFERENT MANAGERS</div>`;
+    cardsEl.style.display   = 'none';
+    tableCard.style.display = 'none';
+    return;
+  }
+
+  const rec = _h2hData[o1]?.[o2];
+  if (!rec) {
+    heroEl.innerHTML = `<div style="color:var(--text-dim); font-family:'Barlow Condensed',sans-serif; letter-spacing:2px; font-size:0.9rem;">THESE MANAGERS HAVE NEVER MET IN THE REGULAR SEASON</div>`;
+    cardsEl.style.display   = 'none';
+    tableCard.style.display = 'none';
+    return;
+  }
+
+  const total  = rec.wins + rec.losses;
+  const o1pct  = total > 0 ? (rec.wins  / total * 100) : 50;
+  const o2pct  = 100 - o1pct;
+  const o1Last = o1.split(' ').pop();
+  const o2Last = o2.split(' ').pop();
+
+  let heroText;
+  if      (rec.wins > rec.losses) heroText = `<span style="color:var(--gold)">${o1}</span> leads ${rec.wins}–${rec.losses} all time`;
+  else if (rec.losses > rec.wins) heroText = `<span style="color:var(--gold)">${o2}</span> leads ${rec.losses}–${rec.wins} all time`;
+  else                            heroText = `Series <span style="color:var(--gold)">TIED</span> ${rec.wins}–${rec.losses}`;
+
+  heroEl.innerHTML = `
+    <div class="h2h-hero-title">${heroText}</div>
+    <div class="dom-bar-wrap">
+      <div class="dom-label dom-label-a">${o1Last}&nbsp;${rec.wins}</div>
+      <div class="dom-bar">
+        <div class="dom-bar-a" style="width:${o1pct.toFixed(1)}%"></div>
+        <div class="dom-bar-b" style="width:${o2pct.toFixed(1)}%"></div>
+      </div>
+      <div class="dom-label dom-label-b">${rec.losses}&nbsp;${o2Last}</div>
+    </div>
+  `;
+
+  // Get per-game data
+  const [ka, kb] = [o1, o2].sort();
+  const games    = (_h2hGames[ka]?.[kb]) || [];
+  const aIsO1    = ka === o1;
+
+  let biggestWin  = null, closestGame = null;
+  if (games.length) {
+    biggestWin  = games.reduce((b, g) => g.margin > (b?.margin ?? 0) ? g : b, null);
+    closestGame = games.reduce((b, g) => g.margin < (b?.margin ?? Infinity) ? g : b, null);
+  }
+
+  const avgPF = total > 0 ? (rec.pts_for     / total).toFixed(1) : '—';
+  const avgPA = total > 0 ? (rec.pts_against / total).toFixed(1) : '—';
+  const bigWinner = biggestWin?.winner || null;
+
+  cardsEl.style.display = '';
+  cardsEl.innerHTML = `
+    <div class="card">
+      <div class="card-title">Total Games</div>
+      <div class="card-value">${total}</div>
+      <div class="card-detail">${rec.wins}W · ${rec.losses}L</div>
+    </div>
+    <div class="card">
+      <div class="card-title">${o1Last} Avg PF</div>
+      <div class="card-value">${avgPF}</div>
+      <div class="card-detail">vs ${avgPA} allowed</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Biggest Win</div>
+      <div class="card-value">${biggestWin ? '+' + biggestWin.margin.toFixed(1) : '—'}</div>
+      <div class="card-detail">${biggestWin ? `${bigWinner} · ${biggestWin.year} Wk ${biggestWin.week}` : 'No game data'}</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Closest Game</div>
+      <div class="card-value">${closestGame ? closestGame.margin.toFixed(2) : '—'}</div>
+      <div class="card-detail">${closestGame ? `${closestGame.year} Week ${closestGame.week}` : 'No game data'}</div>
+    </div>
+  `;
+
+  // Season-by-season table
+  tableCard.style.display = '';
+  document.getElementById('h2hTableTitle').textContent = `${o1} vs ${o2} — All Games`;
+  const tbody = document.getElementById('h2hTableBody');
+  if (!games.length) {
+    tbody.innerHTML = `<tr><td colspan="5" style="color:var(--text-dim);text-align:center;">No game-level data available</td></tr>`;
+  } else {
+    const sorted = [...games].sort((a, b) => b.year !== a.year ? b.year - a.year : b.week - a.week);
+    tbody.innerHTML = sorted.map(g => {
+      const o1pts = aIsO1 ? g.pa : g.pb;
+      const o2pts = aIsO1 ? g.pb : g.pa;
+      const won   = g.winner === o1;
+      const tie   = !g.winner;
+      const winnerLabel = tie ? 'Tie' : g.winner;
+      const winColor = tie ? 'var(--text-dim)' : won ? 'var(--gold)' : '#e74c3c';
+      return `<tr>
+        <td>${g.year}</td>
+        <td>Wk ${g.week}</td>
+        <td style="color:${winColor}; font-weight:600;">${winnerLabel}</td>
+        <td style="font-family:'Barlow Condensed',sans-serif; font-size:0.95rem;">${o1pts.toFixed(2)} – ${o2pts.toFixed(2)}</td>
+        <td>${g.margin.toFixed(2)}</td>
+      </tr>`;
+    }).join('');
+  }
+}
+
+// ====== CAREER PANEL ======
+let _ownerCareer = {};
+
+function openCareerPanel(ownerName) {
+  const career = _ownerCareer[ownerName];
+  if (!career) return;
+
+  const totalGames = career.total_wins + career.total_losses;
+  const winPct     = totalGames > 0 ? (career.total_wins / totalGames * 100).toFixed(1) : '—';
+  const champYears = Object.entries(career.seasons || {})
+    .filter(([, s]) => s.champion).map(([y]) => y).join(', ');
+
+  // Season table
+  const seasonEntries = Object.entries(career.seasons || {}).sort(([a], [b]) => Number(a) - Number(b));
+  const seasonRows = seasonEntries.map(([year, s]) => {
+    let rowStyle = '';
+    if (s.champion) rowStyle = 'background:rgba(212,175,55,0.08)';
+    else if (year === career.worst_season) rowStyle = 'background:rgba(192,57,43,0.06)';
+    const rankColor = s.rank === 1 ? 'var(--gold)' : s.rank === 2 ? '#C0C0C0' : s.rank === 3 ? '#CD7F32' : '';
+    const rankStyle = rankColor ? `color:${rankColor}; font-weight:700` : '';
+    const champIcon = s.champion ? ' 🏆' : '';
+    const playoff   = s.made_playoffs
+      ? `<span class="tag tag-lucky" style="font-size:0.6rem; padding:1px 6px;">PO</span>`
+      : '—';
+    return `<tr style="${rowStyle}">
+      <td>${year}</td>
+      <td style="font-size:0.82rem; max-width:140px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${s.team || '—'}</td>
+      <td style="${rankStyle}">${s.rank ?? '—'}${champIcon}</td>
+      <td>${s.wins}</td><td>${s.losses}</td>
+      <td>${s.pts_for?.toFixed(1) ?? '—'}</td>
+      <td>${s.pts_against?.toFixed(1) ?? '—'}</td>
+      <td>${playoff}</td>
+    </tr>`;
+  }).join('');
+
+  // Rank chart SVG
+  const chartSVG = buildRankChart(seasonEntries);
+
+  // H2H summary vs all opponents
+  const h2hRows = Object.entries(_h2hData[ownerName] || {})
+    .map(([opp, rec]) => {
+      const tot = rec.wins + rec.losses;
+      const pct = tot > 0 ? (rec.wins / tot * 100).toFixed(0) : 0;
+      return { opp, wins: rec.wins, losses: rec.losses, pct: Number(pct), tot };
+    })
+    .filter(r => r.tot >= 2)
+    .sort((a, b) => b.tot - a.tot)
+    .slice(0, 12);
+
+  const h2hTableRows = h2hRows.map(r => {
+    const color = r.pct >= 50 ? '#5dade2' : '#e74c3c';
+    return `<tr>
+      <td>${ownerLink(r.opp)}</td>
+      <td style="font-family:'Barlow Condensed',sans-serif;">${r.wins}–${r.losses}</td>
+      <td style="color:${color}; font-weight:700;">${r.pct}%</td>
+      <td style="color:var(--text-dim); font-size:0.8rem;">${r.tot} games</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('careerPanelContent').innerHTML = `
+    <div class="career-name">${ownerName}</div>
+    <div class="career-meta">
+      ${Object.keys(career.seasons || {}).length} Seasons ·
+      ${career.total_wins}–${career.total_losses} (${winPct}%) ·
+      ${career.titles > 0 ? career.titles + '× Champion' : 'No Championships'}
+      ${champYears ? ' · ' + champYears : ''}
+    </div>
+
+    <div class="career-section-title">Career Arc · Rank By Season</div>
+    ${chartSVG}
+
+    <div class="career-section-title">Season-by-Season Breakdown</div>
+    <div class="table-wrap" style="margin-bottom:1.5rem;">
+      <table>
+        <thead><tr>
+          <th>Year</th><th>Team</th><th>Rank</th>
+          <th>W</th><th>L</th><th>PF</th><th>PA</th><th>PO</th>
+        </tr></thead>
+        <tbody>${seasonRows}</tbody>
+      </table>
+    </div>
+
+    ${h2hRows.length ? `
+    <div class="career-section-title">Head-to-Head vs All Opponents</div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Manager</th><th>Record</th><th>Win %</th><th>Games</th></tr></thead>
+        <tbody>${h2hTableRows}</tbody>
+      </table>
+    </div>
+    ` : ''}
+  `;
+
+  document.getElementById('careerOverlay').classList.add('open');
+  document.getElementById('careerPanel').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeCareerPanel() {
+  document.getElementById('careerOverlay').classList.remove('open');
+  document.getElementById('careerPanel').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function buildRankChart(seasonEntries) {
+  if (!seasonEntries.length) return '';
+  const ranks   = seasonEntries.map(([, s]) => s.rank).filter(Boolean);
+  if (!ranks.length) return '';
+  const maxRank = Math.max(...ranks);
+  const W = 500, H = 100, padL = 32, padR = 12, padT = 10, padB = 22;
+  const cW = W - padL - padR, cH = H - padT - padB;
+  const n  = seasonEntries.length;
+
+  const pts = seasonEntries.map(([year, s], i) => {
+    const x = padL + (n > 1 ? (i / (n - 1)) * cW : cW / 2);
+    const r = s.rank || maxRank;
+    const y = padT + ((r - 1) / (maxRank - 1 || 1)) * cH;
+    return { x, y, year, rank: r, champ: s.champion };
+  });
+
+  const pathD = pts.map((p, i) => (i === 0 ? 'M' : 'L') + `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
+  const circles = pts.map(p => {
+    const fill = p.champ ? 'var(--gold)' : p.rank <= 3 ? '#CD7F32' : 'var(--green-light)';
+    return `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="4.5" fill="${fill}" stroke="var(--dark2)" stroke-width="1.5"/>`;
+  }).join('');
+  const labels = pts.map(p =>
+    `<text x="${p.x.toFixed(1)}" y="${H - 4}" text-anchor="middle" font-size="9" fill="rgba(138,158,128,0.75)">${String(p.year).slice(2)}</text>`
+  ).join('');
+
+  return `<div class="rank-chart-wrap"><svg viewBox="0 0 ${W} ${H}" style="width:100%;height:${H}px;display:block;">
+    <line x1="${padL}" y1="${padT}" x2="${padL}" y2="${padT+cH}" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <line x1="${padL}" y1="${padT+cH}" x2="${W-padR}" y2="${padT+cH}" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="${padL-3}" y="${padT+5}" text-anchor="end" font-size="9" fill="rgba(138,158,128,0.75)">1st</text>
+    <text x="${padL-3}" y="${padT+cH+5}" text-anchor="end" font-size="9" fill="rgba(138,158,128,0.75)">${maxRank}th</text>
+    <path d="${pathD}" fill="none" stroke="rgba(212,175,55,0.35)" stroke-width="2"/>
+    ${circles}${labels}
+  </svg></div>`;
+}
+
+// ====== RIVALRIES ======
+function buildRivalries(rivalries) {
+  const grid = document.getElementById('rivalryGrid');
+  if (!rivalries || !rivalries.length) {
+    grid.innerHTML = '<p style="color:var(--text-dim); font-size:0.85rem;">No rivalry data available.</p>';
+    return;
+  }
+  grid.innerHTML = rivalries.map((r, idx) => {
+    const o1pct   = (r.owner1_wins / r.total_games * 100).toFixed(1);
+    const o2pct   = (100 - o1pct).toFixed(1);
+    const o1Last  = r.owner1.split(' ').pop();
+    const o2Last  = r.owner2.split(' ').pop();
+    let leadText;
+    if      (r.owner1_wins > r.owner2_wins) leadText = `${r.owner1_wins}–${r.owner2_wins} ${o1Last} leads`;
+    else if (r.owner2_wins > r.owner1_wins) leadText = `${r.owner2_wins}–${r.owner1_wins} ${o2Last} leads`;
+    else                                    leadText = `${r.owner1_wins}–${r.owner2_wins} Tied`;
+    const bigWinner = r.biggest_blowout.winner?.split(' ').pop() || '—';
+    return `<div class="rivalry-card">
+      <div style="position:absolute;top:10px;right:14px;font-family:'Bebas Neue',sans-serif;font-size:0.9rem;color:var(--text-dim);opacity:0.5;">#${idx+1}</div>
+      <div class="rivalry-owners">
+        ${ownerLink(r.owner1)}
+        <span style="color:var(--text-dim); margin:0 5px; font-size:0.85rem;">vs</span>
+        ${ownerLink(r.owner2)}
+      </div>
+      <div class="rivalry-record">${leadText}</div>
+      <div class="dom-bar-wrap" style="margin-bottom:0.75rem;">
+        <div class="dom-label dom-label-a" style="min-width:34px; font-size:0.72rem;">${o1pct}%</div>
+        <div class="dom-bar" style="height:8px;">
+          <div class="dom-bar-a" style="width:${o1pct}%"></div>
+          <div class="dom-bar-b" style="width:${o2pct}%"></div>
+        </div>
+        <div class="dom-label dom-label-b" style="min-width:34px; font-size:0.72rem;">${o2pct}%</div>
+      </div>
+      <div class="rivalry-detail">${r.total_games} total regular season games</div>
+      <div class="rivalry-detail">Closest: <span>±${r.closest_game.margin.toFixed(2)} pts</span> (${r.closest_game.year} Wk ${r.closest_game.week})</div>
+      <div class="rivalry-detail">Biggest blowout: <span>+${r.biggest_blowout.margin.toFixed(1)} pts</span> · ${bigWinner} (${r.biggest_blowout.year})</div>
+    </div>`;
+  }).join('');
+}
+
 // ====== NAV ======
 function showSection(id, btn) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
@@ -1649,6 +2182,13 @@ fetch('data/dashboard_data.json')
     renderPowerRankingsSeason(2025);
     buildPRAllTime(data.power_rankings_alltime || []);
     buildCostSheet(managers);
+
+    // H2H, Career, Rivalries
+    _ownerCareer = data.owner_career || {};
+    const h2hOwners = Object.keys(data.head_to_head || {});
+    buildH2H(data.head_to_head || {}, data.head_to_head_games || {}, h2hOwners);
+    buildRivalries(data.rivalries || []);
+
     showApp();
   })
   .catch(err => {

@@ -649,6 +649,22 @@ def build_dashboard_data():
                 "o0": o0, "p0": p0, "o1": o1, "p1": p1,
             })
 
+    # Per-pair game log for H2H season breakdown
+    h2h_games = {}
+    for g in game_log:
+        o0g, o1g = g["o0"], g["o1"]
+        a, b     = sorted([o0g, o1g])
+        if g["o0"] == a:
+            pa, pb = g["p0"], g["p1"]
+        else:
+            pa, pb = g["p1"], g["p0"]
+        winner = a if pa > pb else (b if pb > pa else None)
+        h2h_games.setdefault(a, {}).setdefault(b, []).append({
+            "year":   g["year"], "week": g["week"],
+            "pa":     round(pa, 2), "pb": round(pb, 2),
+            "winner": winner, "margin": round(abs(pa - pb), 2),
+        })
+
     # Owner career breakdown
     champion_years = {(c["year"], c["owner"]) for c in champions}
     owner_career = {}
@@ -748,6 +764,7 @@ def build_dashboard_data():
         "power_rankings_alltime":  power_rankings_alltime,
         "season_standings":        season_standings,
         "head_to_head":            head_to_head,
+        "head_to_head_games":      h2h_games,
         "owner_career":            owner_career,
         "rivalries":               rivalries,
     }
