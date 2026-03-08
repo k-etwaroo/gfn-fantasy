@@ -752,6 +752,130 @@ def build_dashboard_data():
     rivalries.sort(key=lambda x: x["total_games"], reverse=True)
     rivalries = rivalries[:10]
 
+    # ── FUN STATS ──────────────────────────────────────────────────────────────
+
+    # 1. Consecutive playoff streaks (rank <= 4 = made playoffs)
+    # Build per-owner year→made_playoffs map
+    owner_playoff_years = {}
+    for s in all_seasons:
+        year = s["year"]
+        for t in s.get("standings", []):
+            owner = t.get("owner")
+            rank  = t.get("rank")
+            if not owner:
+                continue
+            made = rank is not None and rank <= 4
+            owner_playoff_years.setdefault(owner, {})[year] = made
+
+    consecutive_playoffs = []
+    all_years_sorted = sorted(set(s["year"] for s in all_seasons))
+    for owner, yr_map in owner_playoff_years.items():
+        best_streak = 0
+        best_end    = None
+        cur_streak  = 0
+        cur_end     = None
+        for yr in all_years_sorted:
+            if yr not in yr_map:
+                cur_streak = 0
+                continue
+            if yr_map[yr]:
+                cur_streak += 1
+                cur_end = yr
+                if cur_streak > best_streak:
+                    best_streak = cur_streak
+                    best_end    = cur_end
+            else:
+                cur_streak = 0
+        if best_streak >= 2:
+            consecutive_playoffs.append({
+                "owner":      owner,
+                "streak":     best_streak,
+                "streak_end": best_end,
+            })
+    consecutive_playoffs.sort(key=lambda x: (-x["streak"], x["owner"]))
+
+    # 2. Most points in a loss (regular season only)
+    most_points_in_loss = []
+    for s in all_seasons:
+        year = s["year"]
+        for m in s.get("matchups", []):
+            if m["is_playoffs"] or len(m["teams"]) < 2:
+                continue
+            t0, t1 = m["teams"][0], m["teams"][1]
+            p0, p1 = t0["points"], t1["points"]
+            if p0 == p1:
+                continue
+            loser, loser_pts, winner, winner_pts = (
+                (t0["owner"], p0, t1["owner"], p1)
+                if p0 < p1 else
+                (t1["owner"], p1, t0["owner"], p0)
+            )
+            most_points_in_loss.append({
+                "owner":      loser,
+                "points":     round(loser_pts, 2),
+                "opponent":   winner,
+                "opp_points": round(winner_pts, 2),
+                "year":       year,
+                "week":       m["week"],
+            })
+    most_points_in_loss.sort(key=lambda x: x["points"], reverse=True)
+    most_points_in_loss = most_points_in_loss[:10]
+
+    # 3. Best record without a title (9+ wins, didn't finish rank 1)
+    champ_by_year = {c["year"]: c["owner"] for c in champions}
+    best_record_no_title = []
+    for s in all_seasons:
+        year      = s["year"]
+        champ_own = champ_by_year.get(year, "")
+        for t in s.get("standings", []):
+            owner = t.get("owner")
+            rank  = t.get("rank")
+            wins  = t.get("wins", 0)
+            if not owner or rank == 1 or wins < 9:
+                continue
+            best_record_no_title.append({
+                "owner":    owner,
+                "year":     year,
+                "wins":     wins,
+                "losses":   t.get("losses", 0),
+                "pts_for":  round(t.get("points_for", 0), 2),
+                "rank":     rank,
+                "champion": champ_own,
+            })
+    best_record_no_title.sort(key=lambda x: (-x["wins"], -x["pts_for"]))
+    best_record_no_title = best_record_no_title[:10]
+
+    # 4. Cursed list — active owners with 0 titles, sorted by seasons desc
+    cursed_active = [
+        "Peter Ott", "Lee Bertram", "Brian Marois", "Tony Bevilaqua",
+        "Joshua", "Steve Minardi", "Kenny Smith", "Ed Shively", "Kevin Etwaroo",
+        "Malcolm Lapone", "Christopher Hayes", "Jeff Lobdell", "Chris Dupay",
+    ]
+    cursed_list = []
+    for owner in cursed_active:
+        stats = owner_stats.get(owner)
+        if not stats or stats["titles"] > 0:
+            continue
+        # Best rank ever from owner_career
+        career  = owner_career.get(owner, {})
+        seasons = career.get("seasons", {})
+        ranks   = [d["rank"] for d in seasons.values() if d.get("rank") is not None]
+        closest = min(ranks) if ranks else None
+        cursed_list.append({
+            "owner":           owner,
+            "seasons":         stats["seasons"],
+            "titles":          stats["titles"],
+            "closest_finish":  closest,
+        })
+    cursed_list.sort(key=lambda x: (-x["seasons"], x["owner"]))
+
+    fun_stats = {
+        "consecutive_playoffs":  consecutive_playoffs,
+        "most_points_in_loss":   most_points_in_loss,
+        "best_record_no_title":  best_record_no_title,
+        "cursed_list":           cursed_list,
+    }
+
     dashboard = {
         "generated_at":      datetime.now().isoformat(),
         "seasons_count":     len(all_seasons),
@@ -767,6 +891,7 @@ def build_dashboard_data():
         "head_to_head_games":      h2h_games,
         "owner_career":            owner_career,
         "rivalries":               rivalries,
+        "fun_stats":               fun_stats,
     }
 
     out = OUTPUT_DIR / "dashboard_data.json"

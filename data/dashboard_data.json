@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-08T12:26:31.657369",
+  "generated_at": "2026-03-08T12:59:53.810400",
   "seasons_count": 15,
   "champions": [
     {
@@ -124,14 +124,41 @@
     }
   ],
   "owner_stats": {
-    "Christopher Hayes": {
-      "wins": 13,
-      "losses": 15,
-      "pts_for": 3182.6000000000004,
-      "pts_against": 3301.63,
+    "Chris Maher": {
+      "wins": 5,
+      "losses": 8,
+      "pts_for": 1513.87,
+      "pts_against": 1572.78,
       "titles": 0,
-      "seasons": 2,
+      "seasons": 1,
       "playoff_appearances": 0
+    },
+    "Chris Dupay": {
+      "wins": 94,
+      "losses": 106,
+      "pts_for": 22303.36,
+      "pts_against": 23057.390000000007,
+      "titles": 0,
+      "seasons": 15,
+      "playoff_appearances": 4
+    },
+    "Scott Kellman": {
+      "wins": 54,
+      "losses": 63,
+      "pts_for": 13547.82,
+      "pts_against": 13966.41,
+      "titles": 0,
+      "seasons": 9,
+      "playoff_appearances": 0
+    },
+    "Ed Shively": {
+      "wins": 99,
+      "losses": 101,
+      "pts_for": 23247.95,
+      "pts_against": 23271.789999999997,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 5
     },
     "Chris Harjung": {
       "wins": 8,
@@ -142,6 +169,15 @@
       "seasons": 1,
       "playoff_appearances": 1
     },
+    "Christian": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
+      "titles": 0,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
     "Kenny Smith": {
       "wins": 96,
       "losses": 104,
@@ -150,42 +186,6 @@
       "titles": 1,
       "seasons": 15,
       "playoff_appearances": 5
-    },
-    "Tony Bevilaqua": {
-      "wins": 47,
-      "losses": 36,
-      "pts_for": 9708.36,
-      "pts_against": 9386.15,
-      "titles": 1,
-      "seasons": 6,
-      "playoff_appearances": 3
-    },
-    "Joshua": {
-      "wins": 34,
-      "losses": 36,
-      "pts_for": 7925.920000000001,
-      "pts_against": 7968.079999999999,
-      "titles": 1,
-      "seasons": 5,
-      "playoff_appearances": 3
-    },
-    "Steve Loesch": {
-      "wins": 11,
-      "losses": 15,
-      "pts_for": 2855.65,
-      "pts_against": 3139.1800000000003,
-      "titles": 0,
-      "seasons": 2,
-      "playoff_appearances": 0
-    },
-    "Brian Abrahamson": {
-      "wins": 7,
-      "losses": 6,
-      "pts_for": 1562.3,
-      "pts_against": 1500.1000000000001,
-      "titles": 0,
-      "seasons": 1,
-      "playoff_appearances": 1
     },
     "Jake Barker": {
       "wins": 19,
@@ -196,23 +196,23 @@
       "seasons": 3,
       "playoff_appearances": 0
     },
-    "Chad": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
-    },
-    "Brian Marois": {
-      "wins": 68,
-      "losses": 54,
-      "pts_for": 14056.18,
-      "pts_against": 14077.529999999999,
-      "titles": 2,
-      "seasons": 9,
+    "Steve Minardi": {
+      "wins": 83,
+      "losses": 89,
+      "pts_for": 19998.350000000002,
+      "pts_against": 19779.100000000002,
+      "titles": 1,
+      "seasons": 13,
       "playoff_appearances": 4
+    },
+    "Tim Flaherty": {
+      "wins": 13,
+      "losses": 13,
+      "pts_for": 3147.7200000000003,
+      "pts_against": 3192.09,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 1
     },
     "Lee Bertram": {
       "wins": 112,
@@ -232,22 +232,58 @@
       "seasons": 11,
       "playoff_appearances": 3
     },
-    "Chris Maher": {
-      "wins": 5,
-      "losses": 8,
-      "pts_for": 1513.87,
-      "pts_against": 1572.78,
+    "Brian Abrahamson": {
+      "wins": 7,
+      "losses": 6,
+      "pts_for": 1562.3,
+      "pts_against": 1500.1000000000001,
       "titles": 0,
       "seasons": 1,
-      "playoff_appearances": 0
+      "playoff_appearances": 1
     },
-    "Scott Kellman": {
-      "wins": 54,
-      "losses": 63,
-      "pts_for": 13547.82,
-      "pts_against": 13966.41,
+    "Peter Ott": {
+      "wins": 106,
+      "losses": 81,
+      "pts_for": 22524.8,
+      "pts_against": 21507.239999999998,
+      "titles": 4,
+      "seasons": 14,
+      "playoff_appearances": 5
+    },
+    "Jeff Lobdell": {
+      "wins": 95,
+      "losses": 92,
+      "pts_for": 21555.28,
+      "pts_against": 21308.730000000003,
+      "titles": 0,
+      "seasons": 14,
+      "playoff_appearances": 5
+    },
+    "Kevin Coppins": {
+      "wins": 58,
+      "losses": 59,
+      "pts_for": 13542.58,
+      "pts_against": 13895.75,
       "titles": 0,
       "seasons": 9,
+      "playoff_appearances": 3
+    },
+    "Joshua": {
+      "wins": 34,
+      "losses": 36,
+      "pts_for": 7925.920000000001,
+      "pts_against": 7968.079999999999,
+      "titles": 1,
+      "seasons": 5,
+      "playoff_appearances": 3
+    },
+    "Christopher Hayes": {
+      "wins": 13,
+      "losses": 15,
+      "pts_for": 3182.6000000000004,
+      "pts_against": 3301.63,
+      "titles": 0,
+      "seasons": 2,
       "playoff_appearances": 0
     },
     "Tom Brown": {
@@ -259,7 +295,25 @@
       "seasons": 3,
       "playoff_appearances": 0
     },
-    "Christian": {
+    "Brian Marois": {
+      "wins": 68,
+      "losses": 54,
+      "pts_for": 14056.18,
+      "pts_against": 14077.529999999999,
+      "titles": 2,
+      "seasons": 9,
+      "playoff_appearances": 4
+    },
+    "Tony Bevilaqua": {
+      "wins": 47,
+      "losses": 36,
+      "pts_for": 9708.36,
+      "pts_against": 9386.15,
+      "titles": 1,
+      "seasons": 6,
+      "playoff_appearances": 3
+    },
+    "Chad": {
       "wins": 0,
       "losses": 0,
       "pts_for": 0.0,
@@ -267,69 +321,6 @@
       "titles": 0,
       "seasons": 0,
       "playoff_appearances": 0
-    },
-    "Ed Shively": {
-      "wins": 99,
-      "losses": 101,
-      "pts_for": 23247.95,
-      "pts_against": 23271.789999999997,
-      "titles": 1,
-      "seasons": 15,
-      "playoff_appearances": 5
-    },
-    "Tim Flaherty": {
-      "wins": 13,
-      "losses": 13,
-      "pts_for": 3147.7200000000003,
-      "pts_against": 3192.09,
-      "titles": 0,
-      "seasons": 2,
-      "playoff_appearances": 1
-    },
-    "Jeff Lobdell": {
-      "wins": 95,
-      "losses": 92,
-      "pts_for": 21555.28,
-      "pts_against": 21308.730000000003,
-      "titles": 0,
-      "seasons": 14,
-      "playoff_appearances": 5
-    },
-    "Steve Minardi": {
-      "wins": 83,
-      "losses": 89,
-      "pts_for": 19998.350000000002,
-      "pts_against": 19779.100000000002,
-      "titles": 1,
-      "seasons": 13,
-      "playoff_appearances": 4
-    },
-    "Peter Ott": {
-      "wins": 106,
-      "losses": 81,
-      "pts_for": 22524.8,
-      "pts_against": 21507.239999999998,
-      "titles": 4,
-      "seasons": 14,
-      "playoff_appearances": 5
-    },
-    "Chris Dupay": {
-      "wins": 94,
-      "losses": 106,
-      "pts_for": 22303.36,
-      "pts_against": 23057.390000000007,
-      "titles": 0,
-      "seasons": 15,
-      "playoff_appearances": 4
-    },
-    "Kevin Coppins": {
-      "wins": 58,
-      "losses": 59,
-      "pts_for": 13542.58,
-      "pts_against": 13895.75,
-      "titles": 0,
-      "seasons": 9,
-      "playoff_appearances": 3
     },
     "Kevin Etwaroo": {
       "wins": 90,
@@ -339,6 +330,15 @@
       "titles": 1,
       "seasons": 15,
       "playoff_appearances": 4
+    },
+    "Steve Loesch": {
+      "wins": 11,
+      "losses": 15,
+      "pts_for": 2855.65,
+      "pts_against": 3139.1800000000003,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 0
     }
   },
   "luck_by_season": {
@@ -18746,5 +18746,254 @@
         "winner": "Ed Shively"
       }
     }
-  ]
+  ],
+  "fun_stats": {
+    "consecutive_playoffs": [
+      {
+        "owner": "Ed Shively",
+        "streak": 3,
+        "streak_end": 2022
+      },
+      {
+        "owner": "Lee Bertram",
+        "streak": 3,
+        "streak_end": 2022
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "streak": 3,
+        "streak_end": 2020
+      },
+      {
+        "owner": "Peter Ott",
+        "streak": 3,
+        "streak_end": 2014
+      },
+      {
+        "owner": "Tony Bevilaqua",
+        "streak": 3,
+        "streak_end": 2025
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "streak": 2,
+        "streak_end": 2017
+      },
+      {
+        "owner": "Joshua",
+        "streak": 2,
+        "streak_end": 2025
+      },
+      {
+        "owner": "Kevin Coppins",
+        "streak": 2,
+        "streak_end": 2015
+      },
+      {
+        "owner": "Steve Minardi",
+        "streak": 2,
+        "streak_end": 2016
+      }
+    ],
+    "most_points_in_loss": [
+      {
+        "owner": "Lee Bertram",
+        "points": 163.59,
+        "opponent": "Peter Ott",
+        "opp_points": 163.72,
+        "year": 2025,
+        "week": 4
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "points": 158.58,
+        "opponent": "Peter Ott",
+        "opp_points": 158.67,
+        "year": 2021,
+        "week": 5
+      },
+      {
+        "owner": "Lee Bertram",
+        "points": 157.22,
+        "opponent": "Ed Shively",
+        "opp_points": 176.49,
+        "year": 2012,
+        "week": 3
+      },
+      {
+        "owner": "Kevin Coppins",
+        "points": 156.47,
+        "opponent": "Jeff Lobdell",
+        "opp_points": 164.6,
+        "year": 2014,
+        "week": 13
+      },
+      {
+        "owner": "Lee Bertram",
+        "points": 156.35,
+        "opponent": "Peter Ott",
+        "opp_points": 162.14,
+        "year": 2015,
+        "week": 13
+      },
+      {
+        "owner": "Kenny Smith",
+        "points": 151.56,
+        "opponent": "Peter Ott",
+        "opp_points": 162.01,
+        "year": 2023,
+        "week": 12
+      },
+      {
+        "owner": "Peter Ott",
+        "points": 149.26,
+        "opponent": "Jeff Lobdell",
+        "opp_points": 176.17,
+        "year": 2022,
+        "week": 9
+      },
+      {
+        "owner": "Kenny Smith",
+        "points": 149.03,
+        "opponent": "Tony Bevilaqua",
+        "opp_points": 154.61,
+        "year": 2024,
+        "week": 11
+      },
+      {
+        "owner": "Kenny Smith",
+        "points": 149.02,
+        "opponent": "Scott Kellman",
+        "opp_points": 173.15,
+        "year": 2011,
+        "week": 2
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "points": 148.32,
+        "opponent": "Kevin Coppins",
+        "opp_points": 175.31,
+        "year": 2020,
+        "week": 2
+      }
+    ],
+    "best_record_no_title": [
+      {
+        "owner": "Peter Ott",
+        "year": 2021,
+        "wins": 11,
+        "losses": 3,
+        "pts_for": 1875.1,
+        "rank": 3,
+        "champion": "Lee Bertram"
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "year": 2018,
+        "wins": 10,
+        "losses": 3,
+        "pts_for": 1972.34,
+        "rank": 3,
+        "champion": "Steve Minardi"
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "year": 2023,
+        "wins": 10,
+        "losses": 4,
+        "pts_for": 1770.87,
+        "rank": 2,
+        "champion": "Peter Ott"
+      },
+      {
+        "owner": "Brian Marois",
+        "year": 2025,
+        "wins": 10,
+        "losses": 4,
+        "pts_for": 1733.63,
+        "rank": 2,
+        "champion": "Joshua"
+      },
+      {
+        "owner": "Kenny Smith",
+        "year": 2023,
+        "wins": 10,
+        "losses": 4,
+        "pts_for": 1675.25,
+        "rank": 3,
+        "champion": "Peter Ott"
+      },
+      {
+        "owner": "Kevin Coppins",
+        "year": 2015,
+        "wins": 10,
+        "losses": 3,
+        "pts_for": 1666.57,
+        "rank": 2,
+        "champion": "Kevin Etwaroo"
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "year": 2016,
+        "wins": 10,
+        "losses": 3,
+        "pts_for": 1658.87,
+        "rank": 3,
+        "champion": "Ed Shively"
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "year": 2019,
+        "wins": 10,
+        "losses": 3,
+        "pts_for": 1551.63,
+        "rank": 4,
+        "champion": "Peter Ott"
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "year": 2017,
+        "wins": 10,
+        "losses": 3,
+        "pts_for": 1549.19,
+        "rank": 4,
+        "champion": "Kenny Smith"
+      },
+      {
+        "owner": "Steve Minardi",
+        "year": 2013,
+        "wins": 9,
+        "losses": 4,
+        "pts_for": 1867.87,
+        "rank": 2,
+        "champion": "Peter Ott"
+      }
+    ],
+    "cursed_list": [
+      {
+        "owner": "Chris Dupay",
+        "seasons": 15,
+        "titles": 0,
+        "closest_finish": 3
+      },
+      {
+        "owner": "Jeff Lobdell",
+        "seasons": 14,
+        "titles": 0,
+        "closest_finish": 2
+      },
+      {
+        "owner": "Malcolm Lapone",
+        "seasons": 11,
+        "titles": 0,
+        "closest_finish": 2
+      },
+      {
+        "owner": "Christopher Hayes",
+        "seasons": 2,
+        "titles": 0,
+        "closest_finish": 3
+      }
+    ]
+  }
 }

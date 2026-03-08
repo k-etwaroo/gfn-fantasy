@@ -695,6 +695,8 @@
     cursor: pointer;
     border-bottom: 1px solid rgba(212,175,55,0.3);
     transition: color 0.15s, border-color 0.15s;
+    -webkit-tap-highlight-color: rgba(212,175,55,0.15);
+    touch-action: manipulation;
   }
   .owner-link:hover { color: var(--gold); border-color: var(--gold); }
 
@@ -857,11 +859,167 @@
   }
   .rivalry-detail span { color: var(--text); }
 
+  /* FUN STATS */
+  .fun-stats-wrap {
+    margin: 1.75rem 0;
+  }
+  .fun-stats-label {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 4px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+  .fun-panels {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+  .fun-panel {
+    background: var(--dark3);
+    border: 1px solid rgba(212,175,55,0.15);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .fun-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(212,175,55,0.1);
+    touch-action: manipulation;
+    transition: background 0.15s;
+  }
+  .fun-panel-header:hover { background: rgba(212,175,55,0.05); }
+  .fun-panel-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .fun-panel-sub {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 1px;
+    margin-top: 2px;
+  }
+  .fun-panel-chevron {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    transition: transform 0.25s;
+    flex-shrink: 0;
+  }
+  .fun-panel.open .fun-panel-chevron { transform: rotate(180deg); }
+  .fun-panel-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+  }
+  .fun-panel.open .fun-panel-body { max-height: 1000px; }
+  .fun-panel-inner { padding: 0 1rem 1rem; }
+  /* Iron Man */
+  .iron-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .iron-row:last-child { border-bottom: none; }
+  .iron-rank {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+    color: var(--text-dim);
+    width: 1.4rem;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .iron-name { flex: 1; font-size: 0.88rem; color: var(--white); }
+  .iron-badge {
+    background: rgba(212,175,55,0.15);
+    border: 1px solid rgba(212,175,55,0.35);
+    color: var(--gold);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    padding: 1px 8px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .iron-end { font-size: 0.72rem; color: var(--text-dim); flex-shrink: 0; }
+  /* Heartbreak Hotel */
+  .hb-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+  .hb-table th { text-align: left; color: var(--text-dim); font-size: 0.68rem; letter-spacing: 1px; padding-bottom: 0.4rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .hb-table td { padding: 0.35rem 0; border-bottom: 1px solid rgba(255,255,255,0.04); vertical-align: middle; }
+  .hb-table tr:last-child td { border-bottom: none; }
+  .hb-record { color: var(--text-dim); font-size: 0.78rem; }
+  .hb-pts { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; letter-spacing: 1px; }
+  .hb-pts.hb-top { color: #e05555; }
+  .hb-week { color: var(--text-dim); font-size: 0.7rem; }
+  /* So Close */
+  .sc-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .sc-item:last-child { border-bottom: none; }
+  .sc-rank {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+    color: var(--text-dim);
+    width: 1.2rem;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .sc-body { flex: 1; }
+  .sc-owner { font-size: 0.88rem; color: var(--white); font-weight: 600; }
+  .sc-meta { font-size: 0.72rem; color: var(--text-dim); margin-top: 2px; }
+  .sc-meta span { color: var(--text); }
+  .sc-champ { font-size: 0.7rem; color: var(--text-dim); margin-top: 1px; }
+  .sc-champ span { color: var(--gold); }
+  /* The Cursed */
+  .cursed-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .cursed-row:last-child { border-bottom: none; }
+  .cursed-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    color: rgba(212,175,55,0.3);
+    width: 1.5rem;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .cursed-name { flex: 1; font-size: 0.9rem; font-weight: 700; color: var(--white); }
+  .cursed-meta { font-size: 0.7rem; color: var(--text-dim); margin-top: 2px; }
+  .cursed-badge {
+    font-size: 0.7rem;
+    color: #e05555;
+    background: rgba(224,85,85,0.1);
+    border: 1px solid rgba(224,85,85,0.25);
+    padding: 2px 6px;
+    border-radius: 2px;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
   @media (max-width: 768px) {
     .career-panel { padding: 1.25rem 1rem; }
     .career-name { font-size: 1.8rem; }
     .rivalry-grid { grid-template-columns: 1fr; }
     .h2h-select { min-width: 140px; font-size: 0.85rem; }
+    .fun-panels { grid-template-columns: 1fr; }
   }
 
   /* SEASON VIEW */
@@ -1031,6 +1189,64 @@
       </div>
     </div>
 
+    <div class="fun-stats-wrap">
+      <div class="fun-stats-label">Fun Stats</div>
+      <div class="fun-panels" id="funPanels">
+        <!-- Iron Man -->
+        <div class="fun-panel" id="funIronMan">
+          <div class="fun-panel-header" onclick="toggleFunPanel('funIronMan')">
+            <div>
+              <div class="fun-panel-title">🏋️ Iron Man</div>
+              <div class="fun-panel-sub">Most consecutive playoff appearances</div>
+            </div>
+            <div class="fun-panel-chevron">▼</div>
+          </div>
+          <div class="fun-panel-body">
+            <div class="fun-panel-inner" id="ironManBody"></div>
+          </div>
+        </div>
+        <!-- Heartbreak Hotel -->
+        <div class="fun-panel" id="funHeartbreak">
+          <div class="fun-panel-header" onclick="toggleFunPanel('funHeartbreak')">
+            <div>
+              <div class="fun-panel-title">😭 Heartbreak Hotel</div>
+              <div class="fun-panel-sub">Most points scored in a loss</div>
+            </div>
+            <div class="fun-panel-chevron">▼</div>
+          </div>
+          <div class="fun-panel-body">
+            <div class="fun-panel-inner" id="heartbreakBody"></div>
+          </div>
+        </div>
+        <!-- So Close -->
+        <div class="fun-panel" id="funSoClose">
+          <div class="fun-panel-header" onclick="toggleFunPanel('funSoClose')">
+            <div>
+              <div class="fun-panel-title">💔 So Close</div>
+              <div class="fun-panel-sub">Best record without a title</div>
+            </div>
+            <div class="fun-panel-chevron">▼</div>
+          </div>
+          <div class="fun-panel-body">
+            <div class="fun-panel-inner" id="soCloseBody"></div>
+          </div>
+        </div>
+        <!-- The Cursed -->
+        <div class="fun-panel" id="funCursed">
+          <div class="fun-panel-header" onclick="toggleFunPanel('funCursed')">
+            <div>
+              <div class="fun-panel-title">😈 The Cursed</div>
+              <div class="fun-panel-sub">Active managers. Zero titles. Pure pain.</div>
+            </div>
+            <div class="fun-panel-chevron">▼</div>
+          </div>
+          <div class="fun-panel-body">
+            <div class="fun-panel-inner" id="cursedBody"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="grid-4">
       <div class="card">
         <div class="card-title">Most Championships</div>
@@ -1074,7 +1290,7 @@
       <button id="standingsToggleBtn" style="display:none; width:100%; margin-top:0.75rem; padding:9px; background:none; border:1px solid rgba(212,175,55,0.2); color:var(--text-dim); font-family:'Barlow Condensed',sans-serif; font-size:0.78rem; font-weight:700; letter-spacing:2px; cursor:pointer; transition:all 0.15s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(212,175,55,0.2)';this.style.color='var(--text-dim)'"></button>
     </div>
 
-    <div style="margin-bottom:0.5rem;">
+    <div style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid rgba(212,175,55,0.12); margin-bottom:0.5rem;">
       <div style="font-family:'Bebas Neue',sans-serif; font-size:1.5rem; color:var(--white); letter-spacing:2px; margin-bottom:0.25rem;">Top <span style="color:var(--gold);">Rivalries</span></div>
       <div style="font-size:0.75rem; color:var(--text-dim); letter-spacing:2px; text-transform:uppercase; margin-bottom:1rem;">Most-played matchups among active managers</div>
       <div class="rivalry-grid" id="dashboardRivalryGrid"></div>
@@ -1356,14 +1572,16 @@ function buildAllTimeStandings(managers, activeSet) {
 
   const sortFn = (a, b) => {
     if (b.titles !== a.titles) return b.titles - a.titles;
-    return (b.w / (b.w + b.l)) - (a.w / (a.w + a.l));
+    const aPct = (a.w + a.l > 0) ? a.w / (a.w + a.l) : 0;
+    const bPct = (b.w + b.l > 0) ? b.w / (b.w + b.l) : 0;
+    return bPct - aPct;
   };
 
   const active = [...managers].filter(m => activeSet.has(m.name)).sort(sortFn);
   const past   = [...managers].filter(m => !activeSet.has(m.name)).sort(sortFn);
 
   function rowHTML(m, i, isPast) {
-    const pct   = (m.w / (m.w + m.l) * 100).toFixed(1);
+    const pct   = (m.w + m.l > 0) ? (m.w / (m.w + m.l) * 100).toFixed(1) : '0.0';
     const medal = !isPast && i === 0 ? '🥇' : !isPast && i === 1 ? '🥈' : !isPast && i === 2 ? '🥉' : '';
     const dim   = isPast ? 'color:var(--text-dim);' : '';
     const rankCls = !isPast ? `rank-${i+1}` : '';
@@ -2058,6 +2276,72 @@ function buildRankChart(seasonEntries) {
 }
 
 // ====== RIVALRIES ======
+function toggleFunPanel(id) {
+  document.getElementById(id).classList.toggle('open');
+}
+
+function buildFunStats(fs) {
+  if (!fs) return;
+
+  // Iron Man
+  const ironRows = (fs.consecutive_playoffs || []).slice(0, 8);
+  document.getElementById('ironManBody').innerHTML = ironRows.length
+    ? ironRows.map((r, i) => `
+        <div class="iron-row">
+          <div class="iron-rank">${i + 1}</div>
+          <div class="iron-name">${ownerLink(r.owner)}</div>
+          <div class="iron-badge">${r.streak} straight</div>
+          <div class="iron-end">thru ${r.streak_end}</div>
+        </div>`).join('')
+    : '<p style="color:var(--text-dim);font-size:0.82rem;">No streak data.</p>';
+
+  // Heartbreak Hotel
+  const hbRows = (fs.most_points_in_loss || []).slice(0, 8);
+  const topPts = hbRows.length ? hbRows[0].points : 0;
+  document.getElementById('heartbreakBody').innerHTML = `
+    <table class="hb-table">
+      <thead><tr>
+        <th>Manager</th><th>Points</th><th>Lost To</th><th>Year/Wk</th>
+      </tr></thead>
+      <tbody>${hbRows.map(r => {
+        const isTop = r.points === topPts;
+        return `<tr>
+          <td>${ownerLink(r.owner)}</td>
+          <td><span class="hb-pts${isTop ? ' hb-top' : ''}">${r.points}</span></td>
+          <td class="hb-record">${ownerLink(r.opponent)} <span style="color:var(--text-dim);">${r.opp_points}</span></td>
+          <td class="hb-week">${r.year} W${r.week}</td>
+        </tr>`;
+      }).join('')}</tbody>
+    </table>`;
+
+  // So Close
+  const scRows = (fs.best_record_no_title || []).slice(0, 8);
+  document.getElementById('soCloseBody').innerHTML = scRows.map((r, i) => `
+    <div class="sc-item">
+      <div class="sc-rank">${i + 1}</div>
+      <div class="sc-body">
+        <div class="sc-owner">${ownerLink(r.owner)}</div>
+        <div class="sc-meta">${r.year} · <span>${r.wins}–${r.losses}</span> · <span>${r.pts_for.toLocaleString()} pts</span> · Rank <span>${r.rank}</span></div>
+        <div class="sc-champ">Champion: <span>${ownerLink(r.champion)}</span></div>
+      </div>
+    </div>`).join('');
+
+  // The Cursed
+  const ordinal = n => { const s=['th','st','nd','rd'], v=n%100; return n+(s[(v-20)%10]||s[v]||s[0]); };
+  const cursedRows = fs.cursed_list || [];
+  document.getElementById('cursedBody').innerHTML = cursedRows.length
+    ? cursedRows.map((r, i) => `
+        <div class="cursed-row">
+          <div class="cursed-num">${i + 1}</div>
+          <div>
+            <div class="cursed-name">${ownerLink(r.owner)}</div>
+            <div class="cursed-meta">${r.seasons} season${r.seasons !== 1 ? 's' : ''} · Best finish: ${r.closest_finish ? ordinal(r.closest_finish) + ' place' : 'N/A'}</div>
+          </div>
+          <div class="cursed-badge">0 rings</div>
+        </div>`).join('')
+    : '<p style="color:var(--text-dim);font-size:0.82rem;">Everyone has a ring!</p>';
+}
+
 function buildRivalries(rivalries, elementId) {
   const grid = document.getElementById(elementId || 'rivalryGrid');
   if (!rivalries || !rivalries.length) {
@@ -2112,13 +2396,13 @@ fetch('data/dashboard_data.json')
     const champions = data.champions;
 
     const managers = Object.entries(data.owner_stats)
-      .filter(([, s]) => s.seasons > 0 && (s.wins + s.losses) > 0)
+      .filter(([, s]) => s.seasons > 0)
       .map(([name, s]) => ({
         name,
         w: s.wins,
         l: s.losses,
-        ppg: (s.pts_for / (s.wins + s.losses)).toFixed(1),
-        pfPerSeason: Math.round(s.pts_for / s.seasons),
+        ppg: (s.wins + s.losses > 0) ? (s.pts_for / (s.wins + s.losses)).toFixed(1) : '—',
+        pfPerSeason: s.seasons > 0 ? Math.round(s.pts_for / s.seasons) : 0,
         titles: s.titles,
         playoffs: s.playoff_appearances,
         seasons: s.seasons,
@@ -2214,6 +2498,7 @@ fetch('data/dashboard_data.json')
     const h2hOwners = Object.keys(data.head_to_head || {});
     buildH2H(data.head_to_head || {}, data.head_to_head_games || {}, h2hOwners);
     buildRivalries(data.rivalries || [], 'dashboardRivalryGrid');
+    buildFunStats(data.fun_stats || null);
 
     showApp();
   })
