@@ -1055,7 +1055,7 @@
     </div>
 
     <div class="card" style="margin-bottom:2rem;">
-      <div class="card-title">All-Time Standings</div>
+      <div class="card-title">All-Time Standings · Active Managers</div>
       <div class="table-wrap" style="margin-top:1rem;">
         <table id="allTimeStandingsTable">
           <thead>
@@ -1071,6 +1071,13 @@
           <tbody id="allTimeStandingsBody"></tbody>
         </table>
       </div>
+      <button id="standingsToggleBtn" style="display:none; width:100%; margin-top:0.75rem; padding:9px; background:none; border:1px solid rgba(212,175,55,0.2); color:var(--text-dim); font-family:'Barlow Condensed',sans-serif; font-size:0.78rem; font-weight:700; letter-spacing:2px; cursor:pointer; transition:all 0.15s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(212,175,55,0.2)';this.style.color='var(--text-dim)'"></button>
+    </div>
+
+    <div style="margin-bottom:0.5rem;">
+      <div style="font-family:'Bebas Neue',sans-serif; font-size:1.5rem; color:var(--white); letter-spacing:2px; margin-bottom:0.25rem;">Top <span style="color:var(--gold);">Rivalries</span></div>
+      <div style="font-size:0.75rem; color:var(--text-dim); letter-spacing:2px; text-transform:uppercase; margin-bottom:1rem;">Most-played matchups among active managers</div>
+      <div class="rivalry-grid" id="dashboardRivalryGrid"></div>
     </div>
   </div>
 
@@ -1348,29 +1355,49 @@ function showApp() {
 }
 // ====== RENDER FUNCTIONS ======
 
-function buildAllTimeStandings(managers) {
-  const tb = document.getElementById('allTimeStandingsBody');
-  const sorted = [...managers].sort((a, b) => {
+function buildAllTimeStandings(managers, activeSet) {
+  const tb  = document.getElementById('allTimeStandingsBody');
+  const btn = document.getElementById('standingsToggleBtn');
+
+  const sortFn = (a, b) => {
     if (b.titles !== a.titles) return b.titles - a.titles;
     return (b.w / (b.w + b.l)) - (a.w / (a.w + a.l));
-  });
-  sorted.forEach((m, i) => {
-    const pct = (m.w / (m.w + m.l) * 100).toFixed(1);
-    const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : '';
-    tb.innerHTML += `
-      <tr>
-        <td><span class="rank-num rank-${i+1}">${i+1}</span></td>
-        <td><strong>${medal ? medal + ' ' : ''}${ownerLink(m.name)}</strong></td>
-        <td>${m.seasons}</td>
-        <td>${m.titles > 0 ? `<span class="tag tag-champ">${m.titles}× 🏆</span>` : '—'}</td>
-        <td>
-          ${pct}%
-          <div class="bar-wrap"><div class="bar-fill" style="width:${pct}%"></div></div>
-        </td>
-        <td>${m.playoffs}</td>
-      </tr>
-    `;
-  });
+  };
+
+  const active = [...managers].filter(m => activeSet.has(m.name)).sort(sortFn);
+  const past   = [...managers].filter(m => !activeSet.has(m.name)).sort(sortFn);
+
+  function rowHTML(m, i, isPast) {
+    const pct   = (m.w / (m.w + m.l) * 100).toFixed(1);
+    const medal = !isPast && i === 0 ? '🥇' : !isPast && i === 1 ? '🥈' : !isPast && i === 2 ? '🥉' : '';
+    const dim   = isPast ? 'color:var(--text-dim);' : '';
+    const rankCls = !isPast ? `rank-${i+1}` : '';
+    return `<tr class="${isPast ? 'past-owner-row' : ''}" ${isPast ? 'style="display:none;"' : ''}>
+      <td><span class="rank-num ${rankCls}" style="${dim}">${i+1}</span></td>
+      <td style="${dim}"><strong>${medal ? medal + ' ' : ''}${ownerLink(m.name)}</strong></td>
+      <td style="${dim}">${m.seasons}</td>
+      <td>${m.titles > 0 ? `<span class="tag tag-champ">${m.titles}× 🏆</span>` : '—'}</td>
+      <td style="${dim}">${pct}%<div class="bar-wrap"><div class="bar-fill" style="width:${pct}%; ${isPast ? 'opacity:0.4;' : ''}"></div></div></td>
+      <td style="${dim}">${m.playoffs}</td>
+    </tr>`;
+  }
+
+  let html = active.map((m, i) => rowHTML(m, i, false)).join('');
+  past.forEach((m, i) => { html += rowHTML(m, active.length + i, true); });
+  tb.innerHTML = html;
+
+  if (past.length) {
+    const total = active.length + past.length;
+    btn.textContent = `See All (${total} managers) ▼`;
+    btn.style.display = '';
+    btn.setAttribute('data-expanded', 'false');
+    btn.onclick = () => {
+      const expanded = btn.getAttribute('data-expanded') === 'true';
+      tb.querySelectorAll('.past-owner-row').forEach(r => r.style.display = expanded ? 'none' : '');
+      btn.setAttribute('data-expanded', String(!expanded));
+      btn.textContent = expanded ? `See All (${total} managers) ▼` : 'Show Less ▲';
+    };
+  }
 }
 
 let _allChampions = [];
@@ -2036,8 +2063,8 @@ function buildRankChart(seasonEntries) {
 }
 
 // ====== RIVALRIES ======
-function buildRivalries(rivalries) {
-  const grid = document.getElementById('rivalryGrid');
+function buildRivalries(rivalries, elementId) {
+  const grid = document.getElementById(elementId || 'rivalryGrid');
   if (!rivalries || !rivalries.length) {
     grid.innerHTML = '<p style="color:var(--text-dim); font-size:0.85rem;">No rivalry data available.</p>';
     return;
@@ -2169,7 +2196,11 @@ fetch('data/dashboard_data.json')
 
     _seasonStandings = data.season_standings || {};
     buildYearFilter(champions);
-    buildAllTimeStandings(managers);
+    // Derive active 2025 owners from standings data
+    const active2025 = new Set(
+      (data.season_standings?.['2025'] || []).map(t => t.owner).filter(Boolean)
+    );
+    buildAllTimeStandings(managers, active2025);
     buildChampRoll(champions);
     buildRecordsTable(managers);
     _luckBySeasonAll = data.luck_by_season;
@@ -2187,7 +2218,8 @@ fetch('data/dashboard_data.json')
     _ownerCareer = data.owner_career || {};
     const h2hOwners = Object.keys(data.head_to_head || {});
     buildH2H(data.head_to_head || {}, data.head_to_head_games || {}, h2hOwners);
-    buildRivalries(data.rivalries || []);
+    buildRivalries(data.rivalries || [], 'dashboardRivalryGrid');
+    buildRivalries(data.rivalries || [], 'rivalryGrid');
 
     showApp();
   })
