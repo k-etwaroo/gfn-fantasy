@@ -160,6 +160,37 @@
     padding-bottom: 1rem;
     border-bottom: 1px solid rgba(212,175,55,0.15);
   }
+  /* Dashboard overrides: stat row owns the divider instead */
+  #dashboard .section-sub { margin-bottom: 0.75rem; padding-bottom: 0; border-bottom: none; }
+  .dash-stat-row {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.75rem 0 1.5rem;
+    border-bottom: 1px solid rgba(212,175,55,0.15);
+    margin-bottom: 1.5rem;
+  }
+  .dash-stat {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+  }
+  .dash-stat-n {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    color: var(--gold);
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+  .dash-stat-l {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
 
   /* CARDS */
   .card {
@@ -1397,15 +1428,11 @@
   <div class="section active" id="dashboard">
     <div class="section-title"><span>GFN</span> Command Center</div>
     <div class="section-sub">15 Seasons · 2011–2025 · All-Time Overview</div>
-
-    <div class="hero-band">
-      <div class="hero-headline">Reigning Champ: <span>DIGGS THESE HANDS</span></div>
-      <div class="hero-stats">
-        <div class="hero-stat"><div class="n">15</div><div class="l">Seasons</div></div>
-        <div class="hero-stat"><div class="n" id="heroManagers">10</div><div class="l">Managers</div></div>
-        <div class="hero-stat"><div class="n">$1,800</div><div class="l">All-Time Paid</div></div>
-        <div class="hero-stat"><div class="n">2,340</div><div class="l">Games Played</div></div>
-      </div>
+    <div class="dash-stat-row">
+      <div class="dash-stat"><span class="dash-stat-n">15</span><span class="dash-stat-l">Seasons</span></div>
+      <div class="dash-stat"><span class="dash-stat-n" id="heroManagers">—</span><span class="dash-stat-l">Managers</span></div>
+      <div class="dash-stat"><span class="dash-stat-n">$1,800</span><span class="dash-stat-l">All-Time Paid</span></div>
+      <div class="dash-stat"><span class="dash-stat-n">2,340</span><span class="dash-stat-l">Games Played</span></div>
     </div>
 
     <div class="on-this-day" id="onThisDay" style="display:none;"></div>
