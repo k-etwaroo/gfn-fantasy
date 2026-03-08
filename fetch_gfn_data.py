@@ -616,6 +616,126 @@ def build_dashboard_data():
             for t in s.get("standings", [])
         ]
 
+    # Head-to-head records (regular season only)
+    head_to_head = {}
+    # Also build a flat game log for rivalry stats
+    game_log = []
+
+    for s in all_seasons:
+        year = s["year"]
+        for m in s.get("matchups", []):
+            if m["is_playoffs"] or len(m["teams"]) < 2:
+                continue
+            t0, t1 = m["teams"][0], m["teams"][1]
+            o0, o1 = t0["owner"], t1["owner"]
+            p0, p1 = t0["points"], t1["points"]
+
+            for a, b, pa, pb in [(o0, o1, p0, p1), (o1, o0, p1, p0)]:
+                head_to_head.setdefault(a, {}).setdefault(b, {
+                    "wins": 0, "losses": 0, "pts_for": 0.0, "pts_against": 0.0
+                })
+                head_to_head[a][b]["pts_for"]     = round(head_to_head[a][b]["pts_for"]     + pa, 2)
+                head_to_head[a][b]["pts_against"] = round(head_to_head[a][b]["pts_against"] + pb, 2)
+
+            if p0 > p1:
+                head_to_head[o0][o1]["wins"]   += 1
+                head_to_head[o1][o0]["losses"] += 1
+            elif p1 > p0:
+                head_to_head[o1][o0]["wins"]   += 1
+                head_to_head[o0][o1]["losses"] += 1
+
+            game_log.append({
+                "year": year, "week": m["week"],
+                "o0": o0, "p0": p0, "o1": o1, "p1": p1,
+            })
+
+    # Owner career breakdown
+    champion_years = {(c["year"], c["owner"]) for c in champions}
+    owner_career = {}
+
+    for s in all_seasons:
+        year = s["year"]
+        num_teams    = len(s.get("standings", []))
+        playoff_spots = max(4, num_teams // 3)
+        for t in s.get("standings", []):
+            owner = t.get("owner")
+            if not owner:
+                continue
+            career = owner_career.setdefault(owner, {
+                "seasons": {}, "total_wins": 0, "total_losses": 0, "titles": 0
+            })
+            rank = t.get("rank")
+            seed = t.get("playoff_seed")
+            made_playoffs = bool(seed and int(seed) <= playoff_spots)
+            is_champ      = (year, owner) in champion_years
+            career["seasons"][str(year)] = {
+                "rank":         rank,
+                "team":         t.get("name"),
+                "wins":         t.get("wins", 0),
+                "losses":       t.get("losses", 0),
+                "pts_for":      round(t.get("points_for", 0), 2),
+                "pts_against":  round(t.get("points_against", 0), 2),
+                "made_playoffs": made_playoffs,
+                "champion":     is_champ,
+            }
+            career["total_wins"]   += t.get("wins", 0)
+            career["total_losses"] += t.get("losses", 0)
+            if is_champ:
+                career["titles"] += 1
+
+    for owner, career in owner_career.items():
+        ranked = [(yr, d) for yr, d in career["seasons"].items() if d["rank"] is not None]
+        if ranked:
+            career["best_season"]  = min(ranked, key=lambda x: x[1]["rank"])[0]
+            career["worst_season"] = max(ranked, key=lambda x: x[1]["rank"])[0]
+        else:
+            career["best_season"]  = None
+            career["worst_season"] = None
+
+    # Rivalries: top 10 most-played matchups among active owners
+    active_set  = set(ACTIVE_OWNERS)
+    pair_games  = {}
+
+    for g in game_log:
+        o0, o1 = g["o0"], g["o1"]
+        if o0 not in active_set or o1 not in active_set:
+            continue
+        pair = tuple(sorted([o0, o1]))
+        pair_games.setdefault(pair, []).append(g)
+
+    rivalries = []
+    for (oa, ob), games in pair_games.items():
+        margins = [round(abs(g["p0"] - g["p1"]), 2) for g in games]
+        oa_wins = sum(1 for g in games if g["p0"] > g["p1"] and g["o0"] == oa
+                      or g["p1"] > g["p0"] and g["o1"] == oa)
+        ob_wins = sum(1 for g in games if g["p0"] > g["p1"] and g["o0"] == ob
+                      or g["p1"] > g["p0"] and g["o1"] == ob)
+        closest  = min(games, key=lambda g: abs(g["p0"] - g["p1"]))
+        biggest  = max(games, key=lambda g: abs(g["p0"] - g["p1"]))
+        big_win  = biggest["o0"] if biggest["p0"] > biggest["p1"] else biggest["o1"]
+        rivalries.append({
+            "owner1":       oa,
+            "owner2":       ob,
+            "total_games":  len(games),
+            "owner1_wins":  oa_wins,
+            "owner2_wins":  ob_wins,
+            "avg_margin":   round(sum(margins) / len(margins), 2),
+            "closest_game": {
+                "year":   closest["year"],
+                "week":   closest["week"],
+                "margin": round(abs(closest["p0"] - closest["p1"]), 2),
+            },
+            "biggest_blowout": {
+                "year":   biggest["year"],
+                "week":   biggest["week"],
+                "margin": round(abs(biggest["p0"] - biggest["p1"]), 2),
+                "winner": big_win,
+            },
+        })
+
+    rivalries.sort(key=lambda x: x["total_games"], reverse=True)
+    rivalries = rivalries[:10]
+
     dashboard = {
         "generated_at":      datetime.now().isoformat(),
         "seasons_count":     len(all_seasons),
@@ -627,6 +747,9 @@ def build_dashboard_data():
         "season_power_rankings":   season_power_rankings,
         "power_rankings_alltime":  power_rankings_alltime,
         "season_standings":        season_standings,
+        "head_to_head":            head_to_head,
+        "owner_career":            owner_career,
+        "rivalries":               rivalries,
     }
 
     out = OUTPUT_DIR / "dashboard_data.json"
