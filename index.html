@@ -2847,9 +2847,6 @@ fetch('data/dashboard_data.json')
       score: p.pr_score,
     }));
 
-    // Update hero band
-    const latestChamp = [...champions].sort((a, b) => b.year - a.year)[0];
-    document.querySelector('.hero-headline').innerHTML = `Reigning Champ: <span>${latestChamp.team.toUpperCase()}</span>`;
     document.getElementById('heroManagers').textContent = Object.keys(data.owner_stats).length;
 
     // Update dashboard stat cards
