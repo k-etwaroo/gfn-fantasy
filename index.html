@@ -1135,11 +1135,6 @@
       </div>
     </div>
 
-    <div class="card">
-      <div class="card-title" style="font-size:0.8rem; margin-bottom:0.25rem;">⚔ TOP RIVALRIES</div>
-      <div style="font-size:0.75rem; color:var(--text-dim); letter-spacing:1px; margin-bottom:1rem;">Most-played matchups among active managers · Regular season only</div>
-      <div class="rivalry-grid" id="rivalryGrid"></div>
-    </div>
   </div>
 
   <!-- HEAD TO HEAD -->
@@ -2219,7 +2214,6 @@ fetch('data/dashboard_data.json')
     const h2hOwners = Object.keys(data.head_to_head || {});
     buildH2H(data.head_to_head || {}, data.head_to_head_games || {}, h2hOwners);
     buildRivalries(data.rivalries || [], 'dashboardRivalryGrid');
-    buildRivalries(data.rivalries || [], 'rivalryGrid');
 
     showApp();
   })
