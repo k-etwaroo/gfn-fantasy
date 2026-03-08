@@ -859,6 +859,40 @@
   }
   .rivalry-detail span { color: var(--text); }
 
+  /* COLLAPSIBLE STANDINGS */
+  .standings-wrap {
+    background: var(--dark2);
+    border: 1px solid rgba(212,175,55,0.15);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .standings-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9rem 1.25rem;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(212,175,55,0.1);
+    touch-action: manipulation;
+    transition: background 0.15s;
+  }
+  .standings-toggle:hover { background: rgba(212,175,55,0.05); }
+  .standings-chevron {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    transition: transform 0.3s;
+    flex-shrink: 0;
+  }
+  .standings-wrap.open .standings-chevron { transform: rotate(180deg); }
+  .standings-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+  }
+  .standings-wrap.open .standings-body { max-height: 2000px; }
+  .standings-inner { padding: 0 1.25rem 1.25rem; }
+
   /* FUN STATS */
   .fun-stats-wrap {
     margin: 1.75rem 0;
@@ -1189,6 +1223,29 @@
       </div>
     </div>
 
+    <div class="grid-4">
+      <div class="card">
+        <div class="card-title">Most Championships</div>
+        <div class="card-value">3</div>
+        <div class="card-detail">Mike D. · 2013, 2017, 2021</div>
+      </div>
+      <div class="card">
+        <div class="card-title">All-Time Win %</div>
+        <div class="card-value">64.2%</div>
+        <div class="card-detail">Tom R. · 89–49 record</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Highest Single Season PF</div>
+        <div class="card-value">1,847</div>
+        <div class="card-detail">Jake S. · 2019 Season</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Most Last Place Finishes</div>
+        <div class="card-value">4×</div>
+        <div class="card-detail">Dave K. · The Toilet Bowl King 🚽</div>
+      </div>
+    </div>
+
     <div class="fun-stats-wrap">
       <div class="fun-stats-label">Fun Stats</div>
       <div class="fun-panels" id="funPanels">
@@ -1247,47 +1304,34 @@
       </div>
     </div>
 
-    <div class="grid-4">
-      <div class="card">
-        <div class="card-title">Most Championships</div>
-        <div class="card-value">3</div>
-        <div class="card-detail">Mike D. · 2013, 2017, 2021</div>
+    <div class="standings-wrap" id="standingsWrap" style="margin-bottom:2rem;">
+      <div class="standings-toggle" onclick="toggleStandings()">
+        <div style="display:flex; flex-direction:column;">
+          <span style="font-family:'Barlow Condensed',sans-serif; font-size:0.78rem; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--gold);">All-Time Standings</span>
+          <span style="font-size:0.7rem; color:var(--text-dim); letter-spacing:1px; margin-top:2px;">Active managers first</span>
+        </div>
+        <div class="standings-chevron" id="standingsChevron">▼</div>
       </div>
-      <div class="card">
-        <div class="card-title">All-Time Win %</div>
-        <div class="card-value">64.2%</div>
-        <div class="card-detail">Tom R. · 89–49 record</div>
+      <div class="standings-body" id="standingsBody">
+        <div class="standings-inner">
+          <div class="table-wrap" style="margin-top:1rem;">
+            <table id="allTimeStandingsTable">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Manager</th>
+                  <th>Seasons</th>
+                  <th>Championships</th>
+                  <th>Win %</th>
+                  <th>Playoffs</th>
+                </tr>
+              </thead>
+              <tbody id="allTimeStandingsBody"></tbody>
+            </table>
+          </div>
+          <button id="standingsToggleBtn" style="display:none; width:100%; margin-top:0.75rem; padding:9px; background:none; border:1px solid rgba(212,175,55,0.2); color:var(--text-dim); font-family:'Barlow Condensed',sans-serif; font-size:0.78rem; font-weight:700; letter-spacing:2px; cursor:pointer; transition:all 0.15s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(212,175,55,0.2)';this.style.color='var(--text-dim)'"></button>
+        </div>
       </div>
-      <div class="card">
-        <div class="card-title">Highest Single Season PF</div>
-        <div class="card-value">1,847</div>
-        <div class="card-detail">Jake S. · 2019 Season</div>
-      </div>
-      <div class="card">
-        <div class="card-title">Most Last Place Finishes</div>
-        <div class="card-value">4×</div>
-        <div class="card-detail">Dave K. · The Toilet Bowl King 🚽</div>
-      </div>
-    </div>
-
-    <div class="card" style="margin-bottom:2rem;">
-      <div class="card-title">All-Time Standings · Active Managers</div>
-      <div class="table-wrap" style="margin-top:1rem;">
-        <table id="allTimeStandingsTable">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Manager</th>
-              <th>Seasons</th>
-              <th>Championships</th>
-              <th>Win %</th>
-              <th>Playoffs</th>
-            </tr>
-          </thead>
-          <tbody id="allTimeStandingsBody"></tbody>
-        </table>
-      </div>
-      <button id="standingsToggleBtn" style="display:none; width:100%; margin-top:0.75rem; padding:9px; background:none; border:1px solid rgba(212,175,55,0.2); color:var(--text-dim); font-family:'Barlow Condensed',sans-serif; font-size:0.78rem; font-weight:700; letter-spacing:2px; cursor:pointer; transition:all 0.15s;" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='rgba(212,175,55,0.2)';this.style.color='var(--text-dim)'"></button>
     </div>
 
     <div style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid rgba(212,175,55,0.12); margin-bottom:0.5rem;">
@@ -2280,6 +2324,17 @@ function toggleFunPanel(id) {
   document.getElementById(id).classList.toggle('open');
 }
 
+function toggleStandings() {
+  document.getElementById('standingsWrap').classList.toggle('open');
+}
+
+function initStandingsState() {
+  // Desktop (>768px): expanded by default. Mobile: collapsed by default.
+  if (window.innerWidth > 768) {
+    document.getElementById('standingsWrap').classList.add('open');
+  }
+}
+
 function buildFunStats(fs) {
   if (!fs) return;
 
@@ -2501,6 +2556,7 @@ fetch('data/dashboard_data.json')
     buildFunStats(data.fun_stats || null);
 
     showApp();
+    initStandingsState();
   })
   .catch(err => {
     console.error('Failed to load dashboard data:', err);
