@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-08T12:59:53.810400",
+  "generated_at": "2026-03-08T13:17:03.809961",
   "seasons_count": 15,
   "champions": [
     {
@@ -124,24 +124,6 @@
     }
   ],
   "owner_stats": {
-    "Chris Maher": {
-      "wins": 5,
-      "losses": 8,
-      "pts_for": 1513.87,
-      "pts_against": 1572.78,
-      "titles": 0,
-      "seasons": 1,
-      "playoff_appearances": 0
-    },
-    "Chris Dupay": {
-      "wins": 94,
-      "losses": 106,
-      "pts_for": 22303.36,
-      "pts_against": 23057.390000000007,
-      "titles": 0,
-      "seasons": 15,
-      "playoff_appearances": 4
-    },
     "Scott Kellman": {
       "wins": 54,
       "losses": 63,
@@ -151,41 +133,32 @@
       "seasons": 9,
       "playoff_appearances": 0
     },
-    "Ed Shively": {
-      "wins": 99,
-      "losses": 101,
-      "pts_for": 23247.95,
-      "pts_against": 23271.789999999997,
-      "titles": 1,
-      "seasons": 15,
-      "playoff_appearances": 5
-    },
-    "Chris Harjung": {
-      "wins": 8,
-      "losses": 5,
-      "pts_for": 1476.68,
-      "pts_against": 1430.2200000000003,
+    "Malcolm Lapone": {
+      "wins": 74,
+      "losses": 74,
+      "pts_for": 16943.829999999998,
+      "pts_against": 16572.87,
       "titles": 0,
-      "seasons": 1,
-      "playoff_appearances": 1
+      "seasons": 11,
+      "playoff_appearances": 3
     },
-    "Christian": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
-      "titles": 0,
-      "seasons": 0,
-      "playoff_appearances": 0
+    "Brian Marois": {
+      "wins": 68,
+      "losses": 54,
+      "pts_for": 14056.18,
+      "pts_against": 14077.529999999999,
+      "titles": 2,
+      "seasons": 9,
+      "playoff_appearances": 4
     },
-    "Kenny Smith": {
-      "wins": 96,
-      "losses": 104,
-      "pts_for": 22579.14,
-      "pts_against": 23025.640000000003,
-      "titles": 1,
+    "Lee Bertram": {
+      "wins": 112,
+      "losses": 88,
+      "pts_for": 24127.74,
+      "pts_against": 22777.229999999996,
+      "titles": 3,
       "seasons": 15,
-      "playoff_appearances": 5
+      "playoff_appearances": 9
     },
     "Jake Barker": {
       "wins": 19,
@@ -195,6 +168,33 @@
       "titles": 0,
       "seasons": 3,
       "playoff_appearances": 0
+    },
+    "Peter Ott": {
+      "wins": 106,
+      "losses": 81,
+      "pts_for": 22524.8,
+      "pts_against": 21507.239999999998,
+      "titles": 4,
+      "seasons": 14,
+      "playoff_appearances": 5
+    },
+    "Steve Loesch": {
+      "wins": 11,
+      "losses": 15,
+      "pts_for": 2855.65,
+      "pts_against": 3139.1800000000003,
+      "titles": 0,
+      "seasons": 2,
+      "playoff_appearances": 0
+    },
+    "Jeff Lobdell": {
+      "wins": 95,
+      "losses": 92,
+      "pts_for": 21555.28,
+      "pts_against": 21308.730000000003,
+      "titles": 0,
+      "seasons": 14,
+      "playoff_appearances": 5
     },
     "Steve Minardi": {
       "wins": 83,
@@ -214,49 +214,40 @@
       "seasons": 2,
       "playoff_appearances": 1
     },
-    "Lee Bertram": {
-      "wins": 112,
-      "losses": 88,
-      "pts_for": 24127.74,
-      "pts_against": 22777.229999999996,
-      "titles": 3,
-      "seasons": 15,
-      "playoff_appearances": 9
-    },
-    "Malcolm Lapone": {
-      "wins": 74,
-      "losses": 74,
-      "pts_for": 16943.829999999998,
-      "pts_against": 16572.87,
-      "titles": 0,
-      "seasons": 11,
-      "playoff_appearances": 3
-    },
-    "Brian Abrahamson": {
-      "wins": 7,
-      "losses": 6,
-      "pts_for": 1562.3,
-      "pts_against": 1500.1000000000001,
+    "Chris Maher": {
+      "wins": 5,
+      "losses": 8,
+      "pts_for": 1513.87,
+      "pts_against": 1572.78,
       "titles": 0,
       "seasons": 1,
-      "playoff_appearances": 1
+      "playoff_appearances": 0
     },
-    "Peter Ott": {
-      "wins": 106,
-      "losses": 81,
-      "pts_for": 22524.8,
-      "pts_against": 21507.239999999998,
-      "titles": 4,
-      "seasons": 14,
-      "playoff_appearances": 5
+    "Joshua": {
+      "wins": 34,
+      "losses": 36,
+      "pts_for": 7925.920000000001,
+      "pts_against": 7968.079999999999,
+      "titles": 1,
+      "seasons": 5,
+      "playoff_appearances": 3
     },
-    "Jeff Lobdell": {
-      "wins": 95,
-      "losses": 92,
-      "pts_for": 21555.28,
-      "pts_against": 21308.730000000003,
+    "Christian": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
       "titles": 0,
-      "seasons": 14,
+      "seasons": 0,
+      "playoff_appearances": 0
+    },
+    "Ed Shively": {
+      "wins": 99,
+      "losses": 101,
+      "pts_for": 23247.95,
+      "pts_against": 23271.789999999997,
+      "titles": 1,
+      "seasons": 15,
       "playoff_appearances": 5
     },
     "Kevin Coppins": {
@@ -268,23 +259,14 @@
       "seasons": 9,
       "playoff_appearances": 3
     },
-    "Joshua": {
-      "wins": 34,
+    "Tony Bevilaqua": {
+      "wins": 47,
       "losses": 36,
-      "pts_for": 7925.920000000001,
-      "pts_against": 7968.079999999999,
+      "pts_for": 9708.36,
+      "pts_against": 9386.15,
       "titles": 1,
-      "seasons": 5,
+      "seasons": 6,
       "playoff_appearances": 3
-    },
-    "Christopher Hayes": {
-      "wins": 13,
-      "losses": 15,
-      "pts_for": 3182.6000000000004,
-      "pts_against": 3301.63,
-      "titles": 0,
-      "seasons": 2,
-      "playoff_appearances": 0
     },
     "Tom Brown": {
       "wins": 14,
@@ -295,31 +277,31 @@
       "seasons": 3,
       "playoff_appearances": 0
     },
-    "Brian Marois": {
-      "wins": 68,
-      "losses": 54,
-      "pts_for": 14056.18,
-      "pts_against": 14077.529999999999,
-      "titles": 2,
-      "seasons": 9,
+    "Chris Dupay": {
+      "wins": 94,
+      "losses": 106,
+      "pts_for": 22303.36,
+      "pts_against": 23057.390000000007,
+      "titles": 0,
+      "seasons": 15,
       "playoff_appearances": 4
     },
-    "Tony Bevilaqua": {
-      "wins": 47,
-      "losses": 36,
-      "pts_for": 9708.36,
-      "pts_against": 9386.15,
-      "titles": 1,
-      "seasons": 6,
-      "playoff_appearances": 3
-    },
-    "Chad": {
-      "wins": 0,
-      "losses": 0,
-      "pts_for": 0.0,
-      "pts_against": 0.0,
+    "Brian Abrahamson": {
+      "wins": 7,
+      "losses": 6,
+      "pts_for": 1562.3,
+      "pts_against": 1500.1000000000001,
       "titles": 0,
-      "seasons": 0,
+      "seasons": 1,
+      "playoff_appearances": 1
+    },
+    "Christopher Hayes": {
+      "wins": 13,
+      "losses": 15,
+      "pts_for": 3182.6000000000004,
+      "pts_against": 3301.63,
+      "titles": 0,
+      "seasons": 2,
       "playoff_appearances": 0
     },
     "Kevin Etwaroo": {
@@ -331,14 +313,32 @@
       "seasons": 15,
       "playoff_appearances": 4
     },
-    "Steve Loesch": {
-      "wins": 11,
-      "losses": 15,
-      "pts_for": 2855.65,
-      "pts_against": 3139.1800000000003,
+    "Kenny Smith": {
+      "wins": 96,
+      "losses": 104,
+      "pts_for": 22579.14,
+      "pts_against": 23025.640000000003,
+      "titles": 1,
+      "seasons": 15,
+      "playoff_appearances": 5
+    },
+    "Chad": {
+      "wins": 0,
+      "losses": 0,
+      "pts_for": 0.0,
+      "pts_against": 0.0,
       "titles": 0,
-      "seasons": 2,
+      "seasons": 0,
       "playoff_appearances": 0
+    },
+    "Chris Harjung": {
+      "wins": 8,
+      "losses": 5,
+      "pts_for": 1476.68,
+      "pts_against": 1430.2200000000003,
+      "titles": 0,
+      "seasons": 1,
+      "playoff_appearances": 1
     }
   },
   "luck_by_season": {
@@ -1467,16 +1467,16 @@
       "seasons": 15
     },
     {
-      "owner": "Chris Harjung",
-      "avg": 2.0,
-      "total": 2.0,
-      "seasons": 1
-    },
-    {
       "owner": "Jeff Lobdell",
       "avg": 0.14,
       "total": 2.0,
       "seasons": 14
+    },
+    {
+      "owner": "Chris Harjung",
+      "avg": 2.0,
+      "total": 2.0,
+      "seasons": 1
     },
     {
       "owner": "Joshua",
@@ -18995,5 +18995,9607 @@
         "closest_finish": 3
       }
     ]
-  }
+  },
+  "season_matchups": [
+    {
+      "year": 2011,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 181.55,
+      "o1": "Ed Shively",
+      "p1": 143.88
+    },
+    {
+      "year": 2011,
+      "week": 1,
+      "o0": "Steve Loesch",
+      "p0": 117.16,
+      "o1": "Chris Dupay",
+      "p1": 103.85
+    },
+    {
+      "year": 2011,
+      "week": 1,
+      "o0": "Brian Abrahamson",
+      "p0": 146.66,
+      "o1": "Jeff Lobdell",
+      "p1": 92.08
+    },
+    {
+      "year": 2011,
+      "week": 1,
+      "o0": "Kevin Etwaroo",
+      "p0": 145.68,
+      "o1": "Scott Kellman",
+      "p1": 126.86
+    },
+    {
+      "year": 2011,
+      "week": 1,
+      "o0": "Kenny Smith",
+      "p0": 93.4,
+      "o1": "Kevin Coppins",
+      "p1": 107.77
+    },
+    {
+      "year": 2011,
+      "week": 1,
+      "o0": "Steve Minardi",
+      "p0": 108.68,
+      "o1": "Chris Maher",
+      "p1": 129.0
+    },
+    {
+      "year": 2011,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 134.16,
+      "o1": "Steve Loesch",
+      "p1": 66.52
+    },
+    {
+      "year": 2011,
+      "week": 2,
+      "o0": "Ed Shively",
+      "p0": 162.17,
+      "o1": "Chris Maher",
+      "p1": 110.74
+    },
+    {
+      "year": 2011,
+      "week": 2,
+      "o0": "Brian Abrahamson",
+      "p0": 123.0,
+      "o1": "Chris Dupay",
+      "p1": 137.4
+    },
+    {
+      "year": 2011,
+      "week": 2,
+      "o0": "Kevin Etwaroo",
+      "p0": 101.97,
+      "o1": "Jeff Lobdell",
+      "p1": 143.8
+    },
+    {
+      "year": 2011,
+      "week": 2,
+      "o0": "Kenny Smith",
+      "p0": 149.02,
+      "o1": "Scott Kellman",
+      "p1": 173.15
+    },
+    {
+      "year": 2011,
+      "week": 2,
+      "o0": "Steve Minardi",
+      "p0": 153.18,
+      "o1": "Kevin Coppins",
+      "p1": 140.07
+    },
+    {
+      "year": 2011,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 201.52,
+      "o1": "Brian Abrahamson",
+      "p1": 126.4
+    },
+    {
+      "year": 2011,
+      "week": 3,
+      "o0": "Ed Shively",
+      "p0": 125.73,
+      "o1": "Steve Loesch",
+      "p1": 82.22
+    },
+    {
+      "year": 2011,
+      "week": 3,
+      "o0": "Kevin Etwaroo",
+      "p0": 146.88,
+      "o1": "Chris Dupay",
+      "p1": 106.77
+    },
+    {
+      "year": 2011,
+      "week": 3,
+      "o0": "Kenny Smith",
+      "p0": 95.46,
+      "o1": "Jeff Lobdell",
+      "p1": 139.55
+    },
+    {
+      "year": 2011,
+      "week": 3,
+      "o0": "Steve Minardi",
+      "p0": 125.14,
+      "o1": "Scott Kellman",
+      "p1": 83.7
+    },
+    {
+      "year": 2011,
+      "week": 3,
+      "o0": "Kevin Coppins",
+      "p0": 125.08,
+      "o1": "Chris Maher",
+      "p1": 135.14
+    },
+    {
+      "year": 2011,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 121.6,
+      "o1": "Kevin Etwaroo",
+      "p1": 211.37
+    },
+    {
+      "year": 2011,
+      "week": 4,
+      "o0": "Ed Shively",
+      "p0": 106.99,
+      "o1": "Brian Abrahamson",
+      "p1": 143.89
+    },
+    {
+      "year": 2011,
+      "week": 4,
+      "o0": "Steve Loesch",
+      "p0": 107.56,
+      "o1": "Chris Maher",
+      "p1": 99.08
+    },
+    {
+      "year": 2011,
+      "week": 4,
+      "o0": "Kenny Smith",
+      "p0": 124.94,
+      "o1": "Chris Dupay",
+      "p1": 119.42
+    },
+    {
+      "year": 2011,
+      "week": 4,
+      "o0": "Steve Minardi",
+      "p0": 145.04,
+      "o1": "Jeff Lobdell",
+      "p1": 138.24
+    },
+    {
+      "year": 2011,
+      "week": 4,
+      "o0": "Kevin Coppins",
+      "p0": 99.99,
+      "o1": "Scott Kellman",
+      "p1": 153.39
+    },
+    {
+      "year": 2011,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 146.36,
+      "o1": "Kenny Smith",
+      "p1": 135.42
+    },
+    {
+      "year": 2011,
+      "week": 5,
+      "o0": "Ed Shively",
+      "p0": 110.69,
+      "o1": "Kevin Etwaroo",
+      "p1": 117.89
+    },
+    {
+      "year": 2011,
+      "week": 5,
+      "o0": "Steve Loesch",
+      "p0": 65.61,
+      "o1": "Brian Abrahamson",
+      "p1": 139.66
+    },
+    {
+      "year": 2011,
+      "week": 5,
+      "o0": "Steve Minardi",
+      "p0": 109.4,
+      "o1": "Chris Dupay",
+      "p1": 94.74
+    },
+    {
+      "year": 2011,
+      "week": 5,
+      "o0": "Kevin Coppins",
+      "p0": 119.1,
+      "o1": "Jeff Lobdell",
+      "p1": 91.91
+    },
+    {
+      "year": 2011,
+      "week": 5,
+      "o0": "Scott Kellman",
+      "p0": 139.18,
+      "o1": "Chris Maher",
+      "p1": 125.95
+    },
+    {
+      "year": 2011,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 147.62,
+      "o1": "Steve Minardi",
+      "p1": 108.83
+    },
+    {
+      "year": 2011,
+      "week": 6,
+      "o0": "Ed Shively",
+      "p0": 130.76,
+      "o1": "Kenny Smith",
+      "p1": 124.5
+    },
+    {
+      "year": 2011,
+      "week": 6,
+      "o0": "Steve Loesch",
+      "p0": 66.33,
+      "o1": "Kevin Etwaroo",
+      "p1": 97.24
+    },
+    {
+      "year": 2011,
+      "week": 6,
+      "o0": "Brian Abrahamson",
+      "p0": 95.02,
+      "o1": "Chris Maher",
+      "p1": 88.58
+    },
+    {
+      "year": 2011,
+      "week": 6,
+      "o0": "Kevin Coppins",
+      "p0": 95.88,
+      "o1": "Chris Dupay",
+      "p1": 106.05
+    },
+    {
+      "year": 2011,
+      "week": 6,
+      "o0": "Scott Kellman",
+      "p0": 134.97,
+      "o1": "Jeff Lobdell",
+      "p1": 142.43
+    },
+    {
+      "year": 2011,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 122.42,
+      "o1": "Kevin Coppins",
+      "p1": 145.44
+    },
+    {
+      "year": 2011,
+      "week": 7,
+      "o0": "Ed Shively",
+      "p0": 86.08,
+      "o1": "Steve Minardi",
+      "p1": 94.14
+    },
+    {
+      "year": 2011,
+      "week": 7,
+      "o0": "Steve Loesch",
+      "p0": 90.99,
+      "o1": "Kenny Smith",
+      "p1": 135.64
+    },
+    {
+      "year": 2011,
+      "week": 7,
+      "o0": "Brian Abrahamson",
+      "p0": 114.05,
+      "o1": "Kevin Etwaroo",
+      "p1": 111.1
+    },
+    {
+      "year": 2011,
+      "week": 7,
+      "o0": "Scott Kellman",
+      "p0": 116.17,
+      "o1": "Chris Dupay",
+      "p1": 117.44
+    },
+    {
+      "year": 2011,
+      "week": 7,
+      "o0": "Jeff Lobdell",
+      "p0": 97.79,
+      "o1": "Chris Maher",
+      "p1": 107.06
+    },
+    {
+      "year": 2011,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 133.23,
+      "o1": "Scott Kellman",
+      "p1": 95.94
+    },
+    {
+      "year": 2011,
+      "week": 8,
+      "o0": "Ed Shively",
+      "p0": 129.67,
+      "o1": "Kevin Coppins",
+      "p1": 136.46
+    },
+    {
+      "year": 2011,
+      "week": 8,
+      "o0": "Steve Loesch",
+      "p0": 123.1,
+      "o1": "Steve Minardi",
+      "p1": 127.21
+    },
+    {
+      "year": 2011,
+      "week": 8,
+      "o0": "Brian Abrahamson",
+      "p0": 107.06,
+      "o1": "Kenny Smith",
+      "p1": 117.15
+    },
+    {
+      "year": 2011,
+      "week": 8,
+      "o0": "Kevin Etwaroo",
+      "p0": 119.71,
+      "o1": "Chris Maher",
+      "p1": 166.21
+    },
+    {
+      "year": 2011,
+      "week": 8,
+      "o0": "Jeff Lobdell",
+      "p0": 97.07,
+      "o1": "Chris Dupay",
+      "p1": 100.25
+    },
+    {
+      "year": 2011,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 163.1,
+      "o1": "Jeff Lobdell",
+      "p1": 144.56
+    },
+    {
+      "year": 2011,
+      "week": 9,
+      "o0": "Ed Shively",
+      "p0": 116.58,
+      "o1": "Scott Kellman",
+      "p1": 117.8
+    },
+    {
+      "year": 2011,
+      "week": 9,
+      "o0": "Steve Loesch",
+      "p0": 113.79,
+      "o1": "Kevin Coppins",
+      "p1": 73.85
+    },
+    {
+      "year": 2011,
+      "week": 9,
+      "o0": "Brian Abrahamson",
+      "p0": 109.52,
+      "o1": "Steve Minardi",
+      "p1": 108.37
+    },
+    {
+      "year": 2011,
+      "week": 9,
+      "o0": "Kevin Etwaroo",
+      "p0": 116.68,
+      "o1": "Kenny Smith",
+      "p1": 125.05
+    },
+    {
+      "year": 2011,
+      "week": 9,
+      "o0": "Chris Dupay",
+      "p0": 119.86,
+      "o1": "Chris Maher",
+      "p1": 139.28
+    },
+    {
+      "year": 2011,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 155.86,
+      "o1": "Chris Dupay",
+      "p1": 93.68
+    },
+    {
+      "year": 2011,
+      "week": 10,
+      "o0": "Ed Shively",
+      "p0": 144.51,
+      "o1": "Jeff Lobdell",
+      "p1": 171.55
+    },
+    {
+      "year": 2011,
+      "week": 10,
+      "o0": "Steve Loesch",
+      "p0": 121.73,
+      "o1": "Scott Kellman",
+      "p1": 119.14
+    },
+    {
+      "year": 2011,
+      "week": 10,
+      "o0": "Brian Abrahamson",
+      "p0": 93.88,
+      "o1": "Kevin Coppins",
+      "p1": 96.29
+    },
+    {
+      "year": 2011,
+      "week": 10,
+      "o0": "Kevin Etwaroo",
+      "p0": 109.4,
+      "o1": "Steve Minardi",
+      "p1": 83.22
+    },
+    {
+      "year": 2011,
+      "week": 10,
+      "o0": "Kenny Smith",
+      "p0": 105.55,
+      "o1": "Chris Maher",
+      "p1": 94.45
+    },
+    {
+      "year": 2011,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 131.5,
+      "o1": "Chris Maher",
+      "p1": 89.45
+    },
+    {
+      "year": 2011,
+      "week": 11,
+      "o0": "Ed Shively",
+      "p0": 102.66,
+      "o1": "Chris Dupay",
+      "p1": 107.26
+    },
+    {
+      "year": 2011,
+      "week": 11,
+      "o0": "Steve Loesch",
+      "p0": 105.75,
+      "o1": "Jeff Lobdell",
+      "p1": 130.23
+    },
+    {
+      "year": 2011,
+      "week": 11,
+      "o0": "Brian Abrahamson",
+      "p0": 104.66,
+      "o1": "Scott Kellman",
+      "p1": 140.59
+    },
+    {
+      "year": 2011,
+      "week": 11,
+      "o0": "Kevin Etwaroo",
+      "p0": 99.31,
+      "o1": "Kevin Coppins",
+      "p1": 75.41
+    },
+    {
+      "year": 2011,
+      "week": 11,
+      "o0": "Kenny Smith",
+      "p0": 127.05,
+      "o1": "Steve Minardi",
+      "p1": 96.16
+    },
+    {
+      "year": 2011,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 148.09,
+      "o1": "Ed Shively",
+      "p1": 148.29
+    },
+    {
+      "year": 2011,
+      "week": 12,
+      "o0": "Steve Loesch",
+      "p0": 127.52,
+      "o1": "Chris Dupay",
+      "p1": 92.59
+    },
+    {
+      "year": 2011,
+      "week": 12,
+      "o0": "Brian Abrahamson",
+      "p0": 134.42,
+      "o1": "Jeff Lobdell",
+      "p1": 144.74
+    },
+    {
+      "year": 2011,
+      "week": 12,
+      "o0": "Kevin Etwaroo",
+      "p0": 110.58,
+      "o1": "Scott Kellman",
+      "p1": 114.98
+    },
+    {
+      "year": 2011,
+      "week": 12,
+      "o0": "Kenny Smith",
+      "p0": 114.32,
+      "o1": "Kevin Coppins",
+      "p1": 142.84
+    },
+    {
+      "year": 2011,
+      "week": 12,
+      "o0": "Steve Minardi",
+      "p0": 109.27,
+      "o1": "Chris Maher",
+      "p1": 93.02
+    },
+    {
+      "year": 2011,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 191.17,
+      "o1": "Steve Loesch",
+      "p1": 123.71
+    },
+    {
+      "year": 2011,
+      "week": 13,
+      "o0": "Ed Shively",
+      "p0": 151.41,
+      "o1": "Chris Maher",
+      "p1": 135.91
+    },
+    {
+      "year": 2011,
+      "week": 13,
+      "o0": "Brian Abrahamson",
+      "p0": 124.08,
+      "o1": "Chris Dupay",
+      "p1": 89.68
+    },
+    {
+      "year": 2011,
+      "week": 13,
+      "o0": "Kevin Etwaroo",
+      "p0": 131.76,
+      "o1": "Jeff Lobdell",
+      "p1": 109.26
+    },
+    {
+      "year": 2011,
+      "week": 13,
+      "o0": "Kenny Smith",
+      "p0": 114.82,
+      "o1": "Scott Kellman",
+      "p1": 89.58
+    },
+    {
+      "year": 2011,
+      "week": 13,
+      "o0": "Steve Minardi",
+      "p0": 120.88,
+      "o1": "Kevin Coppins",
+      "p1": 133.28
+    },
+    {
+      "year": 2012,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 82.34,
+      "o1": "Chris Dupay",
+      "p1": 121.22
+    },
+    {
+      "year": 2012,
+      "week": 1,
+      "o0": "Jake Barker",
+      "p0": 120.42,
+      "o1": "Scott Kellman",
+      "p1": 127.88
+    },
+    {
+      "year": 2012,
+      "week": 1,
+      "o0": "Ed Shively",
+      "p0": 121.33,
+      "o1": "Jeff Lobdell",
+      "p1": 125.22
+    },
+    {
+      "year": 2012,
+      "week": 1,
+      "o0": "Peter Ott",
+      "p0": 159.3,
+      "o1": "Tim Flaherty",
+      "p1": 134.16
+    },
+    {
+      "year": 2012,
+      "week": 1,
+      "o0": "Steve Minardi",
+      "p0": 131.44,
+      "o1": "Kevin Etwaroo",
+      "p1": 133.86
+    },
+    {
+      "year": 2012,
+      "week": 1,
+      "o0": "Kenny Smith",
+      "p0": 128.47,
+      "o1": "Steve Loesch",
+      "p1": 120.92
+    },
+    {
+      "year": 2012,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 139.84,
+      "o1": "Jake Barker",
+      "p1": 116.09
+    },
+    {
+      "year": 2012,
+      "week": 2,
+      "o0": "Chris Dupay",
+      "p0": 94.92,
+      "o1": "Steve Loesch",
+      "p1": 166.7
+    },
+    {
+      "year": 2012,
+      "week": 2,
+      "o0": "Ed Shively",
+      "p0": 105.34,
+      "o1": "Scott Kellman",
+      "p1": 100.64
+    },
+    {
+      "year": 2012,
+      "week": 2,
+      "o0": "Peter Ott",
+      "p0": 106.15,
+      "o1": "Jeff Lobdell",
+      "p1": 106.16
+    },
+    {
+      "year": 2012,
+      "week": 2,
+      "o0": "Steve Minardi",
+      "p0": 73.51,
+      "o1": "Tim Flaherty",
+      "p1": 119.45
+    },
+    {
+      "year": 2012,
+      "week": 2,
+      "o0": "Kenny Smith",
+      "p0": 155.25,
+      "o1": "Kevin Etwaroo",
+      "p1": 115.96
+    },
+    {
+      "year": 2012,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 157.22,
+      "o1": "Ed Shively",
+      "p1": 176.49
+    },
+    {
+      "year": 2012,
+      "week": 3,
+      "o0": "Chris Dupay",
+      "p0": 90.93,
+      "o1": "Jake Barker",
+      "p1": 121.55
+    },
+    {
+      "year": 2012,
+      "week": 3,
+      "o0": "Peter Ott",
+      "p0": 98.2,
+      "o1": "Scott Kellman",
+      "p1": 95.17
+    },
+    {
+      "year": 2012,
+      "week": 3,
+      "o0": "Steve Minardi",
+      "p0": 91.92,
+      "o1": "Jeff Lobdell",
+      "p1": 125.02
+    },
+    {
+      "year": 2012,
+      "week": 3,
+      "o0": "Kenny Smith",
+      "p0": 125.22,
+      "o1": "Tim Flaherty",
+      "p1": 149.8
+    },
+    {
+      "year": 2012,
+      "week": 3,
+      "o0": "Kevin Etwaroo",
+      "p0": 102.95,
+      "o1": "Steve Loesch",
+      "p1": 132.22
+    },
+    {
+      "year": 2012,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 154.56,
+      "o1": "Peter Ott",
+      "p1": 111.25
+    },
+    {
+      "year": 2012,
+      "week": 4,
+      "o0": "Chris Dupay",
+      "p0": 163.65,
+      "o1": "Ed Shively",
+      "p1": 114.72
+    },
+    {
+      "year": 2012,
+      "week": 4,
+      "o0": "Jake Barker",
+      "p0": 126.32,
+      "o1": "Steve Loesch",
+      "p1": 140.01
+    },
+    {
+      "year": 2012,
+      "week": 4,
+      "o0": "Steve Minardi",
+      "p0": 103.06,
+      "o1": "Scott Kellman",
+      "p1": 137.09
+    },
+    {
+      "year": 2012,
+      "week": 4,
+      "o0": "Kenny Smith",
+      "p0": 160.63,
+      "o1": "Jeff Lobdell",
+      "p1": 116.01
+    },
+    {
+      "year": 2012,
+      "week": 4,
+      "o0": "Kevin Etwaroo",
+      "p0": 127.31,
+      "o1": "Tim Flaherty",
+      "p1": 133.49
+    },
+    {
+      "year": 2012,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 139.27,
+      "o1": "Steve Minardi",
+      "p1": 93.66
+    },
+    {
+      "year": 2012,
+      "week": 5,
+      "o0": "Chris Dupay",
+      "p0": 81.94,
+      "o1": "Peter Ott",
+      "p1": 111.12
+    },
+    {
+      "year": 2012,
+      "week": 5,
+      "o0": "Jake Barker",
+      "p0": 89.08,
+      "o1": "Ed Shively",
+      "p1": 77.39
+    },
+    {
+      "year": 2012,
+      "week": 5,
+      "o0": "Kenny Smith",
+      "p0": 138.81,
+      "o1": "Scott Kellman",
+      "p1": 134.73
+    },
+    {
+      "year": 2012,
+      "week": 5,
+      "o0": "Kevin Etwaroo",
+      "p0": 162.2,
+      "o1": "Jeff Lobdell",
+      "p1": 144.8
+    },
+    {
+      "year": 2012,
+      "week": 5,
+      "o0": "Tim Flaherty",
+      "p0": 129.15,
+      "o1": "Steve Loesch",
+      "p1": 127.46
+    },
+    {
+      "year": 2012,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 125.39,
+      "o1": "Kenny Smith",
+      "p1": 127.48
+    },
+    {
+      "year": 2012,
+      "week": 6,
+      "o0": "Chris Dupay",
+      "p0": 108.82,
+      "o1": "Steve Minardi",
+      "p1": 136.04
+    },
+    {
+      "year": 2012,
+      "week": 6,
+      "o0": "Jake Barker",
+      "p0": 127.21,
+      "o1": "Peter Ott",
+      "p1": 116.2
+    },
+    {
+      "year": 2012,
+      "week": 6,
+      "o0": "Ed Shively",
+      "p0": 121.89,
+      "o1": "Steve Loesch",
+      "p1": 99.12
+    },
+    {
+      "year": 2012,
+      "week": 6,
+      "o0": "Kevin Etwaroo",
+      "p0": 96.91,
+      "o1": "Scott Kellman",
+      "p1": 93.31
+    },
+    {
+      "year": 2012,
+      "week": 6,
+      "o0": "Tim Flaherty",
+      "p0": 104.67,
+      "o1": "Jeff Lobdell",
+      "p1": 148.92
+    },
+    {
+      "year": 2012,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 127.3,
+      "o1": "Kevin Etwaroo",
+      "p1": 122.22
+    },
+    {
+      "year": 2012,
+      "week": 7,
+      "o0": "Chris Dupay",
+      "p0": 176.37,
+      "o1": "Kenny Smith",
+      "p1": 101.15
+    },
+    {
+      "year": 2012,
+      "week": 7,
+      "o0": "Jake Barker",
+      "p0": 128.69,
+      "o1": "Steve Minardi",
+      "p1": 112.85
+    },
+    {
+      "year": 2012,
+      "week": 7,
+      "o0": "Ed Shively",
+      "p0": 122.12,
+      "o1": "Peter Ott",
+      "p1": 139.21
+    },
+    {
+      "year": 2012,
+      "week": 7,
+      "o0": "Tim Flaherty",
+      "p0": 131.13,
+      "o1": "Scott Kellman",
+      "p1": 119.93
+    },
+    {
+      "year": 2012,
+      "week": 7,
+      "o0": "Jeff Lobdell",
+      "p0": 87.58,
+      "o1": "Steve Loesch",
+      "p1": 127.43
+    },
+    {
+      "year": 2012,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 149.13,
+      "o1": "Tim Flaherty",
+      "p1": 96.92
+    },
+    {
+      "year": 2012,
+      "week": 8,
+      "o0": "Chris Dupay",
+      "p0": 109.46,
+      "o1": "Kevin Etwaroo",
+      "p1": 140.73
+    },
+    {
+      "year": 2012,
+      "week": 8,
+      "o0": "Jake Barker",
+      "p0": 112.35,
+      "o1": "Kenny Smith",
+      "p1": 81.59
+    },
+    {
+      "year": 2012,
+      "week": 8,
+      "o0": "Ed Shively",
+      "p0": 122.13,
+      "o1": "Steve Minardi",
+      "p1": 89.21
+    },
+    {
+      "year": 2012,
+      "week": 8,
+      "o0": "Peter Ott",
+      "p0": 142.11,
+      "o1": "Steve Loesch",
+      "p1": 70.13
+    },
+    {
+      "year": 2012,
+      "week": 8,
+      "o0": "Jeff Lobdell",
+      "p0": 85.34,
+      "o1": "Scott Kellman",
+      "p1": 127.28
+    },
+    {
+      "year": 2012,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 149.5,
+      "o1": "Jeff Lobdell",
+      "p1": 113.12
+    },
+    {
+      "year": 2012,
+      "week": 9,
+      "o0": "Chris Dupay",
+      "p0": 152.19,
+      "o1": "Tim Flaherty",
+      "p1": 113.06
+    },
+    {
+      "year": 2012,
+      "week": 9,
+      "o0": "Jake Barker",
+      "p0": 110.04,
+      "o1": "Kevin Etwaroo",
+      "p1": 131.98
+    },
+    {
+      "year": 2012,
+      "week": 9,
+      "o0": "Ed Shively",
+      "p0": 116.8,
+      "o1": "Kenny Smith",
+      "p1": 115.72
+    },
+    {
+      "year": 2012,
+      "week": 9,
+      "o0": "Peter Ott",
+      "p0": 144.99,
+      "o1": "Steve Minardi",
+      "p1": 111.35
+    },
+    {
+      "year": 2012,
+      "week": 9,
+      "o0": "Scott Kellman",
+      "p0": 111.89,
+      "o1": "Steve Loesch",
+      "p1": 108.85
+    },
+    {
+      "year": 2012,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 104.76,
+      "o1": "Scott Kellman",
+      "p1": 132.31
+    },
+    {
+      "year": 2012,
+      "week": 10,
+      "o0": "Chris Dupay",
+      "p0": 93.69,
+      "o1": "Jeff Lobdell",
+      "p1": 95.58
+    },
+    {
+      "year": 2012,
+      "week": 10,
+      "o0": "Jake Barker",
+      "p0": 107.74,
+      "o1": "Tim Flaherty",
+      "p1": 140.52
+    },
+    {
+      "year": 2012,
+      "week": 10,
+      "o0": "Ed Shively",
+      "p0": 102.55,
+      "o1": "Kevin Etwaroo",
+      "p1": 108.89
+    },
+    {
+      "year": 2012,
+      "week": 10,
+      "o0": "Peter Ott",
+      "p0": 109.83,
+      "o1": "Kenny Smith",
+      "p1": 122.75
+    },
+    {
+      "year": 2012,
+      "week": 10,
+      "o0": "Steve Minardi",
+      "p0": 142.33,
+      "o1": "Steve Loesch",
+      "p1": 106.65
+    },
+    {
+      "year": 2012,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 141.24,
+      "o1": "Steve Loesch",
+      "p1": 63.56
+    },
+    {
+      "year": 2012,
+      "week": 11,
+      "o0": "Chris Dupay",
+      "p0": 124.58,
+      "o1": "Scott Kellman",
+      "p1": 116.27
+    },
+    {
+      "year": 2012,
+      "week": 11,
+      "o0": "Jake Barker",
+      "p0": 133.1,
+      "o1": "Jeff Lobdell",
+      "p1": 139.14
+    },
+    {
+      "year": 2012,
+      "week": 11,
+      "o0": "Ed Shively",
+      "p0": 134.2,
+      "o1": "Tim Flaherty",
+      "p1": 114.56
+    },
+    {
+      "year": 2012,
+      "week": 11,
+      "o0": "Peter Ott",
+      "p0": 126.39,
+      "o1": "Kevin Etwaroo",
+      "p1": 84.39
+    },
+    {
+      "year": 2012,
+      "week": 11,
+      "o0": "Steve Minardi",
+      "p0": 169.55,
+      "o1": "Kenny Smith",
+      "p1": 139.33
+    },
+    {
+      "year": 2012,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 108.49,
+      "o1": "Chris Dupay",
+      "p1": 128.19
+    },
+    {
+      "year": 2012,
+      "week": 12,
+      "o0": "Jake Barker",
+      "p0": 93.0,
+      "o1": "Scott Kellman",
+      "p1": 139.09
+    },
+    {
+      "year": 2012,
+      "week": 12,
+      "o0": "Ed Shively",
+      "p0": 106.61,
+      "o1": "Jeff Lobdell",
+      "p1": 104.31
+    },
+    {
+      "year": 2012,
+      "week": 12,
+      "o0": "Peter Ott",
+      "p0": 164.67,
+      "o1": "Tim Flaherty",
+      "p1": 121.08
+    },
+    {
+      "year": 2012,
+      "week": 12,
+      "o0": "Steve Minardi",
+      "p0": 143.7,
+      "o1": "Kevin Etwaroo",
+      "p1": 136.82
+    },
+    {
+      "year": 2012,
+      "week": 12,
+      "o0": "Kenny Smith",
+      "p0": 121.1,
+      "o1": "Steve Loesch",
+      "p1": 144.46
+    },
+    {
+      "year": 2012,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 136.92,
+      "o1": "Jake Barker",
+      "p1": 101.88
+    },
+    {
+      "year": 2012,
+      "week": 13,
+      "o0": "Chris Dupay",
+      "p0": 119.68,
+      "o1": "Steve Loesch",
+      "p1": 136.15
+    },
+    {
+      "year": 2012,
+      "week": 13,
+      "o0": "Ed Shively",
+      "p0": 103.82,
+      "o1": "Scott Kellman",
+      "p1": 152.32
+    },
+    {
+      "year": 2012,
+      "week": 13,
+      "o0": "Peter Ott",
+      "p0": 157.37,
+      "o1": "Jeff Lobdell",
+      "p1": 103.74
+    },
+    {
+      "year": 2012,
+      "week": 13,
+      "o0": "Steve Minardi",
+      "p0": 93.09,
+      "o1": "Tim Flaherty",
+      "p1": 140.24
+    },
+    {
+      "year": 2012,
+      "week": 13,
+      "o0": "Kenny Smith",
+      "p0": 120.43,
+      "o1": "Kevin Etwaroo",
+      "p1": 94.25
+    },
+    {
+      "year": 2013,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 145.06,
+      "o1": "Peter Ott",
+      "p1": 114.38
+    },
+    {
+      "year": 2013,
+      "week": 1,
+      "o0": "Chris Dupay",
+      "p0": 136.93,
+      "o1": "Tim Flaherty",
+      "p1": 113.8
+    },
+    {
+      "year": 2013,
+      "week": 1,
+      "o0": "Ed Shively",
+      "p0": 160.18,
+      "o1": "Kenny Smith",
+      "p1": 131.27
+    },
+    {
+      "year": 2013,
+      "week": 1,
+      "o0": "Kevin Etwaroo",
+      "p0": 102.65,
+      "o1": "Jake Barker",
+      "p1": 173.82
+    },
+    {
+      "year": 2013,
+      "week": 1,
+      "o0": "Scott Kellman",
+      "p0": 104.86,
+      "o1": "Tom Brown",
+      "p1": 162.97
+    },
+    {
+      "year": 2013,
+      "week": 1,
+      "o0": "Kevin Coppins",
+      "p0": 143.93,
+      "o1": "Steve Minardi",
+      "p1": 112.17
+    },
+    {
+      "year": 2013,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 114.85,
+      "o1": "Chris Dupay",
+      "p1": 134.83
+    },
+    {
+      "year": 2013,
+      "week": 2,
+      "o0": "Peter Ott",
+      "p0": 153.78,
+      "o1": "Steve Minardi",
+      "p1": 131.62
+    },
+    {
+      "year": 2013,
+      "week": 2,
+      "o0": "Ed Shively",
+      "p0": 113.18,
+      "o1": "Tim Flaherty",
+      "p1": 109.78
+    },
+    {
+      "year": 2013,
+      "week": 2,
+      "o0": "Kevin Etwaroo",
+      "p0": 115.46,
+      "o1": "Kenny Smith",
+      "p1": 130.9
+    },
+    {
+      "year": 2013,
+      "week": 2,
+      "o0": "Scott Kellman",
+      "p0": 119.66,
+      "o1": "Jake Barker",
+      "p1": 116.1
+    },
+    {
+      "year": 2013,
+      "week": 2,
+      "o0": "Kevin Coppins",
+      "p0": 151.97,
+      "o1": "Tom Brown",
+      "p1": 130.92
+    },
+    {
+      "year": 2013,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 112.69,
+      "o1": "Ed Shively",
+      "p1": 127.12
+    },
+    {
+      "year": 2013,
+      "week": 3,
+      "o0": "Peter Ott",
+      "p0": 140.45,
+      "o1": "Chris Dupay",
+      "p1": 103.46
+    },
+    {
+      "year": 2013,
+      "week": 3,
+      "o0": "Kevin Etwaroo",
+      "p0": 94.92,
+      "o1": "Tim Flaherty",
+      "p1": 121.48
+    },
+    {
+      "year": 2013,
+      "week": 3,
+      "o0": "Scott Kellman",
+      "p0": 104.54,
+      "o1": "Kenny Smith",
+      "p1": 98.56
+    },
+    {
+      "year": 2013,
+      "week": 3,
+      "o0": "Kevin Coppins",
+      "p0": 100.4,
+      "o1": "Jake Barker",
+      "p1": 97.05
+    },
+    {
+      "year": 2013,
+      "week": 3,
+      "o0": "Tom Brown",
+      "p0": 137.19,
+      "o1": "Steve Minardi",
+      "p1": 148.35
+    },
+    {
+      "year": 2013,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 103.38,
+      "o1": "Kevin Etwaroo",
+      "p1": 136.85
+    },
+    {
+      "year": 2013,
+      "week": 4,
+      "o0": "Peter Ott",
+      "p0": 126.28,
+      "o1": "Ed Shively",
+      "p1": 163.17
+    },
+    {
+      "year": 2013,
+      "week": 4,
+      "o0": "Chris Dupay",
+      "p0": 155.48,
+      "o1": "Steve Minardi",
+      "p1": 135.39
+    },
+    {
+      "year": 2013,
+      "week": 4,
+      "o0": "Scott Kellman",
+      "p0": 139.49,
+      "o1": "Tim Flaherty",
+      "p1": 139.07
+    },
+    {
+      "year": 2013,
+      "week": 4,
+      "o0": "Kevin Coppins",
+      "p0": 152.63,
+      "o1": "Kenny Smith",
+      "p1": 135.39
+    },
+    {
+      "year": 2013,
+      "week": 4,
+      "o0": "Tom Brown",
+      "p0": 103.57,
+      "o1": "Jake Barker",
+      "p1": 116.04
+    },
+    {
+      "year": 2013,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 160.31,
+      "o1": "Scott Kellman",
+      "p1": 101.16
+    },
+    {
+      "year": 2013,
+      "week": 5,
+      "o0": "Peter Ott",
+      "p0": 146.37,
+      "o1": "Kevin Etwaroo",
+      "p1": 114.77
+    },
+    {
+      "year": 2013,
+      "week": 5,
+      "o0": "Chris Dupay",
+      "p0": 125.06,
+      "o1": "Ed Shively",
+      "p1": 93.62
+    },
+    {
+      "year": 2013,
+      "week": 5,
+      "o0": "Kevin Coppins",
+      "p0": 110.73,
+      "o1": "Tim Flaherty",
+      "p1": 142.65
+    },
+    {
+      "year": 2013,
+      "week": 5,
+      "o0": "Tom Brown",
+      "p0": 115.75,
+      "o1": "Kenny Smith",
+      "p1": 88.41
+    },
+    {
+      "year": 2013,
+      "week": 5,
+      "o0": "Jake Barker",
+      "p0": 122.58,
+      "o1": "Steve Minardi",
+      "p1": 158.29
+    },
+    {
+      "year": 2013,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 89.79,
+      "o1": "Kevin Coppins",
+      "p1": 146.77
+    },
+    {
+      "year": 2013,
+      "week": 6,
+      "o0": "Peter Ott",
+      "p0": 75.83,
+      "o1": "Scott Kellman",
+      "p1": 75.52
+    },
+    {
+      "year": 2013,
+      "week": 6,
+      "o0": "Chris Dupay",
+      "p0": 110.7,
+      "o1": "Kevin Etwaroo",
+      "p1": 126.78
+    },
+    {
+      "year": 2013,
+      "week": 6,
+      "o0": "Ed Shively",
+      "p0": 121.49,
+      "o1": "Steve Minardi",
+      "p1": 123.25
+    },
+    {
+      "year": 2013,
+      "week": 6,
+      "o0": "Tom Brown",
+      "p0": 106.88,
+      "o1": "Tim Flaherty",
+      "p1": 94.13
+    },
+    {
+      "year": 2013,
+      "week": 6,
+      "o0": "Jake Barker",
+      "p0": 167.66,
+      "o1": "Kenny Smith",
+      "p1": 110.85
+    },
+    {
+      "year": 2013,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 120.12,
+      "o1": "Tom Brown",
+      "p1": 122.32
+    },
+    {
+      "year": 2013,
+      "week": 7,
+      "o0": "Peter Ott",
+      "p0": 108.26,
+      "o1": "Kevin Coppins",
+      "p1": 126.33
+    },
+    {
+      "year": 2013,
+      "week": 7,
+      "o0": "Chris Dupay",
+      "p0": 106.29,
+      "o1": "Scott Kellman",
+      "p1": 138.97
+    },
+    {
+      "year": 2013,
+      "week": 7,
+      "o0": "Ed Shively",
+      "p0": 115.5,
+      "o1": "Kevin Etwaroo",
+      "p1": 100.06
+    },
+    {
+      "year": 2013,
+      "week": 7,
+      "o0": "Jake Barker",
+      "p0": 95.02,
+      "o1": "Tim Flaherty",
+      "p1": 120.3
+    },
+    {
+      "year": 2013,
+      "week": 7,
+      "o0": "Kenny Smith",
+      "p0": 115.85,
+      "o1": "Steve Minardi",
+      "p1": 157.73
+    },
+    {
+      "year": 2013,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 90.73,
+      "o1": "Jake Barker",
+      "p1": 145.19
+    },
+    {
+      "year": 2013,
+      "week": 8,
+      "o0": "Peter Ott",
+      "p0": 96.01,
+      "o1": "Tom Brown",
+      "p1": 57.9
+    },
+    {
+      "year": 2013,
+      "week": 8,
+      "o0": "Chris Dupay",
+      "p0": 126.61,
+      "o1": "Kevin Coppins",
+      "p1": 95.22
+    },
+    {
+      "year": 2013,
+      "week": 8,
+      "o0": "Ed Shively",
+      "p0": 145.38,
+      "o1": "Scott Kellman",
+      "p1": 102.99
+    },
+    {
+      "year": 2013,
+      "week": 8,
+      "o0": "Kevin Etwaroo",
+      "p0": 142.79,
+      "o1": "Steve Minardi",
+      "p1": 198.79
+    },
+    {
+      "year": 2013,
+      "week": 8,
+      "o0": "Kenny Smith",
+      "p0": 93.75,
+      "o1": "Tim Flaherty",
+      "p1": 116.96
+    },
+    {
+      "year": 2013,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 117.59,
+      "o1": "Kenny Smith",
+      "p1": 92.18
+    },
+    {
+      "year": 2013,
+      "week": 9,
+      "o0": "Peter Ott",
+      "p0": 134.1,
+      "o1": "Jake Barker",
+      "p1": 132.09
+    },
+    {
+      "year": 2013,
+      "week": 9,
+      "o0": "Chris Dupay",
+      "p0": 135.82,
+      "o1": "Tom Brown",
+      "p1": 79.69
+    },
+    {
+      "year": 2013,
+      "week": 9,
+      "o0": "Ed Shively",
+      "p0": 148.98,
+      "o1": "Kevin Coppins",
+      "p1": 94.32
+    },
+    {
+      "year": 2013,
+      "week": 9,
+      "o0": "Kevin Etwaroo",
+      "p0": 133.66,
+      "o1": "Scott Kellman",
+      "p1": 118.16
+    },
+    {
+      "year": 2013,
+      "week": 9,
+      "o0": "Tim Flaherty",
+      "p0": 109.98,
+      "o1": "Steve Minardi",
+      "p1": 154.68
+    },
+    {
+      "year": 2013,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 117.14,
+      "o1": "Tim Flaherty",
+      "p1": 104.03
+    },
+    {
+      "year": 2013,
+      "week": 10,
+      "o0": "Peter Ott",
+      "p0": 103.3,
+      "o1": "Kenny Smith",
+      "p1": 111.99
+    },
+    {
+      "year": 2013,
+      "week": 10,
+      "o0": "Chris Dupay",
+      "p0": 84.0,
+      "o1": "Jake Barker",
+      "p1": 108.47
+    },
+    {
+      "year": 2013,
+      "week": 10,
+      "o0": "Ed Shively",
+      "p0": 203.78,
+      "o1": "Tom Brown",
+      "p1": 100.32
+    },
+    {
+      "year": 2013,
+      "week": 10,
+      "o0": "Kevin Etwaroo",
+      "p0": 112.01,
+      "o1": "Kevin Coppins",
+      "p1": 117.01
+    },
+    {
+      "year": 2013,
+      "week": 10,
+      "o0": "Scott Kellman",
+      "p0": 90.68,
+      "o1": "Steve Minardi",
+      "p1": 120.02
+    },
+    {
+      "year": 2013,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 113.61,
+      "o1": "Steve Minardi",
+      "p1": 149.92
+    },
+    {
+      "year": 2013,
+      "week": 11,
+      "o0": "Peter Ott",
+      "p0": 89.27,
+      "o1": "Tim Flaherty",
+      "p1": 96.95
+    },
+    {
+      "year": 2013,
+      "week": 11,
+      "o0": "Chris Dupay",
+      "p0": 132.13,
+      "o1": "Kenny Smith",
+      "p1": 104.31
+    },
+    {
+      "year": 2013,
+      "week": 11,
+      "o0": "Ed Shively",
+      "p0": 94.6,
+      "o1": "Jake Barker",
+      "p1": 152.62
+    },
+    {
+      "year": 2013,
+      "week": 11,
+      "o0": "Kevin Etwaroo",
+      "p0": 98.61,
+      "o1": "Tom Brown",
+      "p1": 118.68
+    },
+    {
+      "year": 2013,
+      "week": 11,
+      "o0": "Scott Kellman",
+      "p0": 141.42,
+      "o1": "Kevin Coppins",
+      "p1": 147.48
+    },
+    {
+      "year": 2013,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 128.62,
+      "o1": "Peter Ott",
+      "p1": 83.4
+    },
+    {
+      "year": 2013,
+      "week": 12,
+      "o0": "Chris Dupay",
+      "p0": 142.9,
+      "o1": "Tim Flaherty",
+      "p1": 134.02
+    },
+    {
+      "year": 2013,
+      "week": 12,
+      "o0": "Ed Shively",
+      "p0": 119.67,
+      "o1": "Kenny Smith",
+      "p1": 135.61
+    },
+    {
+      "year": 2013,
+      "week": 12,
+      "o0": "Kevin Etwaroo",
+      "p0": 124.11,
+      "o1": "Jake Barker",
+      "p1": 140.36
+    },
+    {
+      "year": 2013,
+      "week": 12,
+      "o0": "Scott Kellman",
+      "p0": 83.58,
+      "o1": "Tom Brown",
+      "p1": 103.37
+    },
+    {
+      "year": 2013,
+      "week": 12,
+      "o0": "Kevin Coppins",
+      "p0": 100.53,
+      "o1": "Steve Minardi",
+      "p1": 129.91
+    },
+    {
+      "year": 2013,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 86.45,
+      "o1": "Chris Dupay",
+      "p1": 124.72
+    },
+    {
+      "year": 2013,
+      "week": 13,
+      "o0": "Peter Ott",
+      "p0": 168.17,
+      "o1": "Steve Minardi",
+      "p1": 147.75
+    },
+    {
+      "year": 2013,
+      "week": 13,
+      "o0": "Ed Shively",
+      "p0": 114.53,
+      "o1": "Tim Flaherty",
+      "p1": 116.34
+    },
+    {
+      "year": 2013,
+      "week": 13,
+      "o0": "Kevin Etwaroo",
+      "p0": 190.97,
+      "o1": "Kenny Smith",
+      "p1": 136.18
+    },
+    {
+      "year": 2013,
+      "week": 13,
+      "o0": "Scott Kellman",
+      "p0": 116.78,
+      "o1": "Jake Barker",
+      "p1": 149.99
+    },
+    {
+      "year": 2013,
+      "week": 13,
+      "o0": "Kevin Coppins",
+      "p0": 89.95,
+      "o1": "Tom Brown",
+      "p1": 86.25
+    },
+    {
+      "year": 2014,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 81.51,
+      "o1": "Jeff Lobdell",
+      "p1": 171.54
+    },
+    {
+      "year": 2014,
+      "week": 1,
+      "o0": "Chris Dupay",
+      "p0": 128.18,
+      "o1": "Kenny Smith",
+      "p1": 93.44
+    },
+    {
+      "year": 2014,
+      "week": 1,
+      "o0": "Tom Brown",
+      "p0": 123.84,
+      "o1": "Jake Barker",
+      "p1": 102.11
+    },
+    {
+      "year": 2014,
+      "week": 1,
+      "o0": "Ed Shively",
+      "p0": 152.11,
+      "o1": "Kevin Etwaroo",
+      "p1": 121.75
+    },
+    {
+      "year": 2014,
+      "week": 1,
+      "o0": "Peter Ott",
+      "p0": 107.08,
+      "o1": "Scott Kellman",
+      "p1": 112.11
+    },
+    {
+      "year": 2014,
+      "week": 1,
+      "o0": "Steve Minardi",
+      "p0": 134.47,
+      "o1": "Kevin Coppins",
+      "p1": 113.72
+    },
+    {
+      "year": 2014,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 98.74,
+      "o1": "Chris Dupay",
+      "p1": 74.37
+    },
+    {
+      "year": 2014,
+      "week": 2,
+      "o0": "Jeff Lobdell",
+      "p0": 130.44,
+      "o1": "Kevin Coppins",
+      "p1": 96.38
+    },
+    {
+      "year": 2014,
+      "week": 2,
+      "o0": "Tom Brown",
+      "p0": 109.59,
+      "o1": "Kenny Smith",
+      "p1": 119.29
+    },
+    {
+      "year": 2014,
+      "week": 2,
+      "o0": "Ed Shively",
+      "p0": 139.88,
+      "o1": "Jake Barker",
+      "p1": 108.66
+    },
+    {
+      "year": 2014,
+      "week": 2,
+      "o0": "Peter Ott",
+      "p0": 147.69,
+      "o1": "Kevin Etwaroo",
+      "p1": 134.93
+    },
+    {
+      "year": 2014,
+      "week": 2,
+      "o0": "Steve Minardi",
+      "p0": 97.69,
+      "o1": "Scott Kellman",
+      "p1": 120.18
+    },
+    {
+      "year": 2014,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 98.13,
+      "o1": "Tom Brown",
+      "p1": 127.23
+    },
+    {
+      "year": 2014,
+      "week": 3,
+      "o0": "Jeff Lobdell",
+      "p0": 74.49,
+      "o1": "Chris Dupay",
+      "p1": 113.69
+    },
+    {
+      "year": 2014,
+      "week": 3,
+      "o0": "Ed Shively",
+      "p0": 91.6,
+      "o1": "Kenny Smith",
+      "p1": 105.1
+    },
+    {
+      "year": 2014,
+      "week": 3,
+      "o0": "Peter Ott",
+      "p0": 139.65,
+      "o1": "Jake Barker",
+      "p1": 119.21
+    },
+    {
+      "year": 2014,
+      "week": 3,
+      "o0": "Steve Minardi",
+      "p0": 116.49,
+      "o1": "Kevin Etwaroo",
+      "p1": 128.2
+    },
+    {
+      "year": 2014,
+      "week": 3,
+      "o0": "Scott Kellman",
+      "p0": 97.47,
+      "o1": "Kevin Coppins",
+      "p1": 128.37
+    },
+    {
+      "year": 2014,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 123.13,
+      "o1": "Ed Shively",
+      "p1": 94.84
+    },
+    {
+      "year": 2014,
+      "week": 4,
+      "o0": "Jeff Lobdell",
+      "p0": 119.47,
+      "o1": "Tom Brown",
+      "p1": 109.73
+    },
+    {
+      "year": 2014,
+      "week": 4,
+      "o0": "Chris Dupay",
+      "p0": 115.02,
+      "o1": "Kevin Coppins",
+      "p1": 132.28
+    },
+    {
+      "year": 2014,
+      "week": 4,
+      "o0": "Peter Ott",
+      "p0": 121.3,
+      "o1": "Kenny Smith",
+      "p1": 121.72
+    },
+    {
+      "year": 2014,
+      "week": 4,
+      "o0": "Steve Minardi",
+      "p0": 93.62,
+      "o1": "Jake Barker",
+      "p1": 142.38
+    },
+    {
+      "year": 2014,
+      "week": 4,
+      "o0": "Scott Kellman",
+      "p0": 131.33,
+      "o1": "Kevin Etwaroo",
+      "p1": 138.12
+    },
+    {
+      "year": 2014,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 100.49,
+      "o1": "Peter Ott",
+      "p1": 157.38
+    },
+    {
+      "year": 2014,
+      "week": 5,
+      "o0": "Jeff Lobdell",
+      "p0": 129.34,
+      "o1": "Ed Shively",
+      "p1": 133.71
+    },
+    {
+      "year": 2014,
+      "week": 5,
+      "o0": "Chris Dupay",
+      "p0": 85.82,
+      "o1": "Tom Brown",
+      "p1": 142.06
+    },
+    {
+      "year": 2014,
+      "week": 5,
+      "o0": "Steve Minardi",
+      "p0": 79.64,
+      "o1": "Kenny Smith",
+      "p1": 140.44
+    },
+    {
+      "year": 2014,
+      "week": 5,
+      "o0": "Scott Kellman",
+      "p0": 123.01,
+      "o1": "Jake Barker",
+      "p1": 126.52
+    },
+    {
+      "year": 2014,
+      "week": 5,
+      "o0": "Kevin Etwaroo",
+      "p0": 86.58,
+      "o1": "Kevin Coppins",
+      "p1": 137.44
+    },
+    {
+      "year": 2014,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 121.91,
+      "o1": "Steve Minardi",
+      "p1": 67.94
+    },
+    {
+      "year": 2014,
+      "week": 6,
+      "o0": "Jeff Lobdell",
+      "p0": 139.3,
+      "o1": "Peter Ott",
+      "p1": 134.99
+    },
+    {
+      "year": 2014,
+      "week": 6,
+      "o0": "Chris Dupay",
+      "p0": 105.46,
+      "o1": "Ed Shively",
+      "p1": 148.34
+    },
+    {
+      "year": 2014,
+      "week": 6,
+      "o0": "Tom Brown",
+      "p0": 85.62,
+      "o1": "Kevin Coppins",
+      "p1": 113.13
+    },
+    {
+      "year": 2014,
+      "week": 6,
+      "o0": "Scott Kellman",
+      "p0": 104.38,
+      "o1": "Kenny Smith",
+      "p1": 112.82
+    },
+    {
+      "year": 2014,
+      "week": 6,
+      "o0": "Kevin Etwaroo",
+      "p0": 134.1,
+      "o1": "Jake Barker",
+      "p1": 127.27
+    },
+    {
+      "year": 2014,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 123.25,
+      "o1": "Scott Kellman",
+      "p1": 124.22
+    },
+    {
+      "year": 2014,
+      "week": 7,
+      "o0": "Jeff Lobdell",
+      "p0": 142.36,
+      "o1": "Steve Minardi",
+      "p1": 111.42
+    },
+    {
+      "year": 2014,
+      "week": 7,
+      "o0": "Chris Dupay",
+      "p0": 91.86,
+      "o1": "Peter Ott",
+      "p1": 151.82
+    },
+    {
+      "year": 2014,
+      "week": 7,
+      "o0": "Tom Brown",
+      "p0": 110.91,
+      "o1": "Ed Shively",
+      "p1": 86.55
+    },
+    {
+      "year": 2014,
+      "week": 7,
+      "o0": "Kevin Etwaroo",
+      "p0": 71.51,
+      "o1": "Kenny Smith",
+      "p1": 114.9
+    },
+    {
+      "year": 2014,
+      "week": 7,
+      "o0": "Jake Barker",
+      "p0": 132.25,
+      "o1": "Kevin Coppins",
+      "p1": 93.9
+    },
+    {
+      "year": 2014,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 131.32,
+      "o1": "Kevin Etwaroo",
+      "p1": 128.1
+    },
+    {
+      "year": 2014,
+      "week": 8,
+      "o0": "Jeff Lobdell",
+      "p0": 131.05,
+      "o1": "Scott Kellman",
+      "p1": 113.49
+    },
+    {
+      "year": 2014,
+      "week": 8,
+      "o0": "Chris Dupay",
+      "p0": 108.62,
+      "o1": "Steve Minardi",
+      "p1": 88.52
+    },
+    {
+      "year": 2014,
+      "week": 8,
+      "o0": "Tom Brown",
+      "p0": 113.71,
+      "o1": "Peter Ott",
+      "p1": 176.06
+    },
+    {
+      "year": 2014,
+      "week": 8,
+      "o0": "Ed Shively",
+      "p0": 105.53,
+      "o1": "Kevin Coppins",
+      "p1": 206.19
+    },
+    {
+      "year": 2014,
+      "week": 8,
+      "o0": "Jake Barker",
+      "p0": 137.13,
+      "o1": "Kenny Smith",
+      "p1": 150.14
+    },
+    {
+      "year": 2014,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 140.52,
+      "o1": "Jake Barker",
+      "p1": 148.47
+    },
+    {
+      "year": 2014,
+      "week": 9,
+      "o0": "Jeff Lobdell",
+      "p0": 100.66,
+      "o1": "Kevin Etwaroo",
+      "p1": 107.51
+    },
+    {
+      "year": 2014,
+      "week": 9,
+      "o0": "Chris Dupay",
+      "p0": 124.51,
+      "o1": "Scott Kellman",
+      "p1": 107.52
+    },
+    {
+      "year": 2014,
+      "week": 9,
+      "o0": "Tom Brown",
+      "p0": 95.92,
+      "o1": "Steve Minardi",
+      "p1": 90.37
+    },
+    {
+      "year": 2014,
+      "week": 9,
+      "o0": "Ed Shively",
+      "p0": 139.27,
+      "o1": "Peter Ott",
+      "p1": 143.16
+    },
+    {
+      "year": 2014,
+      "week": 9,
+      "o0": "Kenny Smith",
+      "p0": 121.28,
+      "o1": "Kevin Coppins",
+      "p1": 139.43
+    },
+    {
+      "year": 2014,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 105.35,
+      "o1": "Kenny Smith",
+      "p1": 124.7
+    },
+    {
+      "year": 2014,
+      "week": 10,
+      "o0": "Jeff Lobdell",
+      "p0": 141.8,
+      "o1": "Jake Barker",
+      "p1": 123.92
+    },
+    {
+      "year": 2014,
+      "week": 10,
+      "o0": "Chris Dupay",
+      "p0": 85.53,
+      "o1": "Kevin Etwaroo",
+      "p1": 119.46
+    },
+    {
+      "year": 2014,
+      "week": 10,
+      "o0": "Tom Brown",
+      "p0": 116.94,
+      "o1": "Scott Kellman",
+      "p1": 140.55
+    },
+    {
+      "year": 2014,
+      "week": 10,
+      "o0": "Ed Shively",
+      "p0": 123.74,
+      "o1": "Steve Minardi",
+      "p1": 103.86
+    },
+    {
+      "year": 2014,
+      "week": 10,
+      "o0": "Peter Ott",
+      "p0": 155.78,
+      "o1": "Kevin Coppins",
+      "p1": 114.88
+    },
+    {
+      "year": 2014,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 95.25,
+      "o1": "Kevin Coppins",
+      "p1": 139.29
+    },
+    {
+      "year": 2014,
+      "week": 11,
+      "o0": "Jeff Lobdell",
+      "p0": 118.77,
+      "o1": "Kenny Smith",
+      "p1": 112.42
+    },
+    {
+      "year": 2014,
+      "week": 11,
+      "o0": "Chris Dupay",
+      "p0": 124.85,
+      "o1": "Jake Barker",
+      "p1": 124.43
+    },
+    {
+      "year": 2014,
+      "week": 11,
+      "o0": "Tom Brown",
+      "p0": 98.17,
+      "o1": "Kevin Etwaroo",
+      "p1": 111.97
+    },
+    {
+      "year": 2014,
+      "week": 11,
+      "o0": "Ed Shively",
+      "p0": 110.18,
+      "o1": "Scott Kellman",
+      "p1": 106.16
+    },
+    {
+      "year": 2014,
+      "week": 11,
+      "o0": "Peter Ott",
+      "p0": 125.47,
+      "o1": "Steve Minardi",
+      "p1": 108.42
+    },
+    {
+      "year": 2014,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 134.35,
+      "o1": "Jeff Lobdell",
+      "p1": 118.13
+    },
+    {
+      "year": 2014,
+      "week": 12,
+      "o0": "Chris Dupay",
+      "p0": 83.5,
+      "o1": "Kenny Smith",
+      "p1": 107.99
+    },
+    {
+      "year": 2014,
+      "week": 12,
+      "o0": "Tom Brown",
+      "p0": 142.19,
+      "o1": "Jake Barker",
+      "p1": 148.66
+    },
+    {
+      "year": 2014,
+      "week": 12,
+      "o0": "Ed Shively",
+      "p0": 98.02,
+      "o1": "Kevin Etwaroo",
+      "p1": 125.37
+    },
+    {
+      "year": 2014,
+      "week": 12,
+      "o0": "Peter Ott",
+      "p0": 165.84,
+      "o1": "Scott Kellman",
+      "p1": 131.13
+    },
+    {
+      "year": 2014,
+      "week": 12,
+      "o0": "Steve Minardi",
+      "p0": 113.92,
+      "o1": "Kevin Coppins",
+      "p1": 147.01
+    },
+    {
+      "year": 2014,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 171.53,
+      "o1": "Chris Dupay",
+      "p1": 100.1
+    },
+    {
+      "year": 2014,
+      "week": 13,
+      "o0": "Jeff Lobdell",
+      "p0": 164.6,
+      "o1": "Kevin Coppins",
+      "p1": 156.47
+    },
+    {
+      "year": 2014,
+      "week": 13,
+      "o0": "Tom Brown",
+      "p0": 152.51,
+      "o1": "Kenny Smith",
+      "p1": 91.21
+    },
+    {
+      "year": 2014,
+      "week": 13,
+      "o0": "Ed Shively",
+      "p0": 81.34,
+      "o1": "Jake Barker",
+      "p1": 126.45
+    },
+    {
+      "year": 2014,
+      "week": 13,
+      "o0": "Peter Ott",
+      "p0": 122.1,
+      "o1": "Kevin Etwaroo",
+      "p1": 176.15
+    },
+    {
+      "year": 2014,
+      "week": 13,
+      "o0": "Steve Minardi",
+      "p0": 106.69,
+      "o1": "Scott Kellman",
+      "p1": 95.31
+    },
+    {
+      "year": 2015,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 86.75,
+      "o1": "Chris Dupay",
+      "p1": 140.81
+    },
+    {
+      "year": 2015,
+      "week": 1,
+      "o0": "Peter Ott",
+      "p0": 112.92,
+      "o1": "Scott Kellman",
+      "p1": 129.01
+    },
+    {
+      "year": 2015,
+      "week": 1,
+      "o0": "Jeff Lobdell",
+      "p0": 108.51,
+      "o1": "Kevin Etwaroo",
+      "p1": 130.43
+    },
+    {
+      "year": 2015,
+      "week": 1,
+      "o0": "Tom Brown",
+      "p0": 130.83,
+      "o1": "Ed Shively",
+      "p1": 162.24
+    },
+    {
+      "year": 2015,
+      "week": 1,
+      "o0": "Malcolm Lapone",
+      "p0": 76.94,
+      "o1": "Kevin Coppins",
+      "p1": 115.27
+    },
+    {
+      "year": 2015,
+      "week": 1,
+      "o0": "Steve Minardi",
+      "p0": 135.84,
+      "o1": "Kenny Smith",
+      "p1": 76.3
+    },
+    {
+      "year": 2015,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 122.7,
+      "o1": "Peter Ott",
+      "p1": 107.78
+    },
+    {
+      "year": 2015,
+      "week": 2,
+      "o0": "Chris Dupay",
+      "p0": 103.86,
+      "o1": "Kenny Smith",
+      "p1": 110.42
+    },
+    {
+      "year": 2015,
+      "week": 2,
+      "o0": "Jeff Lobdell",
+      "p0": 110.39,
+      "o1": "Scott Kellman",
+      "p1": 133.89
+    },
+    {
+      "year": 2015,
+      "week": 2,
+      "o0": "Tom Brown",
+      "p0": 92.51,
+      "o1": "Kevin Etwaroo",
+      "p1": 109.63
+    },
+    {
+      "year": 2015,
+      "week": 2,
+      "o0": "Malcolm Lapone",
+      "p0": 89.08,
+      "o1": "Ed Shively",
+      "p1": 95.16
+    },
+    {
+      "year": 2015,
+      "week": 2,
+      "o0": "Steve Minardi",
+      "p0": 112.62,
+      "o1": "Kevin Coppins",
+      "p1": 120.61
+    },
+    {
+      "year": 2015,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 101.41,
+      "o1": "Jeff Lobdell",
+      "p1": 130.21
+    },
+    {
+      "year": 2015,
+      "week": 3,
+      "o0": "Chris Dupay",
+      "p0": 151.58,
+      "o1": "Peter Ott",
+      "p1": 121.0
+    },
+    {
+      "year": 2015,
+      "week": 3,
+      "o0": "Tom Brown",
+      "p0": 166.51,
+      "o1": "Scott Kellman",
+      "p1": 92.75
+    },
+    {
+      "year": 2015,
+      "week": 3,
+      "o0": "Malcolm Lapone",
+      "p0": 159.0,
+      "o1": "Kevin Etwaroo",
+      "p1": 137.79
+    },
+    {
+      "year": 2015,
+      "week": 3,
+      "o0": "Steve Minardi",
+      "p0": 124.56,
+      "o1": "Ed Shively",
+      "p1": 125.21
+    },
+    {
+      "year": 2015,
+      "week": 3,
+      "o0": "Kevin Coppins",
+      "p0": 133.64,
+      "o1": "Kenny Smith",
+      "p1": 150.77
+    },
+    {
+      "year": 2015,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 111.41,
+      "o1": "Tom Brown",
+      "p1": 74.25
+    },
+    {
+      "year": 2015,
+      "week": 4,
+      "o0": "Chris Dupay",
+      "p0": 132.91,
+      "o1": "Jeff Lobdell",
+      "p1": 89.73
+    },
+    {
+      "year": 2015,
+      "week": 4,
+      "o0": "Peter Ott",
+      "p0": 115.71,
+      "o1": "Kenny Smith",
+      "p1": 87.19
+    },
+    {
+      "year": 2015,
+      "week": 4,
+      "o0": "Malcolm Lapone",
+      "p0": 76.03,
+      "o1": "Scott Kellman",
+      "p1": 108.66
+    },
+    {
+      "year": 2015,
+      "week": 4,
+      "o0": "Steve Minardi",
+      "p0": 124.8,
+      "o1": "Kevin Etwaroo",
+      "p1": 116.01
+    },
+    {
+      "year": 2015,
+      "week": 4,
+      "o0": "Kevin Coppins",
+      "p0": 104.18,
+      "o1": "Ed Shively",
+      "p1": 123.64
+    },
+    {
+      "year": 2015,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 129.32,
+      "o1": "Malcolm Lapone",
+      "p1": 70.31
+    },
+    {
+      "year": 2015,
+      "week": 5,
+      "o0": "Chris Dupay",
+      "p0": 142.94,
+      "o1": "Tom Brown",
+      "p1": 85.81
+    },
+    {
+      "year": 2015,
+      "week": 5,
+      "o0": "Peter Ott",
+      "p0": 83.46,
+      "o1": "Jeff Lobdell",
+      "p1": 171.6
+    },
+    {
+      "year": 2015,
+      "week": 5,
+      "o0": "Steve Minardi",
+      "p0": 125.58,
+      "o1": "Scott Kellman",
+      "p1": 156.51
+    },
+    {
+      "year": 2015,
+      "week": 5,
+      "o0": "Kevin Coppins",
+      "p0": 123.5,
+      "o1": "Kevin Etwaroo",
+      "p1": 134.03
+    },
+    {
+      "year": 2015,
+      "week": 5,
+      "o0": "Ed Shively",
+      "p0": 85.51,
+      "o1": "Kenny Smith",
+      "p1": 88.16
+    },
+    {
+      "year": 2015,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 101.99,
+      "o1": "Steve Minardi",
+      "p1": 161.45
+    },
+    {
+      "year": 2015,
+      "week": 6,
+      "o0": "Chris Dupay",
+      "p0": 160.62,
+      "o1": "Malcolm Lapone",
+      "p1": 123.3
+    },
+    {
+      "year": 2015,
+      "week": 6,
+      "o0": "Peter Ott",
+      "p0": 101.93,
+      "o1": "Tom Brown",
+      "p1": 101.11
+    },
+    {
+      "year": 2015,
+      "week": 6,
+      "o0": "Jeff Lobdell",
+      "p0": 124.24,
+      "o1": "Kenny Smith",
+      "p1": 94.77
+    },
+    {
+      "year": 2015,
+      "week": 6,
+      "o0": "Kevin Coppins",
+      "p0": 137.03,
+      "o1": "Scott Kellman",
+      "p1": 130.92
+    },
+    {
+      "year": 2015,
+      "week": 6,
+      "o0": "Ed Shively",
+      "p0": 108.72,
+      "o1": "Kevin Etwaroo",
+      "p1": 118.28
+    },
+    {
+      "year": 2015,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 119.05,
+      "o1": "Kevin Coppins",
+      "p1": 124.3
+    },
+    {
+      "year": 2015,
+      "week": 7,
+      "o0": "Chris Dupay",
+      "p0": 108.98,
+      "o1": "Steve Minardi",
+      "p1": 122.37
+    },
+    {
+      "year": 2015,
+      "week": 7,
+      "o0": "Peter Ott",
+      "p0": 83.76,
+      "o1": "Malcolm Lapone",
+      "p1": 126.2
+    },
+    {
+      "year": 2015,
+      "week": 7,
+      "o0": "Jeff Lobdell",
+      "p0": 136.66,
+      "o1": "Tom Brown",
+      "p1": 97.02
+    },
+    {
+      "year": 2015,
+      "week": 7,
+      "o0": "Ed Shively",
+      "p0": 121.87,
+      "o1": "Scott Kellman",
+      "p1": 153.36
+    },
+    {
+      "year": 2015,
+      "week": 7,
+      "o0": "Kevin Etwaroo",
+      "p0": 144.73,
+      "o1": "Kenny Smith",
+      "p1": 126.58
+    },
+    {
+      "year": 2015,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 81.02,
+      "o1": "Ed Shively",
+      "p1": 137.98
+    },
+    {
+      "year": 2015,
+      "week": 8,
+      "o0": "Chris Dupay",
+      "p0": 84.8,
+      "o1": "Kevin Coppins",
+      "p1": 158.82
+    },
+    {
+      "year": 2015,
+      "week": 8,
+      "o0": "Peter Ott",
+      "p0": 102.08,
+      "o1": "Steve Minardi",
+      "p1": 165.87
+    },
+    {
+      "year": 2015,
+      "week": 8,
+      "o0": "Jeff Lobdell",
+      "p0": 104.71,
+      "o1": "Malcolm Lapone",
+      "p1": 114.16
+    },
+    {
+      "year": 2015,
+      "week": 8,
+      "o0": "Tom Brown",
+      "p0": 104.18,
+      "o1": "Kenny Smith",
+      "p1": 127.8
+    },
+    {
+      "year": 2015,
+      "week": 8,
+      "o0": "Kevin Etwaroo",
+      "p0": 156.65,
+      "o1": "Scott Kellman",
+      "p1": 91.79
+    },
+    {
+      "year": 2015,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 143.9,
+      "o1": "Kevin Etwaroo",
+      "p1": 155.95
+    },
+    {
+      "year": 2015,
+      "week": 9,
+      "o0": "Chris Dupay",
+      "p0": 103.32,
+      "o1": "Ed Shively",
+      "p1": 130.61
+    },
+    {
+      "year": 2015,
+      "week": 9,
+      "o0": "Peter Ott",
+      "p0": 99.59,
+      "o1": "Kevin Coppins",
+      "p1": 149.67
+    },
+    {
+      "year": 2015,
+      "week": 9,
+      "o0": "Jeff Lobdell",
+      "p0": 137.53,
+      "o1": "Steve Minardi",
+      "p1": 114.53
+    },
+    {
+      "year": 2015,
+      "week": 9,
+      "o0": "Tom Brown",
+      "p0": 75.99,
+      "o1": "Malcolm Lapone",
+      "p1": 119.23
+    },
+    {
+      "year": 2015,
+      "week": 9,
+      "o0": "Scott Kellman",
+      "p0": 130.24,
+      "o1": "Kenny Smith",
+      "p1": 124.42
+    },
+    {
+      "year": 2015,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 116.63,
+      "o1": "Scott Kellman",
+      "p1": 100.11
+    },
+    {
+      "year": 2015,
+      "week": 10,
+      "o0": "Chris Dupay",
+      "p0": 105.99,
+      "o1": "Kevin Etwaroo",
+      "p1": 74.88
+    },
+    {
+      "year": 2015,
+      "week": 10,
+      "o0": "Peter Ott",
+      "p0": 97.45,
+      "o1": "Ed Shively",
+      "p1": 142.25
+    },
+    {
+      "year": 2015,
+      "week": 10,
+      "o0": "Jeff Lobdell",
+      "p0": 108.47,
+      "o1": "Kevin Coppins",
+      "p1": 132.93
+    },
+    {
+      "year": 2015,
+      "week": 10,
+      "o0": "Tom Brown",
+      "p0": 112.01,
+      "o1": "Steve Minardi",
+      "p1": 130.51
+    },
+    {
+      "year": 2015,
+      "week": 10,
+      "o0": "Malcolm Lapone",
+      "p0": 133.16,
+      "o1": "Kenny Smith",
+      "p1": 120.9
+    },
+    {
+      "year": 2015,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 78.32,
+      "o1": "Kenny Smith",
+      "p1": 98.73
+    },
+    {
+      "year": 2015,
+      "week": 11,
+      "o0": "Chris Dupay",
+      "p0": 122.28,
+      "o1": "Scott Kellman",
+      "p1": 115.23
+    },
+    {
+      "year": 2015,
+      "week": 11,
+      "o0": "Peter Ott",
+      "p0": 93.6,
+      "o1": "Kevin Etwaroo",
+      "p1": 105.42
+    },
+    {
+      "year": 2015,
+      "week": 11,
+      "o0": "Jeff Lobdell",
+      "p0": 92.19,
+      "o1": "Ed Shively",
+      "p1": 74.05
+    },
+    {
+      "year": 2015,
+      "week": 11,
+      "o0": "Tom Brown",
+      "p0": 88.71,
+      "o1": "Kevin Coppins",
+      "p1": 97.61
+    },
+    {
+      "year": 2015,
+      "week": 11,
+      "o0": "Malcolm Lapone",
+      "p0": 66.41,
+      "o1": "Steve Minardi",
+      "p1": 119.04
+    },
+    {
+      "year": 2015,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 96.22,
+      "o1": "Chris Dupay",
+      "p1": 130.13
+    },
+    {
+      "year": 2015,
+      "week": 12,
+      "o0": "Peter Ott",
+      "p0": 111.11,
+      "o1": "Scott Kellman",
+      "p1": 118.89
+    },
+    {
+      "year": 2015,
+      "week": 12,
+      "o0": "Jeff Lobdell",
+      "p0": 92.89,
+      "o1": "Kevin Etwaroo",
+      "p1": 80.8
+    },
+    {
+      "year": 2015,
+      "week": 12,
+      "o0": "Tom Brown",
+      "p0": 126.29,
+      "o1": "Ed Shively",
+      "p1": 117.88
+    },
+    {
+      "year": 2015,
+      "week": 12,
+      "o0": "Malcolm Lapone",
+      "p0": 98.83,
+      "o1": "Kevin Coppins",
+      "p1": 138.35
+    },
+    {
+      "year": 2015,
+      "week": 12,
+      "o0": "Steve Minardi",
+      "p0": 130.35,
+      "o1": "Kenny Smith",
+      "p1": 147.21
+    },
+    {
+      "year": 2015,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 156.35,
+      "o1": "Peter Ott",
+      "p1": 162.14
+    },
+    {
+      "year": 2015,
+      "week": 13,
+      "o0": "Chris Dupay",
+      "p0": 124.74,
+      "o1": "Kenny Smith",
+      "p1": 114.04
+    },
+    {
+      "year": 2015,
+      "week": 13,
+      "o0": "Jeff Lobdell",
+      "p0": 137.59,
+      "o1": "Scott Kellman",
+      "p1": 104.67
+    },
+    {
+      "year": 2015,
+      "week": 13,
+      "o0": "Tom Brown",
+      "p0": 94.05,
+      "o1": "Kevin Etwaroo",
+      "p1": 120.78
+    },
+    {
+      "year": 2015,
+      "week": 13,
+      "o0": "Malcolm Lapone",
+      "p0": 128.24,
+      "o1": "Ed Shively",
+      "p1": 87.28
+    },
+    {
+      "year": 2015,
+      "week": 13,
+      "o0": "Steve Minardi",
+      "p0": 87.68,
+      "o1": "Kevin Coppins",
+      "p1": 130.66
+    },
+    {
+      "year": 2016,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 112.93,
+      "o1": "Peter Ott",
+      "p1": 87.31
+    },
+    {
+      "year": 2016,
+      "week": 1,
+      "o0": "Malcolm Lapone",
+      "p0": 107.99,
+      "o1": "Ed Shively",
+      "p1": 139.03
+    },
+    {
+      "year": 2016,
+      "week": 1,
+      "o0": "Chris Dupay",
+      "p0": 103.97,
+      "o1": "Jeff Lobdell",
+      "p1": 153.08
+    },
+    {
+      "year": 2016,
+      "week": 1,
+      "o0": "Kevin Etwaroo",
+      "p0": 116.57,
+      "o1": "Steve Minardi",
+      "p1": 106.22
+    },
+    {
+      "year": 2016,
+      "week": 1,
+      "o0": "Scott Kellman",
+      "p0": 141.0,
+      "o1": "Kevin Coppins",
+      "p1": 128.19
+    },
+    {
+      "year": 2016,
+      "week": 1,
+      "o0": "Kenny Smith",
+      "p0": 113.23,
+      "o1": "Chris Harjung",
+      "p1": 89.23
+    },
+    {
+      "year": 2016,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 154.15,
+      "o1": "Malcolm Lapone",
+      "p1": 122.69
+    },
+    {
+      "year": 2016,
+      "week": 2,
+      "o0": "Peter Ott",
+      "p0": 109.28,
+      "o1": "Chris Harjung",
+      "p1": 125.09
+    },
+    {
+      "year": 2016,
+      "week": 2,
+      "o0": "Chris Dupay",
+      "p0": 98.53,
+      "o1": "Ed Shively",
+      "p1": 96.76
+    },
+    {
+      "year": 2016,
+      "week": 2,
+      "o0": "Kevin Etwaroo",
+      "p0": 99.18,
+      "o1": "Jeff Lobdell",
+      "p1": 91.2
+    },
+    {
+      "year": 2016,
+      "week": 2,
+      "o0": "Scott Kellman",
+      "p0": 122.82,
+      "o1": "Steve Minardi",
+      "p1": 127.41
+    },
+    {
+      "year": 2016,
+      "week": 2,
+      "o0": "Kenny Smith",
+      "p0": 118.11,
+      "o1": "Kevin Coppins",
+      "p1": 112.72
+    },
+    {
+      "year": 2016,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 110.6,
+      "o1": "Chris Dupay",
+      "p1": 134.54
+    },
+    {
+      "year": 2016,
+      "week": 3,
+      "o0": "Peter Ott",
+      "p0": 132.65,
+      "o1": "Malcolm Lapone",
+      "p1": 115.17
+    },
+    {
+      "year": 2016,
+      "week": 3,
+      "o0": "Kevin Etwaroo",
+      "p0": 64.07,
+      "o1": "Ed Shively",
+      "p1": 116.27
+    },
+    {
+      "year": 2016,
+      "week": 3,
+      "o0": "Scott Kellman",
+      "p0": 99.83,
+      "o1": "Jeff Lobdell",
+      "p1": 136.51
+    },
+    {
+      "year": 2016,
+      "week": 3,
+      "o0": "Kenny Smith",
+      "p0": 105.56,
+      "o1": "Steve Minardi",
+      "p1": 110.58
+    },
+    {
+      "year": 2016,
+      "week": 3,
+      "o0": "Kevin Coppins",
+      "p0": 111.06,
+      "o1": "Chris Harjung",
+      "p1": 101.78
+    },
+    {
+      "year": 2016,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 104.97,
+      "o1": "Kevin Etwaroo",
+      "p1": 111.97
+    },
+    {
+      "year": 2016,
+      "week": 4,
+      "o0": "Peter Ott",
+      "p0": 100.74,
+      "o1": "Chris Dupay",
+      "p1": 101.27
+    },
+    {
+      "year": 2016,
+      "week": 4,
+      "o0": "Malcolm Lapone",
+      "p0": 102.73,
+      "o1": "Chris Harjung",
+      "p1": 84.73
+    },
+    {
+      "year": 2016,
+      "week": 4,
+      "o0": "Scott Kellman",
+      "p0": 92.32,
+      "o1": "Ed Shively",
+      "p1": 114.44
+    },
+    {
+      "year": 2016,
+      "week": 4,
+      "o0": "Kenny Smith",
+      "p0": 146.96,
+      "o1": "Jeff Lobdell",
+      "p1": 103.64
+    },
+    {
+      "year": 2016,
+      "week": 4,
+      "o0": "Kevin Coppins",
+      "p0": 124.37,
+      "o1": "Steve Minardi",
+      "p1": 132.63
+    },
+    {
+      "year": 2016,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 100.75,
+      "o1": "Scott Kellman",
+      "p1": 125.13
+    },
+    {
+      "year": 2016,
+      "week": 5,
+      "o0": "Peter Ott",
+      "p0": 138.82,
+      "o1": "Kevin Etwaroo",
+      "p1": 104.38
+    },
+    {
+      "year": 2016,
+      "week": 5,
+      "o0": "Malcolm Lapone",
+      "p0": 142.1,
+      "o1": "Chris Dupay",
+      "p1": 109.1
+    },
+    {
+      "year": 2016,
+      "week": 5,
+      "o0": "Kenny Smith",
+      "p0": 113.83,
+      "o1": "Ed Shively",
+      "p1": 107.72
+    },
+    {
+      "year": 2016,
+      "week": 5,
+      "o0": "Kevin Coppins",
+      "p0": 114.81,
+      "o1": "Jeff Lobdell",
+      "p1": 154.58
+    },
+    {
+      "year": 2016,
+      "week": 5,
+      "o0": "Steve Minardi",
+      "p0": 125.1,
+      "o1": "Chris Harjung",
+      "p1": 100.84
+    },
+    {
+      "year": 2016,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 112.53,
+      "o1": "Kenny Smith",
+      "p1": 34.91
+    },
+    {
+      "year": 2016,
+      "week": 6,
+      "o0": "Peter Ott",
+      "p0": 128.17,
+      "o1": "Scott Kellman",
+      "p1": 76.95
+    },
+    {
+      "year": 2016,
+      "week": 6,
+      "o0": "Malcolm Lapone",
+      "p0": 98.85,
+      "o1": "Kevin Etwaroo",
+      "p1": 92.22
+    },
+    {
+      "year": 2016,
+      "week": 6,
+      "o0": "Chris Dupay",
+      "p0": 83.52,
+      "o1": "Chris Harjung",
+      "p1": 109.28
+    },
+    {
+      "year": 2016,
+      "week": 6,
+      "o0": "Kevin Coppins",
+      "p0": 96.84,
+      "o1": "Ed Shively",
+      "p1": 128.06
+    },
+    {
+      "year": 2016,
+      "week": 6,
+      "o0": "Steve Minardi",
+      "p0": 131.38,
+      "o1": "Jeff Lobdell",
+      "p1": 147.21
+    },
+    {
+      "year": 2016,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 114.31,
+      "o1": "Kevin Coppins",
+      "p1": 112.47
+    },
+    {
+      "year": 2016,
+      "week": 7,
+      "o0": "Peter Ott",
+      "p0": 115.73,
+      "o1": "Kenny Smith",
+      "p1": 97.1
+    },
+    {
+      "year": 2016,
+      "week": 7,
+      "o0": "Malcolm Lapone",
+      "p0": 92.46,
+      "o1": "Scott Kellman",
+      "p1": 114.62
+    },
+    {
+      "year": 2016,
+      "week": 7,
+      "o0": "Chris Dupay",
+      "p0": 126.73,
+      "o1": "Kevin Etwaroo",
+      "p1": 121.26
+    },
+    {
+      "year": 2016,
+      "week": 7,
+      "o0": "Steve Minardi",
+      "p0": 98.94,
+      "o1": "Ed Shively",
+      "p1": 147.06
+    },
+    {
+      "year": 2016,
+      "week": 7,
+      "o0": "Jeff Lobdell",
+      "p0": 156.37,
+      "o1": "Chris Harjung",
+      "p1": 108.69
+    },
+    {
+      "year": 2016,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 96.21,
+      "o1": "Steve Minardi",
+      "p1": 66.9
+    },
+    {
+      "year": 2016,
+      "week": 8,
+      "o0": "Peter Ott",
+      "p0": 130.25,
+      "o1": "Kevin Coppins",
+      "p1": 88.54
+    },
+    {
+      "year": 2016,
+      "week": 8,
+      "o0": "Malcolm Lapone",
+      "p0": 146.5,
+      "o1": "Kenny Smith",
+      "p1": 146.02
+    },
+    {
+      "year": 2016,
+      "week": 8,
+      "o0": "Chris Dupay",
+      "p0": 136.65,
+      "o1": "Scott Kellman",
+      "p1": 110.12
+    },
+    {
+      "year": 2016,
+      "week": 8,
+      "o0": "Kevin Etwaroo",
+      "p0": 88.71,
+      "o1": "Chris Harjung",
+      "p1": 130.49
+    },
+    {
+      "year": 2016,
+      "week": 8,
+      "o0": "Jeff Lobdell",
+      "p0": 130.4,
+      "o1": "Ed Shively",
+      "p1": 92.57
+    },
+    {
+      "year": 2016,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 115.37,
+      "o1": "Jeff Lobdell",
+      "p1": 95.02
+    },
+    {
+      "year": 2016,
+      "week": 9,
+      "o0": "Peter Ott",
+      "p0": 148.44,
+      "o1": "Steve Minardi",
+      "p1": 146.91
+    },
+    {
+      "year": 2016,
+      "week": 9,
+      "o0": "Malcolm Lapone",
+      "p0": 116.05,
+      "o1": "Kevin Coppins",
+      "p1": 69.54
+    },
+    {
+      "year": 2016,
+      "week": 9,
+      "o0": "Chris Dupay",
+      "p0": 141.65,
+      "o1": "Kenny Smith",
+      "p1": 114.18
+    },
+    {
+      "year": 2016,
+      "week": 9,
+      "o0": "Kevin Etwaroo",
+      "p0": 85.73,
+      "o1": "Scott Kellman",
+      "p1": 133.44
+    },
+    {
+      "year": 2016,
+      "week": 9,
+      "o0": "Ed Shively",
+      "p0": 86.79,
+      "o1": "Chris Harjung",
+      "p1": 124.56
+    },
+    {
+      "year": 2016,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 142.36,
+      "o1": "Ed Shively",
+      "p1": 113.3
+    },
+    {
+      "year": 2016,
+      "week": 10,
+      "o0": "Peter Ott",
+      "p0": 96.59,
+      "o1": "Jeff Lobdell",
+      "p1": 97.86
+    },
+    {
+      "year": 2016,
+      "week": 10,
+      "o0": "Malcolm Lapone",
+      "p0": 107.89,
+      "o1": "Steve Minardi",
+      "p1": 115.82
+    },
+    {
+      "year": 2016,
+      "week": 10,
+      "o0": "Chris Dupay",
+      "p0": 151.54,
+      "o1": "Kevin Coppins",
+      "p1": 83.99
+    },
+    {
+      "year": 2016,
+      "week": 10,
+      "o0": "Kevin Etwaroo",
+      "p0": 84.59,
+      "o1": "Kenny Smith",
+      "p1": 119.72
+    },
+    {
+      "year": 2016,
+      "week": 10,
+      "o0": "Scott Kellman",
+      "p0": 136.61,
+      "o1": "Chris Harjung",
+      "p1": 148.94
+    },
+    {
+      "year": 2016,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 124.76,
+      "o1": "Chris Harjung",
+      "p1": 128.37
+    },
+    {
+      "year": 2016,
+      "week": 11,
+      "o0": "Peter Ott",
+      "p0": 115.27,
+      "o1": "Ed Shively",
+      "p1": 129.3
+    },
+    {
+      "year": 2016,
+      "week": 11,
+      "o0": "Malcolm Lapone",
+      "p0": 98.85,
+      "o1": "Jeff Lobdell",
+      "p1": 127.6
+    },
+    {
+      "year": 2016,
+      "week": 11,
+      "o0": "Chris Dupay",
+      "p0": 129.13,
+      "o1": "Steve Minardi",
+      "p1": 89.1
+    },
+    {
+      "year": 2016,
+      "week": 11,
+      "o0": "Kevin Etwaroo",
+      "p0": 88.99,
+      "o1": "Kevin Coppins",
+      "p1": 102.91
+    },
+    {
+      "year": 2016,
+      "week": 11,
+      "o0": "Scott Kellman",
+      "p0": 113.36,
+      "o1": "Kenny Smith",
+      "p1": 68.43
+    },
+    {
+      "year": 2016,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 114.71,
+      "o1": "Peter Ott",
+      "p1": 134.41
+    },
+    {
+      "year": 2016,
+      "week": 12,
+      "o0": "Malcolm Lapone",
+      "p0": 128.42,
+      "o1": "Ed Shively",
+      "p1": 154.49
+    },
+    {
+      "year": 2016,
+      "week": 12,
+      "o0": "Chris Dupay",
+      "p0": 102.29,
+      "o1": "Jeff Lobdell",
+      "p1": 116.25
+    },
+    {
+      "year": 2016,
+      "week": 12,
+      "o0": "Kevin Etwaroo",
+      "p0": 82.88,
+      "o1": "Steve Minardi",
+      "p1": 134.26
+    },
+    {
+      "year": 2016,
+      "week": 12,
+      "o0": "Scott Kellman",
+      "p0": 99.58,
+      "o1": "Kevin Coppins",
+      "p1": 65.42
+    },
+    {
+      "year": 2016,
+      "week": 12,
+      "o0": "Kenny Smith",
+      "p0": 96.65,
+      "o1": "Chris Harjung",
+      "p1": 99.25
+    },
+    {
+      "year": 2016,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 94.46,
+      "o1": "Malcolm Lapone",
+      "p1": 123.22
+    },
+    {
+      "year": 2016,
+      "week": 13,
+      "o0": "Peter Ott",
+      "p0": 95.41,
+      "o1": "Chris Harjung",
+      "p1": 125.43
+    },
+    {
+      "year": 2016,
+      "week": 13,
+      "o0": "Chris Dupay",
+      "p0": 125.78,
+      "o1": "Ed Shively",
+      "p1": 132.96
+    },
+    {
+      "year": 2016,
+      "week": 13,
+      "o0": "Kevin Etwaroo",
+      "p0": 66.25,
+      "o1": "Jeff Lobdell",
+      "p1": 149.15
+    },
+    {
+      "year": 2016,
+      "week": 13,
+      "o0": "Scott Kellman",
+      "p0": 98.58,
+      "o1": "Steve Minardi",
+      "p1": 130.13
+    },
+    {
+      "year": 2016,
+      "week": 13,
+      "o0": "Kenny Smith",
+      "p0": 96.08,
+      "o1": "Kevin Coppins",
+      "p1": 77.51
+    },
+    {
+      "year": 2017,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 87.09,
+      "o1": "Malcolm Lapone",
+      "p1": 69.45
+    },
+    {
+      "year": 2017,
+      "week": 1,
+      "o0": "Jeff Lobdell",
+      "p0": 112.15,
+      "o1": "Peter Ott",
+      "p1": 98.95
+    },
+    {
+      "year": 2017,
+      "week": 1,
+      "o0": "Kevin Etwaroo",
+      "p0": 96.04,
+      "o1": "Kenny Smith",
+      "p1": 96.44
+    },
+    {
+      "year": 2017,
+      "week": 1,
+      "o0": "Ed Shively",
+      "p0": 102.14,
+      "o1": "Steve Minardi",
+      "p1": 106.05
+    },
+    {
+      "year": 2017,
+      "week": 1,
+      "o0": "Scott Kellman",
+      "p0": 92.21,
+      "o1": "Kevin Coppins",
+      "p1": 86.65
+    },
+    {
+      "year": 2017,
+      "week": 1,
+      "o0": "Brian Marois",
+      "p0": 177.64,
+      "o1": "Chris Dupay",
+      "p1": 89.7
+    },
+    {
+      "year": 2017,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 87.3,
+      "o1": "Jeff Lobdell",
+      "p1": 73.74
+    },
+    {
+      "year": 2017,
+      "week": 2,
+      "o0": "Malcolm Lapone",
+      "p0": 75.89,
+      "o1": "Chris Dupay",
+      "p1": 127.99
+    },
+    {
+      "year": 2017,
+      "week": 2,
+      "o0": "Kevin Etwaroo",
+      "p0": 96.69,
+      "o1": "Peter Ott",
+      "p1": 98.6
+    },
+    {
+      "year": 2017,
+      "week": 2,
+      "o0": "Ed Shively",
+      "p0": 80.12,
+      "o1": "Kenny Smith",
+      "p1": 120.89
+    },
+    {
+      "year": 2017,
+      "week": 2,
+      "o0": "Scott Kellman",
+      "p0": 144.15,
+      "o1": "Steve Minardi",
+      "p1": 137.79
+    },
+    {
+      "year": 2017,
+      "week": 2,
+      "o0": "Brian Marois",
+      "p0": 117.04,
+      "o1": "Kevin Coppins",
+      "p1": 102.51
+    },
+    {
+      "year": 2017,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 100.79,
+      "o1": "Kevin Etwaroo",
+      "p1": 90.23
+    },
+    {
+      "year": 2017,
+      "week": 3,
+      "o0": "Malcolm Lapone",
+      "p0": 76.62,
+      "o1": "Jeff Lobdell",
+      "p1": 103.04
+    },
+    {
+      "year": 2017,
+      "week": 3,
+      "o0": "Ed Shively",
+      "p0": 98.15,
+      "o1": "Peter Ott",
+      "p1": 78.7
+    },
+    {
+      "year": 2017,
+      "week": 3,
+      "o0": "Scott Kellman",
+      "p0": 78.64,
+      "o1": "Kenny Smith",
+      "p1": 180.66
+    },
+    {
+      "year": 2017,
+      "week": 3,
+      "o0": "Brian Marois",
+      "p0": 105.09,
+      "o1": "Steve Minardi",
+      "p1": 100.25
+    },
+    {
+      "year": 2017,
+      "week": 3,
+      "o0": "Kevin Coppins",
+      "p0": 142.84,
+      "o1": "Chris Dupay",
+      "p1": 132.78
+    },
+    {
+      "year": 2017,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 123.91,
+      "o1": "Ed Shively",
+      "p1": 78.49
+    },
+    {
+      "year": 2017,
+      "week": 4,
+      "o0": "Malcolm Lapone",
+      "p0": 88.75,
+      "o1": "Kevin Etwaroo",
+      "p1": 106.24
+    },
+    {
+      "year": 2017,
+      "week": 4,
+      "o0": "Jeff Lobdell",
+      "p0": 88.92,
+      "o1": "Chris Dupay",
+      "p1": 90.29
+    },
+    {
+      "year": 2017,
+      "week": 4,
+      "o0": "Scott Kellman",
+      "p0": 142.78,
+      "o1": "Peter Ott",
+      "p1": 94.13
+    },
+    {
+      "year": 2017,
+      "week": 4,
+      "o0": "Brian Marois",
+      "p0": 106.58,
+      "o1": "Kenny Smith",
+      "p1": 124.59
+    },
+    {
+      "year": 2017,
+      "week": 4,
+      "o0": "Kevin Coppins",
+      "p0": 95.06,
+      "o1": "Steve Minardi",
+      "p1": 132.88
+    },
+    {
+      "year": 2017,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 135.14,
+      "o1": "Scott Kellman",
+      "p1": 121.74
+    },
+    {
+      "year": 2017,
+      "week": 5,
+      "o0": "Malcolm Lapone",
+      "p0": 118.13,
+      "o1": "Ed Shively",
+      "p1": 62.34
+    },
+    {
+      "year": 2017,
+      "week": 5,
+      "o0": "Jeff Lobdell",
+      "p0": 110.19,
+      "o1": "Kevin Etwaroo",
+      "p1": 109.13
+    },
+    {
+      "year": 2017,
+      "week": 5,
+      "o0": "Brian Marois",
+      "p0": 121.92,
+      "o1": "Peter Ott",
+      "p1": 123.31
+    },
+    {
+      "year": 2017,
+      "week": 5,
+      "o0": "Kevin Coppins",
+      "p0": 99.09,
+      "o1": "Kenny Smith",
+      "p1": 126.11
+    },
+    {
+      "year": 2017,
+      "week": 5,
+      "o0": "Steve Minardi",
+      "p0": 90.12,
+      "o1": "Chris Dupay",
+      "p1": 95.67
+    },
+    {
+      "year": 2017,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 111.19,
+      "o1": "Brian Marois",
+      "p1": 114.22
+    },
+    {
+      "year": 2017,
+      "week": 6,
+      "o0": "Malcolm Lapone",
+      "p0": 71.24,
+      "o1": "Scott Kellman",
+      "p1": 109.02
+    },
+    {
+      "year": 2017,
+      "week": 6,
+      "o0": "Jeff Lobdell",
+      "p0": 88.03,
+      "o1": "Ed Shively",
+      "p1": 75.29
+    },
+    {
+      "year": 2017,
+      "week": 6,
+      "o0": "Kevin Etwaroo",
+      "p0": 102.91,
+      "o1": "Chris Dupay",
+      "p1": 105.93
+    },
+    {
+      "year": 2017,
+      "week": 6,
+      "o0": "Kevin Coppins",
+      "p0": 101.78,
+      "o1": "Peter Ott",
+      "p1": 115.45
+    },
+    {
+      "year": 2017,
+      "week": 6,
+      "o0": "Steve Minardi",
+      "p0": 103.14,
+      "o1": "Kenny Smith",
+      "p1": 141.98
+    },
+    {
+      "year": 2017,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 141.74,
+      "o1": "Kevin Coppins",
+      "p1": 74.21
+    },
+    {
+      "year": 2017,
+      "week": 7,
+      "o0": "Malcolm Lapone",
+      "p0": 68.49,
+      "o1": "Brian Marois",
+      "p1": 105.13
+    },
+    {
+      "year": 2017,
+      "week": 7,
+      "o0": "Jeff Lobdell",
+      "p0": 127.81,
+      "o1": "Scott Kellman",
+      "p1": 99.71
+    },
+    {
+      "year": 2017,
+      "week": 7,
+      "o0": "Kevin Etwaroo",
+      "p0": 100.92,
+      "o1": "Ed Shively",
+      "p1": 97.09
+    },
+    {
+      "year": 2017,
+      "week": 7,
+      "o0": "Steve Minardi",
+      "p0": 116.39,
+      "o1": "Peter Ott",
+      "p1": 124.32
+    },
+    {
+      "year": 2017,
+      "week": 7,
+      "o0": "Kenny Smith",
+      "p0": 120.35,
+      "o1": "Chris Dupay",
+      "p1": 77.94
+    },
+    {
+      "year": 2017,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 138.56,
+      "o1": "Steve Minardi",
+      "p1": 75.42
+    },
+    {
+      "year": 2017,
+      "week": 8,
+      "o0": "Malcolm Lapone",
+      "p0": 91.77,
+      "o1": "Kevin Coppins",
+      "p1": 134.22
+    },
+    {
+      "year": 2017,
+      "week": 8,
+      "o0": "Jeff Lobdell",
+      "p0": 142.41,
+      "o1": "Brian Marois",
+      "p1": 151.92
+    },
+    {
+      "year": 2017,
+      "week": 8,
+      "o0": "Kevin Etwaroo",
+      "p0": 56.16,
+      "o1": "Scott Kellman",
+      "p1": 104.74
+    },
+    {
+      "year": 2017,
+      "week": 8,
+      "o0": "Ed Shively",
+      "p0": 83.32,
+      "o1": "Chris Dupay",
+      "p1": 78.92
+    },
+    {
+      "year": 2017,
+      "week": 8,
+      "o0": "Kenny Smith",
+      "p0": 113.53,
+      "o1": "Peter Ott",
+      "p1": 126.71
+    },
+    {
+      "year": 2017,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 107.24,
+      "o1": "Kenny Smith",
+      "p1": 110.8
+    },
+    {
+      "year": 2017,
+      "week": 9,
+      "o0": "Malcolm Lapone",
+      "p0": 95.78,
+      "o1": "Steve Minardi",
+      "p1": 106.71
+    },
+    {
+      "year": 2017,
+      "week": 9,
+      "o0": "Jeff Lobdell",
+      "p0": 138.38,
+      "o1": "Kevin Coppins",
+      "p1": 118.93
+    },
+    {
+      "year": 2017,
+      "week": 9,
+      "o0": "Kevin Etwaroo",
+      "p0": 88.42,
+      "o1": "Brian Marois",
+      "p1": 69.66
+    },
+    {
+      "year": 2017,
+      "week": 9,
+      "o0": "Ed Shively",
+      "p0": 118.34,
+      "o1": "Scott Kellman",
+      "p1": 98.95
+    },
+    {
+      "year": 2017,
+      "week": 9,
+      "o0": "Peter Ott",
+      "p0": 131.18,
+      "o1": "Chris Dupay",
+      "p1": 63.13
+    },
+    {
+      "year": 2017,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 117.66,
+      "o1": "Peter Ott",
+      "p1": 94.42
+    },
+    {
+      "year": 2017,
+      "week": 10,
+      "o0": "Malcolm Lapone",
+      "p0": 22.09,
+      "o1": "Kenny Smith",
+      "p1": 106.61
+    },
+    {
+      "year": 2017,
+      "week": 10,
+      "o0": "Jeff Lobdell",
+      "p0": 124.82,
+      "o1": "Steve Minardi",
+      "p1": 78.71
+    },
+    {
+      "year": 2017,
+      "week": 10,
+      "o0": "Kevin Etwaroo",
+      "p0": 74.41,
+      "o1": "Kevin Coppins",
+      "p1": 122.16
+    },
+    {
+      "year": 2017,
+      "week": 10,
+      "o0": "Ed Shively",
+      "p0": 131.42,
+      "o1": "Brian Marois",
+      "p1": 112.63
+    },
+    {
+      "year": 2017,
+      "week": 10,
+      "o0": "Scott Kellman",
+      "p0": 80.02,
+      "o1": "Chris Dupay",
+      "p1": 145.28
+    },
+    {
+      "year": 2017,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 99.42,
+      "o1": "Chris Dupay",
+      "p1": 90.78
+    },
+    {
+      "year": 2017,
+      "week": 11,
+      "o0": "Malcolm Lapone",
+      "p0": 120.28,
+      "o1": "Peter Ott",
+      "p1": 120.02
+    },
+    {
+      "year": 2017,
+      "week": 11,
+      "o0": "Jeff Lobdell",
+      "p0": 160.94,
+      "o1": "Kenny Smith",
+      "p1": 124.57
+    },
+    {
+      "year": 2017,
+      "week": 11,
+      "o0": "Kevin Etwaroo",
+      "p0": 123.83,
+      "o1": "Steve Minardi",
+      "p1": 110.78
+    },
+    {
+      "year": 2017,
+      "week": 11,
+      "o0": "Ed Shively",
+      "p0": 87.52,
+      "o1": "Kevin Coppins",
+      "p1": 111.1
+    },
+    {
+      "year": 2017,
+      "week": 11,
+      "o0": "Scott Kellman",
+      "p0": 125.61,
+      "o1": "Brian Marois",
+      "p1": 112.33
+    },
+    {
+      "year": 2017,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 113.23,
+      "o1": "Malcolm Lapone",
+      "p1": 119.94
+    },
+    {
+      "year": 2017,
+      "week": 12,
+      "o0": "Jeff Lobdell",
+      "p0": 133.15,
+      "o1": "Peter Ott",
+      "p1": 90.4
+    },
+    {
+      "year": 2017,
+      "week": 12,
+      "o0": "Kevin Etwaroo",
+      "p0": 103.27,
+      "o1": "Kenny Smith",
+      "p1": 148.46
+    },
+    {
+      "year": 2017,
+      "week": 12,
+      "o0": "Ed Shively",
+      "p0": 92.54,
+      "o1": "Steve Minardi",
+      "p1": 86.46
+    },
+    {
+      "year": 2017,
+      "week": 12,
+      "o0": "Scott Kellman",
+      "p0": 124.15,
+      "o1": "Kevin Coppins",
+      "p1": 108.76
+    },
+    {
+      "year": 2017,
+      "week": 12,
+      "o0": "Brian Marois",
+      "p0": 101.17,
+      "o1": "Chris Dupay",
+      "p1": 85.53
+    },
+    {
+      "year": 2017,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 94.55,
+      "o1": "Jeff Lobdell",
+      "p1": 145.61
+    },
+    {
+      "year": 2017,
+      "week": 13,
+      "o0": "Malcolm Lapone",
+      "p0": 111.6,
+      "o1": "Chris Dupay",
+      "p1": 76.11
+    },
+    {
+      "year": 2017,
+      "week": 13,
+      "o0": "Kevin Etwaroo",
+      "p0": 84.21,
+      "o1": "Peter Ott",
+      "p1": 97.07
+    },
+    {
+      "year": 2017,
+      "week": 13,
+      "o0": "Ed Shively",
+      "p0": 101.55,
+      "o1": "Kenny Smith",
+      "p1": 132.96
+    },
+    {
+      "year": 2017,
+      "week": 13,
+      "o0": "Scott Kellman",
+      "p0": 101.78,
+      "o1": "Steve Minardi",
+      "p1": 127.01
+    },
+    {
+      "year": 2017,
+      "week": 13,
+      "o0": "Brian Marois",
+      "p0": 112.38,
+      "o1": "Kevin Coppins",
+      "p1": 100.1
+    },
+    {
+      "year": 2018,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 88.06,
+      "o1": "Jeff Lobdell",
+      "p1": 86.64
+    },
+    {
+      "year": 2018,
+      "week": 1,
+      "o0": "Kenny Smith",
+      "p0": 101.02,
+      "o1": "Kevin Coppins",
+      "p1": 129.14
+    },
+    {
+      "year": 2018,
+      "week": 1,
+      "o0": "Brian Marois",
+      "p0": 97.39,
+      "o1": "Scott Kellman",
+      "p1": 128.51
+    },
+    {
+      "year": 2018,
+      "week": 1,
+      "o0": "Malcolm Lapone",
+      "p0": 179.37,
+      "o1": "Chris Dupay",
+      "p1": 106.32
+    },
+    {
+      "year": 2018,
+      "week": 1,
+      "o0": "Kevin Etwaroo",
+      "p0": 130.21,
+      "o1": "Peter Ott",
+      "p1": 137.71
+    },
+    {
+      "year": 2018,
+      "week": 1,
+      "o0": "Ed Shively",
+      "p0": 146.82,
+      "o1": "Steve Minardi",
+      "p1": 118.84
+    },
+    {
+      "year": 2018,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 121.83,
+      "o1": "Kenny Smith",
+      "p1": 83.35
+    },
+    {
+      "year": 2018,
+      "week": 2,
+      "o0": "Jeff Lobdell",
+      "p0": 109.06,
+      "o1": "Steve Minardi",
+      "p1": 127.97
+    },
+    {
+      "year": 2018,
+      "week": 2,
+      "o0": "Brian Marois",
+      "p0": 132.46,
+      "o1": "Kevin Coppins",
+      "p1": 123.17
+    },
+    {
+      "year": 2018,
+      "week": 2,
+      "o0": "Malcolm Lapone",
+      "p0": 156.46,
+      "o1": "Scott Kellman",
+      "p1": 130.38
+    },
+    {
+      "year": 2018,
+      "week": 2,
+      "o0": "Kevin Etwaroo",
+      "p0": 89.81,
+      "o1": "Chris Dupay",
+      "p1": 121.14
+    },
+    {
+      "year": 2018,
+      "week": 2,
+      "o0": "Ed Shively",
+      "p0": 139.76,
+      "o1": "Peter Ott",
+      "p1": 107.12
+    },
+    {
+      "year": 2018,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 129.53,
+      "o1": "Brian Marois",
+      "p1": 124.31
+    },
+    {
+      "year": 2018,
+      "week": 3,
+      "o0": "Jeff Lobdell",
+      "p0": 70.81,
+      "o1": "Kenny Smith",
+      "p1": 102.0
+    },
+    {
+      "year": 2018,
+      "week": 3,
+      "o0": "Malcolm Lapone",
+      "p0": 145.53,
+      "o1": "Kevin Coppins",
+      "p1": 123.09
+    },
+    {
+      "year": 2018,
+      "week": 3,
+      "o0": "Kevin Etwaroo",
+      "p0": 77.35,
+      "o1": "Scott Kellman",
+      "p1": 79.44
+    },
+    {
+      "year": 2018,
+      "week": 3,
+      "o0": "Ed Shively",
+      "p0": 92.59,
+      "o1": "Chris Dupay",
+      "p1": 133.44
+    },
+    {
+      "year": 2018,
+      "week": 3,
+      "o0": "Peter Ott",
+      "p0": 131.49,
+      "o1": "Steve Minardi",
+      "p1": 115.88
+    },
+    {
+      "year": 2018,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 130.09,
+      "o1": "Malcolm Lapone",
+      "p1": 138.36
+    },
+    {
+      "year": 2018,
+      "week": 4,
+      "o0": "Jeff Lobdell",
+      "p0": 122.23,
+      "o1": "Brian Marois",
+      "p1": 156.25
+    },
+    {
+      "year": 2018,
+      "week": 4,
+      "o0": "Kenny Smith",
+      "p0": 101.41,
+      "o1": "Steve Minardi",
+      "p1": 144.22
+    },
+    {
+      "year": 2018,
+      "week": 4,
+      "o0": "Kevin Etwaroo",
+      "p0": 112.11,
+      "o1": "Kevin Coppins",
+      "p1": 98.67
+    },
+    {
+      "year": 2018,
+      "week": 4,
+      "o0": "Ed Shively",
+      "p0": 135.08,
+      "o1": "Scott Kellman",
+      "p1": 155.31
+    },
+    {
+      "year": 2018,
+      "week": 4,
+      "o0": "Peter Ott",
+      "p0": 100.55,
+      "o1": "Chris Dupay",
+      "p1": 126.84
+    },
+    {
+      "year": 2018,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 117.56,
+      "o1": "Kevin Etwaroo",
+      "p1": 105.97
+    },
+    {
+      "year": 2018,
+      "week": 5,
+      "o0": "Jeff Lobdell",
+      "p0": 145.63,
+      "o1": "Malcolm Lapone",
+      "p1": 138.47
+    },
+    {
+      "year": 2018,
+      "week": 5,
+      "o0": "Kenny Smith",
+      "p0": 79.89,
+      "o1": "Brian Marois",
+      "p1": 86.76
+    },
+    {
+      "year": 2018,
+      "week": 5,
+      "o0": "Ed Shively",
+      "p0": 116.52,
+      "o1": "Kevin Coppins",
+      "p1": 134.32
+    },
+    {
+      "year": 2018,
+      "week": 5,
+      "o0": "Peter Ott",
+      "p0": 155.99,
+      "o1": "Scott Kellman",
+      "p1": 91.17
+    },
+    {
+      "year": 2018,
+      "week": 5,
+      "o0": "Chris Dupay",
+      "p0": 101.97,
+      "o1": "Steve Minardi",
+      "p1": 163.73
+    },
+    {
+      "year": 2018,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 80.22,
+      "o1": "Ed Shively",
+      "p1": 154.89
+    },
+    {
+      "year": 2018,
+      "week": 6,
+      "o0": "Jeff Lobdell",
+      "p0": 85.26,
+      "o1": "Kevin Etwaroo",
+      "p1": 127.13
+    },
+    {
+      "year": 2018,
+      "week": 6,
+      "o0": "Kenny Smith",
+      "p0": 86.81,
+      "o1": "Malcolm Lapone",
+      "p1": 158.98
+    },
+    {
+      "year": 2018,
+      "week": 6,
+      "o0": "Brian Marois",
+      "p0": 109.93,
+      "o1": "Steve Minardi",
+      "p1": 157.15
+    },
+    {
+      "year": 2018,
+      "week": 6,
+      "o0": "Peter Ott",
+      "p0": 134.78,
+      "o1": "Kevin Coppins",
+      "p1": 121.23
+    },
+    {
+      "year": 2018,
+      "week": 6,
+      "o0": "Chris Dupay",
+      "p0": 86.47,
+      "o1": "Scott Kellman",
+      "p1": 104.82
+    },
+    {
+      "year": 2018,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 119.08,
+      "o1": "Peter Ott",
+      "p1": 146.41
+    },
+    {
+      "year": 2018,
+      "week": 7,
+      "o0": "Jeff Lobdell",
+      "p0": 108.09,
+      "o1": "Ed Shively",
+      "p1": 138.67
+    },
+    {
+      "year": 2018,
+      "week": 7,
+      "o0": "Kenny Smith",
+      "p0": 71.56,
+      "o1": "Kevin Etwaroo",
+      "p1": 116.43
+    },
+    {
+      "year": 2018,
+      "week": 7,
+      "o0": "Brian Marois",
+      "p0": 83.98,
+      "o1": "Malcolm Lapone",
+      "p1": 151.74
+    },
+    {
+      "year": 2018,
+      "week": 7,
+      "o0": "Chris Dupay",
+      "p0": 104.58,
+      "o1": "Kevin Coppins",
+      "p1": 116.11
+    },
+    {
+      "year": 2018,
+      "week": 7,
+      "o0": "Scott Kellman",
+      "p0": 57.22,
+      "o1": "Steve Minardi",
+      "p1": 161.42
+    },
+    {
+      "year": 2018,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 130.01,
+      "o1": "Chris Dupay",
+      "p1": 106.04
+    },
+    {
+      "year": 2018,
+      "week": 8,
+      "o0": "Jeff Lobdell",
+      "p0": 83.66,
+      "o1": "Peter Ott",
+      "p1": 102.77
+    },
+    {
+      "year": 2018,
+      "week": 8,
+      "o0": "Kenny Smith",
+      "p0": 130.72,
+      "o1": "Ed Shively",
+      "p1": 121.71
+    },
+    {
+      "year": 2018,
+      "week": 8,
+      "o0": "Brian Marois",
+      "p0": 88.15,
+      "o1": "Kevin Etwaroo",
+      "p1": 86.38
+    },
+    {
+      "year": 2018,
+      "week": 8,
+      "o0": "Malcolm Lapone",
+      "p0": 164.47,
+      "o1": "Steve Minardi",
+      "p1": 132.87
+    },
+    {
+      "year": 2018,
+      "week": 8,
+      "o0": "Scott Kellman",
+      "p0": 134.71,
+      "o1": "Kevin Coppins",
+      "p1": 106.21
+    },
+    {
+      "year": 2018,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 101.16,
+      "o1": "Scott Kellman",
+      "p1": 67.53
+    },
+    {
+      "year": 2018,
+      "week": 9,
+      "o0": "Jeff Lobdell",
+      "p0": 93.43,
+      "o1": "Chris Dupay",
+      "p1": 130.32
+    },
+    {
+      "year": 2018,
+      "week": 9,
+      "o0": "Kenny Smith",
+      "p0": 51.48,
+      "o1": "Peter Ott",
+      "p1": 122.46
+    },
+    {
+      "year": 2018,
+      "week": 9,
+      "o0": "Brian Marois",
+      "p0": 125.47,
+      "o1": "Ed Shively",
+      "p1": 119.8
+    },
+    {
+      "year": 2018,
+      "week": 9,
+      "o0": "Malcolm Lapone",
+      "p0": 120.35,
+      "o1": "Kevin Etwaroo",
+      "p1": 137.96
+    },
+    {
+      "year": 2018,
+      "week": 9,
+      "o0": "Kevin Coppins",
+      "p0": 99.2,
+      "o1": "Steve Minardi",
+      "p1": 191.26
+    },
+    {
+      "year": 2018,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 138.14,
+      "o1": "Kevin Coppins",
+      "p1": 164.16
+    },
+    {
+      "year": 2018,
+      "week": 10,
+      "o0": "Jeff Lobdell",
+      "p0": 91.22,
+      "o1": "Scott Kellman",
+      "p1": 105.0
+    },
+    {
+      "year": 2018,
+      "week": 10,
+      "o0": "Kenny Smith",
+      "p0": 72.78,
+      "o1": "Chris Dupay",
+      "p1": 106.83
+    },
+    {
+      "year": 2018,
+      "week": 10,
+      "o0": "Brian Marois",
+      "p0": 133.39,
+      "o1": "Peter Ott",
+      "p1": 165.17
+    },
+    {
+      "year": 2018,
+      "week": 10,
+      "o0": "Malcolm Lapone",
+      "p0": 138.08,
+      "o1": "Ed Shively",
+      "p1": 154.78
+    },
+    {
+      "year": 2018,
+      "week": 10,
+      "o0": "Kevin Etwaroo",
+      "p0": 87.31,
+      "o1": "Steve Minardi",
+      "p1": 117.98
+    },
+    {
+      "year": 2018,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 92.48,
+      "o1": "Steve Minardi",
+      "p1": 136.4
+    },
+    {
+      "year": 2018,
+      "week": 11,
+      "o0": "Jeff Lobdell",
+      "p0": 124.63,
+      "o1": "Kevin Coppins",
+      "p1": 158.16
+    },
+    {
+      "year": 2018,
+      "week": 11,
+      "o0": "Kenny Smith",
+      "p0": 77.55,
+      "o1": "Scott Kellman",
+      "p1": 123.41
+    },
+    {
+      "year": 2018,
+      "week": 11,
+      "o0": "Brian Marois",
+      "p0": 102.1,
+      "o1": "Chris Dupay",
+      "p1": 108.25
+    },
+    {
+      "year": 2018,
+      "week": 11,
+      "o0": "Malcolm Lapone",
+      "p0": 160.57,
+      "o1": "Peter Ott",
+      "p1": 136.92
+    },
+    {
+      "year": 2018,
+      "week": 11,
+      "o0": "Kevin Etwaroo",
+      "p0": 93.43,
+      "o1": "Ed Shively",
+      "p1": 93.34
+    },
+    {
+      "year": 2018,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 172.59,
+      "o1": "Jeff Lobdell",
+      "p1": 82.65
+    },
+    {
+      "year": 2018,
+      "week": 12,
+      "o0": "Kenny Smith",
+      "p0": 101.77,
+      "o1": "Kevin Coppins",
+      "p1": 134.35
+    },
+    {
+      "year": 2018,
+      "week": 12,
+      "o0": "Brian Marois",
+      "p0": 104.19,
+      "o1": "Scott Kellman",
+      "p1": 118.8
+    },
+    {
+      "year": 2018,
+      "week": 12,
+      "o0": "Malcolm Lapone",
+      "p0": 130.24,
+      "o1": "Chris Dupay",
+      "p1": 127.43
+    },
+    {
+      "year": 2018,
+      "week": 12,
+      "o0": "Kevin Etwaroo",
+      "p0": 91.19,
+      "o1": "Peter Ott",
+      "p1": 154.89
+    },
+    {
+      "year": 2018,
+      "week": 12,
+      "o0": "Ed Shively",
+      "p0": 150.16,
+      "o1": "Steve Minardi",
+      "p1": 113.47
+    },
+    {
+      "year": 2018,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 152.55,
+      "o1": "Kenny Smith",
+      "p1": 65.43
+    },
+    {
+      "year": 2018,
+      "week": 13,
+      "o0": "Jeff Lobdell",
+      "p0": 87.14,
+      "o1": "Steve Minardi",
+      "p1": 101.85
+    },
+    {
+      "year": 2018,
+      "week": 13,
+      "o0": "Brian Marois",
+      "p0": 69.06,
+      "o1": "Kevin Coppins",
+      "p1": 106.19
+    },
+    {
+      "year": 2018,
+      "week": 13,
+      "o0": "Malcolm Lapone",
+      "p0": 189.72,
+      "o1": "Scott Kellman",
+      "p1": 88.81
+    },
+    {
+      "year": 2018,
+      "week": 13,
+      "o0": "Kevin Etwaroo",
+      "p0": 56.71,
+      "o1": "Chris Dupay",
+      "p1": 159.83
+    },
+    {
+      "year": 2018,
+      "week": 13,
+      "o0": "Ed Shively",
+      "p0": 128.71,
+      "o1": "Peter Ott",
+      "p1": 113.51
+    },
+    {
+      "year": 2019,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 116.24,
+      "o1": "Jeff Lobdell",
+      "p1": 110.42
+    },
+    {
+      "year": 2019,
+      "week": 1,
+      "o0": "Kenny Smith",
+      "p0": 149.0,
+      "o1": "Kevin Coppins",
+      "p1": 105.09
+    },
+    {
+      "year": 2019,
+      "week": 1,
+      "o0": "Brian Marois",
+      "p0": 114.93,
+      "o1": "Scott Kellman",
+      "p1": 113.34
+    },
+    {
+      "year": 2019,
+      "week": 1,
+      "o0": "Malcolm Lapone",
+      "p0": 150.57,
+      "o1": "Chris Dupay",
+      "p1": 93.86
+    },
+    {
+      "year": 2019,
+      "week": 1,
+      "o0": "Kevin Etwaroo",
+      "p0": 113.95,
+      "o1": "Peter Ott",
+      "p1": 126.97
+    },
+    {
+      "year": 2019,
+      "week": 1,
+      "o0": "Ed Shively",
+      "p0": 79.25,
+      "o1": "Steve Minardi",
+      "p1": 137.25
+    },
+    {
+      "year": 2019,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 117.27,
+      "o1": "Kenny Smith",
+      "p1": 97.7
+    },
+    {
+      "year": 2019,
+      "week": 2,
+      "o0": "Jeff Lobdell",
+      "p0": 116.83,
+      "o1": "Steve Minardi",
+      "p1": 113.59
+    },
+    {
+      "year": 2019,
+      "week": 2,
+      "o0": "Brian Marois",
+      "p0": 85.77,
+      "o1": "Kevin Coppins",
+      "p1": 116.23
+    },
+    {
+      "year": 2019,
+      "week": 2,
+      "o0": "Malcolm Lapone",
+      "p0": 150.19,
+      "o1": "Scott Kellman",
+      "p1": 99.75
+    },
+    {
+      "year": 2019,
+      "week": 2,
+      "o0": "Kevin Etwaroo",
+      "p0": 105.68,
+      "o1": "Chris Dupay",
+      "p1": 138.1
+    },
+    {
+      "year": 2019,
+      "week": 2,
+      "o0": "Ed Shively",
+      "p0": 90.13,
+      "o1": "Peter Ott",
+      "p1": 99.18
+    },
+    {
+      "year": 2019,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 108.33,
+      "o1": "Brian Marois",
+      "p1": 111.77
+    },
+    {
+      "year": 2019,
+      "week": 3,
+      "o0": "Jeff Lobdell",
+      "p0": 161.32,
+      "o1": "Kenny Smith",
+      "p1": 91.56
+    },
+    {
+      "year": 2019,
+      "week": 3,
+      "o0": "Malcolm Lapone",
+      "p0": 124.98,
+      "o1": "Kevin Coppins",
+      "p1": 80.8
+    },
+    {
+      "year": 2019,
+      "week": 3,
+      "o0": "Kevin Etwaroo",
+      "p0": 136.43,
+      "o1": "Scott Kellman",
+      "p1": 124.92
+    },
+    {
+      "year": 2019,
+      "week": 3,
+      "o0": "Ed Shively",
+      "p0": 147.54,
+      "o1": "Chris Dupay",
+      "p1": 138.6
+    },
+    {
+      "year": 2019,
+      "week": 3,
+      "o0": "Peter Ott",
+      "p0": 83.1,
+      "o1": "Steve Minardi",
+      "p1": 144.38
+    },
+    {
+      "year": 2019,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 115.63,
+      "o1": "Malcolm Lapone",
+      "p1": 89.22
+    },
+    {
+      "year": 2019,
+      "week": 4,
+      "o0": "Jeff Lobdell",
+      "p0": 103.75,
+      "o1": "Brian Marois",
+      "p1": 85.95
+    },
+    {
+      "year": 2019,
+      "week": 4,
+      "o0": "Kenny Smith",
+      "p0": 129.28,
+      "o1": "Steve Minardi",
+      "p1": 118.67
+    },
+    {
+      "year": 2019,
+      "week": 4,
+      "o0": "Kevin Etwaroo",
+      "p0": 104.8,
+      "o1": "Kevin Coppins",
+      "p1": 121.02
+    },
+    {
+      "year": 2019,
+      "week": 4,
+      "o0": "Ed Shively",
+      "p0": 88.7,
+      "o1": "Scott Kellman",
+      "p1": 72.64
+    },
+    {
+      "year": 2019,
+      "week": 4,
+      "o0": "Peter Ott",
+      "p0": 145.11,
+      "o1": "Chris Dupay",
+      "p1": 118.96
+    },
+    {
+      "year": 2019,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 152.93,
+      "o1": "Kevin Etwaroo",
+      "p1": 114.54
+    },
+    {
+      "year": 2019,
+      "week": 5,
+      "o0": "Jeff Lobdell",
+      "p0": 142.86,
+      "o1": "Malcolm Lapone",
+      "p1": 77.71
+    },
+    {
+      "year": 2019,
+      "week": 5,
+      "o0": "Kenny Smith",
+      "p0": 130.43,
+      "o1": "Brian Marois",
+      "p1": 117.71
+    },
+    {
+      "year": 2019,
+      "week": 5,
+      "o0": "Ed Shively",
+      "p0": 113.78,
+      "o1": "Kevin Coppins",
+      "p1": 119.25
+    },
+    {
+      "year": 2019,
+      "week": 5,
+      "o0": "Peter Ott",
+      "p0": 101.36,
+      "o1": "Scott Kellman",
+      "p1": 174.63
+    },
+    {
+      "year": 2019,
+      "week": 5,
+      "o0": "Chris Dupay",
+      "p0": 106.47,
+      "o1": "Steve Minardi",
+      "p1": 106.42
+    },
+    {
+      "year": 2019,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 163.37,
+      "o1": "Ed Shively",
+      "p1": 114.38
+    },
+    {
+      "year": 2019,
+      "week": 6,
+      "o0": "Jeff Lobdell",
+      "p0": 98.77,
+      "o1": "Kevin Etwaroo",
+      "p1": 83.5
+    },
+    {
+      "year": 2019,
+      "week": 6,
+      "o0": "Kenny Smith",
+      "p0": 109.72,
+      "o1": "Malcolm Lapone",
+      "p1": 110.87
+    },
+    {
+      "year": 2019,
+      "week": 6,
+      "o0": "Brian Marois",
+      "p0": 88.02,
+      "o1": "Steve Minardi",
+      "p1": 134.92
+    },
+    {
+      "year": 2019,
+      "week": 6,
+      "o0": "Peter Ott",
+      "p0": 94.21,
+      "o1": "Kevin Coppins",
+      "p1": 114.4
+    },
+    {
+      "year": 2019,
+      "week": 6,
+      "o0": "Chris Dupay",
+      "p0": 106.49,
+      "o1": "Scott Kellman",
+      "p1": 125.51
+    },
+    {
+      "year": 2019,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 78.29,
+      "o1": "Peter Ott",
+      "p1": 103.82
+    },
+    {
+      "year": 2019,
+      "week": 7,
+      "o0": "Jeff Lobdell",
+      "p0": 131.17,
+      "o1": "Ed Shively",
+      "p1": 103.54
+    },
+    {
+      "year": 2019,
+      "week": 7,
+      "o0": "Kenny Smith",
+      "p0": 104.98,
+      "o1": "Kevin Etwaroo",
+      "p1": 82.36
+    },
+    {
+      "year": 2019,
+      "week": 7,
+      "o0": "Brian Marois",
+      "p0": 85.31,
+      "o1": "Malcolm Lapone",
+      "p1": 108.14
+    },
+    {
+      "year": 2019,
+      "week": 7,
+      "o0": "Chris Dupay",
+      "p0": 95.89,
+      "o1": "Kevin Coppins",
+      "p1": 119.61
+    },
+    {
+      "year": 2019,
+      "week": 7,
+      "o0": "Scott Kellman",
+      "p0": 112.91,
+      "o1": "Steve Minardi",
+      "p1": 144.76
+    },
+    {
+      "year": 2019,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 112.7,
+      "o1": "Chris Dupay",
+      "p1": 131.48
+    },
+    {
+      "year": 2019,
+      "week": 8,
+      "o0": "Jeff Lobdell",
+      "p0": 173.58,
+      "o1": "Peter Ott",
+      "p1": 124.54
+    },
+    {
+      "year": 2019,
+      "week": 8,
+      "o0": "Kenny Smith",
+      "p0": 136.52,
+      "o1": "Ed Shively",
+      "p1": 100.68
+    },
+    {
+      "year": 2019,
+      "week": 8,
+      "o0": "Brian Marois",
+      "p0": 119.3,
+      "o1": "Kevin Etwaroo",
+      "p1": 111.09
+    },
+    {
+      "year": 2019,
+      "week": 8,
+      "o0": "Malcolm Lapone",
+      "p0": 90.94,
+      "o1": "Steve Minardi",
+      "p1": 125.02
+    },
+    {
+      "year": 2019,
+      "week": 8,
+      "o0": "Scott Kellman",
+      "p0": 122.5,
+      "o1": "Kevin Coppins",
+      "p1": 96.73
+    },
+    {
+      "year": 2019,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 128.33,
+      "o1": "Scott Kellman",
+      "p1": 103.78
+    },
+    {
+      "year": 2019,
+      "week": 9,
+      "o0": "Jeff Lobdell",
+      "p0": 98.57,
+      "o1": "Chris Dupay",
+      "p1": 139.98
+    },
+    {
+      "year": 2019,
+      "week": 9,
+      "o0": "Kenny Smith",
+      "p0": 124.74,
+      "o1": "Peter Ott",
+      "p1": 95.59
+    },
+    {
+      "year": 2019,
+      "week": 9,
+      "o0": "Brian Marois",
+      "p0": 130.64,
+      "o1": "Ed Shively",
+      "p1": 118.69
+    },
+    {
+      "year": 2019,
+      "week": 9,
+      "o0": "Malcolm Lapone",
+      "p0": 107.25,
+      "o1": "Kevin Etwaroo",
+      "p1": 90.98
+    },
+    {
+      "year": 2019,
+      "week": 9,
+      "o0": "Kevin Coppins",
+      "p0": 106.48,
+      "o1": "Steve Minardi",
+      "p1": 140.54
+    },
+    {
+      "year": 2019,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 168.85,
+      "o1": "Kevin Coppins",
+      "p1": 105.65
+    },
+    {
+      "year": 2019,
+      "week": 10,
+      "o0": "Jeff Lobdell",
+      "p0": 74.69,
+      "o1": "Scott Kellman",
+      "p1": 142.55
+    },
+    {
+      "year": 2019,
+      "week": 10,
+      "o0": "Kenny Smith",
+      "p0": 147.75,
+      "o1": "Chris Dupay",
+      "p1": 106.44
+    },
+    {
+      "year": 2019,
+      "week": 10,
+      "o0": "Brian Marois",
+      "p0": 121.61,
+      "o1": "Peter Ott",
+      "p1": 110.39
+    },
+    {
+      "year": 2019,
+      "week": 10,
+      "o0": "Malcolm Lapone",
+      "p0": 145.81,
+      "o1": "Ed Shively",
+      "p1": 82.07
+    },
+    {
+      "year": 2019,
+      "week": 10,
+      "o0": "Kevin Etwaroo",
+      "p0": 76.4,
+      "o1": "Steve Minardi",
+      "p1": 111.45
+    },
+    {
+      "year": 2019,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 130.46,
+      "o1": "Steve Minardi",
+      "p1": 136.77
+    },
+    {
+      "year": 2019,
+      "week": 11,
+      "o0": "Jeff Lobdell",
+      "p0": 111.43,
+      "o1": "Kevin Coppins",
+      "p1": 59.48
+    },
+    {
+      "year": 2019,
+      "week": 11,
+      "o0": "Kenny Smith",
+      "p0": 112.79,
+      "o1": "Scott Kellman",
+      "p1": 154.93
+    },
+    {
+      "year": 2019,
+      "week": 11,
+      "o0": "Brian Marois",
+      "p0": 105.86,
+      "o1": "Chris Dupay",
+      "p1": 111.98
+    },
+    {
+      "year": 2019,
+      "week": 11,
+      "o0": "Malcolm Lapone",
+      "p0": 106.2,
+      "o1": "Peter Ott",
+      "p1": 118.53
+    },
+    {
+      "year": 2019,
+      "week": 11,
+      "o0": "Kevin Etwaroo",
+      "p0": 116.69,
+      "o1": "Ed Shively",
+      "p1": 77.49
+    },
+    {
+      "year": 2019,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 109.19,
+      "o1": "Jeff Lobdell",
+      "p1": 128.1
+    },
+    {
+      "year": 2019,
+      "week": 12,
+      "o0": "Kenny Smith",
+      "p0": 96.47,
+      "o1": "Kevin Coppins",
+      "p1": 76.78
+    },
+    {
+      "year": 2019,
+      "week": 12,
+      "o0": "Brian Marois",
+      "p0": 142.78,
+      "o1": "Scott Kellman",
+      "p1": 117.59
+    },
+    {
+      "year": 2019,
+      "week": 12,
+      "o0": "Malcolm Lapone",
+      "p0": 137.13,
+      "o1": "Chris Dupay",
+      "p1": 94.73
+    },
+    {
+      "year": 2019,
+      "week": 12,
+      "o0": "Kevin Etwaroo",
+      "p0": 63.41,
+      "o1": "Peter Ott",
+      "p1": 118.23
+    },
+    {
+      "year": 2019,
+      "week": 12,
+      "o0": "Ed Shively",
+      "p0": 81.19,
+      "o1": "Steve Minardi",
+      "p1": 67.92
+    },
+    {
+      "year": 2019,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 97.9,
+      "o1": "Kenny Smith",
+      "p1": 92.83
+    },
+    {
+      "year": 2019,
+      "week": 13,
+      "o0": "Jeff Lobdell",
+      "p0": 100.14,
+      "o1": "Steve Minardi",
+      "p1": 67.95
+    },
+    {
+      "year": 2019,
+      "week": 13,
+      "o0": "Brian Marois",
+      "p0": 108.76,
+      "o1": "Kevin Coppins",
+      "p1": 133.24
+    },
+    {
+      "year": 2019,
+      "week": 13,
+      "o0": "Malcolm Lapone",
+      "p0": 174.92,
+      "o1": "Scott Kellman",
+      "p1": 105.74
+    },
+    {
+      "year": 2019,
+      "week": 13,
+      "o0": "Kevin Etwaroo",
+      "p0": 99.21,
+      "o1": "Chris Dupay",
+      "p1": 110.58
+    },
+    {
+      "year": 2019,
+      "week": 13,
+      "o0": "Ed Shively",
+      "p0": 90.16,
+      "o1": "Peter Ott",
+      "p1": 102.2
+    },
+    {
+      "year": 2020,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 125.26,
+      "o1": "Malcolm Lapone",
+      "p1": 113.91
+    },
+    {
+      "year": 2020,
+      "week": 1,
+      "o0": "Jeff Lobdell",
+      "p0": 101.34,
+      "o1": "Ed Shively",
+      "p1": 120.72
+    },
+    {
+      "year": 2020,
+      "week": 1,
+      "o0": "Kenny Smith",
+      "p0": 87.23,
+      "o1": "Chris Dupay",
+      "p1": 102.8
+    },
+    {
+      "year": 2020,
+      "week": 1,
+      "o0": "Brian Marois",
+      "p0": 133.61,
+      "o1": "Tony Bevilaqua",
+      "p1": 132.2
+    },
+    {
+      "year": 2020,
+      "week": 1,
+      "o0": "Kevin Etwaroo",
+      "p0": 122.82,
+      "o1": "Steve Minardi",
+      "p1": 108.31
+    },
+    {
+      "year": 2020,
+      "week": 1,
+      "o0": "Peter Ott",
+      "p0": 123.4,
+      "o1": "Kevin Coppins",
+      "p1": 127.52
+    },
+    {
+      "year": 2020,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 152.01,
+      "o1": "Peter Ott",
+      "p1": 128.13
+    },
+    {
+      "year": 2020,
+      "week": 2,
+      "o0": "Jeff Lobdell",
+      "p0": 148.32,
+      "o1": "Kevin Coppins",
+      "p1": 175.31
+    },
+    {
+      "year": 2020,
+      "week": 2,
+      "o0": "Kenny Smith",
+      "p0": 115.18,
+      "o1": "Tony Bevilaqua",
+      "p1": 138.27
+    },
+    {
+      "year": 2020,
+      "week": 2,
+      "o0": "Brian Marois",
+      "p0": 78.0,
+      "o1": "Ed Shively",
+      "p1": 117.35
+    },
+    {
+      "year": 2020,
+      "week": 2,
+      "o0": "Malcolm Lapone",
+      "p0": 134.63,
+      "o1": "Steve Minardi",
+      "p1": 140.57
+    },
+    {
+      "year": 2020,
+      "week": 2,
+      "o0": "Kevin Etwaroo",
+      "p0": 122.1,
+      "o1": "Chris Dupay",
+      "p1": 115.58
+    },
+    {
+      "year": 2020,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 126.15,
+      "o1": "Jeff Lobdell",
+      "p1": 117.9
+    },
+    {
+      "year": 2020,
+      "week": 3,
+      "o0": "Kenny Smith",
+      "p0": 148.06,
+      "o1": "Ed Shively",
+      "p1": 102.07
+    },
+    {
+      "year": 2020,
+      "week": 3,
+      "o0": "Brian Marois",
+      "p0": 129.16,
+      "o1": "Kevin Coppins",
+      "p1": 127.0
+    },
+    {
+      "year": 2020,
+      "week": 3,
+      "o0": "Malcolm Lapone",
+      "p0": 133.92,
+      "o1": "Peter Ott",
+      "p1": 131.63
+    },
+    {
+      "year": 2020,
+      "week": 3,
+      "o0": "Kevin Etwaroo",
+      "p0": 98.41,
+      "o1": "Tony Bevilaqua",
+      "p1": 139.02
+    },
+    {
+      "year": 2020,
+      "week": 3,
+      "o0": "Chris Dupay",
+      "p0": 154.1,
+      "o1": "Steve Minardi",
+      "p1": 110.14
+    },
+    {
+      "year": 2020,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 109.52,
+      "o1": "Brian Marois",
+      "p1": 129.33
+    },
+    {
+      "year": 2020,
+      "week": 4,
+      "o0": "Jeff Lobdell",
+      "p0": 137.73,
+      "o1": "Peter Ott",
+      "p1": 101.52
+    },
+    {
+      "year": 2020,
+      "week": 4,
+      "o0": "Kenny Smith",
+      "p0": 132.5,
+      "o1": "Kevin Coppins",
+      "p1": 104.41
+    },
+    {
+      "year": 2020,
+      "week": 4,
+      "o0": "Malcolm Lapone",
+      "p0": 86.92,
+      "o1": "Chris Dupay",
+      "p1": 99.86
+    },
+    {
+      "year": 2020,
+      "week": 4,
+      "o0": "Kevin Etwaroo",
+      "p0": 102.03,
+      "o1": "Ed Shively",
+      "p1": 115.47
+    },
+    {
+      "year": 2020,
+      "week": 4,
+      "o0": "Tony Bevilaqua",
+      "p0": 134.57,
+      "o1": "Steve Minardi",
+      "p1": 201.69
+    },
+    {
+      "year": 2020,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 100.42,
+      "o1": "Kenny Smith",
+      "p1": 99.26
+    },
+    {
+      "year": 2020,
+      "week": 5,
+      "o0": "Jeff Lobdell",
+      "p0": 77.54,
+      "o1": "Malcolm Lapone",
+      "p1": 112.5
+    },
+    {
+      "year": 2020,
+      "week": 5,
+      "o0": "Brian Marois",
+      "p0": 133.8,
+      "o1": "Peter Ott",
+      "p1": 138.55
+    },
+    {
+      "year": 2020,
+      "week": 5,
+      "o0": "Kevin Etwaroo",
+      "p0": 155.64,
+      "o1": "Kevin Coppins",
+      "p1": 131.67
+    },
+    {
+      "year": 2020,
+      "week": 5,
+      "o0": "Ed Shively",
+      "p0": 127.58,
+      "o1": "Steve Minardi",
+      "p1": 103.34
+    },
+    {
+      "year": 2020,
+      "week": 5,
+      "o0": "Chris Dupay",
+      "p0": 123.82,
+      "o1": "Tony Bevilaqua",
+      "p1": 111.63
+    },
+    {
+      "year": 2020,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 103.67,
+      "o1": "Kevin Etwaroo",
+      "p1": 122.32
+    },
+    {
+      "year": 2020,
+      "week": 6,
+      "o0": "Jeff Lobdell",
+      "p0": 84.24,
+      "o1": "Brian Marois",
+      "p1": 107.26
+    },
+    {
+      "year": 2020,
+      "week": 6,
+      "o0": "Kenny Smith",
+      "p0": 96.47,
+      "o1": "Peter Ott",
+      "p1": 118.54
+    },
+    {
+      "year": 2020,
+      "week": 6,
+      "o0": "Malcolm Lapone",
+      "p0": 108.45,
+      "o1": "Tony Bevilaqua",
+      "p1": 153.02
+    },
+    {
+      "year": 2020,
+      "week": 6,
+      "o0": "Ed Shively",
+      "p0": 138.7,
+      "o1": "Chris Dupay",
+      "p1": 97.56
+    },
+    {
+      "year": 2020,
+      "week": 6,
+      "o0": "Kevin Coppins",
+      "p0": 79.52,
+      "o1": "Steve Minardi",
+      "p1": 96.75
+    },
+    {
+      "year": 2020,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 142.27,
+      "o1": "Steve Minardi",
+      "p1": 104.48
+    },
+    {
+      "year": 2020,
+      "week": 7,
+      "o0": "Jeff Lobdell",
+      "p0": 120.9,
+      "o1": "Kenny Smith",
+      "p1": 109.12
+    },
+    {
+      "year": 2020,
+      "week": 7,
+      "o0": "Brian Marois",
+      "p0": 149.24,
+      "o1": "Malcolm Lapone",
+      "p1": 124.0
+    },
+    {
+      "year": 2020,
+      "week": 7,
+      "o0": "Kevin Etwaroo",
+      "p0": 116.11,
+      "o1": "Peter Ott",
+      "p1": 98.74
+    },
+    {
+      "year": 2020,
+      "week": 7,
+      "o0": "Ed Shively",
+      "p0": 154.6,
+      "o1": "Tony Bevilaqua",
+      "p1": 135.0
+    },
+    {
+      "year": 2020,
+      "week": 7,
+      "o0": "Chris Dupay",
+      "p0": 132.9,
+      "o1": "Kevin Coppins",
+      "p1": 50.3
+    },
+    {
+      "year": 2020,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 137.12,
+      "o1": "Chris Dupay",
+      "p1": 106.47
+    },
+    {
+      "year": 2020,
+      "week": 8,
+      "o0": "Jeff Lobdell",
+      "p0": 116.69,
+      "o1": "Kevin Etwaroo",
+      "p1": 53.35
+    },
+    {
+      "year": 2020,
+      "week": 8,
+      "o0": "Kenny Smith",
+      "p0": 114.02,
+      "o1": "Brian Marois",
+      "p1": 115.96
+    },
+    {
+      "year": 2020,
+      "week": 8,
+      "o0": "Malcolm Lapone",
+      "p0": 115.16,
+      "o1": "Ed Shively",
+      "p1": 101.27
+    },
+    {
+      "year": 2020,
+      "week": 8,
+      "o0": "Peter Ott",
+      "p0": 103.57,
+      "o1": "Steve Minardi",
+      "p1": 104.84
+    },
+    {
+      "year": 2020,
+      "week": 8,
+      "o0": "Tony Bevilaqua",
+      "p0": 101.09,
+      "o1": "Kevin Coppins",
+      "p1": 103.09
+    },
+    {
+      "year": 2020,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 121.78,
+      "o1": "Tony Bevilaqua",
+      "p1": 92.67
+    },
+    {
+      "year": 2020,
+      "week": 9,
+      "o0": "Jeff Lobdell",
+      "p0": 116.72,
+      "o1": "Steve Minardi",
+      "p1": 100.18
+    },
+    {
+      "year": 2020,
+      "week": 9,
+      "o0": "Kenny Smith",
+      "p0": 106.87,
+      "o1": "Malcolm Lapone",
+      "p1": 115.65
+    },
+    {
+      "year": 2020,
+      "week": 9,
+      "o0": "Brian Marois",
+      "p0": 102.83,
+      "o1": "Kevin Etwaroo",
+      "p1": 108.14
+    },
+    {
+      "year": 2020,
+      "week": 9,
+      "o0": "Ed Shively",
+      "p0": 132.44,
+      "o1": "Kevin Coppins",
+      "p1": 139.18
+    },
+    {
+      "year": 2020,
+      "week": 9,
+      "o0": "Peter Ott",
+      "p0": 126.32,
+      "o1": "Chris Dupay",
+      "p1": 85.51
+    },
+    {
+      "year": 2020,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 80.77,
+      "o1": "Ed Shively",
+      "p1": 113.93
+    },
+    {
+      "year": 2020,
+      "week": 10,
+      "o0": "Jeff Lobdell",
+      "p0": 92.03,
+      "o1": "Chris Dupay",
+      "p1": 117.14
+    },
+    {
+      "year": 2020,
+      "week": 10,
+      "o0": "Kenny Smith",
+      "p0": 76.23,
+      "o1": "Kevin Etwaroo",
+      "p1": 124.27
+    },
+    {
+      "year": 2020,
+      "week": 10,
+      "o0": "Brian Marois",
+      "p0": 124.07,
+      "o1": "Steve Minardi",
+      "p1": 118.69
+    },
+    {
+      "year": 2020,
+      "week": 10,
+      "o0": "Malcolm Lapone",
+      "p0": 142.07,
+      "o1": "Kevin Coppins",
+      "p1": 76.34
+    },
+    {
+      "year": 2020,
+      "week": 10,
+      "o0": "Peter Ott",
+      "p0": 112.68,
+      "o1": "Tony Bevilaqua",
+      "p1": 87.55
+    },
+    {
+      "year": 2020,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 112.22,
+      "o1": "Kevin Coppins",
+      "p1": 120.27
+    },
+    {
+      "year": 2020,
+      "week": 11,
+      "o0": "Jeff Lobdell",
+      "p0": 87.77,
+      "o1": "Tony Bevilaqua",
+      "p1": 126.06
+    },
+    {
+      "year": 2020,
+      "week": 11,
+      "o0": "Kenny Smith",
+      "p0": 92.42,
+      "o1": "Steve Minardi",
+      "p1": 134.02
+    },
+    {
+      "year": 2020,
+      "week": 11,
+      "o0": "Brian Marois",
+      "p0": 133.44,
+      "o1": "Chris Dupay",
+      "p1": 106.52
+    },
+    {
+      "year": 2020,
+      "week": 11,
+      "o0": "Malcolm Lapone",
+      "p0": 127.02,
+      "o1": "Kevin Etwaroo",
+      "p1": 85.94
+    },
+    {
+      "year": 2020,
+      "week": 11,
+      "o0": "Ed Shively",
+      "p0": 123.08,
+      "o1": "Peter Ott",
+      "p1": 109.53
+    },
+    {
+      "year": 2020,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 136.49,
+      "o1": "Malcolm Lapone",
+      "p1": 140.83
+    },
+    {
+      "year": 2020,
+      "week": 12,
+      "o0": "Jeff Lobdell",
+      "p0": 112.42,
+      "o1": "Ed Shively",
+      "p1": 121.8
+    },
+    {
+      "year": 2020,
+      "week": 12,
+      "o0": "Kenny Smith",
+      "p0": 60.34,
+      "o1": "Chris Dupay",
+      "p1": 124.2
+    },
+    {
+      "year": 2020,
+      "week": 12,
+      "o0": "Brian Marois",
+      "p0": 184.78,
+      "o1": "Tony Bevilaqua",
+      "p1": 107.5
+    },
+    {
+      "year": 2020,
+      "week": 12,
+      "o0": "Kevin Etwaroo",
+      "p0": 119.29,
+      "o1": "Steve Minardi",
+      "p1": 97.01
+    },
+    {
+      "year": 2020,
+      "week": 12,
+      "o0": "Peter Ott",
+      "p0": 118.84,
+      "o1": "Kevin Coppins",
+      "p1": 95.01
+    },
+    {
+      "year": 2020,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 103.32,
+      "o1": "Peter Ott",
+      "p1": 124.25
+    },
+    {
+      "year": 2020,
+      "week": 13,
+      "o0": "Jeff Lobdell",
+      "p0": 144.08,
+      "o1": "Kevin Coppins",
+      "p1": 104.63
+    },
+    {
+      "year": 2020,
+      "week": 13,
+      "o0": "Kenny Smith",
+      "p0": 93.96,
+      "o1": "Tony Bevilaqua",
+      "p1": 120.66
+    },
+    {
+      "year": 2020,
+      "week": 13,
+      "o0": "Brian Marois",
+      "p0": 110.46,
+      "o1": "Ed Shively",
+      "p1": 93.7
+    },
+    {
+      "year": 2020,
+      "week": 13,
+      "o0": "Malcolm Lapone",
+      "p0": 77.44,
+      "o1": "Steve Minardi",
+      "p1": 119.23
+    },
+    {
+      "year": 2020,
+      "week": 13,
+      "o0": "Kevin Etwaroo",
+      "p0": 105.42,
+      "o1": "Chris Dupay",
+      "p1": 179.56
+    },
+    {
+      "year": 2021,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 136.71,
+      "o1": "Jeff Lobdell",
+      "p1": 102.92
+    },
+    {
+      "year": 2021,
+      "week": 1,
+      "o0": "Kenny Smith",
+      "p0": 116.28,
+      "o1": "Joshua",
+      "p1": 107.54
+    },
+    {
+      "year": 2021,
+      "week": 1,
+      "o0": "Tony Bevilaqua",
+      "p0": 113.53,
+      "o1": "Peter Ott",
+      "p1": 108.59
+    },
+    {
+      "year": 2021,
+      "week": 1,
+      "o0": "Brian Marois",
+      "p0": 138.55,
+      "o1": "Kevin Etwaroo",
+      "p1": 116.73
+    },
+    {
+      "year": 2021,
+      "week": 1,
+      "o0": "Chris Dupay",
+      "p0": 126.46,
+      "o1": "Malcolm Lapone",
+      "p1": 78.3
+    },
+    {
+      "year": 2021,
+      "week": 1,
+      "o0": "Ed Shively",
+      "p0": 129.41,
+      "o1": "Steve Minardi",
+      "p1": 130.2
+    },
+    {
+      "year": 2021,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 96.22,
+      "o1": "Kenny Smith",
+      "p1": 95.92
+    },
+    {
+      "year": 2021,
+      "week": 2,
+      "o0": "Jeff Lobdell",
+      "p0": 75.9,
+      "o1": "Steve Minardi",
+      "p1": 123.94
+    },
+    {
+      "year": 2021,
+      "week": 2,
+      "o0": "Tony Bevilaqua",
+      "p0": 145.96,
+      "o1": "Joshua",
+      "p1": 96.47
+    },
+    {
+      "year": 2021,
+      "week": 2,
+      "o0": "Brian Marois",
+      "p0": 107.83,
+      "o1": "Peter Ott",
+      "p1": 146.81
+    },
+    {
+      "year": 2021,
+      "week": 2,
+      "o0": "Chris Dupay",
+      "p0": 142.38,
+      "o1": "Kevin Etwaroo",
+      "p1": 137.62
+    },
+    {
+      "year": 2021,
+      "week": 2,
+      "o0": "Ed Shively",
+      "p0": 94.44,
+      "o1": "Malcolm Lapone",
+      "p1": 144.37
+    },
+    {
+      "year": 2021,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 136.64,
+      "o1": "Tony Bevilaqua",
+      "p1": 155.55
+    },
+    {
+      "year": 2021,
+      "week": 3,
+      "o0": "Jeff Lobdell",
+      "p0": 78.77,
+      "o1": "Kenny Smith",
+      "p1": 101.75
+    },
+    {
+      "year": 2021,
+      "week": 3,
+      "o0": "Brian Marois",
+      "p0": 113.21,
+      "o1": "Joshua",
+      "p1": 126.17
+    },
+    {
+      "year": 2021,
+      "week": 3,
+      "o0": "Chris Dupay",
+      "p0": 97.75,
+      "o1": "Peter Ott",
+      "p1": 171.4
+    },
+    {
+      "year": 2021,
+      "week": 3,
+      "o0": "Ed Shively",
+      "p0": 112.91,
+      "o1": "Kevin Etwaroo",
+      "p1": 122.52
+    },
+    {
+      "year": 2021,
+      "week": 3,
+      "o0": "Malcolm Lapone",
+      "p0": 111.69,
+      "o1": "Steve Minardi",
+      "p1": 101.94
+    },
+    {
+      "year": 2021,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 133.2,
+      "o1": "Brian Marois",
+      "p1": 145.07
+    },
+    {
+      "year": 2021,
+      "week": 4,
+      "o0": "Jeff Lobdell",
+      "p0": 121.35,
+      "o1": "Tony Bevilaqua",
+      "p1": 109.62
+    },
+    {
+      "year": 2021,
+      "week": 4,
+      "o0": "Kenny Smith",
+      "p0": 123.66,
+      "o1": "Steve Minardi",
+      "p1": 81.76
+    },
+    {
+      "year": 2021,
+      "week": 4,
+      "o0": "Chris Dupay",
+      "p0": 111.99,
+      "o1": "Joshua",
+      "p1": 103.53
+    },
+    {
+      "year": 2021,
+      "week": 4,
+      "o0": "Ed Shively",
+      "p0": 122.46,
+      "o1": "Peter Ott",
+      "p1": 107.89
+    },
+    {
+      "year": 2021,
+      "week": 4,
+      "o0": "Malcolm Lapone",
+      "p0": 124.19,
+      "o1": "Kevin Etwaroo",
+      "p1": 140.39
+    },
+    {
+      "year": 2021,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 118.26,
+      "o1": "Chris Dupay",
+      "p1": 114.05
+    },
+    {
+      "year": 2021,
+      "week": 5,
+      "o0": "Jeff Lobdell",
+      "p0": 136.95,
+      "o1": "Brian Marois",
+      "p1": 145.73
+    },
+    {
+      "year": 2021,
+      "week": 5,
+      "o0": "Kenny Smith",
+      "p0": 86.83,
+      "o1": "Tony Bevilaqua",
+      "p1": 131.0
+    },
+    {
+      "year": 2021,
+      "week": 5,
+      "o0": "Ed Shively",
+      "p0": 138.2,
+      "o1": "Joshua",
+      "p1": 122.23
+    },
+    {
+      "year": 2021,
+      "week": 5,
+      "o0": "Malcolm Lapone",
+      "p0": 158.58,
+      "o1": "Peter Ott",
+      "p1": 158.67
+    },
+    {
+      "year": 2021,
+      "week": 5,
+      "o0": "Kevin Etwaroo",
+      "p0": 130.13,
+      "o1": "Steve Minardi",
+      "p1": 117.64
+    },
+    {
+      "year": 2021,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 129.26,
+      "o1": "Ed Shively",
+      "p1": 121.37
+    },
+    {
+      "year": 2021,
+      "week": 6,
+      "o0": "Jeff Lobdell",
+      "p0": 125.33,
+      "o1": "Chris Dupay",
+      "p1": 103.62
+    },
+    {
+      "year": 2021,
+      "week": 6,
+      "o0": "Kenny Smith",
+      "p0": 98.64,
+      "o1": "Brian Marois",
+      "p1": 108.53
+    },
+    {
+      "year": 2021,
+      "week": 6,
+      "o0": "Tony Bevilaqua",
+      "p0": 172.74,
+      "o1": "Steve Minardi",
+      "p1": 123.88
+    },
+    {
+      "year": 2021,
+      "week": 6,
+      "o0": "Malcolm Lapone",
+      "p0": 134.75,
+      "o1": "Joshua",
+      "p1": 99.67
+    },
+    {
+      "year": 2021,
+      "week": 6,
+      "o0": "Kevin Etwaroo",
+      "p0": 105.45,
+      "o1": "Peter Ott",
+      "p1": 123.58
+    },
+    {
+      "year": 2021,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 122.61,
+      "o1": "Malcolm Lapone",
+      "p1": 119.53
+    },
+    {
+      "year": 2021,
+      "week": 7,
+      "o0": "Jeff Lobdell",
+      "p0": 72.92,
+      "o1": "Ed Shively",
+      "p1": 102.13
+    },
+    {
+      "year": 2021,
+      "week": 7,
+      "o0": "Kenny Smith",
+      "p0": 102.4,
+      "o1": "Chris Dupay",
+      "p1": 97.64
+    },
+    {
+      "year": 2021,
+      "week": 7,
+      "o0": "Tony Bevilaqua",
+      "p0": 108.28,
+      "o1": "Brian Marois",
+      "p1": 99.71
+    },
+    {
+      "year": 2021,
+      "week": 7,
+      "o0": "Kevin Etwaroo",
+      "p0": 133.44,
+      "o1": "Joshua",
+      "p1": 148.24
+    },
+    {
+      "year": 2021,
+      "week": 7,
+      "o0": "Peter Ott",
+      "p0": 135.97,
+      "o1": "Steve Minardi",
+      "p1": 116.79
+    },
+    {
+      "year": 2021,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 88.66,
+      "o1": "Kevin Etwaroo",
+      "p1": 111.13
+    },
+    {
+      "year": 2021,
+      "week": 8,
+      "o0": "Jeff Lobdell",
+      "p0": 80.54,
+      "o1": "Malcolm Lapone",
+      "p1": 100.56
+    },
+    {
+      "year": 2021,
+      "week": 8,
+      "o0": "Kenny Smith",
+      "p0": 143.16,
+      "o1": "Ed Shively",
+      "p1": 139.15
+    },
+    {
+      "year": 2021,
+      "week": 8,
+      "o0": "Tony Bevilaqua",
+      "p0": 102.84,
+      "o1": "Chris Dupay",
+      "p1": 95.74
+    },
+    {
+      "year": 2021,
+      "week": 8,
+      "o0": "Brian Marois",
+      "p0": 111.14,
+      "o1": "Steve Minardi",
+      "p1": 103.18
+    },
+    {
+      "year": 2021,
+      "week": 8,
+      "o0": "Peter Ott",
+      "p0": 119.83,
+      "o1": "Joshua",
+      "p1": 76.65
+    },
+    {
+      "year": 2021,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 93.21,
+      "o1": "Peter Ott",
+      "p1": 113.95
+    },
+    {
+      "year": 2021,
+      "week": 9,
+      "o0": "Jeff Lobdell",
+      "p0": 126.63,
+      "o1": "Kevin Etwaroo",
+      "p1": 90.59
+    },
+    {
+      "year": 2021,
+      "week": 9,
+      "o0": "Kenny Smith",
+      "p0": 139.78,
+      "o1": "Malcolm Lapone",
+      "p1": 69.72
+    },
+    {
+      "year": 2021,
+      "week": 9,
+      "o0": "Tony Bevilaqua",
+      "p0": 90.97,
+      "o1": "Ed Shively",
+      "p1": 122.29
+    },
+    {
+      "year": 2021,
+      "week": 9,
+      "o0": "Brian Marois",
+      "p0": 95.62,
+      "o1": "Chris Dupay",
+      "p1": 98.88
+    },
+    {
+      "year": 2021,
+      "week": 9,
+      "o0": "Joshua",
+      "p0": 91.21,
+      "o1": "Steve Minardi",
+      "p1": 89.16
+    },
+    {
+      "year": 2021,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 107.65,
+      "o1": "Joshua",
+      "p1": 91.85
+    },
+    {
+      "year": 2021,
+      "week": 10,
+      "o0": "Jeff Lobdell",
+      "p0": 109.34,
+      "o1": "Peter Ott",
+      "p1": 102.12
+    },
+    {
+      "year": 2021,
+      "week": 10,
+      "o0": "Kenny Smith",
+      "p0": 101.97,
+      "o1": "Kevin Etwaroo",
+      "p1": 121.32
+    },
+    {
+      "year": 2021,
+      "week": 10,
+      "o0": "Tony Bevilaqua",
+      "p0": 67.24,
+      "o1": "Malcolm Lapone",
+      "p1": 92.4
+    },
+    {
+      "year": 2021,
+      "week": 10,
+      "o0": "Brian Marois",
+      "p0": 99.37,
+      "o1": "Ed Shively",
+      "p1": 106.75
+    },
+    {
+      "year": 2021,
+      "week": 10,
+      "o0": "Chris Dupay",
+      "p0": 109.9,
+      "o1": "Steve Minardi",
+      "p1": 126.89
+    },
+    {
+      "year": 2021,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 97.59,
+      "o1": "Steve Minardi",
+      "p1": 104.95
+    },
+    {
+      "year": 2021,
+      "week": 11,
+      "o0": "Jeff Lobdell",
+      "p0": 134.94,
+      "o1": "Joshua",
+      "p1": 107.84
+    },
+    {
+      "year": 2021,
+      "week": 11,
+      "o0": "Kenny Smith",
+      "p0": 106.5,
+      "o1": "Peter Ott",
+      "p1": 126.61
+    },
+    {
+      "year": 2021,
+      "week": 11,
+      "o0": "Tony Bevilaqua",
+      "p0": 100.8,
+      "o1": "Kevin Etwaroo",
+      "p1": 74.45
+    },
+    {
+      "year": 2021,
+      "week": 11,
+      "o0": "Brian Marois",
+      "p0": 111.32,
+      "o1": "Malcolm Lapone",
+      "p1": 122.65
+    },
+    {
+      "year": 2021,
+      "week": 11,
+      "o0": "Chris Dupay",
+      "p0": 165.34,
+      "o1": "Ed Shively",
+      "p1": 121.45
+    },
+    {
+      "year": 2021,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 117.88,
+      "o1": "Jeff Lobdell",
+      "p1": 112.6
+    },
+    {
+      "year": 2021,
+      "week": 12,
+      "o0": "Kenny Smith",
+      "p0": 121.09,
+      "o1": "Joshua",
+      "p1": 85.03
+    },
+    {
+      "year": 2021,
+      "week": 12,
+      "o0": "Tony Bevilaqua",
+      "p0": 80.92,
+      "o1": "Peter Ott",
+      "p1": 107.99
+    },
+    {
+      "year": 2021,
+      "week": 12,
+      "o0": "Brian Marois",
+      "p0": 99.37,
+      "o1": "Kevin Etwaroo",
+      "p1": 124.81
+    },
+    {
+      "year": 2021,
+      "week": 12,
+      "o0": "Chris Dupay",
+      "p0": 106.69,
+      "o1": "Malcolm Lapone",
+      "p1": 119.05
+    },
+    {
+      "year": 2021,
+      "week": 12,
+      "o0": "Ed Shively",
+      "p0": 125.09,
+      "o1": "Steve Minardi",
+      "p1": 115.72
+    },
+    {
+      "year": 2021,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 130.8,
+      "o1": "Kenny Smith",
+      "p1": 109.02
+    },
+    {
+      "year": 2021,
+      "week": 13,
+      "o0": "Jeff Lobdell",
+      "p0": 108.95,
+      "o1": "Steve Minardi",
+      "p1": 114.29
+    },
+    {
+      "year": 2021,
+      "week": 13,
+      "o0": "Tony Bevilaqua",
+      "p0": 125.6,
+      "o1": "Joshua",
+      "p1": 103.17
+    },
+    {
+      "year": 2021,
+      "week": 13,
+      "o0": "Brian Marois",
+      "p0": 99.52,
+      "o1": "Peter Ott",
+      "p1": 177.05
+    },
+    {
+      "year": 2021,
+      "week": 13,
+      "o0": "Chris Dupay",
+      "p0": 117.78,
+      "o1": "Kevin Etwaroo",
+      "p1": 101.63
+    },
+    {
+      "year": 2021,
+      "week": 13,
+      "o0": "Ed Shively",
+      "p0": 131.73,
+      "o1": "Malcolm Lapone",
+      "p1": 87.67
+    },
+    {
+      "year": 2021,
+      "week": 14,
+      "o0": "Lee Bertram",
+      "p0": 140.59,
+      "o1": "Tony Bevilaqua",
+      "p1": 113.54
+    },
+    {
+      "year": 2021,
+      "week": 14,
+      "o0": "Jeff Lobdell",
+      "p0": 92.81,
+      "o1": "Kenny Smith",
+      "p1": 125.76
+    },
+    {
+      "year": 2021,
+      "week": 14,
+      "o0": "Brian Marois",
+      "p0": 92.46,
+      "o1": "Joshua",
+      "p1": 113.6
+    },
+    {
+      "year": 2021,
+      "week": 14,
+      "o0": "Chris Dupay",
+      "p0": 128.99,
+      "o1": "Peter Ott",
+      "p1": 174.64
+    },
+    {
+      "year": 2021,
+      "week": 14,
+      "o0": "Ed Shively",
+      "p0": 116.15,
+      "o1": "Kevin Etwaroo",
+      "p1": 85.69
+    },
+    {
+      "year": 2021,
+      "week": 14,
+      "o0": "Malcolm Lapone",
+      "p0": 139.52,
+      "o1": "Steve Minardi",
+      "p1": 71.27
+    },
+    {
+      "year": 2022,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 127.03,
+      "o1": "Kevin Etwaroo",
+      "p1": 101.74
+    },
+    {
+      "year": 2022,
+      "week": 1,
+      "o0": "Jeff Lobdell",
+      "p0": 83.94,
+      "o1": "Malcolm Lapone",
+      "p1": 142.35
+    },
+    {
+      "year": 2022,
+      "week": 1,
+      "o0": "Kenny Smith",
+      "p0": 109.44,
+      "o1": "Ed Shively",
+      "p1": 137.39
+    },
+    {
+      "year": 2022,
+      "week": 1,
+      "o0": "Tony Bevilaqua",
+      "p0": 102.36,
+      "o1": "Chris Dupay",
+      "p1": 119.45
+    },
+    {
+      "year": 2022,
+      "week": 1,
+      "o0": "Brian Marois",
+      "p0": 101.83,
+      "o1": "Joshua",
+      "p1": 96.69
+    },
+    {
+      "year": 2022,
+      "week": 1,
+      "o0": "Peter Ott",
+      "p0": 95.26,
+      "o1": "Steve Minardi",
+      "p1": 87.0
+    },
+    {
+      "year": 2022,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 94.55,
+      "o1": "Kenny Smith",
+      "p1": 121.53
+    },
+    {
+      "year": 2022,
+      "week": 2,
+      "o0": "Jeff Lobdell",
+      "p0": 104.3,
+      "o1": "Chris Dupay",
+      "p1": 116.46
+    },
+    {
+      "year": 2022,
+      "week": 2,
+      "o0": "Tony Bevilaqua",
+      "p0": 137.34,
+      "o1": "Steve Minardi",
+      "p1": 105.45
+    },
+    {
+      "year": 2022,
+      "week": 2,
+      "o0": "Brian Marois",
+      "p0": 132.94,
+      "o1": "Malcolm Lapone",
+      "p1": 100.15
+    },
+    {
+      "year": 2022,
+      "week": 2,
+      "o0": "Ed Shively",
+      "p0": 135.39,
+      "o1": "Peter Ott",
+      "p1": 120.02
+    },
+    {
+      "year": 2022,
+      "week": 2,
+      "o0": "Kevin Etwaroo",
+      "p0": 122.64,
+      "o1": "Joshua",
+      "p1": 109.5
+    },
+    {
+      "year": 2022,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 114.47,
+      "o1": "Peter Ott",
+      "p1": 123.77
+    },
+    {
+      "year": 2022,
+      "week": 3,
+      "o0": "Jeff Lobdell",
+      "p0": 112.75,
+      "o1": "Brian Marois",
+      "p1": 108.56
+    },
+    {
+      "year": 2022,
+      "week": 3,
+      "o0": "Kenny Smith",
+      "p0": 108.28,
+      "o1": "Joshua",
+      "p1": 109.24
+    },
+    {
+      "year": 2022,
+      "week": 3,
+      "o0": "Tony Bevilaqua",
+      "p0": 87.07,
+      "o1": "Ed Shively",
+      "p1": 103.47
+    },
+    {
+      "year": 2022,
+      "week": 3,
+      "o0": "Chris Dupay",
+      "p0": 85.03,
+      "o1": "Steve Minardi",
+      "p1": 91.91
+    },
+    {
+      "year": 2022,
+      "week": 3,
+      "o0": "Malcolm Lapone",
+      "p0": 118.56,
+      "o1": "Kevin Etwaroo",
+      "p1": 143.45
+    },
+    {
+      "year": 2022,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 95.54,
+      "o1": "Tony Bevilaqua",
+      "p1": 85.22
+    },
+    {
+      "year": 2022,
+      "week": 4,
+      "o0": "Jeff Lobdell",
+      "p0": 88.43,
+      "o1": "Steve Minardi",
+      "p1": 61.08
+    },
+    {
+      "year": 2022,
+      "week": 4,
+      "o0": "Kenny Smith",
+      "p0": 124.05,
+      "o1": "Malcolm Lapone",
+      "p1": 158.28
+    },
+    {
+      "year": 2022,
+      "week": 4,
+      "o0": "Brian Marois",
+      "p0": 134.26,
+      "o1": "Kevin Etwaroo",
+      "p1": 102.83
+    },
+    {
+      "year": 2022,
+      "week": 4,
+      "o0": "Chris Dupay",
+      "p0": 108.75,
+      "o1": "Ed Shively",
+      "p1": 141.86
+    },
+    {
+      "year": 2022,
+      "week": 4,
+      "o0": "Peter Ott",
+      "p0": 126.47,
+      "o1": "Joshua",
+      "p1": 136.36
+    },
+    {
+      "year": 2022,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 152.93,
+      "o1": "Chris Dupay",
+      "p1": 74.61
+    },
+    {
+      "year": 2022,
+      "week": 5,
+      "o0": "Jeff Lobdell",
+      "p0": 143.29,
+      "o1": "Kevin Etwaroo",
+      "p1": 93.21
+    },
+    {
+      "year": 2022,
+      "week": 5,
+      "o0": "Kenny Smith",
+      "p0": 114.31,
+      "o1": "Brian Marois",
+      "p1": 120.76
+    },
+    {
+      "year": 2022,
+      "week": 5,
+      "o0": "Tony Bevilaqua",
+      "p0": 94.35,
+      "o1": "Joshua",
+      "p1": 107.57
+    },
+    {
+      "year": 2022,
+      "week": 5,
+      "o0": "Ed Shively",
+      "p0": 121.69,
+      "o1": "Steve Minardi",
+      "p1": 89.16
+    },
+    {
+      "year": 2022,
+      "week": 5,
+      "o0": "Malcolm Lapone",
+      "p0": 136.29,
+      "o1": "Peter Ott",
+      "p1": 107.33
+    },
+    {
+      "year": 2022,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 103.43,
+      "o1": "Steve Minardi",
+      "p1": 109.08
+    },
+    {
+      "year": 2022,
+      "week": 6,
+      "o0": "Jeff Lobdell",
+      "p0": 98.1,
+      "o1": "Ed Shively",
+      "p1": 92.25
+    },
+    {
+      "year": 2022,
+      "week": 6,
+      "o0": "Kenny Smith",
+      "p0": 119.2,
+      "o1": "Kevin Etwaroo",
+      "p1": 141.32
+    },
+    {
+      "year": 2022,
+      "week": 6,
+      "o0": "Tony Bevilaqua",
+      "p0": 106.04,
+      "o1": "Malcolm Lapone",
+      "p1": 87.9
+    },
+    {
+      "year": 2022,
+      "week": 6,
+      "o0": "Brian Marois",
+      "p0": 127.61,
+      "o1": "Peter Ott",
+      "p1": 69.34
+    },
+    {
+      "year": 2022,
+      "week": 6,
+      "o0": "Chris Dupay",
+      "p0": 87.67,
+      "o1": "Joshua",
+      "p1": 72.9
+    },
+    {
+      "year": 2022,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 120.94,
+      "o1": "Ed Shively",
+      "p1": 116.7
+    },
+    {
+      "year": 2022,
+      "week": 7,
+      "o0": "Jeff Lobdell",
+      "p0": 93.76,
+      "o1": "Kenny Smith",
+      "p1": 161.27
+    },
+    {
+      "year": 2022,
+      "week": 7,
+      "o0": "Tony Bevilaqua",
+      "p0": 97.34,
+      "o1": "Brian Marois",
+      "p1": 106.91
+    },
+    {
+      "year": 2022,
+      "week": 7,
+      "o0": "Chris Dupay",
+      "p0": 85.36,
+      "o1": "Malcolm Lapone",
+      "p1": 94.87
+    },
+    {
+      "year": 2022,
+      "week": 7,
+      "o0": "Kevin Etwaroo",
+      "p0": 95.37,
+      "o1": "Peter Ott",
+      "p1": 125.87
+    },
+    {
+      "year": 2022,
+      "week": 7,
+      "o0": "Steve Minardi",
+      "p0": 115.63,
+      "o1": "Joshua",
+      "p1": 89.33
+    },
+    {
+      "year": 2022,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 140.65,
+      "o1": "Jeff Lobdell",
+      "p1": 100.09
+    },
+    {
+      "year": 2022,
+      "week": 8,
+      "o0": "Kenny Smith",
+      "p0": 114.16,
+      "o1": "Peter Ott",
+      "p1": 115.55
+    },
+    {
+      "year": 2022,
+      "week": 8,
+      "o0": "Tony Bevilaqua",
+      "p0": 120.19,
+      "o1": "Kevin Etwaroo",
+      "p1": 91.39
+    },
+    {
+      "year": 2022,
+      "week": 8,
+      "o0": "Brian Marois",
+      "p0": 153.0,
+      "o1": "Chris Dupay",
+      "p1": 121.36
+    },
+    {
+      "year": 2022,
+      "week": 8,
+      "o0": "Ed Shively",
+      "p0": 147.03,
+      "o1": "Joshua",
+      "p1": 158.82
+    },
+    {
+      "year": 2022,
+      "week": 8,
+      "o0": "Malcolm Lapone",
+      "p0": 82.33,
+      "o1": "Steve Minardi",
+      "p1": 146.54
+    },
+    {
+      "year": 2022,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 122.24,
+      "o1": "Joshua",
+      "p1": 168.62
+    },
+    {
+      "year": 2022,
+      "week": 9,
+      "o0": "Jeff Lobdell",
+      "p0": 176.17,
+      "o1": "Peter Ott",
+      "p1": 149.26
+    },
+    {
+      "year": 2022,
+      "week": 9,
+      "o0": "Kenny Smith",
+      "p0": 84.91,
+      "o1": "Tony Bevilaqua",
+      "p1": 97.37
+    },
+    {
+      "year": 2022,
+      "week": 9,
+      "o0": "Brian Marois",
+      "p0": 109.06,
+      "o1": "Steve Minardi",
+      "p1": 82.73
+    },
+    {
+      "year": 2022,
+      "week": 9,
+      "o0": "Chris Dupay",
+      "p0": 81.4,
+      "o1": "Kevin Etwaroo",
+      "p1": 74.37
+    },
+    {
+      "year": 2022,
+      "week": 9,
+      "o0": "Ed Shively",
+      "p0": 91.47,
+      "o1": "Malcolm Lapone",
+      "p1": 126.03
+    },
+    {
+      "year": 2022,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 120.65,
+      "o1": "Malcolm Lapone",
+      "p1": 101.24
+    },
+    {
+      "year": 2022,
+      "week": 10,
+      "o0": "Jeff Lobdell",
+      "p0": 128.25,
+      "o1": "Joshua",
+      "p1": 76.2
+    },
+    {
+      "year": 2022,
+      "week": 10,
+      "o0": "Kenny Smith",
+      "p0": 56.03,
+      "o1": "Chris Dupay",
+      "p1": 117.37
+    },
+    {
+      "year": 2022,
+      "week": 10,
+      "o0": "Tony Bevilaqua",
+      "p0": 97.96,
+      "o1": "Peter Ott",
+      "p1": 166.57
+    },
+    {
+      "year": 2022,
+      "week": 10,
+      "o0": "Brian Marois",
+      "p0": 109.19,
+      "o1": "Ed Shively",
+      "p1": 93.12
+    },
+    {
+      "year": 2022,
+      "week": 10,
+      "o0": "Kevin Etwaroo",
+      "p0": 86.0,
+      "o1": "Steve Minardi",
+      "p1": 92.15
+    },
+    {
+      "year": 2022,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 126.71,
+      "o1": "Brian Marois",
+      "p1": 100.61
+    },
+    {
+      "year": 2022,
+      "week": 11,
+      "o0": "Jeff Lobdell",
+      "p0": 89.45,
+      "o1": "Tony Bevilaqua",
+      "p1": 111.28
+    },
+    {
+      "year": 2022,
+      "week": 11,
+      "o0": "Kenny Smith",
+      "p0": 141.3,
+      "o1": "Steve Minardi",
+      "p1": 105.88
+    },
+    {
+      "year": 2022,
+      "week": 11,
+      "o0": "Chris Dupay",
+      "p0": 137.46,
+      "o1": "Peter Ott",
+      "p1": 147.34
+    },
+    {
+      "year": 2022,
+      "week": 11,
+      "o0": "Ed Shively",
+      "p0": 127.57,
+      "o1": "Kevin Etwaroo",
+      "p1": 107.53
+    },
+    {
+      "year": 2022,
+      "week": 11,
+      "o0": "Malcolm Lapone",
+      "p0": 81.45,
+      "o1": "Joshua",
+      "p1": 84.75
+    },
+    {
+      "year": 2022,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 91.62,
+      "o1": "Kevin Etwaroo",
+      "p1": 100.33
+    },
+    {
+      "year": 2022,
+      "week": 12,
+      "o0": "Jeff Lobdell",
+      "p0": 107.56,
+      "o1": "Malcolm Lapone",
+      "p1": 161.76
+    },
+    {
+      "year": 2022,
+      "week": 12,
+      "o0": "Kenny Smith",
+      "p0": 118.67,
+      "o1": "Ed Shively",
+      "p1": 125.97
+    },
+    {
+      "year": 2022,
+      "week": 12,
+      "o0": "Tony Bevilaqua",
+      "p0": 123.31,
+      "o1": "Chris Dupay",
+      "p1": 149.46
+    },
+    {
+      "year": 2022,
+      "week": 12,
+      "o0": "Brian Marois",
+      "p0": 88.9,
+      "o1": "Joshua",
+      "p1": 94.44
+    },
+    {
+      "year": 2022,
+      "week": 12,
+      "o0": "Peter Ott",
+      "p0": 113.55,
+      "o1": "Steve Minardi",
+      "p1": 116.69
+    },
+    {
+      "year": 2022,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 107.42,
+      "o1": "Kenny Smith",
+      "p1": 111.02
+    },
+    {
+      "year": 2022,
+      "week": 13,
+      "o0": "Jeff Lobdell",
+      "p0": 105.43,
+      "o1": "Chris Dupay",
+      "p1": 110.93
+    },
+    {
+      "year": 2022,
+      "week": 13,
+      "o0": "Tony Bevilaqua",
+      "p0": 82.3,
+      "o1": "Steve Minardi",
+      "p1": 95.38
+    },
+    {
+      "year": 2022,
+      "week": 13,
+      "o0": "Brian Marois",
+      "p0": 155.81,
+      "o1": "Malcolm Lapone",
+      "p1": 128.51
+    },
+    {
+      "year": 2022,
+      "week": 13,
+      "o0": "Ed Shively",
+      "p0": 133.17,
+      "o1": "Peter Ott",
+      "p1": 149.55
+    },
+    {
+      "year": 2022,
+      "week": 13,
+      "o0": "Kevin Etwaroo",
+      "p0": 90.79,
+      "o1": "Joshua",
+      "p1": 79.54
+    },
+    {
+      "year": 2022,
+      "week": 14,
+      "o0": "Lee Bertram",
+      "p0": 116.61,
+      "o1": "Peter Ott",
+      "p1": 89.08
+    },
+    {
+      "year": 2022,
+      "week": 14,
+      "o0": "Jeff Lobdell",
+      "p0": 140.46,
+      "o1": "Brian Marois",
+      "p1": 131.98
+    },
+    {
+      "year": 2022,
+      "week": 14,
+      "o0": "Kenny Smith",
+      "p0": 91.83,
+      "o1": "Joshua",
+      "p1": 109.18
+    },
+    {
+      "year": 2022,
+      "week": 14,
+      "o0": "Tony Bevilaqua",
+      "p0": 101.86,
+      "o1": "Ed Shively",
+      "p1": 77.55
+    },
+    {
+      "year": 2022,
+      "week": 14,
+      "o0": "Chris Dupay",
+      "p0": 88.03,
+      "o1": "Steve Minardi",
+      "p1": 109.22
+    },
+    {
+      "year": 2022,
+      "week": 14,
+      "o0": "Malcolm Lapone",
+      "p0": 103.4,
+      "o1": "Kevin Etwaroo",
+      "p1": 107.74
+    },
+    {
+      "year": 2023,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 87.66,
+      "o1": "Kevin Etwaroo",
+      "p1": 120.13
+    },
+    {
+      "year": 2023,
+      "week": 1,
+      "o0": "Chris Dupay",
+      "p0": 85.25,
+      "o1": "Tony Bevilaqua",
+      "p1": 93.97
+    },
+    {
+      "year": 2023,
+      "week": 1,
+      "o0": "Peter Ott",
+      "p0": 93.12,
+      "o1": "Kenny Smith",
+      "p1": 115.44
+    },
+    {
+      "year": 2023,
+      "week": 1,
+      "o0": "Ed Shively",
+      "p0": 103.34,
+      "o1": "Jeff Lobdell",
+      "p1": 118.91
+    },
+    {
+      "year": 2023,
+      "week": 1,
+      "o0": "Malcolm Lapone",
+      "p0": 125.01,
+      "o1": "Brian Marois",
+      "p1": 69.57
+    },
+    {
+      "year": 2023,
+      "week": 1,
+      "o0": "Steve Minardi",
+      "p0": 97.98,
+      "o1": "Joshua",
+      "p1": 90.3
+    },
+    {
+      "year": 2023,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 120.75,
+      "o1": "Ed Shively",
+      "p1": 138.98
+    },
+    {
+      "year": 2023,
+      "week": 2,
+      "o0": "Chris Dupay",
+      "p0": 101.89,
+      "o1": "Joshua",
+      "p1": 129.21
+    },
+    {
+      "year": 2023,
+      "week": 2,
+      "o0": "Peter Ott",
+      "p0": 136.71,
+      "o1": "Tony Bevilaqua",
+      "p1": 85.84
+    },
+    {
+      "year": 2023,
+      "week": 2,
+      "o0": "Kenny Smith",
+      "p0": 88.24,
+      "o1": "Kevin Etwaroo",
+      "p1": 86.78
+    },
+    {
+      "year": 2023,
+      "week": 2,
+      "o0": "Malcolm Lapone",
+      "p0": 108.51,
+      "o1": "Jeff Lobdell",
+      "p1": 85.04
+    },
+    {
+      "year": 2023,
+      "week": 2,
+      "o0": "Steve Minardi",
+      "p0": 105.58,
+      "o1": "Brian Marois",
+      "p1": 123.4
+    },
+    {
+      "year": 2023,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 105.65,
+      "o1": "Jeff Lobdell",
+      "p1": 96.31
+    },
+    {
+      "year": 2023,
+      "week": 3,
+      "o0": "Chris Dupay",
+      "p0": 104.43,
+      "o1": "Brian Marois",
+      "p1": 117.32
+    },
+    {
+      "year": 2023,
+      "week": 3,
+      "o0": "Peter Ott",
+      "p0": 115.14,
+      "o1": "Joshua",
+      "p1": 115.47
+    },
+    {
+      "year": 2023,
+      "week": 3,
+      "o0": "Kenny Smith",
+      "p0": 163.14,
+      "o1": "Ed Shively",
+      "p1": 130.93
+    },
+    {
+      "year": 2023,
+      "week": 3,
+      "o0": "Tony Bevilaqua",
+      "p0": 103.71,
+      "o1": "Kevin Etwaroo",
+      "p1": 109.28
+    },
+    {
+      "year": 2023,
+      "week": 3,
+      "o0": "Malcolm Lapone",
+      "p0": 114.15,
+      "o1": "Steve Minardi",
+      "p1": 137.28
+    },
+    {
+      "year": 2023,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 90.52,
+      "o1": "Malcolm Lapone",
+      "p1": 103.39
+    },
+    {
+      "year": 2023,
+      "week": 4,
+      "o0": "Chris Dupay",
+      "p0": 109.51,
+      "o1": "Steve Minardi",
+      "p1": 152.76
+    },
+    {
+      "year": 2023,
+      "week": 4,
+      "o0": "Peter Ott",
+      "p0": 198.35,
+      "o1": "Brian Marois",
+      "p1": 78.63
+    },
+    {
+      "year": 2023,
+      "week": 4,
+      "o0": "Kenny Smith",
+      "p0": 75.23,
+      "o1": "Jeff Lobdell",
+      "p1": 132.16
+    },
+    {
+      "year": 2023,
+      "week": 4,
+      "o0": "Tony Bevilaqua",
+      "p0": 105.23,
+      "o1": "Ed Shively",
+      "p1": 102.43
+    },
+    {
+      "year": 2023,
+      "week": 4,
+      "o0": "Kevin Etwaroo",
+      "p0": 88.08,
+      "o1": "Joshua",
+      "p1": 87.02
+    },
+    {
+      "year": 2023,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 140.22,
+      "o1": "Kenny Smith",
+      "p1": 122.45
+    },
+    {
+      "year": 2023,
+      "week": 5,
+      "o0": "Chris Dupay",
+      "p0": 71.74,
+      "o1": "Malcolm Lapone",
+      "p1": 147.94
+    },
+    {
+      "year": 2023,
+      "week": 5,
+      "o0": "Peter Ott",
+      "p0": 93.51,
+      "o1": "Steve Minardi",
+      "p1": 90.97
+    },
+    {
+      "year": 2023,
+      "week": 5,
+      "o0": "Tony Bevilaqua",
+      "p0": 135.96,
+      "o1": "Jeff Lobdell",
+      "p1": 106.55
+    },
+    {
+      "year": 2023,
+      "week": 5,
+      "o0": "Ed Shively",
+      "p0": 81.34,
+      "o1": "Joshua",
+      "p1": 106.91
+    },
+    {
+      "year": 2023,
+      "week": 5,
+      "o0": "Kevin Etwaroo",
+      "p0": 103.83,
+      "o1": "Brian Marois",
+      "p1": 111.38
+    },
+    {
+      "year": 2023,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 102.47,
+      "o1": "Tony Bevilaqua",
+      "p1": 92.02
+    },
+    {
+      "year": 2023,
+      "week": 6,
+      "o0": "Chris Dupay",
+      "p0": 91.03,
+      "o1": "Peter Ott",
+      "p1": 90.48
+    },
+    {
+      "year": 2023,
+      "week": 6,
+      "o0": "Kenny Smith",
+      "p0": 115.0,
+      "o1": "Malcolm Lapone",
+      "p1": 112.79
+    },
+    {
+      "year": 2023,
+      "week": 6,
+      "o0": "Ed Shively",
+      "p0": 108.11,
+      "o1": "Brian Marois",
+      "p1": 108.87
+    },
+    {
+      "year": 2023,
+      "week": 6,
+      "o0": "Steve Minardi",
+      "p0": 130.94,
+      "o1": "Kevin Etwaroo",
+      "p1": 110.04
+    },
+    {
+      "year": 2023,
+      "week": 6,
+      "o0": "Jeff Lobdell",
+      "p0": 117.24,
+      "o1": "Joshua",
+      "p1": 115.69
+    },
+    {
+      "year": 2023,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 146.36,
+      "o1": "Joshua",
+      "p1": 77.32
+    },
+    {
+      "year": 2023,
+      "week": 7,
+      "o0": "Chris Dupay",
+      "p0": 120.51,
+      "o1": "Kevin Etwaroo",
+      "p1": 124.36
+    },
+    {
+      "year": 2023,
+      "week": 7,
+      "o0": "Peter Ott",
+      "p0": 118.72,
+      "o1": "Malcolm Lapone",
+      "p1": 115.47
+    },
+    {
+      "year": 2023,
+      "week": 7,
+      "o0": "Kenny Smith",
+      "p0": 98.26,
+      "o1": "Tony Bevilaqua",
+      "p1": 97.76
+    },
+    {
+      "year": 2023,
+      "week": 7,
+      "o0": "Ed Shively",
+      "p0": 85.94,
+      "o1": "Steve Minardi",
+      "p1": 129.5
+    },
+    {
+      "year": 2023,
+      "week": 7,
+      "o0": "Jeff Lobdell",
+      "p0": 119.96,
+      "o1": "Brian Marois",
+      "p1": 93.3
+    },
+    {
+      "year": 2023,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 100.13,
+      "o1": "Brian Marois",
+      "p1": 134.19
+    },
+    {
+      "year": 2023,
+      "week": 8,
+      "o0": "Chris Dupay",
+      "p0": 120.51,
+      "o1": "Ed Shively",
+      "p1": 117.67
+    },
+    {
+      "year": 2023,
+      "week": 8,
+      "o0": "Peter Ott",
+      "p0": 159.02,
+      "o1": "Kevin Etwaroo",
+      "p1": 131.16
+    },
+    {
+      "year": 2023,
+      "week": 8,
+      "o0": "Kenny Smith",
+      "p0": 131.66,
+      "o1": "Joshua",
+      "p1": 125.56
+    },
+    {
+      "year": 2023,
+      "week": 8,
+      "o0": "Tony Bevilaqua",
+      "p0": 111.52,
+      "o1": "Malcolm Lapone",
+      "p1": 141.54
+    },
+    {
+      "year": 2023,
+      "week": 8,
+      "o0": "Steve Minardi",
+      "p0": 83.08,
+      "o1": "Jeff Lobdell",
+      "p1": 105.28
+    },
+    {
+      "year": 2023,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 73.67,
+      "o1": "Steve Minardi",
+      "p1": 93.43
+    },
+    {
+      "year": 2023,
+      "week": 9,
+      "o0": "Chris Dupay",
+      "p0": 135.33,
+      "o1": "Jeff Lobdell",
+      "p1": 79.13
+    },
+    {
+      "year": 2023,
+      "week": 9,
+      "o0": "Peter Ott",
+      "p0": 111.52,
+      "o1": "Ed Shively",
+      "p1": 85.66
+    },
+    {
+      "year": 2023,
+      "week": 9,
+      "o0": "Kenny Smith",
+      "p0": 124.9,
+      "o1": "Brian Marois",
+      "p1": 115.1
+    },
+    {
+      "year": 2023,
+      "week": 9,
+      "o0": "Tony Bevilaqua",
+      "p0": 118.46,
+      "o1": "Joshua",
+      "p1": 75.69
+    },
+    {
+      "year": 2023,
+      "week": 9,
+      "o0": "Malcolm Lapone",
+      "p0": 147.91,
+      "o1": "Kevin Etwaroo",
+      "p1": 101.94
+    },
+    {
+      "year": 2023,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 141.84,
+      "o1": "Chris Dupay",
+      "p1": 115.74
+    },
+    {
+      "year": 2023,
+      "week": 10,
+      "o0": "Peter Ott",
+      "p0": 127.33,
+      "o1": "Jeff Lobdell",
+      "p1": 86.32
+    },
+    {
+      "year": 2023,
+      "week": 10,
+      "o0": "Kenny Smith",
+      "p0": 105.22,
+      "o1": "Steve Minardi",
+      "p1": 68.24
+    },
+    {
+      "year": 2023,
+      "week": 10,
+      "o0": "Tony Bevilaqua",
+      "p0": 134.58,
+      "o1": "Brian Marois",
+      "p1": 109.23
+    },
+    {
+      "year": 2023,
+      "week": 10,
+      "o0": "Ed Shively",
+      "p0": 164.77,
+      "o1": "Kevin Etwaroo",
+      "p1": 105.29
+    },
+    {
+      "year": 2023,
+      "week": 10,
+      "o0": "Malcolm Lapone",
+      "p0": 135.46,
+      "o1": "Joshua",
+      "p1": 83.14
+    },
+    {
+      "year": 2023,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 105.31,
+      "o1": "Peter Ott",
+      "p1": 120.03
+    },
+    {
+      "year": 2023,
+      "week": 11,
+      "o0": "Chris Dupay",
+      "p0": 103.3,
+      "o1": "Kenny Smith",
+      "p1": 101.07
+    },
+    {
+      "year": 2023,
+      "week": 11,
+      "o0": "Tony Bevilaqua",
+      "p0": 118.56,
+      "o1": "Steve Minardi",
+      "p1": 94.29
+    },
+    {
+      "year": 2023,
+      "week": 11,
+      "o0": "Ed Shively",
+      "p0": 120.1,
+      "o1": "Malcolm Lapone",
+      "p1": 107.81
+    },
+    {
+      "year": 2023,
+      "week": 11,
+      "o0": "Jeff Lobdell",
+      "p0": 110.48,
+      "o1": "Kevin Etwaroo",
+      "p1": 96.79
+    },
+    {
+      "year": 2023,
+      "week": 11,
+      "o0": "Joshua",
+      "p0": 110.32,
+      "o1": "Brian Marois",
+      "p1": 110.59
+    },
+    {
+      "year": 2023,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 120.6,
+      "o1": "Kevin Etwaroo",
+      "p1": 93.93
+    },
+    {
+      "year": 2023,
+      "week": 12,
+      "o0": "Chris Dupay",
+      "p0": 106.57,
+      "o1": "Tony Bevilaqua",
+      "p1": 127.36
+    },
+    {
+      "year": 2023,
+      "week": 12,
+      "o0": "Peter Ott",
+      "p0": 162.01,
+      "o1": "Kenny Smith",
+      "p1": 151.56
+    },
+    {
+      "year": 2023,
+      "week": 12,
+      "o0": "Ed Shively",
+      "p0": 120.4,
+      "o1": "Jeff Lobdell",
+      "p1": 108.78
+    },
+    {
+      "year": 2023,
+      "week": 12,
+      "o0": "Malcolm Lapone",
+      "p0": 153.64,
+      "o1": "Brian Marois",
+      "p1": 92.71
+    },
+    {
+      "year": 2023,
+      "week": 12,
+      "o0": "Steve Minardi",
+      "p0": 113.25,
+      "o1": "Joshua",
+      "p1": 117.21
+    },
+    {
+      "year": 2023,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 108.42,
+      "o1": "Ed Shively",
+      "p1": 70.75
+    },
+    {
+      "year": 2023,
+      "week": 13,
+      "o0": "Chris Dupay",
+      "p0": 119.55,
+      "o1": "Joshua",
+      "p1": 117.53
+    },
+    {
+      "year": 2023,
+      "week": 13,
+      "o0": "Peter Ott",
+      "p0": 164.22,
+      "o1": "Tony Bevilaqua",
+      "p1": 107.18
+    },
+    {
+      "year": 2023,
+      "week": 13,
+      "o0": "Kenny Smith",
+      "p0": 149.23,
+      "o1": "Kevin Etwaroo",
+      "p1": 82.21
+    },
+    {
+      "year": 2023,
+      "week": 13,
+      "o0": "Malcolm Lapone",
+      "p0": 167.78,
+      "o1": "Jeff Lobdell",
+      "p1": 119.22
+    },
+    {
+      "year": 2023,
+      "week": 13,
+      "o0": "Steve Minardi",
+      "p0": 108.06,
+      "o1": "Brian Marois",
+      "p1": 94.44
+    },
+    {
+      "year": 2023,
+      "week": 14,
+      "o0": "Lee Bertram",
+      "p0": 129.29,
+      "o1": "Jeff Lobdell",
+      "p1": 118.2
+    },
+    {
+      "year": 2023,
+      "week": 14,
+      "o0": "Chris Dupay",
+      "p0": 137.51,
+      "o1": "Brian Marois",
+      "p1": 119.3
+    },
+    {
+      "year": 2023,
+      "week": 14,
+      "o0": "Peter Ott",
+      "p0": 125.5,
+      "o1": "Joshua",
+      "p1": 118.1
+    },
+    {
+      "year": 2023,
+      "week": 14,
+      "o0": "Kenny Smith",
+      "p0": 133.85,
+      "o1": "Ed Shively",
+      "p1": 67.49
+    },
+    {
+      "year": 2023,
+      "week": 14,
+      "o0": "Tony Bevilaqua",
+      "p0": 105.74,
+      "o1": "Kevin Etwaroo",
+      "p1": 133.73
+    },
+    {
+      "year": 2023,
+      "week": 14,
+      "o0": "Malcolm Lapone",
+      "p0": 89.47,
+      "o1": "Steve Minardi",
+      "p1": 87.11
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 105.48,
+      "o1": "Tony Bevilaqua",
+      "p1": 108.0
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "o0": "Chris Dupay",
+      "p0": 93.45,
+      "o1": "Brian Marois",
+      "p1": 81.11
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "o0": "Peter Ott",
+      "p0": 124.05,
+      "o1": "Kevin Etwaroo",
+      "p1": 124.76
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "o0": "Kenny Smith",
+      "p0": 91.32,
+      "o1": "Jeff Lobdell",
+      "p1": 125.15
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "o0": "Ed Shively",
+      "p0": 77.35,
+      "o1": "Joshua",
+      "p1": 127.36
+    },
+    {
+      "year": 2024,
+      "week": 1,
+      "o0": "Malcolm Lapone",
+      "p0": 89.19,
+      "o1": "Christopher Hayes",
+      "p1": 121.78
+    },
+    {
+      "year": 2024,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 87.41,
+      "o1": "Jeff Lobdell",
+      "p1": 86.06
+    },
+    {
+      "year": 2024,
+      "week": 2,
+      "o0": "Chris Dupay",
+      "p0": 142.57,
+      "o1": "Kevin Etwaroo",
+      "p1": 126.38
+    },
+    {
+      "year": 2024,
+      "week": 2,
+      "o0": "Peter Ott",
+      "p0": 111.96,
+      "o1": "Kenny Smith",
+      "p1": 130.17
+    },
+    {
+      "year": 2024,
+      "week": 2,
+      "o0": "Tony Bevilaqua",
+      "p0": 114.84,
+      "o1": "Joshua",
+      "p1": 102.19
+    },
+    {
+      "year": 2024,
+      "week": 2,
+      "o0": "Ed Shively",
+      "p0": 112.8,
+      "o1": "Christopher Hayes",
+      "p1": 112.53
+    },
+    {
+      "year": 2024,
+      "week": 2,
+      "o0": "Malcolm Lapone",
+      "p0": 86.27,
+      "o1": "Brian Marois",
+      "p1": 126.24
+    },
+    {
+      "year": 2024,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 138.97,
+      "o1": "Kenny Smith",
+      "p1": 123.06
+    },
+    {
+      "year": 2024,
+      "week": 3,
+      "o0": "Chris Dupay",
+      "p0": 73.23,
+      "o1": "Peter Ott",
+      "p1": 84.35
+    },
+    {
+      "year": 2024,
+      "week": 3,
+      "o0": "Tony Bevilaqua",
+      "p0": 129.95,
+      "o1": "Christopher Hayes",
+      "p1": 132.76
+    },
+    {
+      "year": 2024,
+      "week": 3,
+      "o0": "Ed Shively",
+      "p0": 76.89,
+      "o1": "Brian Marois",
+      "p1": 112.31
+    },
+    {
+      "year": 2024,
+      "week": 3,
+      "o0": "Malcolm Lapone",
+      "p0": 81.33,
+      "o1": "Kevin Etwaroo",
+      "p1": 101.97
+    },
+    {
+      "year": 2024,
+      "week": 3,
+      "o0": "Jeff Lobdell",
+      "p0": 108.81,
+      "o1": "Joshua",
+      "p1": 145.23
+    },
+    {
+      "year": 2024,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 117.8,
+      "o1": "Peter Ott",
+      "p1": 125.17
+    },
+    {
+      "year": 2024,
+      "week": 4,
+      "o0": "Chris Dupay",
+      "p0": 91.76,
+      "o1": "Malcolm Lapone",
+      "p1": 115.97
+    },
+    {
+      "year": 2024,
+      "week": 4,
+      "o0": "Kenny Smith",
+      "p0": 88.33,
+      "o1": "Joshua",
+      "p1": 92.28
+    },
+    {
+      "year": 2024,
+      "week": 4,
+      "o0": "Tony Bevilaqua",
+      "p0": 114.49,
+      "o1": "Brian Marois",
+      "p1": 101.08
+    },
+    {
+      "year": 2024,
+      "week": 4,
+      "o0": "Ed Shively",
+      "p0": 105.62,
+      "o1": "Kevin Etwaroo",
+      "p1": 132.38
+    },
+    {
+      "year": 2024,
+      "week": 4,
+      "o0": "Jeff Lobdell",
+      "p0": 95.09,
+      "o1": "Christopher Hayes",
+      "p1": 105.91
+    },
+    {
+      "year": 2024,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 90.51,
+      "o1": "Joshua",
+      "p1": 172.55
+    },
+    {
+      "year": 2024,
+      "week": 5,
+      "o0": "Chris Dupay",
+      "p0": 121.18,
+      "o1": "Ed Shively",
+      "p1": 128.55
+    },
+    {
+      "year": 2024,
+      "week": 5,
+      "o0": "Peter Ott",
+      "p0": 98.28,
+      "o1": "Malcolm Lapone",
+      "p1": 99.36
+    },
+    {
+      "year": 2024,
+      "week": 5,
+      "o0": "Kenny Smith",
+      "p0": 132.73,
+      "o1": "Christopher Hayes",
+      "p1": 90.5
+    },
+    {
+      "year": 2024,
+      "week": 5,
+      "o0": "Tony Bevilaqua",
+      "p0": 109.11,
+      "o1": "Kevin Etwaroo",
+      "p1": 104.84
+    },
+    {
+      "year": 2024,
+      "week": 5,
+      "o0": "Jeff Lobdell",
+      "p0": 130.59,
+      "o1": "Brian Marois",
+      "p1": 138.18
+    },
+    {
+      "year": 2024,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 114.15,
+      "o1": "Christopher Hayes",
+      "p1": 136.72
+    },
+    {
+      "year": 2024,
+      "week": 6,
+      "o0": "Chris Dupay",
+      "p0": 103.42,
+      "o1": "Tony Bevilaqua",
+      "p1": 135.78
+    },
+    {
+      "year": 2024,
+      "week": 6,
+      "o0": "Peter Ott",
+      "p0": 127.1,
+      "o1": "Joshua",
+      "p1": 71.69
+    },
+    {
+      "year": 2024,
+      "week": 6,
+      "o0": "Kenny Smith",
+      "p0": 130.32,
+      "o1": "Brian Marois",
+      "p1": 114.64
+    },
+    {
+      "year": 2024,
+      "week": 6,
+      "o0": "Ed Shively",
+      "p0": 135.06,
+      "o1": "Malcolm Lapone",
+      "p1": 78.85
+    },
+    {
+      "year": 2024,
+      "week": 6,
+      "o0": "Jeff Lobdell",
+      "p0": 107.32,
+      "o1": "Kevin Etwaroo",
+      "p1": 86.48
+    },
+    {
+      "year": 2024,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 89.6,
+      "o1": "Brian Marois",
+      "p1": 86.12
+    },
+    {
+      "year": 2024,
+      "week": 7,
+      "o0": "Chris Dupay",
+      "p0": 91.27,
+      "o1": "Jeff Lobdell",
+      "p1": 131.11
+    },
+    {
+      "year": 2024,
+      "week": 7,
+      "o0": "Peter Ott",
+      "p0": 118.63,
+      "o1": "Ed Shively",
+      "p1": 88.27
+    },
+    {
+      "year": 2024,
+      "week": 7,
+      "o0": "Kenny Smith",
+      "p0": 83.26,
+      "o1": "Kevin Etwaroo",
+      "p1": 84.54
+    },
+    {
+      "year": 2024,
+      "week": 7,
+      "o0": "Tony Bevilaqua",
+      "p0": 120.49,
+      "o1": "Malcolm Lapone",
+      "p1": 117.48
+    },
+    {
+      "year": 2024,
+      "week": 7,
+      "o0": "Joshua",
+      "p0": 132.5,
+      "o1": "Christopher Hayes",
+      "p1": 110.72
+    },
+    {
+      "year": 2024,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 110.99,
+      "o1": "Kevin Etwaroo",
+      "p1": 133.15
+    },
+    {
+      "year": 2024,
+      "week": 8,
+      "o0": "Chris Dupay",
+      "p0": 99.57,
+      "o1": "Kenny Smith",
+      "p1": 105.39
+    },
+    {
+      "year": 2024,
+      "week": 8,
+      "o0": "Peter Ott",
+      "p0": 125.3,
+      "o1": "Christopher Hayes",
+      "p1": 108.0
+    },
+    {
+      "year": 2024,
+      "week": 8,
+      "o0": "Tony Bevilaqua",
+      "p0": 150.54,
+      "o1": "Ed Shively",
+      "p1": 136.77
+    },
+    {
+      "year": 2024,
+      "week": 8,
+      "o0": "Malcolm Lapone",
+      "p0": 96.99,
+      "o1": "Jeff Lobdell",
+      "p1": 122.94
+    },
+    {
+      "year": 2024,
+      "week": 8,
+      "o0": "Joshua",
+      "p0": 133.41,
+      "o1": "Brian Marois",
+      "p1": 98.43
+    },
+    {
+      "year": 2024,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 130.58,
+      "o1": "Chris Dupay",
+      "p1": 100.84
+    },
+    {
+      "year": 2024,
+      "week": 9,
+      "o0": "Peter Ott",
+      "p0": 100.59,
+      "o1": "Tony Bevilaqua",
+      "p1": 122.73
+    },
+    {
+      "year": 2024,
+      "week": 9,
+      "o0": "Kenny Smith",
+      "p0": 107.41,
+      "o1": "Malcolm Lapone",
+      "p1": 89.36
+    },
+    {
+      "year": 2024,
+      "week": 9,
+      "o0": "Ed Shively",
+      "p0": 126.53,
+      "o1": "Jeff Lobdell",
+      "p1": 103.47
+    },
+    {
+      "year": 2024,
+      "week": 9,
+      "o0": "Kevin Etwaroo",
+      "p0": 123.49,
+      "o1": "Joshua",
+      "p1": 80.98
+    },
+    {
+      "year": 2024,
+      "week": 9,
+      "o0": "Brian Marois",
+      "p0": 129.22,
+      "o1": "Christopher Hayes",
+      "p1": 126.7
+    },
+    {
+      "year": 2024,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 136.73,
+      "o1": "Malcolm Lapone",
+      "p1": 93.62
+    },
+    {
+      "year": 2024,
+      "week": 10,
+      "o0": "Chris Dupay",
+      "p0": 103.49,
+      "o1": "Joshua",
+      "p1": 165.64
+    },
+    {
+      "year": 2024,
+      "week": 10,
+      "o0": "Peter Ott",
+      "p0": 91.0,
+      "o1": "Brian Marois",
+      "p1": 131.42
+    },
+    {
+      "year": 2024,
+      "week": 10,
+      "o0": "Kenny Smith",
+      "p0": 76.33,
+      "o1": "Ed Shively",
+      "p1": 84.71
+    },
+    {
+      "year": 2024,
+      "week": 10,
+      "o0": "Tony Bevilaqua",
+      "p0": 107.01,
+      "o1": "Jeff Lobdell",
+      "p1": 154.75
+    },
+    {
+      "year": 2024,
+      "week": 10,
+      "o0": "Kevin Etwaroo",
+      "p0": 88.23,
+      "o1": "Christopher Hayes",
+      "p1": 83.85
+    },
+    {
+      "year": 2024,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 128.08,
+      "o1": "Ed Shively",
+      "p1": 78.77
+    },
+    {
+      "year": 2024,
+      "week": 11,
+      "o0": "Chris Dupay",
+      "p0": 123.02,
+      "o1": "Christopher Hayes",
+      "p1": 156.91
+    },
+    {
+      "year": 2024,
+      "week": 11,
+      "o0": "Peter Ott",
+      "p0": 125.34,
+      "o1": "Jeff Lobdell",
+      "p1": 79.08
+    },
+    {
+      "year": 2024,
+      "week": 11,
+      "o0": "Kenny Smith",
+      "p0": 149.03,
+      "o1": "Tony Bevilaqua",
+      "p1": 154.61
+    },
+    {
+      "year": 2024,
+      "week": 11,
+      "o0": "Malcolm Lapone",
+      "p0": 149.29,
+      "o1": "Joshua",
+      "p1": 120.96
+    },
+    {
+      "year": 2024,
+      "week": 11,
+      "o0": "Kevin Etwaroo",
+      "p0": 102.96,
+      "o1": "Brian Marois",
+      "p1": 90.07
+    },
+    {
+      "year": 2024,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 117.61,
+      "o1": "Tony Bevilaqua",
+      "p1": 114.24
+    },
+    {
+      "year": 2024,
+      "week": 12,
+      "o0": "Chris Dupay",
+      "p0": 75.47,
+      "o1": "Brian Marois",
+      "p1": 125.45
+    },
+    {
+      "year": 2024,
+      "week": 12,
+      "o0": "Peter Ott",
+      "p0": 128.28,
+      "o1": "Kevin Etwaroo",
+      "p1": 97.28
+    },
+    {
+      "year": 2024,
+      "week": 12,
+      "o0": "Kenny Smith",
+      "p0": 145.7,
+      "o1": "Jeff Lobdell",
+      "p1": 114.68
+    },
+    {
+      "year": 2024,
+      "week": 12,
+      "o0": "Ed Shively",
+      "p0": 99.61,
+      "o1": "Joshua",
+      "p1": 96.3
+    },
+    {
+      "year": 2024,
+      "week": 12,
+      "o0": "Malcolm Lapone",
+      "p0": 109.16,
+      "o1": "Christopher Hayes",
+      "p1": 91.26
+    },
+    {
+      "year": 2024,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 145.77,
+      "o1": "Jeff Lobdell",
+      "p1": 113.2
+    },
+    {
+      "year": 2024,
+      "week": 13,
+      "o0": "Chris Dupay",
+      "p0": 118.96,
+      "o1": "Kevin Etwaroo",
+      "p1": 82.88
+    },
+    {
+      "year": 2024,
+      "week": 13,
+      "o0": "Peter Ott",
+      "p0": 76.68,
+      "o1": "Kenny Smith",
+      "p1": 116.14
+    },
+    {
+      "year": 2024,
+      "week": 13,
+      "o0": "Tony Bevilaqua",
+      "p0": 132.79,
+      "o1": "Joshua",
+      "p1": 124.25
+    },
+    {
+      "year": 2024,
+      "week": 13,
+      "o0": "Ed Shively",
+      "p0": 143.37,
+      "o1": "Christopher Hayes",
+      "p1": 85.95
+    },
+    {
+      "year": 2024,
+      "week": 13,
+      "o0": "Malcolm Lapone",
+      "p0": 101.83,
+      "o1": "Brian Marois",
+      "p1": 133.06
+    },
+    {
+      "year": 2024,
+      "week": 14,
+      "o0": "Lee Bertram",
+      "p0": 183.61,
+      "o1": "Kenny Smith",
+      "p1": 66.61
+    },
+    {
+      "year": 2024,
+      "week": 14,
+      "o0": "Chris Dupay",
+      "p0": 112.21,
+      "o1": "Peter Ott",
+      "p1": 107.57
+    },
+    {
+      "year": 2024,
+      "week": 14,
+      "o0": "Tony Bevilaqua",
+      "p0": 111.55,
+      "o1": "Christopher Hayes",
+      "p1": 97.33
+    },
+    {
+      "year": 2024,
+      "week": 14,
+      "o0": "Ed Shively",
+      "p0": 117.65,
+      "o1": "Brian Marois",
+      "p1": 156.84
+    },
+    {
+      "year": 2024,
+      "week": 14,
+      "o0": "Malcolm Lapone",
+      "p0": 107.48,
+      "o1": "Kevin Etwaroo",
+      "p1": 121.04
+    },
+    {
+      "year": 2024,
+      "week": 14,
+      "o0": "Jeff Lobdell",
+      "p0": 109.62,
+      "o1": "Joshua",
+      "p1": 146.81
+    },
+    {
+      "year": 2025,
+      "week": 1,
+      "o0": "Lee Bertram",
+      "p0": 148.53,
+      "o1": "Malcolm Lapone",
+      "p1": 112.45
+    },
+    {
+      "year": 2025,
+      "week": 1,
+      "o0": "Chris Dupay",
+      "p0": 122.07,
+      "o1": "Peter Ott",
+      "p1": 81.65
+    },
+    {
+      "year": 2025,
+      "week": 1,
+      "o0": "Kenny Smith",
+      "p0": 101.25,
+      "o1": "Ed Shively",
+      "p1": 113.11
+    },
+    {
+      "year": 2025,
+      "week": 1,
+      "o0": "Tony Bevilaqua",
+      "p0": 92.52,
+      "o1": "Jeff Lobdell",
+      "p1": 82.6
+    },
+    {
+      "year": 2025,
+      "week": 1,
+      "o0": "Kevin Etwaroo",
+      "p0": 114.2,
+      "o1": "Christopher Hayes",
+      "p1": 115.86
+    },
+    {
+      "year": 2025,
+      "week": 1,
+      "o0": "Joshua",
+      "p0": 90.23,
+      "o1": "Brian Marois",
+      "p1": 120.17
+    },
+    {
+      "year": 2025,
+      "week": 2,
+      "o0": "Lee Bertram",
+      "p0": 91.45,
+      "o1": "Chris Dupay",
+      "p1": 122.07
+    },
+    {
+      "year": 2025,
+      "week": 2,
+      "o0": "Peter Ott",
+      "p0": 72.22,
+      "o1": "Kenny Smith",
+      "p1": 102.5
+    },
+    {
+      "year": 2025,
+      "week": 2,
+      "o0": "Tony Bevilaqua",
+      "p0": 130.33,
+      "o1": "Joshua",
+      "p1": 134.34
+    },
+    {
+      "year": 2025,
+      "week": 2,
+      "o0": "Ed Shively",
+      "p0": 119.62,
+      "o1": "Brian Marois",
+      "p1": 139.25
+    },
+    {
+      "year": 2025,
+      "week": 2,
+      "o0": "Malcolm Lapone",
+      "p0": 91.57,
+      "o1": "Kevin Etwaroo",
+      "p1": 92.87
+    },
+    {
+      "year": 2025,
+      "week": 2,
+      "o0": "Jeff Lobdell",
+      "p0": 99.03,
+      "o1": "Christopher Hayes",
+      "p1": 121.12
+    },
+    {
+      "year": 2025,
+      "week": 3,
+      "o0": "Lee Bertram",
+      "p0": 122.74,
+      "o1": "Kenny Smith",
+      "p1": 123.77
+    },
+    {
+      "year": 2025,
+      "week": 3,
+      "o0": "Chris Dupay",
+      "p0": 74.09,
+      "o1": "Kevin Etwaroo",
+      "p1": 145.06
+    },
+    {
+      "year": 2025,
+      "week": 3,
+      "o0": "Peter Ott",
+      "p0": 106.33,
+      "o1": "Ed Shively",
+      "p1": 99.45
+    },
+    {
+      "year": 2025,
+      "week": 3,
+      "o0": "Tony Bevilaqua",
+      "p0": 133.43,
+      "o1": "Brian Marois",
+      "p1": 111.53
+    },
+    {
+      "year": 2025,
+      "week": 3,
+      "o0": "Malcolm Lapone",
+      "p0": 86.21,
+      "o1": "Jeff Lobdell",
+      "p1": 82.55
+    },
+    {
+      "year": 2025,
+      "week": 3,
+      "o0": "Joshua",
+      "p0": 163.56,
+      "o1": "Christopher Hayes",
+      "p1": 131.84
+    },
+    {
+      "year": 2025,
+      "week": 4,
+      "o0": "Lee Bertram",
+      "p0": 163.59,
+      "o1": "Peter Ott",
+      "p1": 163.72
+    },
+    {
+      "year": 2025,
+      "week": 4,
+      "o0": "Chris Dupay",
+      "p0": 105.58,
+      "o1": "Jeff Lobdell",
+      "p1": 113.71
+    },
+    {
+      "year": 2025,
+      "week": 4,
+      "o0": "Kenny Smith",
+      "p0": 73.45,
+      "o1": "Kevin Etwaroo",
+      "p1": 109.68
+    },
+    {
+      "year": 2025,
+      "week": 4,
+      "o0": "Tony Bevilaqua",
+      "p0": 116.94,
+      "o1": "Ed Shively",
+      "p1": 127.4
+    },
+    {
+      "year": 2025,
+      "week": 4,
+      "o0": "Malcolm Lapone",
+      "p0": 93.67,
+      "o1": "Joshua",
+      "p1": 169.88
+    },
+    {
+      "year": 2025,
+      "week": 4,
+      "o0": "Brian Marois",
+      "p0": 116.22,
+      "o1": "Christopher Hayes",
+      "p1": 111.11
+    },
+    {
+      "year": 2025,
+      "week": 5,
+      "o0": "Lee Bertram",
+      "p0": 120.16,
+      "o1": "Ed Shively",
+      "p1": 108.25
+    },
+    {
+      "year": 2025,
+      "week": 5,
+      "o0": "Chris Dupay",
+      "p0": 107.66,
+      "o1": "Joshua",
+      "p1": 118.38
+    },
+    {
+      "year": 2025,
+      "week": 5,
+      "o0": "Peter Ott",
+      "p0": 123.95,
+      "o1": "Kevin Etwaroo",
+      "p1": 146.58
+    },
+    {
+      "year": 2025,
+      "week": 5,
+      "o0": "Kenny Smith",
+      "p0": 106.35,
+      "o1": "Jeff Lobdell",
+      "p1": 110.25
+    },
+    {
+      "year": 2025,
+      "week": 5,
+      "o0": "Tony Bevilaqua",
+      "p0": 118.19,
+      "o1": "Christopher Hayes",
+      "p1": 140.35
+    },
+    {
+      "year": 2025,
+      "week": 5,
+      "o0": "Malcolm Lapone",
+      "p0": 115.27,
+      "o1": "Brian Marois",
+      "p1": 129.08
+    },
+    {
+      "year": 2025,
+      "week": 6,
+      "o0": "Lee Bertram",
+      "p0": 100.35,
+      "o1": "Kevin Etwaroo",
+      "p1": 139.59
+    },
+    {
+      "year": 2025,
+      "week": 6,
+      "o0": "Chris Dupay",
+      "p0": 101.62,
+      "o1": "Brian Marois",
+      "p1": 123.68
+    },
+    {
+      "year": 2025,
+      "week": 6,
+      "o0": "Peter Ott",
+      "p0": 96.38,
+      "o1": "Jeff Lobdell",
+      "p1": 114.17
+    },
+    {
+      "year": 2025,
+      "week": 6,
+      "o0": "Kenny Smith",
+      "p0": 116.86,
+      "o1": "Joshua",
+      "p1": 92.49
+    },
+    {
+      "year": 2025,
+      "week": 6,
+      "o0": "Tony Bevilaqua",
+      "p0": 115.11,
+      "o1": "Malcolm Lapone",
+      "p1": 91.04
+    },
+    {
+      "year": 2025,
+      "week": 6,
+      "o0": "Ed Shively",
+      "p0": 114.37,
+      "o1": "Christopher Hayes",
+      "p1": 138.31
+    },
+    {
+      "year": 2025,
+      "week": 7,
+      "o0": "Lee Bertram",
+      "p0": 105.36,
+      "o1": "Jeff Lobdell",
+      "p1": 123.06
+    },
+    {
+      "year": 2025,
+      "week": 7,
+      "o0": "Chris Dupay",
+      "p0": 58.21,
+      "o1": "Tony Bevilaqua",
+      "p1": 155.31
+    },
+    {
+      "year": 2025,
+      "week": 7,
+      "o0": "Peter Ott",
+      "p0": 137.41,
+      "o1": "Joshua",
+      "p1": 115.44
+    },
+    {
+      "year": 2025,
+      "week": 7,
+      "o0": "Kenny Smith",
+      "p0": 122.26,
+      "o1": "Brian Marois",
+      "p1": 135.38
+    },
+    {
+      "year": 2025,
+      "week": 7,
+      "o0": "Ed Shively",
+      "p0": 147.83,
+      "o1": "Kevin Etwaroo",
+      "p1": 145.22
+    },
+    {
+      "year": 2025,
+      "week": 7,
+      "o0": "Malcolm Lapone",
+      "p0": 123.01,
+      "o1": "Christopher Hayes",
+      "p1": 129.54
+    },
+    {
+      "year": 2025,
+      "week": 8,
+      "o0": "Lee Bertram",
+      "p0": 100.15,
+      "o1": "Joshua",
+      "p1": 108.32
+    },
+    {
+      "year": 2025,
+      "week": 8,
+      "o0": "Chris Dupay",
+      "p0": 88.05,
+      "o1": "Christopher Hayes",
+      "p1": 112.78
+    },
+    {
+      "year": 2025,
+      "week": 8,
+      "o0": "Peter Ott",
+      "p0": 131.12,
+      "o1": "Brian Marois",
+      "p1": 129.76
+    },
+    {
+      "year": 2025,
+      "week": 8,
+      "o0": "Kenny Smith",
+      "p0": 108.05,
+      "o1": "Tony Bevilaqua",
+      "p1": 152.48
+    },
+    {
+      "year": 2025,
+      "week": 8,
+      "o0": "Ed Shively",
+      "p0": 120.3,
+      "o1": "Malcolm Lapone",
+      "p1": 98.22
+    },
+    {
+      "year": 2025,
+      "week": 8,
+      "o0": "Jeff Lobdell",
+      "p0": 134.57,
+      "o1": "Kevin Etwaroo",
+      "p1": 92.64
+    },
+    {
+      "year": 2025,
+      "week": 9,
+      "o0": "Lee Bertram",
+      "p0": 140.6,
+      "o1": "Brian Marois",
+      "p1": 120.12
+    },
+    {
+      "year": 2025,
+      "week": 9,
+      "o0": "Chris Dupay",
+      "p0": 100.97,
+      "o1": "Malcolm Lapone",
+      "p1": 104.21
+    },
+    {
+      "year": 2025,
+      "week": 9,
+      "o0": "Peter Ott",
+      "p0": 120.25,
+      "o1": "Tony Bevilaqua",
+      "p1": 139.85
+    },
+    {
+      "year": 2025,
+      "week": 9,
+      "o0": "Kenny Smith",
+      "p0": 96.91,
+      "o1": "Christopher Hayes",
+      "p1": 123.3
+    },
+    {
+      "year": 2025,
+      "week": 9,
+      "o0": "Ed Shively",
+      "p0": 137.94,
+      "o1": "Jeff Lobdell",
+      "p1": 124.05
+    },
+    {
+      "year": 2025,
+      "week": 9,
+      "o0": "Kevin Etwaroo",
+      "p0": 94.44,
+      "o1": "Joshua",
+      "p1": 99.28
+    },
+    {
+      "year": 2025,
+      "week": 10,
+      "o0": "Lee Bertram",
+      "p0": 122.07,
+      "o1": "Tony Bevilaqua",
+      "p1": 153.7
+    },
+    {
+      "year": 2025,
+      "week": 10,
+      "o0": "Chris Dupay",
+      "p0": 118.68,
+      "o1": "Ed Shively",
+      "p1": 142.4
+    },
+    {
+      "year": 2025,
+      "week": 10,
+      "o0": "Peter Ott",
+      "p0": 91.27,
+      "o1": "Christopher Hayes",
+      "p1": 135.09
+    },
+    {
+      "year": 2025,
+      "week": 10,
+      "o0": "Kenny Smith",
+      "p0": 122.66,
+      "o1": "Malcolm Lapone",
+      "p1": 113.12
+    },
+    {
+      "year": 2025,
+      "week": 10,
+      "o0": "Jeff Lobdell",
+      "p0": 108.45,
+      "o1": "Joshua",
+      "p1": 116.35
+    },
+    {
+      "year": 2025,
+      "week": 10,
+      "o0": "Kevin Etwaroo",
+      "p0": 112.97,
+      "o1": "Brian Marois",
+      "p1": 114.35
+    },
+    {
+      "year": 2025,
+      "week": 11,
+      "o0": "Lee Bertram",
+      "p0": 140.3,
+      "o1": "Christopher Hayes",
+      "p1": 100.29
+    },
+    {
+      "year": 2025,
+      "week": 11,
+      "o0": "Chris Dupay",
+      "p0": 100.85,
+      "o1": "Kenny Smith",
+      "p1": 105.29
+    },
+    {
+      "year": 2025,
+      "week": 11,
+      "o0": "Peter Ott",
+      "p0": 97.02,
+      "o1": "Malcolm Lapone",
+      "p1": 86.43
+    },
+    {
+      "year": 2025,
+      "week": 11,
+      "o0": "Tony Bevilaqua",
+      "p0": 91.44,
+      "o1": "Kevin Etwaroo",
+      "p1": 78.73
+    },
+    {
+      "year": 2025,
+      "week": 11,
+      "o0": "Ed Shively",
+      "p0": 123.49,
+      "o1": "Joshua",
+      "p1": 139.14
+    },
+    {
+      "year": 2025,
+      "week": 11,
+      "o0": "Jeff Lobdell",
+      "p0": 112.38,
+      "o1": "Brian Marois",
+      "p1": 131.25
+    },
+    {
+      "year": 2025,
+      "week": 12,
+      "o0": "Lee Bertram",
+      "p0": 78.27,
+      "o1": "Malcolm Lapone",
+      "p1": 109.66
+    },
+    {
+      "year": 2025,
+      "week": 12,
+      "o0": "Chris Dupay",
+      "p0": 79.8,
+      "o1": "Peter Ott",
+      "p1": 143.13
+    },
+    {
+      "year": 2025,
+      "week": 12,
+      "o0": "Kenny Smith",
+      "p0": 115.28,
+      "o1": "Ed Shively",
+      "p1": 121.13
+    },
+    {
+      "year": 2025,
+      "week": 12,
+      "o0": "Tony Bevilaqua",
+      "p0": 127.6,
+      "o1": "Jeff Lobdell",
+      "p1": 135.83
+    },
+    {
+      "year": 2025,
+      "week": 12,
+      "o0": "Kevin Etwaroo",
+      "p0": 129.44,
+      "o1": "Christopher Hayes",
+      "p1": 79.77
+    },
+    {
+      "year": 2025,
+      "week": 12,
+      "o0": "Joshua",
+      "p0": 172.34,
+      "o1": "Brian Marois",
+      "p1": 116.66
+    },
+    {
+      "year": 2025,
+      "week": 13,
+      "o0": "Lee Bertram",
+      "p0": 138.0,
+      "o1": "Chris Dupay",
+      "p1": 62.39
+    },
+    {
+      "year": 2025,
+      "week": 13,
+      "o0": "Peter Ott",
+      "p0": 103.06,
+      "o1": "Kenny Smith",
+      "p1": 123.61
+    },
+    {
+      "year": 2025,
+      "week": 13,
+      "o0": "Tony Bevilaqua",
+      "p0": 157.89,
+      "o1": "Joshua",
+      "p1": 102.82
+    },
+    {
+      "year": 2025,
+      "week": 13,
+      "o0": "Ed Shively",
+      "p0": 107.48,
+      "o1": "Brian Marois",
+      "p1": 117.97
+    },
+    {
+      "year": 2025,
+      "week": 13,
+      "o0": "Malcolm Lapone",
+      "p0": 93.67,
+      "o1": "Kevin Etwaroo",
+      "p1": 111.58
+    },
+    {
+      "year": 2025,
+      "week": 13,
+      "o0": "Jeff Lobdell",
+      "p0": 115.43,
+      "o1": "Christopher Hayes",
+      "p1": 82.06
+    },
+    {
+      "year": 2025,
+      "week": 14,
+      "o0": "Lee Bertram",
+      "p0": 157.17,
+      "o1": "Kenny Smith",
+      "p1": 122.92
+    },
+    {
+      "year": 2025,
+      "week": 14,
+      "o0": "Chris Dupay",
+      "p0": 95.64,
+      "o1": "Kevin Etwaroo",
+      "p1": 68.92
+    },
+    {
+      "year": 2025,
+      "week": 14,
+      "o0": "Peter Ott",
+      "p0": 61.0,
+      "o1": "Ed Shively",
+      "p1": 93.44
+    },
+    {
+      "year": 2025,
+      "week": 14,
+      "o0": "Tony Bevilaqua",
+      "p0": 117.73,
+      "o1": "Brian Marois",
+      "p1": 128.21
+    },
+    {
+      "year": 2025,
+      "week": 14,
+      "o0": "Malcolm Lapone",
+      "p0": 119.54,
+      "o1": "Jeff Lobdell",
+      "p1": 89.18
+    },
+    {
+      "year": 2025,
+      "week": 14,
+      "o0": "Joshua",
+      "p0": 155.39,
+      "o1": "Christopher Hayes",
+      "p1": 100.26
+    }
+  ]
 }

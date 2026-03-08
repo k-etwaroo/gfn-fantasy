@@ -859,6 +859,191 @@
   }
   .rivalry-detail span { color: var(--text); }
 
+  /* ON THIS DAY WIDGET */
+  .on-this-day {
+    border-left: 3px solid var(--gold);
+    background: var(--dark2);
+    padding: 0.8rem 1rem 0.8rem 1.1rem;
+    margin-bottom: 1.25rem;
+    border-radius: 0 2px 2px 0;
+  }
+  .otd-header {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+  }
+  .otd-fact {
+    font-size: 0.82rem;
+    color: var(--text);
+    margin-bottom: 0.3rem;
+    line-height: 1.45;
+  }
+  .otd-fact:last-child { margin-bottom: 0; }
+
+  /* TROPHY CABINET */
+  @keyframes trophyDrop {
+    0%   { opacity: 0; transform: translateY(-18px) scale(0.82); }
+    65%  { transform: translateY(4px) scale(1.06); }
+    100% { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  @keyframes trophyGlow {
+    0%, 100% { text-shadow: 0 0 8px rgba(212,175,55,0.25); }
+    50%       { text-shadow: 0 0 22px rgba(212,175,55,0.75), 0 0 40px rgba(212,175,55,0.3); }
+  }
+  .trophy-row-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 0.65rem;
+  }
+  .trophy-scroll {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 1.75rem;
+  }
+  .trophy-card {
+    flex: 1 1 calc(20% - 0.6rem);
+    min-width: 90px;
+    max-width: 130px;
+    background: var(--dark3);
+    border: 1px solid rgba(212,175,55,0.18);
+    border-radius: 2px;
+    padding: 0.75rem 0.6rem 0.65rem;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    animation: trophyDrop 0.45s ease forwards;
+    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .trophy-card:hover {
+    transform: translateY(-4px) scale(1.04);
+    border-color: var(--gold);
+    box-shadow: 0 6px 24px rgba(212,175,55,0.2);
+  }
+  .trophy-card.trophy-latest { border-color: rgba(212,175,55,0.4); }
+  .trophy-badge {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.55rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    background: var(--gold);
+    color: var(--dark);
+    padding: 1px 5px;
+    border-radius: 1px;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+  .trophy-icon {
+    font-size: 1.7rem;
+    display: block;
+    animation: trophyGlow 2.5s ease-in-out infinite;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .trophy-year {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    color: var(--gold);
+    letter-spacing: 2px;
+    line-height: 1;
+  }
+  .trophy-owner {
+    font-size: 0.7rem;
+    color: var(--white);
+    font-weight: 600;
+    margin-top: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .trophy-team {
+    font-size: 0.62rem;
+    color: var(--text-dim);
+    margin-top: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  .trophy-record {
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    margin-top: 2px;
+  }
+  @media (max-width: 768px) {
+    .trophy-scroll {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(212,175,55,0.3) transparent;
+      padding-bottom: 0.5rem;
+    }
+    .trophy-card {
+      flex: 0 0 100px;
+      min-width: 100px;
+      max-width: 100px;
+    }
+  }
+
+  /* ENHANCED CAREER PANEL — additional styles */
+  .career-titles-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.6rem 0 1rem;
+  }
+  .career-title-badge {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+    color: var(--gold);
+    background: rgba(212,175,55,0.1);
+    border: 1px solid rgba(212,175,55,0.3);
+    padding: 3px 10px;
+    border-radius: 2px;
+  }
+  .career-no-title {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    font-style: italic;
+    margin: 0.4rem 0 0.9rem;
+  }
+  .team-chips-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 1.25rem;
+  }
+  .team-chip {
+    font-size: 0.78rem;
+    color: var(--text);
+    line-height: 1.4;
+  }
+  .team-chip-year { color: var(--text-dim); font-size: 0.72rem; }
+  .team-chip.champ-team { color: var(--gold); font-weight: 600; }
+  .career-fun-facts {
+    margin-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding-top: 0.85rem;
+  }
+  .career-fun-fact {
+    font-size: 0.81rem;
+    color: var(--text);
+    margin-bottom: 0.4rem;
+    line-height: 1.45;
+  }
+  .career-fun-fact:last-child { margin-bottom: 0; }
+
   /* COLLAPSIBLE STANDINGS */
   .standings-wrap {
     background: var(--dark2);
@@ -1221,6 +1406,13 @@
         <div class="hero-stat"><div class="n">$1,800</div><div class="l">All-Time Paid</div></div>
         <div class="hero-stat"><div class="n">2,340</div><div class="l">Games Played</div></div>
       </div>
+    </div>
+
+    <div class="on-this-day" id="onThisDay" style="display:none;"></div>
+
+    <div>
+      <div class="trophy-row-label">Trophy Cabinet</div>
+      <div class="trophy-scroll" id="trophyScroll"></div>
     </div>
 
     <div class="grid-4">
@@ -2183,6 +2375,111 @@ function renderH2H(o1, o2) {
 
 // ====== CAREER PANEL ======
 let _ownerCareer = {};
+let _funStats = {};
+let _seasonMatchups = [];
+
+// ====== ON THIS DAY ======
+function getCurrentNFLWeek() {
+  const now  = new Date();
+  const year = now.getFullYear();
+  // NFL week 1 ≈ Sept 7 of the current year
+  const seasonStart = new Date(year, 8, 7); // Sep 7
+  const diffDays    = Math.floor((now - seasonStart) / 864e5);
+  if (diffDays >= 0 && diffDays < 119) {          // 17 weeks in season
+    return { week: Math.min(17, Math.floor(diffDays / 7) + 1), inSeason: true };
+  }
+  // Offseason: cycle day-of-year through weeks 1–17
+  const dayOfYear = Math.floor((now - new Date(year, 0, 1)) / 864e5);
+  return { week: (dayOfYear % 17) + 1, inSeason: false };
+}
+
+function buildOnThisDay(matchups) {
+  if (!matchups || !matchups.length) return;
+  const { week, inSeason } = getCurrentNFLWeek();
+  const games = matchups.filter(m => m.week === week);
+  if (!games.length) return;
+
+  // 1. Highest scorer that week across all history
+  let highGame = null;
+  games.forEach(g => {
+    const [owner, pts, opp, opts] = g.p0 >= g.p1
+      ? [g.o0, g.p0, g.o1, g.p1] : [g.o1, g.p1, g.o0, g.p0];
+    if (!highGame || pts > highGame.pts)
+      highGame = { owner, pts, opp, opts, year: g.year };
+  });
+
+  // 2. Closest game (smallest margin)
+  let close = null;
+  games.forEach(g => {
+    const margin = Math.abs(g.p0 - g.p1);
+    if (!close || margin < close.margin) {
+      const [win, lose] = g.p0 > g.p1 ? [g.o0, g.o1] : [g.o1, g.o0];
+      close = { win, lose, margin: margin.toFixed(2), year: g.year };
+    }
+  });
+
+  // 3. Biggest blowout (from a different year than #1 if possible)
+  let blow = null;
+  games.forEach(g => {
+    const margin = Math.abs(g.p0 - g.p1);
+    if ((!blow || margin > blow.margin) && g.year !== highGame?.year) {
+      const [win, lose] = g.p0 > g.p1 ? [g.o0, g.o1] : [g.o1, g.o0];
+      blow = { win, lose, margin: margin.toFixed(1), year: g.year };
+    }
+  });
+  if (!blow) { // fallback: allow same year
+    games.forEach(g => {
+      const margin = Math.abs(g.p0 - g.p1);
+      if (!blow || margin > blow.margin) {
+        const [win, lose] = g.p0 > g.p1 ? [g.o0, g.o1] : [g.o1, g.o0];
+        blow = { win, lose, margin: margin.toFixed(1), year: g.year };
+      }
+    });
+  }
+
+  const facts = [];
+  if (highGame) facts.push(`📈 <strong>${highGame.year}</strong>: ${highGame.owner} put up ${highGame.pts} pts — high for the week`);
+  if (close)    facts.push(`🎯 <strong>${close.year}</strong>: ${close.win} beat ${close.lose} by just ${close.margin} pts`);
+  if (blow)     facts.push(`💥 <strong>${blow.year}</strong>: ${blow.win} torched ${blow.lose} by ${blow.margin} pts`);
+  if (!facts.length) return;
+
+  const label = inSeason ? `📅 This Week (Wk ${week}) in GFN History` : `📅 Week ${week} in GFN History`;
+  const el = document.getElementById('onThisDay');
+  el.style.display = '';
+  el.innerHTML = `<div class="otd-header">${label}</div>${facts.map(f => `<div class="otd-fact">${f}</div>`).join('')}`;
+}
+
+// ====== TROPHY CABINET ======
+function goToSeason(year) {
+  const recBtn = Array.from(document.querySelectorAll('nav button'))
+    .find(b => b.textContent.trim() === 'Historical Records');
+  if (recBtn) showSection('records', recBtn);
+  setTimeout(() => {
+    const yearBtns = document.querySelectorAll('#yearFilter .season-btn');
+    yearBtns.forEach(b => { if (b.textContent.trim() === String(year)) b.click(); });
+  }, 50);
+}
+
+function buildTrophyCabinet(champions) {
+  const scroll = document.getElementById('trophyScroll');
+  if (!scroll || !champions?.length) return;
+  const sorted = [...champions].sort((a, b) => b.year - a.year);
+  const maxYear = sorted[0].year;
+  scroll.innerHTML = sorted.map((c, i) => {
+    const isLatest = c.year === maxYear;
+    const delay    = (i * 0.08).toFixed(2);
+    return `<div class="trophy-card${isLatest ? ' trophy-latest' : ''}"
+        style="animation-delay:${delay}s"
+        onclick="goToSeason(${c.year})">
+      ${isLatest ? '<div class="trophy-badge">Reigning Champ</div>' : ''}
+      <span class="trophy-icon">🏆</span>
+      <div class="trophy-year">${c.year}</div>
+      <div class="trophy-owner">${c.owner}</div>
+      <div class="trophy-team">${c.team}</div>
+      <div class="trophy-record">${c.wins}–${c.losses}</div>
+    </div>`;
+  }).join('');
+}
 
 function openCareerPanel(ownerName) {
   const career = _ownerCareer[ownerName];
@@ -2219,6 +2516,19 @@ function openCareerPanel(ownerName) {
   // Rank chart SVG
   const chartSVG = buildRankChart(seasonEntries);
 
+  // Titles showcase
+  const champYearsArr = Object.entries(career.seasons || {})
+    .filter(([, s]) => s.champion).map(([y]) => y).sort();
+  const titlesHTML = champYearsArr.length
+    ? `<div class="career-titles-row">${champYearsArr.map(y => `<span class="career-title-badge">🏆 ${y}</span>`).join('')}</div>`
+    : `<div class="career-no-title">Still Searching...</div>`;
+
+  // All-time team names
+  const teamChips = seasonEntries.map(([yr, s]) => {
+    const isC = s.champion;
+    return `<div class="team-chip${isC ? ' champ-team' : ''}"><span class="team-chip-year">${yr}</span> · ${s.team || '—'}${isC ? ' 🏆' : ''}</div>`;
+  }).join('');
+
   // H2H summary vs all opponents
   const h2hRows = Object.entries(_h2hData[ownerName] || {})
     .map(([opp, rec]) => {
@@ -2240,14 +2550,31 @@ function openCareerPanel(ownerName) {
     </tr>`;
   }).join('');
 
+  // Fun facts from fun_stats
+  const funFacts = [];
+  const ironEntry  = (_funStats.consecutive_playoffs   || []).find(r => r.owner === ownerName);
+  const hbEntry    = (_funStats.most_points_in_loss    || []).find(r => r.owner === ownerName);
+  const scEntry    = (_funStats.best_record_no_title   || []).find(r => r.owner === ownerName);
+  const cursedEntry = (_funStats.cursed_list           || []).find(r => r.owner === ownerName);
+  if (ironEntry)   funFacts.push(`🏅 ${ironEntry.streak} consecutive playoff appearances (through ${ironEntry.streak_end})`);
+  if (hbEntry)     funFacts.push(`😭 Lost with ${hbEntry.points} pts in ${hbEntry.year} Wk${hbEntry.week} — vs ${hbEntry.opponent} (${hbEntry.opp_points})`);
+  if (scEntry)     funFacts.push(`💔 Went ${scEntry.wins}–${scEntry.losses} in ${scEntry.year} without a title (Rank ${scEntry.rank}, champion: ${scEntry.champion})`);
+  if (cursedEntry) funFacts.push(`😈 ${cursedEntry.seasons} seasons, 0 titles — best finish: ${cursedEntry.closest_finish ? 'Rank ' + cursedEntry.closest_finish : 'N/A'}`);
+  const funFactsHTML = funFacts.length
+    ? `<div class="career-fun-facts">
+        <div class="career-section-title" style="margin-top:0;">Fun Facts</div>
+        ${funFacts.map(f => `<div class="career-fun-fact">${f}</div>`).join('')}
+       </div>`
+    : '';
+
   document.getElementById('careerPanelContent').innerHTML = `
     <div class="career-name">${ownerName}</div>
     <div class="career-meta">
       ${Object.keys(career.seasons || {}).length} Seasons ·
       ${career.total_wins}–${career.total_losses} (${winPct}%) ·
       ${career.titles > 0 ? career.titles + '× Champion' : 'No Championships'}
-      ${champYears ? ' · ' + champYears : ''}
     </div>
+    ${titlesHTML}
 
     <div class="career-section-title">Career Arc · Rank By Season</div>
     ${chartSVG}
@@ -2263,15 +2590,19 @@ function openCareerPanel(ownerName) {
       </table>
     </div>
 
+    <div class="career-section-title">All-Time Team Names</div>
+    <div class="team-chips-wrap">${teamChips}</div>
+
     ${h2hRows.length ? `
     <div class="career-section-title">Head-to-Head vs All Opponents</div>
-    <div class="table-wrap">
+    <div class="table-wrap" style="margin-bottom:0.5rem;">
       <table>
         <thead><tr><th>Manager</th><th>Record</th><th>Win %</th><th>Games</th></tr></thead>
         <tbody>${h2hTableRows}</tbody>
       </table>
     </div>
     ` : ''}
+    ${funFactsHTML}
   `;
 
   document.getElementById('careerOverlay').classList.add('open');
@@ -2549,12 +2880,16 @@ fetch('data/dashboard_data.json')
     buildPRAllTime(data.power_rankings_alltime || []);
     buildCostSheet(managers);
 
-    // H2H, Career, Rivalries
-    _ownerCareer = data.owner_career || {};
+    // H2H, Career, Rivalries, Fun Stats
+    _ownerCareer    = data.owner_career    || {};
+    _funStats       = data.fun_stats       || {};
+    _seasonMatchups = data.season_matchups || [];
     const h2hOwners = Object.keys(data.head_to_head || {});
     buildH2H(data.head_to_head || {}, data.head_to_head_games || {}, h2hOwners);
     buildRivalries(data.rivalries || [], 'dashboardRivalryGrid');
-    buildFunStats(data.fun_stats || null);
+    buildFunStats(_funStats);
+    buildTrophyCabinet(champions);
+    buildOnThisDay(_seasonMatchups);
 
     showApp();
     initStandingsState();

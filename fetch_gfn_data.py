@@ -892,6 +892,7 @@ def build_dashboard_data():
         "owner_career":            owner_career,
         "rivalries":               rivalries,
         "fun_stats":               fun_stats,
+        "season_matchups":         game_log,
     }
 
     out = OUTPUT_DIR / "dashboard_data.json"
