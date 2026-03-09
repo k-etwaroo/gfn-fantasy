@@ -88,6 +88,21 @@
     text-transform: uppercase;
   }
 
+  .commish-gear {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1;
+    color: var(--gold);
+    text-decoration: none;
+    opacity: 0.7;
+    min-width: 44px;
+    min-height: 44px;
+    transition: transform 0.3s ease, opacity 0.2s;
+  }
+  .commish-gear:hover { transform: rotate(180deg); opacity: 1; }
+
   .season-badge {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 0.7rem;
@@ -1634,7 +1649,10 @@
     <div class="logo-gfn">GFN</div>
     <div class="logo-sub">Fantasy League · Est. 2011</div>
   </div>
-  <div class="season-badge">2025 SEASON ACTIVE</div>
+  <div style="display:flex;align-items:center;gap:8px;">
+    <div class="season-badge">2025 SEASON ACTIVE</div>
+    <a href="/commish.html" class="commish-gear" title="Commish Dashboard">⚙️</a>
+  </div>
 </header>
 
 <nav>
