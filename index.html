@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1a2e1a">
+<meta property="og:title" content="GFN Fantasy League">
+<meta property="og:description" content="15 seasons of GFN fantasy football history">
 <title>GFN Fantasy League</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,400;0,600;0,700;1,400&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
@@ -1505,6 +1508,19 @@
     line-height: 1.6;
   }
 </style>
+<script>
+(function() {
+  const canvas = document.createElement('canvas');
+  canvas.width = 32; canvas.height = 32;
+  const ctx = canvas.getContext('2d');
+  ctx.font = '28px serif';
+  ctx.fillText('🏆', 2, 26);
+  const link = document.createElement('link');
+  link.rel = 'icon';
+  link.href = canvas.toDataURL();
+  document.head.appendChild(link);
+})();
+</script>
 </head>
 <body>
 
@@ -1555,6 +1571,39 @@
     "></div>
   </div>
   <div style="font-family:'Barlow Condensed',sans-serif; font-size:0.75rem; letter-spacing:3px; color:var(--text-dim);">LOADING DATA</div>
+
+  <!-- Skeleton preview -->
+  <div style="width:min(480px,90vw); margin-top:2rem; display:flex; flex-direction:column; gap:1.2rem;">
+    <!-- Hero stat row -->
+    <div style="display:flex; gap:0.6rem;">
+      <div class="skeleton" style="flex:1; height:48px; border-radius:8px;"></div>
+      <div class="skeleton" style="flex:1; height:48px; border-radius:8px;"></div>
+      <div class="skeleton" style="flex:1; height:48px; border-radius:8px;"></div>
+      <div class="skeleton" style="flex:1; height:48px; border-radius:8px;"></div>
+    </div>
+    <!-- Trophy cabinet -->
+    <div style="display:flex; gap:0.5rem; overflow:hidden;">
+      <div class="skeleton" style="flex:0 0 90px; height:108px; border-radius:8px;"></div>
+      <div class="skeleton" style="flex:0 0 90px; height:108px; border-radius:8px;"></div>
+      <div class="skeleton" style="flex:0 0 90px; height:108px; border-radius:8px;"></div>
+      <div class="skeleton" style="flex:0 0 90px; height:108px; border-radius:8px;"></div>
+      <div class="skeleton" style="flex:0 0 90px; height:108px; border-radius:8px;"></div>
+    </div>
+    <!-- Stat cards 2x2 -->
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.6rem;">
+      <div class="skeleton" style="height:80px; border-radius:8px;"></div>
+      <div class="skeleton" style="height:80px; border-radius:8px;"></div>
+      <div class="skeleton" style="height:80px; border-radius:8px;"></div>
+      <div class="skeleton" style="height:80px; border-radius:8px;"></div>
+    </div>
+    <!-- Fun stat bars -->
+    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+      <div class="skeleton" style="height:38px; border-radius:6px;"></div>
+      <div class="skeleton" style="height:38px; border-radius:6px;"></div>
+      <div class="skeleton" style="height:38px; border-radius:6px;"></div>
+      <div class="skeleton" style="height:38px; border-radius:6px;"></div>
+    </div>
+  </div>
 </div>
 
 <style>
@@ -1563,6 +1612,18 @@
   50%  { width:60%;  margin-left:20%; }
   100% { width:0%;   margin-left:100%; }
 }
+@keyframes shimmer {
+  0%   { background-position: -1000px 0; }
+  100% { background-position:  1000px 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, #1a2e1a 25%, #243d24 50%, #1a2e1a 75%);
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite linear;
+  border-radius: 4px;
+}
+#mainContent { opacity: 0; transition: opacity 0.3s; }
+#mainContent.loaded { opacity: 1; }
 </style>
 
 <main style="display:none;" id="mainContent">
@@ -1972,8 +2033,13 @@
 
 <script>
 function showApp() {
-  document.getElementById('loadingOverlay').style.display = 'none';
-  document.getElementById('mainContent').style.display = 'block';
+  const overlay = document.getElementById('loadingOverlay');
+  overlay.style.transition = 'opacity 0.3s';
+  overlay.style.opacity = '0';
+  setTimeout(() => { overlay.style.display = 'none'; }, 320);
+  const main = document.getElementById('mainContent');
+  main.style.display = 'block';
+  requestAnimationFrame(() => main.classList.add('loaded'));
 }
 // ====== RENDER FUNCTIONS ======
 
@@ -2054,6 +2120,7 @@ function buildChampRoll(champions) {
 }
 
 function renderSeasonView(year) {
+  document.title = `${year} Season · GFN Fantasy`;
   const rollCard = document.getElementById('champRollCard');
   const view    = document.getElementById('seasonView');
   rollCard.style.display = 'none';
@@ -2441,6 +2508,7 @@ function buildH2H(h2hData, h2hGames, ownerNames) {
 }
 
 function renderH2H(o1, o2) {
+  if (o1 && o2) document.title = `${o1} vs ${o2} · GFN Fantasy`;
   const heroEl    = document.getElementById('h2hHero');
   const cardsEl   = document.getElementById('h2hStatCards');
   const tableCard = document.getElementById('h2hTableCard');
@@ -2672,6 +2740,7 @@ function buildTrophyCabinet(champions) {
 function openCareerPanel(ownerName) {
   const career = _ownerCareer[ownerName];
   if (!career) return;
+  document.title = `${ownerName} · GFN Fantasy`;
 
   const totalGames = career.total_wins + career.total_losses;
   const winPct     = totalGames > 0 ? (career.total_wins / totalGames * 100).toFixed(1) : '—';
@@ -2807,6 +2876,7 @@ function closeCareerPanel() {
   document.getElementById('careerOverlay').classList.remove('open');
   document.getElementById('careerPanel').classList.remove('open');
   document.body.style.overflow = '';
+  document.title = 'GFN Fantasy League';
   history.pushState({}, '', location.pathname);
 }
 
@@ -2966,11 +3036,20 @@ function buildRivalries(rivalries, elementId) {
 }
 
 // ====== NAV ======
+const _sectionTitles = {
+  dashboard: 'GFN Fantasy League',
+  records:   'Historical Records · GFN Fantasy',
+  h2h:       'Head to Head · GFN Fantasy',
+  luck:      'Luck Index · GFN Fantasy',
+  power:     'Power Rankings · GFN Fantasy',
+  cost:      'Cost Sheet · GFN Fantasy',
+};
 function showSection(id, btn) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   btn.classList.add('active');
+  document.title = _sectionTitles[id] || 'GFN Fantasy League';
 }
 
 // ====== SEARCH ======
@@ -3322,8 +3401,8 @@ fetch('data/dashboard_data.json')
   .catch(err => {
     console.error('Failed to load dashboard data:', err);
     document.getElementById('loadingOverlay').innerHTML = `
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:#e74c3c;letter-spacing:3px;">LOAD ERROR</div>
-      <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;letter-spacing:2px;color:var(--text-dim);">Could not load dashboard_data.json</div>
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:#e74c3c;letter-spacing:3px;">⚠️ Could not load league data.</div>
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.9rem;letter-spacing:1px;color:var(--text-dim);margin-top:0.5rem;">Try refreshing the page.</div>
     `;
   });
 </script>
