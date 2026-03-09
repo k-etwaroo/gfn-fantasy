@@ -1781,9 +1781,19 @@
 
     <div id="seasonView" style="display:none; animation: fadeIn 0.3s ease both; margin-bottom:1.5rem;">
       <div class="card" style="margin-bottom:1rem;" id="seasonChampCard"></div>
-      <div class="recap-area" id="aiRecapArea">
-        <div class="recap-label">✨ AI Recap</div>
-        <div id="aiRecapContent"></div>
+      <div id="ai-recap-container" style="margin:0 0 24px 0;">
+        <div id="ai-recap-loading" style="display:none;">
+          <div class="skeleton" style="height:80px;border-radius:8px;"></div>
+        </div>
+        <div id="ai-recap-text" style="display:none;
+          border-left:3px solid var(--gold);
+          padding:16px 20px;
+          background:rgba(212,175,55,0.05);
+          border-radius:0 8px 8px 0;
+          margin-top:0;">
+          <div style="font-size:0.7rem;letter-spacing:2px;color:var(--gold);margin-bottom:8px;">✨ AI RECAP</div>
+          <p id="ai-recap-content" style="font-style:italic;color:#ccc;line-height:1.6;margin:0;font-size:0.95rem;"></p>
+        </div>
       </div>
       <div class="card">
         <div class="card-title" id="seasonStandingsTitle">Season Standings</div>
@@ -3235,34 +3245,35 @@ function handleURLParams() {
 const _recapCache = {};
 
 async function fetchSeasonRecap(year) {
-  const area    = document.getElementById('aiRecapArea');
-  const content = document.getElementById('aiRecapContent');
-  if (!area || !content) return;
+  const container = document.getElementById('ai-recap-text');
+  const content   = document.getElementById('ai-recap-content');
+  const loading   = document.getElementById('ai-recap-loading');
+  if (!container || !content) return;
 
   if (_recapCache[year]) {
-    area.style.display = '';
-    content.innerHTML  = `<div class="recap-text">${_recapCache[year]}</div>`;
+    content.textContent    = _recapCache[year];
+    container.style.display = 'block';
+    if (loading) loading.style.display = 'none';
     return;
   }
 
-  area.style.display = '';
-  content.innerHTML  = '<div class="recap-shimmer"></div>';
+  // Show loading skeleton
+  if (loading) loading.style.display = 'block';
+  container.style.display = 'none';
 
   const standings = (_seasonStandings[String(year)] || []).slice().sort((a, b) => a.rank - b.rank);
   const champ     = standings.find(e => e.rank === 1);
   const runnerUp  = standings.find(e => e.rank === 2);
   const rs1       = standings[0];
 
-  if (!champ) { area.style.display = 'none'; return; }
+  if (!champ) { if (loading) loading.style.display = 'none'; return; }
 
   const prompt = `You are a witty fantasy football league historian for the GFN league. Write a 2-3 sentence dramatic season recap for ${year}. Champion: ${champ.owner} with team "${champ.team}", record ${champ.wins}-${champ.losses}. Key stats: ${champ.pts_for?.toFixed(1)} points scored. Other notables: regular season 1st place was ${rs1?.owner ?? 'unknown'}, runner up was ${runnerUp?.owner ?? 'unknown'}. Be dramatic, funny, and use sports announcer language. Keep it under 60 words.`;
 
   try {
     const resp = await fetch('https://gfn-ai.kevin-etwaroo.workers.dev', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001',
         max_tokens: 1024,
@@ -3276,10 +3287,12 @@ async function fetchSeasonRecap(year) {
     console.log('AI recap text:', text);
     if (!text) throw new Error('empty response');
     _recapCache[year] = text;
-    content.innerHTML = `<div class="recap-text">${text}</div>`;
+    content.textContent    = text;
+    container.style.display = 'block';
+    if (loading) loading.style.display = 'none';
   } catch (err) {
     console.error('AI recap error:', err);
-    area.style.display = 'none';
+    if (loading) loading.style.display = 'none';
   }
 }
 
