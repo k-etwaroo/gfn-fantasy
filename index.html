@@ -3484,9 +3484,9 @@ function renderBracket(year) {
   const bracket = _advancedStats?.playoff_brackets?.[String(year)];
   if (!bracket) { el.style.display = 'none'; return; }
 
-  const byes   = bracket.byes   || [];
-  const round1 = bracket.round1 || [];
-  const semis  = bracket.semifinals || [];
+  const byes   = (bracket.byes   || []).slice(0, 2);
+  const round1 = (bracket.round1 || []).slice(0, 2);
+  const semis  = (bracket.semifinals || []).slice(0, 2);
   const champ  = bracket.finals?.championship;
   const third  = bracket.finals?.third_place;
 
