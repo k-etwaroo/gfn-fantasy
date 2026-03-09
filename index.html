@@ -3258,11 +3258,10 @@ async function fetchSeasonRecap(year) {
   const prompt = `You are a witty fantasy football league historian for the GFN league. Write a 2-3 sentence dramatic season recap for ${year}. Champion: ${champ.owner} with team "${champ.team}", record ${champ.wins}-${champ.losses}. Key stats: ${champ.pts_for?.toFixed(1)} points scored. Other notables: regular season 1st place was ${rs1?.owner ?? 'unknown'}, runner up was ${runnerUp?.owner ?? 'unknown'}. Be dramatic, funny, and use sports announcer language. Keep it under 60 words.`;
 
   try {
-    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+    const resp = await fetch('https://gfn-ai.kevin-etwaroo.workers.dev', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'anthropic-beta': 'output-128k-2025-02-19',
       },
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001',
