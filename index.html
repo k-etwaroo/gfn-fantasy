@@ -1575,6 +1575,23 @@
   .excuse-regen-btn { background:transparent; border:1px solid rgba(212,175,55,0.4); border-radius:5px; color:var(--gold); font-family:'Barlow Condensed',sans-serif; font-size:0.8rem; letter-spacing:1px; padding:0.3rem 0.7rem; cursor:pointer; transition:background 0.2s; }
   .excuse-regen-btn:hover { background:rgba(212,175,55,0.1); }
   .excuse-shimmer { height:72px; border-radius:6px; }
+
+  /* ── RECORDS WALL ── */
+  .rec-random-btn { background:transparent; border:1px solid rgba(212,175,55,0.4); border-radius:6px; color:var(--gold); font-family:'Bebas Neue',sans-serif; font-size:0.9rem; letter-spacing:2px; padding:0.45rem 1.1rem; cursor:pointer; transition:background 0.2s; }
+  .rec-random-btn:hover { background:rgba(212,175,55,0.1); }
+  .rec-section-label { font-family:'Bebas Neue',sans-serif; font-size:1rem; letter-spacing:3px; color:var(--text-dim); margin:1.75rem 0 0.75rem; padding-bottom:0.4rem; border-bottom:1px solid rgba(255,255,255,0.08); }
+  .rec-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }
+  .rec-card { background:rgba(255,255,255,0.03); border:1px solid rgba(212,175,55,0.2); border-radius:10px; padding:1.1rem 1rem; position:relative; transition:border-color 0.2s, box-shadow 0.2s; }
+  .rec-card:hover { border-color:rgba(212,175,55,0.45); }
+  .rec-card.rec-highlight { border-color:var(--gold); animation:recGlow 1.5s ease-in-out infinite alternate; }
+  @keyframes recGlow { 0%{box-shadow:0 0 8px rgba(212,175,55,0.3);} 100%{box-shadow:0 0 24px rgba(212,175,55,0.65), 0 0 48px rgba(212,175,55,0.25);} }
+  .rec-icon { font-size:1.5rem; margin-bottom:0.35rem; line-height:1; }
+  .rec-category { font-size:0.62rem; letter-spacing:1.8px; color:var(--text-dim); text-transform:uppercase; margin-bottom:0.45rem; font-family:'Barlow Condensed',sans-serif; }
+  .rec-value { font-family:'Bebas Neue',sans-serif; font-size:2rem; color:var(--gold); line-height:1; margin-bottom:0.25rem; }
+  .rec-holder { font-size:0.88rem; font-weight:700; color:var(--text); margin-bottom:0.2rem; }
+  .rec-context { font-size:0.72rem; color:var(--text-dim); line-height:1.45; }
+  @media(max-width:900px) { .rec-grid { grid-template-columns:repeat(2,1fr); } }
+  @media(max-width:520px)  { .rec-grid { grid-template-columns:1fr; } }
 </style>
 <script>
 (function() {
@@ -1603,6 +1620,7 @@
 <nav>
   <button class="active" onclick="showSection('dashboard', this)">Dashboard</button>
   <button onclick="showSection('records', this)">Historical Records</button>
+  <button onclick="showSection('recordswall', this)">Records</button>
   <button onclick="showSection('h2h', this)">Head to Head</button>
   <button onclick="showSection('luck', this)">Luck Index</button>
   <button onclick="showSection('power', this)">Power Rankings</button>
@@ -1913,6 +1931,16 @@
       </div>
     </div>
 
+  </div>
+
+  <!-- RECORDS WALL -->
+  <div class="section" id="recordswall">
+    <div class="section-title">All-Time <span>Records</span></div>
+    <div class="section-sub">15 Seasons · Every Milestone · Every Heartbreak</div>
+    <div style="margin-bottom:0.5rem;">
+      <button class="rec-random-btn" onclick="highlightRandomRecord()">🎲 Random Record</button>
+    </div>
+    <div id="recGrid"></div>
   </div>
 
   <!-- HEAD TO HEAD -->
@@ -2792,6 +2820,8 @@ let _funStats = {};
 let _seasonMatchups = [];
 let _advancedStats = {};
 let _wiYear = 2024;
+let _weeklyHighs = {};
+let _blowoutsStreaks = {};
 
 // ====== ON THIS DAY ======
 function getCurrentNFLWeek() {
@@ -3197,8 +3227,9 @@ function buildRivalries(rivalries, elementId) {
 // ====== NAV ======
 const _sectionTitles = {
   dashboard: 'GFN Fantasy League',
-  records:   'Historical Records · GFN Fantasy',
-  h2h:       'Head to Head · GFN Fantasy',
+  records:     'Historical Records · GFN Fantasy',
+  recordswall: 'All-Time Records · GFN Fantasy',
+  h2h:         'Head to Head · GFN Fantasy',
   luck:      'Luck Index · GFN Fantasy',
   power:     'Power Rankings · GFN Fantasy',
   whatif:    'What If? · GFN Fantasy',
@@ -3790,6 +3821,189 @@ function runWhatIf() {
   </div>`;
 }
 
+// ====== RECORDS WALL ======
+function buildRecordsWall(data, advanced, weeklyHighs, blowoutsStreaks) {
+  const el = document.getElementById('recGrid');
+  if (!el) return;
+
+  const standings  = data.season_standings  || {};
+  const matchups   = data.season_matchups   || [];
+  const h2h        = data.head_to_head      || {};
+  const champions  = data.champions         || [];
+  const ownerStats = data.owner_stats       || {};
+  const funStats   = data.fun_stats         || {};
+
+  // ── Championships ──
+  const titlesMap = {};
+  champions.forEach(c => titlesMap[c.owner] = (titlesMap[c.owner] || 0) + 1);
+  const mostTitles = Object.entries(titlesMap).sort((a, b) => b[1] - a[1])[0];
+  const mostTitlesYears = champions.filter(c => c.owner === mostTitles[0]).map(c => c.year).join(', ');
+
+  const b2b = [];
+  for (let i = 1; i < champions.length; i++) {
+    if (champions[i].owner === champions[i - 1].owner)
+      b2b.push({ owner: champions[i].owner, years: `${champions[i-1].year}–${champions[i].year}` });
+  }
+
+  const finalsApps = {};
+  Object.values(advanced.playoff_brackets || {}).forEach(br => {
+    const ch = br.finals?.championship;
+    if (ch) [ch.t1, ch.t2].forEach(p => p && (finalsApps[p] = (finalsApps[p] || 0) + 1));
+  });
+  const topFinalsCount = Math.max(...Object.values(finalsApps));
+  const topFinalsOwners = Object.entries(finalsApps).filter(([, v]) => v === topFinalsCount).map(([k]) => k);
+
+  // ── Single Season ──
+  let maxWins = { wins: 0 }, bestPct = { pct: 0 }, champLowPts = { pts: 99999 };
+  let highSeasonPts = { pts: 0 }, highPtsMissPlayoff = { pts: 0 };
+
+  Object.entries(standings).forEach(([yr, entries]) => {
+    const numTeams = entries.length;
+    const cutoff   = numTeams <= 8 ? 4 : numTeams <= 10 ? 4 : 6;
+    entries.forEach(e => {
+      const w = e.wins || 0, l = e.losses || 0, g = w + l;
+      if (g < 10) return;
+      const pct = w / g;
+      if (w > maxWins.wins) maxWins = { wins: w, losses: l, owner: e.owner, year: yr };
+      if (pct > bestPct.pct) bestPct = { pct, wins: w, losses: l, owner: e.owner, year: yr };
+      if ((e.pts_for || 0) > highSeasonPts.pts) highSeasonPts = { pts: e.pts_for, owner: e.owner, year: yr };
+      if (e.rank === 1 && (e.pts_for || 0) < champLowPts.pts) champLowPts = { pts: e.pts_for, owner: e.owner, year: yr };
+      if (e.rank > cutoff && (e.pts_for || 0) > highPtsMissPlayoff.pts)
+        highPtsMissPlayoff = { pts: e.pts_for, owner: e.owner, year: yr, rank: e.rank };
+    });
+  });
+
+  // ── Futility ──
+  let minWins = { wins: 99 }, mostPtsLoss = { pts: 0 }, closestGame = { margin: 99999 }, biggestBlowout = { margin: 0 };
+
+  Object.entries(standings).forEach(([yr, entries]) => {
+    entries.forEach(e => {
+      const w = e.wins || 0, l = e.losses || 0, g = w + l;
+      if (g < 13) return;
+      if (w < minWins.wins) minWins = { wins: w, losses: l, owner: e.owner, year: yr };
+    });
+  });
+
+  const lastPlaceCount = {};
+  Object.entries(standings).forEach(([, entries]) => {
+    if (!entries.length) return;
+    const maxRank = Math.max(...entries.map(e => e.rank || 0));
+    entries.filter(e => e.rank === maxRank).forEach(e => {
+      if (e.owner) lastPlaceCount[e.owner] = (lastPlaceCount[e.owner] || 0) + 1;
+    });
+  });
+  const mostLastPlace = Object.entries(lastPlaceCount).sort((a, b) => b[1] - a[1])[0];
+
+  matchups.forEach(m => {
+    const margin = Math.abs(m.p0 - m.p1);
+    const loserPts = Math.min(m.p0, m.p1);
+    const loser    = m.p0 < m.p1 ? m.o0 : m.o1;
+    const winner   = m.p0 > m.p1 ? m.o0 : m.o1;
+    const winPts   = Math.max(m.p0, m.p1);
+    if (loserPts > mostPtsLoss.pts) mostPtsLoss = { pts: loserPts, owner: loser, year: m.year, week: m.week };
+    if (margin < closestGame.margin) closestGame = { margin, winner, loser, winPts, loserPts: loserPts, year: m.year, week: m.week };
+    if (margin > biggestBlowout.margin) biggestBlowout = { margin, winner, loser, winPts, loserPts: loserPts, year: m.year, week: m.week };
+  });
+
+  const titlessOwners = Object.entries(ownerStats)
+    .filter(([, s]) => s.titles === 0 && s.seasons >= 5)
+    .sort((a, b) => b[1].seasons - a[1].seasons);
+  const mostSeasonsNoTitle = titlessOwners[0];
+
+  // ── H2H ──
+  let mostH2HGames = { games: 0 }, mostDominant = { pct: 0 };
+  Object.entries(h2h).forEach(([owner, opps]) => {
+    Object.entries(opps).forEach(([opp, rec]) => {
+      const g = (rec.wins || 0) + (rec.losses || 0);
+      if (g > mostH2HGames.games) mostH2HGames = { games: g, o1: owner, o2: opp, w: rec.wins, l: rec.losses };
+      if (g >= 5 && rec.wins / g > mostDominant.pct)
+        mostDominant = { pct: rec.wins / g, wins: rec.wins, losses: rec.losses, o1: owner, o2: opp, games: g };
+    });
+  });
+
+  // ── Scoring ──
+  let highWeekScore = { pts: 0 }, lowWinScore = { pts: 99999 };
+  Object.entries(weeklyHighs).forEach(([yr, yd]) => {
+    Object.entries(yd.weekly_highs || {}).forEach(([wk, entry]) => {
+      if (entry.points > highWeekScore.pts) highWeekScore = { pts: entry.points, owner: entry.owner, year: yr, week: wk };
+    });
+  });
+  matchups.forEach(m => {
+    const winPts = Math.max(m.p0, m.p1);
+    const winner = m.p0 > m.p1 ? m.o0 : m.o1;
+    if (winPts < lowWinScore.pts) lowWinScore = { pts: winPts, owner: winner, year: m.year, week: m.week };
+  });
+
+  // ── Streaks ──
+  let bestWinStreak = { streak: 0 };
+  Object.entries(blowoutsStreaks).forEach(([yr, yd]) => {
+    const ws = yd.win_streak || {};
+    if ((ws.streak || 0) > bestWinStreak.streak) bestWinStreak = { streak: ws.streak, owner: ws.owner, year: yr };
+  });
+  const longestPlayoff = (funStats.consecutive_playoffs || [])[0] || {};
+
+  // ── Build card sections ──
+  function card(icon, cat, value, holder, ctx) {
+    const holderHTML = holder ? ownerLink(holder) : '—';
+    return `<div class="rec-card" data-rec>
+      <div class="rec-icon">${icon}</div>
+      <div class="rec-category">${cat}</div>
+      <div class="rec-value">${value}</div>
+      <div class="rec-holder">${holderHTML}</div>
+      <div class="rec-context">${ctx}</div>
+    </div>`;
+  }
+
+  const sections = [
+    { label: '🏆 Championships', cards: [
+      card('🏆', 'Most Titles Ever',          `${mostTitles[1]}×`,                mostTitles[0],  mostTitlesYears),
+      card('🔁', 'Back-to-Back Champion',     b2b.length ? b2b[0].years : 'N/A',  b2b[0]?.owner || null, b2b.length > 1 ? `Also: ${b2b.slice(1).map(x => x.owner.split(' ')[0]+' '+x.years).join(' · ')}` : b2b.length ? 'Only back-to-back in league history' : ''),
+      card('🎯', 'Most Finals Appearances',   `${topFinalsCount}× (tied)`,        topFinalsOwners[0], topFinalsOwners.map(n => n.split(' ')[0]).join(', ')),
+    ]},
+    { label: '📈 Single Season Records', cards: [
+      card('📈', 'Most Wins in a Season',     `${maxWins.wins}–${maxWins.losses}`, maxWins.owner, `${maxWins.year} · ${(maxWins.wins/(maxWins.wins+maxWins.losses)*100).toFixed(1)}% win rate`),
+      card('💯', 'Best Single-Season Win %',  `${(bestPct.pct*100).toFixed(1)}%`,  bestPct.owner,  `${bestPct.year} · ${bestPct.wins}–${bestPct.losses}`),
+      card('🔢', 'Highest Season Points',     `${highSeasonPts.pts.toFixed(0)}`,   highSeasonPts.owner, `${highSeasonPts.year} regular season`),
+      card('🤏', 'Champ with Fewest Points',  `${champLowPts.pts.toFixed(0)} pts`, champLowPts.owner, `${champLowPts.year} · Won it all on the cheap`),
+      card('😤', 'Most Points, No Playoffs',  `${highPtsMissPlayoff.pts.toFixed(0)} pts`, highPtsMissPlayoff.owner, `${highPtsMissPlayoff.year} · Finished rank ${highPtsMissPlayoff.rank}`),
+    ]},
+    { label: '📉 Futility Records', cards: [
+      card('⏳', 'Most Seasons Without Title', `${mostSeasonsNoTitle[1].seasons} seasons`, mostSeasonsNoTitle[0], 'Still searching...'),
+      card('🚽', 'Most Last-Place Finishes',   `${mostLastPlace[1]}×`,              mostLastPlace[0], 'Toilet Bowl royalty'),
+      card('💀', 'Worst Record Ever',          `${minWins.wins}–${minWins.losses}`, minWins.owner, `${minWins.year} · ${(minWins.wins/(minWins.wins+minWins.losses)*100).toFixed(1)}% win rate`),
+      card('💔', 'Most Points in a Loss',      `${mostPtsLoss.pts.toFixed(2)} pts`, mostPtsLoss.owner, `${mostPtsLoss.year} Wk ${mostPtsLoss.week} · Lost anyway`),
+      card('😵', 'Biggest Blowout — Victim',   `−${biggestBlowout.margin.toFixed(1)}`, biggestBlowout.loser, `${biggestBlowout.year} Wk ${biggestBlowout.week} · Opp scored ${biggestBlowout.winPts.toFixed(1)}`),
+    ]},
+    { label: '⚔️ Head to Head Records', cards: [
+      card('⚔️', 'Most Games vs One Opponent', `${mostH2HGames.games} games`,      mostH2HGames.o1, `vs ${mostH2HGames.o2.split(' ')[0]} · ${mostH2HGames.w}–${mostH2HGames.l}`),
+      card('👑', 'Most Dominant vs One Opp',   `${(mostDominant.pct*100).toFixed(0)}%`, mostDominant.o1, `${mostDominant.wins}–${mostDominant.losses} vs ${mostDominant.o2.split(' ')[0]} (${mostDominant.games}g)`),
+    ]},
+    { label: '🎯 Scoring Records', cards: [
+      card('🔥', 'Highest Single-Week Score',  `${highWeekScore.pts.toFixed(2)}`,   highWeekScore.owner, `${highWeekScore.year} Week ${highWeekScore.week}`),
+      card('🤞', 'Lowest Winning Score',       `${lowWinScore.pts.toFixed(2)} pts`, lowWinScore.owner, `${lowWinScore.year} Wk ${lowWinScore.week} · A W is a W`),
+      card('🔬', 'Closest Game Ever',          `${Math.max(closestGame.margin, 0.01).toFixed(2)} pts`, closestGame.winner, `${closestGame.year} Wk ${closestGame.week} · ${closestGame.winPts.toFixed(2)} vs ${closestGame.loserPts.toFixed(2)}`),
+      card('💥', 'Biggest Blowout Ever',       `+${biggestBlowout.margin.toFixed(1)} pts`, biggestBlowout.winner, `${biggestBlowout.year} Wk ${biggestBlowout.week} · ${biggestBlowout.winPts.toFixed(1)} vs ${biggestBlowout.loserPts.toFixed(1)}`),
+    ]},
+    { label: '📅 Season Streaks', cards: [
+      card('🏆', 'Longest Playoff Streak',     `${longestPlayoff.streak || '—'} seasons`, longestPlayoff.owner || null, longestPlayoff.streak_end ? `Streak ended ${longestPlayoff.streak_end}` : ''),
+      card('🔥', 'Best Win Streak in a Season', `${bestWinStreak.streak} wins`,     bestWinStreak.owner, `${bestWinStreak.year} season · ${bestWinStreak.streak} in a row`),
+    ]},
+  ];
+
+  el.innerHTML = sections.map(s =>
+    `<div class="rec-section-label">${s.label}</div><div class="rec-grid">${s.cards.join('')}</div>`
+  ).join('');
+}
+
+function highlightRandomRecord() {
+  const cards = Array.from(document.querySelectorAll('#recGrid .rec-card'));
+  if (!cards.length) return;
+  cards.forEach(c => c.classList.remove('rec-highlight'));
+  const pick = cards[Math.floor(Math.random() * cards.length)];
+  pick.classList.add('rec-highlight');
+  pick.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
 // ====== EXCUSE GENERATOR ======
 const _excuseExtras = {
   'Chris Dupay':    '15 seasons, 0 championships, most last place finishes (3x)',
@@ -3870,10 +4084,14 @@ Make it funny, dramatic, and specific to their history. Reference their actual s
 // ====== INIT ======
 Promise.all([
   fetch('data/dashboard_data.json').then(r => r.json()),
-  fetch('data/advanced_stats.json').then(r => r.json()).catch(() => ({}))
+  fetch('data/advanced_stats.json').then(r => r.json()).catch(() => ({})),
+  fetch('data/weekly_highs.json').then(r => r.json()).catch(() => ({})),
+  fetch('data/blowouts_streaks.json').then(r => r.json()).catch(() => ({})),
 ])
-  .then(([data, advanced]) => {
-  _advancedStats = advanced;
+  .then(([data, advanced, weeklyHighs, blowoutsStreaks]) => {
+  _advancedStats    = advanced;
+  _weeklyHighs      = weeklyHighs;
+  _blowoutsStreaks  = blowoutsStreaks;
     const champions = data.champions;
 
     const managers = Object.entries(data.owner_stats)
@@ -3983,6 +4201,7 @@ Promise.all([
     buildTrophyCabinet(champions);
     buildOnThisDay(_seasonMatchups);
 
+    buildRecordsWall(data, advanced, weeklyHighs, blowoutsStreaks);
     buildSearchIndex(data);
 
     // Advanced stats features
