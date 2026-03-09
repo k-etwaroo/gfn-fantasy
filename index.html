@@ -3283,7 +3283,7 @@ async function fetchSeasonRecap(year) {
     const result = await resp.json();
     console.log('AI recap response:', result);
     if (!resp.ok) throw new Error(result?.error?.message || 'api error');
-    const text = result.content[0].text;
+    const text = result.content[0].text.replace(/^#+\s*/g, '').trim();
     console.log('AI recap text:', text);
     if (!text) throw new Error('empty response');
     _recapCache[year] = text;
