@@ -2820,9 +2820,8 @@ function renderH2H(o1, o2) {
     }).join('');
   }
 
-  // Update URL + add share button to table card
+  // Add share button to table card (URL only set when share button clicked)
   const rivalryParam = `${encodeURIComponent(o1)},${encodeURIComponent(o2)}`;
-  history.replaceState({}, '', `?rivalry=${rivalryParam}`);
   const shareUrl = `${location.origin}${location.pathname}?rivalry=${rivalryParam}`;
   const titleEl = document.getElementById('h2hTableTitle');
   if (titleEl && !titleEl.querySelector('.share-btn')) {
@@ -3086,7 +3085,7 @@ function closeCareerPanel() {
   document.getElementById('careerPanel').classList.remove('open');
   document.body.style.overflow = '';
   document.title = 'GFN Fantasy League';
-  history.pushState({}, '', location.pathname);
+  history.replaceState({}, '', '/');
 }
 
 function buildRankChart(seasonEntries) {
@@ -3261,6 +3260,7 @@ function showSection(id, btn) {
   document.getElementById(id).classList.add('active');
   btn.classList.add('active');
   document.title = _sectionTitles[id] || 'GFN Fantasy League';
+  history.replaceState({}, '', '/');
 }
 
 // ====== SEARCH ======
