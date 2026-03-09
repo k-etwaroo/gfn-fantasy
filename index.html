@@ -1507,6 +1507,57 @@
     color: rgba(212,175,55,0.82);
     line-height: 1.6;
   }
+
+  /* ── PLAYOFF BRACKET ── */
+  .bracket-wrap { display:flex; align-items:flex-start; gap:0.5rem; overflow-x:auto; padding-bottom:0.5rem; }
+  .bracket-col { display:flex; flex-direction:column; gap:0.6rem; min-width:160px; flex:1; }
+  .bracket-round-label { font-family:'Bebas Neue',sans-serif; font-size:0.85rem; letter-spacing:2px; color:var(--gold); text-align:center; margin-bottom:0.25rem; }
+  .bracket-arrow { font-size:1.4rem; color:var(--text-dim); align-self:center; flex-shrink:0; padding:0 0.15rem; }
+  .bracket-game { background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:6px; padding:0.5rem 0.6rem; font-size:0.78rem; }
+  .bracket-game.bracket-champ { border-color:rgba(212,175,55,0.4); background:rgba(212,175,55,0.05); }
+  .bracket-team { display:flex; justify-content:space-between; align-items:center; padding:0.2rem 0; gap:0.3rem; }
+  .bracket-winner { color:var(--gold); font-weight:700; }
+  .bracket-loser  { color:var(--text-dim); }
+  .bracket-pts    { font-size:0.75rem; white-space:nowrap; opacity:0.9; }
+  .bracket-margin { font-size:0.68rem; color:var(--text-dim); text-align:right; margin-top:0.2rem; border-top:1px solid rgba(255,255,255,0.06); padding-top:0.2rem; }
+  .bracket-bye    { background:rgba(255,255,255,0.02); border:1px dashed rgba(255,255,255,0.1); border-radius:6px; padding:0.4rem 0.6rem; font-size:0.75rem; }
+  .bracket-bye-label { font-size:0.65rem; letter-spacing:2px; color:var(--text-dim); }
+  .bracket-bye-name  { color:var(--text); font-weight:600; margin-top:0.1rem; }
+  .bracket-final-label { font-size:0.68rem; letter-spacing:1.5px; color:var(--text-dim); margin-bottom:0.25rem; }
+  @media(max-width:600px) { .bracket-wrap { flex-direction:column; } .bracket-arrow { transform:rotate(90deg); align-self:center; } }
+
+  /* ── POINTS VS RANK SCATTER ── */
+  .scatter-section { margin-top:1rem; }
+  .scatter-legend  { display:flex; gap:1.2rem; font-size:0.75rem; color:var(--text-dim); margin-top:0.5rem; flex-wrap:wrap; }
+  .scatter-legend span::before { content:'●'; margin-right:4px; }
+  .scatter-lucky   { color:#27ae60; }
+  .scatter-unlucky { color:#e74c3c; }
+
+  /* ── SCHEDULE STRENGTH ── */
+  .ss-row      { display:flex; align-items:center; gap:0.5rem; margin-bottom:0.45rem; font-size:0.82rem; }
+  .ss-rank     { width:24px; text-align:right; color:var(--text-dim); flex-shrink:0; font-size:0.75rem; }
+  .ss-name     { width:130px; flex-shrink:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .ss-bar-wrap { flex:1; background:rgba(255,255,255,0.06); border-radius:3px; height:16px; overflow:hidden; }
+  .ss-bar      { height:100%; border-radius:3px; transition:width 0.4s ease; }
+  .ss-val      { width:140px; flex-shrink:0; font-size:0.75rem; color:var(--text-dim); white-space:nowrap; }
+  .ss-alltime-wrap { margin-top:1.5rem; }
+
+  /* ── WHAT-IF SIMULATOR ── */
+  .wi-controls { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; margin:1rem 0; }
+  .wi-select-group { display:flex; flex-direction:column; gap:0.3rem; }
+  .wi-label    { font-size:0.7rem; letter-spacing:2px; color:var(--text-dim); }
+  .wi-select   { background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.15); border-radius:6px; color:var(--text); font-family:'Barlow',sans-serif; font-size:0.88rem; padding:0.4rem 0.7rem; cursor:pointer; }
+  .wi-select:focus { outline:none; border-color:var(--gold); }
+  .wi-vs       { color:var(--text-dim); font-size:0.85rem; align-self:flex-end; padding-bottom:0.45rem; }
+  .wi-run-btn  { background:var(--gold); color:#0a0f0d; border:none; border-radius:6px; font-family:'Bebas Neue',sans-serif; font-size:1rem; letter-spacing:2px; padding:0.5rem 1.4rem; cursor:pointer; transition:opacity 0.2s; align-self:flex-end; }
+  .wi-run-btn:hover { opacity:0.85; }
+  .wi-result-card  { margin-top:1rem; }
+  .wi-verdict  { font-size:1rem; font-weight:700; color:var(--text); margin-bottom:1rem; padding:0.75rem 1rem; background:rgba(212,175,55,0.08); border-left:3px solid var(--gold); border-radius:0 6px 6px 0; }
+  .wi-records  { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; margin-bottom:1rem; }
+  .wi-record   { text-align:center; }
+  .wi-record-label { font-size:0.68rem; letter-spacing:2px; color:var(--text-dim); margin-bottom:0.25rem; }
+  .wi-record-val   { font-family:'Bebas Neue',sans-serif; font-size:1.6rem; color:var(--text); }
+  .wi-record-arrow { font-size:1.3rem; color:var(--text-dim); }
 </style>
 <script>
 (function() {
@@ -1538,6 +1589,7 @@
   <button onclick="showSection('h2h', this)">Head to Head</button>
   <button onclick="showSection('luck', this)">Luck Index</button>
   <button onclick="showSection('power', this)">Power Rankings</button>
+  <button onclick="showSection('whatif', this)">What If?</button>
   <button onclick="showSection('cost', this)">Cost Sheet</button>
   <div class="search-wrap" id="searchWrap">
     <button class="search-toggle" id="searchToggle" onclick="toggleSearch()" title="Search">🔍</button>
@@ -1808,6 +1860,7 @@
           </table>
         </div>
       </div>
+      <div id="bracketView" style="display:none;"></div>
     </div>
 
     <div class="card" style="margin-bottom:2rem;">
@@ -1914,6 +1967,49 @@
         </table>
       </div>
     </div>
+
+    <!-- Points vs Rank -->
+    <div class="fun-panel open" id="pvrPanel" style="margin-top:1rem;">
+      <div class="fun-panel-header" onclick="toggleFunPanel('pvrPanel')">
+        <div>
+          <div class="fun-panel-title">📊 Points vs Finish</div>
+          <div class="fun-panel-sub">Did your points deserve your rank?</div>
+        </div>
+        <div class="fun-panel-chevron">▼</div>
+      </div>
+      <div class="fun-panel-body">
+        <div class="fun-panel-inner scatter-section">
+          <div class="season-filter" id="pvrSeasonFilter" style="margin-bottom:0.75rem;"></div>
+          <div id="pvrChart"></div>
+          <div class="scatter-legend">
+            <span class="scatter-lucky">Above trend = lucky finish</span>
+            <span class="scatter-unlucky">Below trend = unlucky finish</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Schedule Strength -->
+    <div class="fun-panel open" id="ssPanel" style="margin-top:1rem;">
+      <div class="fun-panel-header" onclick="toggleFunPanel('ssPanel')">
+        <div>
+          <div class="fun-panel-title">💪 Schedule Strength</div>
+          <div class="fun-panel-sub">Average opponent score faced per season</div>
+        </div>
+        <div class="fun-panel-chevron">▼</div>
+      </div>
+      <div class="fun-panel-body">
+        <div class="fun-panel-inner">
+          <div class="season-filter" id="ssSeasonFilter" style="margin-bottom:0.75rem;"></div>
+          <div id="ssChart"></div>
+          <div class="ss-alltime-wrap">
+            <div style="font-size:0.7rem;letter-spacing:2px;color:var(--gold);margin-bottom:0.75rem;">ALL-TIME SCHEDULE STRENGTH</div>
+            <div id="ssAllTime"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <!-- POWER RANKINGS -->
@@ -2029,6 +2125,29 @@
           <tbody id="earningsTable"></tbody>
         </table>
       </div>
+    </div>
+  </div>
+
+  <!-- WHAT IF -->
+  <div class="section" id="whatif">
+    <div class="section-title">What <span>If?</span></div>
+    <div class="section-sub">Schedule Simulator · How would you have done with someone else's schedule?</div>
+
+    <div class="card">
+      <div class="season-filter" id="wiYearFilter" style="margin-bottom:1rem;"></div>
+      <div class="wi-controls">
+        <div class="wi-select-group">
+          <div class="wi-label">SIMULATE OWNER</div>
+          <select class="wi-select" id="wiOwnerA"></select>
+        </div>
+        <div class="wi-vs">with the schedule of</div>
+        <div class="wi-select-group">
+          <div class="wi-label">SWAP SCHEDULE WITH</div>
+          <select class="wi-select" id="wiOwnerB"></select>
+        </div>
+        <button class="wi-run-btn" onclick="runWhatIf()">Run Simulation</button>
+      </div>
+      <div id="wiResult"></div>
     </div>
   </div>
 
@@ -2186,6 +2305,7 @@ function renderSeasonView(year) {
       <td>${e.pts_against != null ? e.pts_against.toFixed(1) : '—'}</td>
     </tr>`;
   }).join('');
+  renderBracket(year);
 }
 
 let _recordsManagers = [];
@@ -2643,6 +2763,8 @@ function renderH2H(o1, o2) {
 let _ownerCareer = {};
 let _funStats = {};
 let _seasonMatchups = [];
+let _advancedStats = {};
+let _wiYear = 2024;
 
 // ====== ON THIS DAY ======
 function getCurrentNFLWeek() {
@@ -3052,6 +3174,7 @@ const _sectionTitles = {
   h2h:       'Head to Head · GFN Fantasy',
   luck:      'Luck Index · GFN Fantasy',
   power:     'Power Rankings · GFN Fantasy',
+  whatif:    'What If? · GFN Fantasy',
   cost:      'Cost Sheet · GFN Fantasy',
 };
 function showSection(id, btn) {
@@ -3296,10 +3419,357 @@ async function fetchSeasonRecap(year) {
   }
 }
 
+// ====== PLAYOFF BRACKET ======
+function renderBracket(year) {
+  const el = document.getElementById('bracketView');
+  if (!el) return;
+  const bracket = _advancedStats?.playoff_brackets?.[String(year)];
+  if (!bracket) { el.style.display = 'none'; return; }
+
+  const byes   = bracket.byes   || [];
+  const round1 = bracket.round1 || [];
+  const semis  = bracket.semifinals || [];
+  const champ  = bracket.finals?.championship;
+  const third  = bracket.finals?.third_place;
+
+  function gameBox(m, isChamp) {
+    if (!m) return '';
+    const t1Win = m.winner === m.t1;
+    const w = t1Win ? m.t1 : m.t2, l = t1Win ? m.t2 : m.t1;
+    const wPts = t1Win ? m.t1_pts : m.t2_pts, lPts = t1Win ? m.t2_pts : m.t1_pts;
+    return `<div class="bracket-game${isChamp ? ' bracket-champ' : ''}">
+      <div class="bracket-team bracket-winner">${isChamp ? '🏆 ' : ''}${w}<span class="bracket-pts">${wPts.toFixed(1)}</span></div>
+      <div class="bracket-team bracket-loser">${l}<span class="bracket-pts">${lPts.toFixed(1)}</span></div>
+      <div class="bracket-margin">margin: ${m.margin.toFixed(1)}</div>
+    </div>`;
+  }
+
+  function byeBox(name) {
+    return `<div class="bracket-bye"><div class="bracket-bye-label">BYE →</div><div class="bracket-bye-name">${name}</div></div>`;
+  }
+
+  el.style.display = 'block';
+  el.innerHTML = `<div class="card" style="margin-top:1rem;">
+    <div class="card-title">🏟️ ${year} Playoff Bracket</div>
+    <div class="bracket-wrap" style="margin-top:1rem;">
+      <div class="bracket-col">
+        <div class="bracket-round-label">Round 1</div>
+        ${round1.map(m => gameBox(m, false)).join('')}
+        ${byes.length ? `<div class="bracket-round-label" style="margin-top:0.5rem;">Byes</div>${byes.map(byeBox).join('')}` : ''}
+      </div>
+      <div class="bracket-arrow">›</div>
+      <div class="bracket-col">
+        <div class="bracket-round-label">Semifinals</div>
+        ${semis.map(m => gameBox(m, false)).join('')}
+      </div>
+      <div class="bracket-arrow">›</div>
+      <div class="bracket-col">
+        <div class="bracket-round-label">Finals</div>
+        <div class="bracket-final-label">Championship</div>
+        ${gameBox(champ, true)}
+        <div class="bracket-final-label" style="margin-top:0.75rem;">3rd Place</div>
+        ${gameBox(third, false)}
+      </div>
+    </div>
+  </div>`;
+}
+
+// ====== POINTS VS RANK ======
+function buildPvrSeasonSelect(years) {
+  const el = document.getElementById('pvrSeasonFilter');
+  if (!el) return;
+  const sorted = [...years].sort((a, b) => b - a);
+  sorted.forEach((y, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'season-btn' + (i === 0 ? ' active' : '');
+    btn.textContent = y;
+    btn.onclick = () => {
+      el.querySelectorAll('.season-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderPvsR(y);
+    };
+    el.appendChild(btn);
+  });
+}
+
+function renderPvsR(year) {
+  const el = document.getElementById('pvrChart');
+  if (!el) return;
+  const data = _advancedStats?.pts_vs_rank?.[String(year)];
+  if (!data || !data.length) { el.innerHTML = '<p style="color:var(--text-dim);font-size:0.85rem;">No data for this season.</p>'; return; }
+
+  const W = 580, H = 360, padL = 52, padR = 16, padT = 24, padB = 44;
+  const cW = W - padL - padR, cH = H - padT - padB;
+
+  const allPts   = data.map(d => d.pts_for);
+  const allRanks = data.map(d => d.rank);
+  const minPts = Math.min(...allPts) - 30, maxPts = Math.max(...allPts) + 30;
+  const minRank = 0.5, maxRank = Math.max(...allRanks) + 0.5;
+
+  const xS = p => padL + ((p - minPts) / (maxPts - minPts)) * cW;
+  const yS = r => padT + ((r - minRank) / (maxRank - minRank)) * cH;
+
+  // Linear regression
+  const n = data.length;
+  const meanX = allPts.reduce((s, v) => s + v, 0) / n;
+  const meanY = allRanks.reduce((s, v) => s + v, 0) / n;
+  const num = data.reduce((s, d) => s + (d.pts_for - meanX) * (d.rank - meanY), 0);
+  const den = data.reduce((s, d) => s + (d.pts_for - meanX) ** 2, 0);
+  const slope = den ? num / den : 0;
+  const intercept = meanY - slope * meanX;
+
+  const tX1 = minPts, tY1 = slope * minPts + intercept;
+  const tX2 = maxPts, tY2 = slope * maxPts + intercept;
+
+  // Y-axis ticks (ranks)
+  const rankCount = Math.max(...allRanks);
+  const yTicksHTML = Array.from({ length: rankCount }, (_, i) => {
+    const r = i + 1, y = yS(r);
+    return `<line x1="${padL - 4}" y1="${y}" x2="${padL}" y2="${y}" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+            <text x="${padL - 7}" y="${y + 4}" text-anchor="end" font-size="9" fill="#8a9e80">${r}</text>`;
+  }).join('');
+
+  // X-axis ticks
+  const xStep = Math.round((maxPts - minPts) / 5 / 50) * 50 || 100;
+  const xStart = Math.ceil(minPts / xStep) * xStep;
+  let xTicksHTML = '';
+  for (let v = xStart; v <= maxPts; v += xStep) {
+    const x = xS(v);
+    xTicksHTML += `<line x1="${x}" y1="${padT + cH}" x2="${x}" y2="${padT + cH + 4}" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+                   <text x="${x}" y="${padT + cH + 16}" text-anchor="middle" font-size="9" fill="#8a9e80">${Math.round(v)}</text>`;
+  }
+
+  const dots = data.map(d => {
+    const x = xS(d.pts_for), y = yS(d.rank);
+    const expected = slope * d.pts_for + intercept;
+    const lucky = d.rank < expected;
+    const color = lucky ? '#27ae60' : '#e74c3c';
+    const first = d.owner.split(' ')[0];
+    return `<g>
+      <title>${d.owner} · ${d.pts_for.toFixed(1)} pts · Rank ${d.rank} · ${d.wins}W</title>
+      <circle cx="${x}" cy="${y}" r="7" fill="${color}" opacity="0.85" stroke="#0a0f0d" stroke-width="1.5"/>
+      <text x="${x}" y="${y - 11}" text-anchor="middle" font-size="9.5" fill="#e8eed0" font-family="Barlow,sans-serif">${first}</text>
+    </g>`;
+  }).join('');
+
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:580px;display:block;overflow:visible;">
+    <line x1="${padL}" y1="${padT}" x2="${padL}" y2="${padT + cH}" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <line x1="${padL}" y1="${padT + cH}" x2="${padL + cW}" y2="${padT + cH}" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    ${yTicksHTML}${xTicksHTML}
+    <text x="${padL + cW / 2}" y="${H - 4}" text-anchor="middle" font-size="11" fill="#8a9e80" font-family="Barlow,sans-serif">Points Scored (Regular Season)</text>
+    <text x="12" y="${padT + cH / 2}" text-anchor="middle" font-size="11" fill="#8a9e80" font-family="Barlow,sans-serif" transform="rotate(-90,12,${padT + cH / 2})">Final Rank</text>
+    <line x1="${xS(tX1)}" y1="${yS(tY1)}" x2="${xS(tX2)}" y2="${yS(tY2)}" stroke="rgba(212,175,55,0.45)" stroke-width="1.5" stroke-dasharray="5,4"/>
+    ${dots}
+  </svg>`;
+}
+
+// ====== SCHEDULE STRENGTH ======
+function buildSsSeasonSelect(years) {
+  const el = document.getElementById('ssSeasonFilter');
+  if (!el) return;
+  const sorted = [...years].sort((a, b) => b - a);
+  sorted.forEach((y, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'season-btn' + (i === 0 ? ' active' : '');
+    btn.textContent = y;
+    btn.onclick = () => {
+      el.querySelectorAll('.season-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderSchedStrength(y);
+    };
+    el.appendChild(btn);
+  });
+}
+
+function renderSchedStrength(year) {
+  const el = document.getElementById('ssChart');
+  if (!el) return;
+  const data = _advancedStats?.schedule_strength?.[String(year)];
+  if (!data || !data.length) { el.innerHTML = ''; return; }
+
+  const maxAvg = Math.max(...data.map(d => d.avg_opponent_score));
+  const minAvg = Math.min(...data.map(d => d.avg_opponent_score));
+  const range  = maxAvg - minAvg || 1;
+
+  el.innerHTML = data.map((d, i) => {
+    const barPct = ((d.avg_opponent_score - minAvg) / range * 80 + 10).toFixed(1);
+    const hue    = 120 - (i / (data.length - 1)) * 120;
+    const color  = `hsl(${hue},60%,42%)`;
+    const tag    = i === 0 ? ' <span style="color:#e74c3c;font-size:0.7rem;">💀 Hardest</span>' :
+                   i === data.length - 1 ? ' <span style="color:#27ae60;font-size:0.7rem;">😊 Easiest</span>' : '';
+    return `<div class="ss-row">
+      <div class="ss-rank">${d.schedule_rank}</div>
+      <div class="ss-name">${d.owner}</div>
+      <div class="ss-bar-wrap"><div class="ss-bar" style="width:${barPct}%;background:${color};"></div></div>
+      <div class="ss-val">${d.avg_opponent_score.toFixed(1)} avg${tag}</div>
+    </div>`;
+  }).join('');
+}
+
+function buildSchedStrengthAllTime(ssData) {
+  const el = document.getElementById('ssAllTime');
+  if (!el) return;
+  const ownerTotals = {};
+  Object.values(ssData).forEach(yearArr => {
+    yearArr.forEach(d => {
+      if (!ownerTotals[d.owner]) ownerTotals[d.owner] = { total: 0, seasons: 0 };
+      ownerTotals[d.owner].total   += d.avg_opponent_score;
+      ownerTotals[d.owner].seasons += 1;
+    });
+  });
+  const sorted = Object.entries(ownerTotals)
+    .map(([owner, v]) => ({ owner, avg: v.total / v.seasons, seasons: v.seasons }))
+    .filter(d => d.seasons >= 3)
+    .sort((a, b) => b.avg - a.avg);
+
+  el.innerHTML = sorted.map((d, i) => {
+    const maxAvg = sorted[0].avg, minAvg = sorted[sorted.length - 1].avg;
+    const barPct = ((d.avg - minAvg) / (maxAvg - minAvg || 1) * 80 + 10).toFixed(1);
+    const hue    = 120 - (i / (sorted.length - 1)) * 120;
+    const color  = `hsl(${hue},60%,42%)`;
+    return `<div class="ss-row">
+      <div class="ss-rank">${i + 1}</div>
+      <div class="ss-name">${d.owner}</div>
+      <div class="ss-bar-wrap"><div class="ss-bar" style="width:${barPct}%;background:${color};"></div></div>
+      <div class="ss-val">${d.avg.toFixed(1)} avg · ${d.seasons}yr</div>
+    </div>`;
+  }).join('');
+}
+
+// ====== WHAT-IF SIMULATOR ======
+function initWhatIf(ssData) {
+  const filterEl = document.getElementById('wiYearFilter');
+  if (!filterEl) return;
+  const years = Object.keys(_advancedStats?.whatif_data || {}).map(Number).sort((a, b) => b - a);
+  _wiYear = years[0] || 2024;
+  years.forEach((y, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'season-btn' + (i === 0 ? ' active' : '');
+    btn.textContent = y;
+    btn.onclick = () => {
+      filterEl.querySelectorAll('.season-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      _wiYear = y;
+      populateWhatIfOwners(y);
+      document.getElementById('wiResult').innerHTML = '';
+    };
+    filterEl.appendChild(btn);
+  });
+  populateWhatIfOwners(_wiYear);
+}
+
+function populateWhatIfOwners(year) {
+  const wd = _advancedStats?.whatif_data?.[String(year)];
+  if (!wd) return;
+  const owners = Object.keys(wd.owner_weekly_scores || {}).sort();
+  ['wiOwnerA', 'wiOwnerB'].forEach((id, idx) => {
+    const sel = document.getElementById(id);
+    if (!sel) return;
+    const prev = sel.value;
+    sel.innerHTML = owners.map(o => `<option value="${o}">${o}</option>`).join('');
+    if (owners.includes(prev)) sel.value = prev;
+    else sel.value = owners[idx] || owners[0];
+  });
+}
+
+function runWhatIf() {
+  const ownerA = document.getElementById('wiOwnerA').value;
+  const ownerB = document.getElementById('wiOwnerB').value;
+  const year   = String(_wiYear);
+  const result = document.getElementById('wiResult');
+
+  if (ownerA === ownerB) {
+    result.innerHTML = '<p style="color:var(--text-dim);padding:1rem 0;">Select two different owners.</p>';
+    return;
+  }
+
+  const wd = _advancedStats?.whatif_data?.[year];
+  if (!wd) { result.innerHTML = '<p style="color:var(--text-dim);">No data for this season.</p>'; return; }
+
+  const aScores = wd.owner_weekly_scores?.[ownerA];
+  if (!aScores) { result.innerHTML = '<p style="color:var(--text-dim);">No weekly data for ' + ownerA + '.</p>'; return; }
+
+  // Build B's weekly opponents from season_matchups
+  const bSchedule = {};
+  _seasonMatchups
+    .filter(m => m.year === parseInt(year))
+    .forEach(m => {
+      if (m.o0 === ownerB) bSchedule[String(m.week)] = { opponent: m.o1, opp_pts: m.p1 };
+      else if (m.o1 === ownerB) bSchedule[String(m.week)] = { opponent: m.o0, opp_pts: m.p0 };
+    });
+
+  const weeks = Object.keys(bSchedule).sort((a, b) => parseInt(a) - parseInt(b));
+  let simW = 0, simL = 0;
+
+  const rows = weeks.map(wk => {
+    const aScore = aScores[wk];
+    const opp    = bSchedule[wk];
+    if (aScore == null || !opp) return '';
+    const won = aScore > opp.opp_pts;
+    if (won) simW++; else simL++;
+    return `<tr>
+      <td>${wk}</td>
+      <td>${aScore.toFixed(1)}</td>
+      <td>${opp.opponent}</td>
+      <td>${opp.opp_pts.toFixed(1)}</td>
+      <td style="color:${won ? 'var(--gold)' : '#e74c3c'};font-weight:700;">${won ? 'W' : 'L'}</td>
+    </tr>`;
+  }).filter(Boolean).join('');
+
+  const standYear = _seasonStandings[year] || [];
+  const aEntry = standYear.find(e => e.owner === ownerA);
+  const actualW = aEntry?.wins ?? '?', actualL = aEntry?.losses ?? '?';
+  const playoffCutoff = 6;
+  const madePlayoffs  = simW >= playoffCutoff;
+  const hadPlayoffs   = parseInt(actualW) >= playoffCutoff;
+  const aFirst = ownerA.split(' ')[0];
+  const diff = simW - (parseInt(actualW) || 0);
+
+  let verdict;
+  if (diff >= 3)        verdict = `${aFirst} was ROBBED by their schedule! 😤`;
+  else if (diff <= -3)  verdict = `${aFirst}'s schedule wasn't the problem 😬`;
+  else if (madePlayoffs && !hadPlayoffs) verdict = `${aFirst} would have made the playoffs with ${ownerB.split(' ')[0]}'s schedule!`;
+  else if (!madePlayoffs && hadPlayoffs) verdict = `${aFirst} needed their own schedule to make playoffs.`;
+  else if (diff > 0)    verdict = `${aFirst} would have done slightly better with a kinder schedule.`;
+  else if (diff < 0)    verdict = `${aFirst} actually had it easier than it seemed!`;
+  else                  verdict = `${aFirst}'s schedule was perfectly balanced — no excuses! ⚖️`;
+
+  result.innerHTML = `<div class="wi-result-card">
+    <div class="wi-verdict">${verdict}</div>
+    <div class="wi-records">
+      <div class="wi-record">
+        <div class="wi-record-label">ACTUAL RECORD</div>
+        <div class="wi-record-val">${actualW}–${actualL}</div>
+      </div>
+      <div class="wi-record-arrow">→</div>
+      <div class="wi-record">
+        <div class="wi-record-label">SIMULATED RECORD</div>
+        <div class="wi-record-val" style="color:var(--gold);">${simW}–${simL}</div>
+      </div>
+      <div class="wi-record">
+        <div class="wi-record-label">PLAYOFFS?</div>
+        <div class="wi-record-val" style="color:${madePlayoffs ? '#27ae60' : '#e74c3c'};">${madePlayoffs ? 'YES ✓' : 'NO ✗'}</div>
+      </div>
+    </div>
+    <div style="font-size:0.72rem;color:var(--text-dim);margin-bottom:0.75rem;">
+      If <strong style="color:var(--text);">${ownerA}</strong> played <strong style="color:var(--text);">${ownerB}</strong>'s schedule in ${year}:
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Wk</th><th>${aFirst}'s Score</th><th>Opponent</th><th>Opp Score</th><th>Result</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  </div>`;
+}
+
 // ====== INIT ======
-fetch('data/dashboard_data.json')
-  .then(r => r.json())
-  .then(data => {
+Promise.all([
+  fetch('data/dashboard_data.json').then(r => r.json()),
+  fetch('data/advanced_stats.json').then(r => r.json()).catch(() => ({}))
+])
+  .then(([data, advanced]) => {
+  _advancedStats = advanced;
     const champions = data.champions;
 
     const managers = Object.entries(data.owner_stats)
@@ -3409,6 +3879,21 @@ fetch('data/dashboard_data.json')
     buildOnThisDay(_seasonMatchups);
 
     buildSearchIndex(data);
+
+    // Advanced stats features
+    const pvrYears = Object.keys(advanced.pts_vs_rank || {}).map(Number);
+    const ssYears  = Object.keys(advanced.schedule_strength || {}).map(Number);
+    if (pvrYears.length) {
+      buildPvrSeasonSelect(pvrYears);
+      renderPvsR(Math.max(...pvrYears));
+    }
+    if (ssYears.length) {
+      buildSsSeasonSelect(ssYears);
+      renderSchedStrength(Math.max(...ssYears));
+      buildSchedStrengthAllTime(advanced.schedule_strength);
+    }
+    initWhatIf();
+
     showApp();
     initStandingsState();
     handleURLParams();
