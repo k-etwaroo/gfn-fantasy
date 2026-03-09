@@ -3265,17 +3265,19 @@ async function fetchSeasonRecap(year) {
       },
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001',
-        max_tokens: 150,
+        max_tokens: 1024,
         messages: [{ role: 'user', content: prompt }],
       }),
     });
-    if (!resp.ok) throw new Error('api error');
     const result = await resp.json();
-    const text   = result?.content?.[0]?.text?.trim();
-    if (!text) throw new Error('empty');
+    console.log('AI recap response:', result);
+    if (!resp.ok) throw new Error(result?.error?.message || 'api error');
+    const text = result?.content?.[0]?.text?.trim();
+    if (!text) throw new Error('empty response');
     _recapCache[year] = text;
     content.innerHTML = `<div class="recap-text">${text}</div>`;
-  } catch {
+  } catch (err) {
+    console.error('AI recap error:', err);
     area.style.display = 'none';
   }
 }
