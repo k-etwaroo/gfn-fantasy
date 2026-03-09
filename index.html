@@ -899,10 +899,10 @@
   /* ON THIS DAY WIDGET */
   .on-this-day {
     border-left: 3px solid var(--gold);
-    background: var(--dark2);
-    padding: 0.8rem 1rem 0.8rem 1.1rem;
-    margin-bottom: 1.25rem;
-    border-radius: 0 2px 2px 0;
+    background: rgba(212,175,55,0.05);
+    padding: 16px 20px;
+    margin: 16px 0;
+    border-radius: 0 4px 4px 0;
   }
   .otd-header {
     font-family: 'Barlow Condensed', sans-serif;
@@ -1746,8 +1746,6 @@
       <div class="dash-stat"><span class="dash-stat-n">2,340</span><span class="dash-stat-l">Games Played</span></div>
     </div>
 
-    <div class="on-this-day" id="onThisDay" style="display:none;"></div>
-
     <div>
       <div class="trophy-row-label">Trophy Cabinet</div>
       <div class="trophy-scroll" id="trophyScroll"></div>
@@ -1775,6 +1773,8 @@
         <div class="card-detail">Dave K. · The Toilet Bowl King 🚽</div>
       </div>
     </div>
+
+    <div class="on-this-day" id="onThisDay" style="display:none;"></div>
 
     <div class="fun-stats-wrap">
       <div class="fun-stats-label">Fun Stats</div>
@@ -2852,9 +2852,9 @@ function getCurrentNFLWeek() {
   if (diffDays >= 0 && diffDays < 119) {          // 17 weeks in season
     return { week: Math.min(17, Math.floor(diffDays / 7) + 1), inSeason: true };
   }
-  // Offseason: cycle day-of-year through weeks 1–17
+  // Offseason: cycle day-of-year through weeks 1–14 (data range)
   const dayOfYear = Math.floor((now - new Date(year, 0, 1)) / 864e5);
-  return { week: (dayOfYear % 17) + 1, inSeason: false };
+  return { week: (dayOfYear % 14) + 1, inSeason: false };
 }
 
 function buildOnThisDay(matchups) {
@@ -2907,7 +2907,7 @@ function buildOnThisDay(matchups) {
   if (blow)     facts.push(`💥 <strong>${blow.year}</strong>: ${blow.win} torched ${blow.lose} by ${blow.margin} pts`);
   if (!facts.length) return;
 
-  const label = inSeason ? `📅 This Week (Wk ${week}) in GFN History` : `📅 Week ${week} in GFN History`;
+  const label = inSeason ? `📅 Week ${week} in GFN History` : `📅 GFN History — Week ${week}`;
   const el = document.getElementById('onThisDay');
   el.style.display = '';
   el.innerHTML = `<div class="otd-header">${label}</div>${facts.map(f => `<div class="otd-fact">${f}</div>`).join('')}`;

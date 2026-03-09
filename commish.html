@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GFN Commish Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --gold: #d4af37;
+      --green: #2ecc71;
+      --red: #e74c3c;
+      --yellow: #f39c12;
+      --bg: #0a0a0a;
+      --bg2: #111;
+      --card: #141414;
+      --border: #222;
+      --text: #e8e8e8;
+      --text-dim: #888;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Barlow', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── PASSWORD OVERLAY ── */
+    #authOverlay {
+      position: fixed; inset: 0;
+      background: #000;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+    #authOverlay h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2.8rem;
+      color: var(--gold);
+      letter-spacing: 4px;
+    }
+    #authOverlay p {
+      color: var(--text-dim);
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+    #authForm {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+      max-width: 320px;
+    }
+    #pwInput {
+      width: 100%;
+      padding: 12px 16px;
+      background: #1a1a1a;
+      border: 1px solid var(--gold);
+      border-radius: 4px;
+      color: var(--text);
+      font-family: 'Barlow', sans-serif;
+      font-size: 1rem;
+      letter-spacing: 2px;
+      text-align: center;
+      outline: none;
+    }
+    #pwInput:focus { border-color: #fff; }
+    #pwSubmit {
+      width: 100%;
+      padding: 12px;
+      background: var(--gold);
+      color: #000;
+      border: none;
+      border-radius: 4px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.2rem;
+      letter-spacing: 2px;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    #pwSubmit:hover { opacity: 0.85; }
+    #pwError {
+      color: var(--red);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      min-height: 20px;
+    }
+
+    /* ── MAIN LAYOUT ── */
+    #main { display: none; }
+
+    header {
+      background: var(--bg2);
+      border-bottom: 2px solid var(--gold);
+      padding: 20px 24px;
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2.2rem;
+      color: var(--gold);
+      letter-spacing: 3px;
+    }
+    header p {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    header .header-right {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .refresh-btn {
+      padding: 6px 14px;
+      background: transparent;
+      border: 1px solid var(--gold);
+      border-radius: 4px;
+      color: var(--gold);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .refresh-btn:hover { background: rgba(212,175,55,0.1); }
+
+    .content {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    @media (max-width: 640px) { .content { grid-template-columns: 1fr; } }
+
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .panel.full { grid-column: 1 / -1; }
+
+    .panel-header {
+      background: #1a1a1a;
+      padding: 10px 16px;
+      border-bottom: 1px solid var(--border);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    .check-list {
+      padding: 8px 0;
+    }
+    .check-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      border-bottom: 1px solid #1a1a1a;
+      font-size: 0.88rem;
+    }
+    .check-row:last-child { border-bottom: none; }
+    .check-label { flex: 1; color: var(--text); }
+    .check-detail { font-size: 0.75rem; color: var(--text-dim); font-family: 'Barlow Condensed', sans-serif; }
+
+    .dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .dot-green  { background: var(--green); box-shadow: 0 0 6px var(--green); }
+    .dot-red    { background: var(--red);   box-shadow: 0 0 6px var(--red); }
+    .dot-yellow { background: var(--yellow);box-shadow: 0 0 6px var(--yellow); }
+    .dot-grey   { background: #444; }
+
+    /* spinning loader dot */
+    .dot-loading {
+      width: 10px; height: 10px; border-radius: 50%;
+      border: 2px solid #444;
+      border-top-color: var(--gold);
+      animation: spin 0.7s linear infinite;
+      flex-shrink: 0;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Stat row (non-check rows) */
+    .stat-row {
+      display: flex;
+      align-items: center;
+      padding: 8px 16px;
+      border-bottom: 1px solid #1a1a1a;
+      font-size: 0.88rem;
+      gap: 8px;
+    }
+    .stat-row:last-child { border-bottom: none; }
+    .stat-row .stat-key { flex: 1; color: var(--text-dim); font-size: 0.8rem; font-family: 'Barlow Condensed', sans-serif; letter-spacing: 1px; text-transform: uppercase; }
+    .stat-row .stat-val { color: var(--text); font-weight: 500; }
+    .stat-row .stat-val.gold { color: var(--gold); }
+    .stat-row .stat-val.green { color: var(--green); }
+    .stat-row .stat-val.red { color: var(--red); }
+    .stat-row .stat-val.yellow { color: var(--yellow); }
+
+    /* Action buttons panel */
+    .action-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 16px;
+    }
+    @media (max-width: 480px) { .action-grid { grid-template-columns: 1fr; } }
+    .action-btn {
+      padding: 12px 14px;
+      background: #1a1a1a;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--text);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      cursor: pointer;
+      text-align: left;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .action-btn:hover { border-color: var(--gold); background: rgba(212,175,55,0.05); }
+    .action-btn .btn-sub { display: block; font-size: 0.7rem; color: var(--text-dim); margin-top: 2px; font-weight: 400; }
+
+    /* Footer */
+    .footer {
+      grid-column: 1 / -1;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      padding-top: 8px;
+    }
+    .footer span { color: var(--gold); }
+
+    /* Command block */
+    .cmd-block {
+      display: none;
+      background: #0d1a0d;
+      border: 1px solid #2a4a2a;
+      border-radius: 4px;
+      padding: 12px 16px;
+      margin: 12px 16px 0;
+      font-family: 'Courier New', monospace;
+      font-size: 0.82rem;
+      color: var(--green);
+      line-height: 1.6;
+    }
+    .cmd-block.open { display: block; }
+  </style>
+</head>
+<body>
+
+  <!-- PASSWORD OVERLAY -->
+  <div id="authOverlay">
+    <h1>⚙️ COMMISH</h1>
+    <p>GFN Fantasy League — Restricted Access</p>
+    <div id="authForm">
+      <input id="pwInput" type="password" placeholder="Enter password" autocomplete="off" />
+      <button id="pwSubmit">Unlock Dashboard</button>
+      <div id="pwError"></div>
+    </div>
+  </div>
+
+  <!-- MAIN DASHBOARD -->
+  <div id="main">
+    <header>
+      <div>
+        <h1>⚙️ GFN Commish Dashboard</h1>
+        <p>System Status &amp; Data Health</p>
+      </div>
+      <div class="header-right">
+        <button class="refresh-btn" onclick="runAllChecks()">↺ Refresh</button>
+        <a href="/" style="color:var(--text-dim);font-size:0.8rem;text-decoration:none;">← Main Site</a>
+      </div>
+    </header>
+
+    <div class="content">
+
+      <!-- DATA HEALTH -->
+      <div class="panel">
+        <div class="panel-header">📊 Data Health</div>
+        <div class="check-list" id="dataHealth"></div>
+      </div>
+
+      <!-- CURRENT SEASON -->
+      <div class="panel">
+        <div class="panel-header">🏈 Current Season (2025)</div>
+        <div class="check-list" id="currentSeason"></div>
+      </div>
+
+      <!-- SITE FEATURES -->
+      <div class="panel full">
+        <div class="panel-header">🌐 Site Features Status</div>
+        <div class="check-list" id="siteFeatures" style="display:grid;grid-template-columns:1fr 1fr;"></div>
+        <style>
+          @media (max-width: 560px) { #siteFeatures { grid-template-columns: 1fr !important; } }
+          #siteFeatures .check-row { border-right: 1px solid #1a1a1a; }
+          #siteFeatures .check-row:nth-child(even) { border-right: none; }
+        </style>
+      </div>
+
+      <!-- COST SHEET -->
+      <div class="panel">
+        <div class="panel-header">💰 Cost Sheet Status</div>
+        <div class="check-list" id="costSheet"></div>
+      </div>
+
+      <!-- MAINTENANCE -->
+      <div class="panel">
+        <div class="panel-header">📅 Maintenance Actions</div>
+        <div class="action-grid">
+          <button class="action-btn" onclick="toggleCmd()">
+            🔄 Force Data Refresh
+            <span class="btn-sub">Show CLI command</span>
+          </button>
+          <button class="action-btn" onclick="window.open('data/dashboard_data.json','_blank')">
+            📊 View dashboard_data.json
+            <span class="btn-sub">Opens raw file in new tab</span>
+          </button>
+          <button class="action-btn" onclick="window.open('data/advanced_stats.json','_blank')">
+            📊 View advanced_stats.json
+            <span class="btn-sub">Opens raw file in new tab</span>
+          </button>
+          <button class="action-btn" onclick="window.open('https://gfn-ff.us','_blank')">
+            🌐 Visit Live Site
+            <span class="btn-sub">gfn-ff.us</span>
+          </button>
+        </div>
+        <div class="cmd-block" id="cmdBlock">
+          # Pull fresh data for current season:<br>
+          python3 fetch_gfn_data.py --year 2025<br><br>
+          # Rebuild advanced stats:<br>
+          python3 compute_advanced_stats.py<br><br>
+          # Then commit and push:<br>
+          git add data/ &amp;&amp; git commit -m "Refresh 2025 data" &amp;&amp; git push
+        </div>
+        <div style="height:12px;"></div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="footer">
+        Last checked: <span id="lastChecked">—</span> &nbsp;·&nbsp; Auto-refreshes every 60s
+      </div>
+
+    </div>
+  </div>
+
+<script>
+// ── AUTH ──────────────────────────────────────────────────────────────
+const PASSWORD = 'GFNcommish2025';
+
+function checkAuth() {
+  if (sessionStorage.getItem('gfn_commish_auth') === '1') {
+    document.getElementById('authOverlay').style.display = 'none';
+    document.getElementById('main').style.display = 'block';
+    runAllChecks();
+  }
+}
+
+document.getElementById('pwSubmit').addEventListener('click', attemptLogin);
+document.getElementById('pwInput').addEventListener('keydown', e => { if (e.key === 'Enter') attemptLogin(); });
+
+function attemptLogin() {
+  const val = document.getElementById('pwInput').value;
+  const errEl = document.getElementById('pwError');
+  if (val === PASSWORD) {
+    sessionStorage.setItem('gfn_commish_auth', '1');
+    document.getElementById('authOverlay').style.display = 'none';
+    document.getElementById('main').style.display = 'block';
+    runAllChecks();
+  } else {
+    errEl.textContent = '⛔ Access Denied';
+    document.getElementById('pwInput').value = '';
+    setTimeout(() => { errEl.textContent = ''; }, 3000);
+  }
+}
+
+checkAuth();
+
+// ── HELPERS ──────────────────────────────────────────────────────────
+function dot(state) {
+  const cls = state === 'ok' ? 'dot-green' : state === 'warn' ? 'dot-yellow' : state === 'load' ? 'dot-loading' : 'dot-red';
+  return cls === 'dot-loading'
+    ? `<div class="dot-loading"></div>`
+    : `<div class="dot ${cls}"></div>`;
+}
+
+function checkRow(state, label, detail = '') {
+  return `<div class="check-row">
+    ${dot(state)}
+    <span class="check-label">${label}</span>
+    ${detail ? `<span class="check-detail">${detail}</span>` : ''}
+  </div>`;
+}
+
+function statRow(key, val, color = '') {
+  return `<div class="stat-row">
+    <span class="stat-key">${key}</span>
+    <span class="stat-val ${color}">${val}</span>
+  </div>`;
+}
+
+function setLoading(id) {
+  const rows = ['dashboard_data.json','advanced_stats.json','weekly_highs.json','player_highs.json','2025 data freshness','Season count'].map(
+    l => checkRow('load', l)
+  );
+  document.getElementById(id).innerHTML = rows.join('');
+}
+
+let _dash = null, _adv = null, _weekly = null, _player = null;
+
+// ── FETCH ALL DATA ───────────────────────────────────────────────────
+async function fetchAll() {
+  const results = await Promise.allSettled([
+    fetch('data/dashboard_data.json').then(r => r.ok ? r.json() : null),
+    fetch('data/advanced_stats.json').then(r => r.ok ? r.json() : null),
+    fetch('data/weekly_highs.json').then(r => r.ok ? r.json() : null),
+    fetch('data/player_highs.json').then(r => r.ok ? r.json() : null),
+  ]);
+  _dash   = results[0].status === 'fulfilled' ? results[0].value : null;
+  _adv    = results[1].status === 'fulfilled' ? results[1].value : null;
+  _weekly = results[2].status === 'fulfilled' ? results[2].value : null;
+  _player = results[3].status === 'fulfilled' ? results[3].value : null;
+}
+
+// ── DATA HEALTH ──────────────────────────────────────────────────────
+function renderDataHealth() {
+  const rows = [];
+
+  // dashboard_data.json
+  if (!_dash) {
+    rows.push(checkRow('err', 'dashboard_data.json', 'Failed to load'));
+  } else {
+    const sc = _dash.seasons_count;
+    rows.push(checkRow(sc === 15 ? 'ok' : 'warn', 'dashboard_data.json', `seasons_count: ${sc}`));
+  }
+
+  // advanced_stats.json
+  if (!_adv) {
+    rows.push(checkRow('err', 'advanced_stats.json', 'Failed to load'));
+  } else {
+    const hasBrackets = !!_adv.playoff_brackets;
+    rows.push(checkRow(hasBrackets ? 'ok' : 'warn', 'advanced_stats.json', hasBrackets ? 'playoff_brackets present' : 'missing playoff_brackets'));
+  }
+
+  // weekly_highs.json
+  rows.push(checkRow(_weekly ? 'ok' : 'err', 'weekly_highs.json', _weekly ? 'loaded' : 'Failed to load'));
+
+  // player_highs.json
+  rows.push(checkRow(_player ? 'ok' : 'err', 'player_highs.json', _player ? 'loaded' : 'Failed to load'));
+
+  // 2025 freshness
+  if (_dash?.generated_at) {
+    const genDate = new Date(_dash.generated_at);
+    const ageMs   = Date.now() - genDate.getTime();
+    const ageDays = Math.floor(ageMs / 86400000);
+    const fresh   = ageDays <= 7;
+    rows.push(checkRow(fresh ? 'ok' : 'warn', '2025 data freshness', `${ageDays}d ago`));
+  } else {
+    rows.push(checkRow('err', '2025 data freshness', 'No timestamp'));
+  }
+
+  // Season count
+  const sc = _dash?.seasons_count ?? 0;
+  rows.push(checkRow(sc === 15 ? 'ok' : 'warn', `Season count`, `${sc} / 15 seasons`));
+
+  document.getElementById('dataHealth').innerHTML = rows.join('');
+}
+
+// ── CURRENT SEASON ───────────────────────────────────────────────────
+function renderCurrentSeason() {
+  const rows = [];
+  if (!_dash) {
+    rows.push(statRow('Status', 'No data', 'red'));
+    document.getElementById('currentSeason').innerHTML = rows.join('');
+    return;
+  }
+
+  // Last refresh
+  const genAt = _dash.generated_at ? new Date(_dash.generated_at).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' }) : '—';
+  rows.push(statRow('Last Refresh', genAt, 'gold'));
+
+  // Current week (approx)
+  const now = new Date();
+  const seasonStart2025 = new Date(2025, 8, 4); // Sep 4 2025
+  const seasonEnd2025   = new Date(2026, 0, 5);  // Jan 5 2026 (approx)
+  let weekLabel = 'Offseason';
+  if (now >= seasonStart2025 && now <= seasonEnd2025) {
+    const w = Math.min(17, Math.floor((now - seasonStart2025) / 604800000) + 1);
+    weekLabel = `Week ${w}`;
+  }
+  rows.push(statRow('Current Period', weekLabel));
+
+  // Teams active in 2025
+  const sm2025 = (_dash.season_matchups || []).filter(m => m.year === 2025);
+  const teams2025 = new Set();
+  sm2025.forEach(m => { teams2025.add(m.o0); teams2025.add(m.o1); });
+  rows.push(statRow('Active Teams', teams2025.size || '—'));
+
+  // 14 regular season weeks
+  const weeks2025 = [...new Set(sm2025.map(m => m.week))].sort((a,b) => a-b);
+  const hasAll14 = weeks2025.length >= 14 && weeks2025.includes(14);
+  rows.push(checkRow(hasAll14 ? 'ok' : 'warn', 'All 14 reg. season weeks', `${weeks2025.length} weeks found`));
+
+  // Playoff data (weeks 15-17)
+  const hasPlayoffs = weeks2025.some(w => w >= 15);
+  rows.push(checkRow(hasPlayoffs ? 'ok' : 'warn', 'Playoff weeks (15–17)', hasPlayoffs ? 'Present' : 'Not yet (offseason)'));
+
+  document.getElementById('currentSeason').innerHTML = rows.join('');
+}
+
+// ── SITE FEATURES ────────────────────────────────────────────────────
+async function renderSiteFeatures() {
+  const rows = [];
+  const d = _dash || {};
+  const adv = _adv || {};
+
+  rows.push(checkRow((d.champions?.length ?? 0) === 15 ? 'ok' : 'warn', 'Trophy Cabinet', `${d.champions?.length ?? 0} champions`));
+  rows.push(checkRow(!!d.fun_stats ? 'ok' : 'err', 'Fun Stats', d.fun_stats ? 'fun_stats present' : 'missing key'));
+  rows.push(checkRow(!!d.head_to_head ? 'ok' : 'err', 'Head to Head', d.head_to_head ? 'key present' : 'missing key'));
+  rows.push(checkRow(!!d.owner_career ? 'ok' : 'err', 'Owner Careers', d.owner_career ? 'key present' : 'missing key'));
+  rows.push(checkRow((d.rivalries?.length ?? 0) >= 10 ? 'ok' : 'warn', 'Rivalry Tracker', `${d.rivalries?.length ?? 0} rivalries`));
+  rows.push(checkRow(Object.keys(d.luck_by_season || {}).length === 15 ? 'ok' : 'warn', 'Luck Index', `${Object.keys(d.luck_by_season || {}).length} seasons`));
+  rows.push(checkRow((d.power_rankings?.length ?? 0) > 0 ? 'ok' : 'err', 'Power Rankings', d.power_rankings ? `${d.power_rankings.length} entries` : 'missing'));
+  rows.push(checkRow(Object.keys(adv.playoff_brackets || {}).length === 15 ? 'ok' : 'warn', 'Playoff Brackets', `${Object.keys(adv.playoff_brackets || {}).length} / 15 years`));
+  rows.push(checkRow(!!adv.schedule_strength ? 'ok' : 'err', 'Schedule Strength', adv.schedule_strength ? 'present' : 'missing'));
+  rows.push(checkRow(!!adv.whatif_data ? 'ok' : 'err', 'What-If Simulator', adv.whatif_data ? 'present' : 'missing'));
+
+  // AI Proxy check
+  const aiRow = `<div class="check-row" id="aiProxyRow">${dot('load')}<span class="check-label">AI Proxy</span><span class="check-detail">checking…</span></div>`;
+  rows.push(aiRow);
+
+  // Custom domain
+  const onDomain = window.location.hostname === 'gfn-ff.us';
+  const domainState = onDomain ? 'ok' : (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') ? 'warn' : 'err';
+  rows.push(checkRow(domainState, 'Custom Domain', window.location.hostname || '—'));
+
+  document.getElementById('siteFeatures').innerHTML = rows.join('');
+
+  // Async AI proxy check
+  try {
+    const resp = await fetch('https://gfn-ai.kevin-etwaroo.workers.dev/', { signal: AbortSignal.timeout(6000) });
+    const text = await resp.text();
+    const ok   = text.includes('GFN AI Proxy is running');
+    document.getElementById('aiProxyRow').innerHTML =
+      `${dot(ok ? 'ok' : 'warn')}<span class="check-label">AI Proxy</span><span class="check-detail">${ok ? 'Running' : text.slice(0,40)}</span>`;
+  } catch {
+    document.getElementById('aiProxyRow').innerHTML =
+      `${dot('err')}<span class="check-label">AI Proxy</span><span class="check-detail">Unreachable</span>`;
+  }
+}
+
+// ── COST SHEET ───────────────────────────────────────────────────────
+function renderCostSheet() {
+  const rows = [];
+  const d = _dash || {};
+
+  const hasCost = !!d.cost_sheet;
+  rows.push(checkRow(hasCost ? 'ok' : 'warn', 'cost_sheet key', hasCost ? 'present' : 'Not in dashboard_data.json'));
+
+  if (hasCost && Array.isArray(d.cost_sheet)) {
+    const total    = d.cost_sheet.length;
+    const complete = d.cost_sheet.filter(e => e.prize_paid != null && e.dues_paid != null).length;
+    const missing  = total - complete;
+    rows.push(statRow('Seasons with full data', complete, complete === 15 ? 'green' : 'yellow'));
+    rows.push(statRow('Missing prize data', missing, missing === 0 ? 'green' : 'red'));
+  } else {
+    rows.push(statRow('Status', 'Cost sheet data not loaded', 'yellow'));
+    rows.push(statRow('Note', 'Add cost_sheet to fetch_gfn_data.py', ''));
+  }
+
+  document.getElementById('costSheet').innerHTML = rows.join('');
+}
+
+// ── MAIN RUN ─────────────────────────────────────────────────────────
+async function runAllChecks() {
+  setLoading('dataHealth');
+  document.getElementById('currentSeason').innerHTML = '<div class="check-row"><div class="dot-loading"></div><span class="check-label">Loading…</span></div>';
+  document.getElementById('siteFeatures').innerHTML   = '<div class="check-row" style="grid-column:1/-1"><div class="dot-loading"></div><span class="check-label">Loading…</span></div>';
+  document.getElementById('costSheet').innerHTML      = '<div class="check-row"><div class="dot-loading"></div><span class="check-label">Loading…</span></div>';
+
+  await fetchAll();
+  renderDataHealth();
+  renderCurrentSeason();
+  await renderSiteFeatures();
+  renderCostSheet();
+
+  document.getElementById('lastChecked').textContent = new Date().toLocaleTimeString();
+}
+
+// Auto-refresh every 60s
+setInterval(() => {
+  if (sessionStorage.getItem('gfn_commish_auth') === '1') runAllChecks();
+}, 60000);
+
+// ── TOGGLE CMD ───────────────────────────────────────────────────────
+function toggleCmd() {
+  document.getElementById('cmdBlock').classList.toggle('open');
+}
+</script>
+</body>
+</html>
