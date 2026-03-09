@@ -3337,7 +3337,7 @@ function handleSearchInput(q) {
       html += `<div class="search-result-item" data-idx="${idx}"
         onmousedown="selectSearchResult(${JSON.stringify(item).replace(/"/g,'&quot;')})"
         onmouseover="highlightSearchItem(${idx})">
-        ${item.label}${item.sub ? `<span style="color:var(--text-dim);font-size:0.75rem;margin-left:6px;">${item.sub}</span>` : ''}
+        ${item.label}${item.sub && item.type !== 'owner' ? `<span style="color:var(--text-dim);font-size:0.75rem;margin-left:6px;">${item.sub}</span>` : ''}
       </div>`;
     });
     count += slice.length;
