@@ -1,0 +1,167 @@
+{
+  "2011": {
+    "blowout": {
+      "owner": "Kevin Etwaroo",
+      "week": 4,
+      "margin": 89.77
+    },
+    "win_streak": {
+      "owner": "Kenny Smith",
+      "streak": 5
+    }
+  },
+  "2012": {
+    "blowout": {
+      "owner": "Lee Bertram",
+      "week": 11,
+      "margin": 77.68
+    },
+    "win_streak": {
+      "owner": "Jake Barker",
+      "streak": 4
+    }
+  },
+  "2013": {
+    "blowout": {
+      "owner": "Ed Shively",
+      "week": 10,
+      "margin": 103.46
+    },
+    "win_streak": {
+      "owner": "Steve Minardi",
+      "streak": 8
+    }
+  },
+  "2014": {
+    "blowout": {
+      "owner": "Kevin Coppins",
+      "week": 8,
+      "margin": 100.66
+    },
+    "win_streak": {
+      "owner": "Kenny Smith",
+      "streak": 7
+    }
+  },
+  "2015": {
+    "blowout": {
+      "owner": "Jeff Lobdell",
+      "week": 5,
+      "margin": 88.14
+    },
+    "win_streak": {
+      "owner": "Kevin Coppins",
+      "streak": 8
+    }
+  },
+  "2016": {
+    "blowout": {
+      "owner": "Jeff Lobdell",
+      "week": 13,
+      "margin": 82.9
+    },
+    "win_streak": {
+      "owner": "Chris Harjung",
+      "streak": 6
+    }
+  },
+  "2017": {
+    "blowout": {
+      "owner": "Kenny Smith",
+      "week": 3,
+      "margin": 102.02
+    },
+    "win_streak": {
+      "owner": "Kenny Smith",
+      "streak": 7
+    }
+  },
+  "2018": {
+    "blowout": {
+      "owner": "Steve Minardi",
+      "week": 7,
+      "margin": 104.2
+    },
+    "win_streak": {
+      "owner": "Peter Ott",
+      "streak": 6
+    }
+  },
+  "2019": {
+    "blowout": {
+      "owner": "Scott Kellman",
+      "week": 5,
+      "margin": 73.27
+    },
+    "win_streak": {
+      "owner": "Jeff Lobdell",
+      "streak": 7
+    }
+  },
+  "2020": {
+    "blowout": {
+      "owner": "Chris Dupay",
+      "week": 7,
+      "margin": 82.6
+    },
+    "win_streak": {
+      "owner": "Malcolm Lapone",
+      "streak": 5
+    }
+  },
+  "2021": {
+    "blowout": {
+      "owner": "Peter Ott",
+      "week": 13,
+      "margin": 77.53
+    },
+    "win_streak": {
+      "owner": "Peter Ott",
+      "streak": 5
+    }
+  },
+  "2022": {
+    "blowout": {
+      "owner": "Lee Bertram",
+      "week": 5,
+      "margin": 78.32
+    },
+    "win_streak": {
+      "owner": "Brian Marois",
+      "streak": 7
+    }
+  },
+  "2023": {
+    "blowout": {
+      "owner": "Peter Ott",
+      "week": 4,
+      "margin": 119.72
+    },
+    "win_streak": {
+      "owner": "Peter Ott",
+      "streak": 8
+    }
+  },
+  "2024": {
+    "blowout": {
+      "owner": "Lee Bertram",
+      "week": 14,
+      "margin": 117.0
+    },
+    "win_streak": {
+      "owner": "Tony Bevilaqua",
+      "streak": 6
+    }
+  },
+  "2025": {
+    "blowout": {
+      "owner": "Tony Bevilaqua",
+      "week": 7,
+      "margin": 97.1
+    },
+    "win_streak": {
+      "owner": "Tony Bevilaqua",
+      "streak": 6
+    }
+  }
+}
