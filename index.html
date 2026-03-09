@@ -1558,6 +1558,23 @@
   .wi-record-label { font-size:0.68rem; letter-spacing:2px; color:var(--text-dim); margin-bottom:0.25rem; }
   .wi-record-val   { font-family:'Bebas Neue',sans-serif; font-size:1.6rem; color:var(--text); }
   .wi-record-arrow { font-size:1.3rem; color:var(--text-dim); }
+
+  /* ── EXCUSE GENERATOR ── */
+  .excuse-wrap { margin:2rem 0; }
+  .excuse-header { font-family:'Bebas Neue',sans-serif; font-size:1.4rem; letter-spacing:3px; color:var(--gold); margin-bottom:0.2rem; }
+  .excuse-sub { font-size:0.75rem; letter-spacing:1.5px; color:var(--text-dim); margin-bottom:1rem; }
+  .excuse-controls { display:flex; align-items:center; gap:0.75rem; flex-wrap:wrap; margin-bottom:1rem; }
+  .excuse-select { background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.15); border-radius:6px; color:var(--text); font-family:'Barlow',sans-serif; font-size:0.9rem; padding:0.45rem 0.8rem; cursor:pointer; min-width:180px; }
+  .excuse-select:focus { outline:none; border-color:var(--gold); }
+  .excuse-btn { background:var(--gold); color:#0a0f0d; border:none; border-radius:6px; font-family:'Bebas Neue',sans-serif; font-size:1.05rem; letter-spacing:2px; padding:0.5rem 1.4rem; cursor:pointer; transition:opacity 0.2s; white-space:nowrap; }
+  .excuse-btn:hover { opacity:0.85; }
+  .excuse-btn:disabled { opacity:0.5; cursor:not-allowed; }
+  .excuse-result { border-left:3px solid var(--gold); padding:1rem 1.2rem; background:rgba(212,175,55,0.06); border-radius:0 8px 8px 0; margin-top:0.5rem; }
+  .excuse-owner-label { font-size:0.68rem; letter-spacing:2.5px; color:var(--gold); margin-bottom:0.5rem; }
+  .excuse-text { font-style:italic; color:#dde; line-height:1.7; font-size:1rem; margin:0 0 0.75rem; }
+  .excuse-regen-btn { background:transparent; border:1px solid rgba(212,175,55,0.4); border-radius:5px; color:var(--gold); font-family:'Barlow Condensed',sans-serif; font-size:0.8rem; letter-spacing:1px; padding:0.3rem 0.7rem; cursor:pointer; transition:background 0.2s; }
+  .excuse-regen-btn:hover { background:rgba(212,175,55,0.1); }
+  .excuse-shimmer { height:72px; border-radius:6px; }
 </style>
 <script>
 (function() {
@@ -1778,6 +1795,16 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="excuse-wrap">
+      <div class="excuse-header">🎱 Excuse Generator</div>
+      <div class="excuse-sub">Why did they lose? Let AI explain.</div>
+      <div class="excuse-controls">
+        <select class="excuse-select" id="excuseOwnerSelect"></select>
+        <button class="excuse-btn" id="excuseBtn" onclick="generateExcuse()">Generate Excuse</button>
+      </div>
+      <div id="excuseResult"></div>
     </div>
 
     <div class="standings-wrap" id="standingsWrap" style="margin-bottom:2rem;">
@@ -3763,6 +3790,83 @@ function runWhatIf() {
   </div>`;
 }
 
+// ====== EXCUSE GENERATOR ======
+const _excuseExtras = {
+  'Chris Dupay':    '15 seasons, 0 championships, most last place finishes (3x)',
+  'Jeff Lobdell':   '14 seasons, 0 championships, went 10-3 three times and never won it',
+  'Malcolm Lapone': '11 seasons, 0 championships, scored 1972 pts in 2018 and still lost',
+  'Kevin Etwaroo':  '1 championship (2015), finished 2nd in 2024',
+  'Peter Ott':      '4 championships, worst season was 2025 (rank 12)',
+  'Lee Bertram':    '3 championships, lost a game 163.59–163.72 (margin: 0.13 pts)',
+};
+
+function buildExcuseOwnerSelect(ownerStats) {
+  const sel = document.getElementById('excuseOwnerSelect');
+  if (!sel) return;
+  const active = [
+    'Lee Bertram','Ed Shively','Kevin Etwaroo','Kenny Smith','Jeff Lobdell',
+    'Chris Dupay','Peter Ott','Malcolm Lapone','Brian Marois','Tony Bevilaqua',
+    'Joshua','Christopher Hayes',
+  ];
+  sel.innerHTML = active.map(name => {
+    const s = ownerStats[name];
+    return `<option value="${name}"${name === 'Chris Dupay' ? ' selected' : ''}>${name}</option>`;
+  }).join('');
+}
+
+async function generateExcuse() {
+  const sel    = document.getElementById('excuseOwnerSelect');
+  const result = document.getElementById('excuseResult');
+  const btn    = document.getElementById('excuseBtn');
+  if (!sel || !result) return;
+
+  const owner = sel.value;
+  const stats = (_ownerCareer[owner] || {});
+  const wins    = stats.total_wins    ?? '?';
+  const losses  = stats.total_losses  ?? '?';
+  const titles  = Object.values(stats.seasons || {}).filter(s => s.champion).length;
+  const seasons = Object.keys(stats.seasons || {}).length;
+  const extra   = _excuseExtras[owner] || '';
+
+  const prompt = `You are a hilariously biased fantasy football commentator for the GFN league. Generate a funny, dramatic excuse for why ${owner} lost their most recent fantasy matchup.
+
+Facts about ${owner}:
+- All time record: ${wins}W-${losses}L
+- Championships: ${titles}
+- Seasons played: ${seasons}${extra ? `\n- ${extra}` : ''}
+
+Make it funny, dramatic, and specific to their history. Reference their actual stats if relevant. Keep it under 80 words. No hashtags. No markdown.`;
+
+  btn.disabled = true;
+  result.innerHTML = `<div class="excuse-shimmer skeleton"></div>`;
+
+  try {
+    const resp = await fetch('https://gfn-ai.kevin-etwaroo.workers.dev', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 200,
+        messages: [{ role: 'user', content: prompt }],
+      }),
+    });
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data?.error?.message || 'api error');
+    const text = data.content[0].text.replace(/^#+\s*/g, '').trim();
+
+    result.innerHTML = `<div class="excuse-result">
+      <div class="excuse-owner-label">${owner.toUpperCase()}'S EXCUSE:</div>
+      <p class="excuse-text">${text}</p>
+      <button class="excuse-regen-btn" onclick="generateExcuse()">🔄 Generate Another</button>
+    </div>`;
+  } catch (err) {
+    console.error('Excuse error:', err);
+    result.innerHTML = `<div style="color:var(--text-dim);font-size:0.85rem;padding:0.5rem 0;">Couldn't generate excuse. Try again.</div>`;
+  } finally {
+    btn.disabled = false;
+  }
+}
+
 // ====== INIT ======
 Promise.all([
   fetch('data/dashboard_data.json').then(r => r.json()),
@@ -3875,6 +3979,7 @@ Promise.all([
     buildH2H(data.head_to_head || {}, data.head_to_head_games || {}, h2hOwners);
     buildRivalries(data.rivalries || [], 'dashboardRivalryGrid');
     buildFunStats(_funStats);
+    buildExcuseOwnerSelect(data.owner_stats || {});
     buildTrophyCabinet(champions);
     buildOnThisDay(_seasonMatchups);
 
