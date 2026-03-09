@@ -1372,6 +1372,139 @@
     .stat-pill .val { font-size: 0.9rem; }
   }
 </style>
+<style>
+  /* ── SEARCH ── */
+  .search-wrap {
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .search-toggle {
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: var(--text-dim);
+    font-size: 1.05rem;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: color 0.2s;
+    -webkit-tap-highlight-color: rgba(212,175,55,0.1);
+    touch-action: manipulation;
+  }
+  .search-toggle:hover, .search-toggle.open { color: var(--gold); }
+  .search-input-wrap {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 300px;
+    z-index: 200;
+    background: var(--dark2);
+    border: 1px solid rgba(212,175,55,0.3);
+    border-top: none;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  }
+  .search-input-wrap.open { display: block; }
+  .search-input {
+    width: 100%;
+    box-sizing: border-box;
+    background: var(--dark3);
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+    color: var(--white);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.95rem;
+    padding: 11px 14px;
+    outline: none;
+    letter-spacing: 0.5px;
+  }
+  .search-input::placeholder { color: var(--text-dim); }
+  .search-group-label {
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    padding: 8px 12px 3px;
+  }
+  .search-result-item {
+    font-size: 0.85rem;
+    color: var(--text);
+    padding: 9px 12px;
+    cursor: pointer;
+    transition: background 0.1s;
+    -webkit-tap-highlight-color: rgba(212,175,55,0.1);
+    touch-action: manipulation;
+  }
+  .search-result-item:hover,
+  .search-result-item.kbd-active { background: rgba(212,175,55,0.1); color: var(--white); }
+  .search-no-results {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    padding: 12px;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .search-wrap { flex: 0 0 auto; }
+    .search-input-wrap { width: min(300px, 90vw); right: 0; }
+  }
+
+  /* ── SHARE BUTTON ── */
+  .share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--gold);
+    background: rgba(212,175,55,0.08);
+    border: 1px solid rgba(212,175,55,0.25);
+    padding: 3px 8px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.15s;
+    -webkit-tap-highlight-color: rgba(212,175,55,0.15);
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  .share-btn:hover { background: rgba(212,175,55,0.18); }
+
+  /* ── AI RECAP ── */
+  @keyframes recapShimmer {
+    0%   { background-position: -400px 0; }
+    100% { background-position:  400px 0; }
+  }
+  .recap-area { margin: 0.85rem 0 0.25rem; display: none; }
+  .recap-label {
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(212,175,55,0.6);
+    margin-bottom: 0.35rem;
+  }
+  .recap-shimmer {
+    height: 3.2rem;
+    background: linear-gradient(90deg,
+      rgba(212,175,55,0.04) 0%,
+      rgba(212,175,55,0.12) 50%,
+      rgba(212,175,55,0.04) 100%);
+    background-size: 800px 100%;
+    animation: recapShimmer 1.5s ease-in-out infinite;
+    border-radius: 2px;
+  }
+  .recap-text {
+    font-size: 0.88rem;
+    font-style: italic;
+    color: rgba(212,175,55,0.82);
+    line-height: 1.6;
+  }
+</style>
 </head>
 <body>
 
@@ -1390,6 +1523,16 @@
   <button onclick="showSection('luck', this)">Luck Index</button>
   <button onclick="showSection('power', this)">Power Rankings</button>
   <button onclick="showSection('cost', this)">Cost Sheet</button>
+  <div class="search-wrap" id="searchWrap">
+    <button class="search-toggle" id="searchToggle" onclick="toggleSearch()" title="Search">🔍</button>
+    <div class="search-input-wrap" id="searchInputWrap">
+      <input class="search-input" id="searchInput" type="text"
+        placeholder="Search owners, seasons, teams…"
+        oninput="handleSearchInput(this.value)"
+        onkeydown="handleSearchKey(event)" />
+      <div id="searchResults"></div>
+    </div>
+  </div>
 </nav>
 
 <div id="loadingOverlay" style="
@@ -1577,6 +1720,10 @@
 
     <div id="seasonView" style="display:none; animation: fadeIn 0.3s ease both; margin-bottom:1.5rem;">
       <div class="card" style="margin-bottom:1rem;" id="seasonChampCard"></div>
+      <div class="recap-area" id="aiRecapArea">
+        <div class="recap-label">✨ AI Recap</div>
+        <div id="aiRecapContent"></div>
+      </div>
       <div class="card">
         <div class="card-title" id="seasonStandingsTitle">Season Standings</div>
         <div class="table-wrap" style="margin-top:1rem;">
@@ -1930,6 +2077,7 @@ function renderSeasonView(year) {
     : `<div class="card-title">🏆 ${year} Season</div>`;
 
   document.getElementById('seasonStandingsTitle').textContent = `${year} Season Standings`;
+  fetchSeasonRecap(year);
 
   // Standings
   const entries = (_seasonStandings[String(year)] || []).slice().sort((a, b) => a.rank - b.rank);
@@ -2398,6 +2546,19 @@ function renderH2H(o1, o2) {
       </tr>`;
     }).join('');
   }
+
+  // Update URL + add share button to table card
+  const rivalryParam = `${encodeURIComponent(o1)},${encodeURIComponent(o2)}`;
+  history.replaceState({}, '', `?rivalry=${rivalryParam}`);
+  const shareUrl = `${location.origin}${location.pathname}?rivalry=${rivalryParam}`;
+  const titleEl = document.getElementById('h2hTableTitle');
+  if (titleEl && !titleEl.querySelector('.share-btn')) {
+    titleEl.insertAdjacentHTML('beforeend',
+      ` <button class="share-btn" onclick="copyShareLink('${shareUrl}', this)">🔗 Share</button>`);
+  } else if (titleEl) {
+    const btn = titleEl.querySelector('.share-btn');
+    if (btn) btn.onclick = () => copyShareLink(shareUrl, btn);
+  }
 }
 
 // ====== CAREER PANEL ======
@@ -2594,8 +2755,12 @@ function openCareerPanel(ownerName) {
        </div>`
     : '';
 
+  const shareUrl = `${location.origin}${location.pathname}?owner=${encodeURIComponent(ownerName)}`;
   document.getElementById('careerPanelContent').innerHTML = `
-    <div class="career-name">${ownerName}</div>
+    <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:0.5rem;">
+      <div class="career-name">${ownerName}</div>
+      <button class="share-btn" onclick="copyShareLink('${shareUrl}', this)" style="margin-top:0.4rem; flex-shrink:0;">🔗 Share</button>
+    </div>
     <div class="career-meta">
       ${Object.keys(career.seasons || {}).length} Seasons ·
       ${career.total_wins}–${career.total_losses} (${winPct}%) ·
@@ -2635,12 +2800,14 @@ function openCareerPanel(ownerName) {
   document.getElementById('careerOverlay').classList.add('open');
   document.getElementById('careerPanel').classList.add('open');
   document.body.style.overflow = 'hidden';
+  history.pushState({ careerPanel: ownerName }, '', `?owner=${encodeURIComponent(ownerName)}`);
 }
 
 function closeCareerPanel() {
   document.getElementById('careerOverlay').classList.remove('open');
   document.getElementById('careerPanel').classList.remove('open');
   document.body.style.overflow = '';
+  history.pushState({}, '', location.pathname);
 }
 
 function buildRankChart(seasonEntries) {
@@ -2791,6 +2958,9 @@ function buildRivalries(rivalries, elementId) {
       <div class="rivalry-detail">${r.total_games} total regular season games</div>
       <div class="rivalry-detail">Closest: <span>±${r.closest_game.margin.toFixed(2)} pts</span> (${r.closest_game.year} Wk ${r.closest_game.week})</div>
       <div class="rivalry-detail">Biggest blowout: <span>+${r.biggest_blowout.margin.toFixed(1)} pts</span> · ${bigWinner} (${r.biggest_blowout.year})</div>
+      <div style="margin-top:0.6rem; text-align:right;">
+        <button class="share-btn" onmousedown="copyShareLink('${location.origin}${location.pathname}?rivalry=${encodeURIComponent(r.owner1)},${encodeURIComponent(r.owner2)}', this)">🔗 Share</button>
+      </div>
     </div>`;
   }).join('');
 }
@@ -2801,6 +2971,235 @@ function showSection(id, btn) {
   document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   btn.classList.add('active');
+}
+
+// ====== SEARCH ======
+let _searchIndex = [];
+let _searchKbdIdx = -1;
+
+function buildSearchIndex(data) {
+  _searchIndex = [];
+  // Owners
+  Object.keys(data.owner_stats || {}).forEach(name => {
+    _searchIndex.push({ type: 'owner', label: name, sub: name });
+  });
+  // Seasons
+  for (let y = 2011; y <= 2025; y++) {
+    const champ = (data.champions || []).find(c => c.year === y);
+    _searchIndex.push({ type: 'season', label: String(y), sub: champ ? `🏆 ${champ.owner}` : '', year: y });
+  }
+  // Team names from owner_career
+  Object.entries(data.owner_career || {}).forEach(([owner, career]) => {
+    Object.entries(career.seasons || {}).forEach(([year, s]) => {
+      if (s.team && s.team !== owner) {
+        _searchIndex.push({ type: 'team', label: s.team, sub: `${owner} · ${year}`, owner, year: Number(year) });
+      }
+    });
+  });
+  // Rivalries
+  (data.rivalries || []).forEach(r => {
+    _searchIndex.push({ type: 'rivalry', label: `${r.owner1} vs ${r.owner2}`, sub: `${r.total_games} games`, o1: r.owner1, o2: r.owner2 });
+  });
+}
+
+function toggleSearch() {
+  const wrap = document.getElementById('searchInputWrap');
+  const btn  = document.getElementById('searchToggle');
+  const isOpen = wrap.classList.toggle('open');
+  btn.classList.toggle('open', isOpen);
+  if (isOpen) {
+    setTimeout(() => document.getElementById('searchInput').focus(), 50);
+  } else {
+    document.getElementById('searchResults').innerHTML = '';
+  }
+}
+
+function closeSearch() {
+  document.getElementById('searchInputWrap').classList.remove('open');
+  document.getElementById('searchToggle').classList.remove('open');
+  document.getElementById('searchInput').value = '';
+  document.getElementById('searchResults').innerHTML = '';
+  _searchKbdIdx = -1;
+}
+
+function handleSearchInput(q) {
+  _searchKbdIdx = -1;
+  const resultsEl = document.getElementById('searchResults');
+  if (!q.trim()) { resultsEl.innerHTML = ''; return; }
+  const ql = q.toLowerCase();
+  const hits = _searchIndex.filter(item => item.label.toLowerCase().includes(ql));
+  if (!hits.length) {
+    resultsEl.innerHTML = `<div class="search-no-results">No results for "${q}"</div>`;
+    return;
+  }
+  // Group and limit
+  const groups = { owner: [], season: [], team: [], rivalry: [] };
+  const labels  = { owner: '👤 Managers', season: '📅 Seasons', team: '🏷 Teams', rivalry: '⚔️ Rivalries' };
+  hits.forEach(h => groups[h.type]?.push(h));
+  let count = 0;
+  let html  = '';
+  for (const [type, items] of Object.entries(groups)) {
+    const slice = items.slice(0, Math.max(1, 6 - count));
+    if (!slice.length) continue;
+    html += `<div class="search-group-label">${labels[type]}</div>`;
+    slice.forEach((item, i) => {
+      const idx = count + i;
+      html += `<div class="search-result-item" data-idx="${idx}"
+        onmousedown="selectSearchResult(${JSON.stringify(item).replace(/"/g,'&quot;')})"
+        onmouseover="highlightSearchItem(${idx})">
+        ${item.label}${item.sub ? `<span style="color:var(--text-dim);font-size:0.75rem;margin-left:6px;">${item.sub}</span>` : ''}
+      </div>`;
+    });
+    count += slice.length;
+    if (count >= 6) break;
+  }
+  resultsEl.innerHTML = html;
+}
+
+function highlightSearchItem(idx) {
+  _searchKbdIdx = idx;
+  document.querySelectorAll('#searchResults .search-result-item').forEach((el, i) => {
+    el.classList.toggle('kbd-active', i === idx);
+  });
+}
+
+function handleSearchKey(e) {
+  const items = document.querySelectorAll('#searchResults .search-result-item');
+  if (e.key === 'Escape') { closeSearch(); return; }
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    _searchKbdIdx = Math.min(_searchKbdIdx + 1, items.length - 1);
+    items.forEach((el, i) => el.classList.toggle('kbd-active', i === _searchKbdIdx));
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    _searchKbdIdx = Math.max(_searchKbdIdx - 1, 0);
+    items.forEach((el, i) => el.classList.toggle('kbd-active', i === _searchKbdIdx));
+  } else if (e.key === 'Enter') {
+    const active = document.querySelector('#searchResults .kbd-active');
+    if (active) active.dispatchEvent(new MouseEvent('mousedown'));
+  }
+}
+
+function selectSearchResult(item) {
+  closeSearch();
+  if (item.type === 'owner') {
+    openCareerPanel(item.label);
+  } else if (item.type === 'season') {
+    goToSeason(item.year);
+  } else if (item.type === 'team') {
+    openCareerPanel(item.owner);
+  } else if (item.type === 'rivalry') {
+    const h2hBtn = Array.from(document.querySelectorAll('nav button'))
+      .find(b => b.textContent.trim() === 'Head to Head');
+    if (h2hBtn) showSection('h2h', h2hBtn);
+    setTimeout(() => {
+      const sel1 = document.getElementById('h2hOwner1');
+      const sel2 = document.getElementById('h2hOwner2');
+      if (sel1) sel1.value = item.o1;
+      if (sel2) sel2.value = item.o2;
+      renderH2H(item.o1, item.o2);
+    }, 50);
+  }
+}
+
+// Close search when clicking outside
+document.addEventListener('click', e => {
+  if (!document.getElementById('searchWrap')?.contains(e.target)) closeSearch();
+});
+
+// ====== SHARE / DEEP LINKING ======
+function copyShareLink(url, btnEl) {
+  navigator.clipboard?.writeText(url).then(() => {
+    const orig = btnEl.textContent;
+    btnEl.textContent = '✓ Copied!';
+    setTimeout(() => { btnEl.textContent = orig; }, 1800);
+  }).catch(() => {
+    prompt('Copy this link:', url);
+  });
+}
+
+function handleURLParams() {
+  const params = new URLSearchParams(window.location.search);
+  const tabMap = { dashboard: 'dashboard', records: 'records', headtohead: 'h2h', h2h: 'h2h', luck: 'luck', power: 'power', cost: 'cost' };
+
+  const tab = params.get('tab');
+  if (tab && tabMap[tab.toLowerCase()]) {
+    const id  = tabMap[tab.toLowerCase()];
+    const btn = Array.from(document.querySelectorAll('nav button')).find(b => b.getAttribute('onclick')?.includes(`'${id}'`));
+    if (btn) showSection(id, btn);
+  }
+
+  const season = params.get('season');
+  if (season) {
+    setTimeout(() => goToSeason(Number(season)), 80);
+  }
+
+  const rivalry = params.get('rivalry');
+  if (rivalry) {
+    const [o1, o2] = rivalry.split(',').map(s => s.trim());
+    const h2hBtn = Array.from(document.querySelectorAll('nav button')).find(b => b.textContent.trim() === 'Head to Head');
+    if (h2hBtn) showSection('h2h', h2hBtn);
+    setTimeout(() => {
+      const sel1 = document.getElementById('h2hOwner1');
+      const sel2 = document.getElementById('h2hOwner2');
+      if (sel1 && o1) sel1.value = o1;
+      if (sel2 && o2) sel2.value = o2;
+      if (o1 && o2) renderH2H(o1, o2);
+    }, 80);
+  }
+
+  const owner = params.get('owner');
+  if (owner) setTimeout(() => openCareerPanel(owner), 120);
+}
+
+// ====== AI SEASON RECAP ======
+const _recapCache = {};
+
+async function fetchSeasonRecap(year) {
+  const area    = document.getElementById('aiRecapArea');
+  const content = document.getElementById('aiRecapContent');
+  if (!area || !content) return;
+
+  if (_recapCache[year]) {
+    area.style.display = '';
+    content.innerHTML  = `<div class="recap-text">${_recapCache[year]}</div>`;
+    return;
+  }
+
+  area.style.display = '';
+  content.innerHTML  = '<div class="recap-shimmer"></div>';
+
+  const standings = (_seasonStandings[String(year)] || []).slice().sort((a, b) => a.rank - b.rank);
+  const champ     = standings.find(e => e.rank === 1);
+  const runnerUp  = standings.find(e => e.rank === 2);
+  const rs1       = standings[0];
+
+  if (!champ) { area.style.display = 'none'; return; }
+
+  const prompt = `You are a witty fantasy football league historian for the GFN league. Write a 2-3 sentence dramatic season recap for ${year}. Champion: ${champ.owner} with team "${champ.team}", record ${champ.wins}-${champ.losses}. Key stats: ${champ.pts_for?.toFixed(1)} points scored. Other notables: regular season 1st place was ${rs1?.owner ?? 'unknown'}, runner up was ${runnerUp?.owner ?? 'unknown'}. Be dramatic, funny, and use sports announcer language. Keep it under 60 words.`;
+
+  try {
+    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'anthropic-beta': 'output-128k-2025-02-19',
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 150,
+        messages: [{ role: 'user', content: prompt }],
+      }),
+    });
+    if (!resp.ok) throw new Error('api error');
+    const result = await resp.json();
+    const text   = result?.content?.[0]?.text?.trim();
+    if (!text) throw new Error('empty');
+    _recapCache[year] = text;
+    content.innerHTML = `<div class="recap-text">${text}</div>`;
+  } catch {
+    area.style.display = 'none';
+  }
 }
 
 // ====== INIT ======
@@ -2915,8 +3314,10 @@ fetch('data/dashboard_data.json')
     buildTrophyCabinet(champions);
     buildOnThisDay(_seasonMatchups);
 
+    buildSearchIndex(data);
     showApp();
     initStandingsState();
+    handleURLParams();
   })
   .catch(err => {
     console.error('Failed to load dashboard data:', err);
